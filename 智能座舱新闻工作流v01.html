@@ -137,6 +137,7 @@
             border-radius: 10px;
             margin-top: 20px;
             display: none;
+            white-space: pre-wrap;
         }
         
         .info {
@@ -177,7 +178,7 @@
     <script>
         // API 配置
         const API_URL = 'https://x5ygy49c7k.coze.site/run';
-        const API_TOKEN = 'eyJhbGciOiJSUzI1NiIsImtpZCI6ImFmMDQyOWY0LWY4YTItNDAxZi05N2UwLTg3M2M2ODcxZTUyZiJ9.eyJpc3MiOiJodHRwczovL2FwaS5jb3plLmNuIiwiYXVkIjpbInF5MlgwQlEyY212Zk94c0ptNmZMU1Z4Y0t2UzFNWGIzIl0sImV4cCI6ODIxMDI2Njg3Njc5OSwiaWF0IjoxNzc4NTY1MDczLCJzdWIiOiJzcGlmZmU6Ly9hcGkuY296ZS5jbi93b3JrbG9hZF9pZGVudGl0eS9pZDo3NjM4ODMxOTMwMjI1NDU5MjM4Iiwic3JjIjoiaW5ib3VuZF9hdXRoX2FjY2Vzc190b2tlbl9pZDo3NjM4ODc4ODIzMjM2MjM5Mzg3In0.Jy6HmL7Xvj5l14CiFS1hLL84bYR3GN6n0zekJN06mSPmgaKO7rOrT6qwh_3axwoaR1deFTuPnw9N-wCNcMA9xtAuWGmYPFC1Ma-A57pBnLQaTBDES93JCS0stLOg0evzKDweMbGm9UG8OHN8KPLnKzEkpTRZSLUl3jGkzdG7o4jijY0OFg9xrh6i0PRP6CoVnzd3BsJwVbyVKffcSMOX30OPqq-pJwJsFzj-7HDCA4z64suh9cl3FiY4plvxJkb_pd7KA9CmcR_yv_J8r4s1B3ct7fhjAG3uVIyw-uXkNzzLrQjXxSeQH405jmHwMqATTpz16-zA54rpu8ghb9xa6w';
+        const API_TOKEN = 'eyJhbGciOiJSUzI1NiIsImtpZCI6ImFmMDQyOWY0LWY4YTItNDAxZi05N2UwLTg3M2M2ODcxZTUyZiJ9.eyJpc3MiOiJodHRwczovL2FwaS5jb3plLmNuIiwiYXVkIjpbInF5MlgwQlEyY212Zk94c0ptNmZMU1Z4Y0t2UzFNWGIzIl0sImV4cCI6ODIxMDI2Njg3Njc5OSwiaWF0IjoxNzc4NTY2Njk4LCJzdWIiOiJzcGlmZmU6Ly9hcGkuY296ZS5jbi93b3JrbG9hZF9pZGVudGl0eS9pZDo3NjM4ODMxOTMwMjI1NDU5MjM4Iiwic3JjIjoiaW5ib3VuZF9hdXRoX2FjY2Vzc190b2tlbl9pZDo3NjM4ODg1ODA1Mzg1MDU2MjkxIn0.L0yyERkCnJdqFC6_pt9bIIgkHkOCKYIKLf-3HJrbZHAMR45-ifpM1Ac2OtQ6EdIQIYpCfnXSNj8jPXIgu7yqJGf3U3YbuDXO0k2oGR8a8LVgtgbCGnnEMGuiSIo85o7tLc2x_jOjpLI75bMmwxhQ9rZ37hEz3-zLmH42iSJnWoaM0YZ4EOJJquLdZLmE8Ad-elfd42CYuy5lftj6EHaUvoACoZnvCgRagBhMemFRdFPA9eb14gz22DhGO_fqK2WC6qAuN7NGXJAJzdcNhuPr4oxLq7DKyl-1nEBtrOO--gCbxzBDYaumoT6eV0-5E4-5gFk7JOgFcyNpDNNg1CZv2g';
         
         async function runWorkflow() {
             const btn = document.querySelector('.btn');
@@ -214,9 +215,10 @@
                     document.getElementById('newsContent').innerHTML = formatReport(data.daily_report);
                     result.style.display = 'block';
                 } else {
-                    throw new Error(data.error || '获取新闻失败');
+                    throw new Error(JSON.stringify(data));
                 }
             } catch (err) {
+                console.error('Error:', err);
                 error.textContent = '错误: ' + err.message;
                 error.style.display = 'block';
             } finally {
