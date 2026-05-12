@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>智能座舱日报</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            padding: 40px;
+            max-width: 900px;
+            width: 100%;
+        }
+        
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 28px;
+        }
+        
+        .btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            font-size: 18px;
+            border-radius: 30px;
+            cursor: pointer;
+            width: 100%;
+            transition: transform 0.2s, box-shadow 0.2s;
+            font-weight: bold;
+        }
+        
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+        }
+        
+        .btn:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            transform: none;
+        }
+        
+        .loading {
+            display: none;
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .result {
+            display: none;
+            margin-top: 30px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 15px;
+            max-height: 600px;
+            overflow-y: auto;
+        }
+        
+        .news-item {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 15px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .news-item h3 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+        
+        .news-item .source {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+        
+        .news-item .summary {
+            color: #555;
+            font-size: 14px;
+            line-height: 1.8;
+            margin-bottom: 10px;
+        }
+        
+        .news-item .link {
+            color: #667eea;
+            font-size: 14px;
+            text-decoration: none;
+            word-break: break-all;
+        }
+        
+        .news-item .link:hover {
+            text-decoration: underline;
+        }
+        
+        .error {
+            background: #ffe6e6;
+            color: #d63031;
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 20px;
+            display: none;
+            white-space: pre-wrap;
+        }
+        
+        .info {
+            background: #e6f3ff;
+            color: #0984e3;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚗 智能座舱日报</h1>
+        
+        <div class="info">
+            <strong>📅 每日自动推送</strong><br>
+            点击下方按钮，获取今日汽车智能座舱领域最新资讯。
+        </div>
+        
+        <button class="btn" onclick="runWorkflow()">
+            🔍 获取今日新闻
+        </button>
+        
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p style="margin-top: 15px; color: #666;">正在搜索和整理新闻，请稍候...</p>
+        </div>
+        
+        <div class="result" id="result">
+            <div id="newsContent"></div>
+        </div>
+        
+        <div class="error" id="error"></div>
+    </div>
+
+    <script>
+        // API 配置
+        const API_URL = 'https://x5ygy49c7k.coze.site/run';
+        const API_TOKEN = 'eyJhbGciOiJSUzI1NiIsImtpZCI6ImFmMDQyOWY0LWY4YTItNDAxZi05N2UwLTg3M2M2ODcxZTUyZiJ9.eyJpc3MiOiJodHRwczovL2FwaS5jb3plLmNuIiwiYXVkIjpbInF5MlgwQlEyY212Zk94c0ptNmZMU1Z4Y0t2UzFNWGIzIl0sImV4cCI6ODIxMDI2Njg3Njc5OSwiaWF0IjoxNzc4NTY2Njk4LCJzdWIiOiJzcGlmZmU6Ly9hcGkuY296ZS5jbi93b3JrbG9hZF9pZGVudGl0eS9pZDo3NjM4ODMxOTMwMjI1NDU5MjM4Iiwic3JjIjoiaW5ib3VuZF9hdXRoX2FjY2Vzc190b2tlbl9pZDo3NjM4ODg1ODA1Mzg1MDU2MjkxIn0.L0yyERkCnJdqFC6_pt9bIIgkHkOCKYIKLf-3HJrbZHAMR45-ifpM1Ac2OtQ6EdIQIYpCfnXSNj8jPXIgu7yqJGf3U3YbuDXO0k2oGR8a8LVgtgbCGnnEMGuiSIo85o7tLc2x_jOjpLI75bMmwxhQ9rZ37hEz3-zLmH42iSJnWoaM0YZ4EOJJquLdZLmE8Ad-elfd42CYuy5lftj6EHaUvoACoZnvCgRagBhMemFRdFPA9eb14gz22DhGO_fqK2WC6qAuN7NGXJAJzdcNhuPr4oxLq7DKyl-1nEBtrOO--gCbxzBDYaumoT6eV0-5E4-5gFk7JOgFcyNpDNNg1CZv2g';
+        
+        async function runWorkflow() {
+            const btn = document.querySelector('.btn');
+            const loading = document.getElementById('loading');
+            const result = document.getElementById('result');
+            const error = document.getElementById('error');
+            
+            // 显示加载状态
+            btn.disabled = true;
+            btn.textContent = '运行中...';
+            loading.style.display = 'block';
+            result.style.display = 'none';
+            error.style.display = 'none';
+            
+            try {
+                // 调用工作流 API
+                const response = await fetch(API_URL, {
+                    method: 'POST',
+                    headers: {
+                        'Authorization': 'Bearer ' + API_TOKEN,
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        search_topic: "汽车智能座舱",
+                        max_news_count: 20,
+                        time_range: "1d"
+                    })
+                });
+                
+                const data = await response.json();
+                
+                if (data.daily_report) {
+                    // 解析并显示结果
+                    document.getElementById('newsContent').innerHTML = formatReport(data.daily_report);
+                    result.style.display = 'block';
+                } else {
+                    throw new Error(JSON.stringify(data));
+                }
+            } catch (err) {
+                console.error('Error:', err);
+                error.textContent = '错误: ' + err.message;
+                error.style.display = 'block';
+            } finally {
+                btn.disabled = false;
+                btn.textContent = '🔍 获取今日新闻';
+                loading.style.display = 'none';
+            }
+        }
+        
+        function formatReport(report) {
+            // 格式化日报内容，保留换行
+            return '<div style="white-space: pre-wrap; line-height: 1.8; font-size: 15px;">' + report + '</div>';
+        }
+    </script>
+</body>
+</html>
