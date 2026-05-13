@@ -1,9 +1,8 @@
 """
 汽车智能座舱新闻摘要 - GitHub Actions 版本
-使用 DeepSeek API 筛选和整理新闻内容
+DeepSeek 返回 JSON 数据，Python 构建 HTML
 """
 import os
-import re
 import json
 import urllib.request
 import urllib.error
@@ -18,52 +17,47 @@ DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY", "")
 
 
 # ==================== 搜索 ====================
-def search_news(topic, max_results=10):
+def search_news(topic, max_results=15):
     """DuckDuckGo 免费搜索"""
     try:
         from ddgs import DDGS
         all_results = []
         seen_urls = set()
-        
-        # 多关键词搜索
+
         queries = [
             f"{topic} 智能座舱",
-            f"{topic} 座舱 新车",
-            f"智能座舱 技术 2025"
+            f"{topic} 新车",
+            f"智能座舱 技术"
         ]
-        
+
         with DDGS() as ddgs:
-            for query in queries[:2]:
+            for query in queries:
                 for r in ddgs.text(query, max_results=max_results // 2):
                     title = (r.get("title") or "").strip()
                     url = (r.get("href") or "").strip()
                     body = (r.get("body") or "").strip()
-                    
+
                     if not title or not url:
                         continue
                     if url in seen_urls:
                         continue
-                    
+
                     seen_urls.add(url)
-                    
-                    try:
-                        domain = urlparse(url).netloc
-                        site_name = domain.replace("www.", "").split(".")[0].title()
-                    except:
-                        site_name = ""
-                    
-                    # 过滤广告
+
+                    domain = urlparse(url).netloc.replace("www.", "")
+                    site_name = domain.split(".")[0].title() if domain else ""
+
                     ad_keywords = ["ad", "sponsored", "推广", "广告", "track"]
                     if any(k in url.lower() for k in ad_keywords):
                         continue
-                    
+
                     all_results.append({
                         "title": title,
                         "url": url,
                         "snippet": body[:400],
                         "site_name": site_name
                     })
-        
+
         return all_results
     except ImportError:
         print("请先安装依赖: pip install ddgs")
@@ -79,7 +73,7 @@ def call_deepseek(system_prompt, user_prompt):
     if not DEEPSEEK_API_KEY:
         print("未设置 DEEPSEEK_API_KEY")
         return None
-    
+
     url = "https://api.deepseek.com/v1/chat/completions"
     data = {
         "model": "deepseek-chat",
@@ -90,7 +84,7 @@ def call_deepseek(system_prompt, user_prompt):
         "temperature": 0.1,
         "max_tokens": 4096
     }
-    
+
     req = urllib.request.Request(
         url,
         data=json.dumps(data).encode('utf-8'),
@@ -100,14 +94,14 @@ def call_deepseek(system_prompt, user_prompt):
         },
         method='POST'
     )
-    
+
     try:
         with urllib.request.urlopen(req, timeout=60) as response:
             result = json.loads(response.read().decode('utf-8'))
             return result['choices'][0]['message']['content']
     except urllib.error.HTTPError as e:
         body = e.read().decode('utf-8')
-        print(f"DeepSeek 调用失败: {e.code} - {e.reason}")
+        print(f"DeepSeek 调用失败: {e.code}")
         if body:
             print(f"详情: {body[:200]}")
         return None
@@ -116,95 +110,90 @@ def call_deepseek(system_prompt, user_prompt):
         return None
 
 
-def filter_news(news_list):
-    """DeepSeek 筛选新闻"""
+def filter_and_format(news_list):
+    """DeepSeek 一次性完成筛选和整理，返回JSON格式"""
     if not news_list:
         return []
-    
-    news_data = "\n".join([
-        f"[{i+1}] 标题: {item.get('title', '')}\n来源: {item.get('site_name', '')}\n摘要: {item.get('snippet', '')}\n链接: {item.get('url', '')}"
+
+    today = datetime.now().strftime("%Y-%m-%d")
+
+    news_data = "\n\n".join([
+        f"新闻{i+1}:\n标题: {item['title']}\n来源: {item['site_name']}\n摘要: {item['snippet']}\n链接: {item['url']}"
         for i, item in enumerate(news_list)
     ])
-    
-    sp = """你是汽车行业内容审核专家。请从以下新闻中筛选出高质量、与智能座舱相关的内容，排除广告和低质量文章。
-返回 JSON 数组格式，每项包含 title、url、site_name、snippet 四个字段，最多保留 5 条。"""
-    
-    up = f"请筛选以下{len(news_list)}条新闻，保留最好的5条：\n\n{news_data}"
-    
-    response = call_deepseek(sp, up)
+
+    system_prompt = f"""你是汽车智能座舱专业编辑，今天是{today}。
+
+请从以下新闻中筛选出最有价值的5条，为每条撰写200字深度总结。
+
+必须返回严格的JSON格式，不要加任何其他文字：
+{{
+  "news": [
+    {{
+      "title": "原标题",
+      "url": "原链接",
+      "site_name": "来源名",
+      "summary": "200字深度总结，包含核心信息、背景分析和行业意义"
+    }}
+  ]
+}}
+
+要求：
+1. 排除广告和低质量内容
+2. 总结要有深度，不只是重复摘要
+3. 返回标准JSON，不要用markdown"""
+
+    user_prompt = f"请分析以下{len(news_list)}条新闻，返回JSON格式：\n\n{news_data}"
+
+    response = call_deepseek(system_prompt, user_prompt)
     if not response:
-        return news_list[:5]
-    
+        return []
+
+    # 提取JSON
     try:
         content = response.strip()
         if "```json" in content:
             content = content.split("```json")[1].split("```")[0]
         elif "```" in content:
             content = content.split("```")[1].split("```")[0]
-        
-        filtered = json.loads(content.strip())
-        return filtered if isinstance(filtered, list) else news_list[:5]
+
+        data = json.loads(content.strip())
+        items = data.get("news", data if isinstance(data, list) else [])
+        return items if isinstance(items, list) else []
     except:
-        return news_list[:5]
-
-
-def format_report(news_list):
-    """DeepSeek 整理日报"""
-    today = datetime.now().strftime("%Y-%m-%d")
-    
-    if not news_list:
-        return f"📰 【智能座舱日报】{today}\n\n今日暂无相关新闻。"
-    
-    news_data = "\n\n".join([
-        f"【新闻{i+1}】\n标题: {item.get('title', '')}\n来源: {item.get('site_name', '')}\n摘要: {item.get('snippet', '')}\n链接: {item.get('url', '')}"
-        for i, item in enumerate(news_list)
-    ])
-    
-    sp = f"""你是汽车智能座舱领域的专业编辑，今天是{today}。
-将筛选后的新闻整理成日报格式，每条新闻包含：
-1. 标题
-2. 来源
-3. 200字左右的深度总结（要有核心信息、背景分析、行业意义）
-4. 原文链接
-输出风格简洁专业，便于快速阅读。"""
-    
-    up = f"请将以下新闻整理成{today}的日报：\n\n{news_data}"
-    
-    response = call_deepseek(sp, up)
-    if response:
-        return f"📰 【智能座舱日报】{today}\n\n{response}"
-    else:
-        # 降级：纯文本展示
-        lines = [f"📰 【智能座舱日报】{today}"]
-        for i, item in enumerate(news_list, 1):
-            lines.append(f"\n【{i}】{item.get('title', '')}")
-            lines.append(f"来源：{item.get('site_name', '')}")
-            lines.append(f"摘要：{item.get('snippet', '')}")
-            lines.append(f"链接：{item.get('url', '')}")
-        return "\n".join(lines)
+        return []
 
 
 # ==================== HTML 生成 ====================
-def text_to_html(text):
-    """将纯文本报告转换为安全的 HTML"""
-    # 先转义 HTML 特殊字符
-    safe = escape(text)
-    # 将链接转为可点击的链接
-    safe = re.sub(
-        r'https?://[^\s\n\)\]<>"]+',
-        lambda m: f'<a href="{m.group(0)}" target="_blank" rel="noopener">{m.group(0)}</a>',
-        safe
-    )
-    # 换行转 <br>
-    safe = safe.replace('\n', '<br>')
-    return safe
-
-
-def generate_html(report_text, output_path):
-    """生成漂亮的 HTML 页面"""
+def generate_html(news_items, output_path):
+    """用 Python 构建完整的 HTML 页面"""
     today = datetime.now().strftime("%Y-%m-%d %H:%M")
-    content_html = text_to_html(report_text)
-    
+
+    # 构建新闻卡片
+    news_cards = ""
+    if news_items:
+        for i, item in enumerate(news_items, 1):
+            title = escape(item.get("title", ""))
+            site = escape(item.get("site_name", ""))
+            summary = escape(item.get("summary", ""))
+            url = escape(item.get("url", ""))
+
+            news_cards += f"""
+            <div class="news-item">
+                <div class="news-number">{i}</div>
+                <div class="news-body">
+                    <h2 class="news-title">{title}</h2>
+                    <div class="news-source">📰 {site}</div>
+                    <div class="news-summary">{summary}</div>
+                    <a href="{url}" class="news-link" target="_blank" rel="noopener">🔗 阅读原文</a>
+                </div>
+            </div>"""
+    else:
+        news_cards = """
+        <div class="no-news">
+            <p>😔 今日暂无智能座舱相关新闻</p>
+        </div>"""
+
     html = f"""<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -213,62 +202,85 @@ def generate_html(report_text, output_path):
     <title>🚗 智能座舱日报 {today}</title>
     <style>
         * {{ margin: 0; padding: 0; box-sizing: border-box; }}
-        body {{ 
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, 
+        body {{
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
                       "PingFang SC", "Microsoft YaHei", sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh; padding: 20px;
+            background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+            min-height: 100vh; padding: 30px 15px;
         }}
         .container {{ max-width: 860px; margin: 0 auto; }}
-        .card {{ 
-            background: #fff; border-radius: 20px; overflow: hidden;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.15);
+        .header {{ text-align: center; margin-bottom: 30px; color: #fff; }}
+        .header h1 {{ font-size: 28px; margin-bottom: 8px; }}
+        .header .sub {{ font-size: 13px; opacity: 0.7; }}
+        .card {{
+            background: #fff; border-radius: 16px; overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
         }}
-        .card-header {{ 
-            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
-            color: #fff; padding: 40px 30px; text-align: center;
+        .card-body {{ padding: 30px; }}
+        .news-item {{
+            display: flex; gap: 16px; padding: 20px 0;
+            border-bottom: 1px solid #f0f0f0;
         }}
-        .card-header h1 {{ font-size: 26px; margin-bottom: 8px; }}
-        .card-header .date {{ font-size: 13px; opacity: 0.7; }}
-        .card-body {{ 
-            padding: 30px; 
-            font-size: 15px; line-height: 1.8; 
-            color: #333;
+        .news-item:last-child {{ border-bottom: none; }}
+        .news-number {{
+            width: 36px; height: 36px; border-radius: 50%;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: #fff; display: flex; align-items: center;
+            justify-content: center; font-weight: bold; font-size: 16px;
+            flex-shrink: 0;
         }}
-        .card-body a {{ 
+        .news-body {{ flex: 1; }}
+        .news-title {{
+            font-size: 18px; font-weight: 600; color: #1a1a2e;
+            margin-bottom: 6px; line-height: 1.4;
+        }}
+        .news-source {{
+            font-size: 13px; color: #888; margin-bottom: 10px;
+        }}
+        .news-summary {{
+            font-size: 14.5px; line-height: 1.8; color: #444;
+            margin-bottom: 12px;
+        }}
+        .news-link {{
+            display: inline-block; font-size: 13px;
             color: #667eea; text-decoration: none;
-            word-break: break-all;
+            padding: 4px 12px; border-radius: 4px;
+            background: #f0f0ff;
         }}
-        .card-body a:hover {{ text-decoration: underline; }}
-        .card-footer {{ 
-            text-align: center; padding: 20px; 
-            color: #999; font-size: 12px; 
+        .news-link:hover {{ background: #e0e0ff; text-decoration: underline; }}
+        .footer {{
+            text-align: center; padding: 18px;
+            color: #999; font-size: 12px;
             border-top: 1px solid #f0f0f0;
+        }}
+        .no-news {{ text-align: center; padding: 40px; color: #999; }}
+        @media (max-width: 600px) {{
+            .card-body {{ padding: 16px; }}
+            .news-title {{ font-size: 16px; }}
+            .news-summary {{ font-size: 14px; }}
         }}
     </style>
 </head>
 <body>
     <div class="container">
+        <div class="header">
+            <h1>🚗 智能座舱日报</h1>
+            <p class="sub">{today} · 由 GitHub Actions 自动更新</p>
+        </div>
         <div class="card">
-            <div class="card-header">
-                <h1>🚗 智能座舱日报</h1>
-                <p class="date">更新时间：{today} · 由 GitHub Actions 自动生成</p>
-            </div>
             <div class="card-body">
-                {content_html}
+                {news_cards}
             </div>
-            <div class="card-footer">
-                每日自动更新 · 数据由 DeepSeek AI 整理
-            </div>
+            <div class="footer">数据来源：DuckDuckGo 搜索 · 内容整理：DeepSeek AI</div>
         </div>
     </div>
 </body>
 </html>"""
-    
+
     output_dir = os.path.dirname(output_path)
     if output_dir:
         os.makedirs(output_dir, exist_ok=True)
-    
+
     with open(output_path, 'w', encoding='utf-8') as f:
         f.write(html)
     print(f"✅ HTML 已生成: {output_path}")
@@ -277,30 +289,40 @@ def generate_html(report_text, output_path):
 # ==================== 主函数 ====================
 def main():
     print("🚀 开始获取智能座舱新闻...")
-    
+
     # 1. 搜索新闻
     print("🔍 搜索新闻...")
     news = search_news("汽车智能座舱", max_results=15)
     print(f"    搜索到 {len(news)} 条新闻")
-    
+
     if not news:
-        print("❌ 搜索失败")
+        print("❌ 搜索失败，生成空页面")
+        generate_html([], "docs/index.html")
         return False
-    
-    # 2. 筛选
-    print("🏆 筛选高质量内容...")
-    filtered = filter_news(news)
-    print(f"    筛选出 {len(filtered)} 条")
-    
-    # 3. 整理日报
-    print("📝 整理日报...")
-    report = format_report(filtered)
-    
-    # 4. 生成 HTML
-    output_path = "docs/index.html"
-    generate_html(report, output_path)
-    
-    print("✅ 完成!")
+
+    # 2. DeepSeek 筛选 + 整理
+    print("🤖 DeepSeek 分析中...")
+    items = filter_and_format(news)
+
+    if items:
+        print(f"    生成 {len(items)} 条深度分析")
+    else:
+        print("    DeepSeek 未返回数据，使用原始结果")
+        items = [
+            {
+                "title": n["title"],
+                "url": n["url"],
+                "site_name": n["site_name"],
+                "summary": n["snippet"]
+            }
+            for n in news[:5]
+        ]
+
+    # 3. 生成 HTML
+    print("📝 生成页面...")
+    generate_html(items, "docs/index.html")
+
+    print("✅ 完成！")
     return True
 
 
