@@ -17,22 +17,26 @@ DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY", "")
 
 
 # ==================== 搜索 ====================
-def search_news(topic, max_results=15):
-    """DuckDuckGo 免费搜索"""
+def search_news(topic, max_results=25):
+    """DuckDuckGo 免费搜索，限定近一周热点"""
     try:
         from ddgs import DDGS
         all_results = []
         seen_urls = set()
+        year = datetime.now().strftime("%Y")
 
+        # 多角度搜索，确保覆盖热点
         queries = [
-            f"{topic} 智能座舱",
-            f"{topic} 新车",
-            f"智能座舱 技术"
+            f"{topic} 智能座舱 热点",
+            f"{topic} 最新技术 发布",
+            f"{year} 智能座舱 新车 首发",
+            f"智能座舱 AI 座舱系统 {year}"
         ]
 
         with DDGS() as ddgs:
             for query in queries:
-                for r in ddgs.text(query, max_results=max_results // 2):
+                # timelimit='w' 限定过去一周的结果
+                for r in ddgs.text(query, max_results=max_results // 2, timelimit='w'):
                     title = (r.get("title") or "").strip()
                     url = (r.get("href") or "").strip()
                     body = (r.get("body") or "").strip()
@@ -47,6 +51,7 @@ def search_news(topic, max_results=15):
                     domain = urlparse(url).netloc.replace("www.", "")
                     site_name = domain.split(".")[0].title() if domain else ""
 
+                    # 过滤广告
                     ad_keywords = ["ad", "sponsored", "推广", "广告", "track"]
                     if any(k in url.lower() for k in ad_keywords):
                         continue
@@ -58,6 +63,7 @@ def search_news(topic, max_results=15):
                         "site_name": site_name
                     })
 
+        print(f"    去重后共 {len(all_results)} 条不同新闻")
         return all_results
     except ImportError:
         print("请先安装依赖: pip install ddgs")
@@ -111,7 +117,7 @@ def call_deepseek(system_prompt, user_prompt):
 
 
 def filter_and_format(news_list):
-    """DeepSeek 一次性完成筛选和整理，返回JSON格式"""
+    """DeepSeek 一次性完成筛选和整理，返回JSON格式（中英双语）"""
     if not news_list:
         return []
 
@@ -124,26 +130,29 @@ def filter_and_format(news_list):
 
     system_prompt = f"""你是汽车智能座舱专业编辑，今天是{today}。
 
-请从以下新闻中筛选出最有价值的5条，为每条撰写200字深度总结。
+请从以下新闻中筛选出最有价值的5条，为每条撰写200字中文深度总结，并将其翻译成英文。
 
 必须返回严格的JSON格式，不要加任何其他文字：
 {{
   "news": [
     {{
-      "title": "原标题",
+      "title": "原标题（中文）",
+      "title_en": "English Title",
       "url": "原链接",
       "site_name": "来源名",
-      "summary": "200字深度总结，包含核心信息、背景分析和行业意义"
+      "summary": "200字中文深度总结，包含核心信息、背景分析和行业意义",
+      "summary_en": "200-word English deep summary, containing key information, background analysis and industry significance"
     }}
   ]
 }}
 
 要求：
 1. 排除广告和低质量内容
-2. 总结要有深度，不只是重复摘要
-3. 返回标准JSON，不要用markdown"""
+2. 中文总结要有深度，不只是重复摘要
+3. 英文翻译要专业、准确、自然
+4. 返回标准JSON，不要用markdown"""
 
-    user_prompt = f"请分析以下{len(news_list)}条新闻，返回JSON格式：\n\n{news_data}"
+    user_prompt = f"请分析以下{len(news_list)}条新闻，返回中英双语JSON格式：\n\n{news_data}"
 
     response = call_deepseek(system_prompt, user_prompt)
     if not response:
@@ -165,17 +174,38 @@ def filter_and_format(news_list):
 
 
 # ==================== HTML 生成 ====================
-def generate_html(news_items, output_path):
-    """用 Python 构建完整的 HTML 页面"""
+def generate_html(news_items, output_path, lang='zh'):
+    """生成单语言 HTML 页面，带语言切换按钮
+    
+    lang='zh' -> 中文版（docs/index.html），显示 "EN" 按钮
+    lang='en' -> 英文版（docs/en/index.html），显示 "中文" 按钮
+    """
     today = datetime.now().strftime("%Y-%m-%d %H:%M")
+
+    is_zh = lang == 'zh'
+    page_title = "智能座舱日报" if is_zh else "Smart Cockpit Daily"
+    page_desc = "由 GitHub Actions 自动更新" if is_zh else "Auto-updated by GitHub Actions"
+
+    # 语言切换按钮
+    if is_zh:
+        switch_btn = '<a href="en/index.html" class="lang-switch">🌐 EN</a>'
+        switch_label = "切换到英文版"
+    else:
+        switch_btn = '<a href="../index.html" class="lang-switch">🌐 中文</a>'
+        switch_label = "Switch to Chinese"
 
     # 构建新闻卡片
     news_cards = ""
     if news_items:
         for i, item in enumerate(news_items, 1):
-            title = escape(item.get("title", ""))
+            if is_zh:
+                title = escape(item.get("title", ""))
+                summary = escape(item.get("summary", item.get("summary_en", "")))
+            else:
+                title = escape(item.get("title_en", item.get("title", "")))
+                summary = escape(item.get("summary_en", item.get("summary", "")))
+
             site = escape(item.get("site_name", ""))
-            summary = escape(item.get("summary", ""))
             url = escape(item.get("url", ""))
 
             news_cards += f"""
@@ -185,21 +215,27 @@ def generate_html(news_items, output_path):
                     <h2 class="news-title">{title}</h2>
                     <div class="news-source">📰 {site}</div>
                     <div class="news-summary">{summary}</div>
-                    <a href="{url}" class="news-link" target="_blank" rel="noopener">🔗 阅读原文</a>
+                    <a href="{url}" class="news-link" target="_blank" rel="noopener">{'🔗 阅读原文' if is_zh else '🔗 Read Original'}</a>
                 </div>
             </div>"""
     else:
-        news_cards = """
+        no_news_msg = "😔 今日暂无智能座舱相关新闻" if is_zh else "😔 No smart cockpit news today"
+        news_cards = f"""
         <div class="no-news">
-            <p>😔 今日暂无智能座舱相关新闻</p>
+            <p>{no_news_msg}</p>
         </div>"""
 
+    footer_text = "数据来源：DuckDuckGo 搜索 · 内容整理：DeepSeek AI" if is_zh \
+        else "Source: DuckDuckGo Search · Analysis: DeepSeek AI"
+
+    html_lang = "zh-CN" if is_zh else "en"
+
     html = f"""<!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="{html_lang}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🚗 智能座舱日报 {today}</title>
+    <title>🚗 {page_title} {today}</title>
     <style>
         * {{ margin: 0; padding: 0; box-sizing: border-box; }}
         body {{
@@ -209,9 +245,18 @@ def generate_html(news_items, output_path):
             min-height: 100vh; padding: 30px 15px;
         }}
         .container {{ max-width: 860px; margin: 0 auto; }}
-        .header {{ text-align: center; margin-bottom: 30px; color: #fff; }}
+        .header {{ text-align: center; margin-bottom: 30px; color: #fff; position: relative; }}
         .header h1 {{ font-size: 28px; margin-bottom: 8px; }}
         .header .sub {{ font-size: 13px; opacity: 0.7; }}
+        .lang-switch {{
+            display: inline-block; margin-top: 12px;
+            padding: 8px 20px; border-radius: 20px;
+            background: rgba(255,255,255,0.15);
+            color: #fff; text-decoration: none;
+            font-size: 14px; font-weight: 500;
+            transition: background 0.3s;
+        }}
+        .lang-switch:hover {{ background: rgba(255,255,255,0.3); }}
         .card {{
             background: #fff; border-radius: 16px; overflow: hidden;
             box-shadow: 0 20px 60px rgba(0,0,0,0.3);
@@ -264,14 +309,15 @@ def generate_html(news_items, output_path):
 <body>
     <div class="container">
         <div class="header">
-            <h1>🚗 智能座舱日报</h1>
-            <p class="sub">{today} · 由 GitHub Actions 自动更新</p>
+            <h1>🚗 {page_title}</h1>
+            <p class="sub">{today} · {page_desc}</p>
+            <p>{switch_btn}<br><span style="font-size:12px;opacity:0.6">{switch_label}</span></p>
         </div>
         <div class="card">
             <div class="card-body">
                 {news_cards}
             </div>
-            <div class="footer">数据来源：DuckDuckGo 搜索 · 内容整理：DeepSeek AI</div>
+            <div class="footer">{footer_text}</div>
         </div>
     </div>
 </body>
@@ -283,7 +329,7 @@ def generate_html(news_items, output_path):
 
     with open(output_path, 'w', encoding='utf-8') as f:
         f.write(html)
-    print(f"✅ HTML 已生成: {output_path}")
+    print(f"✅ {'中文' if is_zh else '英文'}页面已生成: {output_path}")
 
 
 # ==================== 主函数 ====================
@@ -297,10 +343,11 @@ def main():
 
     if not news:
         print("❌ 搜索失败，生成空页面")
-        generate_html([], "docs/index.html")
+        generate_html([], "docs/index.html", lang='zh')
+        generate_html([], "docs/en/index.html", lang='en')
         return False
 
-    # 2. DeepSeek 筛选 + 整理
+    # 2. DeepSeek 筛选 + 整理（返回双语JSON）
     print("🤖 DeepSeek 分析中...")
     items = filter_and_format(news)
 
@@ -311,18 +358,21 @@ def main():
         items = [
             {
                 "title": n["title"],
+                "title_en": n["title"],
                 "url": n["url"],
                 "site_name": n["site_name"],
-                "summary": n["snippet"]
+                "summary": n["snippet"],
+                "summary_en": n["snippet"]
             }
             for n in news[:5]
         ]
 
-    # 3. 生成 HTML
+    # 3. 生成中英文两个 HTML 页面
     print("📝 生成页面...")
-    generate_html(items, "docs/index.html")
+    generate_html(items, "docs/index.html", lang='zh')
+    generate_html(items, "docs/en/index.html", lang='en')
 
-    print("✅ 完成！")
+    print("✅ 完成！中英双语日报已同步生成")
     return True
 
 
