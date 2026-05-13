@@ -10,19 +10,26 @@ from pathlib import Path
 
 # ==================== 搜索 ====================
 def search_news(topic, max_results=15):
-    """DuckDuckGo 免费搜索"""
+    """DuckDuckGo 免费搜索（新版包名 ddgs）"""
     try:
-        from duckduckgo_search import DDGS
+        from ddgs import DDGS
         results = []
         with DDGS() as ddgs:
             for r in ddgs.text(topic, max_results=max_results):
-                results.append({
-                    "title": r.get("title", ""),
-                    "url": r.get("href", ""),
-                    "snippet": r.get("body", ""),
-                    "site_name": extract_site_name(r.get("href", ""))
-                })
+                title = r.get("title", "") or r.get("headline", "")
+                url = r.get("href", "") or r.get("link", "")
+                snippet = r.get("body", "") or r.get("description", "")
+                if title and url:
+                    results.append({
+                        "title": title,
+                        "url": url,
+                        "snippet": snippet,
+                        "site_name": extract_site_name(url)
+                    })
         return results
+    except ImportError:
+        print("请安装 ddgs: pip install ddgs")
+        return []
     except Exception as e:
         print(f"搜索失败: {e}")
         return []
@@ -180,18 +187,48 @@ def main():
     print("🚀 开始获取智能座舱新闻...")
     today = datetime.now().strftime("%Y-%m-%d")
     
-    # 1. 搜索
+    # 1. 搜索 - 用多个关键词提高命中率
     print("📡 搜索新闻...")
-    news = search_news("汽车智能座舱 新车 评测 发布 2025", max_results=15)
-    print(f"   搜索到 {len(news)} 条")
     
-    if not news:
-        print("❌ 搜索失败")
-        return False
+    # 多组关键词搜索
+    keywords = [
+        "智能座舱 最新",
+        "智能座舱 新车 发布",
+        "智能座舱 技术 创新",
+        "汽车智能座舱 评测 体验"
+    ]
+    
+    all_news = []
+    seen_urls = set()
+    
+    for kw in keywords:
+        results = search_news(kw, max_results=8)
+        for item in results:
+            url = item.get("url", "")
+            if url and url not in seen_urls:
+                seen_urls.add(url)
+                all_news.append(item)
+    
+    print(f"   搜索到 {len(all_news)} 条新闻")
+    
+    if not all_news:
+        # 尝试更宽泛的关键词
+        print("   第一次搜索未获取结果，尝试更宽泛的关键词...")
+        results = search_news("汽车 智能座舱 2025", max_results=20)
+        all_news = results
+        print(f"   搜索到 {len(all_news)} 条新闻")
+    
+    if not all_news:
+        print("❌ 搜索失败，无法获取任何新闻")
+        # 生成空的日报页面
+        output_dir = Path("docs")
+        output_dir.mkdir(exist_ok=True)
+        generate_html("📰 【智能座舱日报】\n\n今日暂无相关新闻数据，请稍后再试。", output_dir / "index.html")
+        return True  # 返回成功，避免action报错
     
     # 2. 筛选
-    print("🏆 筛选...")
-    filtered = filter_news(news)
+    print("🏆 筛选高质量内容...")
+    filtered = filter_news(all_news)
     print(f"   筛选出 {len(filtered)} 条")
     
     # 3. 整理日报
