@@ -1,51 +1,137 @@
 """
 汽车智能座舱新闻摘要 - GitHub Actions 版本
-直接调用 Coze Coding 平台 API 获取新闻
 """
 import os
 import json
+import re
 from datetime import datetime
 from pathlib import Path
 
-API_BASE_URL = "https://x5ygy49c7k.coze.site"
-TOKEN = "eyJhbGciOiJSUzI1NiIsImtpZCI6ImFmMDQyOWY0LWY4YTItNDAxZi05N2UwLTg3M2M2ODcxZTUyZiJ9.eyJpc3MiOiJodHRwczovL2FwaS5jb3plLmNuIiwiYXVkIjpbInF5MlgwQlEyY212Zk94c0ptNmZMU1Z4Y0t2UzFNWGIzIl0sImV4cCI6ODIxMDI2Njg3Njc5OSwiaWF0IjoxNzc4NTgwNzcxLCJzdWIiOiJzcGlmZmU6Ly9hcGkuY296ZS5jbi93b3JrbG9hZF9pZGVudGl0eS9pZDo3NjM4ODMxOTMwMjI1NDU5MjM4Iiwic3JjIjoiaW5ib3VuZF9hdXRoX2FjY2Vzc190b2tlbl9pZDo3NjM4OTQ2MjQ1MTg4MjU1Nzk4In0.FnICbcku72HRS_334qq9OVTBU2u7XfpfiE0Hi2BXxMT5mNbCWrAAk--abwhFAdJaDRRQ-zYC80XXu-S6B8B4aopaaXtUmLXdVW24bb8fcPh4pd3V6IOjvdT4abxp6OZD0t8Gt4ngIISUNcB78MqSyxsE33mwnxugu7NOWODvPSzx2hI_TU2dYACJw8QKLrqa-kxGYbl2kIjf_Im1ViKWt6_hJpHP4Qys8_Us5i-kqgVMsbYyUGr96Ru95JqKZGpGJITEFdLH95ejWmq9GbzhKHZvrCUFDa679X5lzWE2dE_aoj7QMPW6qwOmlVWhfcUYuKrZxVXrA8rppDItzFPOzw"
 
-def fetch_news():
+# ==================== 搜索 ====================
+def search_news(topic, max_results=15):
+    """DuckDuckGo 免费搜索"""
+    try:
+        from duckduckgo_search import DDGS
+        results = []
+        with DDGS() as ddgs:
+            for r in ddgs.text(topic, max_results=max_results):
+                results.append({
+                    "title": r.get("title", ""),
+                    "url": r.get("href", ""),
+                    "snippet": r.get("body", ""),
+                    "site_name": extract_site_name(r.get("href", ""))
+                })
+        return results
+    except Exception as e:
+        print(f"搜索失败: {e}")
+        return []
+
+
+def extract_site_name(url):
+    from urllib.parse import urlparse
+    try:
+        domain = urlparse(url).netloc
+        return domain.replace("www.", "").split(".")[0].title()
+    except:
+        return ""
+
+
+# ==================== 大模型 ====================
+def call_deepseek(system_prompt, user_prompt):
+    """调用 DeepSeek API"""
     import urllib.request
     import urllib.error
     
-    url = f"{API_BASE_URL}/api/workflow/run"
-    data = {
-        "workflow_name": "cockpit_news_workflow",
-        "parameters": {
-            "search_topic": "汽车智能座舱",
-            "max_news_count": 20,
-            "time_range": "1d"
-        }
-    }
+    api_key = os.environ.get("DEEPSEEK_API_KEY", "")
+    if not api_key:
+        print("❌ 未设置 DEEPSEEK_API_KEY")
+        return None
+    
+    url = "https://api.deepseek.com/v1/chat/completions"
+    data = json.dumps({
+        "model": "deepseek-chat",
+        "messages": [
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_prompt}
+        ],
+        "temperature": 0.1,
+        "max_tokens": 4096
+    }).encode('utf-8')
     
     req = urllib.request.Request(
-        url,
-        data=json.dumps(data).encode('utf-8'),
+        url, data=data,
         headers={
             'Content-Type': 'application/json',
-            'Authorization': f'Bearer {TOKEN}'
+            'Authorization': f'Bearer {api_key}'
         },
         method='POST'
     )
     
     try:
-        with urllib.request.urlopen(req, timeout=60) as response:
-            result = json.loads(response.read().decode('utf-8'))
-            return result
+        with urllib.request.urlopen(req, timeout=60) as resp:
+            result = json.loads(resp.read().decode('utf-8'))
+            return result['choices'][0]['message']['content']
     except Exception as e:
-        print(f"Error: {e}")
+        print(f"DeepSeek 调用失败: {e}")
         return None
 
-def generate_html_report(news_data, output_path):
-    today = datetime.now().strftime("%Y-%m-%d")
+
+def filter_news(news_list):
+    """筛选高质量新闻"""
+    if not news_list:
+        return []
     
-    import re
+    news_data = "\n".join([
+        f"[{i+1}] {item.get('title', '')}\n来源: {item.get('site_name', '')}\n摘要: {item.get('snippet', '')}\n链接: {item.get('url', '')}"
+        for i, item in enumerate(news_list)
+    ])
+    
+    resp = call_deepseek(
+        "你是汽车行业新闻质量评估专家。筛选高质量新闻，排除广告软文和标题党。直接返回JSON数组，每项包含title、url、site_name、snippet，最多5条。",
+        f"请筛选以下{len(news_list)}条新闻：\n\n{news_data}"
+    )
+    
+    if not resp:
+        return news_list[:5]
+    
+    try:
+        content = resp.strip()
+        if "```json" in content:
+            content = content.split("```json")[1].split("```")[0]
+        elif "```" in content:
+            content = content.split("```")[1].split("```")[0]
+        filtered = json.loads(content.strip())
+        return filtered if isinstance(filtered, list) else news_list[:5]
+    except:
+        return news_list[:5]
+
+
+def format_report(news_list, date):
+    """整理日报"""
+    if not news_list:
+        return "今日暂无智能座舱相关新闻"
+    
+    news_data = "\n\n".join([
+        f"【{i+1}】标题: {item.get('title', '')}\n来源: {item.get('site_name', '')}\n摘要: {item.get('snippet', '')}\n链接: {item.get('url', '')}"
+        for i, item in enumerate(news_list)
+    ])
+    
+    resp = call_deepseek(
+        f"你是专业的汽车资讯编辑。日期：{date}\n将新闻整理成日报格式：\n- 每条含标题、来源、200字深度总结、链接\n- 优先3-5条\n- 总结要有深度",
+        f"请整理以下新闻：\n\n{news_data}"
+    )
+    
+    if not resp:
+        return f"📰 【智能座舱日报】{date} 📰\n\n[日报整理功能暂时不可用]"
+    return f"📰 【智能座舱日报】{date} 📰\n\n{resp}"
+
+
+# ==================== HTML 生成 ====================
+def generate_html(report, output_path):
+    today = datetime.now().strftime("%Y-%m-%d")
+    content = report.replace('\n', '<br>')
+    
     html = f"""<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -64,27 +150,20 @@ def generate_html_report(news_data, output_path):
             background: white; border-radius: 20px; padding: 40px; 
             box-shadow: 0 20px 60px rgba(0,0,0,0.2);
         }}
-        h1 {{ text-align: center; color: #333; margin-bottom: 10px; }}
-        .date {{ text-align: center; color: #666; margin-bottom: 30px; }}
-        .news-item {{ 
-            background: #f8f9fa; border-radius: 12px; padding: 20px; 
-            margin-bottom: 20px; border-left: 4px solid #667eea;
-        }}
-        .news-content {{ font-size: 15px; line-height: 1.8; }}
-        .news-content a {{ color: #667eea; text-decoration: none; }}
+        h1 {{ text-align: center; color: #333; margin-bottom: 20px; }}
+        .content {{ font-size: 15px; line-height: 1.8; color: #333; }}
         .footer {{ text-align: center; margin-top: 30px; color: #999; font-size: 12px; }}
         .update-time {{ text-align: center; color: #888; margin-bottom: 20px; font-size: 12px; }}
+        a {{ color: #667eea; text-decoration: none; }}
+        a:hover {{ text-decoration: underline; }}
     </style>
 </head>
 <body>
     <div class="container">
         <div class="card">
             <h1>🚗 智能座舱日报</h1>
-            <p class="date">{today}</p>
             <p class="update-time">🔄 自动更新于 GitHub Actions</p>
-            <div class="news-content">
-                {format_news_content(news_data)}
-            </div>
+            <div class="content">{content}</div>
             <div class="footer">由 GitHub Actions 自动生成</div>
         </div>
     </div>
@@ -93,61 +172,40 @@ def generate_html_report(news_data, output_path):
     
     with open(output_path, 'w', encoding='utf-8') as f:
         f.write(html)
-    print(f"✅ HTML 报告已生成: {output_path}")
+    print(f"✅ HTML 已生成: {output_path}")
 
-def format_news_content(news_data):
-    if not news_data:
-        return "<p>暂无新闻数据</p>"
-    
-    content = ""
-    if isinstance(news_data, dict):
-        if news_data.get('data'):
-            content = str(news_data['data'])
-        elif news_data.get('output'):
-            output = news_data['output']
-            if isinstance(output, dict) and output.get('daily_report'):
-                content = output['daily_report']
-            else:
-                content = str(output)
-        else:
-            content = str(news_data)
-    elif isinstance(news_data, str):
-        content = news_data
-    else:
-        content = json.dumps(news_data, ensure_ascii=False)
-    
-    import re
-    content = content.replace('\n', '<br>')
-    
-    html_parts = []
-    blocks = re.split(r'【\d+】', content)
-    for block in blocks:
-        if block.strip():
-            block_links = re.findall(r'https?://[^\s<>\)]+', block)
-            link_html = f'<br><a href="{block_links[0]}" target="_blank">🔗 查看原文</a>' if block_links else ""
-            html_parts.append(f'<div class="news-item"><div>{block.strip()}{link_html}</div></div>')
-    
-    return '\n'.join(html_parts) if html_parts else f'<div class="news-item"><div>{content}</div></div>'
 
+# ==================== 主函数 ====================
 def main():
     print("🚀 开始获取智能座舱新闻...")
-    result = fetch_news()
+    today = datetime.now().strftime("%Y-%m-%d")
     
-    if result:
-        print("✅ 新闻获取成功！")
-        output_dir = Path("docs")
-        output_dir.mkdir(exist_ok=True)
-        
-        html_path = output_dir / "index.html"
-        generate_html_report(result, html_path)
-        
-        data_path = output_dir / "news.json"
-        with open(data_path, 'w', encoding='utf-8') as f:
-            json.dump(result, f, ensure_ascii=False, indent=2)
-        return True
-    else:
-        print("❌ 新闻获取失败")
+    # 1. 搜索
+    print("📡 搜索新闻...")
+    news = search_news("汽车智能座舱 新车 评测 发布 2025", max_results=15)
+    print(f"   搜索到 {len(news)} 条")
+    
+    if not news:
+        print("❌ 搜索失败")
         return False
+    
+    # 2. 筛选
+    print("🏆 筛选...")
+    filtered = filter_news(news)
+    print(f"   筛选出 {len(filtered)} 条")
+    
+    # 3. 整理日报
+    print("📝 整理日报...")
+    report = format_report(filtered, today)
+    
+    # 4. 生成 HTML
+    output_dir = Path("docs")
+    output_dir.mkdir(exist_ok=True)
+    generate_html(report, output_dir / "index.html")
+    
+    print("✅ 完成！")
+    return True
+
 
 if __name__ == "__main__":
     success = main()
