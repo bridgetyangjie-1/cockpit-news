@@ -7,48 +7,48 @@
       "news_count": 5,
       "news": [
         {
-          "title": "6.99万起享智慧出行！启源Q05 OTA升级，车家互联开启全场景新体验",
-          "title_en": "Enjoy Smart Travel from 69,900 RMB! Qiyuan Q05 OTA Upgrade Enables Full-Scenario Car-Home Connectivity",
-          "url": "https://www.itbear.com.cn/html/2026-05/1333126.html",
-          "site_name": "ITBear",
-          "summary": "启源Q05通过OTA推送了“天枢智联”生态，核心是车家双向互联功能，支持语音远程控制美的、海尔等家电。从用户研究视角看，该功能将座舱从出行工具延伸为家庭控制中心，解决了用户“离家后忘记关家电”或“回家前预调节环境”的典型场景痛点，通过语音交互降低了操作门槛。商业上，这种深度生态绑定（适配主流家电品牌）能显著提升用户对品牌的依赖度，为后续订阅制服务（如高级场景联动）铺路，并形成差异化的智能生活壁垒。",
-          "summary_en": "The Qiyuan Q05 OTA update introduces the 'Tianshu Zhilian' ecosystem, centered on bidirectional car-home connectivity, enabling voice control of Midea and Haier appliances. From a user research perspective, this extends the cockpit from a travel tool to a home control hub, solving pain points like forgetting to turn off appliances or pre-conditioning the home environment, with voice interaction lowering the operational barrier. Commercially, this deep ecosystem integration with major appliance brands significantly boosts user brand dependency, paves the way for subscription-based services (e.g., advanced scene linking), and creates a differentiated smart living moat."
+          "title": "科大讯飞开启全场景主动式AI座舱新时代",
+          "title_en": "iFlytek Ushers in a New Era of All-Scenario Proactive AI Cockpit",
+          "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-05-12/doc-inhxrshk9944436.shtml",
+          "site_name": "新浪财经",
+          "summary": "科大讯飞发布了基于星火大模型的新一代多模态智能座舱，实现了覆盖高频全场景的自然语言控车，用户无需记忆指令，仅用日常语言即可控制车辆，例如说“我有点热”系统便会自动调节空调。从用户研究视角看，该功能将交互从“命令驱动”转向“意图驱动”，极大降低了认知负荷，解决了用户因记忆复杂指令而产生的挫败感，创造了更自然、无感的车内交互场景。商业上，这种主动式、场景化的AI座舱能显著提升用户对智能系统的依赖度和满意度，为后续的软件订阅服务和生态增值（如个性化场景包）奠定基础，形成差异化竞争壁垒。",
+          "summary_en": "iFlytek released a new-generation multimodal intelligent cockpit based on the Spark large model, enabling natural language vehicle control across high-frequency scenarios. Users can control the vehicle using everyday language without memorizing commands; for example, saying 'I feel hot' will automatically adjust the air conditioning. From a user research perspective, this feature shifts interaction from 'command-driven' to 'intent-driven,' significantly reducing cognitive load, solving user frustration from memorizing complex commands, and creating a more natural, seamless in-car interaction scenario. Commercially, such a proactive, scenario-based AI cockpit can significantly enhance user reliance and satisfaction with the intelligent system, laying the foundation for subsequent software subscription services and ecosystem value-added features (e.g., personalized scenario packs), forming a differentiated competitive barrier."
         },
         {
-          "title": "【2026北京车展】科大讯飞三箭齐发，领跑汽车AI新时代",
-          "title_en": "[2026 Beijing Auto Show] iFLYTEK Launches Three Major Products, Leading the New Era of Automotive AI",
-          "url": "https://www.bitauto.com/article/1003109862657/",
-          "site_name": "BitAuto",
-          "summary": "科大讯飞发布了新一代多模态智能座舱，核心是基于星火大模型的“意图理解与分发”及“复杂任务规划与执行”能力。从用户研究视角看，这标志着语音交互从“命令式”向“意图式”演进，用户无需记忆特定指令，系统能主动理解模糊需求并分解执行，大幅降低学习成本。商业上，这种“会办事，更懂你”的体验能有效提升用户满意度和使用时长，其开放的智能体生态（覆盖50+伙伴）也为车企提供了可快速集成的AI能力，加速行业智能化竞争。",
-          "summary_en": "iFLYTEK unveiled its next-generation multimodal intelligent cockpit, centered on the Spark Model's 'intent understanding and distribution' and 'complex task planning and execution' capabilities. From a user research perspective, this marks a shift from command-based to intent-based voice interaction, where users don't need to memorize specific commands, and the system proactively understands vague needs and decomposes tasks, significantly reducing the learning curve. Commercially, this 'gets things done, understands you better' experience boosts user satisfaction and engagement, while its open agent ecosystem (50+ partners) provides automakers with rapidly integrable AI capabilities, accelerating industry-wide intelligent competition."
+          "title": "智能座舱的终局是什么？面壁智能给出了自己的答案",
+          "title_en": "What is the Endgame of Smart Cockpits? Mianbi Intelligence Gives Its Answer",
+          "url": "https://chedongxi.com/p/367581.html",
+          "site_name": "车东西",
+          "summary": "面壁智能在吉利银河M9上展示了其座舱方案，已实现部分场景下的主动智能，如能见度差时自动开启雾灯、过收费站自动降窗、车内人员检测并分别响应，这些动作均由车辆自主完成而非用户指令触发。从用户研究视角看，该方案解决了传统座舱“被动响应”的痛点，通过多模态感知（视觉、环境）预判用户需求，创造了“无感服务”体验，减少了用户操作步骤，尤其提升了驾驶安全性和便利性。商业上，这种主动智能是座舱从“工具”向“管家”演进的关键，能有效提升用户粘性，并通过场景化服务（如自动降窗与支付系统联动）开辟新的增值服务收入，成为行业竞争的新高地。",
+          "summary_en": "Mianbi Intelligence demonstrated its cockpit solution on the Geely Galaxy M9, achieving proactive intelligence in certain scenarios, such as automatically turning on fog lights in poor visibility, lowering windows at toll booths, and detecting and responding to individual occupants, all triggered autonomously by the vehicle rather than user commands. From a user research perspective, this solution addresses the pain point of traditional 'passive response' cockpits by anticipating user needs through multimodal perception (vision, environment), creating a 'frictionless service' experience that reduces user steps, especially enhancing driving safety and convenience. Commercially, this proactive intelligence is key to evolving the cockpit from a 'tool' to a 'butler,' effectively boosting user stickiness and opening new value-added service revenue streams through scenario-based services (e.g., linking automatic window lowering with payment systems), becoming a new competitive frontier."
+        },
+        {
+          "title": "比亚迪智能座舱升级：语音指令直接购买高铁票",
+          "title_en": "BYD Smart Cockpit Upgrade: Voice Commands to Directly Purchase High-Speed Rail Tickets",
+          "url": "https://www.mdnice.com/writing/985c4dd57cbe420f887c760df741a9b0",
+          "site_name": "mdnice",
+          "summary": "比亚迪宣布其智能座舱系统升级后，用户可通过语音指令直接完成高铁票购买，例如说出“我想去杭州东站坐高铁”，系统将自动调取通义大模型的实时数据接口，提供车次查询、余票确认及购票入口，全程仅需语音交互。从用户研究视角看，该功能将座舱从单纯的“出行工具”延伸为“生活服务入口”，解决了用户在出行规划中需切换多个APP的痛点，创造了“一站式”的出行前服务场景，极大提升了便利性。商业上，这种深度整合第三方生活服务的模式，不仅增强了用户对车机系统的依赖，还为车企开辟了基于交易分成的生态收益，同时通过高频生活服务绑定用户，提升品牌忠诚度。",
+          "summary_en": "BYD announced that after its smart cockpit system upgrade, users can complete high-speed rail ticket purchases via voice commands. For example, saying 'I want to go to Hangzhou East Station by high-speed rail' will automatically invoke the Tongyi large model's real-time data interface, providing train schedule queries, ticket availability confirmation, and purchase entry, all through voice interaction. From a user research perspective, this feature extends the cockpit from a mere 'transportation tool' to a 'life service portal,' solving the pain point of needing to switch between multiple apps for travel planning and creating a 'one-stop' pre-travel service scenario, greatly enhancing convenience. Commercially, this deep integration of third-party life services not only increases user reliance on the in-vehicle system but also opens up ecosystem revenue streams based on transaction commissions for automakers, while binding users through high-frequency life services to boost brand loyalty."
         },
         {
           "title": "蔚来萤火虫座舱交互：打破同质化的大胆尝试",
           "title_en": "NIO Firefly Cockpit Interaction: A Bold Attempt to Break Homogenization",
           "url": "https://www.dongchedi.com/video/7576221334485680702",
-          "site_name": "Dongchedi",
-          "summary": "蔚来萤火虫的座舱交互系统被专业评测机构评价为“打破同质化的大胆尝试”，通过眼动仪等工具进行了深度评测。从用户研究视角看，这表明蔚来在15万级市场仍注重交互创新，可能通过独特的UI布局、手势或视觉动效来创造差异化体验，解决当前智能座舱“千篇一律”的审美疲劳问题。商业上，这种敢于在入门车型上投入交互设计的策略，有助于蔚来向下渗透市场时保持品牌调性，吸引年轻用户，并积累针对不同价位段用户行为的数据，优化未来产品。",
-          "summary_en": "The NIO Firefly's cockpit interaction system has been evaluated by professional institutions as a 'bold attempt to break homogenization,' using tools like eye trackers for in-depth assessment. From a user research perspective, this shows NIO's commitment to interaction innovation in the 150,000 RMB segment, likely through unique UI layouts, gestures, or visual dynamics to solve the 'cookie-cutter' fatigue in current smart cockpits. Commercially, this strategy of investing in interaction design for entry-level models helps NIO maintain brand identity while penetrating the mass market, attract younger users, and accumulate behavioral data across price segments to optimize future products."
+          "site_name": "懂车帝",
+          "summary": "蔚来旗下品牌萤火虫的座舱交互系统被专业实验室通过模拟驾驶平台和眼动仪进行深度评测，旨在评估其在15万元价位如何实现个性化和独特的交互体验。从用户研究视角看，该评测聚焦于交互的易用性和创新性，通过客观数据（如眼动轨迹、操作时间）量化用户体验，旨在解决当前座舱交互同质化严重的问题，为细分市场用户创造差异化的情感价值。商业上，萤火虫作为蔚来向下探市场的品牌，其独特的交互设计是吸引年轻用户和价格敏感用户的关键，有助于在竞争激烈的入门级市场建立品牌辨识度，并通过独特的交互体验提升用户口碑和复购率。",
+          "summary_en": "The cockpit interaction system of NIO's sub-brand Firefly was deeply evaluated by a professional lab using a simulated driving platform and eye tracker, aiming to assess how it achieves personalization and unique interaction at the 150,000 RMB price point. From a user research perspective, the evaluation focuses on usability and innovation, quantifying user experience through objective data (e.g., eye movement trajectories, operation time), aiming to solve the severe homogenization problem in current cockpit interactions and create differentiated emotional value for niche market users. Commercially, as NIO's brand targeting the lower-end market, Firefly's unique interaction design is key to attracting young and price-sensitive users, helping to establish brand recognition in the competitive entry-level market and enhancing user word-of-mouth and repurchase rates through a distinctive interaction experience."
         },
         {
-          "title": "长城汽车申请车载语音控制相关专利，基于多模态数据和画像智能推荐语...",
-          "title_en": "Great Wall Motors Files Patent for In-Vehicle Voice Control Based on Multimodal Data and User Profiles for Intelligent Recommendations",
-          "url": "https://finance.sina.com.cn/stock/aigc/zl/2026-05-13/doc-inhxteir7714091.shtml",
-          "site_name": "Sina Finance",
-          "summary": "长城汽车申请了一项车载语音控制专利，核心是基于多模态数据（如驾驶行为、车内环境）和用户画像进行智能推荐。从用户研究视角看，这预示着语音助手将从“被动响应”升级为“主动预测”，例如根据用户习惯推荐音乐或空调温度，解决当前语音交互“不够聪明”的痛点。商业上，这种个性化推荐能力是提升用户粘性的关键，能增加软件服务（如音乐、导航）的订阅转化率，并构建基于用户数据的竞争壁垒，使车辆越用越“懂你”。",
-          "summary_en": "Great Wall Motors has filed a patent for in-vehicle voice control, centered on intelligent recommendations based on multimodal data (e.g., driving behavior, in-cabin environment) and user profiles. From a user research perspective, this signals an upgrade from 'passive response' to 'proactive prediction' for voice assistants, such as recommending music or AC temperature based on habits, solving the pain point of 'not smart enough' interactions. Commercially, this personalization capability is key to boosting user stickiness, increasing subscription conversion rates for software services (e.g., music, navigation), and building a competitive moat based on user data, making the vehicle 'know you better' over time."
-        },
-        {
-          "title": "第三代MBUX比肩新势力，2026...",
-          "title_en": "Third-Generation MBUX Rivals New Forces, 2026...",
-          "url": "https://post.smzdm.com/p/an50oqr0/",
-          "site_name": "SMZDM",
-          "summary": "奔驰第三代MBUX系统全系标配高通8295芯片，采用零层级界面设计，并支持连续指令与类人化语音反馈。从用户研究视角看，传统豪华品牌正通过“零层级”设计（减少操作步骤）和类人化交互来追赶新势力，解决用户对传统车机“层级深、反应慢”的抱怨。商业上，这表明豪华品牌意识到软件体验已成为核心竞争要素，通过硬件升级（8295）和交互重构，旨在留住对智能化有高要求的用户，并维持其高端品牌溢价，避免被新势力边缘化。",
-          "summary_en": "Mercedes-Benz's third-generation MBUX system comes standard with the Qualcomm 8295 chip, features a zero-layer interface design, and supports continuous commands and human-like voice feedback. From a user research perspective, traditional luxury brands are catching up with new forces through 'zero-layer' design (reducing steps) and human-like interaction, addressing user complaints about 'deep menus and slow responses.' Commercially, this shows luxury brands recognize software experience as a core competitive factor; through hardware upgrades (8295) and interaction redesign, they aim to retain users with high intelligence demands, maintain premium brand premiums, and avoid being marginalized by new forces."
+          "title": "理想任务大师：用户自定义自动化场景，解放双手",
+          "title_en": "Li Auto Task Master: User-Defined Automation Scenarios, Hands-Free",
+          "url": "https://www.douyin.com/video/7637509713885695283",
+          "site_name": "抖音",
+          "summary": "理想汽车的任务大师功能允许用户自定义自动化场景，例如设置“当主驾车门打开且副驾或后排有人坐时，自动开启离车不下电模式”，通过简单的触发条件和执行动作组合，实现个性化智能体验。从用户研究视角看，该功能将座舱智能的“定义权”交给用户，解决了用户对固定场景模式“不够用”或“不适用”的痛点，创造了高度可定制的“我的座舱”体验，极大提升了用户参与感和满意度。商业上，任务大师通过用户共创生态（如分享码）增强了社区活跃度和用户粘性，同时为车企提供了用户行为数据的宝贵来源，有助于优化默认场景设计，并可能在未来推出高级自动化模板作为付费内容，开辟新的收入模式。",
+          "summary_en": "Li Auto's Task Master feature allows users to customize automation scenarios, such as setting 'when the driver's door opens and the front passenger or rear seats are occupied, automatically enable the 'stay powered on when leaving' mode,' achieving personalized intelligent experiences through simple trigger conditions and action combinations. From a user research perspective, this feature hands over the 'definition power' of cockpit intelligence to users, solving the pain point of fixed scenario modes being 'insufficient' or 'inapplicable,' creating a highly customizable 'my cockpit' experience that greatly enhances user engagement and satisfaction. Commercially, Task Master boosts community activity and user stickiness through a user co-creation ecosystem (e.g., sharing codes), while providing automakers with a valuable source of user behavior data, helping to optimize default scenario designs and potentially introducing premium automation templates as paid content in the future, opening new revenue streams."
         }
       ],
       "created_at": "2026-05-14 03:39:19",
-      "updated_at": "2026-05-14 05:55:04"
+      "updated_at": "2026-05-14 06:34:14"
     }
   ]
 }

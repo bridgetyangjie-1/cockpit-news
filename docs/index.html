@@ -1,471 +1,174 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh-CN" class="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>🚗 智能座舱日报</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        background: "#0D0F12",
+                        surface: "#111317",
+                        "surface-container": "#1e2023",
+                        "surface-container-low": "#1a1c1f",
+                        "surface-container-high": "#282a2d",
+                        "surface-container-highest": "#333538",
+                        primary: "#00F2FF",
+                        "on-surface": "#e2e2e6",
+                        "on-surface-variant": "#b9cacb",
+                        "outline-variant": "#3a494b",
+                        outline: "#849495"
+                    },
+                    fontFamily: {
+                        sans: ["Inter", "sans-serif"],
+                        mono: ["JetBrains Mono", "monospace"]
+                    }
+                }
+            }
+        }
+    </script>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-                      "PingFang SC", "Microsoft YaHei", sans-serif;
-            background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
-            min-height: 100vh;
-            display: flex;
-        }
-        
-        /* 主容器 */
-        .app-container {
-            display: flex;
-            width: 100%;
-            min-height: 100vh;
-        }
-        
-        /* 移动端顶部栏 */
-        .mobile-header {
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 60px;
-            background: rgba(15, 12, 41, 0.95);
-            backdrop-filter: blur(10px);
-            z-index: 1000;
-            padding: 0 15px;
-            align-items: center;
-            justify-content: space-between;
-            border-bottom: 1px solid rgba(255,255,255,0.1);
-        }
-        
-        .mobile-header h1 {
-            color: #fff;
-            font-size: 18px;
-        }
-        
-        .menu-toggle {
-            background: rgba(255,255,255,0.1);
-            border: none;
-            color: #fff;
-            padding: 8px 12px;
-            border-radius: 8px;
-            cursor: pointer;
-            font-size: 14px;
-        }
-        
-        /* 左侧边栏 */
-        .sidebar {
-            width: 280px;
-            min-width: 280px;
-            background: rgba(255, 255, 255, 0.03);
-            border-right: 1px solid rgba(255, 255, 255, 0.1);
-            display: flex;
-            flex-direction: column;
-            height: 100vh;
-            position: sticky;
-            top: 0;
-        }
-        
-        .sidebar-header {
-            padding: 25px 20px;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-        }
-        
-        .sidebar-header h1 {
-            color: #fff;
-            font-size: 22px;
-            margin-bottom: 5px;
-        }
-        
-        .sidebar-header .subtitle {
-            color: rgba(255, 255, 255, 0.6);
-            font-size: 13px;
-        }
-        
-        .sidebar-title {
-            padding: 15px 20px;
-            color: rgba(255, 255, 255, 0.5);
-            font-size: 13px;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-        
-        .date-list {
-            flex: 1;
-            overflow-y: auto;
-            padding: 10px;
-        }
-        
-        .date-item {
-            display: flex;
-            align-items: center;
-            padding: 12px 15px;
-            margin-bottom: 5px;
-            border-radius: 10px;
-            cursor: pointer;
-            transition: all 0.2s;
-            color: rgba(255, 255, 255, 0.7);
-        }
-        
-        .date-item:hover {
-            background: rgba(255, 255, 255, 0.08);
-            color: #fff;
-        }
-        
-        .date-item.active {
-            background: linear-gradient(135deg, #667eea, #764ba2);
-            color: #fff;
-            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
-        }
-        
-        .date-item .date-text {
-            flex: 1;
-        }
-        
-        .date-item .date-main {
-            font-size: 15px;
-            font-weight: 500;
-        }
-        
-        .date-item .date-weekday {
-            font-size: 12px;
-            opacity: 0.7;
-            margin-top: 2px;
-        }
-        
-        .date-item .news-count {
-            background: rgba(255, 255, 255, 0.15);
-            padding: 3px 8px;
-            border-radius: 10px;
-            font-size: 11px;
-            font-weight: 600;
-        }
-        
-        .sidebar-footer {
-            padding: 15px 20px;
-            border-top: 1px solid rgba(255, 255, 255, 0.1);
-        }
-        
-        .lang-switch {
-            display: block;
-            text-align: center;
-            padding: 10px;
-            background: rgba(255, 255, 255, 0.1);
-            color: #fff;
-            text-decoration: none;
-            border-radius: 8px;
-            font-size: 14px;
-            transition: background 0.2s;
-        }
-        
-        .lang-switch:hover {
-            background: rgba(255, 255, 255, 0.2);
-        }
-        
-        /* 右侧主内容区 */
-        .main-content {
-            flex: 1;
-            padding: 30px;
-            overflow-y: auto;
-            height: 100vh;
-        }
-        
-        .content-header {
-            text-align: center;
-            margin-bottom: 30px;
-            color: #fff;
-        }
-        
-        .content-header h2 {
-            font-size: 26px;
-            margin-bottom: 8px;
-        }
-        
-        .content-header .date-info {
-            font-size: 14px;
-            opacity: 0.7;
-        }
-        
-        /* 新闻卡片容器 */
-        .news-container {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-        
-        .news-card {
-            background: #fff;
-            border-radius: 16px;
-            overflow: hidden;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-        }
-        
-        .news-card-body {
-            padding: 30px;
-        }
-        
-        .news-item {
-            display: flex;
-            gap: 16px;
-            padding: 20px 0;
-            border-bottom: 1px solid #f0f0f0;
-        }
-        
-        .news-item:last-child {
-            border-bottom: none;
-        }
-        
-        .news-number {
-            width: 36px;
-            height: 36px;
-            border-radius: 50%;
-            background: linear-gradient(135deg, #667eea, #764ba2);
-            color: #fff;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: bold;
-            font-size: 16px;
-            flex-shrink: 0;
-        }
-        
-        .news-body {
-            flex: 1;
-        }
-        
-        .news-title {
-            font-size: 18px;
-            font-weight: 600;
-            color: #1a1a2e;
-            margin-bottom: 6px;
-            line-height: 1.4;
-        }
-        
-        .news-source {
-            font-size: 13px;
-            color: #888;
-            margin-bottom: 10px;
-        }
-        
-        .news-summary {
-            font-size: 14.5px;
-            line-height: 1.8;
-            color: #444;
-            margin-bottom: 12px;
-        }
-        
-        .news-link {
-            display: inline-block;
-            font-size: 13px;
-            color: #667eea;
-            text-decoration: none;
-            padding: 4px 12px;
-            border-radius: 4px;
-            background: #f0f0ff;
-            transition: all 0.2s;
-        }
-        
-        .news-link:hover {
-            background: #e0e0ff;
-            text-decoration: underline;
-        }
-        
-        .card-footer {
-            text-align: center;
-            padding: 18px;
-            color: #999;
-            font-size: 12px;
-            border-top: 1px solid #f0f0f0;
-        }
-        
-        /* 加载状态 */
-        .loading-state {
-            text-align: center;
-            padding: 60px 20px;
-            color: rgba(255, 255, 255, 0.6);
-        }
-        
-        .loading-spinner {
-            width: 40px;
-            height: 40px;
-            border: 3px solid rgba(255, 255, 255, 0.1);
-            border-top-color: #667eea;
-            border-radius: 50%;
-            animation: spin 1s linear infinite;
-            margin: 0 auto 20px;
-        }
-        
-        @keyframes spin {
-            to { transform: rotate(360deg); }
-        }
-        
-        .empty-state {
-            text-align: center;
-            padding: 60px 20px;
-            color: rgba(255, 255, 255, 0.5);
-        }
-        
-        /* 移动端适配 */
-        @media (max-width: 768px) {
-            .mobile-header {
-                display: flex;
-            }
-            
-            .sidebar {
-                position: fixed;
-                left: -280px;
-                top: 60px;
-                height: calc(100vh - 60px);
-                z-index: 999;
-                transition: left 0.3s ease;
-                background: rgba(15, 12, 41, 0.98);
-            }
-            
-            .sidebar.open {
-                left: 0;
-            }
-            
-            .main-content {
-                margin-top: 60px;
-                height: calc(100vh - 60px);
-                padding: 20px 15px;
-            }
-            
-            .content-header h2 {
-                font-size: 22px;
-            }
-            
-            .news-card-body {
-                padding: 20px 15px;
-            }
-            
-            .news-title {
-                font-size: 16px;
-            }
-            
-            .news-summary {
-                font-size: 14px;
-            }
-            
-            /* 遮罩层 */
-            .overlay {
-                display: none;
-                position: fixed;
-                top: 60px;
-                left: 0;
-                right: 0;
-                bottom: 0;
-                background: rgba(0, 0, 0, 0.5);
-                z-index: 998;
-            }
-            
-            .overlay.show {
-                display: block;
-            }
-        }
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+        body { background-color: #0D0F12; }
+        .sidebar-blur { backdrop-filter: blur(20px); background-color: rgba(17, 19, 23, 0.8); }
+        ::-webkit-scrollbar { width: 4px; }
+        ::-webkit-scrollbar-track { background: #0D0F12; }
+        ::-webkit-scrollbar-thumb { background: #333538; border-radius: 10px; }
+        .news-card-bg { position: absolute; top: 8px; left: 16px; pointer-events: none; }
+        .news-card-bg span { font-size: 120px; color: #00F2FF; opacity: 0.05; line-height: 1; }
+        .news-card:hover .news-card-bg span { opacity: 0.1; }
+        .glow-hover { transition: all 0.3s ease; }
+        .glow-hover:hover { box-shadow: 0 12px 40px -12px rgba(0, 242, 255, 0.25); border-color: rgba(0, 242, 255, 0.5); }
+        .date-item-active { border-left: 4px solid #00F2FF; background: rgba(0, 242, 255, 0.1); color: #00F2FF; font-weight: 600; }
     </style>
 </head>
-<body>
+<body class="bg-background text-on-surface font-sans overflow-x-hidden">
     <!-- 移动端顶部栏 -->
-    <div class="mobile-header">
-        <h1>🚗 智能座舱日报</h1>
-        <button class="menu-toggle" onclick="toggleSidebar()">☰ 菜单</button>
-    </div>
+    <header class="md:hidden fixed top-0 left-0 right-0 h-16 bg-surface-container/95 backdrop-blur-lg z-50 flex items-center justify-between px-4 border-b border-outline-variant">
+        <h1 class="text-lg font-semibold">🚗 智能座舱日报</h1>
+        <button onclick="toggleSidebar()" class="p-2 hover:bg-surface-container-high rounded-lg">
+            <span class="material-symbols-outlined">menu</span>
+        </button>
+    </header>
     
-    <!-- 遮罩层（移动端） -->
-    <div class="overlay" id="overlay" onclick="toggleSidebar()"></div>
+    <!-- 遮罩层 -->
+    <div id="overlay" class="fixed inset-0 bg-black/50 z-40 hidden" onclick="toggleSidebar()"></div>
     
-    <div class="app-container">
-        <!-- 左侧边栏 -->
-        <aside class="sidebar" id="sidebar">
-            <div class="sidebar-header">
-                <h1>🚗 智能座舱日报</h1>
-                <p class="subtitle">30天历史归档</p>
-            </div>
-            
-            <div class="sidebar-title">📅 历史归档</div>
-            
-            <div class="date-list" id="dateList">
-                <!-- 动态加载日期列表 -->
-            </div>
-            
-            <div class="sidebar-footer">
-                <a href="en/index.html" class="lang-switch">🌐 EN</a>
-            </div>
-        </aside>
+    <!-- 左侧边栏 -->
+    <aside id="sidebar" class="fixed left-0 top-0 h-screen w-64 bg-surface-container border-r border-outline-variant sidebar-blur flex-col z-50 hidden md:flex">
+        <!-- Logo & 标题 -->
+        <div class="p-6 border-b border-outline-variant">
+            <h1 class="text-xl font-bold text-on-surface tracking-tight">🚗 智能座舱日报</h1>
+            <p class="text-sm text-on-surface-variant mt-1">Daily Intelligence</p>
+            <p class="text-xs text-on-surface-variant/70 mt-3 leading-relaxed">聚焦中国新能源车软件生态与座舱交互体验，每日自动抓取OTA动态、功能创新与用户研究洞察。</p>
+            <p class="text-xs text-on-surface-variant/50 mt-2">作者: <a href="mailto:bridgetyangjie@gmail.com" class="text-primary hover:underline">Bridget Yang</a></p>
+        </div>
         
-        <!-- 右侧主内容区 -->
-        <main class="main-content">
-            <div class="content-header">
-                <h2 id="contentTitle">加载中...</h2>
-                <p class="date-info" id="dateInfo"></p>
+        <!-- 导航菜单 -->
+        <nav class="flex-1 overflow-y-auto mt-4">
+            <div id="navToday" onclick="selectToday()" class="flex items-center gap-3 px-5 py-3 cursor-pointer transition-colors hover:bg-surface-container-high">
+                <span class="material-symbols-outlined text-xl">today</span>
+                <span>今日</span>
             </div>
-            
-            <div class="news-container">
-                <div class="news-card">
-                    <div class="news-card-body" id="newsBody">
-                        <div class="loading-state">
-                            <div class="loading-spinner"></div>
-                            <p>加载中...</p>
-                        </div>
-                    </div>
-                    <div class="card-footer">数据来源：DuckDuckGo 搜索 · 内容整理：DeepSeek AI</div>
+            <div class="px-6 py-2 mt-4">
+                <span class="text-[10px] uppercase tracking-widest text-on-surface-variant/50">历史归档</span>
+            </div>
+            <!-- 日期列表 -->
+            <div id="dateList" class="space-y-1"></div>
+        </nav>
+        
+        <!-- 底部操作 -->
+        <div class="p-4 border-t border-outline-variant space-y-3">
+            <a href="en/index.html" class="flex items-center gap-2 text-on-surface-variant hover:text-primary transition-colors cursor-pointer">
+                <span class="material-symbols-outlined text-lg">language</span>
+                <span class="text-sm">English</span>
+            </a>
+            <a href="mailto:bridgetyangjie@gmail.com" class="flex items-center gap-2 text-on-surface-variant hover:text-primary transition-colors cursor-pointer">
+                <span class="material-symbols-outlined text-lg">mail</span>
+                <span class="text-sm">Bridget Yang</span>
+            </a>
+        </div>
+    </aside>
+    
+    <!-- 主内容区 -->
+    <main class="md:ml-64 min-h-screen px-4 md:px-10 py-6 md:py-8 max-w-5xl mx-auto pt-20 md:pt-8">
+        <!-- 顶部标题栏 -->
+        <header class="flex flex-col md:flex-row md:justify-between md:items-end mb-8 border-b border-outline-variant pb-4">
+            <div>
+                <div class="flex items-baseline gap-3">
+                    <h2 id="contentDate" class="text-3xl md:text-4xl font-bold tracking-tight">加载中...</h2>
+                    <span id="contentWeekday" class="text-xl text-primary/80 font-medium"></span>
+                </div>
+                <div class="flex items-center gap-2 text-on-surface-variant mt-2">
+                    <span class="material-symbols-outlined text-sm">auto_awesome</span>
+                    <span id="briefCount" class="text-sm font-mono">加载中...</span>
                 </div>
             </div>
-        </main>
-    </div>
-    
+        </header>
+        
+        <!-- 新闻列表 -->
+        <section id="newsContainer" class="space-y-6">
+            <div class="flex items-center justify-center py-20">
+                <div class="w-10 h-10 border-2 border-primary border-t-transparent rounded-full animate-spin"></div>
+            </div>
+        </section>
+        
+        <!-- 页脚 -->
+        <footer class="mt-12 pt-6 border-t border-outline-variant text-center text-sm text-on-surface-variant/50">
+            数据来源：DuckDuckGo · DeepSeek AI
+        </footer>
+    </main>
+
     <script>
-        // 全局数据
-        let historyData = { records: [] };
+        let historyData = {records: []};
         let currentLang = 'zh';
         
-        // 加载历史数据
         async function loadData() {
             try {
-                const response = await fetch('history_data.json');
-                if (!response.ok) throw new Error('Failed to load data');
-                historyData = await response.json();
+                const res = await fetch('history_data.json');
+                if (!res.ok) throw new Error('Failed');
+                historyData = await res.json();
                 renderDateList();
                 if (historyData.records.length > 0) {
                     selectDate(historyData.records[0].date);
                 } else {
                     showEmpty();
                 }
-            } catch (error) {
-                console.error('Load error:', error);
+            } catch (e) {
                 showError();
             }
         }
         
-        // 渲染日期列表
         function renderDateList() {
             const container = document.getElementById('dateList');
             if (!historyData.records || historyData.records.length === 0) {
-                container.innerHTML = '<div class="empty-state"><p>暂无历史数据</p></div>';
+                container.innerHTML = '<p class="px-5 py-2 text-on-surface-variant/50 text-sm">暂无数据</p>';
                 return;
             }
-            
-            container.innerHTML = historyData.records.map(record => `
-                <div class="date-item" data-date="${record.date}" onclick="selectDate('${record.date}')">
-                    <div class="date-text">
-                        <div class="date-main">${record.date_display || record.date}</div>
-                        <div class="date-weekday">${record.weekday || ''}</div>
+            container.innerHTML = historyData.records.map((r, i) => `
+                <div class="date-item flex items-center justify-between px-5 py-2 cursor-pointer transition-colors hover:bg-surface-container-high ${i === 0 ? 'date-item-active' : ''}" 
+                     data-date="${r.date}" onclick="selectDate('${r.date}')">
+                    <div class="flex items-center gap-2">
+                        <span class="material-symbols-outlined text-base opacity-50">calendar_today</span>
+                        <span class="text-sm">${r.date_display || r.date}</span>
                     </div>
-                    <div class="news-count">${record.news_count || (record.news ? record.news.length : 0)}条</div>
+                    <span class="text-xs font-mono text-on-surface-variant/70">${r.news_count || (r.news ? r.news.length : 0)}</span>
                 </div>
             `).join('');
         }
         
-        // 选择日期
         function selectDate(date) {
-            // 更新高亮
+            // 更新侧边栏高亮
             document.querySelectorAll('.date-item').forEach(el => {
-                el.classList.toggle('active', el.dataset.date === date);
+                el.classList.toggle('date-item-active', el.dataset.date === date);
             });
             
-            // 查找对应记录
             const record = historyData.records.find(r => r.date === date);
             if (record) {
                 renderNews(record);
@@ -474,79 +177,106 @@
             }
             
             // 移动端关闭侧边栏
-            if (window.innerWidth <= 768) {
-                closeSidebar();
+            if (window.innerWidth < 768) closeSidebar();
+        }
+        
+        function selectToday() {
+            if (historyData.records.length > 0) {
+                selectDate(historyData.records[0].date);
             }
         }
         
-        // 渲染新闻内容
         function renderNews(record) {
-            const titleEl = document.getElementById('contentTitle');
-            const infoEl = document.getElementById('dateInfo');
-            const bodyEl = document.getElementById('newsBody');
-            
-            titleEl.textContent = record.date_display || record.date;
-            infoEl.textContent = record.weekday ? `${record.weekday} · ${record.news_count || record.news.length}条新闻` : '';
-            
             const isZh = currentLang === 'zh';
-            const readText = isZh ? '🔗 阅读原文' : '🔗 Read Original';
+            
+            // 更新标题
+            document.getElementById('contentDate').textContent = record.date_display || record.date;
+            document.getElementById('contentWeekday').textContent = record.weekday || '';
+            document.getElementById('briefCount').textContent = `${record.news_count || (record.news ? record.news.length : 0)} ${isZh ? '条精选情报' : 'Intelligence Briefs'}`;
+            
+            const container = document.getElementById('newsContainer');
             
             if (!record.news || record.news.length === 0) {
-                bodyEl.innerHTML = `<div class="empty-state"><p>${isZh ? '该日期暂无新闻数据' : 'No news available'}</p></div>`;
+                container.innerHTML = `
+                    <div class="text-center py-20 text-on-surface-variant/50">
+                        <span class="material-symbols-outlined text-5xl mb-4 opacity-30">article</span>
+                        <p>${isZh ? '该日期暂无新闻数据' : 'No news available for this date'}</p>
+                    </div>
+                `;
                 return;
             }
             
-            bodyEl.innerHTML = record.news.map((item, i) => `
-                <div class="news-item">
-                    <div class="news-number">${i + 1}</div>
-                    <div class="news-body">
-                        <h3 class="news-title">${escapeHtml(isZh ? item.title : (item.title_en || item.title))}</h3>
-                        <div class="news-source">📰 ${escapeHtml(item.site_name || '')}</div>
-                        <div class="news-summary">${escapeHtml(isZh ? item.summary : (item.summary_en || item.summary))}</div>
-                        <a href="${escapeHtml(item.url)}" class="news-link" target="_blank" rel="noopener">${readText}</a>
+            container.innerHTML = record.news.map((item, index) => `
+                <article class="news-card relative bg-surface-container-low border border-outline-variant rounded-xl p-6 md:p-8 glow-hover cursor-pointer group">
+                    <div class="news-card-bg">
+                        <span class="font-bold font-mono">${String(index + 1).padStart(2, '0')}</span>
                     </div>
-                </div>
+                    <div class="relative z-10">
+                        <div class="flex items-center gap-2 mb-3">
+                            <span class="material-symbols-outlined text-primary text-lg">article</span>
+                            <span class="text-xs text-on-surface-variant font-mono">${escapeHtml(item.site_name || '')}</span>
+                        </div>
+                        <h3 class="text-lg md:text-xl font-semibold text-on-surface mb-3 group-hover:text-primary transition-colors leading-snug">
+                            ${escapeHtml(isZh ? item.title : (item.title_en || item.title))}
+                        </h3>
+                        <p class="text-sm md:text-base text-on-surface-variant/80 leading-relaxed mb-4 max-w-3xl">
+                            ${escapeHtml(isZh ? item.summary : (item.summary_en || item.summary))}
+                        </p>
+                        <a href="${escapeHtml(item.url)}" target="_blank" rel="noopener" 
+                           class="inline-flex items-center gap-1 text-sm text-primary hover:underline font-medium">
+                            <span class="material-symbols-outlined text-base">open_in_new</span>
+                            ${isZh ? '阅读原文' : 'Read Original'}
+                        </a>
+                    </div>
+                </article>
             `).join('');
         }
         
-        // 显示空状态
         function showEmpty() {
             const isZh = currentLang === 'zh';
-            document.getElementById('contentTitle').textContent = isZh ? '暂无数据' : 'No Data';
-            document.getElementById('newsBody').innerHTML = `<div class="empty-state"><p>${isZh ? '暂无新闻数据' : 'No news available'}</p></div>`;
+            document.getElementById('contentDate').textContent = isZh ? '暂无数据' : 'No Data';
+            document.getElementById('contentWeekday').textContent = '';
+            document.getElementById('briefCount').textContent = isZh ? '暂无情报' : 'No Intelligence';
+            document.getElementById('newsContainer').innerHTML = `
+                <div class="text-center py-20 text-on-surface-variant/50">
+                    <span class="material-symbols-outlined text-5xl mb-4 opacity-30">article</span>
+                    <p>${isZh ? '暂无新闻数据' : 'No news available'}</p>
+                </div>
+            `;
         }
         
-        // 显示错误
         function showError() {
             const isZh = currentLang === 'zh';
-            document.getElementById('contentTitle').textContent = isZh ? '加载失败' : 'Load Failed';
-            document.getElementById('newsBody').innerHTML = `<div class="empty-state"><p>${isZh ? '无法加载数据，请稍后重试' : 'Failed to load data'}</p></div>`;
+            document.getElementById('contentDate').textContent = isZh ? '加载失败' : 'Error';
+            document.getElementById('newsContainer').innerHTML = `
+                <div class="text-center py-20 text-on-surface-variant/50">
+                    <span class="material-symbols-outlined text-5xl mb-4 opacity-30">error</span>
+                    <p>${isZh ? '无法加载数据' : 'Failed to load data'}</p>
+                </div>
+            `;
         }
         
-        // HTML转义
         function escapeHtml(str) {
             if (!str) return '';
-            return str.replace(/&/g, '&amp;')
-                      .replace(/</g, '&lt;')
-                      .replace(/>/g, '&gt;')
-                      .replace(/"/g, '&quot;')
-                      .replace(/'/g, '&#039;');
+            return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
         }
         
-        // 移动端菜单切换
         function toggleSidebar() {
             const sidebar = document.getElementById('sidebar');
             const overlay = document.getElementById('overlay');
-            sidebar.classList.toggle('open');
-            overlay.classList.toggle('show');
+            sidebar.classList.toggle('hidden');
+            sidebar.classList.toggle('flex');
+            overlay.classList.toggle('hidden');
         }
         
         function closeSidebar() {
-            document.getElementById('sidebar').classList.remove('open');
-            document.getElementById('overlay').classList.remove('show');
+            const sidebar = document.getElementById('sidebar');
+            const overlay = document.getElementById('overlay');
+            sidebar.classList.add('hidden');
+            sidebar.classList.remove('flex');
+            overlay.classList.add('hidden');
         }
         
-        // 页面加载完成后初始化
         document.addEventListener('DOMContentLoaded', loadData);
     </script>
 </body>
