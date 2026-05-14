@@ -17,6 +17,13 @@ DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY", "")
 HISTORY_FILE = "docs/history_data.json"
 MAX_DAYS = 30  # 保留最近 30 天
 
+# 邮件配置
+EMAIL_HOST = os.environ.get("EMAIL_HOST", "smtp.126.com")
+EMAIL_PORT = int(os.environ.get("EMAIL_PORT", "465"))
+EMAIL_USER = os.environ.get("EMAIL_USER", "")
+EMAIL_PASS = os.environ.get("EMAIL_PASS", "")
+SUBSCRIBER_EMAILS = os.environ.get("SUBSCRIBER_EMAILS", "")
+
 
 # ==================== 历史数据管理 ====================
 def load_history_data():
@@ -81,6 +88,116 @@ def add_today_record(history_data, news_items):
         print(f"    已添加新记录: {today}")
     
     return history_data
+
+
+# ==================== 邮件发送 ====================
+def send_daily_email(news_items, date_str):
+    """发送日报邮件给订阅者"""
+    import smtplib
+    from email.mime.text import MIMEText
+    from email.mime.multipart import MIMEMultipart
+    from email.utils import formataddr
+    
+    if not EMAIL_USER or not EMAIL_PASS or not SUBSCRIBER_EMAILS:
+        print("    ⚠️ 邮件配置不完整，跳过发送")
+        return False
+    
+    subscribers = [email.strip() for email in SUBSCRIBER_EMAILS.split(",") if email.strip()]
+    if not subscribers:
+        print("    ⚠️ 没有订阅者，跳过发送")
+        return False
+    
+    # 构建邮件内容
+    subject = f"🚗 智能座舱日报 | {date_str}"
+    
+    # HTML 邮件正文
+    html_content = f"""
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <style>
+            body {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', sans-serif; background: #f5f5f5; padding: 20px; }}
+            .container {{ max-width: 600px; margin: 0 auto; background: #fff; border-radius: 16px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.1); }}
+            .header {{ background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 30px; text-align: center; }}
+            .header h1 {{ color: #fff; margin: 0; font-size: 24px; }}
+            .header p {{ color: rgba(255,255,255,0.8); margin: 10px 0 0; font-size: 14px; }}
+            .content {{ padding: 30px; }}
+            .news-item {{ padding: 20px 0; border-bottom: 1px solid #eee; }}
+            .news-item:last-child {{ border-bottom: none; }}
+            .news-number {{ display: inline-block; width: 28px; height: 28px; background: linear-gradient(135deg, #667eea, #764ba2); color: #fff; border-radius: 50%; text-align: center; line-height: 28px; font-size: 14px; font-weight: bold; margin-right: 10px; }}
+            .news-title {{ font-size: 16px; font-weight: 600; color: #333; margin: 10px 0; }}
+            .news-meta {{ font-size: 12px; color: #888; margin-bottom: 8px; }}
+            .news-summary {{ font-size: 14px; color: #666; line-height: 1.8; }}
+            .news-link {{ display: inline-block; margin-top: 10px; padding: 6px 12px; background: #f0f0ff; color: #667eea; text-decoration: none; border-radius: 4px; font-size: 12px; }}
+            .footer {{ background: #f9f9f9; padding: 20px; text-align: center; font-size: 12px; color: #999; }}
+            .footer a {{ color: #667eea; text-decoration: none; }}
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>🚗 智能座舱日报</h1>
+                <p>{date_str} | 今日 {len(news_items)} 条精选资讯</p>
+            </div>
+            <div class="content">
+    """
+    
+    for i, item in enumerate(news_items, 1):
+        title = item.get("title", "")
+        summary = item.get("summary", "")[:200] + "..." if len(item.get("summary", "")) > 200 else item.get("summary", "")
+        url = item.get("url", "")
+        site = item.get("site_name", "")
+        pub_date = item.get("publish_date", "")
+        
+        html_content += f"""
+                <div class="news-item">
+                    <span class="news-number">{i}</span>
+                    <div class="news-title">{title}</div>
+                    <div class="news-meta">📰 {site}{" | 📅 " + pub_date if pub_date else ""}</div>
+                    <div class="news-summary">{summary}</div>
+                    <a href="{url}" class="news-link">🔗 阅读原文</a>
+                </div>
+        """
+    
+    html_content += f"""
+            </div>
+            <div class="footer">
+                <p>🌐 在线阅读: <a href="https://bridgetyangjie-1.github.io/cockpit-news/">bridgetyangjie-1.github.io/cockpit-news</a></p>
+                <p style="margin-top: 10px;">本邮件由系统自动发送 | 如有疑问请联系: bridgetyangjie@gmail.com</p>
+                <p style="margin-top: 5px;">© 2025 Bridget Yang</p>
+            </div>
+        </div>
+    </body>
+    </html>
+    """
+    
+    # 发送邮件
+    success_count = 0
+    for subscriber in subscribers:
+        try:
+            msg = MIMEMultipart('alternative')
+            msg['Subject'] = subject
+            msg['From'] = formataddr(("智能座舱日报", EMAIL_USER))
+            msg['To'] = subscriber
+            
+            msg.attach(MIMEText(html_content, 'html', 'utf-8'))
+            
+            # 使用 SSL 连接
+            import ssl
+            context = ssl.create_default_context()
+            
+            with smtplib.SMTP_SSL(EMAIL_HOST, EMAIL_PORT, context=context) as server:
+                server.login(EMAIL_USER, EMAIL_PASS)
+                server.sendmail(EMAIL_USER, [subscriber], msg.as_string())
+            
+            success_count += 1
+            print(f"    ✅ 已发送给: {subscriber}")
+            
+        except Exception as e:
+            print(f"    ❌ 发送失败 [{subscriber}]: {e}")
+    
+    print(f"    📧 邮件发送完成: {success_count}/{len(subscribers)} 成功")
+    return success_count > 0
 
 
 # ==================== 搜索 ====================
@@ -683,6 +800,12 @@ def main():
     print("🌐 生成页面...")
     generate_html("docs/index.html", lang='zh')
     generate_html("docs/en/index.html", lang='en')
+
+    # 8. 发送邮件
+    if items:
+        print("📧 发送日报邮件...")
+        today_str = datetime.now().strftime("%Y年%m月%d日")
+        send_daily_email(items, today_str)
 
     print("✅ 完成！30天历史归档已更新")
     return True
