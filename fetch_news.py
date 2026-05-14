@@ -135,6 +135,8 @@ def search_news(keywords, max_results=40):
                     title = (r.get("title") or "").strip()
                     url = (r.get("href") or "").strip()
                     body = (r.get("body") or "").strip()
+                    # 获取发布日期（DuckDuckGo 可能返回 date 字段）
+                    publish_date = (r.get("date") or "").strip()
 
                     if not title or not url:
                         continue
@@ -153,7 +155,8 @@ def search_news(keywords, max_results=40):
                         "title": title,
                         "url": url,
                         "snippet": body[:400],
-                        "site_name": site_name
+                        "site_name": site_name,
+                        "publish_date": publish_date  # 新增：发布日期
                     })
 
         print(f"    去重后共 {len(all_results)} 条不同新闻")
@@ -217,7 +220,7 @@ def filter_and_format(news_list):
     today = datetime.now().strftime("%Y-%m-%d")
 
     news_data = "\n\n".join([
-        f"新闻{i+1}:\n标题: {item['title']}\n来源: {item['site_name']}\n摘要: {item['snippet']}\n链接: {item['url']}"
+        f"新闻{i+1}:\n标题: {item['title']}\n来源: {item['site_name']}\n发布日期: {item.get('publish_date', '未知')}\n摘要: {item['snippet']}\n链接: {item['url']}"
         for i, item in enumerate(news_list)
     ])
 
@@ -246,6 +249,7 @@ def filter_and_format(news_list):
       "title_en": "English Title",
       "url": "原链接",
       "site_name": "来源媒体",
+      "publish_date": "发布日期（如2025-01-14，若未知则填写"近日"）",
       "summary": "200字中文深度洞察，严格按照要求的三句话逻辑撰写。",
       "summary_en": "200-word English professional analysis corresponding to the Chinese text."
     }}
@@ -296,7 +300,10 @@ def generate_html(output_path, lang='zh'):
             'footer': '数据来源：DuckDuckGo · DeepSeek AI',
             'switch_lang': 'English',
             'briefs': '条精选情报',
-            'by_author': '作者'
+            'by_author': '作者',
+            'published': '发布于',
+            'disclaimer': '本看板内容基于公开信息自动抓取，由AI分析生成，仅供参考研究使用，不代表作者立场。',
+            'copyright': '© 2025 Bridget Yang'
         },
         'en': {
             'title': 'Smart Cockpit',
@@ -313,7 +320,10 @@ def generate_html(output_path, lang='zh'):
             'footer': 'Source: DuckDuckGo · DeepSeek AI',
             'switch_lang': '中文',
             'briefs': 'Intelligence Briefs',
-            'by_author': 'By'
+            'by_author': 'By',
+            'published': 'Published',
+            'disclaimer': 'Content is auto-curated from public sources and AI-analyzed for research purposes only. Does not represent the author\'s views.',
+            'copyright': '© 2025 Bridget Yang'
         }
     }
     
@@ -416,6 +426,11 @@ def generate_html(output_path, lang='zh'):
                 <span class="material-symbols-outlined text-lg">mail</span>
                 <span class="text-sm">{t['author']}</span>
             </a>
+            <!-- 作者声明 -->
+            <div class="pt-3 mt-3 border-t border-outline-variant/50">
+                <p class="text-[10px] text-on-surface-variant/60 leading-relaxed">{t['disclaimer']}</p>
+                <p class="text-[10px] text-on-surface-variant/40 mt-2">{t['copyright']}</p>
+            </div>
         </div>
     </aside>
     
@@ -535,9 +550,15 @@ def generate_html(output_path, lang='zh'):
                         <span class="font-bold font-mono">${{String(index + 1).padStart(2, '0')}}</span>
                     </div>
                     <div class="relative z-10">
-                        <div class="flex items-center gap-2 mb-3">
-                            <span class="material-symbols-outlined text-primary text-lg">article</span>
-                            <span class="text-xs text-on-surface-variant font-mono">${{escapeHtml(item.site_name || '')}}</span>
+                        <div class="flex flex-wrap items-center gap-3 mb-3">
+                            <div class="flex items-center gap-2">
+                                <span class="material-symbols-outlined text-primary text-lg">article</span>
+                                <span class="text-xs text-on-surface-variant font-mono">${{escapeHtml(item.site_name || '')}}</span>
+                            </div>
+                            <div class="flex items-center gap-1 text-xs text-on-surface-variant/60">
+                                <span class="material-symbols-outlined text-sm">schedule</span>
+                                <span>${{escapeHtml(item.published_date || record.date_display || record.date)}}</span>
+                            </div>
                         </div>
                         <h3 class="text-lg md:text-xl font-semibold text-on-surface mb-3 group-hover:text-primary transition-colors leading-snug">
                             ${{escapeHtml(isZh ? item.title : (item.title_en || item.title))}}
