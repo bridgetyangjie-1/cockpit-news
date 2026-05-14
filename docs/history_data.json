@@ -1,0 +1,53 @@
+{
+  "records": [
+    {
+      "date": "2026-05-14",
+      "date_display": "05月14日",
+      "weekday": "周四",
+      "news_count": 5,
+      "news": [
+        {
+          "title": "6.99万起享智慧出行！启源Q05 OTA升级，车家互联开启全场景新体验",
+          "title_en": "Enjoy Smart Travel from 69,900 RMB! Qiyuan Q05 OTA Upgrade Enables Car-Home Connectivity for All-Scenario New Experience",
+          "url": "https://www.itbear.com.cn/html/2026-05/1333126.html",
+          "site_name": "ITBear",
+          "summary": "长安启源Q05通过OTA升级引入“天枢智联”生态，核心亮点是集成华为HiCar 3D车控桌面，实现手机与车机导航、音乐、日程等高频应用的实时同步与无缝流转。从用户研究视角看，该功能精准解决了跨设备数字生活割裂的痛点，将手机生态无缝延伸至座舱，降低了用户的学习成本与操作摩擦，创造了“上车即延续”的连贯体验。商业上，此举通过引入华为生态，显著提升了入门级车型的软件附加值，有望通过车家互联等场景拓展，为后续软件订阅服务（如家庭能源管理、远程家居控制）铺平道路，增强用户粘性。",
+          "summary_en": "Changan Qiyuan Q05 introduces the 'Tianshu Zhilian' ecosystem via OTA, highlighted by integrating Huawei HiCar 3D car control desktop, enabling real-time sync and seamless handoff of high-frequency apps like navigation, music, and calendar between phone and car. From a user research perspective, this feature precisely addresses the pain point of fragmented digital life across devices, seamlessly extending the phone ecosystem into the cockpit, reducing learning costs and operational friction, and creating a continuous 'get in and continue' experience. Commercially, by leveraging the Huawei ecosystem, it significantly boosts the software value of entry-level models, potentially paving the way for future subscription services (e.g., home energy management, remote home control) through car-home connectivity scenarios, thereby enhancing user stickiness."
+        },
+        {
+          "title": "科大讯飞开启全场景主动式AI座舱新时代",
+          "title_en": "iFLYTEK Ushers in a New Era of All-Scenario Proactive AI Cockpit",
+          "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-05-12/doc-inhxrshk9944436.shtml",
+          "site_name": "Sina Finance",
+          "summary": "科大讯飞发布星火新一代多模态智能座舱，核心突破在于实现覆盖高频全场景的自然语言控车，用户无需记忆指令，仅用日常语言（如“我有点热”）即可触发座舱结合人物状态、环境信息及偏好记忆的智能调节。从用户研究视角看，这标志着座舱交互从“被动响应”向“主动服务”的范式转变，极大降低了交互门槛，尤其对非技术用户友好，创造了更自然、拟人化的“管家式”体验。商业上，这种基于大模型的主动智能是构建差异化软件竞争力的关键，能有效提升用户满意度和使用时长，为车企通过AI服务（如个性化场景推荐、健康管理）实现软件订阅收入提供了坚实的技术底座。",
+          "summary_en": "iFLYTEK unveils the Spark new-generation multimodal intelligent cockpit, with a core breakthrough in natural language vehicle control covering all high-frequency scenarios. Users don't need to memorize commands; everyday language (e.g., 'I'm a bit hot') triggers intelligent adjustments by the cockpit, integrating user status, environmental info, and preference memory. From a user research perspective, this marks a paradigm shift from 'passive response' to 'proactive service' in cockpit interaction, drastically lowering the interaction barrier, especially for non-tech-savvy users, creating a more natural, anthropomorphic 'butler-like' experience. Commercially, this proactive intelligence based on large models is key to building differentiated software competitiveness, effectively boosting user satisfaction and engagement time, and providing a solid technological foundation for automakers to generate software subscription revenue through AI services like personalized scenario recommendations and health management."
+        },
+        {
+          "title": "Rivian 把 AI 语音助手装进车里，但它先是一项订阅服务",
+          "title_en": "Rivian Puts AI Voice Assistant in the Car, But It's a Subscription Service First",
+          "url": "https://www.ic.work/article/rivian-rolls-out-ai-voice-assistant-for-compatible-gen-1-gen",
+          "site_name": "ic.work",
+          "summary": "Rivian将其AI语音助手作为Connect Plus订阅体系的一部分推出，而非免费软件更新，明确将座舱AI功能定位为持续收费项目。从用户研究视角看，此举揭示了行业趋势：核心软件体验（如高级AI助手）正从购车附赠品转变为可订阅的数字服务，用户需重新评估购车后的长期持有成本。商业上，这为国内新势力提供了重要参照——将AI能力作为订阅服务，既能持续获取收入，又能通过功能迭代维持用户付费意愿，但前提是功能价值必须足够显著以克服用户对“硬件已付费，软件再收费”的抵触心理，对提升软件订阅率构成直接挑战与机遇。",
+          "summary_en": "Rivian launches its AI voice assistant as part of the Connect Plus subscription package, rather than a free software update, explicitly positioning cockpit AI features as a recurring revenue stream. From a user research perspective, this move reveals an industry trend: core software experiences like advanced AI assistants are transitioning from purchase add-ons to subscribable digital services, requiring users to reassess long-term ownership costs. Commercially, this offers a crucial reference for domestic EV startups: monetizing AI capabilities as a subscription can generate continuous revenue and sustain user willingness to pay through feature iteration, but the value proposition must be compelling enough to overcome user resistance to paying for software on already-purchased hardware, presenting both a challenge and an opportunity for boosting software subscription rates."
+        },
+        {
+          "title": "解放双手！理想任务大师自动离车不下电",
+          "title_en": "Hands-Free! Li Auto Task Master Enables Automatic 'Stay Powered On When Leaving'",
+          "url": "https://www.douyin.com/video/7637509713885695283",
+          "site_name": "Douyin",
+          "summary": "理想汽车通过“任务大师”功能，允许用户自定义自动化场景，例如设置“当主驾车门打开且副驾或后排有人时，自动开启离车不下电模式”，实现无需手动操作的智能体验。从用户研究视角看，这代表了座舱交互从“图形界面操作”向“用户自定义自动化”的演进，赋予用户极高的个性化控制权，解决了特定场景（如临时下车、乘客留守）下的操作繁琐痛点，创造了“无感”的智能体验。商业上，任务大师作为用户共创平台，能有效收集用户真实场景需求，通过分享码形成社区生态，极大提升用户参与感和品牌忠诚度，同时为OTA更新提供精准的功能优化方向，是增强用户粘性的低成本高回报策略。",
+          "summary_en": "Li Auto's 'Task Master' feature allows users to customize automation scenarios, such as setting 'when the driver's door opens and the passenger or rear seat is occupied, automatically enable 'stay powered on when leaving' mode,' achieving an intelligent experience without manual operation. From a user research perspective, this represents an evolution from 'GUI operation' to 'user-defined automation' in cockpit interaction, granting users high personalization control, solving the pain point of cumbersome operations in specific scenarios like temporary exits or passengers staying behind, and creating a 'seamless' intelligent experience. Commercially, Task Master serves as a user co-creation platform, effectively collecting real user scenario needs, forming a community ecosystem through share codes, greatly enhancing user engagement and brand loyalty, while providing precise optimization directions for OTA updates, making it a low-cost, high-return strategy for boosting user stickiness."
+        },
+        {
+          "title": "从“被动响应”到“主动服务”：科大讯飞重构智能座舱新范式",
+          "title_en": "From 'Passive Response' to 'Proactive Service': iFLYTEK Reconstructs the New Paradigm of Intelligent Cockpit",
+          "url": "https://www.163.com/dy/article/KSLFJS4805278R4J.html",
+          "site_name": "163.com",
+          "summary": "科大讯飞在北京车展上展示星火新一代多模态智能座舱，强调其从“听话的工具”进化为“会办事的管家”，核心是端侧多模态大模型与智能体生态，实现主动服务。从用户研究视角看，这解决了传统语音助手“一问一答”的被动性痛点，通过理解上下文、用户习惯和环境状态，主动提供建议（如提醒日程、推荐路线），创造了更贴心、高效的“预见式”交互体验。商业上，这种主动智能是构建软件护城河的关键，能显著提升用户对座舱系统的依赖度，为车企通过AI代理服务（如自动订餐、充电规划）开辟新的订阅收入来源，并形成难以被硬件同质化竞争所侵蚀的差异化优势。",
+          "summary_en": "iFLYTEK showcases the Spark new-generation multimodal intelligent cockpit at the Beijing Auto Show, emphasizing its evolution from an 'obedient tool' to a 'capable butler,' with the core being on-device multimodal large models and an agent ecosystem enabling proactive services. From a user research perspective, this addresses the pain point of traditional voice assistants' passive 'question-and-answer' nature, by understanding context, user habits, and environmental status to proactively offer suggestions like reminding of schedules or recommending routes, creating a more thoughtful and efficient 'anticipatory' interaction experience. Commercially, this proactive intelligence is key to building a software moat, significantly increasing user reliance on the cockpit system, opening new subscription revenue streams for automakers through AI agent services like automatic meal ordering or charging planning, and forming a differentiated advantage that is hard to erode by hardware commoditization."
+        }
+      ],
+      "created_at": "2026-05-14 03:39:19"
+    }
+  ]
+}

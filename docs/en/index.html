@@ -3,103 +3,551 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🚗 Smart Cockpit Daily 2026-05-14 03:16</title>
+    <title>🚗 Smart Cockpit Daily</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
+        
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
                       "PingFang SC", "Microsoft YaHei", sans-serif;
             background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
-            min-height: 100vh; padding: 30px 15px;
+            min-height: 100vh;
+            display: flex;
         }
-        .container { max-width: 860px; margin: 0 auto; }
-        .header { text-align: center; margin-bottom: 30px; color: #fff; position: relative; }
-        .header h1 { font-size: 28px; margin-bottom: 8px; }
-        .header .sub { font-size: 13px; opacity: 0.7; }
-        .lang-switch {
-            display: inline-block; margin-top: 12px; padding: 8px 20px;
-            border-radius: 20px; background: rgba(255,255,255,0.15);
-            color: #fff; text-decoration: none; font-size: 14px; font-weight: 500;
-            transition: background 0.3s;
+        
+        /* 主容器 */
+        .app-container {
+            display: flex;
+            width: 100%;
+            min-height: 100vh;
         }
-        .lang-switch:hover { background: rgba(255,255,255,0.3); }
-        .card { background: #fff; border-radius: 16px; overflow: hidden; box-shadow: 0 20px 60px rgba(0,0,0,0.3); }
-        .card-body { padding: 30px; }
-        .news-item { display: flex; gap: 16px; padding: 20px 0; border-bottom: 1px solid #f0f0f0; }
-        .news-item:last-child { border-bottom: none; }
-        .news-number {
-            width: 36px; height: 36px; border-radius: 50%;
+        
+        /* 移动端顶部栏 */
+        .mobile-header {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 60px;
+            background: rgba(15, 12, 41, 0.95);
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+            padding: 0 15px;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+        
+        .mobile-header h1 {
+            color: #fff;
+            font-size: 18px;
+        }
+        
+        .menu-toggle {
+            background: rgba(255,255,255,0.1);
+            border: none;
+            color: #fff;
+            padding: 8px 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        
+        /* 左侧边栏 */
+        .sidebar {
+            width: 280px;
+            min-width: 280px;
+            background: rgba(255, 255, 255, 0.03);
+            border-right: 1px solid rgba(255, 255, 255, 0.1);
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            position: sticky;
+            top: 0;
+        }
+        
+        .sidebar-header {
+            padding: 25px 20px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .sidebar-header h1 {
+            color: #fff;
+            font-size: 22px;
+            margin-bottom: 5px;
+        }
+        
+        .sidebar-header .subtitle {
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 13px;
+        }
+        
+        .sidebar-title {
+            padding: 15px 20px;
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 13px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .date-list {
+            flex: 1;
+            overflow-y: auto;
+            padding: 10px;
+        }
+        
+        .date-item {
+            display: flex;
+            align-items: center;
+            padding: 12px 15px;
+            margin-bottom: 5px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.2s;
+            color: rgba(255, 255, 255, 0.7);
+        }
+        
+        .date-item:hover {
+            background: rgba(255, 255, 255, 0.08);
+            color: #fff;
+        }
+        
+        .date-item.active {
             background: linear-gradient(135deg, #667eea, #764ba2);
-            color: #fff; display: flex; align-items: center;
-            justify-content: center; font-weight: bold; font-size: 16px; flex-shrink: 0;
+            color: #fff;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
         }
-        .news-body { flex: 1; }
-        .news-title { font-size: 18px; font-weight: 600; color: #1a1a2e; margin-bottom: 6px; line-height: 1.4; }
-        .news-source { font-size: 13px; color: #888; margin-bottom: 10px; }
-        .news-summary { font-size: 14.5px; line-height: 1.8; color: #444; margin-bottom: 12px; }
-        .news-link { display: inline-block; font-size: 13px; color: #667eea; text-decoration: none; padding: 4px 12px; border-radius: 4px; background: #f0f0ff; }
-        .news-link:hover { background: #e0e0ff; text-decoration: underline; }
-        .footer { text-align: center; padding: 18px; color: #999; font-size: 12px; border-top: 1px solid #f0f0f0; }
-        .no-news { text-align: center; padding: 40px; color: #999; }
-        @media (max-width: 600px) { .card-body { padding: 16px; } .news-title { font-size: 16px; } .news-summary { font-size: 14px; } }
+        
+        .date-item .date-text {
+            flex: 1;
+        }
+        
+        .date-item .date-main {
+            font-size: 15px;
+            font-weight: 500;
+        }
+        
+        .date-item .date-weekday {
+            font-size: 12px;
+            opacity: 0.7;
+            margin-top: 2px;
+        }
+        
+        .date-item .news-count {
+            background: rgba(255, 255, 255, 0.15);
+            padding: 3px 8px;
+            border-radius: 10px;
+            font-size: 11px;
+            font-weight: 600;
+        }
+        
+        .sidebar-footer {
+            padding: 15px 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .lang-switch {
+            display: block;
+            text-align: center;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.1);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 14px;
+            transition: background 0.2s;
+        }
+        
+        .lang-switch:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+        
+        /* 右侧主内容区 */
+        .main-content {
+            flex: 1;
+            padding: 30px;
+            overflow-y: auto;
+            height: 100vh;
+        }
+        
+        .content-header {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #fff;
+        }
+        
+        .content-header h2 {
+            font-size: 26px;
+            margin-bottom: 8px;
+        }
+        
+        .content-header .date-info {
+            font-size: 14px;
+            opacity: 0.7;
+        }
+        
+        /* 新闻卡片容器 */
+        .news-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .news-card {
+            background: #fff;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+        
+        .news-card-body {
+            padding: 30px;
+        }
+        
+        .news-item {
+            display: flex;
+            gap: 16px;
+            padding: 20px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        
+        .news-item:last-child {
+            border-bottom: none;
+        }
+        
+        .news-number {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 16px;
+            flex-shrink: 0;
+        }
+        
+        .news-body {
+            flex: 1;
+        }
+        
+        .news-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #1a1a2e;
+            margin-bottom: 6px;
+            line-height: 1.4;
+        }
+        
+        .news-source {
+            font-size: 13px;
+            color: #888;
+            margin-bottom: 10px;
+        }
+        
+        .news-summary {
+            font-size: 14.5px;
+            line-height: 1.8;
+            color: #444;
+            margin-bottom: 12px;
+        }
+        
+        .news-link {
+            display: inline-block;
+            font-size: 13px;
+            color: #667eea;
+            text-decoration: none;
+            padding: 4px 12px;
+            border-radius: 4px;
+            background: #f0f0ff;
+            transition: all 0.2s;
+        }
+        
+        .news-link:hover {
+            background: #e0e0ff;
+            text-decoration: underline;
+        }
+        
+        .card-footer {
+            text-align: center;
+            padding: 18px;
+            color: #999;
+            font-size: 12px;
+            border-top: 1px solid #f0f0f0;
+        }
+        
+        /* 加载状态 */
+        .loading-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: rgba(255, 255, 255, 0.6);
+        }
+        
+        .loading-spinner {
+            width: 40px;
+            height: 40px;
+            border: 3px solid rgba(255, 255, 255, 0.1);
+            border-top-color: #667eea;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+        
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: rgba(255, 255, 255, 0.5);
+        }
+        
+        /* 移动端适配 */
+        @media (max-width: 768px) {
+            .mobile-header {
+                display: flex;
+            }
+            
+            .sidebar {
+                position: fixed;
+                left: -280px;
+                top: 60px;
+                height: calc(100vh - 60px);
+                z-index: 999;
+                transition: left 0.3s ease;
+                background: rgba(15, 12, 41, 0.98);
+            }
+            
+            .sidebar.open {
+                left: 0;
+            }
+            
+            .main-content {
+                margin-top: 60px;
+                height: calc(100vh - 60px);
+                padding: 20px 15px;
+            }
+            
+            .content-header h2 {
+                font-size: 22px;
+            }
+            
+            .news-card-body {
+                padding: 20px 15px;
+            }
+            
+            .news-title {
+                font-size: 16px;
+            }
+            
+            .news-summary {
+                font-size: 14px;
+            }
+            
+            /* 遮罩层 */
+            .overlay {
+                display: none;
+                position: fixed;
+                top: 60px;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: rgba(0, 0, 0, 0.5);
+                z-index: 998;
+            }
+            
+            .overlay.show {
+                display: block;
+            }
+        }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>🚗 Smart Cockpit Daily</h1>
-            <p class="sub">2026-05-14 03:16 · Auto-updated by GitHub Actions</p>
-            <p><a href="../index.html" class="lang-switch">🌐 中文</a><br><span style="font-size:12px;opacity:0.6">Switch to Chinese</span></p>
-        </div>
-        <div class="card">
-            <div class="card-body">
-            <div class="news-item">
-                <div class="news-number">1</div>
-                <div class="news-body">
-                    <h2 class="news-title">Google Announces Major Android Auto Update with AI, Movie Screens &amp; Widgets</h2>
-                    <div class="news-source">📰 Google News</div>
-                    <div class="news-summary">Core event: Google announced a major Android Auto update, introducing an AI assistant, movie screen support, and customizable widgets. Technical/experience highlights: AI integration enables more natural voice interaction and proactive suggestions; movie screen functionality could transform entertainment during parking or charging; widgets allow users to personalize the home screen information layout. Long-term impact: This move deeply embeds the flexibility of the mobile ecosystem and AI capabilities into the in-vehicle system, potentially driving the transformation of the car from a &#x27;tool&#x27; to an &#x27;intelligent space,&#x27; but risks of distracted driving and content ecosystem compliance must be carefully managed.</div>
-                    <a href="https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2oxazRhT0VSRi1lT0Rkb0lzNlF5Z0FQAQ?hl=en-US&amp;gl=US&amp;ceid=US:en" class="news-link" target="_blank" rel="noopener">🔗 Read Original</a>
-                </div>
-            </div>
-            <div class="news-item">
-                <div class="news-number">2</div>
-                <div class="news-body">
-                    <h2 class="news-title">Rivian Launches Native AI Assistant and Unified Intelligence Platform</h2>
-                    <div class="news-source">📰 Rivian Stories</div>
-                    <div class="news-summary">Core event: Rivian launched &#x27;Rivian Assistant,&#x27; an AI assistant deeply integrated into vehicle hardware and software, along with a unified intelligence platform. Technical/experience highlights: Unlike simple voice commands in phone-mirroring systems, this assistant can directly control all vehicle functions, enabling end-to-end voice operations from navigation to vehicle settings, and has the ability to learn user habits. Long-term impact: Rivian sets a new benchmark for native in-vehicle AI, potentially forcing other OEMs to accelerate proprietary AI assistant development, but data privacy and AI decision reliability will be key challenges for user trust.</div>
-                    <a href="https://stories.rivian.com/software-update-hey-rivian-assistant-connect-ai-2026" class="news-link" target="_blank" rel="noopener">🔗 Read Original</a>
-                </div>
-            </div>
-            <div class="news-item">
-                <div class="news-number">3</div>
-                <div class="news-body">
-                    <h2 class="news-title">Waymo Expands Robotaxi Coverage More Than 20%, Covering 11 US Cities</h2>
-                    <div class="news-source">📰 Electrek</div>
-                    <div class="news-summary">Core event: Waymo announced a major expansion of its autonomous robotaxi service area to over 1,400 square miles, covering 11 US cities. Technical/experience highlights: This expansion is based on its mature Level 4 autonomous driving technology, optimizing algorithms through large-scale operational data to achieve safe navigation in complex urban environments. Long-term impact: Waymo&#x27;s scaling marks a new phase in autonomous driving commercialization, potentially accelerating regulatory framework development and disrupting traditional mobility models, but operational costs and handling of extreme scenarios remain bottlenecks for profitability and widespread adoption.</div>
-                    <a href="https://electrek.co/2026/05/13/waymo-expands-coverage-1400-square-miles-11-cities/" class="news-link" target="_blank" rel="noopener">🔗 Read Original</a>
-                </div>
-            </div>
-            <div class="news-item">
-                <div class="news-number">4</div>
-                <div class="news-body">
-                    <h2 class="news-title">Tesla Prototype UI for OS V11 Revealed: Customizable Tile Interface</h2>
-                    <div class="news-source">📰 Not a Tesla App</div>
-                    <div class="news-summary">Core event: Images of Tesla&#x27;s prototype UI for software version V11 have been revealed, showcasing a new tile-based interface. Technical/experience highlights: Users can customize tiles to display music, vehicle visualizations, maps, calendar, energy graphs, etc., enabling highly personalized information layouts, marking Tesla&#x27;s shift from fixed layouts to modular interaction. Long-term impact: If mass-produced, this design could redefine the interaction paradigm of in-vehicle infotainment systems, pushing the industry toward user-configurable &#x27;desktop-like&#x27; cockpits, but excessive customization may increase operational complexity and learning costs.</div>
-                    <a href="https://www.notateslaapp.com/news/448/images-of-tesla-s-v11-software-release" class="news-link" target="_blank" rel="noopener">🔗 Read Original</a>
-                </div>
-            </div>
-            <div class="news-item">
-                <div class="news-number">5</div>
-                <div class="news-body">
-                    <h2 class="news-title">Bosch Unveils AI-Powered Cockpit at CES 2026: From Vehicle to Smart Learning Partner</h2>
-                    <div class="news-source">📰 LinkedIn</div>
-                    <div class="news-summary">Core event: Bosch unveiled an AI-powered cockpit at CES 2026, transforming the vehicle from a simple means of transportation into a smart learning partner that understands user habits, preferences, and context. Technical/experience highlights: The cockpit uses an AI platform to deliver proactive services, such as automatically adjusting the in-car environment based on schedules, predicting driving needs, and supporting multimodal interaction (voice, gesture, gaze). Long-term impact: As a top-tier Tier 1 supplier, Bosch&#x27;s move will accelerate the adoption of AI cockpits, potentially making &#x27;emotional&#x27; interaction a standard feature in high-end vehicles, but the privacy boundaries of data collection and consequences of AI misjudgment require industry-wide regulation.</div>
-                    <a href="https://www.linkedin.com/posts/techbrieflycom_bosch-unveils-ai-extension-platform-ai-powered-activity-7415286444061089792-gcL6" class="news-link" target="_blank" rel="noopener">🔗 Read Original</a>
-                </div>
-            </div></div>
-            <div class="footer">Source: DuckDuckGo Search · Analysis: DeepSeek AI</div>
-        </div>
+    <!-- 移动端顶部栏 -->
+    <div class="mobile-header">
+        <h1>🚗 Smart Cockpit Daily</h1>
+        <button class="menu-toggle" onclick="toggleSidebar()">☰ Menu</button>
     </div>
+    
+    <!-- 遮罩层（移动端） -->
+    <div class="overlay" id="overlay" onclick="toggleSidebar()"></div>
+    
+    <div class="app-container">
+        <!-- 左侧边栏 -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <h1>🚗 Smart Cockpit Daily</h1>
+                <p class="subtitle">30-Day Archive</p>
+            </div>
+            
+            <div class="sidebar-title">📅 Archive</div>
+            
+            <div class="date-list" id="dateList">
+                <!-- 动态加载日期列表 -->
+            </div>
+            
+            <div class="sidebar-footer">
+                <a href="../index.html" class="lang-switch">🌐 中文</a>
+            </div>
+        </aside>
+        
+        <!-- 右侧主内容区 -->
+        <main class="main-content">
+            <div class="content-header">
+                <h2 id="contentTitle">Loading...</h2>
+                <p class="date-info" id="dateInfo"></p>
+            </div>
+            
+            <div class="news-container">
+                <div class="news-card">
+                    <div class="news-card-body" id="newsBody">
+                        <div class="loading-state">
+                            <div class="loading-spinner"></div>
+                            <p>Loading...</p>
+                        </div>
+                    </div>
+                    <div class="card-footer">Source: DuckDuckGo Search · Analysis: DeepSeek AI</div>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <script>
+        // 全局数据
+        let historyData = { records: [] };
+        let currentLang = 'en';
+        
+        // 加载历史数据
+        async function loadData() {
+            try {
+                const response = await fetch('../history_data.json');
+                if (!response.ok) throw new Error('Failed to load data');
+                historyData = await response.json();
+                renderDateList();
+                if (historyData.records.length > 0) {
+                    selectDate(historyData.records[0].date);
+                } else {
+                    showEmpty();
+                }
+            } catch (error) {
+                console.error('Load error:', error);
+                showError();
+            }
+        }
+        
+        // 渲染日期列表
+        function renderDateList() {
+            const container = document.getElementById('dateList');
+            if (!historyData.records || historyData.records.length === 0) {
+                container.innerHTML = '<div class="empty-state"><p>暂无历史数据</p></div>';
+                return;
+            }
+            
+            container.innerHTML = historyData.records.map(record => `
+                <div class="date-item" data-date="${record.date}" onclick="selectDate('${record.date}')">
+                    <div class="date-text">
+                        <div class="date-main">${record.date_display || record.date}</div>
+                        <div class="date-weekday">${record.weekday || ''}</div>
+                    </div>
+                    <div class="news-count">${record.news_count || (record.news ? record.news.length : 0)}条</div>
+                </div>
+            `).join('');
+        }
+        
+        // 选择日期
+        function selectDate(date) {
+            // 更新高亮
+            document.querySelectorAll('.date-item').forEach(el => {
+                el.classList.toggle('active', el.dataset.date === date);
+            });
+            
+            // 查找对应记录
+            const record = historyData.records.find(r => r.date === date);
+            if (record) {
+                renderNews(record);
+            } else {
+                showEmpty();
+            }
+            
+            // 移动端关闭侧边栏
+            if (window.innerWidth <= 768) {
+                closeSidebar();
+            }
+        }
+        
+        // 渲染新闻内容
+        function renderNews(record) {
+            const titleEl = document.getElementById('contentTitle');
+            const infoEl = document.getElementById('dateInfo');
+            const bodyEl = document.getElementById('newsBody');
+            
+            titleEl.textContent = record.date_display || record.date;
+            infoEl.textContent = record.weekday ? `${record.weekday} · ${record.news_count || record.news.length}条新闻` : '';
+            
+            const isZh = currentLang === 'zh';
+            const readText = isZh ? '🔗 阅读原文' : '🔗 Read Original';
+            
+            if (!record.news || record.news.length === 0) {
+                bodyEl.innerHTML = `<div class="empty-state"><p>${isZh ? '该日期暂无新闻数据' : 'No news available'}</p></div>`;
+                return;
+            }
+            
+            bodyEl.innerHTML = record.news.map((item, i) => `
+                <div class="news-item">
+                    <div class="news-number">${i + 1}</div>
+                    <div class="news-body">
+                        <h3 class="news-title">${escapeHtml(isZh ? item.title : (item.title_en || item.title))}</h3>
+                        <div class="news-source">📰 ${escapeHtml(item.site_name || '')}</div>
+                        <div class="news-summary">${escapeHtml(isZh ? item.summary : (item.summary_en || item.summary))}</div>
+                        <a href="${escapeHtml(item.url)}" class="news-link" target="_blank" rel="noopener">${readText}</a>
+                    </div>
+                </div>
+            `).join('');
+        }
+        
+        // 显示空状态
+        function showEmpty() {
+            const isZh = currentLang === 'zh';
+            document.getElementById('contentTitle').textContent = isZh ? '暂无数据' : 'No Data';
+            document.getElementById('newsBody').innerHTML = `<div class="empty-state"><p>${isZh ? '暂无新闻数据' : 'No news available'}</p></div>`;
+        }
+        
+        // 显示错误
+        function showError() {
+            const isZh = currentLang === 'zh';
+            document.getElementById('contentTitle').textContent = isZh ? '加载失败' : 'Load Failed';
+            document.getElementById('newsBody').innerHTML = `<div class="empty-state"><p>${isZh ? '无法加载数据，请稍后重试' : 'Failed to load data'}</p></div>`;
+        }
+        
+        // HTML转义
+        function escapeHtml(str) {
+            if (!str) return '';
+            return str.replace(/&/g, '&amp;')
+                      .replace(/</g, '&lt;')
+                      .replace(/>/g, '&gt;')
+                      .replace(/"/g, '&quot;')
+                      .replace(/'/g, '&#039;');
+        }
+        
+        // 移动端菜单切换
+        function toggleSidebar() {
+            const sidebar = document.getElementById('sidebar');
+            const overlay = document.getElementById('overlay');
+            sidebar.classList.toggle('open');
+            overlay.classList.toggle('show');
+        }
+        
+        function closeSidebar() {
+            document.getElementById('sidebar').classList.remove('open');
+            document.getElementById('overlay').classList.remove('show');
+        }
+        
+        // 页面加载完成后初始化
+        document.addEventListener('DOMContentLoaded', loadData);
+    </script>
 </body>
 </html>

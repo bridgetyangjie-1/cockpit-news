@@ -3,103 +3,551 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🚗 智能座舱日报 2026-05-14 03:16</title>
+    <title>🚗 智能座舱日报</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
+        
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
                       "PingFang SC", "Microsoft YaHei", sans-serif;
             background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
-            min-height: 100vh; padding: 30px 15px;
+            min-height: 100vh;
+            display: flex;
         }
-        .container { max-width: 860px; margin: 0 auto; }
-        .header { text-align: center; margin-bottom: 30px; color: #fff; position: relative; }
-        .header h1 { font-size: 28px; margin-bottom: 8px; }
-        .header .sub { font-size: 13px; opacity: 0.7; }
-        .lang-switch {
-            display: inline-block; margin-top: 12px; padding: 8px 20px;
-            border-radius: 20px; background: rgba(255,255,255,0.15);
-            color: #fff; text-decoration: none; font-size: 14px; font-weight: 500;
-            transition: background 0.3s;
+        
+        /* 主容器 */
+        .app-container {
+            display: flex;
+            width: 100%;
+            min-height: 100vh;
         }
-        .lang-switch:hover { background: rgba(255,255,255,0.3); }
-        .card { background: #fff; border-radius: 16px; overflow: hidden; box-shadow: 0 20px 60px rgba(0,0,0,0.3); }
-        .card-body { padding: 30px; }
-        .news-item { display: flex; gap: 16px; padding: 20px 0; border-bottom: 1px solid #f0f0f0; }
-        .news-item:last-child { border-bottom: none; }
-        .news-number {
-            width: 36px; height: 36px; border-radius: 50%;
+        
+        /* 移动端顶部栏 */
+        .mobile-header {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 60px;
+            background: rgba(15, 12, 41, 0.95);
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+            padding: 0 15px;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+        
+        .mobile-header h1 {
+            color: #fff;
+            font-size: 18px;
+        }
+        
+        .menu-toggle {
+            background: rgba(255,255,255,0.1);
+            border: none;
+            color: #fff;
+            padding: 8px 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        
+        /* 左侧边栏 */
+        .sidebar {
+            width: 280px;
+            min-width: 280px;
+            background: rgba(255, 255, 255, 0.03);
+            border-right: 1px solid rgba(255, 255, 255, 0.1);
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            position: sticky;
+            top: 0;
+        }
+        
+        .sidebar-header {
+            padding: 25px 20px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .sidebar-header h1 {
+            color: #fff;
+            font-size: 22px;
+            margin-bottom: 5px;
+        }
+        
+        .sidebar-header .subtitle {
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 13px;
+        }
+        
+        .sidebar-title {
+            padding: 15px 20px;
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 13px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .date-list {
+            flex: 1;
+            overflow-y: auto;
+            padding: 10px;
+        }
+        
+        .date-item {
+            display: flex;
+            align-items: center;
+            padding: 12px 15px;
+            margin-bottom: 5px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.2s;
+            color: rgba(255, 255, 255, 0.7);
+        }
+        
+        .date-item:hover {
+            background: rgba(255, 255, 255, 0.08);
+            color: #fff;
+        }
+        
+        .date-item.active {
             background: linear-gradient(135deg, #667eea, #764ba2);
-            color: #fff; display: flex; align-items: center;
-            justify-content: center; font-weight: bold; font-size: 16px; flex-shrink: 0;
+            color: #fff;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
         }
-        .news-body { flex: 1; }
-        .news-title { font-size: 18px; font-weight: 600; color: #1a1a2e; margin-bottom: 6px; line-height: 1.4; }
-        .news-source { font-size: 13px; color: #888; margin-bottom: 10px; }
-        .news-summary { font-size: 14.5px; line-height: 1.8; color: #444; margin-bottom: 12px; }
-        .news-link { display: inline-block; font-size: 13px; color: #667eea; text-decoration: none; padding: 4px 12px; border-radius: 4px; background: #f0f0ff; }
-        .news-link:hover { background: #e0e0ff; text-decoration: underline; }
-        .footer { text-align: center; padding: 18px; color: #999; font-size: 12px; border-top: 1px solid #f0f0f0; }
-        .no-news { text-align: center; padding: 40px; color: #999; }
-        @media (max-width: 600px) { .card-body { padding: 16px; } .news-title { font-size: 16px; } .news-summary { font-size: 14px; } }
+        
+        .date-item .date-text {
+            flex: 1;
+        }
+        
+        .date-item .date-main {
+            font-size: 15px;
+            font-weight: 500;
+        }
+        
+        .date-item .date-weekday {
+            font-size: 12px;
+            opacity: 0.7;
+            margin-top: 2px;
+        }
+        
+        .date-item .news-count {
+            background: rgba(255, 255, 255, 0.15);
+            padding: 3px 8px;
+            border-radius: 10px;
+            font-size: 11px;
+            font-weight: 600;
+        }
+        
+        .sidebar-footer {
+            padding: 15px 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .lang-switch {
+            display: block;
+            text-align: center;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.1);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 14px;
+            transition: background 0.2s;
+        }
+        
+        .lang-switch:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+        
+        /* 右侧主内容区 */
+        .main-content {
+            flex: 1;
+            padding: 30px;
+            overflow-y: auto;
+            height: 100vh;
+        }
+        
+        .content-header {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #fff;
+        }
+        
+        .content-header h2 {
+            font-size: 26px;
+            margin-bottom: 8px;
+        }
+        
+        .content-header .date-info {
+            font-size: 14px;
+            opacity: 0.7;
+        }
+        
+        /* 新闻卡片容器 */
+        .news-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .news-card {
+            background: #fff;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+        
+        .news-card-body {
+            padding: 30px;
+        }
+        
+        .news-item {
+            display: flex;
+            gap: 16px;
+            padding: 20px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        
+        .news-item:last-child {
+            border-bottom: none;
+        }
+        
+        .news-number {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 16px;
+            flex-shrink: 0;
+        }
+        
+        .news-body {
+            flex: 1;
+        }
+        
+        .news-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #1a1a2e;
+            margin-bottom: 6px;
+            line-height: 1.4;
+        }
+        
+        .news-source {
+            font-size: 13px;
+            color: #888;
+            margin-bottom: 10px;
+        }
+        
+        .news-summary {
+            font-size: 14.5px;
+            line-height: 1.8;
+            color: #444;
+            margin-bottom: 12px;
+        }
+        
+        .news-link {
+            display: inline-block;
+            font-size: 13px;
+            color: #667eea;
+            text-decoration: none;
+            padding: 4px 12px;
+            border-radius: 4px;
+            background: #f0f0ff;
+            transition: all 0.2s;
+        }
+        
+        .news-link:hover {
+            background: #e0e0ff;
+            text-decoration: underline;
+        }
+        
+        .card-footer {
+            text-align: center;
+            padding: 18px;
+            color: #999;
+            font-size: 12px;
+            border-top: 1px solid #f0f0f0;
+        }
+        
+        /* 加载状态 */
+        .loading-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: rgba(255, 255, 255, 0.6);
+        }
+        
+        .loading-spinner {
+            width: 40px;
+            height: 40px;
+            border: 3px solid rgba(255, 255, 255, 0.1);
+            border-top-color: #667eea;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+        
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: rgba(255, 255, 255, 0.5);
+        }
+        
+        /* 移动端适配 */
+        @media (max-width: 768px) {
+            .mobile-header {
+                display: flex;
+            }
+            
+            .sidebar {
+                position: fixed;
+                left: -280px;
+                top: 60px;
+                height: calc(100vh - 60px);
+                z-index: 999;
+                transition: left 0.3s ease;
+                background: rgba(15, 12, 41, 0.98);
+            }
+            
+            .sidebar.open {
+                left: 0;
+            }
+            
+            .main-content {
+                margin-top: 60px;
+                height: calc(100vh - 60px);
+                padding: 20px 15px;
+            }
+            
+            .content-header h2 {
+                font-size: 22px;
+            }
+            
+            .news-card-body {
+                padding: 20px 15px;
+            }
+            
+            .news-title {
+                font-size: 16px;
+            }
+            
+            .news-summary {
+                font-size: 14px;
+            }
+            
+            /* 遮罩层 */
+            .overlay {
+                display: none;
+                position: fixed;
+                top: 60px;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: rgba(0, 0, 0, 0.5);
+                z-index: 998;
+            }
+            
+            .overlay.show {
+                display: block;
+            }
+        }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>🚗 智能座舱日报</h1>
-            <p class="sub">2026-05-14 03:16 · 由 GitHub Actions 自动更新</p>
-            <p><a href="en/index.html" class="lang-switch">🌐 EN</a><br><span style="font-size:12px;opacity:0.6">切换到英文版</span></p>
-        </div>
-        <div class="card">
-            <div class="card-body">
-            <div class="news-item">
-                <div class="news-number">1</div>
-                <div class="news-body">
-                    <h2 class="news-title">Google宣布Android Auto重大更新，集成AI、电影屏幕与Widgets</h2>
-                    <div class="news-source">📰 Google News</div>
-                    <div class="news-summary">核心事件：Google宣布对Android Auto进行重大更新，引入AI助手、电影屏幕支持及可定制Widgets。技术/体验亮点：AI集成将实现更自然的语音交互与主动建议，电影屏幕功能可能改变停车或充电时的娱乐体验，Widgets则允许用户个性化主屏信息布局。长期影响：此举将手机生态的灵活性与AI能力深度植入车载系统，可能推动车机从“工具”向“智能空间”转型，但需警惕分心驾驶风险与内容生态的合规性挑战。</div>
-                    <a href="https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2oxazRhT0VSRi1lT0Rkb0lzNlF5Z0FQAQ?hl=en-US&amp;gl=US&amp;ceid=US:en" class="news-link" target="_blank" rel="noopener">🔗 阅读原文</a>
-                </div>
-            </div>
-            <div class="news-item">
-                <div class="news-number">2</div>
-                <div class="news-body">
-                    <h2 class="news-title">Rivian发布原生AI助手与统一智能平台</h2>
-                    <div class="news-source">📰 Rivian Stories</div>
-                    <div class="news-summary">核心事件：Rivian推出深度集成于车辆硬件与软件的AI助手“Rivian Assistant”及统一智能平台。技术/体验亮点：与手机镜像系统的简单语音命令不同，该助手能直接控制车辆所有功能，实现从导航到车辆设置的端到端语音操作，并具备学习用户习惯的能力。长期影响：Rivian此举树立了原生车载AI的新标杆，可能迫使其他OEM加速自研AI助手，但数据隐私与AI决策的可靠性将成为用户信任的关键挑战。</div>
-                    <a href="https://stories.rivian.com/software-update-hey-rivian-assistant-connect-ai-2026" class="news-link" target="_blank" rel="noopener">🔗 阅读原文</a>
-                </div>
-            </div>
-            <div class="news-item">
-                <div class="news-number">3</div>
-                <div class="news-body">
-                    <h2 class="news-title">Waymo自动驾驶出租车服务面积扩大20%以上，覆盖11个美国城市</h2>
-                    <div class="news-source">📰 Electrek</div>
-                    <div class="news-summary">核心事件：Waymo宣布将其自动驾驶出租车服务区域大幅扩展至超过1400平方英里，覆盖11个美国城市。技术/体验亮点：此次扩张基于其成熟的L4级自动驾驶技术，通过大规模运营数据优化算法，实现了在复杂城市环境中的安全导航。长期影响：Waymo的规模化扩张标志着自动驾驶商业化进入新阶段，可能加速监管框架的完善与传统出行模式的颠覆，但运营成本与极端场景处理能力仍是盈利与普及的瓶颈。</div>
-                    <a href="https://electrek.co/2026/05/13/waymo-expands-coverage-1400-square-miles-11-cities/" class="news-link" target="_blank" rel="noopener">🔗 阅读原文</a>
-                </div>
-            </div>
-            <div class="news-item">
-                <div class="news-number">4</div>
-                <div class="news-body">
-                    <h2 class="news-title">特斯拉V11原型UI曝光：可定制磁贴界面</h2>
-                    <div class="news-source">📰 Not a Tesla App</div>
-                    <div class="news-summary">核心事件：特斯拉V11软件版本的原型UI图像曝光，展示了一种全新的磁贴式界面。技术/体验亮点：用户可自定义显示音乐、车辆可视化、地图、日历、能量图等磁贴，实现高度个性化的信息布局，这标志着特斯拉从固定布局向模块化交互的转变。长期影响：若该设计量产，将重新定义车载信息娱乐系统的交互范式，推动行业向用户可配置的“桌面化”车机演进，但过度自定义可能增加操作复杂度与学习成本。</div>
-                    <a href="https://www.notateslaapp.com/news/448/images-of-tesla-s-v11-software-release" class="news-link" target="_blank" rel="noopener">🔗 阅读原文</a>
-                </div>
-            </div>
-            <div class="news-item">
-                <div class="news-number">5</div>
-                <div class="news-body">
-                    <h2 class="news-title">博世在CES 2026发布AI座舱：从交通工具到智能学习伙伴</h2>
-                    <div class="news-source">📰 LinkedIn</div>
-                    <div class="news-summary">核心事件：博世在CES 2026上发布AI座舱，将车辆从简单交通工具转变为理解用户习惯、偏好与上下文的智能学习伙伴。技术/体验亮点：该座舱利用AI平台实现主动式服务，如根据日程自动调整车内环境、预测驾驶需求，并支持多模态交互（语音、手势、视线）。长期影响：博世作为顶级Tier 1的此举将加速AI座舱的普及，可能使“情感化”交互成为高端车型标配，但数据收集的隐私边界与AI误判的后果需行业共同规范。</div>
-                    <a href="https://www.linkedin.com/posts/techbrieflycom_bosch-unveils-ai-extension-platform-ai-powered-activity-7415286444061089792-gcL6" class="news-link" target="_blank" rel="noopener">🔗 阅读原文</a>
-                </div>
-            </div></div>
-            <div class="footer">数据来源：DuckDuckGo 搜索 · 内容整理：DeepSeek AI</div>
-        </div>
+    <!-- 移动端顶部栏 -->
+    <div class="mobile-header">
+        <h1>🚗 智能座舱日报</h1>
+        <button class="menu-toggle" onclick="toggleSidebar()">☰ 菜单</button>
     </div>
+    
+    <!-- 遮罩层（移动端） -->
+    <div class="overlay" id="overlay" onclick="toggleSidebar()"></div>
+    
+    <div class="app-container">
+        <!-- 左侧边栏 -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <h1>🚗 智能座舱日报</h1>
+                <p class="subtitle">30天历史归档</p>
+            </div>
+            
+            <div class="sidebar-title">📅 历史归档</div>
+            
+            <div class="date-list" id="dateList">
+                <!-- 动态加载日期列表 -->
+            </div>
+            
+            <div class="sidebar-footer">
+                <a href="en/index.html" class="lang-switch">🌐 EN</a>
+            </div>
+        </aside>
+        
+        <!-- 右侧主内容区 -->
+        <main class="main-content">
+            <div class="content-header">
+                <h2 id="contentTitle">加载中...</h2>
+                <p class="date-info" id="dateInfo"></p>
+            </div>
+            
+            <div class="news-container">
+                <div class="news-card">
+                    <div class="news-card-body" id="newsBody">
+                        <div class="loading-state">
+                            <div class="loading-spinner"></div>
+                            <p>加载中...</p>
+                        </div>
+                    </div>
+                    <div class="card-footer">数据来源：DuckDuckGo 搜索 · 内容整理：DeepSeek AI</div>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <script>
+        // 全局数据
+        let historyData = { records: [] };
+        let currentLang = 'zh';
+        
+        // 加载历史数据
+        async function loadData() {
+            try {
+                const response = await fetch('history_data.json');
+                if (!response.ok) throw new Error('Failed to load data');
+                historyData = await response.json();
+                renderDateList();
+                if (historyData.records.length > 0) {
+                    selectDate(historyData.records[0].date);
+                } else {
+                    showEmpty();
+                }
+            } catch (error) {
+                console.error('Load error:', error);
+                showError();
+            }
+        }
+        
+        // 渲染日期列表
+        function renderDateList() {
+            const container = document.getElementById('dateList');
+            if (!historyData.records || historyData.records.length === 0) {
+                container.innerHTML = '<div class="empty-state"><p>暂无历史数据</p></div>';
+                return;
+            }
+            
+            container.innerHTML = historyData.records.map(record => `
+                <div class="date-item" data-date="${record.date}" onclick="selectDate('${record.date}')">
+                    <div class="date-text">
+                        <div class="date-main">${record.date_display || record.date}</div>
+                        <div class="date-weekday">${record.weekday || ''}</div>
+                    </div>
+                    <div class="news-count">${record.news_count || (record.news ? record.news.length : 0)}条</div>
+                </div>
+            `).join('');
+        }
+        
+        // 选择日期
+        function selectDate(date) {
+            // 更新高亮
+            document.querySelectorAll('.date-item').forEach(el => {
+                el.classList.toggle('active', el.dataset.date === date);
+            });
+            
+            // 查找对应记录
+            const record = historyData.records.find(r => r.date === date);
+            if (record) {
+                renderNews(record);
+            } else {
+                showEmpty();
+            }
+            
+            // 移动端关闭侧边栏
+            if (window.innerWidth <= 768) {
+                closeSidebar();
+            }
+        }
+        
+        // 渲染新闻内容
+        function renderNews(record) {
+            const titleEl = document.getElementById('contentTitle');
+            const infoEl = document.getElementById('dateInfo');
+            const bodyEl = document.getElementById('newsBody');
+            
+            titleEl.textContent = record.date_display || record.date;
+            infoEl.textContent = record.weekday ? `${record.weekday} · ${record.news_count || record.news.length}条新闻` : '';
+            
+            const isZh = currentLang === 'zh';
+            const readText = isZh ? '🔗 阅读原文' : '🔗 Read Original';
+            
+            if (!record.news || record.news.length === 0) {
+                bodyEl.innerHTML = `<div class="empty-state"><p>${isZh ? '该日期暂无新闻数据' : 'No news available'}</p></div>`;
+                return;
+            }
+            
+            bodyEl.innerHTML = record.news.map((item, i) => `
+                <div class="news-item">
+                    <div class="news-number">${i + 1}</div>
+                    <div class="news-body">
+                        <h3 class="news-title">${escapeHtml(isZh ? item.title : (item.title_en || item.title))}</h3>
+                        <div class="news-source">📰 ${escapeHtml(item.site_name || '')}</div>
+                        <div class="news-summary">${escapeHtml(isZh ? item.summary : (item.summary_en || item.summary))}</div>
+                        <a href="${escapeHtml(item.url)}" class="news-link" target="_blank" rel="noopener">${readText}</a>
+                    </div>
+                </div>
+            `).join('');
+        }
+        
+        // 显示空状态
+        function showEmpty() {
+            const isZh = currentLang === 'zh';
+            document.getElementById('contentTitle').textContent = isZh ? '暂无数据' : 'No Data';
+            document.getElementById('newsBody').innerHTML = `<div class="empty-state"><p>${isZh ? '暂无新闻数据' : 'No news available'}</p></div>`;
+        }
+        
+        // 显示错误
+        function showError() {
+            const isZh = currentLang === 'zh';
+            document.getElementById('contentTitle').textContent = isZh ? '加载失败' : 'Load Failed';
+            document.getElementById('newsBody').innerHTML = `<div class="empty-state"><p>${isZh ? '无法加载数据，请稍后重试' : 'Failed to load data'}</p></div>`;
+        }
+        
+        // HTML转义
+        function escapeHtml(str) {
+            if (!str) return '';
+            return str.replace(/&/g, '&amp;')
+                      .replace(/</g, '&lt;')
+                      .replace(/>/g, '&gt;')
+                      .replace(/"/g, '&quot;')
+                      .replace(/'/g, '&#039;');
+        }
+        
+        // 移动端菜单切换
+        function toggleSidebar() {
+            const sidebar = document.getElementById('sidebar');
+            const overlay = document.getElementById('overlay');
+            sidebar.classList.toggle('open');
+            overlay.classList.toggle('show');
+        }
+        
+        function closeSidebar() {
+            document.getElementById('sidebar').classList.remove('open');
+            document.getElementById('overlay').classList.remove('show');
+        }
+        
+        // 页面加载完成后初始化
+        document.addEventListener('DOMContentLoaded', loadData);
+    </script>
 </body>
 </html>
