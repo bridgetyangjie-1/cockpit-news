@@ -164,7 +164,7 @@ def send_daily_email(news_items, date_str):
             <div class="footer">
                 <p>🌐 在线阅读: <a href="https://bridgetyangjie-1.github.io/cockpit-news/">bridgetyangjie-1.github.io/cockpit-news</a></p>
                 <p style="margin-top: 10px;">本邮件由系统自动发送 | 如有疑问请联系: bridgetyangjie@gmail.com</p>
-                <p style="margin-top: 5px;">© 2025 Bridget Yang</p>
+                <p style="margin-top: 5px;">© 2026 Bridget Yang</p>
             </div>
         </div>
     </body>
@@ -420,7 +420,7 @@ def generate_html(output_path, lang='zh'):
             'by_author': '作者',
             'published': '发布于',
             'disclaimer': '本看板内容基于公开信息自动抓取，由AI分析生成，仅供参考研究使用，不代表作者立场。',
-            'copyright': '© 2025 Bridget Yang'
+            'copyright': '© 2026 Bridget Yang'
         },
         'en': {
             'title': 'Smart Cockpit',
@@ -440,7 +440,7 @@ def generate_html(output_path, lang='zh'):
             'by_author': 'By',
             'published': 'Published',
             'disclaimer': 'Content is auto-curated from public sources and AI-analyzed for research purposes only. Does not represent the author\'s views.',
-            'copyright': '© 2025 Bridget Yang'
+            'copyright': '© 2026 Bridget Yang'
         }
     }
     
@@ -674,7 +674,7 @@ def generate_html(output_path, lang='zh'):
                             </div>
                             <div class="flex items-center gap-1 text-xs text-on-surface-variant/60">
                                 <span class="material-symbols-outlined text-sm">schedule</span>
-                                <span>${{escapeHtml(item.published_date || record.date_display || record.date)}}</span>
+                                <span>${{escapeHtml(item.publish_date || record.date || '')}}</span>
                             </div>
                         </div>
                         <h3 class="text-lg md:text-xl font-semibold text-on-surface mb-3 group-hover:text-primary transition-colors leading-snug">
