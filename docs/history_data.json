@@ -8,52 +8,52 @@
       "news": [
         {
           "title": "科大讯飞开启全场景主动式AI座舱新时代",
-          "title_en": "iFlytek Ushers in a New Era of All-Scenario Proactive AI Cockpit",
+          "title_en": "iFLYTEK Ushers in a New Era of All-Scenario Proactive AI Cockpit",
           "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-05-12/doc-inhxrshk9944436.shtml",
           "site_name": "新浪财经",
           "publish_date": "2026-05-12",
-          "summary": "科大讯飞发布了全场景主动式AI座舱方案，核心功能是支持多目的地自由规划、全程口语化交互及实时舱内外感知，用户仅需一句自然语言指令即可完成复杂行程编排。从用户研究视角看，该功能将座舱从“被动响应工具”升级为“主动出行管家”，解决了多任务场景下用户频繁操作导航、娱乐等应用的痛点，创造了“一句话搞定全家出行”的极简交互范式。商业上，这种深度意图理解能力将显著提升用户对语音助手的依赖度，为后续订阅制个性化服务（如家庭关系网记忆、偏好推荐）奠定基础，形成差异化竞争壁垒。",
-          "summary_en": "iFlytek has released an all-scenario proactive AI cockpit solution, whose core feature supports multi-destination route planning, full conversational interaction, and real-time in/out-of-cabin perception. Users can complete complex itinerary arrangements with a single natural language command. From a user research perspective, this feature upgrades the cockpit from a 'passive response tool' to a 'proactive travel butler,' solving the pain point of frequent manual operations for navigation and entertainment in multi-task scenarios, creating an ultra-simplified interaction paradigm of 'one sentence for the whole family's trip.' Commercially, this deep intent understanding capability will significantly increase user reliance on voice assistants, laying the foundation for future subscription-based personalized services (e.g., family network memory, preference recommendations) and forming a differentiated competitive barrier."
+          "summary": "科大讯飞发布了全场景主动式AI座舱解决方案，核心功能是支持多目的地自由规划、全程口语化交互及实时舱内外感知，用户仅需一句自然语言指令即可完成复杂行程规划与动态调整。从用户研究视角看，该功能将座舱从被动响应工具升级为主动服务伙伴，解决了多任务出行场景下用户操作繁琐、注意力分散的痛点，通过意图理解与关系网记忆创造了“一句话搞定全家行程”的极简交互体验。商业上，这种深度个性化与主动服务能力将显著提升用户对品牌智能座舱的依赖度，为后续基于场景的增值服务订阅（如个性化推荐、实时路况优化）奠定基础，形成难以复制的体验壁垒。",
+          "summary_en": "iFLYTEK has launched an all-scenario proactive AI cockpit solution, featuring multi-destination route planning, full conversational interaction, and real-time in/out-of-cabin perception, allowing users to complete complex itineraries with a single natural language command. From a user research perspective, this upgrade transforms the cockpit from a passive response tool into an active service partner, solving the pain point of cumbersome operations and divided attention in multi-task travel scenarios, creating an extremely simplified interaction experience of 'one sentence handles the whole family's trip' through intent understanding and relationship network memory. Commercially, this deep personalization and proactive service capability will significantly increase user reliance on the brand's smart cockpit, laying the foundation for future scenario-based value-added service subscriptions (e.g., personalized recommendations, real-time traffic optimization) and forming a hard-to-replicate experience moat."
         },
         {
-          "title": "智能座舱的终局是什么？面壁智能给出了自己的答案",
-          "title_en": "What Is the Endgame for Smart Cockpits? Mianbi Intelligence Gives Its Answer",
-          "url": "https://chedongxi.com/p/367581.html",
-          "site_name": "车东西",
-          "publish_date": "2026-05-09",
-          "summary": "面壁智能发布白皮书，指出旧一代座舱依赖菜单逻辑和标准命令，而AGI时代座舱必须实现自然语言驱动的跨功能调用、连续追问和多服务编排，并强调端侧模型的重要性以解决网络延迟和上下文丢失问题。从用户研究视角看，该观点精准揭示了当前座舱交互的“伪智能”痛点——用户仍需学习特定指令，而真正的智能应是无感、即时、连贯的对话体验。商业上，端侧大模型上车将降低对云端网络的依赖，提升离线场景下的体验一致性，同时为车企提供更可控的数据隐私保护，从而增强用户信任和软件订阅转化率。",
-          "summary_en": "Mianbi Intelligence released a whitepaper pointing out that older-generation cockpits rely on menu logic and standard commands, while AGI-era cockpits must enable natural language-driven cross-function calls, continuous follow-ups, and multi-service orchestration, emphasizing the importance of on-device models to solve network latency and context loss issues. From a user research perspective, this insight accurately reveals the 'pseudo-intelligence' pain point of current cockpit interactions—users still need to learn specific commands, whereas true intelligence should be an effortless, instantaneous, and coherent conversational experience. Commercially, deploying on-device large models will reduce reliance on cloud networks, improve experience consistency in offline scenarios, and provide automakers with more controllable data privacy protection, thereby enhancing user trust and software subscription conversion rates."
+          "title": "互联网大厂智能座舱斗法",
+          "title_en": "Internet Giants Battle in Smart Cockpit Arena",
+          "url": "https://36kr.com/p/1832287570555269",
+          "site_name": "36氪",
+          "publish_date": "2026-05-12",
+          "summary": "文章指出当前智能座舱功能同质化严重，大屏、多屏、语音交互、OTA等已成标配，供应商解决方案相似度高，导致品牌间体验差异不明显。从用户研究视角看，这揭示了行业进入“体验瓶颈期”：用户对基础功能已无感知差异，真正的竞争焦点转向了软件生态的深度整合与个性化服务能力，而非硬件堆砌。商业上，同质化意味着用户粘性难以通过单一功能建立，车企必须加速构建差异化数字生态（如独家内容、AI管家、跨设备无缝流转），否则将陷入价格战，软件订阅率提升也将受阻。",
+          "summary_en": "The article points out severe feature homogenization in current smart cockpits, where large screens, multi-screens, voice interaction, and OTA have become standard, with high similarity among supplier solutions leading to insignificant experience differences between brands. From a user research perspective, this reveals the industry has entered an 'experience plateau': users no longer perceive differences in basic features, and the real competitive focus has shifted to deep integration of software ecosystems and personalized service capabilities, rather than hardware stacking. Commercially, homogenization means user stickiness is hard to build through single features; automakers must accelerate the creation of differentiated digital ecosystems (e.g., exclusive content, AI butlers, seamless cross-device flow), otherwise they will fall into price wars and software subscription rates will be hindered."
         },
         {
           "title": "问界全系OTA升级 新增三点式掉头/驾驶员失能辅助等40项功能",
-          "title_en": "AITO Full-Line OTA Update Adds 40 Features Including Three-Point Turn and Driver Incapacitation Assist",
+          "title_en": "AITO Full Range OTA Update Adds 40 Features Including Three-Point Turn and Driver Incapacitation Assist",
           "url": "https://www.pcauto.com.cn/news/5109/51097208.html",
           "site_name": "太平洋汽车",
           "publish_date": "2026-01-30",
-          "summary": "问界全系车型通过OTA升级新增40项功能，包括三点式掉头、增强型自动紧急转向辅助（eAES）防夹心、驾驶员失能辅助等。从用户研究视角看，此次OTA不仅提升了驾驶安全冗余（如失能辅助），还通过三点式掉头等场景化功能解决了狭窄路况的操控痛点，体现了“软件定义功能”的持续进化能力。商业上，高频次、大范围的OTA更新是维持用户粘性的关键手段，能持续制造新鲜感并延长车辆生命周期价值，同时为鸿蒙智行生态内的付费软件服务（如高级驾驶辅助订阅）铺路。",
-          "summary_en": "AITO's full-line models received an OTA update adding 40 features, including three-point turn, enhanced automatic emergency steering assist (eAES) anti-pinch, and driver incapacitation assist. From a user research perspective, this OTA not only enhances driving safety redundancy (e.g., incapacitation assist) but also solves operational pain points in narrow road conditions through scenario-based features like three-point turn, demonstrating the continuous evolution capability of 'software-defined features.' Commercially, high-frequency, large-scale OTA updates are key to maintaining user stickiness, continuously generating novelty and extending vehicle lifecycle value, while paving the way for paid software services (e.g., advanced driving assistance subscriptions) within the HarmonyOS ecosystem."
+          "summary": "问界全系车型通过OTA推送了包含三点式掉头、增强型自动紧急转向辅助（eAES）防夹心、驾驶员失能辅助等40项功能更新。从用户研究视角看，此次OTA不仅新增了实用驾驶辅助功能（如窄路掉头），更引入了安全类主动干预功能（驾驶员失能辅助），体现了从“功能堆叠”向“安全兜底”的体验进化，解决了用户在极端场景下的安全焦虑。商业上，高频次、大范围的OTA更新是提升用户品牌忠诚度和口碑传播的关键手段，持续的功能迭代让用户感知到“车辆常用常新”，有效延长产品生命周期并降低换购流失率。",
+          "summary_en": "AITO has pushed an OTA update across its entire model range, adding 40 features including three-point turn, enhanced automatic emergency steering assist (eAES) anti-pinch, and driver incapacitation assist. From a user research perspective, this update not only adds practical driving assistance features (e.g., narrow-road U-turns) but also introduces safety-oriented proactive interventions (driver incapacitation assist), reflecting an evolution from 'feature stacking' to 'safety netting', addressing users' safety anxiety in extreme scenarios. Commercially, high-frequency, large-scale OTA updates are key to enhancing brand loyalty and word-of-mouth; continuous feature iteration makes users feel the vehicle is 'always new', effectively extending product lifecycle and reducing churn rates."
         },
         {
           "title": "岚图汽车牵手火山引擎，探索在智能驾驶、AI...",
-          "title_en": "Voyah Partners with Volcano Engine to Explore Intelligent Driving and AI...",
+          "title_en": "Voyah Partners with Volcano Engine to Explore Smart Driving and AI...",
           "url": "https://www.ithome.com/0/835/367.htm",
           "site_name": "IT之家",
           "publish_date": "近日",
-          "summary": "岚图汽车与火山引擎达成合作，基于岚图自研AI语音产品，融合火山引擎豆包大模型生态，共同支撑下一代智能座舱实现“最自然的对话智能，最暖心的场景智能”。从用户研究视角看，这种“车企自研+大模型生态”的合作模式，旨在解决传统语音助手“听不懂、反应慢、不连贯”的体验断层，通过大模型的语义理解能力实现更人性化的多轮对话。商业上，火山引擎的豆包大模型作为字节跳动旗下产品，有望为岚图引入字节系内容生态（如抖音、今日头条），从而在座舱内构建“AI+内容”的闭环，提升用户使用时长和生态变现潜力。",
-          "summary_en": "Voyah has partnered with Volcano Engine, integrating its self-developed AI voice product with the Doubao large model ecosystem to support the next-generation smart cockpit in achieving 'the most natural conversational intelligence and the most heartwarming scenario intelligence.' From a user research perspective, this 'self-developed + large model ecosystem' cooperation model aims to solve the experience gap of traditional voice assistants—'can't understand, slow response, incoherent'—by leveraging the semantic understanding capabilities of large models for more human-like multi-turn dialogues. Commercially, Volcano Engine's Doubao large model, as a product under ByteDance, is expected to introduce ByteDance's content ecosystem (e.g., Douyin, Toutiao) into the cockpit, creating an 'AI + content' closed loop that increases user engagement time and ecosystem monetization potential."
+          "summary": "岚图汽车与火山引擎达成合作，基于岚图自研AI语音产品，融合火山引擎豆包大模型的生态优势，共同支撑下一代智能座舱实现“最自然的对话智能，最暖心的场景智能”。从用户研究视角看，此次合作旨在解决当前车载语音交互“能听但不能懂”的痛点，通过大模型赋能实现更自然的上下文理解和情感化回应，创造“像与真人对话”的座舱体验。商业上，这种“车企自研+大厂大模型”的生态合作模式，既能快速补齐AI能力短板，又能借助火山引擎的生态资源（如内容、服务）丰富座舱应用场景，有望提升用户日均使用时长和软件服务付费意愿。",
+          "summary_en": "Voyah has partnered with Volcano Engine, combining its self-developed AI voice product with the ecological advantages of Volcano Engine's Doubao large model to support the next-generation smart cockpit in achieving 'the most natural conversational intelligence and the warmest scenario intelligence'. From a user research perspective, this collaboration aims to solve the pain point that current in-car voice interaction 'can hear but cannot understand', leveraging large models for more natural context understanding and emotional responses, creating a cockpit experience 'like talking to a real person'. Commercially, this 'self-developed + big tech large model' ecosystem model can quickly fill AI capability gaps and enrich cockpit application scenarios with Volcano Engine's ecological resources (e.g., content, services), potentially increasing users' daily usage time and willingness to pay for software services."
         },
         {
-          "title": "车家互联：从“能连”到“懂你”，实用还是噱头？",
-          "title_en": "Car-Home Connectivity: From 'Can Connect' to 'Understands You,' Practical or Gimmick?",
-          "url": "https://post.smzdm.com/p/agg0r6v6/",
-          "site_name": "什么值得买",
+          "title": "蔚来Banyan3智能系统，AI科技新飞跃，情感智能再升级",
+          "title_en": "NIO Banyan 3 Intelligent System: New Leap in AI Technology, Emotional Intelligence Upgraded",
+          "url": "https://www.163.com/v/video/VV78FRJIJ.html?f=post2020_dy_recommends",
+          "site_name": "网易",
           "publish_date": "近日",
-          "summary": "文章探讨了车家互联的演进，提到比亚迪与美的合作打造全场景智慧生态，实现语音控车、远程控家无缝互联，并兼容华为、小米等主流手机品牌。从用户研究视角看，车家互联的核心价值在于打破“车”与“家”的场景壁垒，解决用户“离家忘关空调、回家前预冷/预热”等真实痛点，但当前仍面临跨品牌协议不统一、操作复杂度高等问题。商业上，车家互联是车企构建“人-车-家”全场景生态的关键一环，能有效提升用户对品牌智能生态的忠诚度，并为后续智能家居设备联动、能源管理订阅等增值服务创造入口。",
-          "summary_en": "The article explores the evolution of car-home connectivity, mentioning BYD's partnership with Midea to create an all-scenario smart ecosystem, enabling seamless voice control of the car and remote control of home devices, while being compatible with mainstream phone brands like Huawei and Xiaomi. From a user research perspective, the core value of car-home connectivity lies in breaking down the scenario barrier between 'car' and 'home,' solving real pain points such as 'forgetting to turn off the AC when leaving home' or 'pre-cooling/pre-heating before arrival.' However, it still faces issues like inconsistent cross-brand protocols and high operational complexity. Commercially, car-home connectivity is a key component for automakers to build a 'human-car-home' all-scenario ecosystem, effectively enhancing user loyalty to the brand's smart ecosystem and creating entry points for value-added services such as smart home device linkage and energy management subscriptions."
+          "summary": "蔚来发布了Banyan 3智能系统，强调AI科技新飞跃和情感智能再升级，但具体功能细节未在摘要中展开。从用户研究视角看，“情感智能”的提法暗示了座舱交互从功能导向向情感导向的转变，可能涉及更细腻的用户情绪识别与个性化回应，解决传统车机“冰冷工具感”的痛点。商业上，情感智能是提升用户品牌认同感和忠诚度的差异化利器，若能通过AI实现“懂你”的座舱体验，将有效增强用户粘性，并为高端订阅服务（如情感陪伴、个性化场景包）创造溢价空间。",
+          "summary_en": "NIO has released the Banyan 3 intelligent system, emphasizing a new leap in AI technology and an upgrade in emotional intelligence, though specific feature details are not expanded in the summary. From a user research perspective, the mention of 'emotional intelligence' suggests a shift from function-oriented to emotion-oriented cockpit interaction, potentially involving more nuanced user emotion recognition and personalized responses, addressing the pain point of the traditional 'cold tool' feel of car systems. Commercially, emotional intelligence is a key differentiator for enhancing brand identity and loyalty; if AI can create a cockpit experience that 'understands you', it will effectively increase user stickiness and create premium space for high-end subscription services (e.g., emotional companionship, personalized scenario packs)."
         }
       ],
       "created_at": "2026-05-14 03:39:19",
-      "updated_at": "2026-05-14 08:13:31"
+      "updated_at": "2026-05-14 10:31:41"
     }
   ]
 }
