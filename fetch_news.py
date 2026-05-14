@@ -17,12 +17,12 @@ DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY", "")
 HISTORY_FILE = "docs/history_data.json"
 MAX_DAYS = 30  # 保留最近 30 天
 
-# 邮件配置
-EMAIL_HOST = os.environ.get("EMAIL_HOST", "smtp.126.com")
-EMAIL_PORT = int(os.environ.get("EMAIL_PORT", "465"))
-EMAIL_USER = os.environ.get("EMAIL_USER", "")
-EMAIL_PASS = os.environ.get("EMAIL_PASS", "")
-SUBSCRIBER_EMAILS = os.environ.get("SUBSCRIBER_EMAILS", "")
+# 邮件配置（处理空字符串情况）
+EMAIL_HOST = os.environ.get("EMAIL_HOST") or "smtp.126.com"
+EMAIL_PORT = int(os.environ.get("EMAIL_PORT") or "465")
+EMAIL_USER = os.environ.get("EMAIL_USER") or ""
+EMAIL_PASS = os.environ.get("EMAIL_PASS") or ""
+SUBSCRIBER_EMAILS = os.environ.get("SUBSCRIBER_EMAILS") or ""
 
 
 # ==================== 历史数据管理 ====================
