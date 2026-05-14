@@ -96,7 +96,7 @@
             <!-- 作者声明 -->
             <div class="pt-3 mt-3 border-t border-outline-variant/50">
                 <p class="text-[10px] text-on-surface-variant/60 leading-relaxed">本看板内容基于公开信息自动抓取，由AI分析生成，仅供参考研究使用，不代表作者立场。</p>
-                <p class="text-[10px] text-on-surface-variant/40 mt-2">© 2025 Bridget Yang</p>
+                <p class="text-[10px] text-on-surface-variant/40 mt-2">© 2026 Bridget Yang</p>
             </div>
         </div>
     </aside>
@@ -224,7 +224,7 @@
                             </div>
                             <div class="flex items-center gap-1 text-xs text-on-surface-variant/60">
                                 <span class="material-symbols-outlined text-sm">schedule</span>
-                                <span>${escapeHtml(item.published_date || record.date_display || record.date)}</span>
+                                <span>${escapeHtml(item.publish_date || record.date || '')}</span>
                             </div>
                         </div>
                         <h3 class="text-lg md:text-xl font-semibold text-on-surface mb-3 group-hover:text-primary transition-colors leading-snug">
