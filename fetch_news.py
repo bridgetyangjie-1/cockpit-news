@@ -305,16 +305,15 @@ def generate_search_keywords(topic="汽车智能座舱"):
     system_prompt = f"""你是深耕中国新能源汽车市场的资深用户研究与体验分析师。请围绕"{topic}"，生成15个精准且多样化的中文搜索关键词。
 
 为了精准捕捉行业内的软件创新与数字体验动态，关键词必须覆盖以下维度：
-1. 核心软件功能与生态：如 "车机 生态 接入", "智能座舱 第三方 App", "手车互联 无缝流转", "座舱 场景引擎"
-2. OTA与用户活跃度：如 "新势力 OTA 升级 体验", "车机系统 RSU 推送", "座舱 软件订阅 服务"
-3. 关键交互触点 (UX/UI)：如 "座舱 零层级 交互", "车载语音 多指令", "多模态交互 评测", "车内屏幕 交互逻辑"
-4. 头部玩家的软件动作：如 "蔚来 Banyan 智能应用", "小鹏 天玑 AI 代驾", "小米 澎湃OS 座舱互联", "理想 任务大师"
+1. 核心软件与数字娱乐生态：如 "车机 第三方 App 接入", "座舱 影音娱乐 体验", "车载游戏 生态", "手车互联 无缝流转"
+2. OTA与核心功能演进：如 "新势力 OTA 升级 体验", "座舱 AI大模型 落地", "座舱 软件订阅 服务"
+3. 关键交互触点 (UX/UI)：如 "座舱 零层级 交互", "车载语音 多指令", "多模态交互 评测", "车机屏幕 交互逻辑"
+4. 头部玩家的具体动作：如 "蔚来 Banyan 智能应用", "小鹏 天玑 系统体验", "小米 澎湃OS 座舱", "理想 空间交互"
 
 要求：
-- 绝对不要外观、底盘、硬件参数相关的词汇。只聚焦"软件"、"交互"和"服务"。
+- 绝对不要外观、底盘、硬件参数相关的词汇。只聚焦"软件"、"交互"、"生态应用（含娱乐/音频）"。
 - 关键词要能搜出科技媒体的深度解析、产品经理的复盘或硬核的用户评测。
-- 关键词中尽量不要包含"汽车智能座舱"这几个字，以免搜到千篇一律的公关稿。
-- **【重要】必须聚焦中国大陆市场，只关注中国大陆品牌（比亚迪、蔚来、小鹏、理想、小米、华为鸿蒙座舱等），不要包含台湾、香港、澳门相关内容。**
+- **【地理限制】必须聚焦中国大陆市场，关注大陆品牌（蔚小理、华米、比亚迪等）。不要包含台湾、香港、澳门相关字眼。**
 - 必须返回严格的JSON格式，不要加任何其他文字：
 {{"keywords": ["关键词1", "关键词2", ..., "关键词15"]}}"""
 
@@ -339,7 +338,7 @@ def generate_search_keywords(topic="汽车智能座舱"):
 
 
 def search_news(keywords, max_results=40):
-    """用多个关键词搜索 DuckDuckGo，限定近一周"""
+    """用多个关键词搜索 DuckDuckGo，不做死板的词汇拦截，交给后续的大模型去语义判断"""
     try:
         from ddgs import DDGS
         all_results = []
@@ -352,7 +351,6 @@ def search_news(keywords, max_results=40):
                     title = (r.get("title") or "").strip()
                     url = (r.get("href") or "").strip()
                     body = (r.get("body") or "").strip()
-                    # 获取发布日期（DuckDuckGo 可能返回 date 字段）
                     publish_date = (r.get("date") or "").strip()
 
                     if not title or not url:
@@ -364,6 +362,7 @@ def search_news(keywords, max_results=40):
                     domain = urlparse(url).netloc.replace("www.", "")
                     site_name = domain.split(".")[0].title() if domain else ""
 
+                    # 仅保留最基础的去广告过滤
                     ad_keywords = ["ad", "sponsored", "推广", "广告", "track"]
                     if any(k in url.lower() for k in ad_keywords):
                         continue
@@ -372,17 +371,17 @@ def search_news(keywords, max_results=40):
                     sensitive_keywords = ["台湾", "台灣", "taiwan", "taiwanese", "香港", "hong kong", "hongkong", "澳门", "macau"]
                     title_body = (title + body).lower()
                     if any(k in title_body for k in sensitive_keywords):
-                        continue  # 跳过敏感地区内容
+                        continue
 
                     all_results.append({
                         "title": title,
                         "url": url,
                         "snippet": body[:400],
                         "site_name": site_name,
-                        "publish_date": publish_date  # 新增：发布日期
+                        "publish_date": publish_date
                     })
 
-        print(f"    去重后共 {len(all_results)} 条不同新闻")
+        print(f"    初筛获取共 {len(all_results)} 条新闻内容，准备提交给 AI 深度甄别")
         return all_results
     except ImportError:
         print("请先安装依赖: pip install ddgs")
