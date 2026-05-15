@@ -6,39 +6,29 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  fetch-news:
     runs-on: ubuntu-latest
-    
+
     steps:
-    - name: 📥 Checkout
-      uses: actions/checkout@v4
-      with:
-        persist-credentials: false
+      - uses: actions/checkout@v4
 
-    - name: 🐍 Setup Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.11'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
 
-    - name: 📦 Install dependencies
-      run: |
-        pip install ddgs
+      - name: 安装依赖
+        run: pip install -r requirements.txt
 
-    - name: 🚀 Run script
-      env:
-        DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
-        EMAIL_HOST: ${{ secrets.EMAIL_HOST }}
-        EMAIL_PORT: ${{ secrets.EMAIL_PORT }}
-        EMAIL_USER: ${{ secrets.EMAIL_USER }}
-        EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
-        SUBSCRIBER_EMAILS: ${{ secrets.SUBSCRIBER_EMAILS }}
-      run: |
-        python fetch_news.py
+      - name: 获取新闻并发送邮件
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+        run: python fetch_news.py
 
-    - name: 📤 Push changes
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add -A
-        git diff --quiet && git diff --staged --quiet || git commit -m "docs: 更新日报 $(date +'%Y-%m-%d')"
-        git push --force https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git main
+      - name: 提交更新
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add -A
+          git diff --staged --quiet || git commit -m "📰 每日更新 $(date +'%Y-%m-%d')"
+          git push
