@@ -7,53 +7,53 @@
       "news_count": 5,
       "news": [
         {
-          "title": "小米汽车全量推送OTA 1.16：一口气更几十项新功能 说句话就能变道",
-          "title_en": "Xiaomi Auto Pushes OTA 1.16: Dozens of New Features, Voice-Controlled Lane Changes",
-          "url": "https://finance.sina.com.cn/tech/roll/2026-05-13/doc-inhxufve9219100.shtml",
-          "site_name": "新浪科技",
-          "publish_date": "2026-05-13",
-          "summary": "小米汽车全量推送OTA 1.16版本，新增侧向避让、异形障碍物识别等安全功能，并升级超级小爱AI智控，支持语音直接操作屏幕及第三方应用（如抖音、B站、爱奇艺），新增小爱陪伴模式。从用户研究视角看，该OTA将语音交互从“指令执行”升级为“场景化主动服务”，特别是语音控制第三方应用和陪伴模式，显著降低了驾驶中的操作门槛，创造了更自然、更安全的车内娱乐与陪伴场景。商业上，此举通过高频、实用的OTA更新强化了用户粘性，为未来软件订阅服务（如高级AI功能）铺平了道路，并树立了“常用常新”的行业标杆。",
-          "summary_en": "Xiaomi Auto fully pushed OTA 1.16, adding safety features like side collision avoidance and irregular obstacle recognition, and upgrading the Super Xiao AI assistant to enable voice control of the screen and third-party apps (e.g., Douyin, Bilibili, iQiyi), along with a new companion mode. From a user research perspective, this OTA elevates voice interaction from 'command execution' to 'contextual proactive service,' especially with third-party app control and companion mode, significantly reducing operational friction while driving and creating more natural, safer in-car entertainment and companionship scenarios. Commercially, this high-frequency, practical OTA update strengthens user stickiness, paves the way for future software subscription services (e.g., advanced AI features), and sets an industry benchmark for 'always fresh' experiences."
+          "title": "互联网大厂智能座舱斗法-36氪",
+          "title_en": "Internet Giants Battle in Smart Cockpit Arena - 36Kr",
+          "url": "https://36kr.com/p/1832287570555269",
+          "site_name": "36氪",
+          "publish_date": "2026-05-12",
+          "summary": "核心事件：阿里、腾讯在智能座舱领域主张“软件定义”，腾讯TAI 4.0全面升级，将全民K歌、腾讯会议等C端产品上车，并推出“腾讯出行服务”手机端。体验价值：该功能将用户熟悉的社交、娱乐、办公场景无缝迁移至车内，解决了用户在车内碎片化时间的无聊痛点，创造了“移动会客厅”和“移动办公室”的新使用场景。商业影响：通过绑定高频C端应用，腾讯有望将海量移动端用户转化为车机用户，提升软件生态的活跃度和订阅率，同时构建起基于社交关系的车机竞争壁垒。",
+          "summary_en": "Core Event: Alibaba and Tencent advocate 'software-defined' in the smart cockpit domain. Tencent's TAI 4.0 has been fully upgraded, integrating C-end products like Quanmin K歌 (Karaoke) and Tencent Meeting into the vehicle, and launching the 'Tencent Travel Services' mobile app. User Experience Value: This feature seamlessly transfers users' familiar social, entertainment, and office scenarios into the car, solving the pain point of idle time during commutes and creating new use cases like a 'mobile living room' and 'mobile office'. Business Impact: By binding high-frequency C-end applications, Tencent can potentially convert its massive mobile user base into in-car users, boosting software ecosystem activity and subscription rates, while building a competitive moat based on social relationships."
         },
         {
-          "title": "五大玩家上车，AI智能体变身“生活助理”|座舱|引擎|模态|贾维斯|ai智能体_网易订阅",
-          "title_en": "Five Major Players Enter the Fray: AI Agents Transform into 'Life Assistants' for the Cockpit",
-          "url": "https://163.com/dy/article/KSGEUS340527T7DL.html",
-          "site_name": "网易订阅",
-          "publish_date": "近日",
-          "summary": "腾讯元宝发布出行全场景智能体开放平台，同步落地随行点单、向导等7个场景智能体，阿里千问和字节火山引擎随后官宣类似布局。从用户研究视角看，这些AI智能体将座舱从“信息终端”转变为“生活服务入口”，用户无需切换手机即可完成点单、导航等任务，解决了驾驶中多任务处理的痛点，创造了“无感服务”的新场景。商业上，此举标志着科技大厂与车企深度绑定，通过开放平台构建生态壁垒，有望通过服务分成和订阅模式开辟新的收入来源，并显著提升用户对特定生态的依赖度。",
-          "summary_en": "Tencent Yuanbao launched an open platform for travel-scenario AI agents, deploying 7 scenario agents like on-the-go ordering and navigation, followed by Alibaba's Qianwen and ByteDance's Volcano Engine announcing similar moves. From a user research perspective, these AI agents transform the cockpit from an 'information terminal' into a 'life service portal,' allowing users to complete tasks like ordering and navigation without switching to their phones, solving the pain point of multitasking while driving and creating a 'seamless service' scenario. Commercially, this marks deep integration between tech giants and automakers, building ecosystem moats through open platforms, potentially generating new revenue streams via service commissions and subscriptions, and significantly increasing user dependency on specific ecosystems."
+          "title": "蔚来推送Banyan·榕2.6.5系统 首个端到端算法实现AEB上线",
+          "title_en": "NIO Pushes Banyan·榕 2.6.5 System, First End-to-End Algorithm for AEB Goes Live",
+          "url": "https://www.pcauto.com.cn/news/4342/43421482.html",
+          "site_name": "太平洋汽车",
+          "publish_date": "2026-05-14",
+          "summary": "核心事件：蔚来推送Banyan·榕2.6.5系统，首次将端到端算法应用于AEB（自动紧急制动），同时通过应用商店更新酷狗音乐、网易云亲子等应用。体验价值：端到端AEB相比传统规则算法，能更精准地识别复杂场景（如鬼探头、异形障碍物），显著提升主动安全体验，降低用户对智能驾驶的信任门槛。商业影响：安全是用户粘性的基石，端到端AEB的落地不仅强化了蔚来“安全”的品牌标签，也为后续高阶智驾功能的订阅付费铺平了道路。",
+          "summary_en": "Core Event: NIO pushes Banyan·榕 2.6.5 system, deploying an end-to-end algorithm for AEB (Automatic Emergency Braking) for the first time, while also updating apps like Kuwo Music and NetEase Cloud Kids via the app store. User Experience Value: Compared to traditional rule-based algorithms, end-to-end AEB can more accurately identify complex scenarios (e.g., sudden pedestrian crossing, irregular obstacles), significantly enhancing the active safety experience and lowering the trust barrier for intelligent driving. Business Impact: Safety is the cornerstone of user stickiness. The implementation of end-to-end AEB not only strengthens NIO's 'safety' brand label but also paves the way for subsequent subscription-based high-level autonomous driving features."
         },
         {
-          "title": "从“被动响应”到“主动服务”：科大讯飞重构智能座舱新范式|云端|声场|智能化|语音助手_网易订阅",
-          "title_en": "From 'Passive Response' to 'Proactive Service': iFlytek Redefines the Smart Cockpit Paradigm",
-          "url": "https://www.163.com/dy/article/KSLFJS4805278R4J.html",
-          "site_name": "网易订阅",
-          "publish_date": "近日",
-          "summary": "科大讯飞在北京车展发布星火新一代多模态智能座舱，提供端侧多模态大模型和智能体生态，使座舱从“听话的工具”进化为“会办事的管家”。从用户研究视角看，这一转变解决了传统语音助手“听不懂、不会做”的痛点，通过多模态感知（如视觉、语音）和主动推理，在用户未明确指令时预判需求（如自动调节空调、推荐路线），创造了“无感智能”的体验。商业上，科大讯飞通过软硬一体方案（如iFLYSOUND声学系统）构建了技术壁垒，其主动服务能力有望成为车企差异化竞争的关键，并推动座舱软件从“一次性付费”向“持续服务订阅”转型。",
-          "summary_en": "iFlytek unveiled the Spark next-generation multimodal smart cockpit at the Beijing Auto Show, featuring an on-device multimodal large model and agent ecosystem, evolving the cockpit from an 'obedient tool' into a 'capable butler.' From a user research perspective, this shift addresses the pain point of traditional voice assistants that 'don't understand or can't act,' using multimodal perception (e.g., vision, voice) and proactive reasoning to anticipate user needs (e.g., auto-adjusting climate, recommending routes) without explicit commands, creating a 'seamless intelligence' experience. Commercially, iFlytek builds a technological moat through its integrated hardware-software solution (e.g., iFLYSOUND acoustic system), and its proactive service capability is poised to become a key differentiator for automakers, driving the transition from one-time software fees to ongoing service subscriptions."
+          "title": "小米澎湃OS 4大升级：界面、底层全都变了--快科技--科技改变未来",
+          "title_en": "Xiaomi HyperOS 4 Major Upgrade: Interface and Underlying Architecture Completely Changed",
+          "url": "https://news.mydrivers.com/1/1121/1121577.htm",
+          "site_name": "快科技",
+          "publish_date": "2026-05-11",
+          "summary": "核心事件：小米澎湃OS 4被曝将进行重大升级，引入“类液态玻璃UX”视觉设计，并推进“零遗留”架构，彻底告别MIUI时代技术包袱。体验价值：类液态玻璃UX带来更流畅、轻量化的视觉动效，贴合移动端设计趋势，能显著提升用户操作愉悦感和系统响应感知；零遗留架构则从底层优化内存和存储管理，解决长期使用后的卡顿痛点。商业影响：作为小米汽车SU7的车机系统基础，澎湃OS 4的体验升级将直接赋能汽车座舱，提升小米生态内手机-车机的一致性体验，增强用户对小米全生态的忠诚度。",
+          "summary_en": "Core Event: Xiaomi HyperOS 4 is rumored to undergo a major upgrade, introducing a 'liquid glass UX' visual design and advancing a 'zero-legacy' architecture, completely shedding the technical baggage of the MIUI era. User Experience Value: The liquid glass UX brings smoother, lighter visual animations, aligning with mobile design trends and significantly enhancing user operational pleasure and system response perception; the zero-legacy architecture optimizes memory and storage management at the underlying level, solving the lag pain point after long-term use. Business Impact: As the underlying system for the Xiaomi SU7 car, the experience upgrade of HyperOS 4 will directly empower the car cockpit, enhancing the consistency of the phone-car experience within the Xiaomi ecosystem and boosting user loyalty to the entire Xiaomi ecosystem."
         },
         {
-          "title": "20余家车企抢滩DeepSeek：AI... | 汽车之家",
-          "title_en": "Over 20 Automakers Rush to Integrate DeepSeek: AI Transforms the Cockpit",
-          "url": "https://chejiahao.autohome.com.cn/info/19230742",
-          "site_name": "汽车之家",
-          "publish_date": "近日",
-          "summary": "超过20家车企宣布接入DeepSeek大模型，应用于智能座舱交互革命，核心是交互逻辑从“指令式交互”被“主动服务”取代。从用户研究视角看，这一趋势意味着用户不再需要记忆特定语音指令，而是通过自然语言与车辆进行多轮对话，车辆能理解上下文并主动提供建议，大幅降低了学习成本，提升了交互的自然度和效率。商业上，DeepSeek的广泛接入将加速座舱AI的标准化，但同时也加剧了同质化竞争，车企需在场景定制和数据闭环上构建差异化，以提升用户粘性和软件订阅率。",
-          "summary_en": "Over 20 automakers have announced integration of the DeepSeek large model, revolutionizing smart cockpit interaction by shifting from 'command-based interaction' to 'proactive service.' From a user research perspective, this trend means users no longer need to memorize specific voice commands; instead, they engage in multi-turn natural language conversations with the vehicle, which understands context and proactively offers suggestions, significantly reducing the learning curve and enhancing interaction naturalness and efficiency. Commercially, widespread DeepSeek integration will accelerate the standardization of cockpit AI, but also intensify homogenization competition. Automakers must differentiate through scenario customization and data loops to boost user stickiness and software subscription rates."
-        },
-        {
-          "title": "把理想任务大师整理全了，收藏这篇就够了 ... - 抖音",
-          "title_en": "Complete Guide to Li Auto's Task Master: A Must-Collect for Owners",
+          "title": "把理想任务大师整理全了，收藏这篇就够了。给理想车主整理了一版 - 抖音",
+          "title_en": "Complete Collection of Li Auto Task Master, Save This One. A Version for Li Auto Owners - Douyin",
           "url": "https://www.douyin.com/note/7639624751899479302",
           "site_name": "抖音",
           "publish_date": "2026-05-14",
-          "summary": "理想汽车的任务大师功能在抖音上被广泛分享，用户可自定义自动化场景（如手机遗落提醒、充电提醒等），实现个性化座舱体验。从用户研究视角看，任务大师将座舱控制权交给用户，解决了“功能藏得深、不易发现”的痛点，通过低代码/无代码的自动化规则，让用户根据自身习惯创造专属场景，极大提升了用户参与感和满意度。商业上，任务大师通过用户共创内容（UGC）增强了社区粘性，并成为理想汽车软件生态的差异化亮点，有助于提升品牌忠诚度和口碑传播，同时为未来高级自动化订阅服务提供了用户基础。",
-          "summary_en": "Li Auto's Task Master feature is widely shared on Douyin, allowing users to customize automation scenarios (e.g., phone left-behind reminder, charging reminder) for a personalized cockpit experience. From a user research perspective, Task Master hands control to the user, solving the pain point of 'features being hidden and hard to discover.' Through low-code/no-code automation rules, users create personalized scenarios based on their habits, greatly enhancing engagement and satisfaction. Commercially, Task Master strengthens community stickiness through user-generated content (UGC), becoming a differentiated highlight of Li Auto's software ecosystem, boosting brand loyalty and word-of-mouth, while laying a user base for future premium automation subscription services."
+          "summary": "核心事件：理想汽车任务大师功能被用户深度挖掘，大量车主分享实用场景代码，如手机遗落提醒、开门提醒、转弯自动弹影像等，形成UGC生态。体验价值：任务大师本质是用户可编程的自动化规则引擎，它解决了车机功能“藏得深、不易发现”的痛点，让用户能按需定制个性化用车体验，极大降低了功能使用门槛。商业影响：UGC生态的繁荣显著提升了用户粘性和社区活跃度，任务大师成为理想汽车独特的软件差异化卖点，并可能催生未来的付费场景模板市场。",
+          "summary_en": "Core Event: Li Auto's 'Task Master' feature is being deeply explored by users, with many owners sharing practical scenario codes (e.g., phone left behind reminder, door open reminder, auto camera on turn), forming a UGC ecosystem. User Experience Value: Task Master is essentially a user-programmable automation rule engine. It solves the pain point of features being 'hidden and hard to discover', allowing users to customize their in-car experience on demand, significantly lowering the barrier to feature usage. Business Impact: The thriving UGC ecosystem significantly boosts user stickiness and community activity. Task Master has become a unique software differentiator for Li Auto and could potentially spawn a future paid scenario template marketplace."
+        },
+        {
+          "title": "很多理想车主不知道，现在已经能直接在车里语音点肯德基了 导航、下单... - Bilibili",
+          "title_en": "Many Li Auto Owners Don't Know, You Can Now Order KFC Directly by Voice in the Car, Navigate, Place Order... - Bilibili",
+          "url": "https://www.bilibili.com/video/BV1zm5R6fEiP/",
+          "site_name": "Bilibili",
+          "publish_date": "2026-05-13",
+          "summary": "核心事件：理想汽车座舱内实现语音点肯德基功能，用户可通过语音完成导航、下单、支付全流程。体验价值：该功能将高频生活服务（快餐）无缝嵌入驾驶场景，解决了用户在行车途中“想吃东西但无法操作手机”的痛点，创造了“动口不动手”的便捷车内消费新场景。商业影响：语音点餐是座舱内生活服务生态的关键一环，它验证了车机作为“第三生活空间”的商业变现潜力，通过接入本地生活服务，理想汽车有望开辟新的软件服务收入来源。",
+          "summary_en": "Core Event: Li Auto's cockpit now supports voice ordering of KFC, allowing users to complete the entire process of navigation, ordering, and payment via voice. User Experience Value: This feature seamlessly embeds a high-frequency life service (fast food) into the driving scenario, solving the pain point of 'wanting to eat but unable to operate the phone' while driving, creating a convenient new in-car consumption scenario of 'move your mouth, not your hands'. Business Impact: Voice ordering is a key part of the in-cabin life service ecosystem. It validates the commercial monetization potential of the car as a 'third living space'. By integrating local life services, Li Auto can potentially open up new software service revenue streams."
         }
       ],
       "created_at": "2026-05-15 02:22:08",
-      "updated_at": "2026-05-15 06:02:10"
+      "updated_at": "2026-05-15 06:44:10"
     },
     {
       "date": "2026-05-14",

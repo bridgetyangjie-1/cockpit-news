@@ -89,10 +89,17 @@
                 <span class="material-symbols-outlined text-lg">language</span>
                 <span class="text-sm">English</span>
             </a>
-            <a href="mailto:bridgetyangjie@gmail.com" class="flex items-center gap-2 text-on-surface-variant hover:text-primary transition-colors cursor-pointer">
-                <span class="material-symbols-outlined text-lg">mail</span>
-                <span class="text-sm">Bridget Yang</span>
-            </a>
+            <!-- 订阅表单 -->
+            <div class="pt-3 border-t border-outline-variant/50">
+                <p class="text-xs text-on-surface-variant mb-2">📬 订阅日报</p>
+                <form action="https://buttondown.com/api/emails/embed-subscribe/Cockpit_News_by_BridgetYang" method="post" class="space-y-2">
+                    <input type="email" name="email" placeholder="输入邮箱地址" required
+                           class="w-full px-3 py-2 bg-surface-container-high border border-outline-variant rounded-lg text-sm text-on-surface placeholder:text-on-surface-variant/50 focus:outline-none focus:border-primary" />
+                    <button type="submit" class="w-full py-2 bg-primary/20 hover:bg-primary/30 text-primary rounded-lg text-sm font-medium transition-colors">
+                        立即订阅
+                    </button>
+                </form>
+            </div>
             <!-- 作者声明 -->
             <div class="pt-3 mt-3 border-t border-outline-variant/50">
                 <p class="text-[10px] text-on-surface-variant/60 leading-relaxed">本看板内容基于公开信息自动抓取，由AI分析生成，仅供参考研究使用，不代表作者立场。</p>
