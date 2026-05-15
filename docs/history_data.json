@@ -7,53 +7,48 @@
       "news_count": 5,
       "news": [
         {
-          "title": "启源Q05 OTA升级，车家互联开启全场景新体验",
-          "title_en": "Changan Q05 OTA Update: Car-Home Connectivity Opens New All-Scenario Experience",
-          "url": "https://www.itbear.com.cn/html/2026-05/1333126.html",
-          "site_name": "ITBear",
-          "publish_date": "2026-05-11",
-          "summary": "【事件概述】长安启源Q05推送OTA升级，核心亮点是“天枢智联”生态的落地。该生态基于4纳米天玑芯片与科大讯飞星火大模型，实现三大功能：手车无缝协同（通过华为HiCar 3D车控桌面，实现导航、音乐、日程等高频应用实时同步与流转）、车家互联（用户可在车内远程控制智能家居设备，如空调、灯光等）、以及AI主动服务（基于大模型理解用户意图，如“我有点冷”自动调高空调温度）。此次升级标志着10万级车型正式进入AI座舱时代。\n\n【体验价值】从用户研究视角看，此次升级精准解决了两个核心痛点：一是“多设备割裂”，通过HiCar 3D桌面将手机与车机生态无缝融合，用户无需学习新交互逻辑；二是“场景断点”，车家互联让用户从出门到回家形成完整服务闭环，提升了出行全链路的连贯性。AI主动服务则降低了操作门槛，尤其对非科技爱好者友好。\n\n【商业影响】启源Q05以6.99万起售价提供此类功能，将倒逼同价位竞品加速软件生态投入。同时，车家互联功能可提升用户对品牌智能生态的粘性，为后续软件订阅服务（如高级AI场景包）铺路，并强化长安在“人-车-家”全场景中的入口价值。",
-          "summary_en": "【Event Overview】Changan Qiniu Q05 pushes an OTA update centered on the 'Tianshu Zhilian' ecosystem. Based on a 4nm chip and iFlytek Spark large model, it enables seamless phone-car sync (via Huawei HiCar 3D), car-home control (e.g., smart home devices), and proactive AI services (e.g., auto-adjusting AC when user says 'I'm cold'). This marks the entry of the 100,000 RMB segment into the AI cockpit era.\n\n【Experience Value】From a UX perspective, this update tackles two key pain points: 'device fragmentation' by merging phone and car ecosystems via HiCar, and 'scenario gaps' by connecting car and home for a seamless journey loop. Proactive AI reduces interaction complexity, especially benefiting non-tech-savvy users.\n\n【Business Impact】At a starting price of 69,900 RMB, this forces competitors in the same segment to accelerate software investment. Car-home connectivity boosts brand ecosystem stickiness, paves the way for subscription services (e.g., premium AI packs), and strengthens Changan's role as a gateway in the 'human-car-home' scenario."
+          "title": "车百智库推出重点项目：《汽车市场与消费跟踪及预测》",
+          "title_en": "车百智库推出重点项目：《汽车市场与消费跟踪及预测》",
+          "url": "https://www.chinaev100.com/focus/detail/538?catid=44",
+          "site_name": "Chinaev100",
+          "summary": "5 days ago - 当前，全球汽车产业正处于深度变革期，政策迭代加速、市场竞争加剧、出海机遇凸显、AI技术重构产业生态。为助力行业把握趋势、破题抢先，车百智库2026年推出五大重点项目，以全维度研究体系，为政府决策、企业战略、产业投资提供专业支撑。",
+          "summary_en": "5 days ago - 当前，全球汽车产业正处于深度变革期，政策迭代加速、市场竞争加剧、出海机遇凸显、AI技术重构产业生态。为助力行业把握趋势、破题抢先，车百智库2026年推出五大重点项目，以全维度研究体系，为政府决策、企业战略、产业投资提供专业支撑。"
         },
         {
-          "title": "科大讯飞开启全场景主动式AI座舱新时代",
-          "title_en": "iFlytek Ushers in New Era of All-Scenario Proactive AI Cockpit",
-          "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-05-12/doc-inhxrshk9944436.shtml",
-          "site_name": "Sina Finance",
-          "publish_date": "2026-05-12",
-          "summary": "【事件概述】科大讯飞发布星火新一代多模态智能座舱方案，核心突破在于从“被动响应”转向“主动服务”。该方案集成端侧多模态大模型与智能体生态，支持自然语言控车（如“我有点热”自动调温）、多模态交互（语音+手势+视线融合）、以及场景化智能服务（如根据用户日程、位置、偏好主动推荐餐厅或充电站）。同时，iFLYSOUND氮化镓母带级声学系统与30余项自研音频算法，提供软硬一体的沉浸式听觉体验。\n\n【体验价值】该方案将交互从“命令式”升级为“意图式”，用户无需记忆指令，系统通过多模态感知（如车内摄像头检测到用户出汗，结合环境温度主动询问是否需调低空调）实现无感服务。这显著降低了学习成本，尤其对老年用户或新手司机友好。同时，多模态融合提升了交互容错率，例如在嘈杂环境下，手势可辅助语音指令。\n\n【商业影响】科大讯飞作为Tier 1供应商，其方案可快速赋能多家车企，加速行业从“硬件堆料”向“软件定义体验”转型。主动服务能力是提升用户粘性的关键，可转化为高级订阅服务（如个性化场景包）。同时，其端侧大模型方案降低了云端依赖，有助于车企控制数据成本并保障隐私安全，形成差异化竞争壁垒。",
-          "summary_en": "【Event Overview】iFlytek unveils the Spark next-gen multimodal cockpit, shifting from 'passive response' to 'proactive service'. It integrates an on-device multimodal LLM and agent ecosystem, enabling natural language control (e.g., 'I'm hot' triggers AC), multimodal interaction (voice+gesture+gaze), and contextual services (e.g., proactive restaurant recommendations). The iFLYSOUND system adds immersive audio.\n\n【Experience Value】This upgrades interaction from 'command-based' to 'intent-based'. Users don't need to memorize commands; the system uses multimodal sensing (e.g., detecting sweat via camera) to offer proactive assistance. This reduces learning curves, especially for elderly or novice drivers. Multimodal fusion also improves error tolerance in noisy environments.\n\n【Business Impact】As a Tier 1 supplier, iFlytek's solution can rapidly empower multiple OEMs, accelerating the shift from hardware to software-defined experiences. Proactive services boost user stickiness and can be monetized via subscriptions. The on-device LLM reduces cloud dependency, lowering data costs and enhancing privacy, creating a competitive moat."
+          "title": "吉他效果器 Overloud TH-U Slate Edition 介绍_哔哩哔哩_bilibili",
+          "title_en": "吉他效果器 Overloud TH-U Slate Edition 介绍_哔哩哔哩_bilibili",
+          "url": "https://www.bilibili.com/video/BV1FS4y1z7As/",
+          "site_name": "Bilibili",
+          "summary": "2 days ago - 官方地址：https://slatedigital.com/th-u/学习使用下载地址：http://www.sky70.cn/overloud-th-u-slate-edition-v1-4-10-unlocked-r2r.html, 视频播放量 1048、弹幕量 0、点赞数 5、投硬币枚数 0、收藏人数 7、转发人数 2, 视频作者 sky70音乐工作站, 作者简介 网站地址：http://sky70.imdo.co:7070/，相关视频：弦乐 Cinematic Strings Pro Edition 2.1 KONTAKT-MAGNETRiXX，托尼架子鼓 MixWave Tony Royster Jr KONTAKT，鼓组BFD3安装，金属电吉他 Prominy V-Metal KONTAKT，Spectrasonics Trilian Keyscape",
+          "summary_en": "2 days ago - 官方地址：https://slatedigital.com/th-u/学习使用下载地址：http://www.sky70.cn/overloud-th-u-slate-edition-v1-4-10-unlocked-r2r.html, 视频播放量 1048、弹幕量 0、点赞数 5、投硬币枚数 0、收藏人数 7、转发人数 2, 视频作者 sky70音乐工作站, 作者简介 网站地址：http://sky70.imdo.co:7070/，相关视频：弦乐 Cinematic Strings Pro Edition 2.1 KONTAKT-MAGNETRiXX，托尼架子鼓 MixWave Tony Royster Jr KONTAKT，鼓组BFD3安装，金属电吉他 Prominy V-Metal KONTAKT，Spectrasonics Trilian Keyscape"
         },
         {
-          "title": "面壁智能：智能座舱的终局是主动智能",
-          "title_en": "ModelBest: The Endgame of Smart Cockpits is Proactive Intelligence",
-          "url": "https://chedongxi.com/p/367581.html",
-          "site_name": "Chedongxi",
-          "publish_date": "2026-05-08",
-          "summary": "【事件概述】面壁智能在吉利银河M9上展示了其座舱AI方案，核心特征是“主动智能”。系统通过多模态感知（摄像头、雷达等）实时理解车内场景，无需用户指令即可自动执行操作。例如：能见度差时自动开启雾灯、过收费站自动降窗、检测到车内不同人员后分别提供个性化服务（如为后排儿童播放动画、为驾驶员调整导航）。这标志着座舱AI从“语音助手”向“全场景管家”进化。\n\n【体验价值】主动智能解决了“用户不知道能做什么”的隐性痛点。传统座舱需要用户主动探索功能，而主动智能通过场景感知自动触发，实现了“无感交互”。例如，过收费站自动降窗，避免了用户手忙脚乱找按钮。同时，多人员个性化服务提升了家庭出行体验，每个成员都能获得专属服务，增强了座舱的“情感化”属性。\n\n【商业影响】面壁智能的方案展示了AI Agent在座舱中的落地路径，其“场景驱动”逻辑可复制到其他车型，加速行业从“功能集成”向“智能服务”转型。主动智能是提升用户满意度和品牌忠诚度的利器，尤其适合家庭用户。同时，该方案可收集大量场景数据，反哺模型迭代，形成数据飞轮，构建长期竞争壁垒。",
-          "summary_en": "【Event Overview】ModelBest demonstrates its cockpit AI on the Geely Galaxy M9, featuring 'proactive intelligence'. The system uses multimodal sensing to understand in-cabin scenarios and auto-execute actions without user commands: auto-fog lights in low visibility, auto-lower windows at toll booths, and personalized services for different occupants (e.g., cartoons for kids, navigation for driver). This marks an evolution from 'voice assistant' to 'all-scenario butler'.\n\n【Experience Value】Proactive intelligence solves the hidden pain point of 'users not knowing what's possible'. By auto-triggering actions based on context, it enables 'invisible interaction'. For example, auto-lowering windows at tolls avoids frantic button-searching. Personalized multi-occupant services enhance family travel, giving each member a tailored experience and adding an 'emotional' layer to the cockpit.\n\n【Business Impact】ModelBest's solution demonstrates a viable path for AI Agents in cockpits. Its 'scenario-driven' logic is replicable, accelerating the industry shift from feature integration to intelligent services. Proactive intelligence is a powerful tool for boosting satisfaction and loyalty, especially among families. It also generates rich scenario data for model iteration, creating a data flywheel and long-term competitive advantage."
+          "title": "【明日方舟】TOP20歌曲EP榜单&介绍（截至辞岁行前）_哔哩哔哩_bilibili",
+          "title_en": "【明日方舟】TOP20歌曲EP榜单&介绍（截至辞岁行前）_哔哩哔哩_bilibili",
+          "url": "https://www.bilibili.com/video/BV1eRfGBgEcT/",
+          "site_name": "Bilibili",
+          "summary": "5 days ago - 希望本期视频可以扩充你的歌单~排位很主观，但也尽可能保证视频越来越悦耳音质已尽可能提升！部分音源为CD抓轨~但毕竟音角只出了那么几张CD，收藏都没得收藏呀..., 视频播放量 226372、弹幕量 1568、点赞数 7833、投硬币枚数 1825、收藏人数 5266、转发人数 901, 视频作者 LaiyaMornar莫莫, 作者简介 自学作编曲/希望让好的acg音乐被更多人听见，相关视频：北极熊听明日方舟ep排行，这首歌竟然是方舟的？，《明日方舟》EP - 铁花飞，【磕音角】音乐数值膨胀",
+          "summary_en": "5 days ago - 希望本期视频可以扩充你的歌单~排位很主观，但也尽可能保证视频越来越悦耳音质已尽可能提升！部分音源为CD抓轨~但毕竟音角只出了那么几张CD，收藏都没得收藏呀..., 视频播放量 226372、弹幕量 1568、点赞数 7833、投硬币枚数 1825、收藏人数 5266、转发人数 901, 视频作者 LaiyaMornar莫莫, 作者简介 自学作编曲/希望让好的acg音乐被更多人听见，相关视频：北极熊听明日方舟ep排行，这首歌竟然是方舟的？，《明日方舟》EP - 铁花飞，【磕音角】音乐数值膨胀"
         },
         {
-          "title": "联发科：智能体无缝跨端协同，从三个层面入手",
-          "title_en": "MediaTek: Seamless Cross-Device Agent Collaboration Starts from Three Layers",
-          "url": "https://www.ithome.com/0/951/028.htm",
-          "site_name": "IT之家",
-          "publish_date": "2026-05-15",
-          "summary": "【事件概述】联发科在MDDC 2026上分享了实现智能体无缝跨端协同的三大核心策略：1）从IP设计源头统一标准，确保不同设备（手机、车机、IoT）的底层通信协议兼容；2）软件层实现“一次开发多端部署”，降低开发者适配成本；3）生态层共建标准，打破不同品牌间的交互壁垒。针对AI定义汽车，联发科强调需区分安全属性（如驾驶相关功能需高可靠），并发挥其在手机端侧AI的技术积累优势，将成熟技术迁移至座舱。\n\n【体验价值】跨端协同是用户的核心诉求之一，但当前受限于品牌壁垒和协议不统一。联发科的策略从底层解决了“设备孤岛”问题，用户可在手机、车机、家居设备间无缝切换任务（如手机导航自动流转至车机，下车后自动同步至手表）。同时，安全属性的区分确保了驾驶场景的可靠性，避免因跨端延迟导致风险。\n\n【商业影响】联发科作为芯片巨头，其统一标准倡议有望推动行业形成跨品牌互操作规范，降低车企生态建设成本。对于用户，这意味着更流畅的多设备体验，提升对品牌智能生态的依赖。同时，联发科将手机端AI优势迁移至座舱，可加速座舱AI的普及，并可能催生新的订阅服务（如跨端AI助手高级版）。",
-          "summary_en": "【Event Overview】At MDDC 2026, MediaTek shares three strategies for seamless cross-device agent collaboration: 1) Unified standards from IP design for compatible communication protocols across phones, cockpits, and IoT; 2) 'Develop once, deploy everywhere' at the software layer to reduce adaptation costs; 3) Ecosystem-wide standards to break brand barriers. For AI-defined vehicles, MediaTek emphasizes safety-critical differentiation and leveraging its mobile-side AI expertise for cockpit migration.\n\n【Experience Value】Cross-device collaboration is a key user need, but hindered by brand silos and protocol inconsistency. MediaTek's approach solves 'device isolation' at the foundation, enabling seamless task handoffs (e.g., phone navigation auto-transfers to car, then to watch). Safety-critical differentiation ensures reliability in driving scenarios, mitigating risks from cross-device latency.\n\n【Business Impact】As a chip giant, MediaTek's push for unified standards could drive industry-wide interoperability, reducing OEM ecosystem costs. For users, this means smoother multi-device experiences, increasing reliance on brand ecosystems. Migrating mobile AI strengths to cockpits accelerates AI adoption and may spawn new subscriptions (e.g., premium cross-device AI assistants)."
+          "title": "鸿蒙车机app开发：智能座舱的第三方应用机遇——从安全交互到语音控车的实战指南-csdn博客",
+          "title_en": "鸿蒙车机app开发：智能座舱的第三方应用机遇——从安全交互到语音控车的实战指南-csdn博客",
+          "url": "https://blog.csdn.net/m0_71441912/article/details/161081836",
+          "site_name": "Blog",
+          "summary": "第二章 智能座舱的第三方应用机遇 2.1 鸿蒙车机的市场地位与技术优势 截至2025年，鸿蒙智能座舱已搭载于问界、阿维塔、极狐等多个品牌车型，累计出货量突破300万辆。 这一庞大的存量市场，为第三方应用提供了广阔的潜在用户基础。 鸿蒙车机的核心优势：",
+          "summary_en": "第二章 智能座舱的第三方应用机遇 2.1 鸿蒙车机的市场地位与技术优势 截至2025年，鸿蒙智能座舱已搭载于问界、阿维塔、极狐等多个品牌车型，累计出货量突破300万辆。 这一庞大的存量市场，为第三方应用提供了广阔的潜在用户基础。 鸿蒙车机的核心优势："
         },
         {
-          "title": "博世下一代AI智能座舱：从被动响应到主动理解",
-          "title_en": "Bosch Next-Gen AI Cockpit: From Passive Response to Proactive Understanding",
-          "url": "https://www.sohu.com/a/1021950085_121136454",
-          "site_name": "Sohu",
-          "publish_date": "2026-05-13",
-          "summary": "【事件概述】博世发布其下一代AI智能座舱方案，核心是座舱AI Agent的量产落地。该方案实现了从“被动响应指令”到“主动理解需求”的范式革命，并将用户体验从座舱内的“单点功能智能”升维至整车智能的“全域融合进化”。具体功能包括：基于多模态感知的主动服务（如检测到驾驶员疲劳自动调节香氛和座椅按摩）、跨域协同（座舱与智驾、车身控制联动，如根据导航信息预调节悬架）、以及个性化学习（系统通过长期交互学习用户偏好，自动优化设置）。\n\n【体验价值】博世的方案将座舱从“工具”升级为“伙伴”。主动服务减少了用户操作，提升了驾驶安全（如疲劳检测）。跨域协同实现了整车级智能，例如，当导航显示前方弯道，座舱自动调整座椅侧翼支撑，提升了驾乘体验的连贯性。个性化学习则让座舱“越用越懂你”，增强了用户的情感连接。\n\n【商业影响】博世作为全球Tier 1巨头，其方案具有标杆意义，将推动行业加速AI Agent量产。跨域协同能力是差异化关键，可提升整车品牌溢价。同时，个性化学习为软件订阅服务（如高级个性化场景包）提供了基础，并可通过OTA持续迭代，形成长期用户运营模式。这进一步巩固了博世在智能座舱领域的领导地位。",
-          "summary_en": "【Event Overview】Bosch unveils its next-gen AI cockpit, centered on mass-production of cockpit AI Agents. It shifts from 'passive response' to 'proactive understanding', elevating UX from single-point intelligence to full-vehicle fusion. Features include proactive services (e.g., fatigue detection triggers aromatherapy), cross-domain coordination (e.g., suspension pre-adjustment based on navigation), and personalized learning (system learns user preferences over time).\n\n【Experience Value】Bosch's solution upgrades the cockpit from 'tool' to 'companion'. Proactive services reduce user effort and enhance safety (e.g., fatigue detection). Cross-domain coordination enables vehicle-level intelligence, e.g., auto-adjusting seat bolsters before a curve, improving ride continuity. Personalization creates an emotional bond as the cockpit 'knows you better over time'.\n\n【Business Impact】As a global Tier 1 giant, Bosch's solution sets a benchmark, accelerating AI Agent mass production. Cross-domain capability is a key differentiator, boosting brand premium. Personalization lays the groundwork for subscription services (e.g., premium scenario packs) and enables continuous OTA iteration, fostering long-term user engagement. This solidifies Bosch's leadership in smart cockpits."
+          "title": "百度地图重磅发布 DuDuClaw\"嘟嘟虾\"，五一 AI 副驾服务人次超 2 亿_凤凰网商业_凤凰网",
+          "title_en": "百度地图重磅发布 DuDuClaw\"嘟嘟虾\"，五一 AI 副驾服务人次超 2 亿_凤凰网商业_凤凰网",
+          "url": "https://biz.ifeng.com/c/8t7WTHwjnSA",
+          "site_name": "Biz",
+          "summary": "\" 一、首次发布 AI 座舱智能体平台DuDuClaw「嘟嘟虾」,向行业开放更底层和原子化的能力 在此次大会上,百度地图正式发布整车 AI 座舱智能体平台 DuDuClaw\"嘟嘟虾\",将端到端AI 座舱智能体的底层能力以平台化形式开放给车企。",
+          "summary_en": "\" 一、首次发布 AI 座舱智能体平台DuDuClaw「嘟嘟虾」,向行业开放更底层和原子化的能力 在此次大会上,百度地图正式发布整车 AI 座舱智能体平台 DuDuClaw\"嘟嘟虾\",将端到端AI 座舱智能体的底层能力以平台化形式开放给车企。"
         }
       ],
       "created_at": "2026-05-15 02:22:08",
-      "updated_at": "2026-05-15 09:27:30"
+      "updated_at": "2026-05-15 09:32:49"
     },
     {
       "date": "2026-05-14",
