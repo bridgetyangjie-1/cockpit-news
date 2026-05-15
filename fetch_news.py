@@ -17,12 +17,8 @@ DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY", "")
 HISTORY_FILE = "docs/history_data.json"
 MAX_DAYS = 30  # 保留最近 30 天
 
-# 邮件配置（处理空字符串情况）
-EMAIL_HOST = os.environ.get("EMAIL_HOST") or "smtp.126.com"
-EMAIL_PORT = int(os.environ.get("EMAIL_PORT") or "465")
-EMAIL_USER = os.environ.get("EMAIL_USER") or ""
-EMAIL_PASS = os.environ.get("EMAIL_PASS") or ""
-SUBSCRIBER_EMAILS = os.environ.get("SUBSCRIBER_EMAILS") or ""
+# Buttondown 邮件订阅配置
+BUTTONDOWN_API_KEY = os.environ.get("BUTTONDOWN_API_KEY") or ""
 
 
 # ==================== 历史数据管理 ====================
@@ -90,24 +86,15 @@ def add_today_record(history_data, news_items):
     return history_data
 
 
-# ==================== 邮件发送 ====================
+# ==================== 邮件发送（Buttondown API）====================
 def send_daily_email(news_items, date_str):
-    """发送日报邮件给订阅者"""
-    import smtplib
-    from email.mime.text import MIMEText
-    from email.mime.multipart import MIMEMultipart
-    from email.utils import formataddr
+    """通过 Buttondown API 发送邮件给所有订阅者"""
     
-    if not EMAIL_USER or not EMAIL_PASS or not SUBSCRIBER_EMAILS:
-        print("    ⚠️ 邮件配置不完整，跳过发送")
+    if not BUTTONDOWN_API_KEY:
+        print("    ⚠️ 未配置 BUTTONDOWN_API_KEY，跳过发送")
         return False
     
-    subscribers = [email.strip() for email in SUBSCRIBER_EMAILS.split(",") if email.strip()]
-    if not subscribers:
-        print("    ⚠️ 没有订阅者，跳过发送")
-        return False
-    
-    # 构建邮件内容
+    # 构建邮件主题和内容
     subject = f"🚗 智能座舱日报 | {date_str}"
     
     # HTML 邮件正文
@@ -163,7 +150,7 @@ def send_daily_email(news_items, date_str):
             </div>
             <div class="footer">
                 <p>🌐 在线阅读: <a href="https://bridgetyangjie-1.github.io/cockpit-news/">bridgetyangjie-1.github.io/cockpit-news</a></p>
-                <p style="margin-top: 10px;">本邮件由系统自动发送 | 如有疑问请联系: bridgetyangjie@gmail.com</p>
+                <p style="margin-top: 10px;">本邮件由系统自动发送</p>
                 <p style="margin-top: 5px;">© 2026 Bridget Yang</p>
             </div>
         </div>
@@ -171,33 +158,38 @@ def send_daily_email(news_items, date_str):
     </html>
     """
     
-    # 发送邮件
-    success_count = 0
-    for subscriber in subscribers:
-        try:
-            msg = MIMEMultipart('alternative')
-            msg['Subject'] = subject
-            msg['From'] = formataddr(("智能座舱日报", EMAIL_USER))
-            msg['To'] = subscriber
+    # 调用 Buttondown API 发送邮件
+    try:
+        url = "https://api.buttondown.email/v1/emails"
+        data = {
+            "subject": subject,
+            "body": html_content,
+            "publish": True  # 立即发送给所有订阅者
+        }
+        
+        req = urllib.request.Request(
+            url,
+            data=json.dumps(data).encode('utf-8'),
+            headers={
+                'Authorization': f'Token {BUTTONDOWN_API_KEY}',
+                'Content-Type': 'application/json'
+            },
+            method='POST'
+        )
+        
+        with urllib.request.urlopen(req, timeout=30) as response:
+            result = json.loads(response.read().decode('utf-8'))
+            print(f"    ✅ 邮件已通过 Buttondown 发送给所有订阅者")
+            return True
             
-            msg.attach(MIMEText(html_content, 'html', 'utf-8'))
-            
-            # 使用 SSL 连接
-            import ssl
-            context = ssl.create_default_context()
-            
-            with smtplib.SMTP_SSL(EMAIL_HOST, EMAIL_PORT, context=context) as server:
-                server.login(EMAIL_USER, EMAIL_PASS)
-                server.sendmail(EMAIL_USER, [subscriber], msg.as_string())
-            
-            success_count += 1
-            print(f"    ✅ 已发送给: {subscriber}")
-            
-        except Exception as e:
-            print(f"    ❌ 发送失败 [{subscriber}]: {e}")
-    
-    print(f"    📧 邮件发送完成: {success_count}/{len(subscribers)} 成功")
-    return success_count > 0
+    except urllib.error.HTTPError as e:
+        error_body = e.read().decode('utf-8')
+        print(f"    ❌ Buttondown API 错误: {e.code}")
+        print(f"    详情: {error_body[:200]}")
+        return False
+    except Exception as e:
+        print(f"    ❌ 邮件发送失败: {e}")
+        return False
 
 
 # ==================== 搜索 ====================
@@ -420,7 +412,10 @@ def generate_html(output_path, lang='zh'):
             'by_author': '作者',
             'published': '发布于',
             'disclaimer': '本看板内容基于公开信息自动抓取，由AI分析生成，仅供参考研究使用，不代表作者立场。',
-            'copyright': '© 2026 Bridget Yang'
+            'copyright': '© 2026 Bridget Yang',
+            'subscribe': '订阅日报',
+            'email_placeholder': '输入邮箱地址',
+            'subscribe_btn': '立即订阅'
         },
         'en': {
             'title': 'Smart Cockpit',
@@ -440,7 +435,10 @@ def generate_html(output_path, lang='zh'):
             'by_author': 'By',
             'published': 'Published',
             'disclaimer': 'Content is auto-curated from public sources and AI-analyzed for research purposes only. Does not represent the author\'s views.',
-            'copyright': '© 2026 Bridget Yang'
+            'copyright': '© 2026 Bridget Yang',
+            'subscribe': 'Subscribe',
+            'email_placeholder': 'Enter your email',
+            'subscribe_btn': 'Subscribe'
         }
     }
     
@@ -539,10 +537,17 @@ def generate_html(output_path, lang='zh'):
                 <span class="material-symbols-outlined text-lg">language</span>
                 <span class="text-sm">{t['switch_lang']}</span>
             </a>
-            <a href="{t['author_email']}" class="flex items-center gap-2 text-on-surface-variant hover:text-primary transition-colors cursor-pointer">
-                <span class="material-symbols-outlined text-lg">mail</span>
-                <span class="text-sm">{t['author']}</span>
-            </a>
+            <!-- 订阅表单 -->
+            <div class="pt-3 border-t border-outline-variant/50">
+                <p class="text-xs text-on-surface-variant mb-2">📬 {t['subscribe']}</p>
+                <form action="https://buttondown.com/api/emails/embed-subscribe/Cockpit_News_by_BridgetYang" method="post" class="space-y-2">
+                    <input type="email" name="email" placeholder="{t['email_placeholder']}" required
+                           class="w-full px-3 py-2 bg-surface-container-high border border-outline-variant rounded-lg text-sm text-on-surface placeholder:text-on-surface-variant/50 focus:outline-none focus:border-primary" />
+                    <button type="submit" class="w-full py-2 bg-primary/20 hover:bg-primary/30 text-primary rounded-lg text-sm font-medium transition-colors">
+                        {t['subscribe_btn']}
+                    </button>
+                </form>
+            </div>
             <!-- 作者声明 -->
             <div class="pt-3 mt-3 border-t border-outline-variant/50">
                 <p class="text-[10px] text-on-surface-variant/60 leading-relaxed">{t['disclaimer']}</p>
