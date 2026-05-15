@@ -407,7 +407,7 @@ def call_deepseek(system_prompt, user_prompt):
             {"role": "user", "content": user_prompt}
         ],
         "temperature": 0.1,
-        "max_tokens": 4096
+        "max_tokens": 8192  # 增加到 8192，确保生成完整内容
     }
 
     req = urllib.request.Request(
@@ -421,7 +421,7 @@ def call_deepseek(system_prompt, user_prompt):
     )
 
     try:
-        with urllib.request.urlopen(req, timeout=60) as response:
+        with urllib.request.urlopen(req, timeout=120) as response:  # 增加超时到 120 秒
             result = json.loads(response.read().decode('utf-8'))
             return result['choices'][0]['message']['content']
     except urllib.error.HTTPError as e:
@@ -505,8 +505,21 @@ def filter_and_format(news_list):
 
         data = json.loads(content.strip())
         items = data.get("news", data if isinstance(data, list) else [])
+        
+        # 验证每条新闻内容完整性
+        if isinstance(items, list):
+            for i, item in enumerate(items):
+                if isinstance(item, dict):
+                    summary = item.get("summary", "")
+                    # 检查是否包含完整的三个部分
+                    required_parts = ["【事件概述】", "【体验价值】", "【商业影响】"]
+                    missing_parts = [p for p in required_parts if p not in summary]
+                    if missing_parts:
+                        print(f"    ⚠️ 新闻{i+1} 内容不完整，缺少: {', '.join(missing_parts)}")
+        
         return items if isinstance(items, list) else []
-    except:
+    except Exception as e:
+        print(f"    ❌ 解析 DeepSeek 响应失败: {e}")
         return []
 
 
