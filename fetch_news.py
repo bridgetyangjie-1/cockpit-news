@@ -17,8 +17,15 @@ DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY", "")
 HISTORY_FILE = "docs/history_data.json"
 MAX_DAYS = 30  # 保留最近 30 天
 
-# Buttondown 邮件订阅配置
+# Buttondown 邮件订阅配置（发给订阅者）
 BUTTONDOWN_API_KEY = os.environ.get("BUTTONDOWN_API_KEY") or ""
+
+# SMTP 邮件配置（发给私人邮箱）
+SMTP_HOST = os.environ.get("SMTP_HOST") or ""
+SMTP_PORT = int(os.environ.get("SMTP_PORT") or "465")
+SMTP_USER = os.environ.get("SMTP_USER") or ""
+SMTP_PASS = os.environ.get("SMTP_PASS") or ""
+PRIVATE_EMAILS = os.environ.get("PRIVATE_EMAILS") or ""  # 逗号分隔
 
 
 # ==================== 历史数据管理 ====================
@@ -109,13 +116,14 @@ def send_daily_email(news_items, date_str):
             .header h1 {{ color: #fff; margin: 0; font-size: 24px; }}
             .header p {{ color: rgba(255,255,255,0.8); margin: 10px 0 0; font-size: 14px; }}
             .content {{ padding: 30px; }}
-            .news-item {{ padding: 20px 0; border-bottom: 1px solid #eee; }}
+            .news-item {{ padding: 24px 0; border-bottom: 1px solid #eee; }}
             .news-item:last-child {{ border-bottom: none; }}
             .news-number {{ display: inline-block; width: 28px; height: 28px; background: linear-gradient(135deg, #667eea, #764ba2); color: #fff; border-radius: 50%; text-align: center; line-height: 28px; font-size: 14px; font-weight: bold; margin-right: 10px; }}
             .news-title {{ font-size: 16px; font-weight: 600; color: #333; margin: 10px 0; }}
-            .news-meta {{ font-size: 12px; color: #888; margin-bottom: 8px; }}
-            .news-summary {{ font-size: 14px; color: #666; line-height: 1.8; }}
-            .news-link {{ display: inline-block; margin-top: 10px; padding: 6px 12px; background: #f0f0ff; color: #667eea; text-decoration: none; border-radius: 4px; font-size: 12px; }}
+            .news-meta {{ font-size: 12px; color: #888; margin-bottom: 12px; }}
+            .news-summary {{ font-size: 14px; color: #666; line-height: 1.8; white-space: pre-line; }}
+            .news-link {{ display: inline-block; margin-top: 12px; padding: 6px 12px; background: #f0f0ff; color: #667eea; text-decoration: none; border-radius: 4px; font-size: 12px; }}
+            .section-title {{ color: #667eea; font-weight: 600; margin: 12px 0 4px; }}
             .footer {{ background: #f9f9f9; padding: 20px; text-align: center; font-size: 12px; color: #999; }}
             .footer a {{ color: #667eea; text-decoration: none; }}
         </style>
@@ -131,17 +139,22 @@ def send_daily_email(news_items, date_str):
     
     for i, item in enumerate(news_items, 1):
         title = item.get("title", "")
-        summary = item.get("summary", "")[:200] + "..." if len(item.get("summary", "")) > 200 else item.get("summary", "")
+        summary = item.get("summary", "")  # 显示完整内容
         url = item.get("url", "")
         site = item.get("site_name", "")
         pub_date = item.get("publish_date", "")
+        
+        # 格式化 summary，确保换行正确显示
+        formatted_summary = summary.replace("【事件概述】", "<div class='section-title'>【事件概述】</div>")
+        formatted_summary = formatted_summary.replace("【体验价值】", "<div class='section-title'>【体验价值】</div>")
+        formatted_summary = formatted_summary.replace("【商业影响】", "<div class='section-title'>【商业影响】</div>")
         
         html_content += f"""
                 <div class="news-item">
                     <span class="news-number">{i}</span>
                     <div class="news-title">{title}</div>
                     <div class="news-meta">📰 {site}{" | 📅 " + pub_date if pub_date else ""}</div>
-                    <div class="news-summary">{summary}</div>
+                    <div class="news-summary">{formatted_summary}</div>
                     <a href="{url}" class="news-link">🔗 阅读原文</a>
                 </div>
         """
@@ -195,6 +208,94 @@ def send_daily_email(news_items, date_str):
         return False
     except Exception as e:
         print(f"    ❌ 邮件发送失败: {e}")
+        return False
+
+
+def send_private_email(news_items, date_str):
+    """通过 SMTP 发送邮件给私人邮箱"""
+    import smtplib
+    from email.mime.multipart import MIMEMultipart
+    from email.mime.text import MIMEText
+    
+    if not all([SMTP_HOST, SMTP_USER, SMTP_PASS, PRIVATE_EMAILS]):
+        print("    ⚠️ SMTP 配置不完整，跳过私人邮件发送")
+        return False
+    
+    recipients = [e.strip() for e in PRIVATE_EMAILS.split(",") if e.strip()]
+    if not recipients:
+        print("    ⚠️ 未配置私人邮箱，跳过发送")
+        return False
+    
+    subject = f"🚗 智能座舱日报 | {date_str}"
+    
+    # 构建邮件内容
+    news_count = len(news_items)
+    news_html = ""
+    for i, item in enumerate(news_items, 1):
+        # 格式化 summary，确保换行正确显示
+        summary = item.get('summary', '')
+        formatted_summary = summary.replace("【事件概述】", "<br><strong style='color:#00d4ff'>【事件概述】</strong><br>")
+        formatted_summary = formatted_summary.replace("【体验价值】", "<br><strong style='color:#00d4ff'>【体验价值】</strong><br>")
+        formatted_summary = formatted_summary.replace("【商业影响】", "<br><strong style='color:#00d4ff'>【商业影响】</strong><br>")
+        
+        news_html += f"""
+        <div style="margin-bottom: 24px; padding: 16px; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #00d4ff;">
+            <h3 style="margin: 0 0 8px 0; color: #1a1a2e; font-size: 16px;">
+                {i}. {item.get('title', '未知标题')}
+            </h3>
+            <p style="margin: 4px 0; color: #666; font-size: 13px;">
+                📅 {item.get('publish_date', '')} | 📰 {item.get('site_name', '未知来源')}
+            </p>
+            <p style="margin: 12px 0 0 0; color: #333; font-size: 14px; line-height: 1.6;">
+                {formatted_summary}
+            </p>
+            <a href="{item.get('url', '#')}" style="color: #00d4ff; font-size: 13px;">阅读原文 →</a>
+        </div>
+        """
+    
+    html_content = f"""
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            body {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; }}
+        </style>
+    </head>
+    <body>
+        <div style="text-align: center; margin-bottom: 32px; padding: 24px; background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); border-radius: 12px;">
+            <h1 style="color: #00d4ff; margin: 0; font-size: 24px;">🚗 智能座舱日报</h1>
+            <p style="color: #fff; margin: 8px 0 0 0;">{date_str} | 今日 {news_count} 条精选资讯</p>
+        </div>
+        {news_html}
+        <div style="text-align: center; margin-top: 32px; padding: 16px; color: #888; font-size: 12px; border-top: 1px solid #eee;">
+            <p>本邮件由系统自动发送</p>
+            <p>© 2026 Bridget Yang</p>
+        </div>
+    </body>
+    </html>
+    """
+    
+    try:
+        import ssl
+        context = ssl.create_default_context()
+        
+        with smtplib.SMTP_SSL(SMTP_HOST, SMTP_PORT, context=context) as server:
+            server.login(SMTP_USER, SMTP_PASS)
+            
+            for recipient in recipients:
+                msg = MIMEMultipart('alternative')
+                msg['Subject'] = subject
+                msg['From'] = SMTP_USER
+                msg['To'] = recipient
+                msg.attach(MIMEText(html_content, 'html', 'utf-8'))
+                
+                server.sendmail(SMTP_USER, recipient, msg.as_string())
+                print(f"    ✅ 私人邮件已发送至: {recipient}")
+            
+            return True
+            
+    except Exception as e:
+        print(f"    ❌ SMTP 发送失败: {e}")
         return False
 
 
@@ -365,9 +466,14 @@ def filter_and_format(news_list):
 - 英文版本相应精简
 
 【结构要求】：
-1. **事件概述（80字）**：提炼核心软件事件，如某品牌推送了包含特定功能的OTA，或发布了新的交互框架。
-2. **体验价值（100字）**：从用户研究视角剖析该功能的体验价值，分析其解决了什么用户痛点，或创造了何种使用场景。
-3. **商业影响（100字）**：研判其对提升用户粘性、软件订阅率或行业竞争壁垒的影响。
+1. **事件概述（120字）**：提炼核心软件事件，如某品牌推送了包含特定功能的OTA，或发布了新的交互框架，详细说明功能内容。
+2. **体验价值（80字）**：从用户研究视角剖析该功能的体验价值，分析其解决了什么用户痛点。
+3. **商业影响（80字）**：研判其对提升用户粘性、软件订阅率或行业竞争壁垒的影响。
+
+【格式要求】：
+- 每个模块之间必须**换行**
+- 使用"【事件概述】"、"【体验价值】"、"【商业影响】"作为标题
+- 每个模块内容独立成段，不要挤在一起
 
 必须返回严格的JSON格式，不要加任何其他文字：
 {{
@@ -378,8 +484,8 @@ def filter_and_format(news_list):
       "url": "原链接",
       "site_name": "来源媒体",
       "publish_date": "发布日期（如2025-01-14，若未知则填写"近日"）",
-      "summary": "280-320字中文深度洞察，严格按照上述结构撰写。",
-      "summary_en": "对应长度的英文专业分析。"
+      "summary": "280-320字中文深度洞察，每个模块必须换行，格式如下：\n【事件概述】xxx\n\n【体验价值】xxx\n\n【商业影响】xxx",
+      "summary_en": "对应格式的英文专业分析，同样换行：\n【Event Overview】xxx\n\n【Experience Value】xxx\n\n【Business Impact】xxx"
     }}
   ]
 }}"""
@@ -825,11 +931,18 @@ def main():
     generate_html("docs/index.html", lang='zh')
     generate_html("docs/en/index.html", lang='en')
 
-    # 8. 发送邮件
+    # 8. 发送邮件（双通道）
     if items:
         print("📧 发送日报邮件...")
         today_str = datetime.now().strftime("%Y年%m月%d日")
+        
+        # 方式1: Buttondown 发给订阅者
+        print("  📬 Buttondown 发送给订阅者...")
         send_daily_email(items, today_str)
+        
+        # 方式2: SMTP 发给私人邮箱
+        print("  📨 SMTP 发送给私人邮箱...")
+        send_private_email(items, today_str)
 
     print("✅ 完成！30天历史归档已更新")
     return True
