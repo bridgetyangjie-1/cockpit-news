@@ -160,11 +160,17 @@ def send_daily_email(news_items, date_str):
     
     # 调用 Buttondown API 发送邮件
     try:
+        import urllib.parse
+        
+        # Buttondown API 要求：设置 publish_date 为当前时间，邮件才会立即发送
+        from datetime import datetime
+        publish_date = datetime.now().isoformat()
+        
         url = "https://api.buttondown.email/v1/emails"
         data = {
             "subject": subject,
             "body": html_content,
-            "publish": True  # 立即发送给所有订阅者
+            "publish_date": publish_date  # 设置发布时间，邮件会立即发送
         }
         
         req = urllib.request.Request(
