@@ -7,53 +7,48 @@
       "news_count": 5,
       "news": [
         {
-          "title": "智能座舱系统体验评测:语音控制、大屏交互、OTA升级谁家做得最流畅?",
-          "title_en": "Smart Cockpit System Experience Review: Who Does Voice Control, Large Screen Interaction, and OTA Upgrades Best?",
+          "title": "升级就能用!苹果CarPlay接入Grok，车载AI终于迎来\"真智能\"？",
+          "title_en": "升级就能用!苹果CarPlay接入Grok，车载AI终于迎来\"真智能\"？",
+          "url": "https://finance.sina.com.cn/wm/2026-05-09/doc-inhxhuvc1421210.shtml",
+          "site_name": "Finance",
+          "summary": "5月9日消息，据科技媒体9to5Ma报道称，苹果CarPlay正式接入了马斯克旗下SpaceXAI的Grok模型。 简单来说，以后不管你开的是不是特斯拉，只要车支持 ...",
+          "summary_en": "5月9日消息，据科技媒体9to5Ma报道称，苹果CarPlay正式接入了马斯克旗下SpaceXAI的Grok模型。 简单来说，以后不管你开的是不是特斯拉，只要车支持 ..."
+        },
+        {
+          "title": "苹果 CarPlay 接入 Grok AI，车内可与AI自然聊天_腾讯新闻",
+          "title_en": "苹果 CarPlay 接入 Grok AI，车内可与AI自然聊天_腾讯新闻",
+          "url": "https://news.qq.com/rain/a/20260509A03LFH00",
+          "site_name": "News",
+          "summary": "【环球网科技综合报道】5月9日消息，据MacRumors报道，苹果 iOS 26.4 系统更新推动 CarPlay 车载生态持续拓展，正式接入马斯克旗下 SpaceXAI（原 xAI）的 ...",
+          "summary_en": "【环球网科技综合报道】5月9日消息，据MacRumors报道，苹果 iOS 26.4 系统更新推动 CarPlay 车载生态持续拓展，正式接入马斯克旗下 SpaceXAI（原 xAI）的 ..."
+        },
+        {
+          "title": "中国车企加速出海，一场围绕车载内容生态的重构正在发生中国车企加速出海，一场围绕车载内容生态的重构正在发生",
+          "title_en": "中国车企加速出海，一场围绕车载内容生态的重构正在发生中国车企加速出海，一场围绕车载内容生态的重构正在发生",
+          "url": "https://dcdv.zol.com.cn/1180/11806047.html",
+          "site_name": "Dcdv",
+          "summary": "这意味着，车企不再面对\"接入哪些App\"的问题，而是必须思考如何构建一套适应不同市场的内容生态体系。 从行业角度来看，这其实是中国车企全球化过程中首次真正触及\"内容本地化能力\"的核心竞争区。",
+          "summary_en": "这意味着，车企不再面对\"接入哪些App\"的问题，而是必须思考如何构建一套适应不同市场的内容生态体系。 从行业角度来看，这其实是中国车企全球化过程中首次真正触及\"内容本地化能力\"的核心竞争区。"
+        },
+        {
+          "title": "36氪独家 ｜「时的科技」一个月内完成两轮融资，加速倾转旋翼载人飞行器的落地应用-36氪",
+          "title_en": "36氪独家 ｜「时的科技」一个月内完成两轮融资，加速倾转旋翼载人飞行器的落地应用-36氪",
+          "url": "https://36kr.com/p/1385573710314887",
+          "site_name": "36Kr",
+          "summary": "5 days ago - 产品方面，时的科技目前规划了代号为“E20”的倾转旋翼载人eVTOL，设计最大航程200公里，最大飞行速度260km/h，在市场应用上重点针对立体交通空中出行市场。据了解，E20的设计特点主要有：纯电动力系统；固定翼（鸥翼）+垂直和水平尾翼；6旋翼（其中4个旋翼可倾转）；可容纳1名飞行员和4名乘客的5座智能座舱。",
+          "summary_en": "5 days ago - 产品方面，时的科技目前规划了代号为“E20”的倾转旋翼载人eVTOL，设计最大航程200公里，最大飞行速度260km/h，在市场应用上重点针对立体交通空中出行市场。据了解，E20的设计特点主要有：纯电动力系统；固定翼（鸥翼）+垂直和水平尾翼；6旋翼（其中4个旋翼可倾转）；可容纳1名飞行员和4名乘客的5座智能座舱。"
+        },
+        {
+          "title": "智能座舱系统体验评测:语音控制、大屏交互、OTA升级谁家做得最流畅?__财经头条__新浪财经",
+          "title_en": "智能座舱系统体验评测:语音控制、大屏交互、OTA升级谁家做得最流畅?__财经头条__新浪财经",
           "url": "https://cj.sina.com.cn/articles/view/7857141524/1d452771401902g9bu?froms=ggmp",
-          "site_name": "财经头条",
-          "publish_date": "2026-05-13",
-          "summary": "【事件概述】理想汽车推送OTA 7.2版本，重点优化智能座舱响应速度，并升级语音交互功能，包括全车免唤醒、方言自由说、指令自由说、简洁应答、多模态指代与可见即可说升级、热词自学习，以及全新卡片桌面和动态屏保。此举直接回应了此前用户对车机反应慢的抱怨。\n\n【体验价值】从用户研究视角看，全车免唤醒和方言自由说显著降低了语音交互的认知负荷与操作门槛，尤其对非普通话用户友好。多模态指代（如“打开那个车窗”）结合可见即可说，将交互从线性指令升级为更自然的空间对话，解决了传统语音“必须记住准确命令”的痛点。动态屏保和卡片桌面则通过视觉微交互提升了座舱的“情感温度”，让系统从工具感向陪伴感过渡。\n\n【商业影响】理想通过OTA快速修复体验短板，展现了软件定义汽车的敏捷性，有助于巩固其“家庭用户首选”的品牌心智。语音交互的深度优化可能推动订阅服务（如高级语音包、场景模式）的渗透率，同时为后续基于大模型的主动服务（如预判用户需求）奠定交互基础，形成差异化竞争壁垒。",
-          "summary_en": "[Event Overview] Li Auto pushed OTA 7.2, focusing on improving smart cockpit response speed and upgrading voice interaction features, including full-car wake-free, dialect-free speech, command-free speech, concise responses, multimodal reference and visible-to-say upgrades, hot word self-learning, and a new card desktop and dynamic screensaver. This directly addresses previous user complaints about slow system response.\n\n[Experience Value] From a user research perspective, full-car wake-free and dialect-free speech significantly reduce the cognitive load and operational barriers of voice interaction, especially for non-Mandarin speakers. Multimodal reference (e.g., 'open that window') combined with visible-to-say upgrades the interaction from linear commands to more natural spatial dialogue, solving the pain point of having to remember exact commands. Dynamic screensavers and card desktops enhance the 'emotional temperature' of the cockpit through visual micro-interactions, transitioning the system from a tool to a companion.\n\n[Business Impact] By quickly fixing experience shortcomings via OTA, Li Auto demonstrates the agility of software-defined vehicles, helping to solidify its brand perception as 'first choice for family users.' Deep optimization of voice interaction may boost penetration of subscription services (e.g., premium voice packs, scene modes) and lay the interaction foundation for future proactive services based on large models (e.g., predicting user needs), forming a differentiated competitive barrier."
-        },
-        {
-          "title": "6.99万起享智慧出行!启源Q05 OTA升级，车家互联开启全场景新体验",
-          "title_en": "Smart Travel from 69,900 RMB! Qiyuan Q05 OTA Upgrade, Car-Home Connectivity Opens New All-Scene Experience",
-          "url": "https://www.itbear.com.cn/html/2026-05/1333126.html",
-          "site_name": "ITBear科技资讯",
-          "publish_date": "2026-05-15",
-          "summary": "【事件概述】长安启源Q05推送OTA升级，核心是“天枢智联”生态，基于4纳米天玑芯片与科大讯飞星火大模型，实现三大功能：手车无缝协同（华为HiCar 3D车控桌面）、车家双向互联（适配美的、海尔等家电）、以及语音一键控全家。\n\n【体验价值】车家双向互联是本次升级的体验亮点。用户通过车载语音“小安你好”即可远程操控家中空调、灯光、扫地机器人等设备，实现了“人未至家已备好”的场景闭环。这解决了用户离家后忘记关家电或希望提前调节家居环境的痛点，将座舱从出行工具延伸为生活控制中心。手车协同的3D车控桌面则降低了手机与车机之间的切换成本，让导航、音乐等高频应用无缝流转，提升了多设备生态的一致性体验。\n\n【商业影响】启源Q05以6.99万起的价格将车家互联功能下放至入门级市场，可能加速该功能的普及，并推动美的、海尔等家电品牌与车企的生态合作。星火大模型的接入为后续更智能的主动服务（如根据用户习惯预调家居）提供了技术基础，有助于提升用户粘性，并通过生态绑定（如家电联动场景订阅）创造新的软件服务收入。",
-          "summary_en": "[Event Overview] Changan Qiyuan Q05 pushed an OTA upgrade centered on the 'Tianshu Zhilian' ecosystem, based on a 4nm Tianji chip and iFlytek Spark large model, achieving three core functions: seamless hand-car connectivity (Huawei HiCar 3D car control desktop), bidirectional car-home connectivity (compatible with Midea, Haier appliances), and one-voice control of the entire home.\n\n[Experience Value] Bidirectional car-home connectivity is the experience highlight. Users can remotely control home appliances like air conditioners, lights, and robot vacuums via the in-car voice command 'Xiao An, hello,' creating a closed-loop scenario of 'home ready before arrival.' This solves the pain point of forgetting to turn off appliances or wanting to pre-adjust the home environment, extending the cockpit from a travel tool to a life control center. The 3D car control desktop for hand-car synergy reduces switching costs between phone and car, enabling seamless flow of high-frequency apps like navigation and music, enhancing multi-device ecosystem consistency.\n\n[Business Impact] By offering car-home connectivity at an entry-level price of 69,900 RMB, Qiyuan Q05 may accelerate the popularization of this feature and drive ecological cooperation between home appliance brands like Midea and Haier and automakers. The integration of the Spark large model provides a technical foundation for more intelligent proactive services (e.g., pre-adjusting home based on user habits), helping to increase user stickiness and create new software service revenue through ecosystem binding (e.g., home appliance linkage scene subscriptions)."
-        },
-        {
-          "title": "智能座舱的终局是什么？面壁智能给出了自己的答案",
-          "title_en": "What is the Endgame of Smart Cockpits? Mianbi Intelligence Gives Its Answer",
-          "url": "https://chedongxi.com/p/367581.html",
-          "site_name": "车东西",
-          "publish_date": "2026-05-08",
-          "summary": "【事件概述】面壁智能在北京车展上提出智能座舱的终局是“主动智能”，并展示了其SuperMate交互框架。该框架的核心是彻底重构人车交互逻辑，从传统的“人指令-机器执行”转向“机器理解意图-主动服务”，强调多模态感知（语音、手势、视线）与情境推理的结合。\n\n【体验价值】从用户研究视角看，SuperMate的突破在于将交互从“人适配机器”转变为“机器适配人”。传统座舱需要用户学习命令或点击菜单，而主动智能系统能通过感知用户状态（如疲劳、分心）和环境（如天气、路况）预判需求，例如自动调整空调、推荐音乐或提醒休息。这解决了驾驶中多任务处理的认知过载问题，让交互更自然、无感。多模态融合（如结合视线和语音指令）进一步降低了误操作率，提升了安全性和易用性。\n\n【商业影响】面壁智能的框架代表了座舱交互从“功能堆砌”向“体验升维”的转型方向。如果成功落地，将推动车企从硬件竞赛转向软件和AI能力竞争。主动服务能力可能成为新的用户粘性来源，并通过场景化订阅（如“通勤模式”、“长途模式”）创造增值收入。同时，该框架对芯片算力和AI模型的要求较高，可能加速高端芯片（如高通、英伟达）在座舱中的渗透，并催生新的Tier 1软件供应商。",
-          "summary_en": "[Event Overview] Mianbi Intelligence proposed at the Beijing Auto Show that the endgame of smart cockpits is 'proactive intelligence' and showcased its SuperMate interaction framework. The core is to completely reconstruct human-car interaction logic, shifting from 'human commands - machine execution' to 'machine understands intent - proactive service,' emphasizing the combination of multimodal perception (voice, gesture, gaze) and contextual reasoning.\n\n[Experience Value] From a user research perspective, SuperMate's breakthrough lies in transforming interaction from 'humans adapting to machines' to 'machines adapting to humans.' Traditional cockpits require users to learn commands or click menus, while proactive intelligence systems can predict needs by sensing user states (e.g., fatigue, distraction) and environment (e.g., weather, road conditions), such as automatically adjusting air conditioning, recommending music, or reminding to rest. This solves the cognitive overload problem of multitasking while driving, making interaction more natural and seamless. Multimodal fusion (e.g., combining gaze and voice commands) further reduces error rates, improving safety and usability.\n\n[Business Impact] Mianbi's framework represents a shift from 'feature stacking' to 'experience elevation' in cockpit interaction. If successfully implemented, it will push automakers from hardware competition to software and AI capability competition. Proactive service capabilities may become a new source of user stickiness and create value-added revenue through scenario-based subscriptions (e.g., 'commute mode,' 'long-distance mode'). Additionally, the framework's high demands on chip computing power and AI models may accelerate the penetration of high-end chips (e.g., Qualcomm, NVIDIA) in cockpits and spawn new Tier 1 software suppliers."
-        },
-        {
-          "title": "20余家车企抢滩DeepSeek：AI...",
-          "title_en": "Over 20 Automakers Rush to DeepSeek: AI...",
-          "url": "https://chejiahao.autohome.com.cn/info/19230742",
-          "site_name": "汽车之家",
-          "publish_date": "2026-05-15",
-          "summary": "【事件概述】报道指出，超过20家中国车企（包括新势力和传统品牌）正在或计划将DeepSeek大模型集成到智能座舱中。核心应用集中在交互革命上，从传统的“指令式交互”转向“主动服务”，例如通过自然语言理解实现更复杂的对话、场景推荐和个性化设置。\n\n【体验价值】从用户研究视角看，DeepSeek的接入标志着座舱AI从“语音助手”向“智能伙伴”的进化。传统语音助手只能执行简单命令（如“打开空调”），而大模型能理解模糊意图（如“我有点冷”），并主动提供解决方案（如调高温度、关闭车窗）。这大幅降低了用户的学习成本，让交互更接近人际对话。此外，大模型还能根据用户历史行为（如常听的音乐、常去的餐厅）主动推荐服务，创造“千人千面”的个性化体验，解决了传统座舱“功能多但找不到”的痛点。\n\n【商业影响】20余家车企的集体涌入表明，大模型已成为座舱体验竞争的新标配。这可能导致行业洗牌：率先深度集成并优化体验的车企将获得用户心智优势，而仅做表面集成的品牌可能被淘汰。DeepSeek的开源属性降低了技术门槛，但定制化（如针对驾驶场景的模型微调）将成为差异化关键。长期看，大模型驱动的主动服务可能催生新的商业模式，如基于用户画像的精准广告或第三方服务推荐，但需平衡隐私与体验。",
-          "summary_en": "[Event Overview] The report indicates that over 20 Chinese automakers (including new forces and traditional brands) are or plan to integrate the DeepSeek large model into smart cockpits. The core application focuses on interaction revolution, shifting from traditional 'command-based interaction' to 'proactive service,' such as enabling more complex conversations, scene recommendations, and personalized settings through natural language understanding.\n\n[Experience Value] From a user research perspective, DeepSeek's integration marks the evolution of cockpit AI from a 'voice assistant' to an 'intelligent companion.' Traditional voice assistants can only execute simple commands (e.g., 'turn on the air conditioner'), while large models can understand vague intents (e.g., 'I'm a bit cold') and proactively provide solutions (e.g., raise temperature, close windows). This significantly reduces the user's learning cost, making interaction closer to human conversation. Additionally, large models can proactively recommend services based on user history (e.g., frequently listened music, often visited restaurants), creating a 'thousand faces for thousand people' personalized experience, solving the pain point of 'many features but hard to find' in traditional cockpits.\n\n[Business Impact] The collective rush of over 20 automakers indicates that large models have become a new standard in cockpit experience competition. This may lead to industry reshuffling: automakers that deeply integrate and optimize the experience first will gain user mindshare advantages, while brands that only do superficial integration may be eliminated. DeepSeek's open-source nature lowers the technical barrier, but customization (e.g., model fine-tuning for driving scenarios) will become key to differentiation. In the long term, proactive services driven by large models may spawn new business models, such as targeted advertising based on user profiles or third-party service recommendations, but privacy and experience must be balanced."
-        },
-        {
-          "title": "小鹏天玑AI OS 6.1.0系统全量推送，VLA2.0全场景辅助驾驶升级",
-          "title_en": "Xpeng Tianji AI OS 6.1.0 System Full Push, VLA2.0 All-Scene Assisted Driving Upgrade",
-          "url": "https://qiming0.shoujipaihangbang.cn/20260305/813840.html",
-          "site_name": "快科技",
-          "publish_date": "2026-03-05",
-          "summary": "【事件概述】小鹏汽车宣布天玑AI OS 6.1.0系统全量推送，核心升级是VLA2.0全场景辅助驾驶能力。该系统基于端到端大模型，实现了从高速到城市道路的连贯辅助驾驶体验，并优化了座舱内的交互反馈，如更自然的语音提示和可视化界面。\n\n【体验价值】从用户研究视角看，VLA2.0的升级重点在于“全场景”的连贯性。传统辅助驾驶在高速和城市道路切换时往往有断点（如需要用户接管），而端到端模型能平滑过渡，减少了用户的认知负担和焦虑感。座舱内的交互反馈优化（如语音提示更简洁、界面显示更直观）进一步提升了用户对系统的信任度。例如，系统能通过可视化界面清晰展示其“思考过程”（如识别到行人、预判路径），让用户更放心地使用辅助驾驶，解决了“黑箱”体验的痛点。\n\n【商业影响】小鹏通过OTA持续强化其“智能化”标签，尤其是辅助驾驶与座舱体验的融合。VLA2.0的升级可能吸引对科技敏感的用户群体，并提升现有用户的忠诚度。端到端大模型的应用也降低了硬件依赖（如减少对高精地图的需求），有助于小鹏在更多车型上快速部署。长期看，这种软硬一体的迭代能力可能成为小鹏的核心竞争壁垒，并推动行业从“功能对比”转向“体验对比”。",
-          "summary_en": "[Event Overview] Xpeng announced the full push of Tianji AI OS 6.1.0, with the core upgrade being VLA2.0 all-scene assisted driving capability. The system is based on an end-to-end large model, achieving coherent assisted driving from highways to urban roads, and optimizing in-cockpit interaction feedback, such as more natural voice prompts and visual interfaces.\n\n[Experience Value] From a user research perspective, the VLA2.0 upgrade focuses on the coherence of 'all-scene' driving. Traditional assisted driving often has discontinuities when switching between highways and urban roads (e.g., requiring user takeover), while the end-to-end model enables smooth transitions, reducing the user's cognitive load and anxiety. Optimized in-cockpit interaction feedback (e.g., more concise voice prompts, more intuitive interface display) further enhances user trust in the system. For example, the system can clearly show its 'thinking process' through the visual interface (e.g., identifying pedestrians, predicting paths), making users more comfortable using assisted driving, solving the pain point of a 'black box' experience.\n\n[Business Impact] Xpeng continues to strengthen its 'intelligence' label through OTA, especially the integration of assisted driving and cockpit experience. The VLA2.0 upgrade may attract tech-savvy user groups and increase loyalty among existing users. The application of end-to-end large models also reduces hardware dependence (e.g., less reliance on high-precision maps), helping Xpeng deploy quickly across more models. In the long term, this hardware-software iterative capability may become Xpeng's core competitive barrier, pushing the industry from 'feature comparison' to 'experience comparison.'"
+          "site_name": "Cj",
+          "summary": "2 days ago - 理想汽车在语音交互方面也进行了多项升级。OTA 7.2版本的智能座舱响应速度明显提升，用起来更顺手。之前车机反应慢的问题这次得到了很好的解决，这波操作直接“打脸”了一些唱衰的声音。理想同学的多项功能升级，包括全车免唤醒、方言自由说、指令自由说、简洁应答、多模态指代升级、多模态可见即可说升级、热词自学习、全新卡片桌面和动态屏保等，这些功能旨在提升用户在车内的使用体验。",
+          "summary_en": "2 days ago - 理想汽车在语音交互方面也进行了多项升级。OTA 7.2版本的智能座舱响应速度明显提升，用起来更顺手。之前车机反应慢的问题这次得到了很好的解决，这波操作直接“打脸”了一些唱衰的声音。理想同学的多项功能升级，包括全车免唤醒、方言自由说、指令自由说、简洁应答、多模态指代升级、多模态可见即可说升级、热词自学习、全新卡片桌面和动态屏保等，这些功能旨在提升用户在车内的使用体验。"
         }
       ],
       "created_at": "2026-05-15 02:22:08",
-      "updated_at": "2026-05-15 08:45:42"
+      "updated_at": "2026-05-15 09:12:09"
     },
     {
       "date": "2026-05-14",
