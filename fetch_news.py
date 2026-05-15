@@ -176,8 +176,9 @@ def send_daily_email(news_items, date_str):
         import urllib.parse
         
         # Buttondown API 要求：设置 publish_date 为当前时间，邮件才会立即发送
-        from datetime import datetime
-        publish_date = datetime.now().isoformat()
+        from datetime import datetime, timezone
+        # Buttondown API 要求时区信息，使用 UTC 时间
+        publish_date = datetime.now(timezone.utc).isoformat()
         
         url = "https://api.buttondown.email/v1/emails"
         data = {
