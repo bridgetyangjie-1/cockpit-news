@@ -1,6 +1,60 @@
 {
   "records": [
     {
+      "date": "2026-05-15",
+      "date_display": "05月15日",
+      "weekday": "周五",
+      "news_count": 5,
+      "news": [
+        {
+          "title": "5月比亚迪推送OTA升级 首发泊车无感唤起/优化哨兵模式等功能",
+          "title_en": "BYD Pushes May OTA Update: Debuts Unconscious Parking Activation, Optimizes Sentry Mode",
+          "url": "https://news.qq.com/rain/a/20260514A0910100",
+          "site_name": "腾讯新闻",
+          "publish_date": "2026-05-14",
+          "summary": "比亚迪于2026年5月正式推送OTA升级，核心新增“泊车无感唤起”功能，并优化了哨兵模式与智能座舱交互。从用户研究视角看，“泊车无感唤起”通过场景感知算法，在用户接近车辆时自动激活泊车界面，消除了传统手动寻找泊车功能的操作摩擦，创造了“零思考”的泊车启动体验。该功能有望显著提升用户对智能泊车功能的实际使用率，并作为差异化体验增强品牌忠诚度，为后续高阶泊车服务的订阅转化奠定用户习惯基础。",
+          "summary_en": "BYD officially pushed an OTA update in May 2026, featuring the new 'Unconscious Parking Activation' and optimizations to Sentry Mode and smart cockpit interaction. From a user research perspective, 'Unconscious Parking Activation' uses context-aware algorithms to automatically activate the parking interface when the user approaches the vehicle, eliminating the friction of manually searching for the parking function and creating a 'zero-thought' parking initiation experience. This feature is expected to significantly increase the actual usage rate of smart parking functions, enhance brand loyalty through differentiated experience, and lay the user habit foundation for future subscription conversion of advanced parking services."
+        },
+        {
+          "title": "小米官宣全量推送OTA 1.16",
+          "title_en": "Xiaomi Officially Announces Full Push of OTA 1.16",
+          "url": "https://www.autohome.com.cn/news/202605/1314278.html",
+          "site_name": "汽车之家",
+          "publish_date": "2026-05-14",
+          "summary": "小米汽车宣布全量推送OTA 1.16，这是一次涵盖辅助驾驶、泊车、语音交互及影音娱乐的大版本升级。从体验价值看，此次升级通过优化语音交互的上下文理解能力，减少了多轮对话中的重复指令，提升了驾驶中的操作安全性与效率；同时，影音娱乐的更新可能引入更多生态内容，强化了座舱作为“第三生活空间”的娱乐属性。商业上，小米通过高频、大规模的OTA推送，持续激活存量用户，巩固其“人车家全生态”的粘性，并为未来软件订阅服务（如高级驾驶辅助功能）的渗透铺平道路。",
+          "summary_en": "Xiaomi Auto announced the full push of OTA 1.16, a major update covering assisted driving, parking, voice interaction, and infotainment. From an experience value perspective, this upgrade enhances the contextual understanding of voice interaction, reducing repetitive commands in multi-turn dialogues and improving operational safety and efficiency while driving. Simultaneously, infotainment updates likely introduce more ecosystem content, strengthening the cockpit's role as a 'third living space.' Commercially, Xiaomi continuously activates existing users through high-frequency, large-scale OTA pushes, solidifying the stickiness of its 'Human-Car-Home Full Ecosystem' and paving the way for future penetration of software subscription services, such as advanced driver assistance features."
+        },
+        {
+          "title": "6.99万起享智慧出行！启源Q05 OTA升级，车家互联开启全场景新体验",
+          "title_en": "Smart Travel Starts at 69,900 RMB! Qiyuan Q05 OTA Upgrade Enables Full-Scene Home-Car Connectivity",
+          "url": "https://www.itbear.com.cn/html/2026-05/1333126.html",
+          "site_name": "ITBear科技资讯",
+          "publish_date": "2026-05-14",
+          "summary": "启源Q05通过OTA升级引入“天枢智联”生态，核心亮点是依托华为HiCar 3D车控桌面实现手车无缝协同，并接入科大讯飞星火大模型。从用户研究视角看，该功能解决了跨设备生态割裂的痛点，使导航、音乐、日程等高频应用在手机与车机间实时同步，创造了“无感流转”的连续性体验；大模型的接入则让语音助手从指令执行进化为场景化对话，提升了交互的自然度。商业上，这一升级将10万级车型的座舱体验拉升至新高度，通过生态绑定增强用户粘性，并可能通过第三方服务接入开辟新的增值收入来源。",
+          "summary_en": "The Qiyuan Q05 introduces the 'Tianshu Zhilian' ecosystem via OTA, with key highlights being seamless hand-car synergy through Huawei HiCar 3D car control desktop and integration of iFlytek's Spark large model. From a user research perspective, this feature solves the pain point of fragmented cross-device ecosystems, enabling real-time synchronization of high-frequency apps like navigation, music, and calendars between phone and car, creating a 'seamless flow' continuity experience. The large model elevates the voice assistant from command execution to contextual conversation, enhancing interaction naturalness. Commercially, this upgrade elevates the cockpit experience of entry-level vehicles to a new height, enhances user stickiness through ecosystem binding, and may open new value-added revenue streams through third-party service integration."
+        },
+        {
+          "title": "苹果 CarPlay 接入 Grok AI，车内可与AI自然聊天",
+          "title_en": "Apple CarPlay Integrates Grok AI, Enabling Natural AI Conversations in the Car",
+          "url": "https://news.qq.com/rain/a/20260509A03LFH00",
+          "site_name": "腾讯新闻",
+          "publish_date": "2026-05-09",
+          "summary": "苹果iOS 26.4更新推动CarPlay接入马斯克旗下xAI的Grok AI，允许用户在车内与AI进行自然对话。从体验价值看，这标志着车载语音助手从“工具型”向“伴侣型”的转变，Grok的幽默与个性化风格可能降低用户对AI的戒备，创造更放松的交互氛围，尤其适合长途驾驶中的娱乐与信息获取场景。商业上，此举将加剧车载AI助手的竞争，推动车企重新思考语音交互的差异化策略；同时，Grok的接入可能成为CarPlay生态的付费增值点，为苹果和xAI开辟新的订阅收入渠道。",
+          "summary_en": "Apple's iOS 26.4 update integrates Musk's xAI Grok AI into CarPlay, allowing users to have natural conversations with AI in the car. From an experience value perspective, this marks a shift from 'tool-type' to 'companion-type' in-car voice assistants. Grok's humorous and personalized style may lower user defenses against AI, creating a more relaxed interaction atmosphere, especially suitable for entertainment and information acquisition during long drives. Commercially, this move intensifies competition among in-car AI assistants, pushing automakers to rethink voice interaction differentiation strategies. Additionally, Grok's integration could become a paid value-added point within the CarPlay ecosystem, opening new subscription revenue channels for Apple and xAI."
+        },
+        {
+          "title": "理想任务大师整理全了，收藏这篇就够了",
+          "title_en": "Complete Guide to Li Auto's Task Master: Save This One",
+          "url": "https://www.douyin.com/note/7639624751899479302",
+          "site_name": "抖音",
+          "publish_date": "2026-05-14",
+          "summary": "理想汽车“任务大师”功能在用户社区中引发广泛讨论，该功能允许用户通过自定义触发条件与动作，实现如“转弯自动弹影像”、“手机遗落提醒”等个性化场景。从用户研究视角看，任务大师将座舱交互的主动权交还给用户，解决了“千人千面”的个性化需求，使车辆能主动适应用户习惯而非被动响应，极大提升了用户对座舱的掌控感与满意度。商业上，任务大师通过用户共创内容形成强社区粘性，降低了官方开发长尾功能的成本，同时为未来高级自动化场景（如“离家模式”联动家车）的订阅服务提供了用户教育基础。",
+          "summary_en": "Li Auto's 'Task Master' feature has sparked widespread discussion in the user community, allowing users to customize trigger conditions and actions for personalized scenarios like 'auto camera display on turn' or 'phone left behind reminder.' From a user research perspective, Task Master returns the initiative of cockpit interaction to the user, addressing the 'thousands of people, thousands of faces' personalization need. It enables the vehicle to actively adapt to user habits rather than passively respond, greatly enhancing user sense of control and satisfaction. Commercially, Task Master fosters strong community stickiness through user-generated content, reducing the cost of official development for long-tail features, while also providing a user education foundation for future subscription services of advanced automation scenarios, such as 'Away Mode' linking home and car."
+        }
+      ],
+      "created_at": "2026-05-15 02:22:08"
+    },
+    {
       "date": "2026-05-14",
       "date_display": "05月14日",
       "weekday": "周四",
