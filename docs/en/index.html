@@ -16,18 +16,11 @@
                         background: "#0D0F12",
                         surface: "#111317",
                         "surface-container": "#1e2023",
-                        "surface-container-low": "#1a1c1f",
                         "surface-container-high": "#282a2d",
-                        "surface-container-highest": "#333538",
                         primary: "#00F2FF",
                         "on-surface": "#e2e2e6",
                         "on-surface-variant": "#b9cacb",
-                        "outline-variant": "#3a494b",
-                        outline: "#849495"
-                    },
-                    fontFamily: {
-                        sans: ["Inter", "sans-serif"],
-                        mono: ["JetBrains Mono", "monospace"]
+                        "outline-variant": "#3a494b"
                     }
                 }
             }
@@ -36,105 +29,54 @@
     <style>
         .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
         body { background-color: #0D0F12; }
-        .sidebar-blur { backdrop-filter: blur(20px); background-color: rgba(17, 19, 23, 0.8); }
-        ::-webkit-scrollbar { width: 4px; }
-        ::-webkit-scrollbar-track { background: #0D0F12; }
-        ::-webkit-scrollbar-thumb { background: #333538; border-radius: 10px; }
         .news-card-bg { position: absolute; top: 8px; left: 16px; pointer-events: none; }
         .news-card-bg span { font-size: 120px; color: #00F2FF; opacity: 0.05; line-height: 1; }
-        .news-card:hover .news-card-bg span { opacity: 0.1; }
-        .glow-hover { transition: all 0.3s ease; }
         .glow-hover:hover { box-shadow: 0 12px 40px -12px rgba(0, 242, 255, 0.25); border-color: rgba(0, 242, 255, 0.5); }
         .date-item-active { border-left: 4px solid #00F2FF; background: rgba(0, 242, 255, 0.1); color: #00F2FF; font-weight: 600; }
+        .section-title { color: #00F2FF; font-weight: 600; margin-top: 12px; margin-bottom: 4px; font-size: 14px; }
     </style>
 </head>
 <body class="bg-background text-on-surface font-sans overflow-x-hidden">
-    <!-- 移动端顶部栏 -->
-    <header class="md:hidden fixed top-0 left-0 right-0 h-16 bg-surface-container/95 backdrop-blur-lg z-50 flex items-center justify-between px-4 border-b border-outline-variant">
-        <h1 class="text-lg font-semibold">🚗 Smart Cockpit</h1>
-        <button onclick="toggleSidebar()" class="p-2 hover:bg-surface-container-high rounded-lg">
-            <span class="material-symbols-outlined">menu</span>
-        </button>
-    </header>
-    
-    <!-- 遮罩层 -->
-    <div id="overlay" class="fixed inset-0 bg-black/50 z-40 hidden" onclick="toggleSidebar()"></div>
-    
-    <!-- 左侧边栏 -->
-    <aside id="sidebar" class="fixed left-0 top-0 h-screen w-64 bg-surface-container border-r border-outline-variant sidebar-blur flex-col z-50 hidden md:flex">
-        <!-- Logo & 标题 -->
-        <div class="p-6 border-b border-outline-variant">
-            <h1 class="text-xl font-bold text-on-surface tracking-tight">🚗 Smart Cockpit</h1>
-            <p class="text-sm text-on-surface-variant mt-1">Daily Intelligence</p>
-            <p class="text-xs text-on-surface-variant/70 mt-3 leading-relaxed">Focusing on China's NEV software ecosystem and cockpit interaction experience. Daily auto-capture of OTA updates, feature innovations, and UX research insights.</p>
-            <p class="text-xs text-on-surface-variant/50 mt-2">By: <a href="mailto:bridgetyangjie@gmail.com" class="text-primary hover:underline">Bridget Yang</a></p>
+    <aside id="sidebar" class="fixed left-0 top-0 h-screen w-64 bg-surface-container border-r border-outline-variant flex-col z-50 hidden md:flex">
+        <div class="p-6 border-b border-outline-variant text-center">
+            <h1 class="text-xl font-bold text-primary tracking-tight uppercase">SMART COCKPIT</h1>
+            <p class="text-xs text-on-surface-variant/70 mt-3 leading-relaxed">Focusing on China NEV software ecosystem and cockpit interaction experience. Daily insights on OTA and UX.</p>
         </div>
         
-        <!-- 导航菜单 -->
         <nav class="flex-1 overflow-y-auto mt-4">
-            <div id="navToday" onclick="selectToday()" class="flex items-center gap-3 px-5 py-3 cursor-pointer transition-colors hover:bg-surface-container-high">
+            <div onclick="selectToday()" class="flex items-center gap-3 px-5 py-3 cursor-pointer transition-colors hover:bg-surface-container-high">
                 <span class="material-symbols-outlined text-xl">today</span>
                 <span>Today</span>
             </div>
             <div class="px-6 py-2 mt-4">
                 <span class="text-[10px] uppercase tracking-widest text-on-surface-variant/50">ARCHIVE</span>
             </div>
-            <!-- 日期列表 -->
             <div id="dateList" class="space-y-1"></div>
         </nav>
         
-        <!-- 底部操作 -->
         <div class="p-4 border-t border-outline-variant space-y-3">
             <a href="../index.html" class="flex items-center gap-2 text-on-surface-variant hover:text-primary transition-colors cursor-pointer">
                 <span class="material-symbols-outlined text-lg">language</span>
                 <span class="text-sm">中文</span>
             </a>
-            <!-- 订阅表单 -->
             <div class="pt-3 border-t border-outline-variant/50">
                 <p class="text-xs text-on-surface-variant mb-2">📬 Subscribe</p>
                 <form action="https://buttondown.com/api/emails/embed-subscribe/Cockpit_News_by_BridgetYang" method="post" class="space-y-2">
-                    <input type="email" name="email" placeholder="Enter your email" required
-                           class="w-full px-3 py-2 bg-surface-container-high border border-outline-variant rounded-lg text-sm text-on-surface placeholder:text-on-surface-variant/50 focus:outline-none focus:border-primary" />
-                    <button type="submit" class="w-full py-2 bg-primary/20 hover:bg-primary/30 text-primary rounded-lg text-sm font-medium transition-colors">
-                        Subscribe
-                    </button>
+                    <input type="email" name="email" required class="w-full px-3 py-2 bg-[#1a1c1f] border border-outline-variant rounded-lg text-sm focus:border-primary" placeholder="email@example.com" />
+                    <button type="submit" class="w-full py-2 bg-primary/20 hover:bg-primary/30 text-primary rounded-lg text-sm">Subscribe</button>
                 </form>
-            </div>
-            <!-- 作者声明 -->
-            <div class="pt-3 mt-3 border-t border-outline-variant/50">
-                <p class="text-[10px] text-on-surface-variant/60 leading-relaxed">Content is auto-curated from public sources and AI-analyzed for research purposes only. Does not represent the author's views.</p>
-                <p class="text-[10px] text-on-surface-variant/40 mt-2">© 2026 Bridget Yang</p>
             </div>
         </div>
     </aside>
     
-    <!-- 主内容区 -->
-    <main class="md:ml-64 min-h-screen px-4 md:px-10 py-6 md:py-8 max-w-5xl mx-auto pt-20 md:pt-8">
-        <!-- 顶部标题栏 -->
-        <header class="flex flex-col md:flex-row md:justify-between md:items-end mb-8 border-b border-outline-variant pb-4">
-            <div>
-                <div class="flex items-baseline gap-3">
-                    <h2 id="contentDate" class="text-3xl md:text-4xl font-bold tracking-tight">Loading...</h2>
-                    <span id="contentWeekday" class="text-xl text-primary/80 font-medium"></span>
-                </div>
-                <div class="flex items-center gap-2 text-on-surface-variant mt-2">
-                    <span class="material-symbols-outlined text-sm">auto_awesome</span>
-                    <span id="briefCount" class="text-sm font-mono">Loading...</span>
-                </div>
+    <main class="md:ml-64 min-h-screen px-4 md:px-10 py-6 max-w-5xl mx-auto md:pt-8">
+        <header class="mb-8 border-b border-outline-variant pb-4">
+            <div class="flex items-baseline gap-3">
+                <h2 id="contentDate" class="text-3xl font-bold">Loading...</h2>
+                <span id="contentWeekday" class="text-xl text-primary/80"></span>
             </div>
         </header>
-        
-        <!-- 新闻列表 -->
-        <section id="newsContainer" class="space-y-6">
-            <div class="flex items-center justify-center py-20">
-                <div class="w-10 h-10 border-2 border-primary border-t-transparent rounded-full animate-spin"></div>
-            </div>
-        </section>
-        
-        <!-- 页脚 -->
-        <footer class="mt-12 pt-6 border-t border-outline-variant text-center text-sm text-on-surface-variant/50">
-            Source: DuckDuckGo · DeepSeek AI
-        </footer>
+        <section id="newsContainer" class="space-y-6"></section>
     </main>
 
     <script>
@@ -144,155 +86,63 @@
         async function loadData() {
             try {
                 const res = await fetch('../history_data.json');
-                if (!res.ok) throw new Error('Failed');
                 historyData = await res.json();
                 renderDateList();
-                if (historyData.records.length > 0) {
-                    selectDate(historyData.records[0].date);
-                } else {
-                    showEmpty();
-                }
+                if(historyData.records.length > 0) selectDate(historyData.records[0].date);
             } catch (e) {
-                showError();
+                console.error('Failed to load data:', e);
             }
         }
         
         function renderDateList() {
-            const container = document.getElementById('dateList');
-            if (!historyData.records || historyData.records.length === 0) {
-                container.innerHTML = '<p class="px-5 py-2 text-on-surface-variant/50 text-sm">暂无数据</p>';
-                return;
-            }
-            container.innerHTML = historyData.records.map((r, i) => `
-                <div class="date-item flex items-center justify-between px-5 py-2 cursor-pointer transition-colors hover:bg-surface-container-high ${i === 0 ? 'date-item-active' : ''}" 
-                     data-date="${r.date}" onclick="selectDate('${r.date}')">
+            document.getElementById('dateList').innerHTML = historyData.records.map((r, i) => `
+                <div class="date-item flex items-center justify-between px-5 py-2 cursor-pointer hover:bg-surface-container-high ${i===0?'date-item-active':''}" data-date="${r.date}" onclick="selectDate('${r.date}')">
                     <div class="flex items-center gap-2">
                         <span class="material-symbols-outlined text-base opacity-50">calendar_today</span>
                         <span class="text-sm">${r.date_display || r.date}</span>
                     </div>
-                    <span class="text-xs font-mono text-on-surface-variant/70">${r.news_count || (r.news ? r.news.length : 0)}</span>
-                </div>
-            `).join('');
+                    <span class="text-xs font-mono text-on-surface-variant/70">${r.news_count}</span>
+                </div>`).join('');
         }
         
         function selectDate(date) {
-            // 更新侧边栏高亮
-            document.querySelectorAll('.date-item').forEach(el => {
-                el.classList.toggle('date-item-active', el.dataset.date === date);
-            });
-            
+            document.querySelectorAll('.date-item').forEach(el => el.classList.toggle('date-item-active', el.dataset.date === date));
             const record = historyData.records.find(r => r.date === date);
-            if (record) {
-                renderNews(record);
-            } else {
-                showEmpty();
-            }
-            
-            // 移动端关闭侧边栏
-            if (window.innerWidth < 768) closeSidebar();
+            if(record) renderNews(record);
         }
         
         function selectToday() {
-            if (historyData.records.length > 0) {
-                selectDate(historyData.records[0].date);
-            }
+            if(historyData.records.length > 0) selectDate(historyData.records[0].date);
+        }
+        
+        function formatSummary(text) {
+            if(!text) return "";
+            let html = text.replace(/\n/g, '<br>');
+            // 正则匹配括号标题并加上样式
+            html = html.replace(/([【\[].*?[】\]])/g, '<br><div class="section-title">$1</div>');
+            html = html.replace(/(<br>\s*){3,}/g, '<br><br>');
+            if(html.startsWith('<br>')) html = html.substring(4);
+            return html;
         }
         
         function renderNews(record) {
             const isZh = currentLang === 'zh';
-            
-            // 更新标题
             document.getElementById('contentDate').textContent = record.date_display || record.date;
             document.getElementById('contentWeekday').textContent = record.weekday || '';
-            document.getElementById('briefCount').textContent = `${record.news_count || (record.news ? record.news.length : 0)} ${isZh ? '条精选情报' : 'Intelligence Briefs'}`;
             
-            const container = document.getElementById('newsContainer');
-            
-            if (!record.news || record.news.length === 0) {
-                container.innerHTML = `
-                    <div class="text-center py-20 text-on-surface-variant/50">
-                        <span class="material-symbols-outlined text-5xl mb-4 opacity-30">article</span>
-                        <p>${isZh ? '该日期暂无新闻数据' : 'No news available for this date'}</p>
-                    </div>
-                `;
-                return;
-            }
-            
-            container.innerHTML = record.news.map((item, index) => `
-                <article class="news-card relative bg-surface-container-low border border-outline-variant rounded-xl p-6 md:p-8 glow-hover cursor-pointer group">
-                    <div class="news-card-bg">
-                        <span class="font-bold font-mono">${String(index + 1).padStart(2, '0')}</span>
-                    </div>
+            document.getElementById('newsContainer').innerHTML = record.news.map((item, index) => `
+                <article class="news-card relative bg-[#1a1c1f] border border-outline-variant rounded-xl p-6 glow-hover group">
+                    <div class="news-card-bg"><span class="font-bold font-mono">${String(index + 1).padStart(2, '0')}</span></div>
                     <div class="relative z-10">
-                        <div class="flex flex-wrap items-center gap-3 mb-3">
-                            <div class="flex items-center gap-2">
-                                <span class="material-symbols-outlined text-primary text-lg">article</span>
-                                <span class="text-xs text-on-surface-variant font-mono">${escapeHtml(item.site_name || '')}</span>
-                            </div>
-                            <div class="flex items-center gap-1 text-xs text-on-surface-variant/60">
-                                <span class="material-symbols-outlined text-sm">schedule</span>
-                                <span>${escapeHtml(item.publish_date || record.date || '')}</span>
-                            </div>
+                        <div class="flex gap-3 mb-3 text-xs text-on-surface-variant/60">
+                            <span class="font-mono text-primary/80">📰 ${item.site_name||''}</span>
+                            <span>📅 ${item.publish_date||record.date}</span>
                         </div>
-                        <h3 class="text-lg md:text-xl font-semibold text-on-surface mb-3 group-hover:text-primary transition-colors leading-snug">
-                            ${escapeHtml(isZh ? item.title : (item.title_en || item.title))}
-                        </h3>
-                        <p class="text-sm md:text-base text-on-surface-variant/80 leading-relaxed mb-4 max-w-3xl">
-                            ${escapeHtml(isZh ? item.summary : (item.summary_en || item.summary))}
-                        </p>
-                        <a href="${escapeHtml(item.url)}" target="_blank" rel="noopener" 
-                           class="inline-flex items-center gap-1 text-sm text-primary hover:underline font-medium">
-                            <span class="material-symbols-outlined text-base">open_in_new</span>
-                            ${isZh ? '阅读原文' : 'Read Original'}
-                        </a>
+                        <h3 class="text-xl font-semibold text-on-surface mb-3 group-hover:text-primary transition-colors">${isZh ? item.title : (item.title_en||item.title)}</h3>
+                        <div class="text-sm text-on-surface-variant/80 leading-relaxed mb-4 max-w-3xl">${formatSummary(isZh ? item.summary : (item.summary_en||item.summary))}</div>
+                        <a href="${item.url}" target="_blank" class="text-primary hover:underline text-sm font-medium">🔗 ${isZh?'阅读原文':'Read Original'}</a>
                     </div>
-                </article>
-            `).join('');
-        }
-        
-        function showEmpty() {
-            const isZh = currentLang === 'zh';
-            document.getElementById('contentDate').textContent = isZh ? '暂无数据' : 'No Data';
-            document.getElementById('contentWeekday').textContent = '';
-            document.getElementById('briefCount').textContent = isZh ? '暂无情报' : 'No Intelligence';
-            document.getElementById('newsContainer').innerHTML = `
-                <div class="text-center py-20 text-on-surface-variant/50">
-                    <span class="material-symbols-outlined text-5xl mb-4 opacity-30">article</span>
-                    <p>${isZh ? '暂无新闻数据' : 'No news available'}</p>
-                </div>
-            `;
-        }
-        
-        function showError() {
-            const isZh = currentLang === 'zh';
-            document.getElementById('contentDate').textContent = isZh ? '加载失败' : 'Error';
-            document.getElementById('newsContainer').innerHTML = `
-                <div class="text-center py-20 text-on-surface-variant/50">
-                    <span class="material-symbols-outlined text-5xl mb-4 opacity-30">error</span>
-                    <p>${isZh ? '无法加载数据' : 'Failed to load data'}</p>
-                </div>
-            `;
-        }
-        
-        function escapeHtml(str) {
-            if (!str) return '';
-            return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
-        }
-        
-        function toggleSidebar() {
-            const sidebar = document.getElementById('sidebar');
-            const overlay = document.getElementById('overlay');
-            sidebar.classList.toggle('hidden');
-            sidebar.classList.toggle('flex');
-            overlay.classList.toggle('hidden');
-        }
-        
-        function closeSidebar() {
-            const sidebar = document.getElementById('sidebar');
-            const overlay = document.getElementById('overlay');
-            sidebar.classList.add('hidden');
-            sidebar.classList.remove('flex');
-            overlay.classList.add('hidden');
+                </article>`).join('');
         }
         
         document.addEventListener('DOMContentLoaded', loadData);
