@@ -7,48 +7,53 @@
       "news_count": 5,
       "news": [
         {
-          "title": "升级就能用!苹果CarPlay接入Grok，车载AI终于迎来\"真智能\"？",
-          "title_en": "升级就能用!苹果CarPlay接入Grok，车载AI终于迎来\"真智能\"？",
-          "url": "https://finance.sina.com.cn/wm/2026-05-09/doc-inhxhuvc1421210.shtml",
-          "site_name": "Finance",
-          "summary": "5月9日消息，据科技媒体9to5Ma报道称，苹果CarPlay正式接入了马斯克旗下SpaceXAI的Grok模型。 简单来说，以后不管你开的是不是特斯拉，只要车支持 ...",
-          "summary_en": "5月9日消息，据科技媒体9to5Ma报道称，苹果CarPlay正式接入了马斯克旗下SpaceXAI的Grok模型。 简单来说，以后不管你开的是不是特斯拉，只要车支持 ..."
+          "title": "启源Q05 OTA升级，车家互联开启全场景新体验",
+          "title_en": "Changan Q05 OTA Update: Car-Home Connectivity Opens New All-Scenario Experience",
+          "url": "https://www.itbear.com.cn/html/2026-05/1333126.html",
+          "site_name": "ITBear",
+          "publish_date": "2026-05-11",
+          "summary": "【事件概述】长安启源Q05推送OTA升级，核心亮点是“天枢智联”生态的落地。该生态基于4纳米天玑芯片与科大讯飞星火大模型，实现三大功能：手车无缝协同（通过华为HiCar 3D车控桌面，实现导航、音乐、日程等高频应用实时同步与流转）、车家互联（用户可在车内远程控制智能家居设备，如空调、灯光等）、以及AI主动服务（基于大模型理解用户意图，如“我有点冷”自动调高空调温度）。此次升级标志着10万级车型正式进入AI座舱时代。\n\n【体验价值】从用户研究视角看，此次升级精准解决了两个核心痛点：一是“多设备割裂”，通过HiCar 3D桌面将手机与车机生态无缝融合，用户无需学习新交互逻辑；二是“场景断点”，车家互联让用户从出门到回家形成完整服务闭环，提升了出行全链路的连贯性。AI主动服务则降低了操作门槛，尤其对非科技爱好者友好。\n\n【商业影响】启源Q05以6.99万起售价提供此类功能，将倒逼同价位竞品加速软件生态投入。同时，车家互联功能可提升用户对品牌智能生态的粘性，为后续软件订阅服务（如高级AI场景包）铺路，并强化长安在“人-车-家”全场景中的入口价值。",
+          "summary_en": "【Event Overview】Changan Qiniu Q05 pushes an OTA update centered on the 'Tianshu Zhilian' ecosystem. Based on a 4nm chip and iFlytek Spark large model, it enables seamless phone-car sync (via Huawei HiCar 3D), car-home control (e.g., smart home devices), and proactive AI services (e.g., auto-adjusting AC when user says 'I'm cold'). This marks the entry of the 100,000 RMB segment into the AI cockpit era.\n\n【Experience Value】From a UX perspective, this update tackles two key pain points: 'device fragmentation' by merging phone and car ecosystems via HiCar, and 'scenario gaps' by connecting car and home for a seamless journey loop. Proactive AI reduces interaction complexity, especially benefiting non-tech-savvy users.\n\n【Business Impact】At a starting price of 69,900 RMB, this forces competitors in the same segment to accelerate software investment. Car-home connectivity boosts brand ecosystem stickiness, paves the way for subscription services (e.g., premium AI packs), and strengthens Changan's role as a gateway in the 'human-car-home' scenario."
         },
         {
-          "title": "苹果 CarPlay 接入 Grok AI，车内可与AI自然聊天_腾讯新闻",
-          "title_en": "苹果 CarPlay 接入 Grok AI，车内可与AI自然聊天_腾讯新闻",
-          "url": "https://news.qq.com/rain/a/20260509A03LFH00",
-          "site_name": "News",
-          "summary": "【环球网科技综合报道】5月9日消息，据MacRumors报道，苹果 iOS 26.4 系统更新推动 CarPlay 车载生态持续拓展，正式接入马斯克旗下 SpaceXAI（原 xAI）的 ...",
-          "summary_en": "【环球网科技综合报道】5月9日消息，据MacRumors报道，苹果 iOS 26.4 系统更新推动 CarPlay 车载生态持续拓展，正式接入马斯克旗下 SpaceXAI（原 xAI）的 ..."
+          "title": "科大讯飞开启全场景主动式AI座舱新时代",
+          "title_en": "iFlytek Ushers in New Era of All-Scenario Proactive AI Cockpit",
+          "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-05-12/doc-inhxrshk9944436.shtml",
+          "site_name": "Sina Finance",
+          "publish_date": "2026-05-12",
+          "summary": "【事件概述】科大讯飞发布星火新一代多模态智能座舱方案，核心突破在于从“被动响应”转向“主动服务”。该方案集成端侧多模态大模型与智能体生态，支持自然语言控车（如“我有点热”自动调温）、多模态交互（语音+手势+视线融合）、以及场景化智能服务（如根据用户日程、位置、偏好主动推荐餐厅或充电站）。同时，iFLYSOUND氮化镓母带级声学系统与30余项自研音频算法，提供软硬一体的沉浸式听觉体验。\n\n【体验价值】该方案将交互从“命令式”升级为“意图式”，用户无需记忆指令，系统通过多模态感知（如车内摄像头检测到用户出汗，结合环境温度主动询问是否需调低空调）实现无感服务。这显著降低了学习成本，尤其对老年用户或新手司机友好。同时，多模态融合提升了交互容错率，例如在嘈杂环境下，手势可辅助语音指令。\n\n【商业影响】科大讯飞作为Tier 1供应商，其方案可快速赋能多家车企，加速行业从“硬件堆料”向“软件定义体验”转型。主动服务能力是提升用户粘性的关键，可转化为高级订阅服务（如个性化场景包）。同时，其端侧大模型方案降低了云端依赖，有助于车企控制数据成本并保障隐私安全，形成差异化竞争壁垒。",
+          "summary_en": "【Event Overview】iFlytek unveils the Spark next-gen multimodal cockpit, shifting from 'passive response' to 'proactive service'. It integrates an on-device multimodal LLM and agent ecosystem, enabling natural language control (e.g., 'I'm hot' triggers AC), multimodal interaction (voice+gesture+gaze), and contextual services (e.g., proactive restaurant recommendations). The iFLYSOUND system adds immersive audio.\n\n【Experience Value】This upgrades interaction from 'command-based' to 'intent-based'. Users don't need to memorize commands; the system uses multimodal sensing (e.g., detecting sweat via camera) to offer proactive assistance. This reduces learning curves, especially for elderly or novice drivers. Multimodal fusion also improves error tolerance in noisy environments.\n\n【Business Impact】As a Tier 1 supplier, iFlytek's solution can rapidly empower multiple OEMs, accelerating the shift from hardware to software-defined experiences. Proactive services boost user stickiness and can be monetized via subscriptions. The on-device LLM reduces cloud dependency, lowering data costs and enhancing privacy, creating a competitive moat."
         },
         {
-          "title": "中国车企加速出海，一场围绕车载内容生态的重构正在发生中国车企加速出海，一场围绕车载内容生态的重构正在发生",
-          "title_en": "中国车企加速出海，一场围绕车载内容生态的重构正在发生中国车企加速出海，一场围绕车载内容生态的重构正在发生",
-          "url": "https://dcdv.zol.com.cn/1180/11806047.html",
-          "site_name": "Dcdv",
-          "summary": "这意味着，车企不再面对\"接入哪些App\"的问题，而是必须思考如何构建一套适应不同市场的内容生态体系。 从行业角度来看，这其实是中国车企全球化过程中首次真正触及\"内容本地化能力\"的核心竞争区。",
-          "summary_en": "这意味着，车企不再面对\"接入哪些App\"的问题，而是必须思考如何构建一套适应不同市场的内容生态体系。 从行业角度来看，这其实是中国车企全球化过程中首次真正触及\"内容本地化能力\"的核心竞争区。"
+          "title": "面壁智能：智能座舱的终局是主动智能",
+          "title_en": "ModelBest: The Endgame of Smart Cockpits is Proactive Intelligence",
+          "url": "https://chedongxi.com/p/367581.html",
+          "site_name": "Chedongxi",
+          "publish_date": "2026-05-08",
+          "summary": "【事件概述】面壁智能在吉利银河M9上展示了其座舱AI方案，核心特征是“主动智能”。系统通过多模态感知（摄像头、雷达等）实时理解车内场景，无需用户指令即可自动执行操作。例如：能见度差时自动开启雾灯、过收费站自动降窗、检测到车内不同人员后分别提供个性化服务（如为后排儿童播放动画、为驾驶员调整导航）。这标志着座舱AI从“语音助手”向“全场景管家”进化。\n\n【体验价值】主动智能解决了“用户不知道能做什么”的隐性痛点。传统座舱需要用户主动探索功能，而主动智能通过场景感知自动触发，实现了“无感交互”。例如，过收费站自动降窗，避免了用户手忙脚乱找按钮。同时，多人员个性化服务提升了家庭出行体验，每个成员都能获得专属服务，增强了座舱的“情感化”属性。\n\n【商业影响】面壁智能的方案展示了AI Agent在座舱中的落地路径，其“场景驱动”逻辑可复制到其他车型，加速行业从“功能集成”向“智能服务”转型。主动智能是提升用户满意度和品牌忠诚度的利器，尤其适合家庭用户。同时，该方案可收集大量场景数据，反哺模型迭代，形成数据飞轮，构建长期竞争壁垒。",
+          "summary_en": "【Event Overview】ModelBest demonstrates its cockpit AI on the Geely Galaxy M9, featuring 'proactive intelligence'. The system uses multimodal sensing to understand in-cabin scenarios and auto-execute actions without user commands: auto-fog lights in low visibility, auto-lower windows at toll booths, and personalized services for different occupants (e.g., cartoons for kids, navigation for driver). This marks an evolution from 'voice assistant' to 'all-scenario butler'.\n\n【Experience Value】Proactive intelligence solves the hidden pain point of 'users not knowing what's possible'. By auto-triggering actions based on context, it enables 'invisible interaction'. For example, auto-lowering windows at tolls avoids frantic button-searching. Personalized multi-occupant services enhance family travel, giving each member a tailored experience and adding an 'emotional' layer to the cockpit.\n\n【Business Impact】ModelBest's solution demonstrates a viable path for AI Agents in cockpits. Its 'scenario-driven' logic is replicable, accelerating the industry shift from feature integration to intelligent services. Proactive intelligence is a powerful tool for boosting satisfaction and loyalty, especially among families. It also generates rich scenario data for model iteration, creating a data flywheel and long-term competitive advantage."
         },
         {
-          "title": "36氪独家 ｜「时的科技」一个月内完成两轮融资，加速倾转旋翼载人飞行器的落地应用-36氪",
-          "title_en": "36氪独家 ｜「时的科技」一个月内完成两轮融资，加速倾转旋翼载人飞行器的落地应用-36氪",
-          "url": "https://36kr.com/p/1385573710314887",
-          "site_name": "36Kr",
-          "summary": "5 days ago - 产品方面，时的科技目前规划了代号为“E20”的倾转旋翼载人eVTOL，设计最大航程200公里，最大飞行速度260km/h，在市场应用上重点针对立体交通空中出行市场。据了解，E20的设计特点主要有：纯电动力系统；固定翼（鸥翼）+垂直和水平尾翼；6旋翼（其中4个旋翼可倾转）；可容纳1名飞行员和4名乘客的5座智能座舱。",
-          "summary_en": "5 days ago - 产品方面，时的科技目前规划了代号为“E20”的倾转旋翼载人eVTOL，设计最大航程200公里，最大飞行速度260km/h，在市场应用上重点针对立体交通空中出行市场。据了解，E20的设计特点主要有：纯电动力系统；固定翼（鸥翼）+垂直和水平尾翼；6旋翼（其中4个旋翼可倾转）；可容纳1名飞行员和4名乘客的5座智能座舱。"
+          "title": "联发科：智能体无缝跨端协同，从三个层面入手",
+          "title_en": "MediaTek: Seamless Cross-Device Agent Collaboration Starts from Three Layers",
+          "url": "https://www.ithome.com/0/951/028.htm",
+          "site_name": "IT之家",
+          "publish_date": "2026-05-15",
+          "summary": "【事件概述】联发科在MDDC 2026上分享了实现智能体无缝跨端协同的三大核心策略：1）从IP设计源头统一标准，确保不同设备（手机、车机、IoT）的底层通信协议兼容；2）软件层实现“一次开发多端部署”，降低开发者适配成本；3）生态层共建标准，打破不同品牌间的交互壁垒。针对AI定义汽车，联发科强调需区分安全属性（如驾驶相关功能需高可靠），并发挥其在手机端侧AI的技术积累优势，将成熟技术迁移至座舱。\n\n【体验价值】跨端协同是用户的核心诉求之一，但当前受限于品牌壁垒和协议不统一。联发科的策略从底层解决了“设备孤岛”问题，用户可在手机、车机、家居设备间无缝切换任务（如手机导航自动流转至车机，下车后自动同步至手表）。同时，安全属性的区分确保了驾驶场景的可靠性，避免因跨端延迟导致风险。\n\n【商业影响】联发科作为芯片巨头，其统一标准倡议有望推动行业形成跨品牌互操作规范，降低车企生态建设成本。对于用户，这意味着更流畅的多设备体验，提升对品牌智能生态的依赖。同时，联发科将手机端AI优势迁移至座舱，可加速座舱AI的普及，并可能催生新的订阅服务（如跨端AI助手高级版）。",
+          "summary_en": "【Event Overview】At MDDC 2026, MediaTek shares three strategies for seamless cross-device agent collaboration: 1) Unified standards from IP design for compatible communication protocols across phones, cockpits, and IoT; 2) 'Develop once, deploy everywhere' at the software layer to reduce adaptation costs; 3) Ecosystem-wide standards to break brand barriers. For AI-defined vehicles, MediaTek emphasizes safety-critical differentiation and leveraging its mobile-side AI expertise for cockpit migration.\n\n【Experience Value】Cross-device collaboration is a key user need, but hindered by brand silos and protocol inconsistency. MediaTek's approach solves 'device isolation' at the foundation, enabling seamless task handoffs (e.g., phone navigation auto-transfers to car, then to watch). Safety-critical differentiation ensures reliability in driving scenarios, mitigating risks from cross-device latency.\n\n【Business Impact】As a chip giant, MediaTek's push for unified standards could drive industry-wide interoperability, reducing OEM ecosystem costs. For users, this means smoother multi-device experiences, increasing reliance on brand ecosystems. Migrating mobile AI strengths to cockpits accelerates AI adoption and may spawn new subscriptions (e.g., premium cross-device AI assistants)."
         },
         {
-          "title": "智能座舱系统体验评测:语音控制、大屏交互、OTA升级谁家做得最流畅?__财经头条__新浪财经",
-          "title_en": "智能座舱系统体验评测:语音控制、大屏交互、OTA升级谁家做得最流畅?__财经头条__新浪财经",
-          "url": "https://cj.sina.com.cn/articles/view/7857141524/1d452771401902g9bu?froms=ggmp",
-          "site_name": "Cj",
-          "summary": "2 days ago - 理想汽车在语音交互方面也进行了多项升级。OTA 7.2版本的智能座舱响应速度明显提升，用起来更顺手。之前车机反应慢的问题这次得到了很好的解决，这波操作直接“打脸”了一些唱衰的声音。理想同学的多项功能升级，包括全车免唤醒、方言自由说、指令自由说、简洁应答、多模态指代升级、多模态可见即可说升级、热词自学习、全新卡片桌面和动态屏保等，这些功能旨在提升用户在车内的使用体验。",
-          "summary_en": "2 days ago - 理想汽车在语音交互方面也进行了多项升级。OTA 7.2版本的智能座舱响应速度明显提升，用起来更顺手。之前车机反应慢的问题这次得到了很好的解决，这波操作直接“打脸”了一些唱衰的声音。理想同学的多项功能升级，包括全车免唤醒、方言自由说、指令自由说、简洁应答、多模态指代升级、多模态可见即可说升级、热词自学习、全新卡片桌面和动态屏保等，这些功能旨在提升用户在车内的使用体验。"
+          "title": "博世下一代AI智能座舱：从被动响应到主动理解",
+          "title_en": "Bosch Next-Gen AI Cockpit: From Passive Response to Proactive Understanding",
+          "url": "https://www.sohu.com/a/1021950085_121136454",
+          "site_name": "Sohu",
+          "publish_date": "2026-05-13",
+          "summary": "【事件概述】博世发布其下一代AI智能座舱方案，核心是座舱AI Agent的量产落地。该方案实现了从“被动响应指令”到“主动理解需求”的范式革命，并将用户体验从座舱内的“单点功能智能”升维至整车智能的“全域融合进化”。具体功能包括：基于多模态感知的主动服务（如检测到驾驶员疲劳自动调节香氛和座椅按摩）、跨域协同（座舱与智驾、车身控制联动，如根据导航信息预调节悬架）、以及个性化学习（系统通过长期交互学习用户偏好，自动优化设置）。\n\n【体验价值】博世的方案将座舱从“工具”升级为“伙伴”。主动服务减少了用户操作，提升了驾驶安全（如疲劳检测）。跨域协同实现了整车级智能，例如，当导航显示前方弯道，座舱自动调整座椅侧翼支撑，提升了驾乘体验的连贯性。个性化学习则让座舱“越用越懂你”，增强了用户的情感连接。\n\n【商业影响】博世作为全球Tier 1巨头，其方案具有标杆意义，将推动行业加速AI Agent量产。跨域协同能力是差异化关键，可提升整车品牌溢价。同时，个性化学习为软件订阅服务（如高级个性化场景包）提供了基础，并可通过OTA持续迭代，形成长期用户运营模式。这进一步巩固了博世在智能座舱领域的领导地位。",
+          "summary_en": "【Event Overview】Bosch unveils its next-gen AI cockpit, centered on mass-production of cockpit AI Agents. It shifts from 'passive response' to 'proactive understanding', elevating UX from single-point intelligence to full-vehicle fusion. Features include proactive services (e.g., fatigue detection triggers aromatherapy), cross-domain coordination (e.g., suspension pre-adjustment based on navigation), and personalized learning (system learns user preferences over time).\n\n【Experience Value】Bosch's solution upgrades the cockpit from 'tool' to 'companion'. Proactive services reduce user effort and enhance safety (e.g., fatigue detection). Cross-domain coordination enables vehicle-level intelligence, e.g., auto-adjusting seat bolsters before a curve, improving ride continuity. Personalization creates an emotional bond as the cockpit 'knows you better over time'.\n\n【Business Impact】As a global Tier 1 giant, Bosch's solution sets a benchmark, accelerating AI Agent mass production. Cross-domain capability is a key differentiator, boosting brand premium. Personalization lays the groundwork for subscription services (e.g., premium scenario packs) and enables continuous OTA iteration, fostering long-term user engagement. This solidifies Bosch's leadership in smart cockpits."
         }
       ],
       "created_at": "2026-05-15 02:22:08",
-      "updated_at": "2026-05-15 09:12:09"
+      "updated_at": "2026-05-15 09:27:30"
     },
     {
       "date": "2026-05-14",
