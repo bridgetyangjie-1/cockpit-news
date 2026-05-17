@@ -1,6 +1,60 @@
 {
   "records": [
     {
+      "date": "2026-05-17",
+      "date_display": "05月17日",
+      "weekday": "周日",
+      "news_count": 5,
+      "news": [
+        {
+          "title": "比亚迪5月OTA大爆发！老车主迎5.0UI，智驾一步到位告别画饼",
+          "title_en": "BYD's May OTA Explosion! Old Owners Get 5.0 UI, Smart Driving Arrives in One Go, No More Vaporware",
+          "url": "https://www.yoojia.com/article/9928060360679275110.html",
+          "site_name": "Yoojia",
+          "publish_date": "2026-05-17",
+          "summary": "【事件概述】比亚迪于2026年5月向十款车型同步推送免费OTA升级，核心是DiLink 5.0与DiPilot 5.0双版本。DiLink 5.0带来了全新的UI 5.0界面设计，重构了交互逻辑；DiPilot 5.0则覆盖智能驾驶、泊车辅助及主动安全。此次升级全程免费，无需到店，标志着传统巨头开始采用新势力式的快速迭代节奏。\n\n【体验价值】从UX视角看，UI 5.0的推出解决了老车主长期面临的界面陈旧、操作卡顿的痛点。统一且焕新的视觉语言降低了学习成本，而智驾功能的OTA推送则让用户持续获得“新车”般的体验，消除了硬件预埋后软件长期不更新的“画饼”焦虑。\n\n【商业影响】此举极大提升了老车主的品牌忠诚度和口碑传播。通过免费OTA持续激活存量用户，为后续高阶智驾、影音娱乐等付费订阅服务铺平了道路，证明了“硬件预埋+软件持续迭代”模式在传统车企中的可行性。",
+          "summary_en": "【Event Overview】In May 2026, BYD pushed a free OTA update to ten models simultaneously, centered on DiLink 5.0 and DiPilot 5.0. DiLink 5.0 introduces a brand-new UI 5.0 interface, restructuring interaction logic; DiPilot 5.0 covers smart driving, parking assist, and active safety. This update is free and over-the-air, marking a traditional giant adopting the rapid iteration pace of new forces.\n\n【Experience Value】From a UX perspective, the UI 5.0 launch addresses long-standing pain points of outdated interfaces and laggy operation for existing owners. A unified, refreshed visual language reduces the learning curve, while the OTA delivery of smart driving features provides a continuous 'new car' experience, eliminating the anxiety of unfulfilled software promises after hardware pre-installation.\n\n【Business Impact】This move significantly boosts brand loyalty and word-of-mouth among existing owners. By continuously activating the existing user base through free OTA, it paves the way for future paid subscription services like advanced smart driving and entertainment, proving the viability of the 'hardware pre-installation + software iteration' model for traditional automakers."
+        },
+        {
+          "title": "汽车智舱进入BAT联盟时代：斑马、阶跃、地平线走向台前",
+          "title_en": "Car Smart Cockpit Enters the BAT Alliance Era: Banma, StepFun, Horizon Take Center Stage",
+          "url": "https://news.mydrivers.com/1/1122/1122597.htm",
+          "site_name": "快科技",
+          "publish_date": "2026-04-23",
+          "summary": "【事件概述】腾讯云与阶跃星辰签署战略合作，整合阶跃基础大模型与腾讯系内容及应用生态，共同发力智舱AI Agent。这标志着以BAT（百度、阿里、腾讯）为核心的三大智能座舱联盟正式形成，斑马智能（阿里系）、阶跃星辰（腾讯系）、地平线（百度系）三家新势力走向台前，分别整合各自生态资源。\n\n【体验价值】该联盟模式将大模型能力与海量互联网内容（如音乐、视频、社交、生活服务）深度整合进座舱。用户将获得更自然的语音交互、更精准的意图理解，以及基于AI Agent的主动服务（如自动推荐餐厅、规划行程），解决了当前座舱应用生态碎片化、语音助手“听不懂”的痛点。\n\n【商业影响】BAT联盟的竞争将加速座舱软件生态的成熟。通过绑定各自庞大的用户基数和内容库，车企可快速获得差异化竞争力。同时，AI Agent作为入口，为后续的软件订阅、服务分成（如电商、游戏内购）创造了新的商业模式，将座舱从“工具”升级为“服务分发平台”。",
+          "summary_en": "【Event Overview】Tencent Cloud and StepFun signed a strategic partnership to integrate StepFun's foundation models with Tencent's content and app ecosystem for smart cockpit AI Agents. This marks the formal formation of three major smart cockpit alliances centered on BAT (Baidu, Alibaba, Tencent). Banma (Alibaba), StepFun (Tencent), and Horizon Robotics (Baidu) take center stage, integrating their respective ecosystems.\n\n【Experience Value】This alliance model deeply integrates LLM capabilities with massive internet content (music, video, social, lifestyle services) into the cockpit. Users will experience more natural voice interaction, more accurate intent understanding, and proactive AI Agent services (e.g., auto-recommending restaurants, planning trips), solving the pain points of fragmented app ecosystems and unresponsive voice assistants.\n\n【Business Impact】Competition among BAT alliances will accelerate the maturation of the cockpit software ecosystem. By leveraging their vast user bases and content libraries, automakers can quickly gain differentiated competitiveness. Furthermore, AI Agents as an entry point create new business models for software subscriptions and service revenue sharing (e.g., e-commerce, in-game purchases), upgrading the cockpit from a 'tool' to a 'service distribution platform'."
+        },
+        {
+          "title": "智能座舱系统体验评测:语音控制、大屏交互、OTA升级谁家做得最流畅?",
+          "title_en": "Smart Cockpit System Experience Review: Who Does Voice Control, Large Screen Interaction, and OTA Upgrades Best?",
+          "url": "https://cj.sina.com.cn/articles/view/7857141524/1d452771401902g9bu?froms=ggmp",
+          "site_name": "新浪财经",
+          "publish_date": "2026-05-13",
+          "summary": "【事件概述】该评测重点分析了华为鸿蒙座舱的交互体验，特别指出HarmonyOS 4.0引入的“超级桌面2.0”功能。该功能支持手机应用全量上车，实现多屏自由流转，无缝连接手机和车机应用。此外，HUAWEI xScene 光场屏和HUAWEI xHUD AR-HUD被提及，旨在提供更具空间感和临场感的影音体验。\n\n【体验价值】“超级桌面2.0”的核心体验价值在于彻底打破了手机与车机的应用壁垒。用户无需在车机上重新下载、登录应用，手机上的常用App（如微信、抖音、导航）可直接在车机大屏上以原生体验运行，解决了车机应用生态匮乏和账号体系割裂的长期痛点，实现了“无感”衔接。\n\n【商业影响】该功能极大地增强了华为鸿蒙座舱的生态粘性。通过将手机生态无缝迁移至车机，华为成功将用户锁定在其鸿蒙生态内。这为后续的跨设备服务订阅（如华为音乐、视频会员的车机端使用）创造了条件，并可能吸引更多开发者基于鸿蒙系统开发车机版应用，形成正向循环。",
+          "summary_en": "【Event Overview】This review focuses on the interaction experience of Huawei's HarmonyOS cockpit, particularly the 'Super Desktop 2.0' feature in HarmonyOS 4.0. It allows full mobile app integration into the vehicle, enabling multi-screen free flow and seamless connection between phone and car apps. Additionally, HUAWEI xScene light field screen and HUAWEI xHUD AR-HUD are mentioned for providing a more spatial and immersive audio-visual experience.\n\n【Experience Value】The core value of 'Super Desktop 2.0' is breaking down the app barrier between phone and car. Users don't need to re-download or log into apps on the car screen; common phone apps (e.g., WeChat, Douyin, navigation) run natively on the large car display, solving the long-standing pain points of sparse car app ecosystems and fragmented account systems, achieving a 'seamless' connection.\n\n【Business Impact】This feature greatly enhances the ecosystem stickiness of Huawei's HarmonyOS cockpit. By seamlessly migrating the phone ecosystem to the car, Huawei successfully locks users into its HarmonyOS ecosystem. This creates conditions for future cross-device service subscriptions (e.g., using Huawei Music/Video memberships in the car) and may attract more developers to create car-specific apps, forming a positive cycle."
+        },
+        {
+          "title": "汽车上最贵的屏，快被撑破了",
+          "title_en": "The Most Expensive Screen in Cars is About to Burst",
+          "url": "https://cj.sina.com.cn/articles/view/7857141524/1d452771401902dsbi?froms=ggmp",
+          "site_name": "新浪财经",
+          "publish_date": "2026-05-11",
+          "summary": "【事件概述】文章探讨了AR-HUD的未来演进方向。小鹏汽车电子电气高级总监吴安飞认为，随着自动驾驶从L3向L4演进，AR-HUD将不再仅仅是安全辅助显示，而是逐步升级为主驾娱乐屏，提供游戏、观影、轻办公、轻社交等个性化体验，成为车内沉浸式体验的核心载体。\n\n【体验价值】该观点揭示了交互范式的重大转变：当驾驶权逐步移交，主驾位的注意力将被释放。AR-HUD从“信息显示”进化为“沉浸式交互界面”，解决了L4级自动驾驶下主驾位“无事可做”的体验真空。用户无需转头看中控屏，即可在前挡风玻璃上获得巨幕般的娱乐或办公体验，极大提升了空间利用率和沉浸感。\n\n【商业影响】AR-HUD功能的进化将催生全新的座舱软件订阅模式。例如，针对不同场景（游戏、观影、办公）的AR-HUD主题包、应用内购、以及基于AR的导航广告等都可能成为新的收入来源。这要求车企在硬件预埋（高分辨率、大视场角AR-HUD）的同时，提前布局相应的软件生态和内容合作。",
+          "summary_en": "【Event Overview】The article discusses the future evolution of AR-HUD. Wu Anfei, Senior Director of Electronics and Electrical at XPeng, believes that as autonomous driving evolves from L3 to L4, AR-HUD will no longer be just a safety aid but will upgrade into a primary entertainment screen for the driver, offering personalized experiences like gaming, movie watching, light office work, and socializing, becoming the core of immersive in-car experiences.\n\n【Experience Value】This perspective reveals a major shift in interaction paradigm: as driving responsibility is gradually handed over, the driver's attention is freed. AR-HUD evolves from 'information display' to an 'immersive interaction interface', solving the experience vacuum of the driver's seat during L4 autonomous driving. Users can enjoy a cinema-like entertainment or office experience on the windshield without turning their heads, greatly improving space utilization and immersion.\n\n【Business Impact】The evolution of AR-HUD will spawn new cockpit software subscription models. For example, AR-HUD theme packs for different scenarios (gaming, movies, office), in-app purchases, and AR-based navigation ads could become new revenue streams. This requires automakers to pre-install hardware (high-resolution, large FOV AR-HUD) while simultaneously building the corresponding software ecosystem and content partnerships."
+        },
+        {
+          "title": "Rivian 把 AI 语音助手装进车里，但它先是一项订阅服务",
+          "title_en": "Rivian Puts AI Voice Assistant in the Car, But It's a Subscription Service First",
+          "url": "https://www.ic.work/article/rivian-rolls-out-ai-voice- assistant-for-compatible-gen-1-gen",
+          "site_name": "ic.work",
+          "publish_date": "2026-05-16",
+          "summary": "【事件概述】Rivian向其车型推送了AI语音助手，但将其置于Connect Plus订阅服务体系中。这意味着用户需要持续付费才能使用该AI功能。文章强调，AI助手的核心能力边界被限定在“车辆场景”内，如控制车辆功能、查询车辆状态、导航等，而非泛用型聊天机器人。\n\n【体验价值】将AI语音助手作为订阅服务，体现了车企对软件价值的重新定价。从体验上看，限定在“车辆场景”的AI助手能提供更精准、更高效的车辆控制体验，避免了通用AI的“废话文学”。但订阅模式本身对用户而言是一个体验门槛，用户需要权衡AI功能带来的便利性是否值得持续付费。\n\n【商业影响】Rivian此举是座舱软件订阅商业化的典型案例。它将AI能力从“免费增值功能”转变为“核心付费服务”，直接创造了持续性收入。这可能会引发行业效仿，推动更多车企将高阶语音助手、个性化AI Agent等软件功能纳入订阅体系，加速“软件定义汽车”在商业模式上的落地。",
+          "summary_en": "【Event Overview】Rivian has rolled out an AI voice assistant to its vehicles, but it is placed within the Connect Plus subscription service. This means users must pay a recurring fee to use the AI feature. The article emphasizes that the AI assistant's core capability is limited to 'vehicle scenarios', such as controlling vehicle functions, checking vehicle status, and navigation, rather than being a general-purpose chatbot.\n\n【Experience Value】Positioning the AI voice assistant as a subscription service reflects automakers' re-pricing of software value. From an experience perspective, an AI assistant limited to 'vehicle scenarios' can provide more precise and efficient vehicle control, avoiding the 'fluff' of general AI. However, the subscription model itself is an experience barrier, requiring users to weigh the convenience of AI features against the ongoing cost.\n\n【Business Impact】Rivian's move is a classic case of commercializing cockpit software subscriptions. It transforms AI capabilities from a 'free value-add feature' into a 'core paid service', directly creating recurring revenue. This may trigger industry emulation, pushing more automakers to include advanced voice assistants and personalized AI Agents in subscription packages, accelerating the business model implementation of 'software-defined vehicles'."
+        }
+      ],
+      "created_at": "2026-05-17 05:55:50"
+    },
+    {
       "date": "2026-05-16",
       "date_display": "05月16日",
       "weekday": "周六",
