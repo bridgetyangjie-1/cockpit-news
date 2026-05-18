@@ -7,8 +7,7 @@ import json
 import urllib.request
 import urllib.error
 import re
-from datetime import datetime, timedelta
-from pathlib import Path
+from datetime import datetime
 from urllib.parse import urlparse
 from html import escape
 
@@ -88,6 +87,9 @@ def format_summary_for_email(summary, is_html=True):
     if not summary:
         return ""
     
+    if not is_html:
+        return summary
+    
     # 替换所有的 \n 为 <br>
     formatted = summary.replace("\n", "<br>")
     
@@ -102,10 +104,19 @@ def format_summary_for_email(summary, is_html=True):
     formatted = re.sub(r'(<br>\s*){3,}', '<br><br>', formatted)
     
     # 去掉最开头的多余换行
-    if formatted.startswith('<br>'):
-        formatted = formatted[4:]
+    formatted = re.sub(r'^(<br>\s*)+', '', formatted)
         
     return formatted
+
+
+def sanitize_url(url):
+    """仅允许 http/https URL，防止注入和无效协议。"""
+    if not url:
+        return "#"
+    parsed = urlparse(url.strip())
+    if parsed.scheme in ("http", "https") and parsed.netloc:
+        return url.strip()
+    return "#"
 
 
 # ==================== 邮件发送（Buttondown & SMTP）====================
@@ -149,15 +160,21 @@ def send_daily_email(news_items, date_str):
     """
     
     for i, item in enumerate(news_items, 1):
-        formatted_summary = format_summary_for_email(item.get("summary", ""), is_html=True)
+        raw_summary = item.get("summary", "")
+        safe_summary_text = escape(raw_summary)
+        formatted_summary = format_summary_for_email(safe_summary_text, is_html=True)
+        safe_title = escape(item.get('title', ''))
+        safe_site_name = escape(item.get('site_name', ''))
+        safe_publish_date = escape(item.get('publish_date', ''))
+        safe_url = sanitize_url(item.get('url', ''))
         
         html_content += f"""
                 <div class="news-item">
                     <span class="news-number">{i}</span>
-                    <div class="news-title">{item.get('title', '')}</div>
-                    <div class="news-meta">📰 {item.get('site_name', '')} | 📅 {item.get('publish_date', '')}</div>
+                    <div class="news-title">{safe_title}</div>
+                    <div class="news-meta">📰 {safe_site_name} | 📅 {safe_publish_date}</div>
                     <div class="news-summary">{formatted_summary}</div>
-                    <a href="{item.get('url', '')}" class="news-link">🔗 阅读原文</a>
+                    <a href="{safe_url}" class="news-link">🔗 阅读原文</a>
                 </div>
         """
     
@@ -223,22 +240,28 @@ def send_private_email(news_items, date_str):
     subject = f"🚗 智能座舱日报 | {date_str}"
     news_html = ""
     for i, item in enumerate(news_items, 1):
-        formatted_summary = format_summary_for_email(item.get('summary', ''), is_html=True)
+        raw_summary = item.get("summary", "")
+        safe_summary_text = escape(raw_summary)
+        formatted_summary = format_summary_for_email(safe_summary_text, is_html=True)
         # 将 section-title 颜色替换为适应私人邮件的蓝色
         formatted_summary = formatted_summary.replace('color:#667eea', 'color:#00d4ff')
+        safe_title = escape(item.get('title', ''))
+        safe_publish_date = escape(item.get('publish_date', ''))
+        safe_site_name = escape(item.get('site_name', ''))
+        safe_url = sanitize_url(item.get('url', '#'))
         
         news_html += f"""
         <div style="margin-bottom: 24px; padding: 16px; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #00d4ff;">
             <h3 style="margin: 0 0 8px 0; color: #1a1a2e; font-size: 16px;">
-                {i}. {item.get('title', '')}
+                {i}. {safe_title}
             </h3>
             <p style="margin: 4px 0; color: #666; font-size: 13px;">
-                📅 {item.get('publish_date', '')} | 📰 {item.get('site_name', '')}
+                📅 {safe_publish_date} | 📰 {safe_site_name}
             </p>
             <p style="margin: 12px 0 0 0; color: #333; font-size: 14px; line-height: 1.6;">
                 {formatted_summary}
             </p>
-            <a href="{item.get('url', '#')}" style="color: #00d4ff; font-size: 13px;">阅读原文 →</a>
+            <a href="{safe_url}" style="color: #00d4ff; font-size: 13px;">阅读原文 →</a>
         </div>
         """
     
