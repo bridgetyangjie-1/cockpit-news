@@ -178,7 +178,7 @@ def send_daily_email(news_items, date_str):
         data = {
             "subject": subject,
             "body": html_content,
-            "email_type": "public"  # 规范用法，发送给所有订阅者并归档
+            "status": "published"  # 立即发送给所有订阅者
         }
         
         req = urllib.request.Request(
