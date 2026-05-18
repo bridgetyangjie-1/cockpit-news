@@ -1,6 +1,60 @@
 {
   "records": [
     {
+      "date": "2026-05-18",
+      "date_display": "05月18日",
+      "weekday": "周一",
+      "news_count": 5,
+      "news": [
+        {
+          "title": "Gemini 进入 Google built-in 汽车：车载语音助手开始变得更像真正的 AI...",
+          "title_en": "Gemini Enters Google Built-in Cars: In-Car Voice Assistants Start to Feel Like True AI...",
+          "url": "https://www.knightli.com/2026/05/01/gemini-cars-with-google-built-in/",
+          "site_name": "Knightli",
+          "publish_date": "2026-05-01",
+          "summary": "【事件概述】Google 将 Gemini 大模型集成至 Android Auto 和 Google built-in 汽车系统。用户不再需要背诵固定指令，例如直接说“导航到最近的充电站并规划沿途餐厅”，系统即可理解复杂意图并执行多步操作。Gemini Live 功能还支持在车内进行自然、连续的对话式交互，无需反复唤醒。\n\n【体验价值】彻底打破了传统车载语音助手“命令式”交互的僵化体验。用户从“学习机器语言”转变为“机器理解人类语言”，极大降低了认知负荷和操作门槛。多意图理解与连续对话能力，让驾驶者在保持视线和注意力集中的前提下，高效完成复杂任务，显著提升了驾驶安全性与交互自然度。\n\n【商业影响】这是车载语音助手从“工具”向“智能体”进化的关键一步。Gemini 的接入将大幅提升用户对车载语音系统的依赖度和满意度，为 Google 在车载生态中建立强大的技术护城河。同时，它可能催生基于 AI 能力的增值订阅服务，如高级场景理解、个性化推荐等，为车厂和 Google 创造新的软件收入来源。",
+          "summary_en": "【Event Overview】Google integrates the Gemini large language model into Android Auto and Google built-in systems. Users no longer need to memorize fixed commands; for example, saying \"Navigate to the nearest charging station and plan a restaurant along the route\" allows the system to understand complex intent and execute multi-step operations. The Gemini Live feature also supports natural, continuous conversational interaction in the car without repeated wake-up calls.\n\n【Experience Value】This fundamentally breaks the rigid \"command-based\" interaction paradigm of traditional in-car voice assistants. The shift from \"users learning machine language\" to \"machines understanding human language\" greatly reduces cognitive load and operational barriers. Multi-intent understanding and continuous dialogue capabilities enable drivers to efficiently complete complex tasks while maintaining visual and attentional focus, significantly enhancing driving safety and interaction naturalness.\n\n【Business Impact】This is a critical step in the evolution of in-car voice assistants from \"tools\" to \"agents.\" The integration of Gemini will significantly increase user reliance on and satisfaction with in-car voice systems, establishing a strong technological moat for Google in the in-car ecosystem. It may also spawn value-added subscription services based on AI capabilities, such as advanced scenario understanding and personalized recommendations, creating new software revenue streams for automakers and Google."
+        },
+        {
+          "title": "智能座舱系统体验评测:语音控制、大屏交互、OTA升级谁家做得最流畅?",
+          "title_en": "Smart Cockpit System Experience Review: Who Does Voice Control, Large Screen Interaction, and OTA Upgrades Best?",
+          "url": "https://cj.sina.com.cn/articles/view/7857141524/1d452771401902g9bu?froms=ggmp",
+          "site_name": "新浪财经",
+          "publish_date": "2026-05-13",
+          "summary": "【事件概述】该评测重点分析了华为鸿蒙座舱 HarmonyOS 4.0 的超级桌面 2.0 功能。该功能实现了手机应用“全量上车”，即手机上的所有应用无需专门适配即可在车机屏幕上运行，并支持多屏自由流转，手机与车机内容同步流畅。\n\n【体验价值】超级桌面 2.0 解决了车机应用生态匮乏的核心痛点。用户无需学习车机专属应用，直接复用手机端成熟、丰富的应用生态，实现了“无缝衔接”的体验。多屏流转则让信息在不同屏幕间自由移动，例如导航信息从中控流转至仪表或 HUD，提升了信息获取的灵活性和效率。\n\n【商业影响】该功能极大地增强了华为鸿蒙座舱的生态吸引力。通过降低用户迁移成本，它有效提升了用户对华为智能汽车产品的粘性。同时，它也为华为开辟了新的商业路径：通过车机端分发手机应用流量，或与开发者合作推出车机专属增值服务，从而提升软件订阅和生态收入。",
+          "summary_en": "【Event Overview】The review highlights the Super Desktop 2.0 feature of Huawei's HarmonyOS 4.0 cockpit. This feature enables \"full-loading of mobile apps\" into the car, meaning all apps on the phone can run on the car's screen without special adaptation, and supports free multi-screen streaming with seamless content synchronization between phone and car.\n\n【Experience Value】Super Desktop 2.0 solves the core pain point of a sparse in-car app ecosystem. Users don't need to learn dedicated car apps; they directly reuse the mature and rich app ecosystem from their phones, achieving a \"seamless transition\" experience. Multi-screen streaming allows information to move freely between different screens, such as navigation data flowing from the center console to the instrument cluster or HUD, enhancing information access flexibility and efficiency.\n\n【Business Impact】This feature greatly enhances the ecological appeal of the Huawei HarmonyOS cockpit. By reducing user switching costs, it effectively increases user stickiness to Huawei's smart car products. It also opens new commercial paths for Huawei: distributing mobile app traffic through the car interface, or collaborating with developers to launch car-specific value-added services, thereby boosting software subscriptions and ecosystem revenue."
+        },
+        {
+          "title": "互联网大厂智能座舱斗法",
+          "title_en": "Internet Giants Battle in Smart Cockpits",
+          "url": "https://36kr.com/p/1832287570555269",
+          "site_name": "36氪",
+          "publish_date": "2026-05-12",
+          "summary": "【事件概述】文章指出，当前智能座舱产品配置趋同，各品牌开始寻求差异化。互联网大厂（如华为、小米、百度等）凭借其在软件生态、AI 技术和用户运营上的优势，成为座舱体验差异化的关键推动者。它们不再仅仅提供基础功能，而是将座舱视为一个“移动智能空间”，整合影音娱乐、游戏、生活服务等多种生态。\n\n【体验价值】互联网大厂的入局，将座舱体验从“功能堆砌”推向“生态融合”。用户可以在车内无缝使用手机上的服务，如视频会议、在线购物、智能家居控制等，使座舱成为一个真正的“第三生活空间”。这种体验价值在于打破了车与生活的边界，提供了连贯、一致的数字生活体验。\n\n【商业影响】互联网大厂的竞争将加速座舱软件生态的成熟。谁能提供更丰富、更便捷、更智能的生态服务，谁就能吸引并留住用户。这直接关系到用户粘性和潜在的软件订阅收入。同时，互联网大厂通过座舱入口，可以进一步延伸其核心业务（如电商、社交、内容），实现跨场景的商业变现。",
+          "summary_en": "【Event Overview】The article points out that smart cockpit product configurations are converging, and brands are seeking differentiation. Internet giants (such as Huawei, Xiaomi, Baidu) leverage their advantages in software ecosystems, AI technology, and user operations to become key drivers of cockpit experience differentiation. They no longer just provide basic functions but treat the cockpit as a \"mobile smart space,\" integrating various ecosystems like audio-visual entertainment, gaming, and lifestyle services.\n\n【Experience Value】The entry of internet giants pushes the cockpit experience from \"feature stacking\" to \"ecosystem integration.\" Users can seamlessly use phone-based services in the car, such as video conferencing, online shopping, and smart home control, making the cockpit a true \"third living space.\" The value lies in breaking the boundary between car and life, providing a coherent and consistent digital life experience.\n\n【Business Impact】Competition among internet giants will accelerate the maturation of the cockpit software ecosystem. Whoever can provide richer, more convenient, and smarter ecological services will attract and retain users. This directly impacts user stickiness and potential software subscription revenue. Furthermore, through the cockpit entry point, internet giants can extend their core businesses (e.g., e-commerce, social, content) to achieve cross-scenario commercial monetization."
+        },
+        {
+          "title": "不做跟随者，只做定义者：博世下一代AI智能座舱的全球答卷",
+          "title_en": "Not a Follower, but a Definer: Bosch's Global Answer for the Next-Gen AI Smart Cockpit",
+          "url": "https://zhuanlan.zhihu.com/p/2037866626977092324",
+          "site_name": "知乎专栏",
+          "publish_date": "2026-05-13",
+          "summary": "【事件概述】文章报道了博世下一代 AI 智能座舱方案，并指出 2026 年一季度中国市场新车前装大模型渗透率已接近 50%。吉利、智己、问界、阿维塔等品牌均在推动座舱 AI 智能体落地。博世的方案强调从“被动响应”到“主动服务”的转变，通过多模态感知（语音、视觉、手势）和 AI 推理，提供个性化、场景化的服务。\n\n【体验价值】AI 智能体的核心价值在于“主动”与“个性化”。系统不再等待用户指令，而是通过感知用户状态（如疲劳、情绪）和场景（如即将到家、进入隧道），主动提供建议或执行操作（如调节氛围灯、推荐音乐、开启空气净化）。这种“无感”的智能服务，极大地提升了座舱的舒适性和便捷性，让用户感受到“被照顾”的体验。\n\n【商业影响】AI 智能体是座舱软件差异化的新高地。它直接决定了用户对“智能”的感知，是提升品牌高端形象和用户忠诚度的关键。随着渗透率提升，基于 AI 智能体的个性化服务（如高级健康监测、专属场景模式）可能成为付费订阅的核心内容，为车厂和供应商带来持续的软件收入。",
+          "summary_en": "【Event Overview】The article reports on Bosch's next-generation AI smart cockpit solution, noting that the penetration rate of large models in new cars in the Chinese market reached nearly 50% in Q1 2026. Brands like Geely, IM, AITO, and Avatr are promoting the implementation of cockpit AI agents. Bosch's solution emphasizes a shift from \"passive response\" to \"active service,\" using multimodal perception (voice, vision, gesture) and AI reasoning to provide personalized, scenario-based services.\n\n【Experience Value】The core value of an AI agent lies in its \"proactivity\" and \"personalization.\" The system no longer waits for user commands; instead, it perceives user states (e.g., fatigue, emotion) and scenarios (e.g., arriving home, entering a tunnel) to proactively offer suggestions or execute actions (e.g., adjusting ambient lighting, recommending music, turning on air purification). This \"unnoticeable\" intelligent service greatly enhances cockpit comfort and convenience, giving users a feeling of being \"cared for.\"\n\n【Business Impact】AI agents represent the new high ground for cockpit software differentiation. They directly determine the user's perception of \"intelligence\" and are key to enhancing brand premium image and user loyalty. As penetration increases, personalized services based on AI agents (e.g., advanced health monitoring, exclusive scene modes) could become core content for paid subscriptions, generating ongoing software revenue for automakers and suppliers."
+        },
+        {
+          "title": "小米这次上半年最大规模的 OTA发布了，备受好评的小米澎湃座舱再次升级",
+          "title_en": "Xiaomi's Largest OTA of the First Half of the Year Released, the Highly Praised Xiaomi HyperOS Cockpit Upgraded Again",
+          "url": "https://www.weibo.com/7871463520/QFcHUudHJ",
+          "site_name": "微博",
+          "publish_date": "2026-05-13",
+          "summary": "【事件概述】小米发布了上半年最大规模的 OTA 更新，涉及 150 多项更新。重点包括：小米澎湃座舱系统升级，优化了与小米生态设备的联动；辅助驾驶和主动安全功能全面升级；备受用户欢迎的“萌宠互动”功能也扩展至 YU7 车型。\n\n【体验价值】此次 OTA 体现了小米“常用常新”的软件迭代理念。150 多项更新覆盖了从核心交互到细节体验的方方面面，让用户持续感受到车辆的进化。特别是生态联动功能的优化，进一步强化了小米“人车家全生态”的独特体验，用户可以在车内无缝控制家中智能设备，或与车外的小米设备互动，形成闭环体验。\n\n【商业影响】大规模、高频次的 OTA 是维持用户新鲜感和品牌忠诚度的有效手段。小米通过持续的功能更新，将“卖车”转变为“运营用户”，为后续的软件订阅服务（如高级辅助驾驶、专属主题、生态服务）打下坚实基础。同时，OTA 也是小米生态链产品的重要推广渠道，能有效带动其他硬件产品的销售。",
+          "summary_en": "【Event Overview】Xiaomi released its largest OTA update of the first half of the year, involving over 150 updates. Key highlights include: an upgrade to the Xiaomi HyperOS cockpit system, optimizing linkage with Xiaomi ecosystem devices; comprehensive upgrades to assisted driving and active safety features; and the popular \"pet interaction\" feature being extended to the YU7 model.\n\n【Experience Value】This OTA embodies Xiaomi's \"always new\" software iteration philosophy. The 150+ updates cover everything from core interactions to detailed experiences, allowing users to continuously feel the vehicle's evolution. The optimization of ecosystem linkage further strengthens Xiaomi's unique \"Human x Car x Home\" ecosystem experience, enabling users to seamlessly control smart home devices from the car or interact with Xiaomi devices outside, creating a closed-loop experience.\n\n【Business Impact】Large-scale, high-frequency OTAs are an effective means of maintaining user freshness and brand loyalty. Through continuous feature updates, Xiaomi shifts from \"selling cars\" to \"operating users,\" laying a solid foundation for subsequent software subscription services (e.g., advanced driver assistance, exclusive themes, ecosystem services). Additionally, OTA serves as a key promotion channel for Xiaomi's ecosystem products, effectively driving sales of other hardware."
+        }
+      ],
+      "created_at": "2026-05-18 02:41:30"
+    },
+    {
       "date": "2026-05-17",
       "date_display": "05月17日",
       "weekday": "周日",
