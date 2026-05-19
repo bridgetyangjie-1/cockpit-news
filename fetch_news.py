@@ -1,6 +1,6 @@
 """
 汽车智能座舱新闻摘要 - GitHub Actions 版本
-支持 30 天历史归档 + 左侧边栏布局 + 动态交互 + 正则防弹解析
+支持 30 天历史归档 + 动态标签提取 + 北京时区修正 + 零死角缩进
 """
 import os
 import json
@@ -11,25 +11,27 @@ from datetime import datetime, timedelta, timezone
 from urllib.parse import urlparse
 from html import escape
 
-# ==================== 配置 ====================
+# ==================== 全局配置 ====================
+# 强制设定北京时区 (UTC+8)，防止 GitHub Actions 服务器产生时差
+BJ_TZ = timezone(timedelta(hours=8))
+
 DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY", "")
 HISTORY_FILE = "docs/history_data.json"
 MAX_DAYS = 30  # 保留最近 30 天
 
-# Buttondown 邮件订阅配置（发给订阅者）
+# Buttondown 邮件订阅配置
 BUTTONDOWN_API_KEY = os.environ.get("BUTTONDOWN_API_KEY") or ""
 
-# SMTP 邮件配置（发给私人邮箱）
+# SMTP 私人邮件配置
 SMTP_HOST = os.environ.get("SMTP_HOST") or ""
 SMTP_PORT = int(os.environ.get("SMTP_PORT") or "465")
 SMTP_USER = os.environ.get("SMTP_USER") or ""
 SMTP_PASS = os.environ.get("SMTP_PASS") or ""
-PRIVATE_EMAILS = os.environ.get("PRIVATE_EMAILS") or ""  # 逗号分隔
+PRIVATE_EMAILS = os.environ.get("PRIVATE_EMAILS") or ""
 
 
 # ==================== 历史数据管理 ====================
 def load_history_data():
-    """加载历史数据文件"""
     if os.path.exists(HISTORY_FILE):
         try:
             with open(HISTORY_FILE, 'r', encoding='utf-8') as f:
@@ -38,9 +40,7 @@ def load_history_data():
             print(f"    加载历史数据失败: {e}")
     return {"records": []}
 
-
 def save_history_data(history_data):
-    """保存历史数据，自动清理超过30天的记录"""
     history_data["records"].sort(key=lambda x: x.get("date", ""), reverse=True)
     
     if len(history_data["records"]) > MAX_DAYS:
@@ -53,37 +53,34 @@ def save_history_data(history_data):
         json.dump(history_data, f, ensure_ascii=False, indent=2)
     print(f"    历史数据已保存: {len(history_data['records'])} 条记录")
 
-
 def add_today_record(history_data, news_items):
-    """添加今天的新闻记录"""
-    today = datetime.now().strftime("%Y-%m-%d")
-    today_display = datetime.now().strftime("%m月%d日")
+    today = datetime.now(BJ_TZ).strftime("%Y-%m-%d")
+    today_display = datetime.now(BJ_TZ).strftime("%m月%d日")
     
     existing_dates = [r.get("date") for r in history_data["records"]]
     if today in existing_dates:
         for record in history_data["records"]:
             if record.get("date") == today:
                 record["news"] = news_items
-                record["updated_at"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                record["updated_at"] = datetime.now(BJ_TZ).strftime("%Y-%m-%d %H:%M:%S")
                 print(f"    已更新今天的记录: {today}")
                 return history_data
     else:
         new_record = {
             "date": today,
             "date_display": today_display,
-            "weekday": ["周一", "周二", "周三", "周四", "周五", "周六", "周日"][datetime.now().weekday()],
+            "weekday": ["周一", "周二", "周三", "周四", "周五", "周六", "周日"][datetime.now(BJ_TZ).weekday()],
             "news_count": len(news_items),
             "news": news_items,
-            "created_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            "created_at": datetime.now(BJ_TZ).strftime("%Y-%m-%d %H:%M:%S")
         }
         history_data["records"].insert(0, new_record)
         print(f"    已添加新记录: {today}")
     return history_data
 
 
-# ==================== 邮件格式化工具 ====================
+# ==================== 邮件与文本格式化工具 ====================
 def safe_url(url):
-    """校验 URL 协议，只允许 http/https，防止 javascript: 等注入"""
     if not url:
         return "#"
     parsed = urlparse(url)
@@ -91,304 +88,27 @@ def safe_url(url):
         return url
     return "#"
 
-
 def format_summary_for_email(summary, is_html=True):
-    """使用正则表达式，鲁棒地处理大模型输出的段落标题
-    
-    Args:
-        summary: 原始摘要文本
-        is_html: 是否输出 HTML 格式。True 时会对括号标题添加样式，False 时返回纯文本
-    """
     if not summary:
         return ""
     
     if is_html:
-        # HTML 模式：转义 HTML 特殊字符，然后替换换行和标题
         formatted = escape(summary)
         formatted = formatted.replace("\n", "<br>")
         pattern = r'([【\[].*?[】\]])'
         replacement = r'<br><div class="section-title" style="color:#667eea; font-weight:600; margin:12px 0 4px;">\1</div>'
         formatted = re.sub(pattern, replacement, formatted)
-        # 清理连续多余的换行
         formatted = re.sub(r'(<br>\s*){3,}', '<br><br>', formatted)
-        # 去掉最开头的多余换行
         if formatted.startswith('<br>'):
             formatted = formatted[4:]
     else:
-        # 纯文本模式：不添加 HTML 标签
         formatted = summary
         
     return formatted
 
 
-# ==================== 邮件发送（Buttondown & SMTP）====================
-def send_daily_email(news_items, date_str):
-    """通过 Buttondown API 发送邮件给所有订阅者"""
-    if not BUTTONDOWN_API_KEY:
-        print("    ⚠️ 未配置 BUTTONDOWN_API_KEY，跳过发送")
-        return False
-    
-    subject = f"🚗 智能座舱日报 | {date_str}"
-    
-    html_content = f"""
-    <!DOCTYPE html>
-    <html>
-    <head>
-        <style>
-            body {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', sans-serif; background: #f5f5f5; padding: 20px; }}
-            .container {{ max-width: 600px; margin: 0 auto; background: #fff; border-radius: 16px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.1); }}
-            .header {{ background: linear-gradient(135deg, #111317 0%, #1e2023 100%); padding: 30px; text-align: center; border-bottom: 2px solid #00F2FF; }}
-            .header h1 {{ color: #00F2FF; margin: 0; font-size: 24px; letter-spacing: 1px; }}
-            .header p {{ color: rgba(255,255,255,0.8); margin: 10px 0 0; font-size: 14px; }}
-            .content {{ padding: 30px; }}
-            .news-item {{ padding: 24px 0; border-bottom: 1px solid #eee; }}
-            .news-item:last-child {{ border-bottom: none; }}
-            .news-number {{ display: inline-block; width: 28px; height: 28px; background: #00F2FF; color: #111317; border-radius: 50%; text-align: center; line-height: 28px; font-size: 14px; font-weight: bold; margin-right: 10px; }}
-            .news-title {{ font-size: 18px; font-weight: 600; color: #333; margin: 10px 0; line-height: 1.4; }}
-            .news-meta {{ font-size: 12px; color: #888; margin-bottom: 12px; }}
-            .news-summary {{ font-size: 15px; color: #444; line-height: 1.8; }}
-            .news-link {{ display: inline-block; margin-top: 12px; padding: 8px 16px; background: #f0f0ff; color: #667eea; text-decoration: none; border-radius: 6px; font-size: 13px; font-weight: 500; }}
-            .footer {{ background: #f9f9f9; padding: 20px; text-align: center; font-size: 12px; color: #999; }}
-            .footer a {{ color: #667eea; text-decoration: none; }}
-        </style>
-    </head>
-    <body>
-        <div class="container">
-            <div class="header">
-                <h1>SMART COCKPIT DAILY</h1>
-                <p>{date_str} | 今日 {len(news_items)} 条精选资讯</p>
-            </div>
-            <div class="content">
-    """
-    
-    for i, item in enumerate(news_items, 1):
-        # 对动态字段进行转义，防止 XSS 注入
-        title = escape(item.get('title', ''))
-        site_name = escape(item.get('site_name', ''))
-        publish_date = escape(item.get('publish_date', ''))
-        url = safe_url(item.get('url', ''))
-        formatted_summary = format_summary_for_email(item.get("summary", ""), is_html=True)
-        
-        html_content += f"""
-                <div class="news-item">
-                    <span class="news-number">{i}</span>
-                    <div class="news-title">{title}</div>
-                    <div class="news-meta">📰 {site_name} | 📅 {publish_date}</div>
-                    <div class="news-summary">{formatted_summary}</div>
-                    <a href="{url}" class="news-link">🔗 阅读原文</a>
-                </div>
-        """
-    
-    html_content += """
-            </div>
-            <div class="footer">
-                <p>🌐 在线阅读: <a href="https://bridgetyangjie-1.github.io/cockpit-news/">访问智能座舱日报看板</a></p>
-                <p style="margin-top: 10px;">本邮件由系统自动发送</p>
-                <p style="margin-top: 5px;">© 2026 Bridget Yang</p>
-            </div>
-        </div>
-    </body>
-    </html>
-    """
-    
-    try:
-        url = "https://api.buttondown.email/v1/emails"
-        
-        # 设置 5 分钟后发送（给 API 处理时间，避免 "past time" 错误）
-        publish_time = datetime.now(timezone.utc) + timedelta(minutes=5)
-        publish_date_str = publish_time.strftime("%Y-%m-%dT%H:%M:%SZ")
-        
-        data = {
-            "subject": subject,
-            "body": html_content,
-            "publish_date": publish_date_str  # 未来时间自动发送
-        }
-        
-        req = urllib.request.Request(
-            url,
-            data=json.dumps(data).encode('utf-8'),
-            headers={
-                'Authorization': f'Token {BUTTONDOWN_API_KEY}',
-                'Content-Type': 'application/json'
-            },
-            method='POST'
-        )
-        
-        with urllib.request.urlopen(req, timeout=30) as response:
-            print(f"    ✅ 邮件已通过 Buttondown 发送给所有订阅者")
-            return True
-            
-    except urllib.error.HTTPError as e:
-        error_body = e.read().decode('utf-8')
-        print(f"    ❌ Buttondown API 错误: {e.code}")
-        print(f"    详情: {error_body[:200]}")
-        return False
-    except Exception as e:
-        print(f"    ❌ Buttondown 发送失败: {e}")
-        return False
-
-
-def send_private_email(news_items, date_str):
-    """通过 SMTP 发送邮件给私人邮箱"""
-    import smtplib
-    from email.mime.multipart import MIMEMultipart
-    from email.mime.text import MIMEText
-    
-    if not all([SMTP_HOST, SMTP_USER, SMTP_PASS, PRIVATE_EMAILS]):
-        print("    ⚠️ SMTP 配置不完整，跳过私人邮件发送")
-        return False
-    
-    recipients = [e.strip() for e in PRIVATE_EMAILS.split(",") if e.strip()]
-    if not recipients:
-        print("    ⚠️ 未配置私人邮箱，跳过发送")
-        return False
-    
-    subject = f"🚗 智能座舱日报 | {date_str}"
-    news_html = ""
-    for i, item in enumerate(news_items, 1):
-        # 对动态字段进行转义，防止 XSS 注入
-        title = escape(item.get('title', ''))
-        site_name = escape(item.get('site_name', ''))
-        publish_date = escape(item.get('publish_date', ''))
-        url = safe_url(item.get('url', '#'))
-        
-        formatted_summary = format_summary_for_email(item.get('summary', ''), is_html=True)
-        # 将 section-title 颜色替换为适应私人邮件的蓝色
-        formatted_summary = formatted_summary.replace('color:#667eea', 'color:#00d4ff')
-        
-        news_html += f"""
-        <div style="margin-bottom: 24px; padding: 16px; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #00d4ff;">
-            <h3 style="margin: 0 0 8px 0; color: #1a1a2e; font-size: 16px;">
-                {i}. {title}
-            </h3>
-            <p style="margin: 4px 0; color: #666; font-size: 13px;">
-                📅 {publish_date} | 📰 {site_name}
-            </p>
-            <p style="margin: 12px 0 0 0; color: #333; font-size: 14px; line-height: 1.6;">
-                {formatted_summary}
-            </p>
-            <a href="{url}" style="color: #00d4ff; font-size: 13px;">阅读原文 →</a>
-        </div>
-        """
-    
-    html_content = f"""
-    <html>
-    <head><meta charset="UTF-8"></head>
-    <body style="font-family: sans-serif; max-width: 600px; margin: 0 auto; padding: 20px;">
-        <div style="text-align: center; margin-bottom: 32px; padding: 24px; background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); border-radius: 12px;">
-            <h1 style="color: #00d4ff; margin: 0; font-size: 24px;">SMART COCKPIT DAILY</h1>
-            <p style="color: #fff; margin: 8px 0 0 0;">{date_str} | 今日 {len(news_items)} 条精选资讯</p>
-        </div>
-        {news_html}
-    </body>
-    </html>
-    """
-    
-    try:
-        import ssl
-        context = ssl.create_default_context()
-        with smtplib.SMTP_SSL(SMTP_HOST, SMTP_PORT, context=context) as server:
-            server.login(SMTP_USER, SMTP_PASS)
-            for recipient in recipients:
-                msg = MIMEMultipart('alternative')
-                msg['Subject'] = subject
-                msg['From'] = SMTP_USER
-                msg['To'] = recipient
-                msg.attach(MIMEText(html_content, 'html', 'utf-8'))
-                server.sendmail(SMTP_USER, recipient, msg.as_string())
-            print(f"    ✅ 私人邮件已发送至 {len(recipients)} 个联系人")
-            return True
-    except Exception as e:
-        print(f"    ❌ SMTP 发送失败: {e}")
-        return False
-
-
-# ==================== 搜索与AI逻辑 ====================
-def generate_search_keywords(topic="汽车智能座舱"):
-    """DeepSeek 生成精准的软件生态与数字体验搜索关键词"""
-    system_prompt = f"""你是深耕中国新能源汽车市场的资深用户研究与体验分析师。请围绕"{topic}"，生成15个精准且多样化的中文搜索关键词。
-
-为了精准捕捉行业内的软件创新与数字体验动态，关键词必须覆盖以下维度：
-1. 核心软件与数字娱乐生态：如 "车机 第三方 App 接入", "座舱 影音娱乐 体验", "车载游戏 生态", "手车互联 无缝流转"
-2. OTA与核心功能演进：如 "新势力 OTA 升级 体验", "座舱 AI大模型 落地", "座舱 软件订阅 服务"
-3. 关键交互触点 (UX/UI)：如 "座舱 零层级 交互", "车载语音 多指令", "多模态交互 评测", "车机屏幕 交互逻辑"
-4. 头部玩家的具体动作：如 "蔚来 Banyan 智能应用", "小鹏 天玑 系统体验", "小米 澎湃OS 座舱", "理想 空间交互"
-
-要求：
-- 绝对不要外观、底盘、硬件参数相关的词汇。只聚焦"软件"、"交互"、"生态应用（含娱乐/音频）"。
-- 【地理限制】必须聚焦中国大陆市场，关注大陆品牌。不要包含台湾、香港、澳门相关字眼。
-- 必须返回严格的JSON格式：
-{{"keywords": ["关键词1", "关键词2", ..., "关键词15"]}}"""
-
-    response = call_deepseek(system_prompt, f"请为'{topic}'生成多样化的搜索关键词")
-    if not response:
-        return ["车机 OTA 升级 体验", "智能座舱 交互设计", "车载语音助手 评测", "手车互联 生态"]
-        
-    try:
-        match = re.search(r'\{.*\}', response, re.DOTALL)
-        if match:
-            data = json.loads(match.group(0))
-            keywords = data.get("keywords", [])
-            print(f"    生成 {len(keywords)} 个搜索关键词")
-            return keywords
-    except Exception as e:
-        print(f"    关键词解析失败: {e}")
-    return ["智能座舱 OTA", "车机系统 体验", "车载交互 UI"]
-
-
-def search_news(keywords, max_results=40):
-    """用多个关键词搜索 DuckDuckGo"""
-    try:
-        from ddgs import DDGS
-        all_results = []
-        seen_urls = set()
-        results_per_query = max(3, max_results // len(keywords))
-
-        with DDGS() as ddgs:
-            for query in keywords:
-                for r in ddgs.text(query, max_results=results_per_query, timelimit='w'):
-                    title = (r.get("title") or "").strip()
-                    url = (r.get("href") or "").strip()
-                    body = (r.get("body") or "").strip()
-                    publish_date = (r.get("date") or "").strip()
-
-                    if not title or not url or url in seen_urls:
-                        continue
-                    seen_urls.add(url)
-
-                    domain = urlparse(url).netloc.replace("www.", "")
-                    site_name = domain.split(".")[0].title() if domain else ""
-
-                    # 仅保留最基础的去广告过滤
-                    ad_keywords = ["ad", "sponsored", "推广", "广告", "track"]
-                    if any(k in url.lower() for k in ad_keywords):
-                        continue
-                    
-                    # 过滤敏感地区内容
-                    sensitive_keywords = ["台湾", "台灣", "taiwan", "香港", "hong kong", "澳门", "macau"]
-                    if any(k in (title + body).lower() for k in sensitive_keywords):
-                        continue
-
-                    all_results.append({
-                        "title": title,
-                        "url": url,
-                        "snippet": body[:400],
-                        "site_name": site_name,
-                        "publish_date": publish_date
-                    })
-
-        print(f"    初筛获取共 {len(all_results)} 条新闻内容")
-        return all_results
-    except ImportError:
-        print("请先安装依赖: pip install ddgs")
-        return []
-    except Exception as e:
-        print(f"搜索失败: {e}")
-        return []
-
-
+# ==================== API 请求核心 (DeepSeek) ====================
 def call_deepseek(system_prompt, user_prompt):
-    """调用 DeepSeek API"""
     if not DEEPSEEK_API_KEY:
         print("未设置 DEEPSEEK_API_KEY")
         return None
@@ -416,119 +136,174 @@ def call_deepseek(system_prompt, user_prompt):
         with urllib.request.urlopen(req, timeout=120) as response:
             result = json.loads(response.read().decode('utf-8'))
             return result['choices'][0]['message']['content']
-    except urllib.error.HTTPError as e:
-        body = e.read().decode('utf-8')
-        print(f"DeepSeek 调用失败: {e.code}")
-        if body:
-            print(f"详情: {body[:200]}")
-        return None
     except Exception as e:
         print(f"DeepSeek 调用失败: {e}")
         return None
 
 
+# ==================== 业务逻辑：生成关键词 -> 搜索 -> 过滤提炼 ====================
+def generate_search_keywords(topic="汽车智能座舱"):
+    system_prompt = f"""你是深耕中国新能源汽车市场的资深用户研究与体验分析师。请围绕"{topic}"，生成15个精准且多样化的中文搜索关键词。
+涵盖维度：
+1. 数字娱乐生态：如 "车机 第三方 App", "座舱游戏 生态", "手车互联"
+2. OTA更新：如 "新势力 OTA 升级 体验", "座舱 大模型"
+3. 交互触点：如 "多模态交互 评测", "零层级 交互"
+4. 品牌动态：如 "蔚来 Banyan", "小鹏 天玑", "澎湃OS"
+注意：聚焦大陆市场，不含台湾、香港、澳门。仅返回JSON格式：{{"keywords": ["词1", "词2"]}}"""
+
+    response = call_deepseek(system_prompt, f"请为'{topic}'生成关键词")
+    if response:
+        try:
+            match = re.search(r'\{.*\}', response, re.DOTALL)
+            if match:
+                data = json.loads(match.group(0))
+                return data.get("keywords", ["智能座舱 OTA", "车机系统 体验", "车载交互 UI"])
+        except Exception as e:
+            print(f"    关键词解析失败: {e}")
+    return ["智能座舱 OTA", "车机系统 体验", "车载交互 UI"]
+
+def search_news(keywords, max_results=40):
+    try:
+        from ddgs import DDGS
+        all_results = []
+        seen_urls = set()
+        results_per_query = max(3, max_results // len(keywords))
+
+        with DDGS() as ddgs:
+            for query in keywords:
+                for r in ddgs.text(query, max_results=results_per_query, timelimit='w'):
+                    title = (r.get("title") or "").strip()
+                    url = (r.get("href") or "").strip()
+                    body = (r.get("body") or "").strip()
+                    publish_date = (r.get("date") or "").strip()
+
+                    if not title or not url or url in seen_urls:
+                        continue
+                    seen_urls.add(url)
+
+                    domain = urlparse(url).netloc.replace("www.", "")
+                    site_name = domain.split(".")[0].title() if domain else ""
+
+                    ad_keywords = ["ad", "sponsored", "推广", "广告", "track"]
+                    if any(k in url.lower() for k in ad_keywords):
+                        continue
+                    
+                    sensitive_keywords = ["台湾", "台灣", "taiwan", "香港", "hong kong", "澳门", "macau"]
+                    if any(k in (title + body).lower() for k in sensitive_keywords):
+                        continue
+
+                    all_results.append({
+                        "title": title, "url": url, "snippet": body[:400],
+                        "site_name": site_name, "publish_date": publish_date
+                    })
+        print(f"    初筛获取共 {len(all_results)} 条新闻内容")
+        return all_results
+    except Exception as e:
+        print(f"搜索失败: {e}")
+        return []
+
 def filter_and_format(news_list):
-    """DeepSeek 严苛筛选+深度分析，返回双语JSON"""
     if not news_list:
         return []
 
-    today = datetime.now().strftime("%Y-%m-%d")
+    today = datetime.now(BJ_TZ).strftime("%Y-%m-%d")
     news_data = "\n\n".join([
         f"新闻{i+1}:\n标题: {item['title']}\n来源: {item['site_name']}\n日期: {item.get('publish_date', '')}\n摘要: {item['snippet']}\n链接: {item['url']}"
         for i, item in enumerate(news_list)
     ])
 
-    system_prompt = f"""你是拥有十几年丰富经验的资深汽车用户研究与体验分析专家。今天是{today}。
-
-我将提供一批通过搜索引擎抓取的行业新闻。请以极为严苛的标准，筛选出对国内汽车软件生态和交互设计最具研究价值的 5 条新闻。
-
-【核心聚焦方向 - 软件与体验】：
-聚焦于中国"造车新势力"与科技大厂在智能座舱内的纯软件功能创新、数字生态服务（如影音娱乐/游戏/生活服务接入）、OTA更新细节、以及底层交互逻辑(UI/UX)演进。
-
-【过滤死线 - 绝对不要】：
-1. 纯硬件发布（芯片、屏幕材质）、销量战报。
-2. 涉及台湾、香港、澳门地区的内容。
-
-请为选出的新闻撰写精炼总结，并翻译成英文。
+    system_prompt = f"""你是资深汽车体验分析专家。今天是{today}。
+请以严苛标准，筛选出对国内汽车软件生态和交互设计最具价值的 5 条新闻。
+必须聚焦纯软件功能创新、数字生态服务(游戏/影音)、OTA、交互逻辑(UI/UX)。排除纯硬件和敏感地区。
 
 【结构与字数要求】：
-每篇总结必须包含以下两个模块（必须使用这些标题），中文总计约 350 字：
+每篇总结必须包含以下三个模块（必须使用这些标题），中文总计约 400 字：
+【事件概述】（约 150 字）：详细描述核心软件事件及创新点。
+【体验价值】（约 150 字）：从 UX 视角剖析该功能的正向体验价值。
+【潜在槽点】（约 100 字）：【强制要求】以批判性视角指出该功能可能面临的用户学习成本、隐私风险、交互冗余或实际落地难度等挑战。
 
-【事件概述】（约 200 字）：详细描述核心软件事件，包括：
-- 具体是什么功能/更新/产品
-- 涉及哪些车型/品牌
-- 功能的具体使用场景和操作方式
-- 技术亮点或创新点
-
-【价值与影响】（约 150 字）：从 UX 视角和商业视角综合分析：
-- 解决了用户什么痛点，带来什么体验提升
-- 对用户粘性、软件订阅率或行业竞争格局的影响
-- 潜在的商业机会或风险
-
-【语言要求】：
-summary 字段仅纯中文；summary_en 字段仅纯英文。
-
-必须返回严格的JSON格式：
+请返回JSON格式：
 {{
   "news": [
     {{
-      "title": "原标题", "title_en": "English Title", "url": "链接", "site_name": "来源", "publish_date": "发布日期",
-      "summary": "【事件概述】... \\n\\n【价值与影响】...",
-      "summary_en": "【Event Overview】... \\n\\n【Value & Impact】..."
+      "title": "原标题", "url": "原链接", "site_name": "媒体", "publish_date": "发布日期",
+      "tags": ["小米", "澎湃OS", "OTA"], 
+      "summary": "【事件概述】... \\n\\n【体验价值】... \\n\\n【潜在槽点】...",
+      "summary_en": "【Event Overview】... \\n\\n【Experience Value】... \\n\\n【Potential Friction】..."
     }}
   ]
-}}"""
+}}
+* tags 提取4个维度：品牌、OS、技术特征、场景生态。控制在5-8个词，使用简短的标准术语。"""
 
     response = call_deepseek(system_prompt, f"请分析以下新闻：\n\n{news_data}")
-    if not response:
-        return []
-
-    try:
-        match = re.search(r'\{.*\}', response, re.DOTALL)
-        if match:
-            data = json.loads(match.group(0))
-            items = data.get("news", [])
-            print(f"    ✅ AI 筛选出 {len(items)} 条高质量新闻")
-            return items
-    except Exception as e:
-        print(f"    ❌ 解析 DeepSeek 响应失败: {e}")
+    if response:
+        try:
+            match = re.search(r'\{.*\}', response, re.DOTALL)
+            if match:
+                data = json.loads(match.group(0))
+                items = data.get("news", [])
+                print(f"    ✅ AI 筛选出 {len(items)} 条高质量新闻")
+                return items
+        except Exception as e:
+            print(f"    ❌ 解析 DeepSeek 响应失败: {e}")
     return []
 
 
-# ==================== HTML 生成 ====================
+def generate_monthly_report(history_data):
+    """每月1号提取过去30天的标签和摘要，生成月度宏观趋势研判"""
+    today = datetime.now(BJ_TZ)
+    if today.day != 1:  # 只有每月1号才执行
+        return False
+        
+    print("\n📊 触发月度宏观报告生成机制...")
+    
+    # 提取最近30天的数据合并
+    compiled_data = ""
+    for record in history_data.get("records", []):
+        compiled_data += f"\n日期: {record['date']}\n"
+        for news in record.get("news", []):
+            tags = ", ".join(news.get("tags", []))
+            compiled_data += f"标签: [{tags}]\n概要: {news.get('summary', '')}\n"
+
+    system_prompt = """你是一位顶级的汽车行业首席分析师。
+我将提供过去一个月内关于中国智能座舱领域的每日新闻摘要与核心标签集合。
+请你基于这些数据，撰写一篇《智能座舱软件体验月度风向标》报告。
+
+要求：
+1. 提取出本月最核心的 3 个行业大趋势（例如：大模型上车加速、UI零层级化等）。
+2. 分析头部玩家（蔚小理华米）在本月的核心角力点。
+3. 必须输出为 Markdown 格式，层级分明，字数约 1000 字。"""
+
+    report_md = call_deepseek(system_prompt, f"请分析以下月度数据：\n\n{compiled_data}")
+    
+    if report_md:
+        # 将报告保存到单独的 Markdown 文件中
+        report_path = f"docs/monthly_report_{today.strftime('%Y_%m')}.md"
+        os.makedirs(os.path.dirname(report_path), exist_ok=True)
+        with open(report_path, 'w', encoding='utf-8') as f:
+            f.write(report_md)
+        print(f"    ✅ 月度报告已生成: {report_path}")
+        return True
+    return False
+
+
+# ==================== HTML 前端看板生成 ====================
 def generate_html(output_path, lang='zh'):
-    """生成使用 Tailwind CSS 框架的专业仪表盘页面"""
     is_zh = lang == 'zh'
     html_lang = "zh-CN" if is_zh else "en"
     
     texts = {
         'zh': {
-            'title': '智能座舱日报',
-            'subtitle': 'Daily Intelligence',
+            'title': '智能座舱日报', 'subtitle': 'Daily Intelligence',
             'description': '聚焦中国新能源车软件生态与座舱交互体验，每日自动抓取OTA动态、功能创新与用户研究洞察。',
-            'nav_today': '今日',
-            'sidebar_archive': '历史归档',
-            'loading': '加载中...',
-            'no_news': '该日期暂无新闻数据',
-            'read_original': '阅读原文',
-            'footer': '数据来源：DuckDuckGo · DeepSeek AI',
-            'switch_lang': 'English',
-            'subscribe': '订阅日报',
-            'subscribe_btn': '立即订阅'
+            'nav_today': '今日', 'sidebar_archive': '历史归档', 'loading': '加载中...',
+            'subscribe': '订阅日报', 'subscribe_btn': '立即订阅', 'switch_lang': 'English'
         },
         'en': {
-            'title': 'Smart Cockpit',
-            'subtitle': 'Daily Intelligence',
+            'title': 'Smart Cockpit', 'subtitle': 'Daily Intelligence',
             'description': 'Focusing on China NEV software ecosystem and cockpit interaction experience. Daily insights on OTA and UX.',
-            'nav_today': 'Today',
-            'sidebar_archive': 'ARCHIVE',
-            'loading': 'Loading...',
-            'no_news': 'No news available',
-            'read_original': 'Read Original',
-            'footer': 'Source: DuckDuckGo · DeepSeek AI',
-            'switch_lang': '中文',
-            'subscribe': 'Subscribe',
-            'subscribe_btn': 'Subscribe'
+            'nav_today': 'Today', 'sidebar_archive': 'ARCHIVE', 'loading': 'Loading...',
+            'subscribe': 'Subscribe', 'subscribe_btn': 'Subscribe', 'switch_lang': '中文'
         }
     }
     t = texts[lang]
@@ -545,23 +320,7 @@ def generate_html(output_path, lang='zh'):
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
     <script>
-        tailwind.config = {{
-            darkMode: "class",
-            theme: {{
-                extend: {{
-                    colors: {{
-                        background: "#0D0F12",
-                        surface: "#111317",
-                        "surface-container": "#1e2023",
-                        "surface-container-high": "#282a2d",
-                        primary: "#00F2FF",
-                        "on-surface": "#e2e2e6",
-                        "on-surface-variant": "#b9cacb",
-                        "outline-variant": "#3a494b"
-                    }}
-                }}
-            }}
-        }}
+        tailwind.config = {{ darkMode: "class", theme: {{ extend: {{ colors: {{ background: "#0D0F12", surface: "#111317", "surface-container": "#1e2023", "surface-container-high": "#282a2d", primary: "#00F2FF", "on-surface": "#e2e2e6", "on-surface-variant": "#b9cacb", "outline-variant": "#3a494b" }} }} }} }}
     </script>
     <style>
         .material-symbols-outlined {{ font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }}
@@ -579,22 +338,16 @@ def generate_html(output_path, lang='zh'):
             <h1 class="text-xl font-bold text-primary tracking-tight uppercase">SMART COCKPIT</h1>
             <p class="text-xs text-on-surface-variant/70 mt-3 leading-relaxed">{t['description']}</p>
         </div>
-        
         <nav class="flex-1 overflow-y-auto mt-4">
-            <div onclick="selectToday()" class="flex items-center gap-3 px-5 py-3 cursor-pointer transition-colors hover:bg-surface-container-high">
-                <span class="material-symbols-outlined text-xl">today</span>
-                <span>{t['nav_today']}</span>
+            <div onclick="selectToday()" class="flex items-center gap-3 px-5 py-3 cursor-pointer hover:bg-surface-container-high">
+                <span class="material-symbols-outlined text-xl">today</span><span>{t['nav_today']}</span>
             </div>
-            <div class="px-6 py-2 mt-4">
-                <span class="text-[10px] uppercase tracking-widest text-on-surface-variant/50">{t['sidebar_archive']}</span>
-            </div>
+            <div class="px-6 py-2 mt-4"><span class="text-[10px] uppercase tracking-widest text-on-surface-variant/50">{t['sidebar_archive']}</span></div>
             <div id="dateList" class="space-y-1"></div>
         </nav>
-        
         <div class="p-4 border-t border-outline-variant space-y-3">
             <a href="{lang_switch_url}" class="flex items-center gap-2 text-on-surface-variant hover:text-primary transition-colors cursor-pointer">
-                <span class="material-symbols-outlined text-lg">language</span>
-                <span class="text-sm">{t['switch_lang']}</span>
+                <span class="material-symbols-outlined text-lg">language</span><span class="text-sm">{t['switch_lang']}</span>
             </a>
             <div class="pt-3 border-t border-outline-variant/50">
                 <p class="text-xs text-on-surface-variant mb-2">📬 {t['subscribe']}</p>
@@ -626,18 +379,13 @@ def generate_html(output_path, lang='zh'):
                 historyData = await res.json();
                 renderDateList();
                 if(historyData.records.length > 0) selectDate(historyData.records[0].date);
-            }} catch (e) {{
-                console.error('Failed to load data:', e);
-            }}
+            }} catch (e) {{ console.error('Failed to load data:', e); }}
         }}
         
         function renderDateList() {{
             document.getElementById('dateList').innerHTML = historyData.records.map((r, i) => `
                 <div class="date-item flex items-center justify-between px-5 py-2 cursor-pointer hover:bg-surface-container-high ${{i===0?'date-item-active':''}}" data-date="${{r.date}}" onclick="selectDate('${{r.date}}')">
-                    <div class="flex items-center gap-2">
-                        <span class="material-symbols-outlined text-base opacity-50">calendar_today</span>
-                        <span class="text-sm">${{r.date_display || r.date}}</span>
-                    </div>
+                    <div class="flex items-center gap-2"><span class="material-symbols-outlined text-base opacity-50">calendar_today</span><span class="text-sm">${{r.date_display || r.date}}</span></div>
                     <span class="text-xs font-mono text-on-surface-variant/70">${{r.news_count}}</span>
                 </div>`).join('');
         }}
@@ -655,7 +403,6 @@ def generate_html(output_path, lang='zh'):
         function formatSummary(text) {{
             if(!text) return "";
             let html = text.replace(/\\n/g, '<br>');
-            // 正则匹配括号标题并加上样式
             html = html.replace(/([【\\[].*?[】\\]])/g, '<br><div class="section-title">$1</div>');
             html = html.replace(/(<br>\\s*){{3,}}/g, '<br><br>');
             if(html.startsWith('<br>')) html = html.substring(4);
@@ -667,7 +414,12 @@ def generate_html(output_path, lang='zh'):
             document.getElementById('contentDate').textContent = record.date_display || record.date;
             document.getElementById('contentWeekday').textContent = record.weekday || '';
             
-            document.getElementById('newsContainer').innerHTML = record.news.map((item, index) => `
+            document.getElementById('newsContainer').innerHTML = record.news.map((item, index) => {{
+                let tagsHtml = '';
+                if (item.tags && item.tags.length > 0) {{
+                    tagsHtml = `<div class="flex flex-wrap gap-2 mt-3 mb-3">${{item.tags.map(tag => `<span class="px-2 py-1 text-[11px] font-medium bg-primary/10 text-primary border border-primary/20 rounded-md uppercase tracking-wider">${{tag}}</span>`).join('')}}</div>`;
+                }}
+                return `
                 <article class="news-card relative bg-[#1a1c1f] border border-outline-variant rounded-xl p-6 glow-hover group">
                     <div class="news-card-bg"><span class="font-bold font-mono">${{String(index + 1).padStart(2, '0')}}</span></div>
                     <div class="relative z-10">
@@ -675,61 +427,198 @@ def generate_html(output_path, lang='zh'):
                             <span class="font-mono text-primary/80">📰 ${{item.site_name||''}}</span>
                             <span>📅 ${{item.publish_date||record.date}}</span>
                         </div>
-                        <h3 class="text-xl font-semibold text-on-surface mb-3 group-hover:text-primary transition-colors">${{isZh ? item.title : (item.title_en||item.title)}}</h3>
+                        <h3 class="text-xl font-semibold text-on-surface mb-2 group-hover:text-primary transition-colors">${{isZh ? item.title : (item.title_en||item.title)}}</h3>
+                        ${{tagsHtml}}
                         <div class="text-sm text-on-surface-variant/80 leading-relaxed mb-4 max-w-3xl">${{formatSummary(isZh ? item.summary : (item.summary_en||item.summary))}}</div>
                         <a href="${{item.url}}" target="_blank" class="text-primary hover:underline text-sm font-medium">🔗 ${{isZh?'阅读原文':'Read Original'}}</a>
                     </div>
-                </article>`).join('');
+                </article>`;
+            }}).join('');
         }}
         
         document.addEventListener('DOMContentLoaded', loadData);
     </script>
 </body>
 </html>"""
-    
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     with open(output_path, 'w', encoding='utf-8') as f:
         f.write(html)
     print(f"✅ {'中文' if is_zh else '英文'}页面已生成: {output_path}")
 
 
-# ==================== 主程序 ====================
+# ==================== 发送邮件包装 ====================
+def send_daily_email(news_items, date_str):
+    if not BUTTONDOWN_API_KEY:
+        print("    ⚠️ 未配置 BUTTONDOWN_API_KEY，跳过订阅者群发")
+        return False
+    
+    subject = f"🚗 智能座舱日报 | {date_str}"
+    
+    html_content = f"""
+    <html>
+    <head><style>
+        body {{ font-family: sans-serif; background: #f5f5f5; padding: 20px; }}
+        .container {{ max-width: 600px; margin: 0 auto; background: #fff; border-radius: 16px; overflow: hidden; }}
+        .header {{ background: #111317; padding: 30px; text-align: center; border-bottom: 2px solid #00F2FF; }}
+        .news-item {{ padding: 24px; border-bottom: 1px solid #eee; }}
+    </style></head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1 style="color:#00F2FF; margin:0;">SMART COCKPIT DAILY</h1>
+                <p style="color:#fff; margin-top:10px;">{date_str} | 今日 {len(news_items)} 条资讯</p>
+            </div>
+    """
+    
+    for i, item in enumerate(news_items, 1):
+        title = escape(item.get('title', ''))
+        site_name = escape(item.get('site_name', ''))
+        pub_date = escape(item.get('publish_date', ''))
+        url = safe_url(item.get('url', ''))
+        formatted_summary = format_summary_for_email(item.get("summary", ""), is_html=True)
+        # 【潜在槽点】单独高亮为警示性橙红色
+        formatted_summary = formatted_summary.replace('>【潜在槽点】<', 'style="color:#ff6b6b; border-bottom: 1px dashed #ff6b6b; padding-bottom: 2px;">【潜在槽点】<')
+        
+        tags = item.get('tags', [])
+        tags_html = ' '.join([f'<span style="display:inline-block; padding:4px 10px; margin:2px; background:#e8f4f8; color:#0066cc; border-radius:12px; font-size:12px;">{escape(tag)}</span>' for tag in tags]) if tags else ''
+        
+        html_content += f"""
+            <div class="news-item">
+                <h3 style="margin: 0 0 10px 0;">{i}. {title}</h3>
+                <p style="font-size: 12px; color: #888;">📰 {site_name} | 📅 {pub_date}</p>
+                {f'<div style="margin: 12px 0;">{tags_html}</div>' if tags_html else ''}
+                <div style="font-size: 14px; color: #444; line-height: 1.6;">{formatted_summary}</div>
+                <a href="{url}" style="display:inline-block; margin-top:12px; color:#667eea;">🔗 阅读原文</a>
+            </div>
+        """
+    
+    html_content += """
+            <div style="padding: 20px; text-align: center; color: #999; font-size: 12px; background: #f9f9f9;">
+                <p>🌐 在线阅读: <a href="https://bridgetyangjie-1.github.io/cockpit-news/">访问智能座舱看板</a></p>
+            </div>
+        </div>
+    </body></html>
+    """
+    
+    try:
+        url = "https://api.buttondown.email/v1/emails"
+        publish_time = datetime.now(timezone.utc) + timedelta(minutes=5)
+        data = {
+            "subject": subject, "body": html_content, 
+            "publish_date": publish_time.strftime("%Y-%m-%dT%H:%M:%SZ")
+        }
+        req = urllib.request.Request(
+            url, data=json.dumps(data).encode('utf-8'),
+            headers={'Authorization': f'Token {BUTTONDOWN_API_KEY}', 'Content-Type': 'application/json'},
+            method='POST'
+        )
+        urllib.request.urlopen(req, timeout=30)
+        print("    ✅ 邮件已通过 Buttondown 发送")
+        return True
+    except Exception as e:
+        print(f"    ❌ Buttondown 发送失败: {e}")
+        return False
+
+def send_private_email(news_items, date_str):
+    import smtplib
+    from email.mime.multipart import MIMEMultipart
+    from email.mime.text import MIMEText
+    
+    if not all([SMTP_HOST, SMTP_USER, SMTP_PASS, PRIVATE_EMAILS]):
+        print("    ⚠️ SMTP 配置不完整，跳过私人邮件发送")
+        return False
+        
+    recipients = [e.strip() for e in PRIVATE_EMAILS.split(",") if e.strip()]
+    subject = f"🚗 智能座舱日报 | {date_str}"
+    
+    news_html = ""
+    for i, item in enumerate(news_items, 1):
+        title = escape(item.get('title', ''))
+        site_name = escape(item.get('site_name', ''))
+        pub_date = escape(item.get('publish_date', ''))
+        url = safe_url(item.get('url', '#'))
+        
+        formatted_summary = format_summary_for_email(item.get('summary', ''), is_html=True)
+        formatted_summary = formatted_summary.replace('color:#667eea', 'color:#00d4ff')
+        # 【潜在槽点】单独高亮为警示性橙红色
+        formatted_summary = formatted_summary.replace('>【潜在槽点】<', 'style="color:#ff6b6b; border-bottom: 1px dashed #ff6b6b; padding-bottom: 2px;">【潜在槽点】<')
+        
+        tags = item.get('tags', [])
+        tags_html = ' '.join([f'<span style="display:inline-block; padding:4px 10px; margin:2px; background:#e0f7fa; color:#0097a7; border-radius:12px; font-size:12px;">{escape(tag)}</span>' for tag in tags]) if tags else ''
+        
+        news_html += f"""
+        <div style="margin-bottom: 24px; padding: 16px; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #00d4ff;">
+            <h3 style="margin: 0 0 8px 0; color: #1a1a2e; font-size: 16px;">{i}. {title}</h3>
+            <p style="margin: 4px 0; color: #666; font-size: 13px;">📅 {pub_date} | 📰 {site_name}</p>
+            {f'<div style="margin: 12px 0;">{tags_html}</div>' if tags_html else ''}
+            <p style="margin: 12px 0 0 0; color: #333; font-size: 14px; line-height: 1.6;">{formatted_summary}</p>
+            <a href="{url}" style="color: #00d4ff; font-size: 13px;">阅读原文 →</a>
+        </div>
+        """
+        
+    html_content = f"""
+    <html><body>
+        <div style="text-align:center; margin-bottom:32px; padding:24px; background:linear-gradient(135deg,#1a1a2e 0%,#16213e 100%); border-radius:12px;">
+            <h1 style="color:#00d4ff; margin:0; font-size:24px;">SMART COCKPIT DAILY</h1>
+            <p style="color:#fff; margin:8px 0 0 0;">{date_str} | 今日 {len(news_items)} 条精选资讯</p>
+        </div>
+        {news_html}
+    </body></html>
+    """
+    
+    try:
+        import ssl
+        context = ssl.create_default_context()
+        with smtplib.SMTP_SSL(SMTP_HOST, SMTP_PORT, context=context) as server:
+            server.login(SMTP_USER, SMTP_PASS)
+            for recipient in recipients:
+                msg = MIMEMultipart('alternative')
+                msg['Subject'] = subject
+                msg['From'] = SMTP_USER
+                msg['To'] = recipient
+                msg.attach(MIMEText(html_content, 'html', 'utf-8'))
+                server.sendmail(SMTP_USER, recipient, msg.as_string())
+            print(f"    ✅ 私人邮件已发送至 {len(recipients)} 个联系人")
+            return True
+    except Exception as e:
+        print(f"    ❌ SMTP 发送失败: {e}")
+        return False
+
+
+# ==================== 主程序入口 ====================
 def main():
     print("=" * 50)
     print("🚗 智能座舱日报 - 自动抓取系统启动")
     print("=" * 50)
     
-    # 1. 生成搜索关键词
     print("\n📌 步骤1: 生成搜索关键词...")
     keywords = generate_search_keywords()
     
-    # 2. 搜索新闻
     print("\n📌 步骤2: 搜索新闻...")
     news = search_news(keywords, max_results=40)
     
-    # 3. 加载历史数据
     history_data = load_history_data()
 
     if news:
-        # 4. AI 筛选和格式化
         print("\n📌 步骤3: AI 深度分析与筛选...")
         items = filter_and_format(news)
         
         if items:
-            # 5. 保存历史记录
+            print("\n📌 步骤4: 归档与生成网页...")
             history_data = add_today_record(history_data, items)
             save_history_data(history_data)
             
-            # 6. 生成网页
-            print("\n📌 步骤4: 生成网页...")
             generate_html("docs/index.html", lang='zh')
             generate_html("docs/en/index.html", lang='en')
             
-            # 7. 发送邮件
-            print("\n📌 步骤5: 发送邮件...")
-            today_str = datetime.now().strftime("%Y年%m月%d日")
+            print("\n📌 步骤5: 推送服务...")
+            today_str = datetime.now(BJ_TZ).strftime("%Y年%m月%d日")
             send_daily_email(items, today_str)
             send_private_email(items, today_str)
+            
+            # 检查是否需要生成月度报告（每月1号触发）
+            print("\n📌 步骤6: 检查宏观研判触发条件...")
+            generate_monthly_report(history_data)
             
             print("\n" + "=" * 50)
             print("✅ 任务圆满完成！")
@@ -738,7 +627,6 @@ def main():
             print("❌ AI 过滤后无结果。")
     else:
         print("❌ 未搜索到新闻。")
-
 
 if __name__ == "__main__":
     main()
