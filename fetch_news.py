@@ -1,6 +1,6 @@
 """
 汽车智能座舱新闻摘要 - GitHub Actions 版本
-支持 30 天历史归档 + 动态标签提取 + 北京时区修正 + 零死角缩进
+支持 60 天历史归档 + 月度报告永久保留 + 动态标签提取 + 北京时区修正
 """
 import os
 import json
@@ -17,7 +17,8 @@ BJ_TZ = timezone(timedelta(hours=8))
 
 DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY", "")
 HISTORY_FILE = "docs/history_data.json"
-MAX_DAYS = 30  # 保留最近 30 天
+TAG_STATS_FILE = "docs/tag_stats.json"  # 标签统计持久化文件（永久保留）
+MAX_DAYS = 60  # 保留最近 60 天（确保月度报告有足够数据）
 
 # Buttondown 邮件订阅配置
 BUTTONDOWN_API_KEY = os.environ.get("BUTTONDOWN_API_KEY") or ""
@@ -105,6 +106,65 @@ def format_summary_for_email(summary, is_html=True):
         formatted = summary
         
     return formatted
+
+
+# ==================== 标签统计持久化 ====================
+def load_tag_stats():
+    """加载标签统计数据（永久保留，持续累积）"""
+    if os.path.exists(TAG_STATS_FILE):
+        try:
+            with open(TAG_STATS_FILE, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        except Exception as e:
+            print(f"    加载标签统计失败: {e}")
+    return {"tags": {}, "monthly": {}, "yearly": {}}
+
+
+def update_tag_stats(news_items):
+    """更新标签统计（每次运行都累计）"""
+    today = datetime.now(BJ_TZ)
+    month_key = today.strftime("%Y-%m")
+    year_key = today.strftime("%Y")
+    
+    stats = load_tag_stats()
+    
+    # 确保 monthly 和 yearly 字典存在
+    if "monthly" not in stats:
+        stats["monthly"] = {}
+    if "yearly" not in stats:
+        stats["yearly"] = {}
+    if "tags" not in stats:
+        stats["tags"] = {}
+    
+    # 初始化当月/当年统计
+    if month_key not in stats["monthly"]:
+        stats["monthly"][month_key] = {}
+    if year_key not in stats["yearly"]:
+        stats["yearly"][year_key] = {}
+    
+    # 遍历所有新闻，累计标签
+    for item in news_items:
+        tags = item.get("tags", [])
+        for tag in tags:
+            if not tag:
+                continue
+            # 总计
+            stats["tags"][tag] = stats["tags"].get(tag, 0) + 1
+            # 月度
+            stats["monthly"][month_key][tag] = stats["monthly"][month_key].get(tag, 0) + 1
+            # 年度
+            stats["yearly"][year_key][tag] = stats["yearly"][year_key].get(tag, 0) + 1
+    
+    # 保存
+    os.makedirs(os.path.dirname(TAG_STATS_FILE), exist_ok=True)
+    with open(TAG_STATS_FILE, 'w', encoding='utf-8') as f:
+        json.dump(stats, f, ensure_ascii=False, indent=2)
+    
+    total_tags = len(stats["tags"])
+    total_count = sum(stats["tags"].values())
+    print(f"    标签统计已更新: {total_tags} 个标签, 累计 {total_count} 次")
+    
+    return stats
 
 
 # ==================== API 请求核心 (DeepSeek) ====================
@@ -250,20 +310,41 @@ def filter_and_format(news_list):
 
 
 def generate_monthly_report(history_data):
-    """每月1号提取过去30天的标签和摘要，生成月度宏观趋势研判"""
+    """每月1号提取上个月整月的数据，生成月度宏观趋势研判（永久保留）"""
     today = datetime.now(BJ_TZ)
     if today.day != 1:  # 只有每月1号才执行
         return False
         
     print("\n📊 触发月度宏观报告生成机制...")
     
-    # 提取最近30天的数据合并
+    # 计算上个月的年月
+    if today.month == 1:
+        last_month_year = today.year - 1
+        last_month = 12
+    else:
+        last_month_year = today.year
+        last_month = today.month - 1
+    
+    last_month_str = f"{last_month_year}-{last_month:02d}"
+    print(f"    正在提取 {last_month_str} 的数据...")
+    
+    # 提取上个月整月的数据
     compiled_data = ""
+    last_month_count = 0
     for record in history_data.get("records", []):
-        compiled_data += f"\n日期: {record['date']}\n"
-        for news in record.get("news", []):
-            tags = ", ".join(news.get("tags", []))
-            compiled_data += f"标签: [{tags}]\n概要: {news.get('summary', '')}\n"
+        record_date = record.get("date", "")
+        if record_date.startswith(last_month_str):
+            last_month_count += 1
+            compiled_data += f"\n日期: {record_date}\n"
+            for news in record.get("news", []):
+                tags = ", ".join(news.get("tags", []))
+                compiled_data += f"标签: [{tags}]\n概要: {news.get('summary', '')}\n"
+    
+    if not compiled_data:
+        print(f"    ⚠️ 未找到 {last_month_str} 的数据")
+        return False
+    
+    print(f"    找到 {last_month_count} 天的数据")
 
     system_prompt = """你是一位顶级的汽车行业首席分析师。
 我将提供过去一个月内关于中国智能座舱领域的每日新闻摘要与核心标签集合。
@@ -274,17 +355,306 @@ def generate_monthly_report(history_data):
 2. 分析头部玩家（蔚小理华米）在本月的核心角力点。
 3. 必须输出为 Markdown 格式，层级分明，字数约 1000 字。"""
 
-    report_md = call_deepseek(system_prompt, f"请分析以下月度数据：\n\n{compiled_data}")
+    report_md = call_deepseek(system_prompt, f"请分析以下 {last_month_year}年{last_month}月 的数据：\n\n{compiled_data}")
     
     if report_md:
-        # 将报告保存到单独的 Markdown 文件中
-        report_path = f"docs/monthly_report_{today.strftime('%Y_%m')}.md"
+        # 将报告保存到单独的 Markdown 文件中（使用上个月的年月命名，永久保留）
+        report_path = f"docs/monthly_report_{last_month_year}_{last_month:02d}.md"
         os.makedirs(os.path.dirname(report_path), exist_ok=True)
         with open(report_path, 'w', encoding='utf-8') as f:
             f.write(report_md)
-        print(f"    ✅ 月度报告已生成: {report_path}")
+        print(f"    ✅ 月度报告已生成: {report_path}（永久保留）")
         return True
     return False
+
+
+def generate_trends_page(lang='zh'):
+    """生成标签趋势分析页面（带线图，按月/年查看）"""
+    is_zh = lang == 'zh'
+    
+    # 加载持久化的标签统计
+    stats = load_tag_stats()
+    
+    texts = {
+        'zh': {
+            'title': '标签趋势分析',
+            'desc': '持续追踪行业热点',
+            'back': '← 返回首页',
+            'no_data': '暂无标签数据，请等待数据积累',
+            'count': '次',
+            'monthly': '按月查看',
+            'yearly': '按年查看',
+            'total': '总计',
+            'top_tags': '热门标签排行',
+            'trend_chart': '趋势变化图',
+            'monthly_btn': '月度',
+            'yearly_btn': '年度'
+        },
+        'en': {
+            'title': 'Tag Trends Analysis',
+            'desc': 'Track industry trends continuously',
+            'back': '← Back to Home',
+            'no_data': 'No tag data yet, please wait',
+            'count': 'times',
+            'monthly': 'Monthly',
+            'yearly': 'Yearly',
+            'total': 'Total',
+            'top_tags': 'Top Tags Ranking',
+            'trend_chart': 'Trend Chart',
+            'monthly_btn': 'Monthly',
+            'yearly_btn': 'Yearly'
+        }
+    }
+    t = texts[lang]
+    
+    # 准备图表数据
+    monthly_data = stats.get("monthly", {})
+    yearly_data = stats.get("yearly", {})
+    total_tags = stats.get("tags", {})
+    
+    # 按月份排序
+    sorted_months = sorted(monthly_data.keys())
+    # 按年份排序
+    sorted_years = sorted(yearly_data.keys())
+    
+    # 获取热门标签 TOP 10
+    sorted_total = sorted(total_tags.items(), key=lambda x: x[1], reverse=True)[:10]
+    
+    # 生成标签排行 HTML
+    if sorted_total:
+        max_count = sorted_total[0][1] if sorted_total else 1
+        tags_html = ""
+        for i, (tag, count) in enumerate(sorted_total, 1):
+            width_percent = max(10, int(count / max_count * 100))
+            tags_html += f"""
+            <div class="flex items-center gap-4 mb-3">
+                <span class="text-sm font-mono text-primary w-8">{i}.</span>
+                <span class="text-sm font-mono text-on-surface w-24 truncate">{tag}</span>
+                <div class="flex-1 h-6 bg-surface-container-high rounded overflow-hidden">
+                    <div class="h-full bg-gradient-to-r from-primary/50 to-primary transition-all duration-300" style="width: {width_percent}%"></div>
+                </div>
+                <span class="text-sm text-on-surface-variant w-16 text-right">{count} {t['count']}</span>
+            </div>
+            """
+    else:
+        tags_html = f'<p class="text-on-surface-variant">{t["no_data"]}</p>'
+    
+    # 准备月度图表数据（Chart.js 格式）
+    monthly_labels = sorted_months[-12:] if len(sorted_months) > 12 else sorted_months  # 最近12个月
+    # 获取所有出现过的标签
+    all_tags = set()
+    for month_data in monthly_data.values():
+        all_tags.update(month_data.keys())
+    
+    # 选择 TOP 5 标签绘制趋势线
+    top_5_tags = [tag for tag, _ in sorted_total[:5]]
+    
+    # 生成每个标签的月度数据
+    datasets = []
+    colors = ['#00F2FF', '#FF6B6B', '#4ECDC4', '#FFE66D', '#95E1D3']
+    for i, tag in enumerate(top_5_tags):
+        data = []
+        for month in monthly_labels:
+            data.append(monthly_data.get(month, {}).get(tag, 0))
+        datasets.append({
+            'label': tag,
+            'data': data,
+            'borderColor': colors[i % len(colors)],
+            'backgroundColor': colors[i % len(colors)] + '20',
+            'tension': 0.4,
+            'fill': False
+        })
+    
+    # 年度图表数据
+    yearly_labels = sorted_years
+    yearly_datasets = []
+    for i, tag in enumerate(top_5_tags):
+        data = []
+        for year in yearly_labels:
+            data.append(yearly_data.get(year, {}).get(tag, 0))
+        yearly_datasets.append({
+            'label': tag,
+            'data': data,
+            'borderColor': colors[i % len(colors)],
+            'backgroundColor': colors[i % len(colors)] + '20',
+            'tension': 0.4,
+            'fill': False
+        })
+    
+    html = f"""<!DOCTYPE html>
+<html lang="{'zh-CN' if is_zh else 'en'}" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📊 {t['title']}</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+    <script>tailwind.config = {{ darkMode: "class", theme: {{ extend: {{ colors: {{ background: "#0D0F12", surface: "#111317", "surface-container": "#1e2023", "surface-container-high": "#282a2d", primary: "#00F2FF", "on-surface": "#e2e2e6", "on-surface-variant": "#b9cacb" }} }} }} }}</script>
+    <style>body {{ background-color: #0D0F12; }}</style>
+</head>
+<body class="bg-background text-on-surface font-sans">
+    <div class="md:ml-64 min-h-screen px-4 md:px-10 py-6 max-w-5xl mx-auto">
+        <header class="mb-8 border-b border-on-surface-variant/20 pb-4">
+            <a href="{'index.html' if is_zh else '../index.html'}" class="text-primary hover:underline text-sm">{t['back']}</a>
+            <h1 class="text-3xl font-bold mt-4">📊 {t['title']}</h1>
+            <p class="text-on-surface-variant mt-2">{t['desc']} · {t['total']} {len(total_tags)} 个标签</p>
+        </header>
+        
+        <!-- 趋势图表 -->
+        <section class="bg-surface-container rounded-xl p-6 mb-6">
+            <div class="flex items-center justify-between mb-4">
+                <h2 class="text-xl font-semibold">📈 {t['trend_chart']}</h2>
+                <div class="flex gap-2">
+                    <button onclick="showMonthly()" id="btn-monthly" class="px-4 py-2 rounded-lg text-sm font-medium bg-primary/20 text-primary border border-primary/30">{t['monthly_btn']}</button>
+                    <button onclick="showYearly()" id="btn-yearly" class="px-4 py-2 rounded-lg text-sm font-medium bg-surface-container-high text-on-surface-variant hover:bg-surface-container-high/80">{t['yearly_btn']}</button>
+                </div>
+            </div>
+            <div class="h-80">
+                <canvas id="trendChart"></canvas>
+            </div>
+        </section>
+        
+        <!-- 热门标签排行 -->
+        <section class="bg-surface-container rounded-xl p-6">
+            <h2 class="text-xl font-semibold mb-4">🏷️ {t['top_tags']}</h2>
+            {tags_html}
+        </section>
+    </div>
+    
+    <script>
+        const monthlyLabels = {json.dumps(monthly_labels)};
+        const yearlyLabels = {json.dumps(yearly_labels)};
+        const monthlyDatasets = {json.dumps(datasets)};
+        const yearlyDatasets = {json.dumps(yearly_datasets)};
+        
+        const ctx = document.getElementById('trendChart').getContext('2d');
+        let trendChart = new Chart(ctx, {{
+            type: 'line',
+            data: {{
+                labels: monthlyLabels,
+                datasets: monthlyDatasets
+            }},
+            options: {{
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {{
+                    legend: {{
+                        labels: {{ color: '#e2e2e6' }}
+                    }}
+                }},
+                scales: {{
+                    x: {{
+                        ticks: {{ color: '#b9cacb' }},
+                        grid: {{ color: '#3a494b30' }}
+                    }},
+                    y: {{
+                        ticks: {{ color: '#b9cacb' }},
+                        grid: {{ color: '#3a494b30' }}
+                    }}
+                }}
+            }}
+        }});
+        
+        function showMonthly() {{
+            trendChart.data.labels = monthlyLabels;
+            trendChart.data.datasets = monthlyDatasets;
+            trendChart.update();
+            document.getElementById('btn-monthly').className = 'px-4 py-2 rounded-lg text-sm font-medium bg-primary/20 text-primary border border-primary/30';
+            document.getElementById('btn-yearly').className = 'px-4 py-2 rounded-lg text-sm font-medium bg-surface-container-high text-on-surface-variant hover:bg-surface-container-high/80';
+        }}
+        
+        function showYearly() {{
+            trendChart.data.labels = yearlyLabels;
+            trendChart.data.datasets = yearlyDatasets;
+            trendChart.update();
+            document.getElementById('btn-yearly').className = 'px-4 py-2 rounded-lg text-sm font-medium bg-primary/20 text-primary border border-primary/30';
+            document.getElementById('btn-monthly').className = 'px-4 py-2 rounded-lg text-sm font-medium bg-surface-container-high text-on-surface-variant hover:bg-surface-container-high/80';
+        }}
+    </script>
+</body>
+</html>"""
+    
+    output_path = f"docs/{'trends.html' if is_zh else 'en/trends.html'}"
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    with open(output_path, 'w', encoding='utf-8') as f:
+        f.write(html)
+    print(f"✅ {'中文' if is_zh else '英文'}标签趋势页已生成: {output_path}")
+
+
+def generate_report_list_page(lang='zh'):
+    """生成月度报告列表页面"""
+    is_zh = lang == 'zh'
+    
+    texts = {
+        'zh': {
+            'title': '月度宏观报告',
+            'desc': '每月1号自动生成上个月行业深度分析（永久保留）',
+            'back': '← 返回首页',
+            'no_report': '暂无月度报告，请等待每月1号自动生成'
+        },
+        'en': {
+            'title': 'Monthly Macro Report',
+            'desc': 'Auto-generated on the 1st of each month (permanently archived)',
+            'back': '← Back to Home',
+            'no_report': 'No monthly reports yet, please wait for auto-generation on the 1st'
+        }
+    }
+    t = texts[lang]
+    
+    # 查找所有月度报告文件
+    import glob
+    report_files = glob.glob("docs/monthly_report_*.md")
+    report_files.sort(reverse=True)
+    
+    reports_html = ""
+    if report_files:
+        for rf in report_files:
+            # 从文件名提取年月
+            import re
+            match = re.search(r'(\d{4})_(\d{2})', rf)
+            if match:
+                year, month = match.groups()
+                report_name = f"{year}年{month}月" if is_zh else f"{year}/{month}"
+                reports_html += f"""
+                <a href="{rf.replace('docs/', '')}" class="block p-4 bg-surface-container-high rounded-lg hover:bg-primary/10 transition-colors mb-3 group">
+                    <div class="flex items-center justify-between">
+                        <span class="text-lg font-medium group-hover:text-primary">📑 {report_name}</span>
+                        <span class="text-primary">查看 →</span>
+                    </div>
+                </a>
+                """
+    else:
+        reports_html = f'<p class="text-on-surface-variant text-center py-8">{t["no_report"]}</p>'
+    
+    html = f"""<!DOCTYPE html>
+<html lang="{'zh-CN' if is_zh else 'en'}" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📑 {t['title']}</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+    <script>tailwind.config = {{ darkMode: "class", theme: {{ extend: {{ colors: {{ background: "#0D0F12", surface: "#111317", "surface-container": "#1e2023", "surface-container-high": "#282a2d", primary: "#00F2FF", "on-surface": "#e2e2e6", "on-surface-variant": "#b9cacb" }} }} }} }}</script>
+    <style>body {{ background-color: #0D0F12; }}</style>
+</head>
+<body class="bg-background text-on-surface font-sans">
+    <div class="md:ml-64 min-h-screen px-4 md:px-10 py-6 max-w-4xl mx-auto">
+        <header class="mb-8 border-b border-on-surface-variant/20 pb-4">
+            <a href="{'index.html' if is_zh else '../index.html'}" class="text-primary hover:underline text-sm">{t['back']}</a>
+            <h1 class="text-3xl font-bold mt-4">📑 {t['title']}</h1>
+            <p class="text-on-surface-variant mt-2">{t['desc']}</p>
+        </header>
+        <section>{reports_html}</section>
+    </div>
+</body>
+</html>"""
+    
+    output_path = f"docs/{'report.html' if is_zh else 'en/report.html'}"
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    with open(output_path, 'w', encoding='utf-8') as f:
+        f.write(html)
+    print(f"✅ {'中文' if is_zh else '英文'}月度报告页已生成: {output_path}")
 
 
 # ==================== HTML 前端看板生成 ====================
@@ -296,14 +666,20 @@ def generate_html(output_path, lang='zh'):
         'zh': {
             'title': '智能座舱日报', 'subtitle': 'Daily Intelligence',
             'description': '聚焦中国新能源车软件生态与座舱交互体验，每日自动抓取OTA动态、功能创新与用户研究洞察。',
-            'nav_today': '今日', 'sidebar_archive': '历史归档', 'loading': '加载中...',
-            'subscribe': '订阅日报', 'subscribe_btn': '立即订阅', 'switch_lang': 'English'
+            'nav_today': '今日情报', 'nav_trends': '标签趋势', 'nav_report': '月度报告',
+            'sidebar_archive': '历史归档', 'loading': '加载中...',
+            'subscribe': '订阅日报', 'subscribe_btn': '立即订阅', 'switch_lang': 'English',
+            'trends_title': '标签趋势分析', 'trends_desc': '标签统计持续累积',
+            'report_title': '月度宏观报告', 'report_desc': '每月1号自动生成'
         },
         'en': {
             'title': 'Smart Cockpit', 'subtitle': 'Daily Intelligence',
             'description': 'Focusing on China NEV software ecosystem and cockpit interaction experience. Daily insights on OTA and UX.',
-            'nav_today': 'Today', 'sidebar_archive': 'ARCHIVE', 'loading': 'Loading...',
-            'subscribe': 'Subscribe', 'subscribe_btn': 'Subscribe', 'switch_lang': '中文'
+            'nav_today': 'Today', 'nav_trends': 'Tag Trends', 'nav_report': 'Monthly Report',
+            'sidebar_archive': 'ARCHIVE', 'loading': 'Loading...',
+            'subscribe': 'Subscribe', 'subscribe_btn': 'Subscribe', 'switch_lang': '中文',
+            'trends_title': 'Tag Trends Analysis', 'trends_desc': 'Tag stats continuously accumulated',
+            'report_title': 'Monthly Macro Report', 'report_desc': 'Auto-generated on 1st of each month'
         }
     }
     t = texts[lang]
@@ -339,9 +715,15 @@ def generate_html(output_path, lang='zh'):
             <p class="text-xs text-on-surface-variant/70 mt-3 leading-relaxed">{t['description']}</p>
         </div>
         <nav class="flex-1 overflow-y-auto mt-4">
-            <div onclick="selectToday()" class="flex items-center gap-3 px-5 py-3 cursor-pointer hover:bg-surface-container-high">
+            <div onclick="selectToday()" class="flex items-center gap-3 px-5 py-3 cursor-pointer hover:bg-surface-container-high transition-colors">
                 <span class="material-symbols-outlined text-xl">today</span><span>{t['nav_today']}</span>
             </div>
+            <a href="{'trends.html' if is_zh else 'trends.html'}" class="flex items-center gap-3 px-5 py-3 cursor-pointer hover:bg-surface-container-high transition-colors text-primary">
+                <span class="material-symbols-outlined text-xl">trending_up</span><span class="font-medium">{t['nav_trends']}</span>
+            </a>
+            <a href="{'report.html' if is_zh else 'report.html'}" class="flex items-center gap-3 px-5 py-3 cursor-pointer hover:bg-surface-container-high transition-colors text-primary">
+                <span class="material-symbols-outlined text-xl">summarize</span><span class="font-medium">{t['nav_report']}</span>
+            </a>
             <div class="px-6 py-2 mt-4"><span class="text-[10px] uppercase tracking-widest text-on-surface-variant/50">{t['sidebar_archive']}</span></div>
             <div id="dateList" class="space-y-1"></div>
         </nav>
@@ -493,8 +875,13 @@ def send_daily_email(news_items, date_str):
         """
     
     html_content += """
-            <div style="padding: 20px; text-align: center; color: #999; font-size: 12px; background: #f9f9f9;">
-                <p>🌐 在线阅读: <a href="https://bridgetyangjie-1.github.io/cockpit-news/">访问智能座舱看板</a></p>
+            <div style="padding: 24px; text-align: center; background: #f9f9f9;">
+                <p style="margin-bottom: 16px; color: #666; font-size: 14px;">📊 更多内容请访问智能座舱看板</p>
+                <div style="margin-bottom: 12px;">
+                    <a href="https://bridgetyangjie-1.github.io/cockpit-news/trends.html" style="display: inline-block; padding: 10px 20px; margin: 4px; background: #0066cc; color: #fff; text-decoration: none; border-radius: 8px; font-size: 13px;">📈 标签趋势</a>
+                    <a href="https://bridgetyangjie-1.github.io/cockpit-news/report.html" style="display: inline-block; padding: 10px 20px; margin: 4px; background: #0066cc; color: #fff; text-decoration: none; border-radius: 8px; font-size: 13px;">📑 月度报告</a>
+                </div>
+                <p style="color: #999; font-size: 12px;">🌐 <a href="https://bridgetyangjie-1.github.io/cockpit-news/">访问完整看板</a> | © 2026 Bridget Yang</p>
             </div>
         </div>
     </body></html>
@@ -563,6 +950,14 @@ def send_private_email(news_items, date_str):
             <p style="color:#fff; margin:8px 0 0 0;">{date_str} | 今日 {len(news_items)} 条精选资讯</p>
         </div>
         {news_html}
+        <div style="text-align:center; padding:24px; background:#f8f9fa; border-radius:12px; margin-top:24px;">
+            <p style="margin-bottom:16px; color:#666; font-size:14px;">📊 更多内容请访问智能座舱看板</p>
+            <div style="margin-bottom:12px;">
+                <a href="https://bridgetyangjie-1.github.io/cockpit-news/trends.html" style="display:inline-block; padding:10px 20px; margin:4px; background:#00d4ff; color:#111; text-decoration:none; border-radius:8px; font-size:13px; font-weight:500;">📈 标签趋势</a>
+                <a href="https://bridgetyangjie-1.github.io/cockpit-news/report.html" style="display:inline-block; padding:10px 20px; margin:4px; background:#00d4ff; color:#111; text-decoration:none; border-radius:8px; font-size:13px; font-weight:500;">📑 月度报告</a>
+            </div>
+            <p style="color:#999; font-size:12px;">🌐 <a href="https://bridgetyangjie-1.github.io/cockpit-news/">访问完整看板</a> | © 2026 Bridget Yang</p>
+        </div>
     </body></html>
     """
     
@@ -608,8 +1003,20 @@ def main():
             history_data = add_today_record(history_data, items)
             save_history_data(history_data)
             
+            # 更新标签统计（持久化累计）
+            update_tag_stats(items)
+            
+            # 生成主页面
             generate_html("docs/index.html", lang='zh')
             generate_html("docs/en/index.html", lang='en')
+            
+            # 生成标签趋势页面
+            generate_trends_page(lang='zh')
+            generate_trends_page(lang='en')
+            
+            # 生成月度报告页面
+            generate_report_list_page(lang='zh')
+            generate_report_list_page(lang='en')
             
             print("\n📌 步骤5: 推送服务...")
             today_str = datetime.now(BJ_TZ).strftime("%Y年%m月%d日")
