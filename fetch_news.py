@@ -277,10 +277,10 @@ def filter_and_format(news_list):
 必须聚焦纯软件功能创新、数字生态服务(游戏/影音)、OTA、交互逻辑(UI/UX)。排除纯硬件和敏感地区。
 
 【结构与字数要求】：
-每篇总结必须包含以下三个模块（必须使用这些标题），中文总计约 400 字：
-【事件概述】（约 150 字）：详细描述核心软件事件及创新点。
-【体验价值】（约 150 字）：从 UX 视角剖析该功能的正向体验价值。
-【潜在槽点】（约 100 字）：【强制要求】以批判性视角指出该功能可能面临的用户学习成本、隐私风险、交互冗余或实际落地难度等挑战。
+每篇总结必须包含以下三个模块（必须使用这些标题）：
+【事件概述】（约 300 字）：详细描述核心软件事件及创新点。
+【体验价值】（约 100 字）：从 UX 视角剖析该功能的正向体验价值。
+【潜在槽点】（约 80 字）：【强制要求】以批判性视角指出该功能可能面临的用户学习成本、隐私风险、交互冗余或实际落地难度等挑战。
 
 请返回JSON格式：
 {{
@@ -293,7 +293,8 @@ def filter_and_format(news_list):
     }}
   ]
 }}
-* tags 提取4个维度：品牌、OS、技术特征、场景生态。控制在5-8个词，使用简短的标准术语。"""
+* tags 提取4个维度：品牌、OS、技术特征、场景生态。控制在5-8个词，使用简短的标准术语。
+* 【重要】标签禁止包含"智能座舱"、"智能汽车"、"车机"等过于宽泛的词，因为整个看板都是关于智能座舱的。"""
 
     response = call_deepseek(system_prompt, f"请分析以下新闻：\n\n{news_data}")
     if response:
@@ -575,11 +576,86 @@ def generate_trends_page(lang='zh'):
 </body>
 </html>"""
     
+    # 完整页面（带侧边栏，用于独立访问）
     output_path = f"docs/{'trends.html' if is_zh else 'en/trends.html'}"
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     with open(output_path, 'w', encoding='utf-8') as f:
         f.write(html)
     print(f"✅ {'中文' if is_zh else '英文'}标签趋势页已生成: {output_path}")
+    
+    # 内容片段版本（无侧边栏，用于框架嵌入）
+    content_html = f"""<!DOCTYPE html>
+<html lang="{'zh-CN' if is_zh else 'en'}" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{t['title']}</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+    <script>tailwind.config = {{ darkMode: "class", theme: {{ extend: {{ colors: {{ background: "#0D0F12", surface: "#111317", "surface-container": "#1e2023", "surface-container-low": "#1a1c1f", primary: "#00F2FF", "on-surface": "#e2e2e6", "on-surface-variant": "#b9cacb", "outline-variant": "#3a494b" }} }} }} }}</script>
+    <style>body {{ background-color: #0D0F12; }}</style>
+</head>
+<body class="bg-background text-on-surface font-sans p-6">
+    <h1 class="text-3xl font-bold mb-6">📊 {t['title']}</h1>
+    <p class="text-sm text-on-surface-variant mb-6">{t['desc']}</p>
+    <div class="flex gap-2 mb-6">
+        <button id="btn-monthly" onclick="showMonthly()" class="px-4 py-2 rounded-lg text-sm font-medium bg-primary/20 text-primary border border-primary/30">{t['monthly']}</button>
+        <button id="btn-yearly" onclick="showYearly()" class="px-4 py-2 rounded-lg text-sm font-medium bg-surface-container-high text-on-surface-variant hover:bg-surface-container-high/80">{t['yearly']}</button>
+    </div>
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
+        <div class="bg-surface-container-low border border-outline-variant rounded-2xl p-6">
+            <h2 class="text-lg font-semibold mb-4">🏷️ {t['top_tags']}</h2>
+            <div id="tagRanking" class="space-y-3">{tag_ranking_html}</div>
+        </div>
+        <div class="bg-surface-container-low border border-outline-variant rounded-2xl p-6">
+            <h2 class="text-lg font-semibold mb-4">📈 {t['trend_chart']}</h2>
+            <canvas id="trendChart" height="200"></canvas>
+        </div>
+    </div>
+    <script>
+        const monthlyLabels = {monthly_labels};
+        const monthlyDatasets = {monthly_datasets};
+        const yearlyLabels = {yearly_labels};
+        const yearlyDatasets = {yearly_datasets};
+        
+        const ctx = document.getElementById('trendChart').getContext('2d');
+        const trendChart = new Chart(ctx, {{
+            type: 'line',
+            data: {{ labels: monthlyLabels, datasets: monthlyDatasets }},
+            options: {{
+                responsive: true,
+                plugins: {{ legend: {{ labels: {{ color: '#b9cacb' }} }} }},
+                scales: {{
+                    x: {{ ticks: {{ color: '#b9cacb' }}, grid: {{ color: '#3a494b30' }} }},
+                    y: {{ ticks: {{ color: '#b9cacb' }}, grid: {{ color: '#3a494b30' }} }}
+                }}
+            }}
+        }});
+        
+        function showMonthly() {{
+            trendChart.data.labels = monthlyLabels;
+            trendChart.data.datasets = monthlyDatasets;
+            trendChart.update();
+            document.getElementById('btn-monthly').className = 'px-4 py-2 rounded-lg text-sm font-medium bg-primary/20 text-primary border border-primary/30';
+            document.getElementById('btn-yearly').className = 'px-4 py-2 rounded-lg text-sm font-medium bg-surface-container-high text-on-surface-variant hover:bg-surface-container-high/80';
+        }}
+        
+        function showYearly() {{
+            trendChart.data.labels = yearlyLabels;
+            trendChart.data.datasets = yearlyDatasets;
+            trendChart.update();
+            document.getElementById('btn-yearly').className = 'px-4 py-2 rounded-lg text-sm font-medium bg-primary/20 text-primary border border-primary/30';
+            document.getElementById('btn-monthly').className = 'px-4 py-2 rounded-lg text-sm font-medium bg-surface-container-high text-on-surface-variant hover:bg-surface-container-high/80';
+        }}
+    </script>
+</body>
+</html>"""
+    
+    content_path = f"docs/{'trends_content.html' if is_zh else 'en/trends_content.html'}"
+    with open(content_path, 'w', encoding='utf-8') as f:
+        f.write(content_html)
+    print(f"✅ {'中文' if is_zh else '英文'}标签趋势内容片段已生成: {content_path}")
 
 
 def generate_report_list_page(lang='zh'):
@@ -719,6 +795,84 @@ def generate_report_list_page(lang='zh'):
     with open(output_path, 'w', encoding='utf-8') as f:
         f.write(html)
     print(f"✅ {'中文' if is_zh else '英文'}月度报告页已生成: {output_path}")
+    
+    # 内容片段版本（无侧边栏，用于框架嵌入）
+    content_html = f"""<!DOCTYPE html>
+<html lang="{'zh-CN' if is_zh else 'en'}" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📑 {t['title']}</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+    <script>tailwind.config = {{ darkMode: "class", theme: {{ extend: {{ colors: {{ background: "#0D0F12", surface: "#111317", "surface-container": "#1e2023", "surface-container-low": "#1a1c1f", primary: "#00F2FF", "on-surface": "#e2e2e6", "on-surface-variant": "#b9cacb", "outline-variant": "#3a494b" }} }} }} }}</script>
+    <style>
+        body {{ background-color: #0D0F12; }}
+        .markdown-body h1 {{ font-size: 1.875rem; font-weight: 700; color: #00F2FF; margin-bottom: 1.5rem; }}
+        .markdown-body h2 {{ font-size: 1.5rem; font-weight: 600; color: #e2e2e6; margin-top: 2rem; margin-bottom: 1rem; border-bottom: 1px solid #3a494b; padding-bottom: 0.5rem; }}
+        .markdown-body h3 {{ font-size: 1.25rem; font-weight: 600; color: #b9cacb; margin-top: 1.5rem; margin-bottom: 0.75rem; }}
+        .markdown-body p {{ margin-bottom: 1rem; line-height: 1.75; color: #b9cacb; }}
+        .markdown-body ul {{ list-style-type: disc; padding-left: 1.5rem; margin-bottom: 1rem; color: #b9cacb; }}
+        .markdown-body li {{ margin-bottom: 0.5rem; line-height: 1.6; }}
+        .markdown-body strong {{ color: #e2e2e6; font-weight: 600; }}
+    </style>
+</head>
+<body class="bg-background text-on-surface font-sans p-6">
+    <div class="flex flex-col md:flex-row gap-8">
+        <div class="w-full md:w-1/3 flex-shrink-0">
+            <h1 class="text-3xl font-bold mb-2 tracking-tight">📑 {t['title']}</h1>
+            <p class="text-sm text-on-surface-variant mb-6 leading-relaxed">{t['desc']}</p>
+            <section>{reports_html}</section>
+        </div>
+        <div class="w-full md:w-2/3 bg-surface-container-low border border-outline-variant rounded-2xl p-6 md:p-10 min-h-[500px]" id="reader-container">
+            <div id="reader-empty" class="h-full flex flex-col items-center justify-center text-on-surface-variant/40">
+                <span class="text-6xl mb-4">📖</span>
+                <p>{t['select_prompt']}</p>
+            </div>
+            <div id="report-content" class="markdown-body hidden"></div>
+        </div>
+        <div id="mobile-modal" class="fixed inset-0 bg-background z-50 overflow-y-auto hidden flex-col p-6">
+            <button onclick="closeModal()" class="self-end text-on-surface-variant hover:text-primary mb-6 flex items-center gap-1">
+                <span class="text-sm">{t['close']}</span> ✕
+            </button>
+            <div id="mobile-report-content" class="markdown-body"></div>
+        </div>
+    </div>
+    <script>
+        async function loadReport(path, title) {{
+            try {{
+                const response = await fetch(path);
+                if (!response.ok) throw new Error('File not found');
+                const markdownText = await response.text();
+                const htmlContent = marked.parse(markdownText);
+                document.getElementById('reader-empty').classList.add('hidden');
+                const desktopReader = document.getElementById('report-content');
+                desktopReader.innerHTML = htmlContent;
+                desktopReader.classList.remove('hidden');
+                if (window.innerWidth < 768) {{
+                    const mobileReader = document.getElementById('mobile-report-content');
+                    mobileReader.innerHTML = htmlContent;
+                    document.getElementById('mobile-modal').classList.remove('hidden');
+                    document.getElementById('mobile-modal').classList.add('flex');
+                }}
+            }} catch (error) {{
+                console.error("加载报告失败:", error);
+                alert("报告加载失败，可能文件还在生成中。");
+            }}
+        }}
+        function closeModal() {{
+            document.getElementById('mobile-modal').classList.add('hidden');
+            document.getElementById('mobile-modal').classList.remove('flex');
+        }}
+    </script>
+</body>
+</html>"""
+    
+    content_path = f"docs/{'report_content.html' if is_zh else 'en/report_content.html'}"
+    with open(content_path, 'w', encoding='utf-8') as f:
+        f.write(content_html)
+    print(f"✅ {'中文' if is_zh else '英文'}月度报告内容片段已生成: {content_path}")
 
 
 # ==================== HTML 前端看板生成 ====================
@@ -779,15 +933,15 @@ def generate_html(output_path, lang='zh'):
             <p class="text-xs text-on-surface-variant/70 mt-3 leading-relaxed">{t['description']}</p>
         </div>
         <nav class="flex-1 overflow-y-auto mt-4">
-            <div onclick="selectToday()" class="flex items-center gap-3 px-5 py-3 cursor-pointer hover:bg-surface-container-high transition-colors">
-                <span class="material-symbols-outlined text-xl">today</span><span>{t['nav_today']}</span>
+            <div id="nav-today" onclick="selectToday()" class="nav-item flex items-center gap-3 px-5 py-3 cursor-pointer hover:bg-surface-container-high transition-colors bg-primary/10 text-primary border-l-4 border-primary">
+                <span class="material-symbols-outlined text-xl">today</span><span class="font-medium">{t['nav_today']}</span>
             </div>
-            <a href="{'trends.html' if is_zh else 'trends.html'}" class="flex items-center gap-3 px-5 py-3 cursor-pointer hover:bg-surface-container-high transition-colors text-primary">
-                <span class="material-symbols-outlined text-xl">trending_up</span><span class="font-medium">{t['nav_trends']}</span>
-            </a>
-            <a href="{'report.html' if is_zh else 'report.html'}" class="flex items-center gap-3 px-5 py-3 cursor-pointer hover:bg-surface-container-high transition-colors text-primary">
-                <span class="material-symbols-outlined text-xl">summarize</span><span class="font-medium">{t['nav_report']}</span>
-            </a>
+            <div id="nav-trends" onclick="showView('trends')" class="nav-item flex items-center gap-3 px-5 py-3 cursor-pointer hover:bg-surface-container-high transition-colors">
+                <span class="material-symbols-outlined text-xl">trending_up</span><span>{t['nav_trends']}</span>
+            </div>
+            <div id="nav-report" onclick="showView('report')" class="nav-item flex items-center gap-3 px-5 py-3 cursor-pointer hover:bg-surface-container-high transition-colors">
+                <span class="material-symbols-outlined text-xl">summarize</span><span>{t['nav_report']}</span>
+            </div>
             <div class="px-6 py-2 mt-4"><span class="text-[10px] uppercase tracking-widest text-on-surface-variant/50">{t['sidebar_archive']}</span></div>
             <div id="dateList" class="space-y-1"></div>
         </nav>
@@ -813,11 +967,13 @@ def generate_html(output_path, lang='zh'):
             </div>
         </header>
         <section id="newsContainer" class="space-y-6"></section>
+        <iframe id="contentFrame" class="hidden w-full min-h-screen border-0" style="display:none;"></iframe>
     </main>
 
     <script>
         let historyData = {{records: []}};
         let currentLang = '{lang}';
+        let currentView = 'today';
         
         async function loadData() {{
             try {{
@@ -837,13 +993,44 @@ def generate_html(output_path, lang='zh'):
         }}
         
         function selectDate(date) {{
+            showView('today');
             document.querySelectorAll('.date-item').forEach(el => el.classList.toggle('date-item-active', el.dataset.date === date));
             const record = historyData.records.find(r => r.date === date);
             if(record) renderNews(record);
         }}
         
         function selectToday() {{
+            showView('today');
             if(historyData.records.length > 0) selectDate(historyData.records[0].date);
+        }}
+        
+        function showView(view) {{
+            currentView = view;
+            const container = document.getElementById('newsContainer');
+            const frame = document.getElementById('contentFrame');
+            const header = document.querySelector('header');
+            
+            // 更新导航高亮
+            document.querySelectorAll('.nav-item').forEach(el => {{
+                el.classList.remove('bg-primary/10', 'text-primary', 'border-l-4', 'border-primary');
+            }});
+            const activeNav = document.getElementById('nav-' + view);
+            if (activeNav) {{
+                activeNav.classList.add('bg-primary/10', 'text-primary', 'border-l-4', 'border-primary');
+            }}
+            
+            if (view === 'today') {{
+                container.classList.remove('hidden');
+                frame.classList.add('hidden');
+                header.classList.remove('hidden');
+            }} else {{
+                container.classList.add('hidden');
+                frame.classList.remove('hidden');
+                header.classList.add('hidden');
+                frame.src = view === 'trends' ? 'trends_content.html' : 'report_content.html';
+                frame.style.display = 'block';
+                frame.style.height = 'calc(100vh - 48px)';
+            }}
         }}
         
         function formatSummary(text) {{
