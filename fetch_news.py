@@ -583,26 +583,26 @@ def generate_trends_page(lang='zh'):
 
 
 def generate_report_list_page(lang='zh'):
-    """生成月度报告列表页面"""
+    """生成月度报告列表页面（带 marked.js 沉浸式动态渲染）"""
     is_zh = lang == 'zh'
     
     texts = {
         'zh': {
-            'title': '月度宏观报告',
-            'desc': '每月1号自动生成上个月行业深度分析（永久保留）',
-            'back': '← 返回首页',
-            'no_report': '暂无月度报告，请等待每月1号自动生成'
+            'title': '月度宏观报告', 'desc': '每月1号自动生成上个月行业深度分析（永久保留）',
+            'back': '← 返回首页', 'no_report': '暂无月度报告，请等待每月1号自动生成',
+            'select_prompt': '👈 请在左侧选择一份报告进行阅读',
+            'close': '关闭'
         },
         'en': {
-            'title': 'Monthly Macro Report',
-            'desc': 'Auto-generated on the 1st of each month (permanently archived)',
-            'back': '← Back to Home',
-            'no_report': 'No monthly reports yet, please wait for auto-generation on the 1st'
+            'title': 'Monthly Macro Report', 'desc': 'Auto-generated on the 1st of each month',
+            'back': '← Back to Home', 'no_report': 'No monthly reports yet',
+            'select_prompt': '👈 Select a report from the left to read',
+            'close': 'Close'
         }
     }
     t = texts[lang]
+    prefix = "" if is_zh else "../"  # 修复英文版 404 的核心
     
-    # 查找所有月度报告文件
     import glob
     report_files = glob.glob("docs/monthly_report_*.md")
     report_files.sort(reverse=True)
@@ -610,22 +610,23 @@ def generate_report_list_page(lang='zh'):
     reports_html = ""
     if report_files:
         for rf in report_files:
-            # 从文件名提取年月
             import re
             match = re.search(r'(\d{4})_(\d{2})', rf)
             if match:
                 year, month = match.groups()
-                report_name = f"{year}年{month}月" if is_zh else f"{year}/{month}"
+                report_name = f"{year}年{month}月宏观大势研判" if is_zh else f"{year}/{month} Macro Report"
+                file_path = f"{prefix}{rf.replace('docs/', '')}"
+                
                 reports_html += f"""
-                <a href="{rf.replace('docs/', '')}" class="block p-4 bg-surface-container-high rounded-lg hover:bg-primary/10 transition-colors mb-3 group">
+                <button onclick="loadReport('{file_path}', '{report_name}')" class="w-full text-left p-4 bg-surface-container-low border border-outline-variant rounded-xl hover:border-primary hover:shadow-[0_0_15px_rgba(0,242,255,0.1)] transition-all mb-4 group">
                     <div class="flex items-center justify-between">
-                        <span class="text-lg font-medium group-hover:text-primary">📑 {report_name}</span>
-                        <span class="text-primary">查看 →</span>
+                        <span class="text-base font-semibold group-hover:text-primary transition-colors">📑 {report_name}</span>
+                        <span class="text-primary text-sm">阅读 →</span>
                     </div>
-                </a>
+                </button>
                 """
     else:
-        reports_html = f'<p class="text-on-surface-variant text-center py-8">{t["no_report"]}</p>'
+        reports_html = f'<p class="text-on-surface-variant py-8">{t["no_report"]}</p>'
     
     html = f"""<!DOCTYPE html>
 <html lang="{'zh-CN' if is_zh else 'en'}" class="dark">
@@ -634,19 +635,82 @@ def generate_report_list_page(lang='zh'):
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>📑 {t['title']}</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
-    <script>tailwind.config = {{ darkMode: "class", theme: {{ extend: {{ colors: {{ background: "#0D0F12", surface: "#111317", "surface-container": "#1e2023", "surface-container-high": "#282a2d", primary: "#00F2FF", "on-surface": "#e2e2e6", "on-surface-variant": "#b9cacb" }} }} }} }}</script>
-    <style>body {{ background-color: #0D0F12; }}</style>
+    <script>tailwind.config = {{ darkMode: "class", theme: {{ extend: {{ colors: {{ background: "#0D0F12", surface: "#111317", "surface-container": "#1e2023", "surface-container-low": "#1a1c1f", primary: "#00F2FF", "on-surface": "#e2e2e6", "on-surface-variant": "#b9cacb", "outline-variant": "#3a494b" }} }} }} }}</script>
+    <style>
+        body {{ background-color: #0D0F12; }}
+        /* 针对 Markdown 渲染的专属优雅样式 */
+        .markdown-body h1 {{ font-size: 1.875rem; font-weight: 700; color: #00F2FF; margin-bottom: 1.5rem; }}
+        .markdown-body h2 {{ font-size: 1.5rem; font-weight: 600; color: #e2e2e6; margin-top: 2rem; margin-bottom: 1rem; border-bottom: 1px solid #3a494b; padding-bottom: 0.5rem; }}
+        .markdown-body h3 {{ font-size: 1.25rem; font-weight: 600; color: #b9cacb; margin-top: 1.5rem; margin-bottom: 0.75rem; }}
+        .markdown-body p {{ margin-bottom: 1rem; line-height: 1.75; color: #b9cacb; }}
+        .markdown-body ul {{ list-style-type: disc; padding-left: 1.5rem; margin-bottom: 1rem; color: #b9cacb; }}
+        .markdown-body li {{ margin-bottom: 0.5rem; line-height: 1.6; }}
+        .markdown-body strong {{ color: #e2e2e6; font-weight: 600; }}
+    </style>
 </head>
 <body class="bg-background text-on-surface font-sans">
-    <div class="md:ml-64 min-h-screen px-4 md:px-10 py-6 max-w-4xl mx-auto">
-        <header class="mb-8 border-b border-on-surface-variant/20 pb-4">
-            <a href="{'index.html' if is_zh else '../index.html'}" class="text-primary hover:underline text-sm">{t['back']}</a>
-            <h1 class="text-3xl font-bold mt-4">📑 {t['title']}</h1>
-            <p class="text-on-surface-variant mt-2">{t['desc']}</p>
-        </header>
-        <section>{reports_html}</section>
+    <div class="md:ml-64 min-h-screen px-4 md:px-10 py-6 max-w-6xl mx-auto flex flex-col md:flex-row gap-8">
+        
+        <div class="w-full md:w-1/3 flex-shrink-0">
+            <header class="mb-8 border-b border-outline-variant pb-4">
+                <a href="{'index.html' if is_zh else '../index.html'}" class="text-primary hover:underline text-sm font-medium">{t['back']}</a>
+                <h1 class="text-3xl font-bold mt-4 tracking-tight">📑 {t['title']}</h1>
+                <p class="text-sm text-on-surface-variant mt-2 leading-relaxed">{t['desc']}</p>
+            </header>
+            <section>{reports_html}</section>
+        </div>
+
+        <div class="w-full md:w-2/3 bg-surface-container-low border border-outline-variant rounded-2xl p-6 md:p-10 min-h-[500px] hidden md:block" id="reader-container">
+            <div id="reader-empty" class="h-full flex flex-col items-center justify-center text-on-surface-variant/40">
+                <span class="text-6xl mb-4">📖</span>
+                <p>{t['select_prompt']}</p>
+            </div>
+            <div id="report-content" class="markdown-body hidden"></div>
+        </div>
+
+        <div id="mobile-modal" class="fixed inset-0 bg-background z-50 overflow-y-auto hidden flex-col p-6">
+            <button onclick="closeModal()" class="self-end text-on-surface-variant hover:text-primary mb-6 flex items-center gap-1">
+                <span class="text-sm">{t['close']}</span> ✕
+            </button>
+            <div id="mobile-report-content" class="markdown-body"></div>
+        </div>
+
     </div>
+
+    <script>
+        async function loadReport(path, title) {{
+            try {{
+                const response = await fetch(path);
+                if (!response.ok) throw new Error('File not found');
+                const markdownText = await response.text();
+                const htmlContent = marked.parse(markdownText);
+                
+                // 桌面端渲染
+                document.getElementById('reader-empty').classList.add('hidden');
+                const desktopReader = document.getElementById('report-content');
+                desktopReader.innerHTML = htmlContent;
+                desktopReader.classList.remove('hidden');
+
+                // 移动端渲染
+                if (window.innerWidth < 768) {{
+                    const mobileReader = document.getElementById('mobile-report-content');
+                    mobileReader.innerHTML = htmlContent;
+                    document.getElementById('mobile-modal').classList.remove('hidden');
+                    document.getElementById('mobile-modal').classList.add('flex');
+                }}
+            }} catch (error) {{
+                console.error("加载报告失败:", error);
+                alert("报告加载失败，可能文件还在生成中。");
+            }}
+        }}
+
+        function closeModal() {{
+            document.getElementById('mobile-modal').classList.add('hidden');
+            document.getElementById('mobile-modal').classList.remove('flex');
+        }}
+    </script>
 </body>
 </html>"""
     
