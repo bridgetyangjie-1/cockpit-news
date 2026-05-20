@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <title>月度宏观报告</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script>tailwind.config = { darkMode: "class", theme: { extend: { colors: { background: "#0D0F12", surface: "#111317", "surface-container": "#1e2023", "surface-container-low": "#1a1c1f", primary: "#00F2FF", "on-surface": "#e2e2e6", "on-surface-variant": "#b9cacb" } } } }</script>
+    <style>
+        body { background-color: #0D0F12; }
+        .markdown-body h1 { font-size: 1.5rem; font-weight: 700; color: #00F2FF; margin-bottom: 1.5rem; }
+        .markdown-body h2 { font-size: 1.25rem; font-weight: 600; color: #e2e2e6; margin-top: 1.5rem; margin-bottom: 1rem; border-bottom: 1px solid #3a494b; padding-bottom: 0.5rem; }
+        .markdown-body h3 { font-size: 1.1rem; font-weight: 600; color: #b9cacb; margin-top: 1rem; margin-bottom: 0.5rem; }
+        .markdown-body p { margin-bottom: 1rem; line-height: 1.7; color: #b9cacb; font-size: 14px; }
+        .markdown-body ul { list-style-type: disc; padding-left: 1.5rem; margin-bottom: 1rem; color: #b9cacb; font-size: 14px; }
+        .markdown-body strong { color: #e2e2e6; }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-sans p-6 pb-20">
+    <div class="flex flex-col md:flex-row gap-8">
+        <div class="w-full md:w-1/3 flex-shrink-0">
+            <h1 class="text-3xl font-bold mb-2 tracking-tight">📑 月度宏观报告</h1>
+            <p class="text-sm text-on-surface-variant mb-6">每月1号自动生成上个月行业深度分析</p>
+            <section><p class="text-on-surface-variant text-sm py-4">暂无月度报告</p></section>
+        </div>
+        <div class="w-full md:w-2/3 bg-surface-container-low border border-outline-variant rounded-2xl p-6 md:p-10 min-h-[500px]">
+            <div id="reader-empty" class="h-full flex flex-col items-center justify-center text-on-surface-variant/40">
+                <span class="text-5xl mb-4">📖</span><p class="text-sm">👈 请在左侧选择一份报告</p>
+            </div>
+            <div id="report-content" class="markdown-body hidden"></div>
+        </div>
+    </div>
+    <script>
+        async function loadReport(path) {
+            try {
+                const res = await fetch(path);
+                if (!res.ok) throw new Error('File not found');
+                const htmlContent = marked.parse(await res.text());
+                document.getElementById('reader-empty').classList.add('hidden');
+                const reader = document.getElementById('report-content');
+                reader.innerHTML = htmlContent;
+                reader.classList.remove('hidden');
+                
+                // 移动端点击后自动平滑滚动到阅读区
+                if (window.innerWidth < 768) {
+                    reader.scrollIntoView({ behavior: 'smooth' });
+                }
+            } catch (e) { alert("报告加载失败"); }
+        }
+    </script>
+</body>
+</html>

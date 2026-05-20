@@ -18,24 +18,38 @@
         .glow-hover:hover { box-shadow: 0 12px 40px -12px rgba(0, 242, 255, 0.25); border-color: rgba(0, 242, 255, 0.5); }
         .date-item-active { border-left: 4px solid #00F2FF; background: rgba(0, 242, 255, 0.1); color: #00F2FF; font-weight: 600; }
         .section-title { color: #00F2FF; font-weight: 600; margin-top: 12px; margin-bottom: 4px; font-size: 14px; }
+        /* 自定义滚动条，使 iframe 内部滚动与外部一致 */
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: #0D0F12; }
+        ::-webkit-scrollbar-thumb { background: #3a494b; border-radius: 10px; }
     </style>
 </head>
 <body class="bg-background text-on-surface font-sans overflow-x-hidden">
-    <aside id="sidebar" class="fixed left-0 top-0 h-screen w-64 bg-surface-container border-r border-outline-variant flex-col z-50 hidden md:flex">
+    
+    <header class="md:hidden fixed top-0 left-0 right-0 h-16 bg-[#111317]/95 backdrop-blur-lg z-50 flex items-center justify-between px-4 border-b border-outline-variant">
+        <h1 class="text-lg font-bold text-primary">🚗 SMART COCKPIT</h1>
+        <button onclick="toggleSidebar()" class="p-2 text-on-surface hover:text-primary">
+            <span class="material-symbols-outlined">menu</span>
+        </button>
+    </header>
+
+    <div id="overlay" class="fixed inset-0 bg-black/60 z-40 hidden backdrop-blur-sm transition-opacity" onclick="closeSidebar()"></div>
+
+    <aside id="sidebar" class="fixed left-0 top-0 h-screen w-64 bg-surface-container border-r border-outline-variant flex flex-col z-50 transform -translate-x-full md:translate-x-0 transition-transform duration-300">
         <div class="p-6 border-b border-outline-variant text-center">
             <h1 class="text-xl font-bold text-primary tracking-tight uppercase">SMART COCKPIT</h1>
-            <p class="text-xs text-on-surface-variant/70 mt-3 leading-relaxed">聚焦中国新能源车软件生态与座舱交互体验，每日自动抓取OTA动态、功能创新与用户研究洞察。</p>
+            <p class="text-xs text-on-surface-variant/70 mt-3 leading-relaxed">聚焦新能源车软件生态与座舱交互，每日自动提纯OTA动态与行业风向。</p>
         </div>
         <nav class="flex-1 overflow-y-auto mt-4">
-            <div onclick="selectToday()" class="flex items-center gap-3 px-5 py-3 cursor-pointer hover:bg-surface-container-high transition-colors">
-                <span class="material-symbols-outlined text-xl">today</span><span>今日情报</span>
+            <div id="nav-today" onclick="showView('today')" class="nav-item flex items-center gap-3 px-5 py-3 cursor-pointer hover:bg-surface-container-high transition-colors bg-primary/10 text-primary border-l-4 border-primary">
+                <span class="material-symbols-outlined text-xl">today</span><span class="font-medium">今日情报</span>
             </div>
-            <a href="trends.html" class="flex items-center gap-3 px-5 py-3 cursor-pointer hover:bg-surface-container-high transition-colors text-primary">
-                <span class="material-symbols-outlined text-xl">trending_up</span><span class="font-medium">标签趋势</span>
-            </a>
-            <a href="report.html" class="flex items-center gap-3 px-5 py-3 cursor-pointer hover:bg-surface-container-high transition-colors text-primary">
-                <span class="material-symbols-outlined text-xl">summarize</span><span class="font-medium">月度报告</span>
-            </a>
+            <div id="nav-trends" onclick="showView('trends')" class="nav-item flex items-center gap-3 px-5 py-3 cursor-pointer hover:bg-surface-container-high transition-colors">
+                <span class="material-symbols-outlined text-xl">trending_up</span><span>标签趋势</span>
+            </div>
+            <div id="nav-report" onclick="showView('report')" class="nav-item flex items-center gap-3 px-5 py-3 cursor-pointer hover:bg-surface-container-high transition-colors">
+                <span class="material-symbols-outlined text-xl">summarize</span><span>月度报告</span>
+            </div>
             <div class="px-6 py-2 mt-4"><span class="text-[10px] uppercase tracking-widest text-on-surface-variant/50">历史归档</span></div>
             <div id="dateList" class="space-y-1"></div>
         </nav>
@@ -44,7 +58,6 @@
                 <span class="material-symbols-outlined text-lg">language</span><span class="text-sm">English</span>
             </a>
             <div class="pt-3 border-t border-outline-variant/50">
-                <p class="text-xs text-on-surface-variant mb-2">📬 订阅日报</p>
                 <form action="https://buttondown.com/api/emails/embed-subscribe/Cockpit_News_by_BridgetYang" method="post" class="space-y-2">
                     <input type="email" name="email" required class="w-full px-3 py-2 bg-[#1a1c1f] border border-outline-variant rounded-lg text-sm focus:border-primary" placeholder="email@example.com" />
                     <button type="submit" class="w-full py-2 bg-primary/20 hover:bg-primary/30 text-primary rounded-lg text-sm">立即订阅</button>
@@ -53,45 +66,81 @@
         </div>
     </aside>
     
-    <main class="md:ml-64 min-h-screen px-4 md:px-10 py-6 max-w-5xl mx-auto md:pt-8">
-        <header class="mb-8 border-b border-outline-variant pb-4">
-            <div class="flex items-baseline gap-3">
-                <h2 id="contentDate" class="text-3xl font-bold">加载中...</h2>
-                <span id="contentWeekday" class="text-xl text-primary/80"></span>
-            </div>
-        </header>
-        <section id="newsContainer" class="space-y-6"></section>
+    <main class="md:ml-64 min-h-screen pt-16 md:pt-0">
+        <div id="view-today" class="px-4 md:px-10 py-6 max-w-5xl mx-auto md:pt-8">
+            <header class="mb-8 border-b border-outline-variant pb-4">
+                <div class="flex items-baseline gap-3">
+                    <h2 id="contentDate" class="text-3xl font-bold">加载中...</h2>
+                    <span id="contentWeekday" class="text-xl text-primary/80"></span>
+                </div>
+            </header>
+            <section id="newsContainer" class="space-y-6"></section>
+        </div>
+        
+        <iframe id="contentFrame" class="hidden w-full border-0" style="height: calc(100vh - 64px); md:height: 100vh;"></iframe>
     </main>
 
     <script>
         let historyData = {records: []};
         let currentLang = 'zh';
         
+        // 移动端菜单控制
+        function toggleSidebar() {
+            document.getElementById('sidebar').classList.toggle('-translate-x-full');
+            document.getElementById('overlay').classList.toggle('hidden');
+        }
+        function closeSidebar() {
+            document.getElementById('sidebar').classList.add('-translate-x-full');
+            document.getElementById('overlay').classList.add('hidden');
+        }
+
         async function loadData() {
             try {
                 const res = await fetch('history_data.json');
                 historyData = await res.json();
                 renderDateList();
-                if(historyData.records.length > 0) selectDate(historyData.records[0].date);
+                if(historyData.records.length > 0) selectDate(historyData.records[0].date, false);
             } catch (e) { console.error('Failed to load data:', e); }
         }
         
         function renderDateList() {
             document.getElementById('dateList').innerHTML = historyData.records.map((r, i) => `
-                <div class="date-item flex items-center justify-between px-5 py-2 cursor-pointer hover:bg-surface-container-high ${i===0?'date-item-active':''}" data-date="${r.date}" onclick="selectDate('${r.date}')">
+                <div class="date-item flex items-center justify-between px-5 py-2 cursor-pointer hover:bg-surface-container-high ${i===0?'date-item-active':''}" data-date="${r.date}" onclick="selectDate('${r.date}', true)">
                     <div class="flex items-center gap-2"><span class="material-symbols-outlined text-base opacity-50">calendar_today</span><span class="text-sm">${r.date_display || r.date}</span></div>
                     <span class="text-xs font-mono text-on-surface-variant/70">${r.news_count}</span>
                 </div>`).join('');
         }
         
-        function selectDate(date) {
+        function selectDate(date, userTriggered = false) {
+            showView('today');
             document.querySelectorAll('.date-item').forEach(el => el.classList.toggle('date-item-active', el.dataset.date === date));
             const record = historyData.records.find(r => r.date === date);
             if(record) renderNews(record);
+            
+            if (userTriggered && window.innerWidth < 768) closeSidebar();
         }
         
-        function selectToday() {
-            if(historyData.records.length > 0) selectDate(historyData.records[0].date);
+        function showView(view) {
+            // 切换导航高亮
+            document.querySelectorAll('.nav-item').forEach(el => el.classList.remove('bg-primary/10', 'text-primary', 'border-l-4', 'border-primary'));
+            const activeNav = document.getElementById('nav-' + view);
+            if(activeNav) activeNav.classList.add('bg-primary/10', 'text-primary', 'border-l-4', 'border-primary');
+            
+            const viewToday = document.getElementById('view-today');
+            const iframe = document.getElementById('contentFrame');
+            
+            if (view === 'today') {
+                viewToday.classList.remove('hidden');
+                iframe.classList.add('hidden');
+                iframe.src = ""; // 清空减少内存占用
+            } else {
+                viewToday.classList.add('hidden');
+                iframe.classList.remove('hidden');
+                iframe.src = view === 'trends' ? 'trends_content.html' : 'report_content.html';
+            }
+            
+            // 移动端点击后自动收起菜单
+            if (window.innerWidth < 768) closeSidebar();
         }
         
         function formatSummary(text) {
