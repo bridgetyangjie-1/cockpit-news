@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📑 月度宏观报告</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+    <script>tailwind.config = { darkMode: "class", theme: { extend: { colors: { background: "#0D0F12", surface: "#111317", "surface-container": "#1e2023", "surface-container-low": "#1a1c1f", primary: "#00F2FF", "on-surface": "#e2e2e6", "on-surface-variant": "#b9cacb", "outline-variant": "#3a494b" } } } }</script>
+    <style>
+        body { background-color: #0D0F12; }
+        /* 针对 Markdown 渲染的专属优雅样式 */
+        .markdown-body h1 { font-size: 1.875rem; font-weight: 700; color: #00F2FF; margin-bottom: 1.5rem; }
+        .markdown-body h2 { font-size: 1.5rem; font-weight: 600; color: #e2e2e6; margin-top: 2rem; margin-bottom: 1rem; border-bottom: 1px solid #3a494b; padding-bottom: 0.5rem; }
+        .markdown-body h3 { font-size: 1.25rem; font-weight: 600; color: #b9cacb; margin-top: 1.5rem; margin-bottom: 0.75rem; }
+        .markdown-body p { margin-bottom: 1rem; line-height: 1.75; color: #b9cacb; }
+        .markdown-body ul { list-style-type: disc; padding-left: 1.5rem; margin-bottom: 1rem; color: #b9cacb; }
+        .markdown-body li { margin-bottom: 0.5rem; line-height: 1.6; }
+        .markdown-body strong { color: #e2e2e6; font-weight: 600; }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-sans">
+    <div class="md:ml-64 min-h-screen px-4 md:px-10 py-6 max-w-6xl mx-auto flex flex-col md:flex-row gap-8">
+        
+        <div class="w-full md:w-1/3 flex-shrink-0">
+            <header class="mb-8 border-b border-outline-variant pb-4">
+                <a href="index.html" class="text-primary hover:underline text-sm font-medium">← 返回首页</a>
+                <h1 class="text-3xl font-bold mt-4 tracking-tight">📑 月度宏观报告</h1>
+                <p class="text-sm text-on-surface-variant mt-2 leading-relaxed">每月1号自动生成上个月行业深度分析（永久保留）</p>
+            </header>
+            <section><p class="text-on-surface-variant py-8">暂无月度报告，请等待每月1号自动生成</p></section>
+        </div>
+
+        <div class="w-full md:w-2/3 bg-surface-container-low border border-outline-variant rounded-2xl p-6 md:p-10 min-h-[500px] hidden md:block" id="reader-container">
+            <div id="reader-empty" class="h-full flex flex-col items-center justify-center text-on-surface-variant/40">
+                <span class="text-6xl mb-4">📖</span>
+                <p>👈 请在左侧选择一份报告进行阅读</p>
+            </div>
+            <div id="report-content" class="markdown-body hidden"></div>
+        </div>
+
+        <div id="mobile-modal" class="fixed inset-0 bg-background z-50 overflow-y-auto hidden flex-col p-6">
+            <button onclick="closeModal()" class="self-end text-on-surface-variant hover:text-primary mb-6 flex items-center gap-1">
+                <span class="text-sm">关闭</span> ✕
+            </button>
+            <div id="mobile-report-content" class="markdown-body"></div>
+        </div>
+
+    </div>
+
+    <script>
+        async function loadReport(path, title) {
+            try {
+                const response = await fetch(path);
+                if (!response.ok) throw new Error('File not found');
+                const markdownText = await response.text();
+                const htmlContent = marked.parse(markdownText);
+                
+                // 桌面端渲染
+                document.getElementById('reader-empty').classList.add('hidden');
+                const desktopReader = document.getElementById('report-content');
+                desktopReader.innerHTML = htmlContent;
+                desktopReader.classList.remove('hidden');
+
+                // 移动端渲染
+                if (window.innerWidth < 768) {
+                    const mobileReader = document.getElementById('mobile-report-content');
+                    mobileReader.innerHTML = htmlContent;
+                    document.getElementById('mobile-modal').classList.remove('hidden');
+                    document.getElementById('mobile-modal').classList.add('flex');
+                }
+            } catch (error) {
+                console.error("加载报告失败:", error);
+                alert("报告加载失败，可能文件还在生成中。");
+            }
+        }
+
+        function closeModal() {
+            document.getElementById('mobile-modal').classList.add('hidden');
+            document.getElementById('mobile-modal').classList.remove('flex');
+        }
+    </script>
+</body>
+</html>

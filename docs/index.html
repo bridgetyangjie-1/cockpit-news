@@ -8,23 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
     <script>
-        tailwind.config = {
-            darkMode: "class",
-            theme: {
-                extend: {
-                    colors: {
-                        background: "#0D0F12",
-                        surface: "#111317",
-                        "surface-container": "#1e2023",
-                        "surface-container-high": "#282a2d",
-                        primary: "#00F2FF",
-                        "on-surface": "#e2e2e6",
-                        "on-surface-variant": "#b9cacb",
-                        "outline-variant": "#3a494b"
-                    }
-                }
-            }
-        }
+        tailwind.config = { darkMode: "class", theme: { extend: { colors: { background: "#0D0F12", surface: "#111317", "surface-container": "#1e2023", "surface-container-high": "#282a2d", primary: "#00F2FF", "on-surface": "#e2e2e6", "on-surface-variant": "#b9cacb", "outline-variant": "#3a494b" } } } }
     </script>
     <style>
         .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
@@ -42,22 +26,22 @@
             <h1 class="text-xl font-bold text-primary tracking-tight uppercase">SMART COCKPIT</h1>
             <p class="text-xs text-on-surface-variant/70 mt-3 leading-relaxed">聚焦中国新能源车软件生态与座舱交互体验，每日自动抓取OTA动态、功能创新与用户研究洞察。</p>
         </div>
-        
         <nav class="flex-1 overflow-y-auto mt-4">
-            <div onclick="selectToday()" class="flex items-center gap-3 px-5 py-3 cursor-pointer transition-colors hover:bg-surface-container-high">
-                <span class="material-symbols-outlined text-xl">today</span>
-                <span>今日</span>
+            <div onclick="selectToday()" class="flex items-center gap-3 px-5 py-3 cursor-pointer hover:bg-surface-container-high transition-colors">
+                <span class="material-symbols-outlined text-xl">today</span><span>今日情报</span>
             </div>
-            <div class="px-6 py-2 mt-4">
-                <span class="text-[10px] uppercase tracking-widest text-on-surface-variant/50">历史归档</span>
-            </div>
+            <a href="trends.html" class="flex items-center gap-3 px-5 py-3 cursor-pointer hover:bg-surface-container-high transition-colors text-primary">
+                <span class="material-symbols-outlined text-xl">trending_up</span><span class="font-medium">标签趋势</span>
+            </a>
+            <a href="report.html" class="flex items-center gap-3 px-5 py-3 cursor-pointer hover:bg-surface-container-high transition-colors text-primary">
+                <span class="material-symbols-outlined text-xl">summarize</span><span class="font-medium">月度报告</span>
+            </a>
+            <div class="px-6 py-2 mt-4"><span class="text-[10px] uppercase tracking-widest text-on-surface-variant/50">历史归档</span></div>
             <div id="dateList" class="space-y-1"></div>
         </nav>
-        
         <div class="p-4 border-t border-outline-variant space-y-3">
             <a href="en/index.html" class="flex items-center gap-2 text-on-surface-variant hover:text-primary transition-colors cursor-pointer">
-                <span class="material-symbols-outlined text-lg">language</span>
-                <span class="text-sm">English</span>
+                <span class="material-symbols-outlined text-lg">language</span><span class="text-sm">English</span>
             </a>
             <div class="pt-3 border-t border-outline-variant/50">
                 <p class="text-xs text-on-surface-variant mb-2">📬 订阅日报</p>
@@ -89,18 +73,13 @@
                 historyData = await res.json();
                 renderDateList();
                 if(historyData.records.length > 0) selectDate(historyData.records[0].date);
-            } catch (e) {
-                console.error('Failed to load data:', e);
-            }
+            } catch (e) { console.error('Failed to load data:', e); }
         }
         
         function renderDateList() {
             document.getElementById('dateList').innerHTML = historyData.records.map((r, i) => `
                 <div class="date-item flex items-center justify-between px-5 py-2 cursor-pointer hover:bg-surface-container-high ${i===0?'date-item-active':''}" data-date="${r.date}" onclick="selectDate('${r.date}')">
-                    <div class="flex items-center gap-2">
-                        <span class="material-symbols-outlined text-base opacity-50">calendar_today</span>
-                        <span class="text-sm">${r.date_display || r.date}</span>
-                    </div>
+                    <div class="flex items-center gap-2"><span class="material-symbols-outlined text-base opacity-50">calendar_today</span><span class="text-sm">${r.date_display || r.date}</span></div>
                     <span class="text-xs font-mono text-on-surface-variant/70">${r.news_count}</span>
                 </div>`).join('');
         }
@@ -118,7 +97,6 @@
         function formatSummary(text) {
             if(!text) return "";
             let html = text.replace(/\n/g, '<br>');
-            // 正则匹配括号标题并加上样式
             html = html.replace(/([【\[].*?[】\]])/g, '<br><div class="section-title">$1</div>');
             html = html.replace(/(<br>\s*){3,}/g, '<br><br>');
             if(html.startsWith('<br>')) html = html.substring(4);
@@ -130,7 +108,12 @@
             document.getElementById('contentDate').textContent = record.date_display || record.date;
             document.getElementById('contentWeekday').textContent = record.weekday || '';
             
-            document.getElementById('newsContainer').innerHTML = record.news.map((item, index) => `
+            document.getElementById('newsContainer').innerHTML = record.news.map((item, index) => {
+                let tagsHtml = '';
+                if (item.tags && item.tags.length > 0) {
+                    tagsHtml = `<div class="flex flex-wrap gap-2 mt-3 mb-3">${item.tags.map(tag => `<span class="px-2 py-1 text-[11px] font-medium bg-primary/10 text-primary border border-primary/20 rounded-md uppercase tracking-wider">${tag}</span>`).join('')}</div>`;
+                }
+                return `
                 <article class="news-card relative bg-[#1a1c1f] border border-outline-variant rounded-xl p-6 glow-hover group">
                     <div class="news-card-bg"><span class="font-bold font-mono">${String(index + 1).padStart(2, '0')}</span></div>
                     <div class="relative z-10">
@@ -138,11 +121,13 @@
                             <span class="font-mono text-primary/80">📰 ${item.site_name||''}</span>
                             <span>📅 ${item.publish_date||record.date}</span>
                         </div>
-                        <h3 class="text-xl font-semibold text-on-surface mb-3 group-hover:text-primary transition-colors">${isZh ? item.title : (item.title_en||item.title)}</h3>
+                        <h3 class="text-xl font-semibold text-on-surface mb-2 group-hover:text-primary transition-colors">${isZh ? item.title : (item.title_en||item.title)}</h3>
+                        ${tagsHtml}
                         <div class="text-sm text-on-surface-variant/80 leading-relaxed mb-4 max-w-3xl">${formatSummary(isZh ? item.summary : (item.summary_en||item.summary))}</div>
                         <a href="${item.url}" target="_blank" class="text-primary hover:underline text-sm font-medium">🔗 ${isZh?'阅读原文':'Read Original'}</a>
                     </div>
-                </article>`).join('');
+                </article>`;
+            }).join('');
         }
         
         document.addEventListener('DOMContentLoaded', loadData);

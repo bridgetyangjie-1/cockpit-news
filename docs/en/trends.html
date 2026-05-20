@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📊 Tag Trends Analysis</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+    <script>tailwind.config = { darkMode: "class", theme: { extend: { colors: { background: "#0D0F12", surface: "#111317", "surface-container": "#1e2023", "surface-container-high": "#282a2d", primary: "#00F2FF", "on-surface": "#e2e2e6", "on-surface-variant": "#b9cacb" } } } }</script>
+    <style>body { background-color: #0D0F12; }</style>
+</head>
+<body class="bg-background text-on-surface font-sans">
+    <div class="md:ml-64 min-h-screen px-4 md:px-10 py-6 max-w-5xl mx-auto">
+        <header class="mb-8 border-b border-on-surface-variant/20 pb-4">
+            <a href="../index.html" class="text-primary hover:underline text-sm">← Back to Home</a>
+            <h1 class="text-3xl font-bold mt-4">📊 Tag Trends Analysis</h1>
+            <p class="text-on-surface-variant mt-2">Track industry trends continuously · Total 27 个标签</p>
+        </header>
+        
+        <!-- 趋势图表 -->
+        <section class="bg-surface-container rounded-xl p-6 mb-6">
+            <div class="flex items-center justify-between mb-4">
+                <h2 class="text-xl font-semibold">📈 Trend Chart</h2>
+                <div class="flex gap-2">
+                    <button onclick="showMonthly()" id="btn-monthly" class="px-4 py-2 rounded-lg text-sm font-medium bg-primary/20 text-primary border border-primary/30">Monthly</button>
+                    <button onclick="showYearly()" id="btn-yearly" class="px-4 py-2 rounded-lg text-sm font-medium bg-surface-container-high text-on-surface-variant hover:bg-surface-container-high/80">Yearly</button>
+                </div>
+            </div>
+            <div class="h-80">
+                <canvas id="trendChart"></canvas>
+            </div>
+        </section>
+        
+        <!-- 热门标签排行 -->
+        <section class="bg-surface-container rounded-xl p-6">
+            <h2 class="text-xl font-semibold mb-4">🏷️ Top Tags Ranking</h2>
+            
+            <div class="flex items-center gap-4 mb-3">
+                <span class="text-sm font-mono text-primary w-8">1.</span>
+                <span class="text-sm font-mono text-on-surface w-24 truncate">智能座舱</span>
+                <div class="flex-1 h-6 bg-surface-container-high rounded overflow-hidden">
+                    <div class="h-full bg-gradient-to-r from-primary/50 to-primary transition-all duration-300" style="width: 100%"></div>
+                </div>
+                <span class="text-sm text-on-surface-variant w-16 text-right">2 times</span>
+            </div>
+            
+            <div class="flex items-center gap-4 mb-3">
+                <span class="text-sm font-mono text-primary w-8">2.</span>
+                <span class="text-sm font-mono text-on-surface w-24 truncate">华为</span>
+                <div class="flex-1 h-6 bg-surface-container-high rounded overflow-hidden">
+                    <div class="h-full bg-gradient-to-r from-primary/50 to-primary transition-all duration-300" style="width: 50%"></div>
+                </div>
+                <span class="text-sm text-on-surface-variant w-16 text-right">1 times</span>
+            </div>
+            
+            <div class="flex items-center gap-4 mb-3">
+                <span class="text-sm font-mono text-primary w-8">3.</span>
+                <span class="text-sm font-mono text-on-surface w-24 truncate">鸿蒙座舱</span>
+                <div class="flex-1 h-6 bg-surface-container-high rounded overflow-hidden">
+                    <div class="h-full bg-gradient-to-r from-primary/50 to-primary transition-all duration-300" style="width: 50%"></div>
+                </div>
+                <span class="text-sm text-on-surface-variant w-16 text-right">1 times</span>
+            </div>
+            
+            <div class="flex items-center gap-4 mb-3">
+                <span class="text-sm font-mono text-primary w-8">4.</span>
+                <span class="text-sm font-mono text-on-surface w-24 truncate">AI智能体</span>
+                <div class="flex-1 h-6 bg-surface-container-high rounded overflow-hidden">
+                    <div class="h-full bg-gradient-to-r from-primary/50 to-primary transition-all duration-300" style="width: 50%"></div>
+                </div>
+                <span class="text-sm text-on-surface-variant w-16 text-right">1 times</span>
+            </div>
+            
+            <div class="flex items-center gap-4 mb-3">
+                <span class="text-sm font-mono text-primary w-8">5.</span>
+                <span class="text-sm font-mono text-on-surface w-24 truncate">多模态感知</span>
+                <div class="flex-1 h-6 bg-surface-container-high rounded overflow-hidden">
+                    <div class="h-full bg-gradient-to-r from-primary/50 to-primary transition-all duration-300" style="width: 50%"></div>
+                </div>
+                <span class="text-sm text-on-surface-variant w-16 text-right">1 times</span>
+            </div>
+            
+            <div class="flex items-center gap-4 mb-3">
+                <span class="text-sm font-mono text-primary w-8">6.</span>
+                <span class="text-sm font-mono text-on-surface w-24 truncate">情绪交互</span>
+                <div class="flex-1 h-6 bg-surface-container-high rounded overflow-hidden">
+                    <div class="h-full bg-gradient-to-r from-primary/50 to-primary transition-all duration-300" style="width: 50%"></div>
+                </div>
+                <span class="text-sm text-on-surface-variant w-16 text-right">1 times</span>
+            </div>
+            
+            <div class="flex items-center gap-4 mb-3">
+                <span class="text-sm font-mono text-primary w-8">7.</span>
+                <span class="text-sm font-mono text-on-surface w-24 truncate">数字生态</span>
+                <div class="flex-1 h-6 bg-surface-container-high rounded overflow-hidden">
+                    <div class="h-full bg-gradient-to-r from-primary/50 to-primary transition-all duration-300" style="width: 50%"></div>
+                </div>
+                <span class="text-sm text-on-surface-variant w-16 text-right">1 times</span>
+            </div>
+            
+            <div class="flex items-center gap-4 mb-3">
+                <span class="text-sm font-mono text-primary w-8">8.</span>
+                <span class="text-sm font-mono text-on-surface w-24 truncate">百度</span>
+                <div class="flex-1 h-6 bg-surface-container-high rounded overflow-hidden">
+                    <div class="h-full bg-gradient-to-r from-primary/50 to-primary transition-all duration-300" style="width: 50%"></div>
+                </div>
+                <span class="text-sm text-on-surface-variant w-16 text-right">1 times</span>
+            </div>
+            
+            <div class="flex items-center gap-4 mb-3">
+                <span class="text-sm font-mono text-primary w-8">9.</span>
+                <span class="text-sm font-mono text-on-surface w-24 truncate">Apollo</span>
+                <div class="flex-1 h-6 bg-surface-container-high rounded overflow-hidden">
+                    <div class="h-full bg-gradient-to-r from-primary/50 to-primary transition-all duration-300" style="width: 50%"></div>
+                </div>
+                <span class="text-sm text-on-surface-variant w-16 text-right">1 times</span>
+            </div>
+            
+            <div class="flex items-center gap-4 mb-3">
+                <span class="text-sm font-mono text-primary w-8">10.</span>
+                <span class="text-sm font-mono text-on-surface w-24 truncate">DeepSeek</span>
+                <div class="flex-1 h-6 bg-surface-container-high rounded overflow-hidden">
+                    <div class="h-full bg-gradient-to-r from-primary/50 to-primary transition-all duration-300" style="width: 50%"></div>
+                </div>
+                <span class="text-sm text-on-surface-variant w-16 text-right">1 times</span>
+            </div>
+            
+        </section>
+    </div>
+    
+    <script>
+        const monthlyLabels = ["2026-05"];
+        const yearlyLabels = ["2026"];
+        const monthlyDatasets = [{"label": "\u667a\u80fd\u5ea7\u8231", "data": [2], "borderColor": "#00F2FF", "backgroundColor": "#00F2FF20", "tension": 0.4, "fill": false}, {"label": "\u534e\u4e3a", "data": [1], "borderColor": "#FF6B6B", "backgroundColor": "#FF6B6B20", "tension": 0.4, "fill": false}, {"label": "\u9e3f\u8499\u5ea7\u8231", "data": [1], "borderColor": "#4ECDC4", "backgroundColor": "#4ECDC420", "tension": 0.4, "fill": false}, {"label": "AI\u667a\u80fd\u4f53", "data": [1], "borderColor": "#FFE66D", "backgroundColor": "#FFE66D20", "tension": 0.4, "fill": false}, {"label": "\u591a\u6a21\u6001\u611f\u77e5", "data": [1], "borderColor": "#95E1D3", "backgroundColor": "#95E1D320", "tension": 0.4, "fill": false}];
+        const yearlyDatasets = [{"label": "\u667a\u80fd\u5ea7\u8231", "data": [2], "borderColor": "#00F2FF", "backgroundColor": "#00F2FF20", "tension": 0.4, "fill": false}, {"label": "\u534e\u4e3a", "data": [1], "borderColor": "#FF6B6B", "backgroundColor": "#FF6B6B20", "tension": 0.4, "fill": false}, {"label": "\u9e3f\u8499\u5ea7\u8231", "data": [1], "borderColor": "#4ECDC4", "backgroundColor": "#4ECDC420", "tension": 0.4, "fill": false}, {"label": "AI\u667a\u80fd\u4f53", "data": [1], "borderColor": "#FFE66D", "backgroundColor": "#FFE66D20", "tension": 0.4, "fill": false}, {"label": "\u591a\u6a21\u6001\u611f\u77e5", "data": [1], "borderColor": "#95E1D3", "backgroundColor": "#95E1D320", "tension": 0.4, "fill": false}];
+        
+        const ctx = document.getElementById('trendChart').getContext('2d');
+        let trendChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: monthlyLabels,
+                datasets: monthlyDatasets
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        labels: { color: '#e2e2e6' }
+                    }
+                },
+                scales: {
+                    x: {
+                        ticks: { color: '#b9cacb' },
+                        grid: { color: '#3a494b30' }
+                    },
+                    y: {
+                        ticks: { color: '#b9cacb' },
+                        grid: { color: '#3a494b30' }
+                    }
+                }
+            }
+        });
+        
+        function showMonthly() {
+            trendChart.data.labels = monthlyLabels;
+            trendChart.data.datasets = monthlyDatasets;
+            trendChart.update();
+            document.getElementById('btn-monthly').className = 'px-4 py-2 rounded-lg text-sm font-medium bg-primary/20 text-primary border border-primary/30';
+            document.getElementById('btn-yearly').className = 'px-4 py-2 rounded-lg text-sm font-medium bg-surface-container-high text-on-surface-variant hover:bg-surface-container-high/80';
+        }
+        
+        function showYearly() {
+            trendChart.data.labels = yearlyLabels;
+            trendChart.data.datasets = yearlyDatasets;
+            trendChart.update();
+            document.getElementById('btn-yearly').className = 'px-4 py-2 rounded-lg text-sm font-medium bg-primary/20 text-primary border border-primary/30';
+            document.getElementById('btn-monthly').className = 'px-4 py-2 rounded-lg text-sm font-medium bg-surface-container-high text-on-surface-variant hover:bg-surface-container-high/80';
+        }
+    </script>
+</body>
+</html>
