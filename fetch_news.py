@@ -53,11 +53,32 @@ def add_today_record(history_data, news_items):
     today = datetime.now(BJ_TZ).strftime("%Y-%m-%d")
     today_display = datetime.now(BJ_TZ).strftime("%m月%d日")
     
+    # 获取所有历史文章的 URL，用于去重
+    existing_urls = set()
+    for record in history_data.get("records", []):
+        for news in record.get("news", []):
+            url = news.get("url", "")
+            if url:
+                existing_urls.add(url)
+    
+    # 过滤掉已存在的重复文章
+    unique_news = []
+    seen_urls_today = set()  # 当天去重
+    for item in news_items:
+        url = item.get("url", "")
+        if url and url not in existing_urls and url not in seen_urls_today:
+            unique_news.append(item)
+            seen_urls_today.add(url)
+    
+    if len(news_items) != len(unique_news):
+        print(f"    已过滤 {len(news_items) - len(unique_news)} 篇重复文章")
+    
     existing_dates = [r.get("date") for r in history_data["records"]]
     if today in existing_dates:
         for record in history_data["records"]:
             if record.get("date") == today:
-                record["news"] = news_items
+                record["news"] = unique_news
+                record["news_count"] = len(unique_news)
                 record["updated_at"] = datetime.now(BJ_TZ).strftime("%Y-%m-%d %H:%M:%S")
                 return history_data
     else:
@@ -65,8 +86,8 @@ def add_today_record(history_data, news_items):
             "date": today,
             "date_display": today_display,
             "weekday": ["周一", "周二", "周三", "周四", "周五", "周六", "周日"][datetime.now(BJ_TZ).weekday()],
-            "news_count": len(news_items),
-            "news": news_items,
+            "news_count": len(unique_news),
+            "news": unique_news,
             "created_at": datetime.now(BJ_TZ).strftime("%Y-%m-%d %H:%M:%S")
         }
         history_data["records"].insert(0, new_record)
@@ -101,6 +122,7 @@ def load_tag_stats():
     return {"tags": {}, "monthly": {}, "yearly": {}}
 
 def update_tag_stats(news_items):
+    """更新标签统计（避免重复计数）"""
     today = datetime.now(BJ_TZ)
     month_key = today.strftime("%Y-%m")
     year_key = today.strftime("%Y")
@@ -109,16 +131,34 @@ def update_tag_stats(news_items):
     if "monthly" not in stats: stats["monthly"] = {}
     if "yearly" not in stats: stats["yearly"] = {}
     if "tags" not in stats: stats["tags"] = {}
+    if "processed_urls" not in stats: stats["processed_urls"] = []
     
     if month_key not in stats["monthly"]: stats["monthly"][month_key] = {}
     if year_key not in stats["yearly"]: stats["yearly"][year_key] = {}
     
+    # 获取已处理的文章URL列表
+    processed_urls = set(stats.get("processed_urls", []))
+    new_processed_urls = []
+    
     for item in news_items:
-        for tag in item.get("tags", []):
+        url = item.get("url", "")
+        if not url or url in processed_urls:
+            continue  # 跳过已处理的文章
+        
+        # 使用集合去重该文章的标签
+        unique_tags = set(item.get("tags", []))
+        
+        for tag in unique_tags:
             if not tag: continue
             stats["tags"][tag] = stats["tags"].get(tag, 0) + 1
             stats["monthly"][month_key][tag] = stats["monthly"][month_key].get(tag, 0) + 1
             stats["yearly"][year_key][tag] = stats["yearly"][year_key].get(tag, 0) + 1
+        
+        new_processed_urls.append(url)
+    
+    # 更新已处理的URL列表（保留最近1000条）
+    all_processed = list(processed_urls) + new_processed_urls
+    stats["processed_urls"] = all_processed[-1000:]
             
     os.makedirs(os.path.dirname(TAG_STATS_FILE), exist_ok=True)
     with open(TAG_STATS_FILE, 'w', encoding='utf-8') as f:
@@ -733,9 +773,10 @@ def send_daily_email(news_items, date_str):
         """
     
     html_content += """
-            <div style="padding: 24px; text-align: center; background: #f9f9f9;">
+            <div style="padding: 24px; text-align: center; background: #f9f9f9; border-top: 1px solid #eee;">
                 <p style="margin-bottom: 12px; color: #666; font-size: 14px;">📊 更多数据分析与往期内容</p>
-                <p style="color: #999; font-size: 12px;">🌐 <a href="https://bridgetyangjie-1.github.io/cockpit-news/">访问在线 Dashboard 看板</a></p>
+                <p style="color: #999; font-size: 12px;">🌐 <a href="https://www.bridgetyangjie.cn/">访问在线 Dashboard 看板</a></p>
+                <p style="margin-top: 16px; color: #999; font-size: 11px;">📧 本日报由 Bridget 每日自动生成 | 智能座舱行业情报</p>
             </div>
         </div>
     </body></html>
@@ -759,6 +800,7 @@ def send_daily_email(news_items, date_str):
     except Exception as e:
         print(f"    ❌ Buttondown 发送失败: {e}")
         return False
+
 
 def send_private_email(news_items, date_str):
     import smtplib
@@ -800,6 +842,11 @@ def send_private_email(news_items, date_str):
             <p style="color:#fff; margin:8px 0 0 0;">{date_str} | 今日 {len(news_items)} 条精选资讯</p>
         </div>
         {news_html}
+        <div style="text-align:center; margin-top:32px; padding:24px; background:#f5f5f5; border-radius:12px;">
+            <p style="margin-bottom: 8px; color: #666; font-size: 14px;">📊 更多数据分析与往期内容</p>
+            <p style="color: #999; font-size: 12px;">🌐 <a href="https://www.bridgetyangjie.cn/">访问在线 Dashboard 看板</a></p>
+            <p style="margin-top: 16px; color: #999; font-size: 11px;">📧 本日报由 Bridget 每日自动生成 | 智能座舱行业情报</p>
+        </div>
     </body></html>
     """
     
