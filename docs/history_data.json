@@ -7,84 +7,78 @@
       "news_count": 5,
       "news": [
         {
-          "title": "智己落地阿里系AI，IM AIOS生态座舱重磅发布",
-          "url": "https://auto.news18a.com/news/storys_176274.html",
-          "site_name": "Auto",
+          "title": "比亚迪5月OTA重磅推送，超多新功能免费体验",
+          "url": "https://www.toutiao.com/article/7640282022556041770/",
+          "site_name": "今日头条",
           "publish_date": "2026-05-21",
           "tags": [
-            "智己",
-            "IM AIOS",
-            "AI Agent",
-            "阿里生态",
-            "No Touch",
-            "No App",
-            "生态座舱"
-          ],
-          "summary": "【事件概述】智己汽车正式发布IM AIOS生态座舱，该座舱深度融合阿里前沿AI技术及生态资源，首次将阿里生态服务以AI Agent形式落地，开创了“No Touch & No App”的人车交互模式。这意味着用户无需手动操作或打开特定App，即可通过语音或场景触发阿里系服务（如高德、天猫、支付宝等）的智能调用。系统基于阿里通义千问大模型，能够理解复杂语义并主动执行多步骤任务，例如“帮我订一杯咖啡并导航到最近的星巴克”，系统会自动完成下单、支付和导航规划。此外，IM AIOS还支持跨设备无缝流转，手机上的未完成任务可自动同步至车机。\n\n【体验价值】“No Touch & No App”模式大幅降低了驾驶中的操作层级，用户只需自然语言指令即可完成复杂任务，符合“眼不离路、手不离盘”的安全原则。AI Agent的主动服务能力（如根据日程自动规划路线）提升了座舱的“懂你”程度，减少了用户决策负担。\n\n【潜在槽点】AI Agent的主动服务可能引发隐私担忧，例如系统自动读取日历、位置等信息。若语音识别在嘈杂环境下准确率下降，或复杂指令理解失败，用户可能被迫回归传统触控，造成体验断层。此外，阿里生态的深度绑定可能限制用户选择其他服务商。",
-          "summary_en": "【Event Overview】IM Motors officially launched the IM AIOS ecosystem cockpit, deeply integrating Alibaba's cutting-edge AI technology and ecological resources. For the first time, Alibaba ecosystem services are implemented in the form of AI Agents, creating a 'No Touch & No App' human-vehicle interaction mode. Users can trigger Alibaba services (such as Amap, Tmall, Alipay) through voice or scene triggers without manual operation or opening specific apps. The system, based on Alibaba's Tongyi Qianwen large model, understands complex semantics and proactively executes multi-step tasks. For example, saying 'Order a coffee and navigate to the nearest Starbucks' will automatically complete ordering, payment, and route planning. Additionally, IM AIOS supports seamless cross-device transfer, syncing unfinished tasks from phone to car. \n\n【Experience Value】The 'No Touch & No App' mode significantly reduces operational layers during driving, allowing users to complete complex tasks with natural language commands, aligning with the safety principle of 'eyes on the road, hands on the wheel'. The proactive service capability of AI Agents (e.g., automatically planning routes based on calendar) enhances the cockpit's 'understanding' of the user, reducing decision-making burden. \n\n【Potential Friction】The proactive nature of AI Agents may raise privacy concerns, such as automatically reading calendar and location data. If voice recognition accuracy drops in noisy environments or complex instructions fail, users may be forced to revert to traditional touch controls, causing experience discontinuity. Additionally, deep integration with Alibaba's ecosystem may limit user choice of other service providers."
-        },
-        {
-          "title": "【图】新增奥迪助手形象动画等多项功能 奥迪E5 Sportback迎来OTA...",
-          "url": "https://www.autohome.com.cn/news/202605/1314264.html",
-          "site_name": "Autohome",
-          "publish_date": "2026-05-21",
-          "tags": [
-            "奥迪",
-            "AUDI OS",
+            "比亚迪",
+            "DiLink",
             "OTA",
-            "助手形象动画",
-            "车态消息提醒"
+            "免费升级"
           ],
-          "summary": "【事件概述】奥迪E5 Sportback迎来AUDI OS 1.2.1版本OTA升级，新增奥迪助手形象动画和车态消息提醒功能。奥迪助手形象动画是指在语音交互时，中控屏或仪表盘上会显示一个动态的奥迪品牌虚拟形象，根据语音指令和场景做出表情和动作反馈，提升交互的拟人化程度。车态消息提醒功能则是在车辆状态发生变化时（如电量低、胎压异常、保养提醒等），系统会以更直观的动画和文字组合形式在屏幕上弹出提醒，并支持用户自定义提醒优先级和显示方式。此外，本次OTA还优化了导航语音播报的语速和音色，以及空调界面的触控响应速度。\n\n【体验价值】助手形象动画增强了语音交互的亲和力和品牌辨识度，让用户感觉在与一个“有生命”的伙伴交流，降低了对冰冷机器的排斥感。车态消息提醒的优化使关键信息更易被察觉，减少因忽略提醒而导致的安全风险。自定义提醒优先级功能则让用户能根据个人习惯过滤不重要的信息，避免信息过载。\n\n【潜在槽点】助手形象动画可能分散驾驶注意力，尤其在复杂路况下，动态形象反而成为干扰源。若动画效果不够流畅或与语音响应不同步，会显得廉价且破坏沉浸感。车态消息提醒的优先级自定义设置可能增加用户的学习成本，部分用户可能因设置不当而错过重要提醒。",
-          "summary_en": "【Event Overview】Audi E5 Sportback receives AUDI OS 1.2.1 OTA upgrade, adding Audi assistant avatar animation and vehicle status message reminder functions. The assistant avatar animation displays a dynamic Audi brand virtual avatar on the center console or instrument cluster during voice interaction, making expressions and movements based on voice commands and scenarios, enhancing the anthropomorphic feel of interaction. The vehicle status message reminder function alerts users with more intuitive animation and text combinations when vehicle status changes (e.g., low battery, abnormal tire pressure, maintenance reminder), and supports user customization of reminder priority and display method. Additionally, this OTA optimizes navigation voice broadcast speed and tone, as well as touch response speed of the air conditioning interface. \n\n【Experience Value】The assistant avatar animation enhances the affinity and brand recognition of voice interaction, making users feel they are interacting with a 'living' partner, reducing resistance to cold machines. The optimized vehicle status message reminders make key information more noticeable, reducing safety risks from missed alerts. Customizable reminder priority allows users to filter unimportant information based on personal habits, avoiding information overload. \n\n【Potential Friction】The assistant avatar animation may distract driving attention, especially in complex traffic conditions, where dynamic images become interference. If the animation is not smooth or out of sync with voice response, it may appear cheap and break immersion. The customizable reminder priority settings may increase user learning cost, and some users may miss important reminders due to improper settings."
+          "summary": "【事件概述】2026年5月，比亚迪启动大规模免费OTA升级，覆盖海鸥至仰望等全系车型。此次升级聚焦于软件功能优化，包括新增手车互联功能，全面兼容中国主流手机品牌，支持手机NFC/UWB车钥匙、远程控制及数据同步。同时，升级还优化了智能语音交互、导航体验和系统流畅度，所有功能均免费推送，无需额外付费。这标志着比亚迪在软件生态服务上迈出重要一步，通过OTA持续提升用户体验，强化了“软件定义汽车”的理念。\n\n【体验价值】免费OTA降低了用户使用门槛，手车互联功能让手机与车辆无缝协同，提升了日常用车的便捷性。系统优化后，交互响应更流畅，语音识别更精准，减少了操作层级，增强了驾驶安全性和满意度。\n\n【潜在槽点】大规模推送可能导致部分车型适配延迟，用户等待时间较长。手车互联功能依赖手机品牌兼容性，老旧机型可能无法完全支持，造成体验割裂。此外，免费升级虽好，但后续若转为付费，可能引发用户不满。",
+          "summary_en": "【Event Overview】In May 2026, BYD initiated a large-scale free OTA update covering all models from Seagull to Yangwang. The upgrade focuses on software feature optimization, including new phone-car connectivity that is fully compatible with major Chinese phone brands, supporting NFC/UWB keys, remote control, and data sync. It also improves voice interaction, navigation, and system smoothness, all free of charge. This marks a significant step in BYD's software ecosystem services, enhancing user experience through continuous OTA updates. \n\n【Experience Value】Free OTA lowers user barriers, and phone-car connectivity enables seamless interaction, improving daily convenience. System optimization leads to faster responses and more accurate voice recognition, reducing operation steps and enhancing driving safety and satisfaction. \n\n【Potential Friction】Large-scale rollout may cause delays for some models, leading to long wait times. Phone-car connectivity depends on phone brand compatibility, potentially excluding older devices. Additionally, while free upgrades are welcome, future paid models could cause user dissatisfaction."
         },
         {
-          "title": "告别千篇一律的智能，领克10EM-P用座舱细节打造专属出行体验",
-          "url": "https://www.yoojia.com/article/9852136883723399413.html",
-          "site_name": "有驾",
+          "title": "瑞虎8L迎来全新OTA升级，四大进阶焕新家庭出行体验",
+          "url": "https://cj.sina.com.cn/articles/view/7857141524/1d452771401902nl3o",
+          "site_name": "新浪财经",
           "publish_date": "2026-05-21",
           "tags": [
-            "领克",
-            "LYNK OS",
-            "ALive壁纸",
-            "个性化定制",
-            "静态交互"
+            "奇瑞",
+            "Lion",
+            "OTA",
+            "家庭出行"
           ],
-          "summary": "【事件概述】领克10EM-P的智能座舱在静态交互方面展现出极高的个性化水平，其中ALive壁纸功能尤为引人注目。ALive壁纸并非简单的动态壁纸，而是能够根据时间、天气、驾驶模式甚至用户心率等数据实时生成不同风格的动态画面。例如，清晨通勤时壁纸呈现日出渐变色，雨天则自动切换为水墨风格，运动模式下壁纸会变为更具速度感的线条动画。此外，座舱还支持多套主题深度定制，包括字体、图标、仪表盘布局等，用户可通过手机App创建并分享自己的主题设计。领克10EM-P还引入了“场景卡片”功能，用户可自定义触发条件（如时间、地点、温度）来执行一系列座舱设置（如空调温度、座椅按摩、氛围灯颜色）。\n\n【体验价值】ALive壁纸将座舱屏幕从信息显示工具升级为情感化装饰元素，增强了座舱的“生命力”和归属感。个性化主题和场景卡片功能让用户能真正“定义”自己的座舱，满足不同场景下的情绪和功能需求，提升了用户与车辆的连接深度。\n\n【潜在槽点】高度个性化可能导致系统资源占用过高，影响其他功能的流畅性。ALive壁纸的实时数据采集（如心率）可能引发隐私担忧。场景卡片的自定义逻辑对非技术用户可能过于复杂，若预设模板不足，用户可能因设置门槛高而放弃使用。",
-          "summary_en": "【Event Overview】The smart cockpit of Lynk & Co 10EM-P demonstrates a high level of personalization in static interaction, with the ALive wallpaper feature being particularly noteworthy. ALive wallpaper is not a simple dynamic wallpaper; it can generate different dynamic scenes in real-time based on data such as time, weather, driving mode, and even user heart rate. For example, during morning commutes, the wallpaper presents a sunrise gradient; on rainy days, it automatically switches to an ink-wash style; in sport mode, the wallpaper becomes a speed-line animation. Additionally, the cockpit supports deep customization of multiple themes, including fonts, icons, and instrument cluster layouts. Users can create and share their own theme designs via a mobile app. Lynk & Co 10EM-P also introduces a 'Scene Card' function, allowing users to customize trigger conditions (e.g., time, location, temperature) to execute a series of cockpit settings (e.g., air conditioning temperature, seat massage, ambient light color). \n\n【Experience Value】ALive wallpaper upgrades the cockpit screen from an information display tool to an emotional decorative element, enhancing the 'vitality' and sense of belonging in the cockpit. Personalized themes and scene card functions allow users to truly 'define' their cockpit, meeting emotional and functional needs in different scenarios, deepening the connection between user and vehicle. \n\n【Potential Friction】High personalization may lead to excessive system resource consumption, affecting the smoothness of other functions. Real-time data collection for ALive wallpaper (e.g., heart rate) may raise privacy concerns. The custom logic of scene cards may be too complex for non-technical users; if preset templates are insufficient, users may abandon the feature due to high setup barriers."
+          "summary": "【事件概述】奇瑞瑞虎8L于6月底推送全新OTA升级，围绕舒适、智能、交互与安全四大维度进行优化。升级内容包括：智能语音系统增强，支持更自然的连续对话和场景理解；交互界面优化，引入“零层级”设计理念，核心功能卡片一触即达；新增家庭模式，可自动调整座椅、空调和娱乐设置；安全功能升级，如盲区监测和碰撞预警的算法优化。此次升级是奇瑞“终身FOTA升级”承诺的兑现，旨在提升家庭用户的出行体验。\n\n【体验价值】“零层级”交互设计减少了操作步骤，让驾驶员能更快访问常用功能，提升驾驶安全性。家庭模式自动适配车内环境，减少了手动调节的繁琐，增强了全家出行的舒适性和便利性。\n\n【潜在槽点】“零层级”设计可能导致功能入口过于集中，新手用户需要时间适应。家庭模式的场景识别可能不够精准，例如误判乘客数量或偏好，导致设置不匹配。此外，OTA升级的稳定性需验证，避免升级过程中出现系统卡顿或功能异常。",
+          "summary_en": "【Event Overview】Chery Tiggo 8L receives a new OTA update at the end of June, optimizing comfort, intelligence, interaction, and safety. Upgrades include enhanced voice system for natural dialogue, a 'zero-level' UI with one-tap card access, a family mode that auto-adjusts seats, AC, and entertainment, and improved safety algorithms. This fulfills Chery's 'lifetime FOTA' promise, aiming to enhance family travel. \n\n【Experience Value】The 'zero-level' design reduces steps, allowing faster access to key functions, improving safety. Family mode automates settings, reducing manual adjustments and enhancing comfort and convenience for family trips. \n\n【Potential Friction】The 'zero-level' design may cluster functions, requiring adaptation for new users. Family mode's scene recognition might be inaccurate, misjudging passenger count or preferences. OTA stability needs verification to avoid system lag or malfunctions during updates."
         },
         {
-          "title": "智能座舱的终局是什么？面壁智能给出了自己的答案",
-          "url": "https://chedongxi.com/p/367581.html",
-          "site_name": "车东西",
+          "title": "蔚来Banyan 3.3.0 智能化大成之作",
+          "url": "https://chejiahao.autohome.com.cn/info/16626933",
+          "site_name": "汽车之家",
           "publish_date": "2026-05-21",
           "tags": [
-            "面壁智能",
-            "端侧大模型",
-            "指令式智能",
-            "真智能",
-            "AI座舱"
+            "蔚来",
+            "Banyan",
+            "OTA",
+            "认知智能"
           ],
-          "summary": "【事件概述】面壁智能在近期分享中提出，智能座舱的终局是告别“指令式智能”，迈向“真智能”。当前多数座舱的AI仍停留在“用户说指令-系统执行”的阶段，而面壁智能认为真正的智能座舱应具备主动感知、预测和决策能力。其核心方案是部署端侧大模型，使座舱能在本地运行大参数模型，无需联网即可理解复杂场景。例如，系统能通过摄像头识别用户表情和动作，判断其情绪状态，并主动调整氛围灯、音乐和空调；或通过分析用户历史行为，在用户开口前就推荐目的地或功能。面壁智能强调，端侧大模型的关键优势在于低延迟和隐私保护，所有数据处理均在车端完成，不依赖云端。\n\n【体验价值】从“被动响应”到“主动服务”的转变，能显著减少用户操作步骤，让座舱真正成为“懂你”的智能伙伴。端侧处理保证了响应速度，即使在隧道或偏远地区也能稳定工作，同时避免了隐私数据上传云端的风险，增强了用户信任。\n\n【潜在槽点】端侧大模型对芯片算力要求极高，可能增加硬件成本，且当前端侧模型的能力仍有限，复杂场景下的误判率可能较高。主动服务若过于频繁或判断不准，反而会打扰用户，造成“过度智能”的负面体验。此外，用户可能对系统“主动读取”情绪数据感到不适，需谨慎设计隐私边界。",
-          "summary_en": "【Event Overview】Mianbi Intelligence recently proposed that the endgame of smart cockpits is to bid farewell to 'command-based intelligence' and move towards 'true intelligence'. Currently, most cockpit AI remains at the stage of 'user gives command - system executes'. Mianbi believes that a true smart cockpit should have proactive perception, prediction, and decision-making capabilities. Its core solution is deploying on-device large models, allowing the cockpit to run large-parameter models locally without internet connection to understand complex scenarios. For example, the system can recognize user expressions and actions through cameras to judge emotional state, and proactively adjust ambient lighting, music, and air conditioning; or analyze user historical behavior to recommend destinations or functions before the user speaks. Mianbi emphasizes that the key advantages of on-device large models are low latency and privacy protection, with all data processing completed on the vehicle side without relying on the cloud. \n\n【Experience Value】The shift from 'passive response' to 'proactive service' can significantly reduce user operation steps, making the cockpit a truly 'understanding' intelligent partner. On-device processing ensures response speed, stable operation even in tunnels or remote areas, while avoiding the risk of uploading private data to the cloud, enhancing user trust. \n\n【Potential Friction】On-device large models require extremely high chip computing power, potentially increasing hardware costs. Current on-device model capabilities are still limited, with high misjudgment rates in complex scenarios. If proactive services are too frequent or inaccurate, they may disturb users, creating a negative 'over-intelligence' experience. Additionally, users may feel uncomfortable with the system 'actively reading' emotional data, requiring careful design of privacy boundaries."
+          "summary": "【事件概述】蔚来Banyan 3.3.0于2026年1月全量推送，搭载NWM 2.0（蔚来世界模型）与闭环强化学习架构，标志着从“规则驱动”向“认知智能”的跃迁。升级核心是智能驾驶体验的软件化提升，包括窄路会车、无保护左转、施工绕行等复杂场景的自主决策能力。同时，座舱交互也得到优化，NOMI语音助手更主动，能根据用户习惯提供个性化建议。此次OTA强调端到端大模型的应用，使车辆能像人类司机一样理解环境并做出反应。\n\n【体验价值】认知智能让车辆在复杂路况下更从容，减少了驾驶员的紧张感。NOMI的主动服务功能，如提前调节空调或推荐路线，提升了座舱的智能感和贴心度，让交互更自然。\n\n【潜在槽点】认知智能依赖大量数据训练，边缘场景的决策可能仍不够可靠，用户需保持警惕。主动服务功能若过于频繁，可能干扰驾驶，造成信息过载。此外，OTA升级对硬件要求高，老款车型可能无法完全体验新功能。",
+          "summary_en": "【Event Overview】NIO Banyan 3.3.0, rolled out in January 2026, features NWM 2.0 and closed-loop reinforcement learning, marking a shift from rule-based to cognitive intelligence. Key upgrades include autonomous decision-making in complex scenarios like narrow roads and unprotected turns. The NOMI voice assistant becomes more proactive, offering personalized suggestions. This OTA emphasizes end-to-end large models for human-like environment understanding. \n\n【Experience Value】Cognitive intelligence reduces driver stress in complex traffic. NOMI's proactive services, like pre-adjusting AC or recommending routes, enhance the cabin's smart feel and natural interaction. \n\n【Potential Friction】Cognitive decisions may be unreliable in edge cases, requiring driver vigilance. Overly frequent proactive services could distract or cause information overload. Older models may not fully support new features due to hardware limitations."
         },
         {
-          "title": "智能座舱语音交互与场景感知谁更胜一筹？",
-          "url": "https://post.smzdm.com/p/a65zlrmo/",
-          "site_name": "什么值得买",
+          "title": "小鹏AI天玑5.4.0全球首发，智驾云端大模型竞争拉开序幕",
+          "url": "https://www.xiaopeng.com/news/company_news/5393.html",
+          "site_name": "小鹏汽车",
           "publish_date": "2026-05-21",
           "tags": [
-            "百度地图",
-            "跨模态AI语音",
-            "方言识别",
-            "场景感知",
-            "腾势N8L"
+            "小鹏",
+            "天玑",
+            "OTA",
+            "云端大模型"
           ],
-          "summary": "【事件概述】文章探讨了智能座舱中语音交互与场景感知的融合趋势，重点介绍了百度地图智能座舱跨模态AI语音方案。该方案不仅支持普通话，还深度优化了方言识别能力，覆盖粤语、四川话、上海话等主要方言，并针对儿童语音进行了专项优化，能准确识别语速较慢、发音不标准的儿童指令。同时，方案结合场景感知技术，能根据车内环境（如噪音水平、乘客数量）自动调整语音识别策略和反馈音量。例如，在高速行驶噪音大时，系统会提高麦克风灵敏度并放大语音反馈；检测到后排有儿童时，会自动切换为更温和的语音风格。腾势N8L作为案例，展示了如何通过方言识别和儿童语音优化，让车载交互更“懂人”。\n\n【体验价值】方言和儿童语音的优化显著降低了特定用户群体的使用门槛，使老人和儿童也能轻松使用语音交互，扩大了智能座舱的受众范围。场景感知的自动调整策略提升了交互的鲁棒性，确保在不同环境下都能获得一致的体验，减少了用户手动调节的麻烦。\n\n【潜在槽点】方言识别在混合口音或生僻词汇上仍可能出错，导致用户需要重复指令，体验打折。儿童语音优化可能引发隐私担忧，尤其是涉及儿童数据采集和存储。场景感知的自动调整若过于激进（如噪音大时过度放大音量），可能造成车内其他乘客不适。",
-          "summary_en": "【Event Overview】The article explores the integration trend of voice interaction and scene perception in smart cockpits, highlighting Baidu Maps' cross-modal AI voice solution for cockpits. This solution not only supports Mandarin but also deeply optimizes dialect recognition, covering major dialects such as Cantonese, Sichuanese, and Shanghainese, and specially optimizes for children's speech, accurately recognizing slower, less standard pronunciations. Additionally, the solution combines scene perception technology to automatically adjust voice recognition strategies and feedback volume based on in-cabin environment (e.g., noise level, number of passengers). For example, at high speeds with high noise, the system increases microphone sensitivity and amplifies voice feedback; detecting a child in the back seat automatically switches to a gentler voice style. Denza N8L serves as a case study, demonstrating how dialect recognition and children's voice optimization make in-car interaction more 'human-understanding'. \n\n【Experience Value】Optimization for dialects and children's speech significantly lowers the usage barrier for specific user groups, allowing the elderly and children to easily use voice interaction, expanding the smart cockpit's audience. Scene perception's automatic adjustment strategy enhances interaction robustness, ensuring consistent experience in different environments, reducing the need for manual adjustments. \n\n【Potential Friction】Dialect recognition may still fail on mixed accents or rare words, requiring users to repeat commands, degrading experience. Children's voice optimization may raise privacy concerns, especially regarding data collection and storage of children. If scene perception's automatic adjustments are too aggressive (e.g., excessively amplifying volume in noisy conditions), it may cause discomfort to other passengers."
+          "summary": "【事件概述】小鹏汽车发布AI天玑5.4.0系统，全球首发，主打“0速激活，原地启动”的智驾能力。该系统基于云端大模型架构，融合XNet、XBrain与XPlanner技术，实现端到端智驾进化。核心创新包括：小路绕行、跨车道变道、汇入汇出口等复杂场景的老司机级操作；座舱交互升级，AI天玑系统能主动识别用户意图，提供场景化服务。此次OTA标志着小鹏在智驾云端大模型竞争中领先，将AI能力从座舱延伸至驾驶全场景。\n\n【体验价值】“0速激活”让智驾更易用，用户无需繁琐设置即可启动，降低了学习成本。复杂场景的拟人化操作提升了驾驶信心，座舱主动服务则减少了手动操作，让交互更高效。\n\n【潜在槽点】云端大模型依赖网络连接，信号不佳时可能影响智驾响应速度。主动服务功能若误判用户意图，可能导致不必要的操作，增加交互冗余。此外，OTA升级频率高，用户需频繁适应新功能，可能产生疲劳感。",
+          "summary_en": "【Event Overview】XPeng launches AI Tianji 5.4.0 globally, featuring '0-speed activation' for instant ADAS start. Based on cloud large models, it integrates XNet, XBrain, and XPlanner for end-to-end evolution. Key innovations include expert-level maneuvers in complex scenarios like narrow roads and lane changes. The cockpit AI proactively identifies user intent for contextual services. This OTA positions XPeng as a leader in cloud-based ADAS. \n\n【Experience Value】'0-speed activation' simplifies ADAS use, reducing learning curve. Human-like operations in complex scenarios boost driver confidence, while proactive services minimize manual steps, enhancing efficiency. \n\n【Potential Friction】Cloud reliance may cause lag in poor network conditions. Misjudged user intent by proactive services could lead to unnecessary actions, adding interaction redundancy. Frequent OTA updates may cause user fatigue from constant adaptation."
+        },
+        {
+          "title": "AI座舱热度持续攀升，佑驾创新引领智能座舱进入大模型时代",
+          "url": "https://www.163.com/dy/article/KT7E4VRI05118HA4.html",
+          "site_name": "网易",
+          "publish_date": "2026-05-21",
+          "tags": [
+            "佑驾创新",
+            "OpenClaw",
+            "大模型",
+            "跨端协同"
+          ],
+          "summary": "【事件概述】佑驾创新在2026北京车展推出新一代Agent“OpenClaw”，将座舱能力延展至车外世界。其座舱大模型智能管家BamBam升级了“龙虾助手”，实现车舱内跨端协同，如手机、平板与车机无缝流转。核心创新在于：大模型驱动的主动服务，能根据用户日程、位置和偏好，提前规划路线、调节车内环境；跨端协同让用户在不同设备间切换任务时，体验不中断。这标志着智能座舱从被动响应向主动智能演进。\n\n【体验价值】跨端协同打破了设备壁垒，用户可在手机和车机间无缝切换，提升了多任务处理效率。主动服务减少了用户操作，让出行更省心，例如自动推荐充电站或餐厅，增强了场景化体验。\n\n【潜在槽点】跨端协同需多设备生态支持，若用户设备不兼容，体验将大打折扣。主动服务可能过度收集用户数据，引发隐私担忧。大模型决策的准确性需验证，错误推荐可能导致用户不满。",
+          "summary_en": "【Event Overview】Youjia Innovation debuts 'OpenClaw' Agent at 2026 Beijing Auto Show, extending cabin capabilities to the outside world. Its BamBam AI butler upgrades with 'Lobster Assistant' for cross-device collaboration between phone, tablet, and car. Core innovations include large model-driven proactive services that plan routes and adjust cabin based on user schedule and preferences, and seamless task switching across devices. This marks a shift from passive to proactive intelligence. \n\n【Experience Value】Cross-device collaboration breaks barriers, enabling seamless task switching and improving multitasking efficiency. Proactive services reduce user effort, making travel more convenient, such as auto-recommending charging stations or restaurants, enhancing contextual experience. \n\n【Potential Friction】Cross-device features require ecosystem support; incompatible devices degrade experience. Proactive services may over-collect user data, raising privacy concerns. Large model decision accuracy needs validation; incorrect recommendations could cause user dissatisfaction."
         }
       ],
-      "created_at": "2026-05-21 14:20:55"
+      "created_at": "2026-05-21 14:20:55",
+      "updated_at": "2026-05-21 18:11:31"
     },
     {
       "date": "2026-05-20",
