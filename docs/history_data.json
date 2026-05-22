@@ -1,6 +1,91 @@
 {
   "records": [
     {
+      "date": "2026-05-22",
+      "date_display": "05月22日",
+      "weekday": "周五",
+      "news_count": 5,
+      "news": [
+        {
+          "title": "座舱革命：你的车刚自己点了份麦当劳，但它真的能“办事”了吗？",
+          "url": "https://www.cyzone.cn/article/833929.html",
+          "site_name": "创业邦",
+          "publish_date": "2026-05-21",
+          "tags": [
+            "火山引擎",
+            "腾讯",
+            "AI座舱",
+            "智能体",
+            "语音交互",
+            "场景服务"
+          ],
+          "summary": "【事件概述】本文报道了火山引擎和腾讯在智能座舱AI应用上的最新进展。火山引擎展示了其AI座舱套件，通过大模型实现车内多模态交互和场景化服务。腾讯则另辟蹊径，推出“出行全场景平台”，以七大智能体（如随行点单、随行向导、随行互连）覆盖用户出行全链路。核心创新在于打破传统车机APP孤岛，通过智能体“组团”的方式，让车机主动理解用户意图并串联服务。例如，用户说出“我饿了”，系统可自动推荐餐厅、规划路线、甚至完成点单支付，实现从“人找服务”到“服务找人”的转变。这标志着国内座舱软件从功能堆砌向主动智能服务生态的跨越。\n\n【体验价值】该功能极大降低了用户在驾驶中的操作层级和分心风险。用户无需在多个APP间切换，仅通过自然语言即可完成复杂任务链，体验流畅且符合直觉。主动服务的“预判”能力（如根据时间、位置推荐）提升了座舱的“懂你”感，让车从工具进化为出行伴侣。\n\n【潜在槽点】智能体的“主动”可能引发隐私担忧——系统需持续监听和收集用户数据以预判需求，用户可能感到被“监视”。此外，多智能体协作的稳定性存疑，若某个环节（如支付）失败，整个任务链断裂，体验会从“智能”急转直下为“智障”，增加用户挫败感。",
+          "summary_en": "【Event Overview】This article reports on the latest advancements in AI-powered cockpits from Volcano Engine and Tencent. Volcano Engine showcased its AI cockpit suite, enabling multimodal interaction and contextual services via large models. Tencent took a different approach with its 'Full-Scene Travel Platform', featuring seven intelligent agents (e.g., order-on-the-go, travel guide) covering the entire travel chain. The core innovation lies in breaking down traditional app silos, allowing the system to proactively understand user intent and orchestrate services. For example, saying 'I'm hungry' triggers restaurant recommendations, route planning, and even payment, shifting from 'human-seeking-service' to 'service-seeking-human'. This marks a leap from feature stacking to proactive intelligent service ecosystems. \n\n【Experience Value】This feature significantly reduces operational complexity and distraction risk. Users can complete complex task chains through natural language without switching between apps, offering a smooth, intuitive experience. The proactive 'anticipation' capability enhances the cockpit's 'understanding' feel, transforming the car from a tool into a travel companion. \n\n【Potential Friction】The 'proactive' nature raises privacy concerns—continuous monitoring and data collection are needed to predict needs, which may feel like surveillance. Additionally, the stability of multi-agent collaboration is questionable; if any step (e.g., payment) fails, the entire task chain breaks, turning 'smart' into 'stupid' and increasing user frustration."
+        },
+        {
+          "title": "问界全系OTA升级 新增三点式掉头/驾驶员失能辅助等40项功能",
+          "url": "https://www.pcauto.com.cn/news/5109/51097208.html",
+          "site_name": "太平洋汽车",
+          "publish_date": "2026-05-21",
+          "tags": [
+            "问界",
+            "鸿蒙座舱",
+            "OTA",
+            "主动安全",
+            "AI交互"
+          ],
+          "summary": "【事件概述】鸿蒙智行宣布问界全系车型迎来大规模OTA升级，新增超过40项功能，涵盖智能驾驶、主动安全和座舱交互。亮点包括：1）三点式掉头功能，允许车辆在狭窄路段通过前后轮反向转动实现原地掉头，提升灵活性；2）增强型自动紧急转向辅助（eAES），可识别“夹心”风险并主动避让；3）驾驶员失能辅助，当检测到驾驶员突发疾病或失能时，系统自动接管车辆并安全靠边停车。座舱方面，小艺语音助手接入千悟大模型，支持更复杂的上下文理解和多轮对话。此次升级展示了华为通过OTA持续进化车辆能力的策略，将硬件潜力通过软件释放。\n\n【体验价值】驾驶员失能辅助是极具人文关怀的功能，在极端场景下可能挽救生命，显著提升用户安全感。三点式掉头解决了城市窄路调头的痛点，实用性高。千悟大模型加持的语音助手让交互更自然，减少驾驶分心。OTA模式让用户持续获得新功能，增强了车辆的“成长性”和用户粘性。\n\n【潜在槽点】三点式掉头对轮胎和转向系统磨损较大，且需特定路面条件，用户可能因误用或滥用导致机械故障。驾驶员失能辅助的触发逻辑需极其精准，误触发（如误判疲劳）可能引发恐慌或事故。40项功能同时推送，用户学习成本高，部分功能可能被长期忽略，形成“功能冗余”。",
+          "summary_en": "【Event Overview】Harmony Intelligent Mobility announced a major OTA update for all AITO models, adding over 40 features covering intelligent driving, active safety, and cockpit interaction. Highlights include: 1) Three-point turn function, enabling the vehicle to turn in place on narrow roads via reverse wheel rotation; 2) Enhanced Automatic Emergency Steering (eAES) to avoid 'sandwich' risks; 3) Driver Incapacitation Assist, which automatically takes over and safely pulls over if the driver is incapacitated. In the cockpit, the XiaoYi voice assistant is upgraded with the Qianwu large model for better contextual understanding. This update showcases Huawei's strategy of continuously evolving vehicle capabilities through software. \n\n【Experience Value】Driver Incapacitation Assist is a highly humane feature that could save lives in extreme scenarios, significantly boosting user safety. The three-point turn solves the pain point of U-turns on narrow city roads. The upgraded voice assistant makes interaction more natural, reducing distraction. The OTA model allows users to continuously gain new features, enhancing the vehicle's 'growth' and user stickiness. \n\n【Potential Friction】The three-point turn may cause increased tire and steering wear, and requires specific road conditions; misuse could lead to mechanical issues. The trigger logic for Driver Incapacitation Assist must be extremely precise; false triggers (e.g., misjudging fatigue) could cause panic or accidents. With 40 features pushed simultaneously, the learning curve is high, and some features may be permanently ignored, creating 'feature bloat'."
+        },
+        {
+          "title": "百度Apollo智舱大模型和出行智能体完成DeepSeek接入",
+          "url": "https://www.chnfund.com/article/AR83470e1b-0ca2-58af-3b9f-3a1811bda16d",
+          "site_name": "中国基金报",
+          "publish_date": "2026-05-21",
+          "tags": [
+            "百度Apollo",
+            "DeepSeek",
+            "AI大模型",
+            "智能座舱",
+            "语音助手"
+          ],
+          "summary": "【事件概述】百度Apollo宣布其智舱大模型和出行智能体已完成对DeepSeek-R1大模型的接入。同时，极氪也宣布其自研的Kr AI大模型与DeepSeek-R1深度融合，并计划将升级后的AI Eva智能座舱助手上线。DeepSeek-R1以其强大的推理能力和低延迟著称，接入后有望显著提升座舱语音助手的复杂问题处理能力，例如多步推理、逻辑问答和个性化建议。这意味着用户可以用更口语化、更模糊的指令（如“推荐一个适合带娃吃饭的地方，要安静、有儿童餐”）获得精准响应，而无需精确关键词。此举标志着国内座舱AI从“指令式”向“推理式”交互的进化，大模型在车端的落地进入深水区。\n\n【体验价值】DeepSeek的推理能力让语音助手从“执行命令”升级为“理解意图”，用户可以用更自然的语言表达需求，交互门槛大幅降低。例如，规划复杂行程时，助手能综合考虑路况、充电站、用户偏好等多因素，给出最优方案。这种“类人”的思考过程提升了座舱的智能感和信任度，让用户更愿意依赖语音交互。\n\n【潜在槽点】大模型推理需要强大算力，若依赖云端，网络延迟或断网时体验会断崖式下降；若本地部署，对车机芯片要求极高，可能仅限高端车型。此外，推理过程可能产生“幻觉”（错误答案），在安全相关场景（如导航）中风险不可忽视。用户也可能因过度依赖AI而降低自身判断力。",
+          "summary_en": "【Event Overview】Baidu Apollo announced that its cockpit large model and travel intelligent agent have integrated with the DeepSeek-R1 large model. Meanwhile, Zeekr also announced deep integration of its Kr AI model with DeepSeek-R1, planning to upgrade its AI Eva cockpit assistant. DeepSeek-R1 is known for its strong reasoning capabilities and low latency, promising to significantly enhance the voice assistant's ability to handle complex queries, such as multi-step reasoning and personalized recommendations. This means users can use more colloquial, vague commands (e.g., 'Recommend a quiet place to eat with kids, with a children's menu') and get accurate responses without precise keywords. This marks the evolution of cockpit AI from 'command-based' to 'reasoning-based' interaction. \n\n【Experience Value】DeepSeek's reasoning ability upgrades the voice assistant from 'executing commands' to 'understanding intent', allowing users to express needs more naturally, greatly lowering the interaction barrier. For complex trip planning, the assistant can consider traffic, charging stations, user preferences, etc., to offer optimal solutions. This 'human-like' thinking process enhances the cockpit's intelligence and trustworthiness, encouraging users to rely more on voice interaction. \n\n【Potential Friction】Large model reasoning requires significant computing power; if cloud-dependent, network latency or offline scenarios will cause a cliff-edge drop in experience. Local deployment demands high-end chips, limiting availability to premium models. Additionally, reasoning may produce 'hallucinations' (incorrect answers), posing risks in safety-critical scenarios like navigation. Users may also over-rely on AI, reducing their own judgment."
+        },
+        {
+          "title": "蔚来Banyan 3.3.0：窄路会车、无保护左转、施工绕行——从规则驱动迈向认知智能",
+          "url": "https://post.smzdm.com/p/a2qd9rm7/",
+          "site_name": "什么值得买",
+          "publish_date": "2026-05-21",
+          "tags": [
+            "蔚来",
+            "Banyan",
+            "OTA",
+            "智能驾驶",
+            "世界模型"
+          ],
+          "summary": "【事件概述】蔚来于2026年1月28日全量推送Banyan 3.3.0版本，核心升级是搭载NWM 2.0（蔚来世界模型）与闭环强化学习架构。官方称这是从“规则驱动”迈向“认知智能”的关键一步。新版本重点优化了窄路会车、无保护左转、施工绕行等复杂城市场景的通行能力。NWM 2.0通过构建实时动态的“世界模型”，让车辆能预测其他交通参与者的意图并规划更类人的驾驶策略，而非仅依赖预设规则。例如，在无保护左转时，系统能根据对向车流速度和驾驶员意图的预测，选择更合适的切入时机。这标志着智能驾驶软件从“感知-决策”的线性逻辑，升级为“预测-规划”的认知逻辑，是软件架构的质变。\n\n【体验价值】对于用户而言，最直接的体验是车辆在复杂场景下的“老司机”感——不再生硬、犹豫，而是流畅、自信。窄路会车时，车辆能像人类一样微调位置、预判对方动作，减少用户接管焦虑。这种“认知智能”让驾驶辅助从“可用”变为“好用”，显著提升用户信任度和使用频率，真正解放驾驶压力。\n\n【潜在槽点】世界模型的预测能力高度依赖数据质量和实时计算，在极端天气或罕见场景下可能失效，导致决策失误。用户可能因过度信任而放松警惕，形成安全盲区。此外，强化学习架构的“黑箱”特性使得系统行为难以完全解释，一旦发生事故，责任界定和用户理解将面临挑战。",
+          "summary_en": "【Event Overview】NIO pushed the Banyan 3.3.0 update on January 28, 2026, featuring NWM 2.0 (NIO World Model) and a closed-loop reinforcement learning architecture. This marks a shift from 'rule-driven' to 'cognitive intelligence'. The update focuses on complex urban scenarios like narrow-road passing, unprotected left turns, and construction zone navigation. NWM 2.0 builds a real-time dynamic 'world model', enabling the vehicle to predict other traffic participants' intentions and plan more human-like driving strategies, rather than relying solely on preset rules. For example, during unprotected left turns, the system predicts oncoming traffic speed and driver intent to choose the optimal entry timing. This represents a qualitative leap in software architecture from 'perception-decision' to 'prediction-planning'. \n\n【Experience Value】For users, the most direct experience is the vehicle's 'expert driver' feel in complex scenarios—smooth and confident rather than rigid and hesitant. During narrow-road passing, the vehicle adjusts position and predicts others' actions like a human, reducing takeover anxiety. This 'cognitive intelligence' transforms driver assistance from 'usable' to 'enjoyable', significantly boosting user trust and usage frequency, truly relieving driving stress. \n\n【Potential Friction】The world model's predictive ability heavily depends on data quality and real-time computation; it may fail in extreme weather or rare scenarios, leading to poor decisions. Users may over-trust the system, creating safety blind spots. Additionally, the 'black box' nature of reinforcement learning makes system behavior hard to explain, posing challenges for liability determination and user understanding in accidents."
+        },
+        {
+          "title": "手车互联彻底消灭手机支架？比亚迪海狮06EV车机系统详细体验",
+          "url": "https://www.dongchedi.com/video/7570727396161094187",
+          "site_name": "懂车帝",
+          "publish_date": "2026-05-21",
+          "tags": [
+            "比亚迪",
+            "手车互联",
+            "Carlink",
+            "HiCar",
+            "生态融合"
+          ],
+          "summary": "【事件概述】比亚迪海狮06EV上市后，其车机系统的手车互联功能成为焦点。该功能并非单一平台，而是融合了Carlink、HiCar和荣耀车联三大生态系统，实现手机与座舱的无缝连接。用户可通过无线方式将手机应用、导航、音乐等投射到车机屏幕，并支持反向控制（如用车机屏幕操作手机APP）。核心创新在于“全覆盖”策略——无论用户使用华为、小米还是荣耀手机，都能获得深度互联体验，包括车控（远程开关空调、车窗）、语音互通（手机语音助手控制车机）、UWB数字钥匙、以及应用流转（手机上的导航自动切换到车机）。这旨在彻底消灭手机支架，让用户无需在车内额外固定手机。\n\n【体验价值】手车互联解决了用户“上车后手机与车机割裂”的核心痛点。导航、音乐、通话等高频场景的无缝流转，让用户无需重复操作，体验连贯。UWB数字钥匙提升了便利性和安全性。多生态兼容策略降低了用户门槛，无论用什么手机都能获得一致体验，避免了“选车必须选手机品牌”的绑定，提升了产品普适性。\n\n【潜在槽点】多生态兼容意味着系统需要维护多个协议和适配，可能出现稳定性问题（如连接中断、延迟高）。用户隐私方面，手机与车机深度互联后，通讯录、位置等敏感数据在两者间流转，若安全防护不足，存在泄露风险。此外，功能过于丰富可能导致用户学习成本高，部分用户可能仍习惯使用手机支架，形成“功能冗余”。",
+          "summary_en": "【Event Overview】The BYD Sea Lion 06EV's infotainment system features a 'phone-car connectivity' function that integrates three ecosystems: Carlink, HiCar, and Honor Car Connect. This enables seamless wireless projection of phone apps, navigation, and music to the car screen, with reverse control capabilities. The core innovation is its 'full coverage' strategy—regardless of whether users have Huawei, Xiaomi, or Honor phones, they get deep connectivity including remote vehicle control, voice interworking, UWB digital keys, and app handoff (e.g., phone navigation auto-switches to the car screen). The goal is to eliminate the need for phone mounts entirely. \n\n【Experience Value】Phone-car connectivity solves the core pain point of 'phone and car system isolation' after getting in the car. Seamless handoff for navigation, music, and calls provides a coherent experience without redundant operations. UWB digital keys enhance convenience and security. The multi-ecosystem compatibility lowers user barriers, ensuring consistent experience regardless of phone brand, avoiding vendor lock-in and improving product universality. \n\n【Potential Friction】Multi-ecosystem compatibility requires maintaining multiple protocols and adaptations, potentially causing stability issues (e.g., connection drops, high latency). Deep integration raises privacy concerns—sensitive data like contacts and location flow between devices, posing leak risks if security is insufficient. Additionally, feature richness may lead to a steep learning curve; some users may still prefer phone mounts, creating 'feature bloat'."
+        }
+      ],
+      "created_at": "2026-05-22 14:17:27"
+    },
+    {
       "date": "2026-05-21",
       "date_display": "05月21日",
       "weekday": "周四",
