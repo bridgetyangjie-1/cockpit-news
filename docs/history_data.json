@@ -1,6 +1,57 @@
 {
   "records": [
     {
+      "date": "2026-05-25",
+      "date_display": "05月25日",
+      "weekday": "周一",
+      "news_count": 3,
+      "news": [
+        {
+          "title": "仰望U9迎来OTA升级 4项新增功能与7项优化体验",
+          "url": "https://www.autohome.com.cn/news/202605/1314372.html",
+          "site_name": "汽车之家",
+          "publish_date": "2026-05-25",
+          "tags": [
+            "仰望",
+            "ZEEKR OS",
+            "OTA",
+            "安全功能"
+          ],
+          "summary": "【事件概述】仰望U9推送V2.1.0版本OTA升级，新增4项核心功能并优化7项体验。新增功能包括全向行车记录仪，可覆盖车辆前后左右四个方向，实现360度无死角监控；以及基于视觉感知的智能泊车辅助增强，支持更复杂的车位识别。优化项涉及语音助手响应速度提升30%、导航界面布局调整、空调控制逻辑简化等。此次升级聚焦行车安全与日常使用便利性，通过软件迭代强化超跑车型的实用属性。\n\n【体验价值】全向行车记录仪解决了传统单摄像头盲区问题，用户无需额外加装硬件即可获得全景监控，提升事故取证和停车安全感。语音响应速度优化减少了交互等待时间，导航界面调整使信息层级更清晰，整体降低了驾驶中的操作分心。\n\n【潜在槽点】全向记录仪可能涉及隐私争议，尤其在公共区域持续录制；新增功能对老款车型硬件兼容性存疑，部分用户可能因芯片算力不足无法获得完整体验。",
+          "summary_en": "【Event Overview】Yangwang U9 pushes V2.1.0 OTA update, adding 4 core functions and optimizing 7 experiences. New features include an omnidirectional dashcam covering front, rear, left, and right for 360-degree monitoring, and enhanced intelligent parking assist with visual perception for complex spots. Optimizations cover 30% faster voice response, refined navigation layout, and simplified AC controls. The update focuses on safety and daily usability through software iteration. \n\n【Experience Value】The omnidirectional dashcam eliminates blind spots of traditional single cameras, providing panoramic monitoring without extra hardware, enhancing accident evidence and parking security. Faster voice response reduces wait time, and refined navigation clarifies information hierarchy, lowering driving distraction. \n\n【Potential Friction】Omnidirectional recording may raise privacy concerns in public spaces; compatibility with older hardware is questionable, as some users may lack chip power for full features."
+        },
+        {
+          "title": "HarmonySpace鸿蒙座舱大规模OTA升级",
+          "url": "http://www.cniteyes.com/archives/39564",
+          "site_name": "Cniteyes",
+          "publish_date": "2026-05-25",
+          "tags": [
+            "华为",
+            "HarmonyOS",
+            "OTA",
+            "AI大模型"
+          ],
+          "summary": "【事件概述】华为鸿蒙座舱（HarmonySpace）迎来大规模OTA升级，核心亮点是“千悟大模型”的深度集成。该大模型专为用车场景打造，融合基础大模型、舱内感知技术（如摄像头、麦克风阵列）及鸿蒙生态应用，大幅提升语音助手“小艺”的服务能力。升级后，小艺可理解复杂多轮对话（如“我有点冷，但别开太猛”），并主动推荐空调温度与风量；还能通过视觉识别乘客手势，实现隔空操控音乐切换、音量调节等。此外，系统新增“场景引擎”，可根据时间、位置、用户习惯自动触发模式（如下班回家自动导航并播放播客）。\n\n【体验价值】千悟大模型使语音交互从“命令式”转向“理解式”，用户可用自然语言表达模糊需求，系统主动推理并执行，大幅降低学习成本。手势识别补充了非语音场景（如车内嘈杂时），提供多模态交互选择。场景引擎减少手动设置步骤，提升日常通勤的连贯性。\n\n【潜在槽点】大模型依赖云端处理，网络不佳时响应延迟或降级；视觉感知持续运行可能消耗更多电量，且隐私风险（如车内录像）需用户明确授权；手势识别在强光或遮挡下可能误触发。",
+          "summary_en": "【Event Overview】Huawei HarmonySpace receives a major OTA update, featuring deep integration of the 'Qianwu Large Model'. Tailored for driving scenarios, it combines base LLM, in-cabin perception (cameras, microphones), and HarmonyOS ecosystem to enhance voice assistant 'Xiaoyi'. After update, Xiaoyi understands complex multi-turn dialogues (e.g., 'I'm cold, but not too strong') and proactively recommends AC settings; it also recognizes passenger gestures for air controls like music switching. A new 'Scene Engine' auto-triggers modes based on time, location, and habits. \n\n【Experience Value】The large model shifts voice interaction from command-based to understanding-based, allowing natural language for vague needs, reducing learning curve. Gesture recognition supplements noisy scenarios, offering multimodal interaction. Scene engine reduces manual steps, enhancing commute continuity. \n\n【Potential Friction】Cloud-dependent LLM may lag or degrade on poor networks; continuous visual perception drains battery and raises privacy concerns (e.g., in-car recording) requiring explicit consent; gesture recognition may misfire in bright light or occlusion."
+        },
+        {
+          "title": "蔚来推送Banyan 榕 2.6.5 更新：智能驾驶升级，ES8车型二排体验优化",
+          "url": "https://k.sina.cn/article_7857141524_1d452771401902owge.html",
+          "site_name": "新浪",
+          "publish_date": "2026-05-19",
+          "tags": [
+            "蔚来",
+            "Banyan",
+            "OTA",
+            "场景模式"
+          ],
+          "summary": "【事件概述】蔚来汽车推送Banyan·榕 2.6.5 CN版本更新，带来超20项功能新增及优化。核心软件创新包括：1）NOMI人工智能伙伴升级，新增“情感记忆”功能，可记住用户偏好（如常听的播客、座椅位置）并在特定场景主动提醒（如“今天周三，您常听的播客更新了”）；2）ES8车型二排体验优化，新增“老板键”虚拟化控制，通过中控屏或语音调节副驾座椅位置，为后排乘客腾出空间；3）场景模式扩展，新增“露营模式”和“影院模式”，一键联动空调、灯光、音响和屏幕，营造沉浸氛围。此外，智能驾驶部分优化了自动变道和匝道汇入的平顺性。\n\n【体验价值】NOMI情感记忆功能让AI助手更具人性化，通过主动关怀提升用户粘性；虚拟老板键简化了后排空间调节流程，无需物理按键即可操作；场景模式一键切换减少多步设置，提升便利性和仪式感。\n\n【潜在槽点】情感记忆可能被用户视为“过度监控”，隐私担忧增加；虚拟老板键依赖中控屏操作，行驶中调节可能分散注意力；场景模式若预设不合理（如影院模式亮度太低），用户需手动调整，反而增加步骤。",
+          "summary_en": "【Event Overview】NIO pushes Banyan·Rong 2.6.5 CN update with 20+ new features and optimizations. Key software innovations: 1) NOMI AI partner upgrade with 'emotional memory', remembering user preferences (e.g., frequent podcasts, seat position) and proactively reminding (e.g., 'It's Wednesday, your podcast updated'); 2) ES8 second-row experience optimization with virtual 'boss button' via center screen or voice to adjust front passenger seat for rear space; 3) Expanded scene modes, adding 'Camping Mode' and 'Cinema Mode', one-tap linking AC, lights, audio, and screen. ADAS optimizes lane change and ramp merging smoothness. \n\n【Experience Value】NOMI emotional memory makes AI more human-like, boosting user engagement via proactive care; virtual boss button simplifies rear space adjustment without physical buttons; scene modes reduce multi-step settings, enhancing convenience and ceremony. \n\n【Potential Friction】Emotional memory may be seen as 'over-monitoring', raising privacy concerns; virtual boss button relies on center screen, potentially distracting during driving; poorly preset scene modes (e.g., cinema mode too dim) may require manual tweaks, adding steps instead."
+        }
+      ],
+      "created_at": "2026-05-25 14:44:55"
+    },
+    {
       "date": "2026-05-24",
       "date_display": "05月24日",
       "weekday": "周日",
