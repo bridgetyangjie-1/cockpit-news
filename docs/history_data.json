@@ -1,6 +1,74 @@
 {
   "records": [
     {
+      "date": "2026-05-26",
+      "date_display": "05月26日",
+      "weekday": "周二",
+      "news_count": 4,
+      "news": [
+        {
+          "title": "AI重构智能座舱体验，鸿蒙生态开启“智”变元年",
+          "url": "https://k.sina.cn/article_7857141524_1d452771401902tn26.html",
+          "site_name": "K",
+          "publish_date": "2026-05-26",
+          "tags": [
+            "华为",
+            "鸿蒙座舱",
+            "大模型",
+            "AI驱动",
+            "融合感知"
+          ],
+          "summary": "【事件概述】2026年鸿蒙座舱生态论坛释放明确信号：智能座舱竞争已进入由大模型和融合感知定义的“AI驱动”新阶段。华为乾崑凭借鸿蒙生态底层优势，构建不同于手机和平板使用场景逻辑的座舱体验，真正融入鸿蒙大生态。核心创新在于将大模型能力深度嵌入座舱OS，实现多模态感知融合（语音、视觉、手势等），并基于用户场景动态调整交互策略，例如根据驾驶员疲劳状态自动切换氛围、调整导航提示频率。\n\n【体验价值】从UX视角看，AI驱动使座舱从“被动响应”进化为“主动预判”，减少用户操作层级。融合感知让交互更自然，例如通过视线追踪和手势识别实现“无感”控制，降低驾驶分心风险。\n\n【潜在槽点】大模型实时推理对车端算力要求极高，可能导致响应延迟或功耗增加。隐私风险突出：多模态感知需持续采集车内音视频数据，用户对数据存储和使用的透明度存疑。",
+          "summary_en": "【Event Overview】The 2026 Hongmeng Cockpit Ecosystem Forum signaled a clear shift: smart cockpit competition has entered an 'AI-driven' phase defined by large models and fusion perception. Huawei Qiankun leverages the Hongmeng ecosystem to build a cockpit experience distinct from phones/tablets, deeply integrating large models for multimodal perception (voice, vision, gesture) and dynamically adjusting interaction strategies based on user scenarios, e.g., auto-switching ambiance based on driver fatigue. \n\n【Experience Value】From a UX perspective, AI-driven evolution transforms the cockpit from 'passive response' to 'proactive prediction,' reducing user operation layers. Fusion perception enables more natural interactions, like gaze and gesture control, minimizing driving distraction. \n\n【Potential Friction】Real-time large model inference demands high on-board computing power, potentially causing latency or increased power consumption. Privacy risks are prominent: continuous audio/video data collection raises user concerns about data storage and usage transparency."
+        },
+        {
+          "title": "鸿蒙智行五月 OTA 升级陆续开启推送：ADS、座舱等 17 项新增功能，36 项体验优化",
+          "url": "https://www.ithome.com/0/954/974.htm",
+          "site_name": "IT之家",
+          "publish_date": "2026-05-25",
+          "tags": [
+            "华为",
+            "鸿蒙智行",
+            "OTA",
+            "ADS",
+            "座舱升级"
+          ],
+          "summary": "【事件概述】鸿蒙智行于2026年5月25日官宣五月OTA升级陆续推送，包含17项新增功能和36项体验优化。核心亮点是华为乾崑智驾ADS体验升级，包括eAES（增强型自动紧急转向）能力提升，以及座舱交互的精细化改进。新增功能涵盖语音助手多轮对话优化、导航界面信息密度调整、空调控制面板快捷操作等。OTA覆盖问界、智界等多款车型，体现鸿蒙生态的持续迭代能力。\n\n【体验价值】大规模OTA升级直接提升用户长期使用满意度，无需换车即可获得新功能。36项体验优化聚焦细节，如减少导航信息冗余、优化语音打断逻辑，降低用户学习成本，使日常操作更流畅。\n\n【潜在槽点】OTA推送分批进行，部分用户等待时间较长，可能引发不满。新增功能过多可能导致界面复杂度上升，部分用户需重新适应布局。eAES等安全功能升级需确保极端场景下的可靠性，避免误触发。",
+          "summary_en": "【Event Overview】On May 25, 2026, HarmonyOS Smart Mobility announced a May OTA update with 17 new features and 36 experience optimizations. Key highlights include enhanced eAES (Automatic Emergency Steering) for ADS and refined cockpit interactions, such as improved voice assistant multi-turn dialogue, optimized navigation info density, and quick-access AC controls. The update covers multiple models like AITO and Luxeed, showcasing the Hongmeng ecosystem's iterative capability. \n\n【Experience Value】Large-scale OTA directly boosts long-term user satisfaction, delivering new features without hardware replacement. The 36 optimizations focus on details like reducing navigation info clutter and improving voice interruption logic, lowering learning costs and making daily operations smoother. \n\n【Potential Friction】Staged OTA rollout may cause impatience among users waiting for updates. Too many new features could increase interface complexity, requiring re-adaptation. Safety upgrades like eAES must ensure reliability in extreme scenarios to avoid false activations."
+        },
+        {
+          "title": "均胜电子新一代AI座舱方案亮相英特尔生态创新大会",
+          "url": "http://www.zqrb.cn/gscy/gongsi/2026-05-25/A1779699789428.html",
+          "site_name": "证券日报网",
+          "publish_date": "2026-05-25",
+          "tags": [
+            "均胜电子",
+            "英特尔",
+            "多芯片平台",
+            "AI座舱",
+            "舱驾融合"
+          ],
+          "summary": "【事件概述】均胜电子在英特尔生态创新大会上展示新一代AI座舱方案，其技术路线为“多芯片平台+生态合作”。方案基于高通、英伟达、地平线、黑芝麻智能等芯片平台，打造智能座舱及覆盖L2至L4智驾的全栈式产品。核心创新在于舱驾融合：将座舱域与智驾域打通，实现数据共享和算力协同，例如利用智驾摄像头数据优化座舱内用户状态监测，或通过座舱语音指令直接控制智驾功能（如变道、泊车）。\n\n【体验价值】舱驾融合带来更连贯的交互体验：用户无需在座舱和智驾系统间切换，语音即可控制驾驶功能，减少操作步骤。多芯片平台策略确保方案灵活适配不同车型，降低车企集成成本，间接惠及用户。\n\n【潜在槽点】多芯片平台增加系统复杂度，可能导致软件兼容性问题或OTA升级延迟。舱驾融合对安全要求极高，座舱与智驾数据共享可能引入新的攻击面，需严格隔离关键功能。实际落地中，跨域协同的实时性挑战可能影响用户体验。",
+          "summary_en": "【Event Overview】At the Intel Ecosystem Innovation Conference, Joyson Electronics showcased its next-gen AI cockpit solution, based on a 'multi-chip platform + ecosystem cooperation' approach. The solution leverages chips from Qualcomm, NVIDIA, Horizon Robotics, and Black Sesame to build smart cockpit and full-stack L2-L4 ADAS products. Key innovation is cockpit-driving fusion: integrating cockpit and ADAS domains for data sharing and compute synergy, e.g., using ADAS camera data to optimize in-cabin user monitoring, or voice commands to control driving functions like lane changes or parking. \n\n【Experience Value】Cockpit-driving fusion delivers a more seamless interaction: users can control driving functions via voice without switching between systems, reducing steps. The multi-chip strategy ensures flexible adaptation to different vehicle models, lowering integration costs for OEMs, indirectly benefiting users. \n\n【Potential Friction】Multi-chip platforms increase system complexity, potentially causing software compatibility issues or OTA update delays. Fusion raises safety concerns: data sharing between domains may introduce new attack surfaces, requiring strict isolation of critical functions. Real-time cross-domain coordination challenges may impact user experience in practice."
+        },
+        {
+          "title": "小车装下2万个APP？埃安UT把“应用商店”搬进了车里！",
+          "url": "https://www.douyin.com/video/7641132193045171462",
+          "site_name": "抖音",
+          "publish_date": "2026-05-21",
+          "tags": [
+            "埃安",
+            "应用商店",
+            "车载APP",
+            "生态扩展"
+          ],
+          "summary": "【事件概述】埃安UT车型宣称将“应用商店”搬进车里，支持超过2万个车载APP。这一创新点在于将手机应用生态大规模迁移至车机，涵盖导航、音乐、视频、游戏、办公等类别，用户可通过车机直接下载安装，无需手机互联。埃安UT通过开放API和适配框架，使开发者能快速将手机APP转化为车载版本，并针对驾驶场景优化交互（如简化界面、支持语音控制）。\n\n【体验价值】2万个APP极大丰富座舱生态，满足用户个性化需求，如车载K歌、在线学习等。应用商店模式降低用户寻找和安装APP的门槛，类似手机体验，减少学习成本。针对驾驶场景的适配（如语音控制）提升安全性和便利性。\n\n【潜在槽点】大量APP可能导致车机存储和性能压力，影响系统流畅度。APP质量参差不齐，部分可能未充分适配驾驶场景，存在分心风险。应用商店的审核和更新机制若不到位，可能引入安全漏洞或隐私泄露问题。用户可能因选择过多而陷入“选择瘫痪”，反而降低体验。",
+          "summary_en": "【Event Overview】The Aion UT claims to bring an 'app store' into the car, supporting over 20,000 in-vehicle apps. The innovation lies in massively migrating the mobile app ecosystem to the car, covering navigation, music, video, games, office, etc., allowing direct download and installation without phone connectivity. Aion UT uses open APIs and adaptation frameworks to enable developers to quickly convert mobile apps into in-vehicle versions, optimized for driving scenarios (e.g., simplified UI, voice control support). \n\n【Experience Value】20,000 apps greatly enrich the cockpit ecosystem, meeting personalized needs like in-car karaoke or online learning. The app store model lowers the barrier for finding and installing apps, similar to phone experience, reducing learning costs. Adaptation for driving scenarios (e.g., voice control) enhances safety and convenience. \n\n【Potential Friction】A large number of apps may strain car storage and performance, affecting system smoothness. App quality varies; some may not be fully adapted for driving, posing distraction risks. Inadequate review and update mechanisms could introduce security vulnerabilities or privacy leaks. Users may suffer from 'choice paralysis' due to excessive options, degrading experience."
+        }
+      ],
+      "created_at": "2026-05-26 14:15:20"
+    },
+    {
       "date": "2026-05-25",
       "date_display": "05月25日",
       "weekday": "周一",
