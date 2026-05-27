@@ -1,6 +1,45 @@
 {
   "records": [
     {
+      "date": "2026-05-27",
+      "date_display": "05月27日",
+      "weekday": "周三",
+      "news_count": 2,
+      "news": [
+        {
+          "title": "蔚来 ES9 官宣首发蔚来世界模型全新版本，6 月同步推送至 Banyan、Cedar 系统",
+          "url": "https://www.ithome.com/0/955/695.htm",
+          "site_name": "IT之家",
+          "publish_date": "2026-05-27",
+          "tags": [
+            "蔚来",
+            "Banyan",
+            "世界模型",
+            "AI",
+            "OTA"
+          ],
+          "summary": "【事件概述】2026年5月27日，蔚来宣布ES9行政旗舰SUV将首发蔚来世界模型全新版本，并于6月同步推送至搭载Banyan、Cedar、Cedar S智能系统的全量车型。该世界模型采用“世界模型+闭环强化学习”技术架构，旨在提升智能辅助驾驶的泛化能力与决策安全性。核心创新在于：模型能基于实时感知数据生成高保真未来场景预测，例如预测行人轨迹、车辆变道意图等，从而提前规划最优路径。此外，该版本还优化了座舱内的多模态交互，支持更自然的语音与手势融合控制，例如用户指向窗外并说“那是什么”，系统可识别目标并显示相关信息。蔚来强调，该模型覆盖Orin与神玑NX9031等不同硬件平台，体现跨平台适配能力。\n\n【体验价值】世界模型的预测能力让辅助驾驶更“类人”，减少急刹或犹豫感，提升用户信任度。多模态交互的升级降低了学习门槛，用户无需记忆特定指令，通过自然动作与语言即可完成操作，尤其适合驾驶中的快速交互。跨平台推送确保了老用户也能享受新功能，增强了品牌忠诚度。\n\n【潜在槽点】世界模型对算力要求高，低算力平台（如Orin）上的预测精度可能不如高算力平台，导致体验差异。多模态交互在嘈杂环境或光线不足时可能识别失败，引发用户挫败感。闭环强化学习依赖大量真实数据，初期可能因数据不足而出现决策偏差，需持续迭代优化。",
+          "summary_en": "【Event Overview】On May 27, 2026, NIO announced that the ES9 executive flagship SUV will debut a new version of the NIO World Model, which will be pushed to all models equipped with Banyan, Cedar, and Cedar S systems in June. The model adopts a 'World Model + Closed-Loop Reinforcement Learning' architecture to enhance the generalization and decision safety of intelligent assisted driving. Key innovations include generating high-fidelity future scenario predictions based on real-time perception data, such as predicting pedestrian trajectories and vehicle lane-change intentions, enabling proactive path planning. The update also optimizes in-cabin multimodal interaction, supporting more natural voice and gesture fusion control, e.g., pointing out the window and saying 'What is that?' to identify and display relevant information. NIO emphasizes cross-platform compatibility across Orin and Shenji NX9031 chips.\n\n【Experience Value】The world model's predictive capability makes assisted driving more 'human-like,' reducing abrupt braking or hesitation, thereby boosting user trust. The multimodal interaction upgrade lowers the learning curve, allowing users to operate without memorizing specific commands, especially useful during driving. Cross-platform push ensures existing users can also enjoy new features, enhancing brand loyalty.\n\n【Potential Friction】The world model demands high computational power; prediction accuracy on lower-end platforms (e.g., Orin) may be inferior to high-end ones, causing experience disparities. Multimodal interaction may fail in noisy or low-light environments, leading to user frustration. Closed-loop reinforcement learning relies on extensive real-world data; initial data scarcity may cause decision errors, requiring continuous iteration."
+        },
+        {
+          "title": "尊界S800发布五月OTA升级 辅助驾驶与座舱功能优化",
+          "url": "https://www.163.com/dy/article/KTQ8999B051191D6.html",
+          "site_name": "网易",
+          "publish_date": "2026-05-26",
+          "tags": [
+            "尊界",
+            "OTA",
+            "语音交互",
+            "账号同步",
+            "座舱"
+          ],
+          "summary": "【事件概述】2026年5月26日，尊界S800发布五月OTA升级，重点优化辅助驾驶与座舱功能。座舱方面，新增智慧控车能力，用户可通过自然语言完成空调、车窗、多媒体等控制，例如“打开副驾车窗一半”或“调高空调温度”。输入法逻辑优化，提升车内文本输入效率，支持语音转文字与手写混合输入。针对多人用车场景，新版本强化了账号与个性化设置同步能力，不同用户上车后，系统可自动识别并恢复座椅位置、后视镜角度、音乐偏好等设置。辅助驾驶方面，升级了自适应巡航与车道保持的平顺性，减少顿挫感。此外，系统还优化了蓝牙连接稳定性与导航路线规划算法。\n\n【体验价值】智慧控车通过自然语言降低了操作门槛，用户无需记忆特定指令，尤其适合驾驶中的快速操作。账号同步功能解决了家庭或共享用车场景下的设置冲突问题，每次上车都能获得个性化体验，提升了便利性与归属感。输入法优化则提升了临时输入目的地或搜索内容的效率，减少驾驶分心。\n\n【潜在槽点】自然语言控制可能因方言或口音差异导致识别错误，需提供备选操作方式。账号同步依赖网络连接，在信号弱的地下车库可能失败，需本地缓存机制。输入法优化若过度依赖语音，可能忽略用户对隐私的顾虑，例如车内对话被误识别为指令。",
+          "summary_en": "【Event Overview】On May 26, 2026, Zunjie S800 released its May OTA update, focusing on assisted driving and cockpit optimization. In the cockpit, new smart vehicle control capabilities allow users to control AC, windows, and multimedia via natural language, e.g., 'Open the passenger window halfway' or 'Increase AC temperature.' Input method logic is optimized for in-car text input efficiency, supporting mixed voice-to-text and handwriting input. For multi-user scenarios, the update enhances account and personalized settings synchronization; different users can automatically restore seat position, mirror angle, music preferences, etc., upon entering the vehicle. Assisted driving upgrades include smoother adaptive cruise control and lane keeping, reducing jerkiness. Bluetooth connection stability and navigation route planning algorithms are also improved.\n\n【Experience Value】Smart vehicle control via natural language lowers the learning curve, especially for quick operations during driving. Account synchronization resolves setting conflicts in shared or family vehicle scenarios, providing a personalized experience each time, enhancing convenience and sense of belonging. Input method optimization improves efficiency for temporary destination entry or searches, reducing driving distraction.\n\n【Potential Friction】Natural language control may fail due to dialect or accent differences, requiring alternative operation methods. Account synchronization relies on network connectivity; it may fail in weak-signal areas like underground garages, necessitating local caching. Over-reliance on voice for input may overlook user privacy concerns, e.g., in-car conversations being misrecognized as commands."
+        }
+      ],
+      "created_at": "2026-05-27 14:37:13"
+    },
+    {
       "date": "2026-05-26",
       "date_display": "05月26日",
       "weekday": "周二",
