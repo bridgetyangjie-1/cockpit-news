@@ -1,6 +1,45 @@
 {
   "records": [
     {
+      "date": "2026-05-28",
+      "date_display": "05月28日",
+      "weekday": "周四",
+      "news_count": 2,
+      "news": [
+        {
+          "title": "云游戏接入鸿蒙智能座舱,咪咕快游携手华为打造车载娱乐沉浸场景",
+          "url": "https://k.sina.com.cn/article_7857141524_1d452771401902snoa.html",
+          "site_name": "K",
+          "publish_date": "2024-04-25",
+          "tags": [
+            "华为",
+            "鸿蒙座舱",
+            "云游戏",
+            "车载娱乐",
+            "生态合作"
+          ],
+          "summary": "【事件概述】2024年4月，中国移动咪咕快游与华为合作，将云游戏解决方案接入鸿蒙智能座舱。核心创新包括：1）无需下载，即点即玩：通过5G网络流式传输游戏，用户可在停车或充电时畅玩《原神》等大作；2）多屏协同：游戏画面可投射到中控屏、副驾屏或后排屏，支持手柄或触控操作；3）场景化推荐：根据用户行程（如长途充电）自动推荐游戏时长匹配的内容。该方案利用华为昇腾AI芯片优化渲染延迟，目标实现<30ms响应。\n\n【体验价值】云游戏消除了存储和性能限制，让车载娱乐从被动观看转向主动互动，尤其适合充电等待场景。多屏协同支持家庭共享，提升后排乘客参与感。\n\n【潜在槽点】云游戏依赖稳定5G网络，信号弱时可能出现卡顿或画质下降，影响沉浸感。游戏操作与驾驶安全冲突，需严格限制行驶中启用，但用户可能误操作。",
+          "summary_en": "【Event Overview】In April 2024, China Mobile's Migu Quick Game partnered with Huawei to integrate cloud gaming into HarmonyOS smart cockpits. Key innovations include: 1) Instant play without download via 5G streaming, enabling titles like Genshin Impact; 2) Multi-screen collaboration for projection on center, passenger, or rear screens with controller/touch support; 3) Contextual recommendations based on trip (e.g., charging stops). The solution leverages Huawei Ascend AI chips to optimize latency, targeting <30ms response.\n\n【Experience Value】Cloud gaming eliminates storage and performance limits, transforming in-car entertainment from passive viewing to active interaction, ideal for charging waits. Multi-screen support enables family sharing, boosting rear-seat engagement.\n\n【Potential Friction】Cloud gaming relies on stable 5G; weak signals may cause lag or quality drops, ruining immersion. Game controls conflict with driving safety, requiring strict restrictions during motion, but user misoperation risks remain."
+        },
+        {
+          "title": "均联智行：携座舱 Ai 智娱中心亮相英特尔大会 共建端侧 Ai 出行新生态",
+          "url": "https://www.chinaautosupplier.com/show_article-89879.html",
+          "site_name": "中国汽车供应商网",
+          "publish_date": "2026-05-25",
+          "tags": [
+            "均联智行",
+            "端侧AI",
+            "车载娱乐",
+            "边缘计算",
+            "生态合作"
+          ],
+          "summary": "【事件概述】2026年5月25日，均联智行在英特尔边缘AI产业生态创新大会上展示了“座舱AI智娱中心”。核心创新包括：1）端侧AI推理：基于英特尔芯片，在车机本地运行AI模型，实现低延迟的语音识别、图像处理和个性化推荐，无需联网；2）多模态娱乐：支持AI生成内容（如根据用户心情生成音乐播放列表）、实时游戏渲染和AR导航；3）开放生态：提供SDK供第三方开发者接入，例如健身应用可调用摄像头分析用户姿势。该方案强调隐私保护，数据不出车。\n\n【体验价值】端侧AI消除了网络依赖，确保在隧道等无信号区域也能流畅交互，提升可靠性。个性化娱乐如AI生成歌单增强了情感连接，AR导航则直观化路线信息。\n\n【潜在槽点】端侧AI算力受限，复杂任务（如高清游戏渲染）可能性能不足，导致体验降级。开放SDK可能引入安全漏洞，第三方应用权限管理不当会威胁隐私。",
+          "summary_en": "【Event Overview】On May 25, 2026, Joyson Electronics showcased the 'Cockpit AI Entertainment Center' at Intel's Edge AI Ecosystem Innovation Conference. Key innovations include: 1) On-device AI inference: Local AI models on Intel chips enable low-latency voice recognition, image processing, and personalized recommendations without internet; 2) Multimodal entertainment: AI-generated content (e.g., music playlists based on mood), real-time game rendering, and AR navigation; 3) Open ecosystem: SDK for third-party developers, e.g., fitness apps using cameras for posture analysis. The solution emphasizes privacy with data staying in-car.\n\n【Experience Value】On-device AI eliminates network dependency, ensuring smooth interaction in tunnels, boosting reliability. Personalized entertainment like AI-generated playlists enhances emotional connection, while AR navigation visualizes routes intuitively.\n\n【Potential Friction】On-device AI has limited compute power; complex tasks like HD game rendering may underperform, degrading experience. Open SDKs may introduce security vulnerabilities; poor permission management of third-party apps could threaten privacy."
+        }
+      ],
+      "created_at": "2026-05-28 14:21:22"
+    },
+    {
       "date": "2026-05-27",
       "date_display": "05月27日",
       "weekday": "周三",
