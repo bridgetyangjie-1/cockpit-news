@@ -1,6 +1,71 @@
 {
   "records": [
     {
+      "date": "2026-05-30",
+      "date_display": "05月30日",
+      "weekday": "周六",
+      "news_count": 4,
+      "news": [
+        {
+          "title": "比亚迪上线手车互联:三大生态赋能，打造智能出行新体验",
+          "url": "https://k.sina.com.cn/article_7857141524_1d452771401902c33i.html",
+          "site_name": "新浪网",
+          "publish_date": "2026-05-30",
+          "tags": [
+            "比亚迪",
+            "DiLink",
+            "手车互联",
+            "生态融合"
+          ],
+          "summary": "【事件概述】比亚迪宣布上线手车互联功能，成为行业内首家实现Carlink、HUAWEI HiCar、荣耀车联三大手车互联生态全覆盖的汽车品牌。该功能支持“摇一摇导航上车”，用户只需在手机上摇一摇，即可将导航信息无缝流转至车机屏幕。此外，比亚迪还整合了通义大模型，提供智能语音助手和场景化服务推荐。这一举措打破了手机与车机之间的生态壁垒，让用户无需更换手机品牌即可享受深度互联体验。OTA推送计划已公布，覆盖比亚迪旗下多款车型。\n\n【体验价值】“摇一摇导航上车”极大简化了导航设置流程，从手机到车机的信息流转几乎无感，降低了驾驶前的操作负担。三大生态全覆盖意味着用户无需受限于单一手机品牌，提升了兼容性和选择自由度。通义大模型的加入，使语音助手能理解更复杂的自然语言指令，如“找最近的充电站并规划避开拥堵的路线”，增强了出行效率。\n\n【潜在槽点】手车互联依赖手机和车机同时支持特定协议，若用户手机系统版本过旧，可能无法使用全部功能。隐私方面，导航信息等敏感数据在手机与车机间传输，若加密不足，存在泄露风险。此外，“摇一摇”触发方式可能因误操作导致频繁启动，造成交互冗余。",
+          "summary_en": "【Event Overview】BYD launched its hand-car connectivity feature, becoming the first automaker to fully support three major ecosystems: Carlink, HUAWEI HiCar, and Honor Car Connect. The feature includes 'shake to navigate'—users shake their phone to seamlessly transfer navigation to the car screen. BYD also integrates Tongyi Qianwen LLM for intelligent voice assistant and scenario-based service recommendations. This breaks down ecosystem barriers, allowing users to enjoy deep connectivity regardless of phone brand. OTA rollout covers multiple BYD models. \n\n【Experience Value】'Shake to navigate' greatly simplifies navigation setup, with near-seamless information transfer from phone to car, reducing pre-driving operational burden. Full ecosystem coverage enhances compatibility and user freedom. The LLM integration enables the voice assistant to understand complex natural language commands, improving travel efficiency. \n\n【Potential Friction】Functionality depends on both phone and car supporting specific protocols; older phone OS versions may not work. Privacy risks exist if navigation data is not encrypted during transfer. The 'shake' trigger may cause accidental activations, leading to interaction redundancy."
+        },
+        {
+          "title": "佑驾创新携座舱大模型BamBam...",
+          "url": "https://www.cnstock.com/commonDetail/519451",
+          "site_name": "中国证券网",
+          "publish_date": "2026-05-30",
+          "tags": [
+            "佑驾创新",
+            "BamBam",
+            "大模型",
+            "语音助手"
+          ],
+          "summary": "【事件概述】佑驾创新发布了座舱智能管家BamBam，采用“端云结合”技术架构，以“大模型+小模型”实现效率与性能的平衡。BamBam具备多模态交互能力，支持语音、手势、视线等多种输入方式，并能根据驾驶场景主动提供服务，如检测到驾驶员疲劳时自动调节空调和播放提神音乐。其“云上+端上”架构确保个人数据在本地处理，敏感信息不上云，兼顾隐私与流畅体验。BamBam还支持个性化学习，能根据用户习惯调整座舱设置，如座椅位置、音乐偏好等。\n\n【体验价值】多模态交互让用户在不同场景下选择最自然的交互方式，如驾驶时用语音、停车时用手势，提升了灵活性和安全性。主动服务能力减少了用户主动操作的需求，例如疲劳检测后的自动调节，体现了“无感”智能。端云结合架构在保护隐私的同时，保证了复杂任务的响应速度，增强了用户信任感。\n\n【潜在槽点】多模态交互可能增加系统复杂度，手势和视线识别在强光或驾驶员佩戴墨镜时准确率下降。个性化学习需要大量数据积累，初期可能无法准确理解用户偏好，导致推荐不精准。此外，“端云结合”对本地硬件算力要求较高，老车型可能无法流畅运行。",
+          "summary_en": "【Event Overview】Youjia Innovation launched the cockpit smart butler BamBam, using an 'end-cloud combined' architecture with 'big model + small model' for efficiency and performance balance. BamBam supports multimodal interaction (voice, gesture, gaze) and proactively provides services based on driving scenarios, such as detecting driver fatigue and automatically adjusting AC and playing alert music. Its 'cloud + on-device' architecture ensures personal data is processed locally, balancing privacy and smooth experience. BamBam also supports personalized learning to adapt cockpit settings like seat position and music preferences. \n\n【Experience Value】Multimodal interaction allows users to choose the most natural input method in different scenarios, enhancing flexibility and safety. Proactive service reduces user operation needs, embodying 'seamless' intelligence. The end-cloud architecture protects privacy while ensuring response speed for complex tasks, building user trust. \n\n【Potential Friction】Multimodal interaction increases system complexity; gesture and gaze recognition accuracy may drop in bright light or when the driver wears sunglasses. Personalized learning requires large data accumulation, leading to inaccurate recommendations initially. The 'end-cloud' architecture demands high local hardware performance, potentially causing lag on older models."
+        },
+        {
+          "title": "尊界S800发布五月OTA升级 辅助驾驶与座舱功能优化",
+          "url": "https://www.bitauto.com/article/1003110229506/",
+          "site_name": "易车",
+          "publish_date": "2026-05-25",
+          "tags": [
+            "尊界",
+            "鸿蒙座舱",
+            "OTA",
+            "账号同步"
+          ],
+          "summary": "【事件概述】尊界S800发布五月OTA升级，重点优化辅助驾驶与座舱功能。座舱方面，新增智慧控车能力，用户可通过更自然的语音指令控制空调、车窗、多媒体等功能。输入法与车机交互逻辑也进行了优化，提升车内文本输入效率，例如支持语音转文字和手写输入。针对多人用车场景，新版本强化了账号与个性化设置同步能力，不同用户进入车内后能快速恢复座椅、后视镜、音乐偏好等设置。此外，还优化了萌宠主题壁纸和仪表盘车模颜色自定义功能，提升视觉个性化体验。\n\n【体验价值】智慧控车能力通过自然语音指令降低了操作门槛，例如说“我有点冷”即可自动调高空调温度，更符合人类直觉。账号同步功能解决了家庭或共享用车场景下的配置混乱问题，每次上车无需手动调整，提升了便利性。输入法优化让导航地址输入或搜索更高效，减少驾驶分心。视觉个性化选项增加了座舱的情感化体验，让用户感觉车辆更“懂”自己。\n\n【潜在槽点】智慧控车依赖语音识别准确率，在嘈杂环境或方言场景下可能误判。账号同步功能需要用户提前登录并授权，若网络不佳可能导致同步失败。输入法优化可能增加界面复杂度，部分用户可能觉得传统按键输入更习惯，学习成本较高。",
+          "summary_en": "【Event Overview】Zunjie S800 released a May OTA update focusing on ADAS and cockpit optimization. New smart control capabilities allow natural voice commands for AC, windows, and multimedia. Input method and interaction logic are optimized for efficient text input, supporting voice-to-text and handwriting. Account synchronization is enhanced for multi-user scenarios, quickly restoring seat, mirror, and music preferences. Visual personalization options like pet-themed wallpapers and dashboard car model colors are also added. \n\n【Experience Value】Smart control via natural voice reduces operation barriers, e.g., saying 'I'm cold' automatically adjusts AC temperature, aligning with human intuition. Account synchronization solves configuration chaos in shared car scenarios, improving convenience. Input optimization makes navigation address entry more efficient, reducing distraction. Visual personalization adds emotional connection, making the car feel more 'understanding'. \n\n【Potential Friction】Smart control relies on voice recognition accuracy, which may fail in noisy environments or with dialects. Account sync requires prior login and authorization; poor network may cause sync failure. Input optimization may increase interface complexity; some users may prefer traditional key input, leading to a learning curve."
+        },
+        {
+          "title": "AI大模型“神仙打架”上车:你的下一辆车,可能比你还懂你",
+          "url": "https://k.sina.com.cn/article_7857141524_1d452771401902vvr6.html",
+          "site_name": "新浪网",
+          "publish_date": "2026-05-30",
+          "tags": [
+            "小米",
+            "澎湃OS",
+            "大模型",
+            "语音助手"
+          ],
+          "summary": "【事件概述】2026年3月小米SU7发布会上，雷军发布了三款面向Agent时代的自研大模型：旗舰基座模型Xiaomi MiMo-V2-Pro、全模态大模型Xiaomi MiMo-V2-Omni、语音大模型Xiaomi MiMo-V2-Voice。这些模型将深度集成到小米澎湃OS中，赋能车机系统。MiMo-V2-Omni支持文本、图像、语音、视频等多模态输入，能理解用户意图并主动执行复杂任务，例如根据用户说“我想去一个安静的地方吃火锅”，自动搜索并推荐餐厅、规划路线、预订座位。语音大模型则专注于提升语音交互的自然度和上下文理解能力。\n\n【体验价值】多模态大模型让车机从被动响应变为主动服务，用户只需表达模糊意图，系统即可完成多步骤任务，极大降低了操作复杂度。例如，一句话即可完成餐厅搜索、导航、预订，节省了多次点击的时间。语音大模型的上下文理解能力让多轮对话更流畅，用户无需重复关键信息，提升了交互效率。这种“懂你”的体验增强了用户对智能座舱的依赖感和满意度。\n\n【潜在槽点】大模型依赖云端算力，网络不佳时响应延迟或功能降级，影响体验。多模态理解可能因训练数据偏差导致推荐不准确，例如推荐的餐厅不符合用户真实口味。隐私方面，用户意图数据上传云端存在泄露风险，若本地处理能力不足，可能引发用户对数据安全的担忧。",
+          "summary_en": "【Event Overview】At the March 2026 Xiaomi SU7 launch, Lei Jun unveiled three self-developed LLMs for the Agent era: flagship base model MiMo-V2-Pro, full-modal model MiMo-V2-Omni, and voice model MiMo-V2-Voice. These will deeply integrate into Xiaomi HyperOS to power the cockpit. MiMo-V2-Omni supports text, image, voice, and video inputs, understanding user intent and proactively executing complex tasks, e.g., searching for restaurants, planning routes, and booking tables based on 'I want to eat hotpot in a quiet place'. The voice model focuses on naturalness and context understanding. \n\n【Experience Value】Multimodal LLMs transform the cockpit from passive response to proactive service. Users only need to express vague intent, and the system completes multi-step tasks, greatly reducing operation complexity. For example, one sentence can handle restaurant search, navigation, and booking. Context understanding makes multi-turn dialogue smoother, improving interaction efficiency. This 'understanding' experience enhances user satisfaction and reliance on the smart cockpit. \n\n【Potential Friction】LLMs rely on cloud computing; poor network causes response delays or feature degradation. Multimodal understanding may produce inaccurate recommendations due to training data bias. Privacy risks exist as user intent data is uploaded to the cloud; if local processing is insufficient, users may worry about data security."
+        }
+      ],
+      "created_at": "2026-05-30 13:54:51"
+    },
+    {
       "date": "2026-05-29",
       "date_display": "05月29日",
       "weekday": "周五",
