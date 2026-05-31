@@ -1,6 +1,58 @@
 {
   "records": [
     {
+      "date": "2026-05-31",
+      "date_display": "05月31日",
+      "weekday": "周日",
+      "news_count": 3,
+      "news": [
+        {
+          "title": "微信生态融合AI大模型：构建高活跃度智能座舱服务闭环",
+          "url": "https://cloud.tencent.com/developer/article/2677372",
+          "site_name": "Cloud",
+          "publish_date": "2026-05-29",
+          "tags": [
+            "腾讯",
+            "微信",
+            "AI大模型",
+            "生态融合"
+          ],
+          "summary": "【事件概述】腾讯智慧出行提出“AI大模型+开放生态”的融合方案，旨在将微信生态深度嵌入智能座舱。核心创新点在于：利用大模型理解用户自然语言，将微信小程序、小游戏、支付、社交等能力无缝转化为座舱服务。例如，用户可通过语音直接说“帮我订一杯咖啡，送到公司”，系统自动调用微信支付、定位、小程序下单，并规划到达时间。此外，微信小游戏生态（月活5亿+）被引入座舱，支持副驾或停车时通过语音或轻触交互游玩，无需下载。该方案还打通了车家互联，用户可通过微信控制美的、海尔等智能家居设备。\n\n【体验价值】从UX视角看，最大价值在于“零学习成本”。用户无需安装新APP或适应新交互逻辑，直接复用微信的社交、支付、服务生态，极大降低了使用门槛。非驾驶状态下，座舱内峰值停留时长已达25分钟+，微信生态的引入能有效填充这些碎片时间，提升座舱活跃度。\n\n【潜在槽点】驾驶分心风险显著。小游戏和社交互动可能诱导用户在驾驶时使用，增加安全隐患。此外，微信生态的广告和推送机制若不加限制地移植到座舱，会形成严重的交互冗余，干扰驾驶专注度。隐私方面，微信账号与车辆深度绑定，可能引发数据滥用担忧。",
+          "summary_en": "【Event Overview】Tencent Smart Mobility proposed an 'AI large model + open ecosystem' integration solution to deeply embed the WeChat ecosystem into smart cockpits. The core innovation is using large models to understand natural language, seamlessly converting WeChat mini-programs, mini-games, payments, and social features into cockpit services. For example, a user can say 'Order a coffee and deliver it to the office,' and the system automatically uses WeChat Pay, location, and mini-program ordering, while planning arrival time. Additionally, the WeChat mini-game ecosystem (500M+ MAU) is introduced for passenger or parked use via voice or light touch, without downloads. The solution also enables car-to-home control of smart devices from brands like Midea and Haier.\n\n【Experience Value】From a UX perspective, the greatest value is 'zero learning cost.' Users don't need to install new apps or adapt to new interaction logic; they directly reuse WeChat's social, payment, and service ecosystem, significantly lowering the barrier. During non-driving states, peak in-cabin dwell time has reached 25+ minutes, and WeChat's ecosystem effectively fills these fragmented moments, boosting cockpit engagement.\n\n【Potential Friction】Driving distraction risk is significant. Mini-games and social interactions may tempt use while driving, increasing safety hazards. Additionally, if WeChat's ad and push mechanisms are ported without restriction, they will create severe interaction redundancy, distracting from driving. Privacy-wise, deep binding of WeChat accounts to vehicles may raise data misuse concerns."
+        },
+        {
+          "title": "大模型驱动座舱交互进入智能体服务新阶段",
+          "url": "https://www.163.com/dy/article/KU0J4B1A05568W0A.html",
+          "site_name": "163",
+          "publish_date": "2026-05-28",
+          "tags": [
+            "AI大模型",
+            "智能体",
+            "人机交互",
+            "多模态"
+          ],
+          "summary": "【事件概述】行业分析指出，从2023至2026年，座舱交互从司机单人走向全乘员交互，但底层逻辑未变，用户与车机交互频次极低（每小时仅4-5次）。大模型上车正推动交互进入“智能体服务”新阶段。核心创新在于：座舱不再依赖传统点击、按键或指令式语音，而是通过多模态感知（视觉、听觉、触觉）和AI推理，主动提供个性化服务。例如，系统通过摄像头识别用户表情和视线方向，判断其是否对当前音乐不满，自动切换曲风；通过分析历史行为，在用户接近充电站时主动询问是否需要预约充电。这种“智能体”模式将交互从“用户驱动”转变为“场景驱动”，意图实现“零交互”的极致体验。\n\n【体验价值】从UX视角看，最大价值是“化繁为简”。用户无需主动操作，系统通过环境感知和意图推理，在正确时机提供正确服务，极大减少认知负荷和操作步骤。对于非技术用户，这种“无感”交互降低了学习门槛，使座舱真正成为“懂你”的智能空间。\n\n【潜在槽点】过度依赖AI推理可能导致“过度服务”，如频繁推荐不相关功能，形成交互冗余。多模态感知的准确性在复杂场景（如多人对话、光线变化）下可能下降，导致误判。此外，用户对“被监控”的隐私担忧可能影响接受度，尤其是摄像头持续分析表情和视线。",
+          "summary_en": "【Event Overview】Industry analysis indicates that from 2023 to 2026, cockpit interaction has shifted from driver-only to all-occupant, but the underlying logic remains unchanged, with extremely low interaction frequency (only 4-5 times per hour). Large models are driving interaction into an 'agent service' phase. The core innovation is that the cockpit no longer relies on traditional clicks, buttons, or command-based voice, but uses multi-modal perception (vision, hearing, touch) and AI reasoning to proactively provide personalized services. For example, the system recognizes user expressions and gaze direction via camera to detect dissatisfaction with current music and automatically switches genres; by analyzing historical behavior, it proactively asks if the user wants to schedule charging when approaching a station. This 'agent' model shifts interaction from 'user-driven' to 'scene-driven,' aiming for a 'zero-interaction' ultimate experience.\n\n【Experience Value】From a UX perspective, the greatest value is 'simplifying complexity.' Users don't need to actively operate; the system provides the right service at the right time through environmental perception and intent reasoning, greatly reducing cognitive load and operation steps. For non-technical users, this 'invisible' interaction lowers the learning curve, making the cockpit a truly 'understanding' smart space.\n\n【Potential Friction】Over-reliance on AI reasoning may lead to 'over-service,' such as frequent recommendations of irrelevant features, creating interaction redundancy. Multi-modal perception accuracy may degrade in complex scenarios (e.g., multi-person conversation, lighting changes), causing misjudgments. Additionally, privacy concerns about 'being monitored' may affect acceptance, especially with cameras continuously analyzing expressions and gaze."
+        },
+        {
+          "title": "长安启源Q05 OTA升级：HUAWEI HiCar 3D车控桌面与车家互联生态",
+          "url": "https://www.bilibili.com/video/BV1zcGm6cEE7/",
+          "site_name": "Bilibili",
+          "publish_date": "2026-05-27",
+          "tags": [
+            "长安",
+            "启源OS",
+            "OTA",
+            "HiCar",
+            "车家互联"
+          ],
+          "summary": "【事件概述】长安启源Q05迎来首次重磅OTA升级，首发“天枢智联”生态，核心创新包括两大功能：一是HUAWEI HiCar 3D车控桌面，将车辆3D模型作为交互主界面，用户可直接点击车门、车窗、空调等部件进行控制，支持手势旋转视角，视觉反馈实时同步车辆状态；二是美的、海尔车家互联生态，用户可通过车机语音或触控远程控制家中智能设备（如空调、灯光、扫地机器人），并支持场景联动（如“离家模式”一键关闭所有家电）。此外，升级还优化了语音助手，支持方言识别和连续对话。\n\n【体验价值】从UX视角看，3D车控桌面将抽象的控制菜单转化为直观的3D模型，用户无需记忆功能位置，通过视觉映射即可快速操作，降低了学习成本。车家互联生态打通了“车-家”场景，用户可在回家途中提前开启空调或热水器，提升生活便利性。OTA升级方式让用户无需到店即可获得新功能，体验持续进化。\n\n【潜在槽点】3D桌面虽直观，但渲染可能消耗较多系统资源，导致低配车型卡顿。车家互联依赖家庭网络和智能设备兼容性，若设备离线或协议不匹配，功能失效会引发用户挫败感。此外，远程控制家电的隐私安全（如摄像头被远程开启）需严格防护，否则可能成为安全隐患。",
+          "summary_en": "【Event Overview】Changan Qiyuan Q05 receives its first major OTA update, launching the 'Tianshu Zhilian' ecosystem. Core innovations include: 1) HUAWEI HiCar 3D car control desktop, using a 3D vehicle model as the main interaction interface. Users can directly click on doors, windows, AC, etc., for control, with gesture-based rotation and real-time visual feedback of vehicle status. 2) Midea and Haier car-to-home connectivity, allowing users to remotely control smart home devices (AC, lights, robot vacuum) via voice or touch, with scene linkage (e.g., 'Away Mode' turns off all appliances). The update also improves voice assistant with dialect recognition and continuous dialogue.\n\n【Experience Value】From a UX perspective, the 3D car control desktop transforms abstract control menus into an intuitive 3D model, eliminating the need to memorize function locations and reducing learning cost. Car-to-home connectivity bridges the 'car-home' scenario, allowing users to pre-cool AC or heat water on the way home, enhancing convenience. OTA updates enable continuous feature evolution without dealership visits.\n\n【Potential Friction】The 3D desktop may consume significant system resources, causing lag on lower-end models. Car-to-home functionality relies on home network and device compatibility; offline devices or protocol mismatches can lead to feature failure and user frustration. Additionally, remote control of home devices (e.g., cameras) requires strict privacy protection to prevent security risks."
+        }
+      ],
+      "created_at": "2026-05-31 14:29:01"
+    },
+    {
       "date": "2026-05-30",
       "date_display": "05月30日",
       "weekday": "周六",
