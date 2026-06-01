@@ -1,6 +1,61 @@
 {
   "records": [
     {
+      "date": "2026-06-01",
+      "date_display": "06月01日",
+      "weekday": "周一",
+      "news_count": 3,
+      "news": [
+        {
+          "title": "小米Q1财报：新一代澎湃OS将整合“小爱”助手和“miclaw”AI代理",
+          "url": "https://www.instagram.com/p/DY2IxkKiSA/",
+          "site_name": "Instagram",
+          "publish_date": "2026-05-27",
+          "tags": [
+            "小米",
+            "澎湃OS",
+            "AI代理",
+            "人车家全生态",
+            "语音助手"
+          ],
+          "summary": "【事件概述】小米在Q1财报中透露，预计于2026年7-8月发布的新一代澎湃OS操作系统，将深度整合“小爱”语音助手和名为“miclaw”的AI代理，旨在实现“人车家全生态”的系统级智能。这意味着，用户可以通过单一AI代理，在手机、汽车、智能家居设备间无缝执行复杂任务。例如，用户可在车内通过语音指令，让“miclaw”代理在回家途中自动开启家中空调、预约扫地机器人，并根据日历安排调整次日行程。该AI代理具备记忆和学习能力，能根据用户习惯主动提供建议，如提醒车辆保养或推荐充电站。\n\n【体验价值】“miclaw”AI代理的引入，将跨设备交互从“手动触发”升级为“意图驱动”。用户无需再分别操作不同App或设备，只需表达一个目标（如“准备回家”），系统即可自动协调多端服务。这种“无感”的生态联动，极大降低了多设备管理的认知负荷，让智能生活真正变得流畅自然。\n\n【潜在槽点】AI代理的主动建议若过于频繁或不够精准，容易变成“骚扰”，增加用户负担。跨设备任务执行依赖稳定的网络和云端服务，断网或延迟会导致体验中断。隐私方面，代理需要访问用户日历、位置、家居状态等敏感数据，数据安全和用户控制权是重大挑战。",
+          "summary_en": "【Event Overview】Xiaomi's Q1 earnings revealed that the upcoming HyperOS (July-August 2026) will deeply integrate the 'Xiaoai' assistant and a new AI agent called 'miclaw', aiming for system-level 'Human-Car-Home' ecosystem intelligence. Users can execute complex tasks across phone, car, and smart home devices via a single agent. For example, in the car, a user can command 'miclaw' to turn on home AC, schedule a robot vacuum, and adjust the next day's calendar. The agent learns user habits and proactively offers suggestions like maintenance reminders. \n\n【Experience Value】The 'miclaw' agent upgrades cross-device interaction from 'manual trigger' to 'intent-driven'. Users only need to express a goal (e.g., 'prepare for home'), and the system coordinates multiple services, significantly reducing cognitive load and making smart living seamless. \n\n【Potential Friction】Overly frequent or inaccurate proactive suggestions can become annoying. Cross-device execution relies on stable network and cloud services; interruptions degrade experience. Privacy is a major concern as the agent accesses sensitive data like calendar, location, and home status."
+        },
+        {
+          "title": "谷歌加速‘AI整合一切’愿景，LG等车企接入Gemini车载生态",
+          "url": "https://www.moomoo.com/news/post/70758823/google-accelerates-its-grand-vision-of-ai-integrating-everything-lg",
+          "site_name": "Moomoo",
+          "publish_date": "2026-05-29",
+          "tags": [
+            "谷歌",
+            "Gemini",
+            "AI语音助手",
+            "车载生态",
+            "安卓"
+          ],
+          "summary": "【事件概述】谷歌正加速推进其“AI整合一切”的愿景，LG等车企已开始接入Gemini车载生态。该生态的核心是将Gemini大模型深度嵌入车载系统，提供超越传统语音助手的智能交互能力。Gemini不仅能理解复杂的自然语言指令（如“找一家附近评分高、有充电桩的川菜馆”），还能结合车辆传感器数据（如剩余电量、驾驶模式）和用户历史偏好，提供个性化建议。例如，在电量不足时，Gemini可主动推荐沿途充电站，并询问是否需要预约。此外，Gemini支持多模态交互，能理解用户通过触摸屏或手势表达的意图，实现更自然的“看-说-点”交互。\n\n【体验价值】Gemini的引入将车载语音助手从“命令执行器”升级为“智能副驾”。用户可以用更口语化、更模糊的方式表达需求，系统能准确理解并执行，大幅降低交互门槛。多模态融合让交互更直观，例如用户指着地图上的某个点说“这里”，系统即可理解并导航，提升了操作效率和沉浸感。\n\n【潜在槽点】Gemini的云端依赖可能导致响应延迟，尤其在网络信号不佳的区域，影响交互流畅性。大模型的“幻觉”问题可能产生错误建议（如推荐已关闭的餐厅），降低用户信任。此外，谷歌生态的强绑定可能限制车企的自主定制空间，导致用户体验同质化。",
+          "summary_en": "【Event Overview】Google is accelerating its 'AI integrating everything' vision, with LG and other automakers integrating the Gemini in-car ecosystem. The core is embedding the Gemini LLM into vehicles for advanced interaction. Gemini understands complex natural language (e.g., 'find a highly-rated Sichuan restaurant with charging stations nearby') and combines sensor data (e.g., battery level) with user history for personalized suggestions. It also supports multimodal interaction, understanding touch and gesture inputs for more natural 'look-speak-point' interactions. \n\n【Experience Value】Gemini upgrades the voice assistant from a 'command executor' to an 'intelligent co-pilot'. Users can express needs in colloquial, vague terms, lowering the interaction barrier. Multimodal fusion makes interaction more intuitive, e.g., pointing at a map location and saying 'here' triggers navigation, enhancing efficiency and immersion. \n\n【Potential Friction】Cloud dependency may cause response delays in poor network areas. LLM 'hallucinations' could produce incorrect suggestions (e.g., recommending a closed restaurant), eroding trust. Google's ecosystem lock-in may limit automaker customization, leading to homogenized experiences."
+        },
+        {
+          "title": "奔驰宝马采用中国Momenta智驾和字节跳动豆包大模型",
+          "url": "https://www.instagram.com/p/DY9WVjXkoTx/",
+          "site_name": "Instagram",
+          "publish_date": "2026-05-30",
+          "tags": [
+            "奔驰",
+            "宝马",
+            "Momenta",
+            "豆包",
+            "AI语音",
+            "智驾"
+          ],
+          "summary": "【事件概述】据报道，奔驰和宝马在最新车型中采用了中国公司Momenta的智能驾驶系统，并接入字节跳动旗下的豆包大模型作为语音助手。奔驰全球首发的纯电GLC车型，其智驾系统由Momenta提供，语音助手则直接接入豆包大模型。这套组合并非仅限于一款车，2026年内将有更多车型搭载。Momenta的智驾方案以“数据驱动”和“可进化”著称，而豆包大模型则具备强大的自然语言理解和生成能力，能提供更拟人、更丰富的对话体验。这意味着传统豪华品牌正在加速拥抱中国本土的软件生态，以提升其产品的智能化水平。\n\n【体验价值】对用户而言，传统豪华品牌与本土AI公司的合作，意味着可以同时享受豪华品牌的品质感和中国领先的智能化体验。豆包大模型的接入，让语音助手能理解更复杂的上下文，进行多轮对话，甚至提供情感陪伴，显著提升了座舱的交互温度和趣味性。Momenta的智驾方案则有望带来更流畅、更安全的辅助驾驶体验。\n\n【潜在槽点】跨品牌、跨系统的整合可能带来软件稳定性问题，如语音助手与车机系统的深度耦合不足，导致功能响应慢或冲突。豆包大模型的数据处理可能涉及用户隐私，尤其是在跨国品牌中，数据存储和合规性需要明确。此外，过度依赖外部供应商可能削弱品牌自身的软件定义能力，长期来看影响OTA更新的自主性和节奏。",
+          "summary_en": "【Event Overview】Mercedes-Benz and BMW are adopting Momenta's autonomous driving system and ByteDance's Doubao LLM for voice assistants in their latest models. The all-electric Mercedes GLC features Momenta's ADAS and Doubao-powered voice assistant. This combination will be deployed across more models in 2026. Momenta's solution is data-driven and evolvable, while Doubao offers strong NLP and generation capabilities for more human-like conversations. This signals traditional luxury brands accelerating adoption of Chinese software ecosystems. \n\n【Experience Value】Users can enjoy both the quality of luxury brands and advanced Chinese AI. Doubao enables complex context understanding, multi-turn dialogue, and emotional companionship, enhancing cabin interaction warmth. Momenta's ADAS promises smoother, safer assisted driving. \n\n【Potential Friction】Cross-brand integration may cause software stability issues, like slow response or conflicts between voice assistant and vehicle systems. Doubao's data processing raises privacy concerns, especially for cross-border brands, requiring clear data storage and compliance. Over-reliance on external suppliers may weaken the brand's own software capabilities, affecting OTA update autonomy and pace."
+        }
+      ],
+      "created_at": "2026-06-01 15:11:37"
+    },
+    {
       "date": "2026-05-31",
       "date_display": "05月31日",
       "weekday": "周日",
