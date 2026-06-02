@@ -1,6 +1,71 @@
 {
   "records": [
     {
+      "date": "2026-06-02",
+      "date_display": "06月02日",
+      "weekday": "周二",
+      "news_count": 4,
+      "news": [
+        {
+          "title": "小鹏AI天玑系统全量推送，AI代驾与AI泊车功能上线",
+          "url": "https://v.m.autohome.com.cn/v-2245721.html",
+          "site_name": "汽车之家",
+          "publish_date": "2026-05-28",
+          "tags": [
+            "小鹏",
+            "AI天玑",
+            "OTA",
+            "AI代驾"
+          ],
+          "summary": "【事件概述】小鹏汽车向四款车型全量推送AI天玑系统OTA升级，核心新增AI代驾和AI泊车功能。AI代驾基于端到端大模型，通过学习用户日常通勤路线（如上下班路径），实现一键激活的个性化自动驾驶，支持记忆多条路线。AI泊车则升级为“全场景泊车”，包括记忆泊车（学习固定车位路径）、遥控泊车（手机控制车辆进出窄车位）及跨层泊车（自动识别楼层并规划路径）。系统还优化了语音助手交互，支持连续对话和模糊指令理解（如“找个充电桩并导航过去”）。\n\n【体验价值】AI代驾将高频通勤场景自动化，用户无需每次手动设置导航，降低重复操作疲劳。AI泊车覆盖更多复杂场景（如多层停车场、窄车位），减少停车焦虑。语音助手升级后，用户可用自然语言完成多步操作，提升交互效率。\n\n【潜在槽点】AI代驾依赖路线学习，若用户通勤路线频繁变化（如临时绕路），系统可能误判或需重新学习。AI泊车在极端环境（如暴雨、夜间低光照）下识别率下降，导致功能不可用。语音助手对模糊指令的理解仍有限，复杂任务（如“先导航到A再找B附近的充电桩”）可能失败。",
+          "summary_en": "【Event Overview】XPeng pushed a full OTA update for its AI Tianji system across four models, introducing AI Commute and AI Parking. AI Commute uses an end-to-end model to learn daily routes (e.g., commute to work) for one-click personalized autonomous driving. AI Parking upgrades to full-scenario parking, including memory parking, remote parking, and cross-floor parking. Voice assistant now supports continuous dialogue and vague commands. \n\n【Experience Value】AI Commute automates high-frequency commutes, reducing manual navigation setup. AI Parking covers complex scenarios like multi-level garages, easing parking anxiety. Voice assistant upgrades enable natural language multi-step operations. \n\n【Potential Friction】AI Commute may misjudge if routes change frequently (e.g., detours). AI Parking performance degrades in extreme weather or low light. Voice assistant still struggles with complex vague commands, leading to failures."
+        },
+        {
+          "title": "澎湃OS4.0七大升级曝光，小米真正想抢的，其实不只是流畅度",
+          "url": "https://www.163.com/dy/article/KTUC46II0531THX3.html",
+          "site_name": "网易",
+          "publish_date": "2026-05-27",
+          "tags": [
+            "小米",
+            "澎湃OS",
+            "OTA",
+            "系统重构"
+          ],
+          "summary": "【事件概述】小米澎湃OS 4.0定档2026年6月发布，曝光七大升级，核心是彻底清理MIUI十年冗余代码，进行底层重构。创新点包括：1）全新“轻量化内核”，减少系统资源占用，提升老机型流畅度；2）AI驱动的“智能资源调度”，根据使用场景动态分配算力（如游戏时优先GPU，导航时优先GPS）；3）交互升级：引入“灵动胶囊”式通知栏（类似苹果动态岛），支持实时活动显示（如导航进度、音乐播放）；4）安全升级：新增“隐私沙盒”，隔离应用数据访问。此次升级覆盖手机和车机，强调跨设备一致性。\n\n【体验价值】底层重构直接解决安卓系统长期卡顿问题，尤其利好老机型用户。智能资源调度让车机在导航、音乐、通话等多任务下保持流畅。灵动胶囊通知减少屏幕切换，提升驾驶时信息获取效率。隐私沙盒增强用户对数据控制的信心。\n\n【潜在槽点】清理冗余代码可能导致部分老应用兼容性问题，用户需等待开发者适配。灵动胶囊功能若与第三方应用未深度整合，可能显示空白或错误信息。隐私沙盒可能限制某些合法应用（如车载健康监测）的数据访问，引发功能缺失。",
+          "summary_en": "【Event Overview】Xiaomi's HyperOS 4.0, launching June 2026, features seven major upgrades centered on cleaning up 10 years of MIUI legacy code. Innovations include: 1) lightweight kernel for reduced resource usage; 2) AI-driven resource scheduling for dynamic allocation; 3) interactive notification bar (like Dynamic Island) for real-time activities; 4) privacy sandbox for data isolation. The update covers both phones and vehicles, emphasizing cross-device consistency. \n\n【Experience Value】Kernel cleanup solves long-term Android lag, benefiting older devices. AI scheduling ensures smooth multitasking in vehicles. Dynamic Island notifications reduce screen switching, improving driving efficiency. Privacy sandbox boosts user trust. \n\n【Potential Friction】Code cleanup may cause compatibility issues with older apps. Dynamic Island may show blank or incorrect info if not integrated with third-party apps. Privacy sandbox could block legitimate apps like health monitors, causing feature loss."
+        },
+        {
+          "title": "鸿蒙智行专属小艺新架构重磅发布：首搭问界 M9，打造更聪明的全能出行...",
+          "url": "https://www.ithome.com/0/956/765.htm",
+          "site_name": "IT之家",
+          "publish_date": "2026-05-27",
+          "tags": [
+            "鸿蒙智行",
+            "小艺",
+            "AI语音",
+            "快慢脑"
+          ],
+          "summary": "【事件概述】2026年5月27日，鸿蒙智行发布全新小艺语音助手架构，首搭问界M9。核心创新是“快慢脑思考系统”：快脑负责即时响应（如“打开空调”），延迟低于0.5秒；慢脑处理复杂推理（如“我有点冷，但不想吹风”），调用大模型进行语义理解。新架构支持多模态交互，可结合摄像头识别用户手势（如指向车窗说“打开这个”）。此外，小艺新增“场景记忆”功能，能记住用户习惯（如每周五晚导航回家），并主动建议。\n\n【体验价值】快慢脑分离解决了语音助手“快而不准”或“准而慢”的矛盾，提升日常指令响应速度，同时保留复杂任务处理能力。多模态交互（手势+语音）降低驾驶时操作风险，更符合自然沟通习惯。场景记忆让车机从被动响应变为主动服务，提升个性化体验。\n\n【潜在槽点】慢脑推理依赖云端大模型，网络不佳时延迟显著增加，甚至功能降级。多模态交互需摄像头持续工作，可能引发隐私担忧（如车内录像）。场景记忆若误判用户意图（如错误推荐导航），可能造成困扰。",
+          "summary_en": "【Event Overview】On May 27, 2026, HarmonyOS smart vehicles launched a new Xiao Yi voice assistant architecture, first on AITO M9. Core innovation is the 'Fast-Slow Brain' system: Fast Brain handles instant commands (e.g., 'turn on AC') with <0.5s latency; Slow Brain handles complex reasoning (e.g., 'I'm cold but don't want wind') using large models. It supports multimodal interaction, combining camera gesture recognition. 'Scene Memory' learns user habits and proactively suggests actions. \n\n【Experience Value】Fast-Slow Brain separation balances speed and accuracy for voice commands. Multimodal interaction reduces driving risk by enabling natural gestures. Scene Memory transforms the car from reactive to proactive, enhancing personalization. \n\n【Potential Friction】Slow Brain relies on cloud models; poor network causes significant latency or degradation. Multimodal interaction requires constant camera use, raising privacy concerns. Scene Memory may misjudge user intent, leading to annoying suggestions."
+        },
+        {
+          "title": "智能座舱语音助手实力榜2026深度评测：谁更懂驾驶者",
+          "url": "https://mil.sohu.com/a/1030412502_122864692",
+          "site_name": "搜狐",
+          "publish_date": "2026-06-01",
+          "tags": [
+            "语音助手",
+            "AI大模型",
+            "座舱评测",
+            "交互体验"
+          ],
+          "summary": "【事件概述】2026年6月1日，搜狐发布智能座舱语音助手实力榜评测，从功能成熟度、语音交互体验、多语种适配、算力与功耗优化、生态融合度五个维度评估主流车载语音体系（包括小艺、小鹏、理想、蔚来NOMI、百度CarLife等）。评测发现：1）小艺在复杂语义理解（如多意图指令）上领先，得益于快慢脑架构；2）小鹏AI天玑在连续对话和模糊指令处理上表现突出；3）理想同学在家庭场景（如儿童语音识别）优化最佳；4）百度CarLife在多语种（中英混说）支持上最强。评测还指出，2026年语音助手普遍接入大模型，但算力瓶颈导致部分功能（如实时翻译）延迟较高。\n\n【体验价值】评测为消费者提供了横向对比参考，帮助选择最适合自身需求的语音系统。多语种适配和儿童语音识别优化，提升了家庭用户和国际化场景的可用性。大模型接入让语音助手从“命令执行”升级为“对话伙伴”，支持更自然的交互。\n\n【潜在槽点】评测维度偏重功能数量，忽略实际场景下的稳定性（如嘈杂环境识别率）。大模型接入导致功耗增加，可能影响续航。多语种混说支持仍不完美，方言或口音识别错误率较高。",
+          "summary_en": "【Event Overview】On June 1, 2026, Sohu published a ranking of smart cockpit voice assistants, evaluating systems from Xiao Yi, XPeng, Li Auto, NIO NOMI, and Baidu CarLife across five dimensions. Key findings: Xiao Yi leads in complex semantic understanding; XPeng excels in continuous dialogue; Li Auto optimizes for family scenarios; Baidu CarLife supports multilingual (Chinese-English mix). The review notes that large model integration is common but faces latency issues due to compute constraints. \n\n【Experience Value】The ranking helps consumers choose the best voice system for their needs. Multilingual and child voice optimization improve usability for families and international users. Large model integration upgrades assistants from command executors to conversational partners. \n\n【Potential Friction】The ranking focuses on feature count, ignoring stability in noisy environments. Large model integration increases power consumption, potentially affecting range. Multilingual support still struggles with dialects or accents, causing high error rates."
+        }
+      ],
+      "created_at": "2026-06-02 14:50:46"
+    },
+    {
       "date": "2026-06-01",
       "date_display": "06月01日",
       "weekday": "周一",
