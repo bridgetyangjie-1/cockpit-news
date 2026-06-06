@@ -1,6 +1,71 @@
 {
   "records": [
     {
+      "date": "2026-06-06",
+      "date_display": "06月06日",
+      "weekday": "周六",
+      "news_count": 4,
+      "news": [
+        {
+          "title": "座舱有了AI大模型，小车智能也在线，全新吉利星愿6.18万起上市！",
+          "url": "https://www.sohu.com/a/1030071424_121134540",
+          "site_name": "搜狐",
+          "publish_date": "2026-06-01",
+          "tags": [
+            "吉利",
+            "AI大模型",
+            "萌宠交互",
+            "桌面自定义"
+          ],
+          "summary": "【事件概述】全新吉利星愿于2026年6月上市，其座舱软件核心亮点是搭载了全新AI Eva大模型，并引入了创新的萌宠壁纸交互。该车采用7nm车规级龍鹰1号芯片和16G+128G大存储，确保系统流畅。交互上，用户可自由切换地图和壁纸桌面，其中萌宠壁纸支持互动——点击屏幕上的卡通动物，它会做出表情反馈，如眨眼、摇尾巴等，为座舱增添情感温度。AI Eva大模型则支持自然语言理解，能处理复杂指令，如“我饿了，推荐附近餐厅，并规划不堵车的路线”，并支持多轮对话和上下文记忆。此外，系统还提供个性化场景推荐，如根据时间自动切换白天/黑夜模式，根据驾驶模式调整界面风格。\n\n【体验价值】萌宠壁纸互动是低成本、高情感价值的UX创新，通过微交互（点击反馈）降低了座舱的冰冷感，尤其吸引年轻用户和家庭用户。AI大模型的加入让语音助手从“工具”升级为“伙伴”，能理解模糊意图，减少用户重复指令的挫败感，提升交互自然度。\n\n【潜在槽点】萌宠交互可能分散驾驶员注意力，尤其在高速行驶时，点击屏幕动物并非安全操作。AI大模型的上下文记忆若处理不当，可能导致隐私泄露（如记录用户常去地点）。此外，萌宠壁纸的动画效果可能增加系统资源消耗，影响长期流畅性。",
+          "summary_en": "【Event Overview】The new Geely Staryun launched in June 2026 features a cockpit software highlight: the new AI Eva large model and innovative pet wallpaper interaction. It uses a 7nm automotive-grade chip and 16G+128G storage for smooth performance. Users can freely switch between map and wallpaper desktops, with pet wallpapers supporting interaction—tapping a cartoon animal triggers facial feedback like blinking or tail wagging, adding emotional warmth. The AI Eva large model handles natural language understanding, processing complex commands like 'I'm hungry, recommend nearby restaurants and plan a route without traffic jams', and supports multi-turn dialogue with context memory. The system also offers personalized scenario recommendations, such as auto-switching day/night mode based on time and adjusting UI style based on driving mode.\n\n【Experience Value】The pet wallpaper interaction is a low-cost, high-emotional-value UX innovation, reducing the coldness of the cockpit through micro-interactions (click feedback), especially appealing to young and family users. The AI large model elevates the voice assistant from a 'tool' to a 'companion', understanding vague intents and reducing user frustration from repeated commands, enhancing interaction naturalness.\n\n【Potential Friction】Pet interaction may distract the driver, especially at high speeds, as tapping the screen is not safe. The AI large model's context memory, if mishandled, could lead to privacy leaks (e.g., recording frequent locations). Additionally, pet wallpaper animations may increase system resource consumption, affecting long-term smoothness."
+        },
+        {
+          "title": "捷达VS8将迎来OTA升级 新增两种手机与车机互联功能",
+          "url": "https://www.autohome.com.cn/article?id=_wteZU9Yu1U=",
+          "site_name": "汽车之家",
+          "publish_date": "2026-06-05",
+          "tags": [
+            "捷达",
+            "OTA",
+            "手机互联",
+            "功能优化"
+          ],
+          "summary": "【事件概述】捷达VS8于2026年6月公布最新OTA升级计划，核心新增两类手机与车机互联功能，并优化6项体验。新增功能包括：1）无线CarPlay/Android Auto深度集成，支持导航、音乐、电话等应用无缝投射，且可通过车机触控或语音直接操作手机端应用；2）手机远程控车功能增强，用户可通过手机APP实现远程启动空调、查看车辆状态、开关车窗等，并新增蓝牙钥匙分享功能，可临时授权他人使用车辆。6项体验优化涵盖：语音助手响应速度提升30%、导航界面增加实时路况动态渲染、音乐播放器支持无损音质、空调控制界面增加一键快速降温/升温模式、仪表盘主题新增3种风格、系统稳定性修复。\n\n【体验价值】无线CarPlay/Android Auto深度集成是核心价值，它消除了线缆束缚，让用户无缝延续手机生态，降低学习成本。远程控车和蓝牙钥匙分享提升了便利性和共享场景的灵活性，尤其适合家庭用车。OTA持续优化表明车企重视用户反馈，通过软件迭代改善体验。\n\n【潜在槽点】无线互联功能可能增加手机电量消耗和车机发热问题。蓝牙钥匙分享存在安全风险，若手机丢失或授权管理不当，可能导致车辆被盗。OTA升级过程若中断或失败，可能影响车机基础功能，用户需具备一定技术知识处理。",
+          "summary_en": "【Event Overview】Jetta VS8 announced its latest OTA upgrade plan in June 2026, adding two new phone-to-car connectivity features and optimizing 6 experiences. New features include: 1) Deep integration of wireless CarPlay/Android Auto, supporting seamless projection of navigation, music, and phone apps, with touch or voice control on the car screen; 2) Enhanced remote car control via phone app, including remote start AC, vehicle status check, window control, and new Bluetooth key sharing for temporary authorization. The 6 optimizations cover: 30% faster voice assistant response, real-time traffic dynamic rendering on navigation, lossless audio support, one-click quick cool/heat mode on AC UI, 3 new dashboard themes, and system stability fixes.\n\n【Experience Value】The deep integration of wireless CarPlay/Android Auto is the core value, eliminating cable clutter and allowing users to seamlessly continue their phone ecosystem, reducing learning costs. Remote control and Bluetooth key sharing enhance convenience and sharing scenarios, especially for family use. Continuous OTA updates show the automaker values user feedback, improving experience through software iteration.\n\n【Potential Friction】Wireless connectivity may increase phone battery drain and car system heat. Bluetooth key sharing poses security risks; if the phone is lost or authorization is mismanaged, the vehicle could be stolen. OTA upgrade interruptions or failures may affect basic car functions, requiring user technical knowledge to resolve."
+        },
+        {
+          "title": "车主实测！蔚来 Banyan 3.3.0 提升有多大？",
+          "url": "https://www.dongchedi.com/video/7601714951094895129",
+          "site_name": "懂车帝",
+          "publish_date": "2026-06-04",
+          "tags": [
+            "蔚来",
+            "Banyan",
+            "OTA",
+            "AI代驾"
+          ],
+          "summary": "【事件概述】蔚来Banyan 3.3.0于2026年1月全量推送，但近期车主实测视频引发关注，展示其软件升级的显著提升。该版本搭载NWM 2.0（蔚来世界模型）与闭环强化学习架构，核心创新包括：1）AI代驾功能升级，系统能学习用户日常通勤路线，自动生成最优驾驶策略，如提前变道、预判红绿灯等，实现“千人千面”的驾驶辅助；2）AI泊车增强，支持更复杂的车位识别（如狭窄车位、斜列车位），并新增“遥控泊车”功能，用户可在车外通过手机APP控制车辆泊入/泊出；3）语音助手NOMI升级，支持多模态交互，如结合车内摄像头识别用户手势（如指向窗外）并执行相关指令；4）界面优化，新增“动态壁纸”功能，壁纸可根据时间、天气、驾驶模式自动变化。\n\n【体验价值】AI代驾的“学习”能力是最大亮点，它从被动辅助变为主动适应，让驾驶辅助真正个性化，减少用户手动调整的繁琐。遥控泊车解决了狭窄车位上下车难的痛点，提升便利性。多模态语音交互让指令更直观，降低操作复杂度。\n\n【潜在槽点】AI代驾的学习过程需要时间，初期可能表现不佳，用户需耐心“训练”系统。遥控泊车依赖手机信号和车机稳定性，若连接中断可能导致安全风险。多模态交互中的摄像头持续工作可能引发隐私担忧，用户需明确知晓数据用途。",
+          "summary_en": "【Event Overview】NIO Banyan 3.3.0 was fully pushed in January 2026, but recent owner test videos have drawn attention, showcasing significant software upgrades. This version features NWM 2.0 (NIO World Model) and closed-loop reinforcement learning architecture. Core innovations include: 1) Upgraded AI driving assistant that learns user daily commute routes and automatically generates optimal driving strategies, such as early lane changes and traffic light prediction, achieving personalized ADAS; 2) Enhanced AI parking supporting complex spot recognition (e.g., narrow, angled spots) and new 'remote parking' allowing users to control parking via phone app outside the car; 3) Upgraded voice assistant NOMI with multimodal interaction, such as recognizing user gestures (e.g., pointing out the window) via in-cabin camera and executing related commands; 4) UI optimization with new 'dynamic wallpaper' that changes based on time, weather, and driving mode.\n\n【Experience Value】The 'learning' capability of AI driving assistant is the highlight, shifting from passive assistance to active adaptation, truly personalizing ADAS and reducing manual adjustments. Remote parking solves the pain point of getting in/out of tight spaces, enhancing convenience. Multimodal voice interaction makes commands more intuitive, reducing operation complexity.\n\n【Potential Friction】The AI driving assistant's learning process takes time, with potentially poor initial performance, requiring user patience to 'train' the system. Remote parking relies on phone signal and car system stability; connection loss could pose safety risks. Continuous camera use in multimodal interaction may raise privacy concerns; users need clear data usage policies."
+        },
+        {
+          "title": "构建简单自然的智能座舱：从场景驱动设计到多模态交互实践",
+          "url": "https://blog.csdn.net/weixin_33275503/article/details/161609538",
+          "site_name": "CSDN博客",
+          "publish_date": "2026-06-01",
+          "tags": [
+            "场景驱动",
+            "多模态交互",
+            "UI/UX设计",
+            "智能推荐"
+          ],
+          "summary": "【事件概述】该博客文章系统阐述了智能座舱场景驱动设计与多模态交互的实践方法论，虽非具体产品发布，但代表了行业前沿设计理念。核心观点包括：1）场景驱动设计：将座舱功能按高频场景（如高速、停车、充电、通勤）分类，通过场景卡片或智能推荐栏，在特定场景下动态出现在首页便捷位置，减少用户查找层级。例如，高速场景自动弹出辅助驾驶设置卡片，停车场景弹出360环视和泊车辅助卡片。2）多模态交互融合：结合语音、手势、视线、触控等多种输入方式，根据场景自动切换最优交互模式。例如，驾驶中优先语音和手势，停车时支持触控和视线确认。3）智能推荐算法：基于用户历史行为、时间、路况等数据，主动推荐功能或内容，如通勤路上推荐常听播客，充电时推荐附近餐厅。\n\n【体验价值】场景驱动设计直接降低了用户认知负荷，让“功能找人”而非“人找功能”，提升效率。多模态融合让交互更自然，减少对单一输入方式的依赖，尤其提升驾驶安全性。智能推荐算法能创造“惊喜感”，让座舱更懂用户。\n\n【潜在槽点】场景卡片若推荐不准确（如误判场景），会变成干扰，增加用户关闭操作。多模态交互的优先级冲突（如语音和手势同时触发）可能导致系统混乱。智能推荐依赖大量用户数据，若隐私保护不透明，易引发用户不信任。",
+          "summary_en": "【Event Overview】This blog article systematically elaborates on the practice methodology of scenario-driven design and multimodal interaction in smart cockpits. Although not a specific product release, it represents cutting-edge design concepts. Core points include: 1) Scenario-driven design: Classify cockpit functions by high-frequency scenarios (e.g., highway, parking, charging, commuting), and dynamically display them on the home screen via scenario cards or smart recommendation bars, reducing user search layers. For example, highway scenarios auto-pop ADAS setting cards, parking scenarios pop 360-degree view and parking assist cards. 2) Multimodal interaction fusion: Combine voice, gesture, gaze, and touch inputs, automatically switching to the optimal interaction mode based on the scenario. For instance, prioritize voice and gesture while driving, support touch and gaze confirmation when parked. 3) Smart recommendation algorithm: Based on user history, time, and road conditions, proactively recommend functions or content, such as recommending frequent podcasts during commutes or nearby restaurants when charging.\n\n【Experience Value】Scenario-driven design directly reduces user cognitive load, making 'functions find people' instead of 'people find functions', improving efficiency. Multimodal fusion makes interaction more natural, reducing reliance on a single input method, especially enhancing driving safety. Smart recommendation algorithms can create a 'surprise' feeling, making the cockpit more understanding of the user.\n\n【Potential Friction】If scenario cards are inaccurate (e.g., misjudging the scenario), they become distractions, increasing user closure operations. Priority conflicts in multimodal interaction (e.g., simultaneous voice and gesture triggers) may cause system confusion. Smart recommendations rely on extensive user data; if privacy protection is not transparent, it may lead to user distrust."
+        }
+      ],
+      "created_at": "2026-06-06 14:01:18"
+    },
+    {
       "date": "2026-06-05",
       "date_display": "06月05日",
       "weekday": "周五",
