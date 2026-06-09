@@ -1,6 +1,57 @@
 {
   "records": [
     {
+      "date": "2026-06-09",
+      "date_display": "06月09日",
+      "weekday": "周二",
+      "news_count": 3,
+      "news": [
+        {
+          "title": "闪电快讯｜高通宣布车端人工智能Claw生态计划，将智能体AI引入智能座舱",
+          "url": "https://m.jiemian.com/article/14541847.html",
+          "site_name": "界面新闻",
+          "publish_date": "2026-06-05",
+          "tags": [
+            "高通",
+            "AI Agent",
+            "生态计划",
+            "智能体"
+          ],
+          "summary": "【事件概述】2026年6月5日，高通在汽车技术与合作峰会上宣布与诚迈科技、车联天下、斑马智能等企业联合推出车端人工智能Claw生态计划。该计划基于可扩展的模块化架构，将骁龙数字底盘解决方案与高通智能体AI运行环境结合，旨在将智能体AI引入智能座舱。通过合作伙伴在座舱、车载操作系统等领域的专长，Claw生态计划将推动AI Agent在车端的落地，实现从被动响应到主动服务的交互升级。\n\n【体验价值】AI Agent的引入将显著提升座舱的主动服务能力，例如根据用户习惯自动调节座椅、空调、音乐，甚至提前规划行程。这种“认知座舱”体验减少了用户手动操作，让交互更自然、更个性化，提升了驾驶的便捷性和舒适度。\n\n【潜在槽点】AI Agent的主动决策可能引发隐私担忧，用户需授权大量个人数据。此外，若模型误判用户意图，可能导致不必要的干扰或操作，增加学习成本。生态计划的落地依赖合作伙伴的深度适配，初期可能仅限高端车型，普及速度存疑。",
+          "summary_en": "【Event Overview】On June 5, 2026, Qualcomm announced the vehicle-side AI Claw ecosystem plan at the Automotive Technology and Cooperation Summit, in collaboration with companies like CEC, Cheliantianxia, and Banma Intelligence. Based on a scalable modular architecture, the plan integrates the Snapdragon Digital Chassis solution with Qualcomm's AI Agent runtime environment, aiming to introduce AI Agents into smart cockpits. By leveraging partners' expertise in cockpit and OS domains, the Claw ecosystem will drive the deployment of AI Agents, shifting from passive response to proactive service. \n\n【Experience Value】The introduction of AI Agents will significantly enhance the cockpit's proactive service capabilities, such as automatically adjusting seats, climate, and music based on user habits, or even pre-planning routes. This 'cognitive cockpit' experience reduces manual operations, making interactions more natural and personalized, improving driving convenience and comfort. \n\n【Potential Friction】The proactive decision-making of AI Agents may raise privacy concerns, requiring users to authorize extensive personal data. Additionally, if the model misinterprets user intent, it could cause unnecessary distractions or operations, increasing the learning curve. The ecosystem's deployment depends on deep partner adaptation, potentially limiting initial availability to high-end models, raising questions about mass adoption."
+        },
+        {
+          "title": "腾势Z9/Z9GT开启OTA 涉及10项新增+19项优化",
+          "url": "https://www.bitauto.com/article/1003110482190/",
+          "site_name": "BitAuto",
+          "publish_date": "2026-06-03",
+          "tags": [
+            "腾势",
+            "OTA",
+            "IoT生态",
+            "安全取证"
+          ],
+          "summary": "【事件概述】2026年6月3日，腾势Z9GT与腾势Z9同步开启新一轮OTA升级。本次升级围绕智能互联、车载娱乐、安全取证以及IoT生态四大维度，涉及10项新增功能与19项功能优化。新增功能包括车载KTV、智能家居控制、行车记录仪远程查看等，优化了语音识别、导航路线规划等高频使用场景。IoT生态的引入允许用户通过车机控制智能家居设备，如灯光、空调等，进一步扩展了座舱的数字化服务边界。\n\n【体验价值】OTA升级持续为车辆注入新功能，让用户无需换车即可享受最新体验。IoT生态的整合将座舱变为智能家居的控制中心，提升了生活便利性。安全取证功能（如远程查看行车记录）增强了车辆的安全感和实用性，尤其适合家庭用户。\n\n【潜在槽点】新增功能可能增加系统复杂度，用户需花时间学习如何操作IoT控制或安全取证功能。车载KTV等娱乐功能在行驶中可能分散驾驶员注意力，存在安全隐患。此外，IoT生态依赖第三方设备兼容性，若设备不支持，功能可能形同虚设。",
+          "summary_en": "【Event Overview】On June 3, 2026, Denza Z9GT and Denza Z9 simultaneously received a new OTA update. The upgrade focuses on four dimensions: smart connectivity, in-car entertainment, safety forensics, and IoT ecosystem, with 10 new features and 19 optimizations. New features include in-car KTV, smart home control, and remote viewing of dashcam footage. High-frequency scenarios like voice recognition and navigation route planning have been optimized. The IoT ecosystem allows users to control smart home devices via the car, such as lights and air conditioning, further expanding the cockpit's digital service boundaries. \n\n【Experience Value】OTA updates continuously inject new features, allowing users to enjoy the latest experiences without replacing their vehicles. IoT integration turns the cockpit into a smart home control center, enhancing daily convenience. Safety forensics features, like remote dashcam viewing, increase the vehicle's sense of security and practicality, especially for family users. \n\n【Potential Friction】New features may increase system complexity, requiring users to spend time learning how to operate IoT controls or safety forensics. Entertainment features like in-car KTV could distract the driver during driving, posing safety risks. Additionally, IoT ecosystem relies on third-party device compatibility; if devices are unsupported, features may be useless."
+        },
+        {
+          "title": "智能座舱核心体验全面Agent化，业界呼吁与芯片企业深度协同",
+          "url": "https://www.sohu.com/a/1032651619_121134737",
+          "site_name": "搜狐",
+          "publish_date": "2026-06-05",
+          "tags": [
+            "蔚来",
+            "AI Agent",
+            "认知座舱",
+            "芯片协同"
+          ],
+          "summary": "【事件概述】2026年6月5日，蔚来创始人李斌在高通汽车技术与合作峰会上表示，智能座舱的核心体验要全面Agent化，AI正在重构下一代座舱体验，将智能座舱带入认知座舱时代。他强调，AI Agent应实现多模态融合交互，从被动响应转向主动服务，例如根据用户情绪调整氛围灯、推荐音乐，或基于日程自动规划充电。同时，业界呼吁与芯片企业深度协同，以提升AI Agent的实时性和本地化处理能力，减少云端依赖。\n\n【体验价值】全面Agent化使座舱从工具变为“伙伴”，能主动理解用户需求并提供个性化服务，如疲劳驾驶时自动调节座椅和播放提神音乐。这种认知交互降低了用户操作负担，提升了驾驶安全性和情感连接，尤其适合长途或高频驾驶场景。\n\n【潜在槽点】AI Agent的主动服务可能被用户视为“过度干预”，尤其当误判情绪或需求时，可能引发反感。全面Agent化对芯片算力要求极高，若硬件不足，可能导致响应延迟或功能降级。此外，用户数据的大量采集可能引发隐私争议，需明确数据使用边界。",
+          "summary_en": "【Event Overview】On June 5, 2026, NIO founder William Li stated at the Qualcomm Automotive Technology and Cooperation Summit that the core experience of smart cockpits should be fully Agentized, with AI reshaping next-generation cockpit experiences and ushering in the era of cognitive cockpits. He emphasized that AI Agents should enable multimodal fusion interaction, shifting from passive response to proactive service, such as adjusting ambient lighting based on user mood, recommending music, or automatically planning charging based on schedule. Meanwhile, the industry calls for deep collaboration with chip companies to enhance AI Agent's real-time and local processing capabilities, reducing cloud dependency. \n\n【Experience Value】Full Agentization transforms the cockpit from a tool to a 'companion,' actively understanding user needs and providing personalized services, such as automatically adjusting seats and playing energizing music when detecting driver fatigue. This cognitive interaction reduces user operational burden, improving driving safety and emotional connection, especially for long-distance or high-frequency driving scenarios. \n【Potential Friction】The proactive service of AI Agents may be perceived as 'over-intervention,' especially when misjudging mood or needs, potentially causing user annoyance. Full Agentization demands extremely high chip computing power; insufficient hardware may lead to response delays or feature degradation. Additionally, extensive user data collection may raise privacy concerns, requiring clear data usage boundaries."
+        }
+      ],
+      "created_at": "2026-06-09 14:17:29"
+    },
+    {
       "date": "2026-06-08",
       "date_display": "06月08日",
       "weekday": "周一",
