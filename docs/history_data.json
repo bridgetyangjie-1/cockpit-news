@@ -1,6 +1,71 @@
 {
   "records": [
     {
+      "date": "2026-06-11",
+      "date_display": "06月11日",
+      "weekday": "周四",
+      "news_count": 4,
+      "news": [
+        {
+          "title": "华为 HDC 2026 开发者大会议程再曝，将带来鸿蒙 NEXT 座舱开放能力分享",
+          "url": "https://news.17173.com/content/06112026/020556732.shtml",
+          "site_name": "17173",
+          "publish_date": "2026-06-11",
+          "tags": [
+            "华为",
+            "鸿蒙NEXT",
+            "座舱开放能力",
+            "应用生态"
+          ],
+          "summary": "【事件概述】华为HDC 2026开发者大会将于6月12日启幕，议程曝光显示将首次分享鸿蒙NEXT座舱开放能力。这标志着华为将向第三方开发者开放其智能座舱系统的核心能力，包括应用框架、多屏交互接口、语音与视觉AI能力等。鸿蒙NEXT座舱系统预计将支持更丰富的车载应用生态，如游戏、办公、影音等，并可能引入跨设备无缝流转功能，实现手机、手表与车机的深度协同。此举旨在通过开放平台吸引开发者，构建类似手机应用商店的车载应用生态，提升座舱的软件扩展性和用户体验。\n\n【体验价值】开放能力将极大丰富座舱应用场景，用户可像使用手机一样按需安装各类应用，如车载KTV、在线会议、游戏等，满足个性化需求。多设备协同功能可实现导航、音乐等服务的无缝流转，提升出行连贯性。\n\n【潜在槽点】开放生态可能带来应用质量参差不齐、隐私泄露风险（如应用过度获取车辆数据），以及系统稳定性下降问题。用户需面对应用兼容性、更新维护等学习成本，且部分应用可能分散驾驶注意力。",
+          "summary_en": "【Event Overview】Huawei HDC 2026 developer conference agenda reveals first sharing of HarmonyOS NEXT cockpit open capabilities. This marks Huawei opening its smart cockpit system's core capabilities to third-party developers, including application frameworks, multi-screen interaction interfaces, voice and visual AI capabilities. The system is expected to support richer in-vehicle application ecosystems such as gaming, office, and entertainment, and may introduce cross-device seamless flow features for deep collaboration between phones, watches, and vehicles. This move aims to attract developers to build a vehicle application ecosystem similar to mobile app stores, enhancing cockpit software extensibility and user experience.\n\n【Experience Value】Open capabilities will greatly enrich cockpit application scenarios, allowing users to install various applications on demand like on a phone, such as in-car karaoke, online meetings, and games, meeting personalized needs. Multi-device collaboration enables seamless flow of navigation, music, and other services, improving travel continuity.\n\n【Potential Friction】An open ecosystem may bring issues of uneven application quality, privacy leakage risks (e.g., apps over-accessing vehicle data), and decreased system stability. Users face learning costs for application compatibility and update maintenance, and some applications may distract driving attention."
+        },
+        {
+          "title": "斑马智能董事长张建锋：全模态端侧大模型将实现座舱主动智能",
+          "url": "https://www.163.com/tech/article/KUTP4EIV00099BK0.html",
+          "site_name": "网易",
+          "publish_date": "2026-06-08",
+          "tags": [
+            "斑马智能",
+            "全模态端侧大模型",
+            "主动智能",
+            "AI Agent"
+          ],
+          "summary": "【事件概述】在2026高通汽车技术与合作峰会上，斑马智能董事长张建锋宣布推出行业首个全模态端侧大模型AutoOmni。该模型通过融合视觉、语音、触控等多模态感知数据，结合强大的端侧推理能力，实现座舱从被动响应到主动服务的转变。例如，系统可主动识别驾驶员疲劳状态并调整空调、音乐，或根据乘客情绪推荐内容。AutoOmni完全运行于车端，无需联网，保障数据隐私和低延迟。斑马智能计划将该模型集成到其下一代座舱OS中，并开放API供车企定制。\n\n【体验价值】主动智能大幅减少用户操作步骤，系统能预判需求并提前执行，如自动调节座椅、导航至常去地点，提升便捷性和舒适度。全模态感知让交互更自然，如通过手势控制音量，无需语音唤醒。\n\n【潜在槽点】主动服务可能误判用户意图，导致频繁打扰或错误操作，增加用户困扰。端侧模型受限于算力，复杂场景下推理准确率可能下降，且模型更新需OTA，存在版本兼容风险。隐私方面，多模态数据采集可能引发用户对车内监控的担忧。",
+          "summary_en": "【Event Overview】At the 2026 Qualcomm Automotive Technology and Cooperation Summit, Banma Intelligent Chairman Zhang Jianfeng announced the industry's first full-modal on-device large model, AutoOmni. By fusing multi-modal perception data such as vision, voice, and touch, combined with powerful on-device reasoning capabilities, the system shifts the cockpit from passive response to proactive service. For example, it can actively detect driver fatigue and adjust air conditioning or music, or recommend content based on passenger mood. AutoOmni runs entirely on the vehicle, requiring no internet connection, ensuring data privacy and low latency. Banma plans to integrate this model into its next-generation cockpit OS and open APIs for automaker customization.\n\n【Experience Value】Proactive intelligence greatly reduces user operation steps, as the system can anticipate needs and execute actions in advance, such as automatically adjusting seats or navigating to frequent destinations, enhancing convenience and comfort. Full-modal perception makes interaction more natural, like controlling volume through gestures without voice wake-up.\n\n【Potential Friction】Proactive services may misjudge user intent, leading to frequent interruptions or incorrect actions, increasing user annoyance. On-device models are limited by computing power, potentially reducing reasoning accuracy in complex scenarios, and model updates require OTA, posing version compatibility risks. Privacy-wise, multi-modal data collection may raise user concerns about in-car monitoring."
+        },
+        {
+          "title": "小米澎湃OS 4曝光：老机型开始掉队，真正的变化不只是液态玻璃",
+          "url": "https://www.sohu.com/a/1033763647_121784105",
+          "site_name": "搜狐",
+          "publish_date": "2026-06-08",
+          "tags": [
+            "小米",
+            "澎湃OS 4",
+            "AI语音上岛",
+            "Rust重构"
+          ],
+          "summary": "【事件概述】小米澎湃OS 4曝光，预计下半年发布，核心变化包括底层采用Rust语言重构以提升安全性和流畅度，以及引入“AI语音上岛”功能。该功能将小爱同学与miclaw（小米AI框架）联动，实现交互式响应指令，类似苹果的灵动岛设计，但更强调语音驱动。例如，用户可通过语音控制音乐、导航等，并在屏幕顶部动态显示交互状态。此外，澎湃OS 4将强化人车家全生态联动，支持手机、车机、智能家居设备的无缝协同，如上车后自动同步手机导航至车机。\n\n【体验价值】Rust重构有望减少系统崩溃和卡顿，提升长期使用稳定性。AI语音上岛让语音交互可视化，用户可实时确认指令执行状态，减少误操作。全生态联动简化跨设备操作，如离家前通过车机一键关闭家中灯光。\n\n【潜在槽点】AI语音上岛可能增加屏幕视觉干扰，尤其在驾驶时分散注意力。Rust重构可能导致部分老机型无法升级或性能下降，引发用户不满。全生态联动依赖小米生态链设备，非小米用户无法享受完整体验，且跨设备数据同步存在隐私风险。",
+          "summary_en": "【Event Overview】Xiaomi HyperOS 4 is leaked, expected to launch in the second half of the year. Key changes include a bottom-layer rewrite using Rust language for improved security and smoothness, and the introduction of an 'AI Voice Island' feature. This feature links XiaoAI with miclaw (Xiaomi AI framework) to enable interactive response commands, similar to Apple's Dynamic Island but more voice-driven. For example, users can control music or navigation via voice, with interactive status dynamically displayed at the top of the screen. Additionally, HyperOS 4 will strengthen the human-car-home full-ecosystem linkage, supporting seamless collaboration between phones, car infotainment, and smart home devices, such as automatically syncing phone navigation to the car upon entry.\n\n【Experience Value】Rust rewrite is expected to reduce system crashes and stuttering, improving long-term stability. AI Voice Island makes voice interaction visual, allowing users to confirm command execution status in real-time, reducing misoperations. Full-ecosystem linkage simplifies cross-device operations, like turning off home lights via the car infotainment before leaving.\n\n【Potential Friction】AI Voice Island may increase visual distraction on the screen, especially during driving. Rust rewrite may prevent some older models from upgrading or cause performance degradation, leading to user dissatisfaction. Full-ecosystem linkage relies on Xiaomi ecosystem devices, so non-Xiaomi users cannot enjoy the complete experience, and cross-device data synchronization poses privacy risks."
+        },
+        {
+          "title": "汽车AI也要降价潮？英伟达落魄后，高通想抢华为的生态位",
+          "url": "https://www.bitauto.com/article/1003110540233/",
+          "site_name": "易车",
+          "publish_date": "2026-06-09",
+          "tags": [
+            "高通",
+            "骁龙8797",
+            "舱驾融合",
+            "AI智能体"
+          ],
+          "summary": "【事件概述】高通发布骁龙8797平台，通过异构计算能力在同一SoC上安全、独立地运行智驾和座舱任务，实现舱驾融合。同时，高通联合生态伙伴发起“车端人工智能Claw生态计划”，旨在加速AI智能体（AI Agent）在座舱中的规模化部署。该计划提供标准化API和开发工具，支持车企快速集成语音助手、主动推荐、场景引擎等AI功能。高通意图借此抢占华为在智能座舱领域的生态位，降低车企开发门槛，推动AI Agent成为座舱标配。\n\n【体验价值】舱驾融合减少硬件成本，提升系统响应速度，用户可享受更流畅的多任务体验，如导航时同时运行娱乐应用。AI智能体生态计划将带来更丰富的AI功能，如个性化场景推荐（自动切换驾驶模式、音乐等），提升出行便利性。\n\n【潜在槽点】舱驾融合对功能安全要求极高，单芯片故障可能导致智驾和座舱同时失效，存在安全隐患。AI智能体生态依赖第三方开发，功能质量参差不齐，且可能增加系统复杂度，导致用户学习成本上升。此外，高通生态可能形成封闭性，限制车企定制化空间。",
+          "summary_en": "【Event Overview】Qualcomm released the Snapdragon 8797 platform, which uses heterogeneous computing to safely and independently run autonomous driving and cockpit tasks on a single SoC, achieving cockpit-driving integration. Meanwhile, Qualcomm launched the 'Vehicle AI Claw Ecosystem Plan' with ecosystem partners to accelerate the large-scale deployment of AI agents in cockpits. The plan provides standardized APIs and development tools, supporting automakers in quickly integrating AI functions like voice assistants, proactive recommendations, and scene engines. Qualcomm aims to seize Huawei's ecological position in the smart cockpit field, lowering development barriers and making AI agents a standard cockpit feature.\n\n【Experience Value】Cockpit-driving integration reduces hardware costs and improves system response speed, allowing users to enjoy smoother multitasking, such as running entertainment apps while navigating. The AI agent ecosystem plan will bring richer AI functions, like personalized scene recommendations (auto-switching driving modes, music), enhancing travel convenience.\n\n【Potential Friction】Cockpit-driving integration has extremely high functional safety requirements; a single chip failure could cause both autonomous driving and cockpit to fail, posing safety risks. The AI agent ecosystem relies on third-party development, leading to uneven function quality and potentially increasing system complexity, raising user learning costs. Additionally, Qualcomm's ecosystem may become closed, limiting automaker customization."
+        }
+      ],
+      "created_at": "2026-06-11 14:59:22"
+    },
+    {
       "date": "2026-06-10",
       "date_display": "06月10日",
       "weekday": "周三",
