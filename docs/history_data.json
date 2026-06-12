@@ -1,6 +1,75 @@
 {
   "records": [
     {
+      "date": "2026-06-12",
+      "date_display": "06月12日",
+      "weekday": "周五",
+      "news_count": 4,
+      "news": [
+        {
+          "title": "智能体验再进化，问界M9新一轮OTA升级正式推送",
+          "url": "https://xueqiu.com/1859976643/393505118",
+          "site_name": "雪球",
+          "publish_date": "2026-06-08",
+          "tags": [
+            "问界",
+            "鸿蒙座舱",
+            "OTA",
+            "辅助驾驶",
+            "语音交互"
+          ],
+          "summary": "【事件概述】问界M9系列迎来新一轮OTA重磅升级，聚焦辅助驾驶和鸿蒙座舱两大核心领域。辅助驾驶方面，新增城市NCA（城区智驾领航辅助）功能，支持复杂路口通行、无保护左转等场景，并优化了高速NCA的变道策略，减少无效变道。鸿蒙座舱方面，新增“超级桌面2.0”功能，支持手机应用在车机端以平行视界或全屏模式运行，并优化了语音助手“小艺”的上下文理解能力，可连续执行多轮指令（如“打开空调，然后导航到公司”）。此外，还新增了“智慧寻车”功能，通过车外摄像头自动记录停车位置并发送至手机。\n\n【体验价值】城市NCA的加入让用户在日常通勤中减少驾驶疲劳，尤其复杂路口的处理能力提升了信心。超级桌面2.0实现了手机与车机的深度融合，用户无需学习新应用，即可在车机上无缝使用手机生态。语音助手的上下文理解优化，使多步操作更自然，减少了手动点击，提升了驾驶安全性。智慧寻车功能解决了大型停车场找车难的痛点，提升了日常便利性。\n\n【潜在槽点】城市NCA在极端天气或复杂路况下可能表现不稳定，用户需保持警惕，存在过度依赖风险。超级桌面2.0可能因手机性能差异导致卡顿或闪退，影响体验。语音助手的上下文理解在嘈杂环境下识别率下降，且多轮指令的误执行（如误解“打开空调”为“打开车窗”）可能引发安全隐患。",
+          "summary_en": "【Event Overview】The AITO M9 series received a major OTA update focusing on assisted driving and HarmonyOS cockpit. New features include urban NCA (City Navigation Pilot) for complex intersections and unprotected left turns, optimized highway NCA lane-change strategy, 'Super Desktop 2.0' for seamless phone app streaming, enhanced voice assistant 'Xiao Yi' with contextual understanding for multi-step commands, and 'Smart Car Finder' that records parking location via external cameras.\n\n【Experience Value】Urban NCA reduces driving fatigue in daily commutes, especially at complex intersections. Super Desktop 2.0 deeply integrates phone and car, allowing users to use familiar apps without learning new interfaces. Enhanced voice assistant makes multi-step operations more natural, reducing manual clicks and improving safety. Smart Car Finder solves the pain point of finding cars in large parking lots.\n\n【Potential Friction】Urban NCA may be unstable in extreme weather or complex conditions, risking over-reliance. Super Desktop 2.0 could lag or crash on low-performance phones. Voice assistant's contextual understanding degrades in noisy environments, and misinterpreting commands (e.g., 'open AC' as 'open window') could pose safety risks."
+        },
+        {
+          "title": "蔚来世界模型 穿越溶洞 搭载最新NWM蔚来世界模型的 #乐道L60 完成了行业首次0接管，穿越极窄溶洞",
+          "url": "https://www.douyin.com/video/7650160176994040942",
+          "site_name": "抖音",
+          "publish_date": "2026-06-11",
+          "tags": [
+            "蔚来",
+            "NWM世界模型",
+            "OTA",
+            "辅助驾驶",
+            "感知"
+          ],
+          "summary": "【事件概述】蔚来宣布其最新NWM（蔚来世界模型）版本已推送至乐道L60，并完成了行业首次0接管穿越极窄溶洞的挑战。NWM世界模型基于多元自回归架构，可在100毫秒内同步推演216种潜在行车场景，实现实时路径规划和避障。此次升级还覆盖蔚来品牌的Banyan、Cedar、Cedar S及乐道品牌的Coconut+等车型平台。该模型通过融合多模态传感器数据（摄像头、激光雷达、毫米波雷达），构建高精度环境模型，使车辆在无GPS信号的溶洞内也能精准定位和导航。\n\n【体验价值】从UX视角看，NWM世界模型显著提升了辅助驾驶在极端场景下的可靠性和安全性。0接管穿越溶洞展示了系统在无信号、窄路、复杂光照条件下的强大感知和决策能力，增强了用户对自动驾驶的信任。用户无需手动干预即可应对突发障碍，降低了驾驶压力。OTA推送方式让所有车主都能持续获得能力升级，实现“常用常新”。\n\n【潜在槽点】世界模型的高算力需求可能导致车机功耗增加，影响续航或产生过热问题。在真实道路中，溶洞场景的极端性不代表日常驾驶，用户可能对系统能力产生不切实际的期望，导致在普通场景中过度依赖。此外，模型的黑盒特性使得决策过程难以解释，一旦发生事故，责任归属和故障排查将变得复杂。",
+          "summary_en": "【Event Overview】NIO announced that its latest NWM (NIO World Model) version has been pushed to the Onvo L60, completing the industry's first zero-intervention traversal of an extremely narrow cave. The NWM model, based on a multi-variate autoregressive architecture, can simultaneously infer 216 potential driving scenarios in 100ms, enabling real-time path planning and obstacle avoidance. The update covers NIO's Banyan, Cedar, Cedar S, and Onvo's Coconut+ platforms. It fuses multimodal sensor data for precise localization and navigation even in GPS-denied environments.\n\n【Experience Value】From a UX perspective, the NWM model significantly enhances assisted driving reliability and safety in extreme scenarios. The zero-intervention cave traversal demonstrates strong perception and decision-making in signal-less, narrow, and complex lighting conditions, boosting user trust in autonomous driving. Users avoid manual intervention for unexpected obstacles, reducing driving stress. OTA delivery ensures continuous capability upgrades for all owners.\n\n【Potential Friction】High compute demands of the world model may increase power consumption, affecting range or causing overheating. The extreme cave scenario may set unrealistic user expectations for everyday driving, leading to over-reliance. The black-box nature of the model makes decision processes opaque, complicating fault attribution and troubleshooting in accidents."
+        },
+        {
+          "title": "小鹏天玑5.1系统全面上线",
+          "url": "https://bbs.xiaopeng.com/article/2630169",
+          "site_name": "小鹏汽车在线社区",
+          "publish_date": "2026-06-12",
+          "tags": [
+            "小鹏",
+            "天玑系统",
+            "XOS 5.1",
+            "AI小P",
+            "语音交互"
+          ],
+          "summary": "【事件概述】小鹏汽车宣布XOS 5.1天玑系统全面上线，覆盖X9、G9、P7i、G6四款车型，发布即推送。本次升级核心亮点包括：全新AI小P语音助手，基于大模型实现更自然的对话和上下文理解，支持“可见即可说”和免唤醒连续对话；新增“人机共驾”模式，在辅助驾驶状态下，用户可通过语音或手势指令临时调整车辆行为（如“超车”或“靠左”），系统在安全前提下执行；优化了座舱交互界面，采用全新3D渲染引擎，支持实时天气和路况动态壁纸。\n\n【体验价值】AI小P的升级使语音交互从“命令式”转向“对话式”，用户可用自然语言表达复杂需求（如“我有点冷，帮我调高空调温度”），降低了学习成本。人机共驾模式让用户在不退出辅助驾驶的情况下微调车辆行为，提升了控制感和安全感，尤其适合中国复杂路况。3D动态壁纸增强了座舱的沉浸感和个性化，提升了视觉愉悦度。\n\n【潜在槽点】免唤醒连续对话可能因环境噪音或车内多人交谈导致误触发，例如乘客聊天被误解为指令，引发不必要的操作。人机共驾模式中，用户语音指令（如“超车”）可能被系统过度保守执行，导致时机延误或安全隐患。3D动态壁纸可能占用过多系统资源，导致车机卡顿或影响导航性能。",
+          "summary_en": "【Event Overview】XPeng announced the full rollout of XOS 5.1 Tianji system, covering X9, G9, P7i, and G6 models with immediate push. Key upgrades include: new AI Xiao P voice assistant with large model-based natural conversation and contextual understanding, supporting 'see-and-say' and wake-free continuous dialogue; new 'Human-Machine Co-Pilot' mode allowing voice or gesture commands to adjust vehicle behavior (e.g., 'overtake' or 'move left') during assisted driving; optimized cockpit UI with a new 3D rendering engine for real-time weather and traffic dynamic wallpapers.\n\n【Experience Value】The upgraded AI Xiao P shifts voice interaction from command-based to conversational, allowing users to express complex needs naturally (e.g., 'I'm cold, raise the AC'), reducing learning costs. Human-Machine Co-Pilot mode lets users fine-tune vehicle behavior without exiting assisted driving, enhancing control and safety, especially in complex Chinese traffic. 3D dynamic wallpapers improve immersion and personalization, boosting visual delight.\n\n【Potential Friction】Wake-free continuous dialogue may be falsely triggered by ambient noise or multi-person conversations, causing unintended actions. In Human-Machine Co-Pilot mode, voice commands like 'overtake' may be executed too conservatively, leading to missed opportunities or safety risks. 3D dynamic wallpapers may consume excessive system resources, causing lag or affecting navigation performance."
+        },
+        {
+          "title": "东风奕派纳米06 第二次OTA内测升级",
+          "url": "https://www.bilibili.com/video/BV149Ev6ZEsi/",
+          "site_name": "Bilibili",
+          "publish_date": "2026-06-11",
+          "tags": [
+            "东风奕派",
+            "纳米06",
+            "OTA",
+            "语音交互",
+            "远程看护"
+          ],
+          "summary": "【事件概述】东风奕派宣布旗下纳米06车型启动第二次OTA内测升级，包含8项功能新增与2项细节优化。核心更新包括：导航体验升级，上线明星语音包并支持自定义导航播报，门店检索优先匹配官方门店；语音交互升级，支持“可见即可说”和免唤醒连续对话，识别更准、响应更快，并新增二次确认机制避免误操作；远程看护升级，手机App新增远程视频查看功能，用户可实时查看车内情况；系统管理优化，新增车辆使用提醒（如保养、电量低）和更简洁的菜单布局。\n\n【体验价值】明星语音包和自定义导航播报增加了导航的趣味性和个性化，提升了驾驶愉悦感。可见即可说功能让用户无需记忆指令，直接说出屏幕上的文字即可操作，降低了学习成本。远程视频查看功能让用户随时监控车内安全，尤其适合有儿童或宠物的家庭，增强了安心感。二次确认机制在关键操作（如车窗升降）前增加确认步骤，减少了误操作风险。\n\n【潜在槽点】明星语音包可能因版权问题导致更新不及时或内容有限，用户新鲜感过后可能弃用。远程视频查看功能涉及车内隐私，若数据加密不严或服务器被攻击，可能导致用户隐私泄露。二次确认机制在频繁操作场景（如连续调节音量）中可能显得冗余，增加交互步骤，影响效率。",
+          "summary_en": "【Event Overview】Dongfeng Yipai announced the second OTA beta update for Nano 06, adding 8 new features and 2 optimizations. Key updates include: navigation upgrade with celebrity voice packs and custom navigation announcements, priority for official stores in search; voice interaction upgrade with 'see-and-say' and wake-free continuous dialogue, faster recognition, and a new confirmation mechanism to prevent misoperations; remote monitoring upgrade with live video view via phone app; system management optimization with vehicle usage reminders and cleaner menu layout.\n\n【Experience Value】Celebrity voice packs and custom announcements add fun and personalization to navigation, enhancing driving pleasure. 'See-and-say' eliminates the need to memorize commands, reducing learning costs. Remote live video allows users to monitor car interior anytime, especially reassuring for families with children or pets. The confirmation mechanism adds a step before critical operations (e.g., window control), reducing misoperation risks.\n\n【Potential Friction】Celebrity voice packs may face copyright issues, leading to limited updates or content, and user novelty may wear off quickly. Remote video viewing involves in-car privacy; weak data encryption or server attacks could lead to privacy leaks. The confirmation mechanism may feel redundant in frequent operations (e.g., continuous volume adjustment), adding steps and reducing efficiency."
+        }
+      ],
+      "created_at": "2026-06-12 14:52:19"
+    },
+    {
       "date": "2026-06-11",
       "date_display": "06月11日",
       "weekday": "周四",
