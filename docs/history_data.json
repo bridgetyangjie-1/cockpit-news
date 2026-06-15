@@ -1,6 +1,71 @@
 {
   "records": [
     {
+      "date": "2026-06-15",
+      "date_display": "06月15日",
+      "weekday": "周一",
+      "news_count": 4,
+      "news": [
+        {
+          "title": "五大玩家上车,AI智能体变身'生活助理'",
+          "url": "https://cj.sina.com.cn/articles/view/7857141524/1d452771401902zab8",
+          "site_name": "新浪财经",
+          "publish_date": "2026-06-15",
+          "tags": [
+            "AI智能体",
+            "生态融合",
+            "语音交互",
+            "支付场景"
+          ],
+          "summary": "【事件概述】2026年6月，爱奇艺、支付宝、腾讯等五大玩家宣布将AI智能体（Agent）集成至车载座舱系统。爱奇艺座舱Agent实现AI搜片与互动观影，用户可通过语音指令直接搜索并播放影视内容；支付宝车载助手打通停车缴费、语音点单支付，实现车内无感支付闭环；腾讯云游戏则将键鼠、体感游戏搬进座舱，丰富车内娱乐场景。此举标志着2026年成为AI智能体上车元年，座舱从被动响应转向主动服务，通过多模态交互（语音+触控+手势）和跨应用协同，为用户提供一站式生活助理体验。\n\n【体验价值】AI智能体将碎片化功能整合为连贯任务流，用户无需在多个App间切换，例如一句话即可完成“找餐厅-导航-支付”，大幅降低操作层级，提升驾驶专注度与效率。\n\n【潜在槽点】多应用权限打通可能引发隐私泄露风险，用户需授权支付、位置等敏感数据；跨平台协同的稳定性待验证，若支付失败或内容加载延迟，将严重破坏体验一致性。",
+          "summary_en": "【Event Overview】In June 2026, five major players including iQiyi, Alipay, and Tencent announced the integration of AI agents into vehicle cockpits. iQiyi's agent enables AI-powered search and interactive viewing; Alipay's in-car assistant streamlines parking payment and voice ordering; Tencent Cloud Gaming brings keyboard/mouse and motion-sensing games into the cabin. This marks 2026 as the year of AI agents in vehicles, shifting from passive response to proactive service via multimodal interaction and cross-app collaboration. \n\n【Experience Value】AI agents consolidate fragmented functions into seamless task flows, allowing users to complete complex actions like 'find restaurant - navigate - pay' with a single command, reducing interaction layers and enhancing driving focus. \n\n【Potential Friction】Cross-app permission integration raises privacy concerns, requiring access to sensitive data like location and payment info; stability of cross-platform coordination remains unproven, with potential failures in payment or content loading severely disrupting user experience."
+        },
+        {
+          "title": "小米澎湃OS 4引入苹果同款液态玻璃：博主称细节审美提升100倍",
+          "url": "https://www.163.com/dy/article/KV2DJLNG0511CPVM.html",
+          "site_name": "网易",
+          "publish_date": "2026-06-10",
+          "tags": [
+            "小米",
+            "澎湃OS",
+            "UI设计",
+            "光场交互"
+          ],
+          "summary": "【事件概述】小米计划于2026年下半年推出澎湃OS 4，该系统采用全新光场交互设计，并首次引入苹果同款“液态玻璃”设计语言。核心创新包括：AI自适应取色功能，可根据壁纸和场景动态调整界面色彩；底层代码重构，清理十年冗余代码以提升流畅度；桌面7.0版本已进入压测阶段。液态玻璃设计强调动态光影和透明质感，使图标、卡片和控件呈现类似玻璃的折射与模糊效果，提升视觉层次感。此外，系统还优化了动画曲线和触控反馈，意图在交互细节上对标iOS。\n\n【体验价值】液态玻璃设计通过动态光影和实时模糊，营造出沉浸且富有质感的视觉体验，减少界面割裂感；AI自适应取色让界面与内容更协调，降低用户视觉疲劳，提升长时间使用的舒适度。\n\n【潜在槽点】过度追求视觉特效可能增加GPU负载，导致发热和续航下降；液态玻璃的复杂渲染在低端机型上可能出现卡顿或掉帧，影响基础交互流畅性；用户若偏好简洁风格，可能认为该设计冗余。",
+          "summary_en": "【Event Overview】Xiaomi plans to launch HyperOS 4 in H2 2026, featuring a new light-field interaction design and Apple-like 'liquid glass' design language. Key innovations include AI adaptive color extraction that dynamically adjusts UI colors based on wallpapers and scenes, and a bottom-layer code refactoring to remove a decade of redundant code for improved smoothness. The liquid glass design emphasizes dynamic lighting and transparency, making icons and cards appear with refraction and blur effects, enhancing visual depth. \n\n【Experience Value】The liquid glass design creates an immersive, premium visual experience with dynamic lighting and real-time blur, reducing interface fragmentation; AI adaptive color extraction aligns UI with content, lowering visual fatigue for prolonged use. \n\n【Potential Friction】Excessive visual effects may increase GPU load, causing overheating and battery drain; complex rendering could cause stuttering on low-end devices, compromising basic interaction smoothness; users preferring minimalism may find the design cluttered."
+        },
+        {
+          "title": "2026 未来汽车 AI 技术展 6 月 13 日在渝启幕！",
+          "url": "https://www.ithome.com/0/964/062.htm",
+          "site_name": "IT之家",
+          "publish_date": "2026-06-14",
+          "tags": [
+            "火山引擎",
+            "科大讯飞",
+            "斑马智行",
+            "座舱大模型"
+          ],
+          "summary": "【事件概述】2026年6月13日，未来汽车AI技术展在重庆开幕，聚焦AI座舱与智能交互。火山引擎展示了与多家车企合作的座舱大模型落地案例，实现多模态交互（语音+视觉+手势）和个性化内容推荐；科大讯飞推出“星火大模型”车载深度应用，支持复杂语义理解和多轮对话；斑马智行呈现AliOS与通义大模型深度融合的智能座舱系统，强调“零层级”交互和主动服务；中科创达展示“滴水OS”面向中央计算的整车操作系统，支持跨域融合。展会凸显2026年座舱AI从“语音助手”向“认知智能”演进，大模型成为核心驱动力。\n\n【体验价值】座舱大模型使交互更自然，用户可用日常语言表达复杂需求（如“找一家评分高、有充电桩的川菜馆”），系统自主推理并执行；多模态融合提升交互冗余度，在嘈杂环境下仍可准确理解意图。\n\n【潜在槽点】大模型推理依赖云端，网络延迟或断网时功能降级严重；模型“幻觉”可能导致错误推荐（如导航到已关闭的店铺），引发用户信任危机；多模态数据（如摄像头画面）的实时处理对算力和隐私保护提出更高要求。",
+          "summary_en": "【Event Overview】On June 13, 2026, the Future Automotive AI Technology Expo opened in Chongqing, focusing on AI cockpits and intelligent interaction. Volcengine showcased cockpit large model implementations with multiple automakers, enabling multimodal interaction and personalized content recommendations; iFlytek launched the 'Spark' large model for in-car deep applications, supporting complex semantic understanding and multi-turn dialogue; Banma presented the AliOS integrated with Tongyi large model, emphasizing 'zero-level' interaction and proactive services; ThunderSoft displayed 'Drip OS' for central computing vehicle OS. The expo highlighted the evolution from voice assistants to cognitive intelligence driven by large models. \n\n【Experience Value】Cockpit large models enable natural interaction, allowing users to express complex needs in everyday language (e.g., 'find a highly-rated Sichuan restaurant with charging stations'), with the system autonomously reasoning and executing; multimodal fusion improves interaction redundancy, accurately understanding intent even in noisy environments. \n\n【Potential Friction】Large model inference relies on cloud connectivity, leading to severe degradation during network latency or offline scenarios; model 'hallucinations' may cause erroneous recommendations (e.g., navigating to a closed store), eroding user trust; real-time processing of multimodal data (e.g., camera feeds) imposes high demands on computing power and privacy protection."
+        },
+        {
+          "title": "Latest Lucid Gravity OTA Update Brings Along Hands-Free Driving and Google Maps Places",
+          "url": "https://www.autoevolution.com/news/latest-lucid-gravity-ota-update-brings-along-hands-free-driving-and-google-maps-places-271201.html",
+          "site_name": "Autoevolution",
+          "publish_date": "2026-06-08",
+          "tags": [
+            "Lucid",
+            "OTA",
+            "Google Maps",
+            "导航"
+          ],
+          "summary": "【事件概述】Lucid Gravity车型近期通过OTA更新引入了免手驾驶功能（Hands-Free Driving）和Google Maps Places API集成。免手驾驶功能允许驾驶员在特定高速路段无需手握方向盘，系统自动控制加速、刹车和转向。更值得关注的是，Google Maps Places API与Lucid导航系统深度融合，使车辆能提供更精准、更具上下文感知的搜索结果。例如，用户可语音查询“附近评分最高的意大利餐厅”，系统不仅返回列表，还能根据当前时间、交通状况和用户历史偏好推荐最佳路线和停车选项。该更新通过OTA推送，无需到店升级，体现了软件定义汽车的趋势。\n\n【体验价值】免手驾驶功能在长途高速场景中显著减轻驾驶员疲劳，提升舒适性；Google Maps Places集成使导航从“路线指引”升级为“生活服务助手”，用户无需切换应用即可完成从搜索到导航的闭环，交互效率大幅提升。\n\n【潜在槽点】免手驾驶功能在复杂路况（如施工区、恶劣天气）下可能不可靠，用户需保持警惕，易产生“虚假安全感”；Places API依赖网络连接，离线时功能受限；OTA更新可能因网络中断或存储不足而失败，影响用户体验。",
+          "summary_en": "【Event Overview】Lucid Gravity's latest OTA update introduces Hands-Free Driving and Google Maps Places API integration. Hands-Free Driving allows the vehicle to control acceleration, braking, and steering on specific highways without driver hand contact. More notably, the Google Maps Places API deeply integrates with Lucid's navigation, enabling context-aware search results. For example, users can voice-query 'top-rated Italian restaurants nearby,' and the system returns not only a list but also recommends optimal routes and parking based on current time, traffic, and user history. The update is delivered OTA, reflecting the software-defined vehicle trend. \n\n【Experience Value】Hands-Free Driving significantly reduces driver fatigue on long highway trips, enhancing comfort; Google Maps Places integration upgrades navigation from 'route guidance' to a 'life service assistant,' allowing users to complete the search-to-navigation loop without switching apps, greatly improving interaction efficiency. \n\n【Potential Friction】Hands-Free Driving may be unreliable in complex conditions (e.g., construction zones, bad weather), requiring driver vigilance and potentially creating a false sense of safety; Places API relies on network connectivity, with limited functionality offline; OTA updates may fail due to network interruptions or insufficient storage, impacting user experience."
+        }
+      ],
+      "created_at": "2026-06-15 15:31:16"
+    },
+    {
       "date": "2026-06-14",
       "date_display": "06月14日",
       "weekday": "周日",
