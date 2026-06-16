@@ -1,6 +1,95 @@
 {
   "records": [
     {
+      "date": "2026-06-16",
+      "date_display": "06月16日",
+      "weekday": "周二",
+      "news_count": 5,
+      "news": [
+        {
+          "title": "座舱大模型：智能驾驶的未来引擎",
+          "url": "http://www.autoribao.com/articleid/116178.html",
+          "site_name": "东南周报网",
+          "publish_date": "2026-06-14",
+          "tags": [
+            "极氪",
+            "Kr AI",
+            "DeepSeek R1",
+            "端侧大模型",
+            "语音交互",
+            "多模态"
+          ],
+          "summary": "【事件概述】该报道聚焦极氪自研的Kr AI大模型与DeepSeek R1大模型的深度融合，推出了行业首个座舱端侧AI大模型。这一创新将大模型从云端迁移至车机本地，实现了毫秒级响应、离线可用和隐私数据本地化处理。核心功能包括：全时全域免唤醒语音交互，支持多指令并行执行（如同时打开空调、导航、播放音乐）；基于多模态感知的主动服务（如根据驾驶员情绪调整氛围灯和音乐）；以及零层级直达的意图理解，用户无需逐级菜单操作即可完成复杂任务。该模型还具备持续学习能力，能根据用户习惯优化推荐和交互策略。\n\n【体验价值】端侧大模型彻底消除了云端延迟，使语音交互达到“类人对话”的自然度。免唤醒和零层级设计大幅降低了操作门槛，尤其在驾驶场景中，用户可专注于路况，通过自然语言完成所有操作，提升了安全性和效率。主动服务能力让座舱从被动工具变为“懂你”的智能伙伴，增强了情感连接。\n\n【潜在槽点】端侧模型的算力消耗可能影响车机整体流畅度，尤其在多任务场景下。隐私数据本地化虽好，但模型更新和个性化学习需要定期联网，可能引发用户对数据上传的担忧。此外，免唤醒误触发率在嘈杂环境或多人对话中可能较高，需持续优化声纹识别和上下文过滤。",
+          "summary_en": "【Event Overview】This report highlights the deep integration of Zeekr's self-developed Kr AI large model with DeepSeek R1, launching the industry's first on-device cockpit AI large model. This innovation moves the large model from cloud to local vehicle hardware, achieving millisecond-level response, offline availability, and local privacy data processing. Core features include: always-on wake-free voice interaction supporting parallel multi-command execution (e.g., simultaneously turning on AC, navigating, playing music); proactive services based on multimodal perception (e.g., adjusting ambient lighting and music based on driver's mood); and zero-level intent understanding, allowing users to complete complex tasks without navigating menus. The model also features continuous learning to optimize recommendations and interaction strategies based on user habits.\n\n【Experience Value】On-device large models eliminate cloud latency, making voice interaction as natural as human conversation. Wake-free and zero-level design significantly reduces operational friction, especially in driving scenarios, allowing users to focus on the road while completing all operations via natural language, enhancing safety and efficiency. Proactive service capability transforms the cockpit from a passive tool into an intelligent companion that 'understands' you, strengthening emotional connection.\n\n【Potential Friction】On-device model computation may impact overall system smoothness, especially under multitasking. While local privacy processing is beneficial, model updates and personalized learning require periodic internet connectivity, potentially raising user concerns about data upload. Additionally, false wake-up triggers in noisy environments or multi-person conversations may be high, requiring continuous optimization of voiceprint recognition and context filtering."
+        },
+        {
+          "title": "商汤智驾及座舱大模型产品亮相WAIC...",
+          "url": "https://chedongxi.com/p/322891.html",
+          "site_name": "车东西",
+          "publish_date": "2026-06-14",
+          "tags": [
+            "商汤",
+            "日日新5.5",
+            "日日新5o",
+            "多模态",
+            "端云协同",
+            "实时交互"
+          ],
+          "summary": "【事件概述】商汤科技在WAIC上展示了其日日新5.5多模态大模型在智能驾驶和智能座舱中的应用，并发布了日日新5o大模型。日日新5o实现了实时流式多模态交互，对标GPT-4o，支持文本、图像、视频、音频的端到端统一建模。其混合端云协同架构允许在车端处理低延迟任务（如语音识别、简单指令），云端处理复杂推理（如多模态理解、长上下文对话），从而在保证响应速度的同时降低车端算力需求。核心创新包括：跨模态语义理解（如通过摄像头识别用户手势并执行操作）、动态场景感知（如根据路况和车内环境自动调整座椅和空调）、以及多轮对话中的上下文保持能力。\n\n【体验价值】实时流式多模态交互让用户可以通过语音、手势、眼神等多种方式自然操控座舱，打破了传统单一语音或触控的局限。端云协同架构确保了复杂任务的高质量完成，同时车端处理保证了基础交互的即时性，用户体验流畅无割裂。跨模态理解能力使座舱能更精准地感知用户意图，例如用户指向窗外说“那是什么”，系统能自动识别并回答。\n\n【潜在槽点】端云协同依赖网络稳定性，在信号弱区（如隧道、山区）云端功能可能降级或不可用，导致体验不一致。多模态交互的隐私风险更高，摄像头和麦克风持续采集数据，用户可能对数据使用范围存疑。此外，手势识别在驾驶场景中可能分散注意力，需严格限制非必要手势操作。",
+          "summary_en": "【Event Overview】SenseTime showcased its SenseNova 5.5 multimodal large model for autonomous driving and smart cockpits at WAIC, and released the SenseNova 5o model. SenseNova 5o achieves real-time streaming multimodal interaction, comparable to GPT-4o, supporting end-to-end unified modeling of text, images, video, and audio. Its hybrid edge-cloud architecture allows low-latency tasks (e.g., voice recognition, simple commands) to be processed on-device, while complex reasoning (e.g., multimodal understanding, long-context dialogue) is handled in the cloud, balancing response speed and on-device compute requirements. Key innovations include: cross-modal semantic understanding (e.g., recognizing user gestures via camera and executing actions), dynamic scene perception (e.g., automatically adjusting seats and AC based on road conditions and in-cabin environment), and context retention in multi-turn dialogues.\n\n【Experience Value】Real-time streaming multimodal interaction allows users to control the cockpit naturally via voice, gestures, and gaze, breaking the limitations of single-mode interaction. The edge-cloud architecture ensures high-quality completion of complex tasks, while on-device processing guarantees instant basic interactions, resulting in a seamless user experience. Cross-modal understanding enables the cockpit to more accurately perceive user intent, e.g., when a user points out the window and asks 'What is that?', the system can automatically identify and answer.\n\n【Potential Friction】Edge-cloud synergy relies on network stability; in weak signal areas (e.g., tunnels, mountains), cloud functions may degrade or become unavailable, causing inconsistent experiences. Multimodal interaction raises higher privacy risks, as cameras and microphones continuously collect data, potentially raising user concerns about data usage. Additionally, gesture recognition in driving scenarios may distract attention, requiring strict limitation of non-essential gesture operations."
+        },
+        {
+          "title": "谁能定义AI汽车第一车？AIVA品牌的破局之路",
+          "url": "https://www.chooseauto.com.cn/news/927868.shtml",
+          "site_name": "选车网",
+          "publish_date": "2026-06-12",
+          "tags": [
+            "AIVA",
+            "AI汽车",
+            "全时免唤醒",
+            "零层级交互",
+            "情感计算",
+            "语音交互"
+          ],
+          "summary": "【事件概述】AIVA品牌发布了其AI汽车产品，核心卖点是让交互像人与人聊天一样自然。其技术亮点包括：全时全域免唤醒语音交互，用户无需说出唤醒词即可随时下达指令；零层级直达功能，系统能直接理解用户意图并执行任务，无需逐级菜单操作；以及情感计算能力，能从语气中读出用户情绪（如烦躁、开心），并给出有温度的回应（如调整氛围灯、播放舒缓音乐）。AIVA还强调其AI系统具备持续学习能力，能根据用户习惯和偏好不断优化交互策略，实现个性化体验。该品牌旨在通过自然语言和情感理解，重新定义人车关系，从工具升级为伙伴。\n\n【体验价值】全时免唤醒和零层级交互极大降低了用户操作负担，尤其在驾驶场景中，用户可专注于路况，通过自然语言完成所有操作，提升安全性和便利性。情感计算让座舱能感知并回应用户情绪，提供更人性化的体验，例如在用户疲劳时主动建议休息或播放提神音乐，增强了情感连接和用户满意度。\n\n【潜在槽点】全时免唤醒在多人对话或嘈杂环境中容易误触发，可能导致尴尬或干扰。情感计算依赖对语音语调的准确分析，但不同文化、方言和个体差异可能导致误判，引发不恰当的回应。此外，持续学习需要大量用户数据，隐私保护措施若不透明，可能引发用户抵触。",
+          "summary_en": "【Event Overview】AIVA brand unveiled its AI car, with the core selling point of making interaction as natural as human conversation. Technical highlights include: always-on wake-free voice interaction, allowing users to issue commands anytime without a wake word; zero-level direct access, where the system directly understands user intent and executes tasks without menu navigation; and emotional computing, which reads user emotions (e.g., frustration, happiness) from tone and responds with warmth (e.g., adjusting ambient lighting, playing soothing music). AIVA also emphasizes continuous learning, enabling the system to optimize interaction strategies based on user habits and preferences, achieving personalized experiences. The brand aims to redefine the human-vehicle relationship from tool to companion through natural language and emotional understanding.\n\n【Experience Value】Always-on wake-free and zero-level interaction significantly reduce user operational burden, especially in driving scenarios, allowing users to focus on the road while completing all operations via natural language, enhancing safety and convenience. Emotional computing enables the cockpit to perceive and respond to user emotions, providing a more humanized experience, e.g., proactively suggesting rest or playing uplifting music when detecting fatigue, strengthening emotional connection and user satisfaction.\n\n【Potential Friction】Always-on wake-free mode is prone to false triggers in multi-person conversations or noisy environments, potentially causing embarrassment or distraction. Emotional computing relies on accurate analysis of voice tone, but cultural, dialectal, and individual differences may lead to misjudgment, triggering inappropriate responses. Additionally, continuous learning requires large amounts of user data; if privacy protection measures are not transparent, it may cause user resistance."
+        },
+        {
+          "title": "2024 款岚图 FREE 车型 OTA 6.0 升级:支持红绿灯倒计时、语音免唤醒等...",
+          "url": "https://k.sina.cn/article_7857141524_1d4527714019033koi.html",
+          "site_name": "新浪",
+          "publish_date": "2026-06-11",
+          "tags": [
+            "岚图",
+            "OTA 6.0",
+            "红绿灯倒计时",
+            "免唤醒",
+            "车道级导航",
+            "手机车机同步"
+          ],
+          "summary": "【事件概述】2024款岚图FREE通过OTA 6.0版本升级，引入了多项软件功能创新。核心更新包括：红绿灯倒计时功能，车机地图能实时显示前方红绿灯剩余秒数，帮助用户预判通行时机；语音免唤醒功能，用户无需说“你好，岚图”即可直接下达指令，如“打开空调”；车道级导航，提供车道指引播报、高速出口匝道识别和提前变道提示；以及手机车机同步功能，用户可在手机上规划路线并一键发送至车机。这些功能通过OTA空中升级实现，无需硬件改动，体现了软件定义汽车的理念。\n\n【体验价值】红绿灯倒计时功能直观实用，能减少用户等待焦虑，并辅助驾驶决策（如提前减速或加速通过）。语音免唤醒简化了交互流程，提升了驾驶安全性和操作效率。车道级导航在复杂路口和高速场景中提供更精准的指引，降低走错路概率。手机车机同步功能无缝衔接移动端和车载端，提升了出行规划的连贯性。\n\n【潜在槽点】红绿灯倒计时依赖实时数据，在信号弱或数据延迟时可能不准确，导致用户误判。语音免唤醒在车内多人交谈时可能误触发，影响体验。车道级导航对地图数据精度要求高，部分老旧路段或施工区域可能覆盖不全。手机车机同步功能需用户安装并登录特定APP，增加了使用门槛。",
+          "summary_en": "【Event Overview】The 2024 Voyah FREE received OTA 6.0 update, introducing several software innovations. Core updates include: traffic light countdown, where the in-car map displays real-time remaining seconds of upcoming traffic lights, helping users anticipate passage timing; wake-free voice interaction, allowing users to issue commands directly without saying 'Hey, Voyah', e.g., 'Turn on AC'; lane-level navigation, providing lane guidance, highway exit ramp identification, and early lane change prompts; and phone-to-car sync, enabling users to plan routes on their phone and send them to the car with one click. These features are delivered via OTA without hardware changes, embodying the software-defined vehicle concept.\n\n【Experience Value】The traffic light countdown is intuitive and practical, reducing user waiting anxiety and aiding driving decisions (e.g., slowing down or accelerating through). Wake-free voice simplifies interaction flow, enhancing driving safety and operational efficiency. Lane-level navigation provides more precise guidance at complex intersections and highways, reducing the chance of wrong turns. Phone-to-car sync seamlessly bridges mobile and in-car experiences, improving trip planning continuity.\n\n【Potential Friction】Traffic light countdown relies on real-time data; in weak signal or data latency scenarios, it may be inaccurate, leading to user misjudgment. Wake-free voice may be falsely triggered during multi-person conversations in the car, affecting experience. Lane-level navigation requires high-precision map data, which may be incomplete for old roads or construction zones. Phone-to-car sync requires users to install and log into a specific app, adding a usage barrier."
+        },
+        {
+          "title": "智能座舱语音助手实力榜2026深度评测:谁更懂驾驶者",
+          "url": "https://cj.sina.com.cn/articles/view/7857141524/1d4527714019039kow",
+          "site_name": "新浪财经",
+          "publish_date": "2026-06-14",
+          "tags": [
+            "语音助手",
+            "天琴",
+            "分布式智能体",
+            "多语种",
+            "低功耗",
+            "语义理解"
+          ],
+          "summary": "【事件概述】该评测报告对2026年主流智能座舱语音助手进行了深度对比，重点分析了天琴语音助手。天琴的核心创新在于全链路语音交互与分布式智能体技术。全链路语音交互覆盖从唤醒、识别、语义理解到执行反馈的完整闭环，支持多轮对话和复杂长句处理（超过15个字）。分布式智能体技术允许语音助手调用车内外多个传感器和控制器，实现跨域协同，例如通过语音控制空调、车窗、导航、音乐等，甚至与驾驶辅助系统联动。此外，天琴在低功耗、多语种覆盖（包括方言识别）和安全性方面表现突出，能在低算力硬件上实现流畅交互。\n\n【体验价值】全链路语音交互确保了从用户说出指令到系统执行的无缝体验，多轮对话能力让用户无需重复上下文，交互更自然。分布式智能体技术使语音助手成为座舱的“中枢神经”，能统一调度各类功能，提升操作效率和集成度。低功耗设计延长了车机待机时间，多语种覆盖照顾了不同用户群体，增强了包容性。\n\n【潜在槽点】分布式智能体依赖车内外传感器和控制器的高度集成，若部分硬件不兼容或通信延迟，可能导致指令执行失败或响应慢。多语种覆盖虽好，但方言识别准确率在特定口音或混合语种场景下可能下降。全链路交互的隐私风险较高，语音数据需在云端和车端传输，用户可能对数据存储和用途存疑。",
+          "summary_en": "【Event Overview】This review report conducts an in-depth comparison of mainstream smart cockpit voice assistants in 2026, focusing on the Tianqin voice assistant. Tianqin's core innovations lie in full-chain voice interaction and distributed agent technology. Full-chain voice interaction covers the complete loop from wake-up, recognition, semantic understanding to execution feedback, supporting multi-turn dialogues and complex long sentences (over 15 characters). Distributed agent technology allows the voice assistant to invoke multiple in-vehicle and external sensors and controllers, enabling cross-domain coordination, e.g., controlling AC, windows, navigation, music via voice, and even linking with driver assistance systems. Additionally, Tianqin excels in low power consumption, multilingual coverage (including dialect recognition), and safety, achieving smooth interaction on low-compute hardware.\n\n【Experience Value】Full-chain voice interaction ensures a seamless experience from user command to system execution; multi-turn dialogue capability allows users to avoid repeating context, making interaction more natural. Distributed agent technology makes the voice assistant the 'central nervous system' of the cockpit, uniformly scheduling various functions, improving operational efficiency and integration. Low-power design extends vehicle standby time, and multilingual coverage caters to diverse user groups, enhancing inclusivity.\n\n【Potential Friction】Distributed agent technology relies on high integration of in-vehicle and external sensors and controllers; if some hardware is incompatible or communication is delayed, it may lead to command execution failure or slow response. Multilingual coverage, while beneficial, may see decreased dialect recognition accuracy in specific accents or mixed-language scenarios. Full-chain interaction raises higher privacy risks, as voice data is transmitted between cloud and vehicle, potentially causing user concerns about data storage and usage."
+        }
+      ],
+      "created_at": "2026-06-16 15:36:49"
+    },
+    {
       "date": "2026-06-15",
       "date_display": "06月15日",
       "weekday": "周一",
