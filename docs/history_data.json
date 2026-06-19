@@ -1,6 +1,43 @@
 {
   "records": [
     {
+      "date": "2026-06-19",
+      "date_display": "06月19日",
+      "weekday": "周五",
+      "news_count": 2,
+      "news": [
+        {
+          "title": "终于来了：华为鸿蒙单框架车机系统出现网易云音乐App",
+          "url": "https://tech.ifeng.com/c/8tx4FosAX0V",
+          "site_name": "凤凰网科技",
+          "publish_date": "2026-06-19",
+          "tags": [
+            "华为",
+            "鸿蒙OS",
+            "原生应用",
+            "生态适配"
+          ],
+          "summary": "【事件概述】在HDC2026华为开发者大会上，鸿蒙单框架车机系统首次展示了网易云音乐App的原生版本。这意味着网易云音乐已成功适配原生鸿蒙HarmonyOS NEXT系统，实现了从手机到车机的无缝迁移。该原生应用基于鸿蒙的分布式能力，可在车机端直接运行，无需依赖手机投屏或虚拟机，显著提升了流畅度和资源利用率。此举标志着鸿蒙车机生态在影音娱乐领域的关键突破，为后续更多第三方应用的原生适配树立了标杆。\n\n【体验价值】用户无需手机辅助即可在车机上直接使用网易云音乐的全部功能，包括在线歌单、无损音质和个性化推荐。原生应用响应更快、功耗更低，且能利用车机屏幕和音响系统提供沉浸式听歌体验，减少了操作层级和延迟感。\n\n【潜在槽点】原生应用适配初期可能功能不全，如缺少部分社交或会员功能；车机端UI未针对驾驶场景优化，可能导致分心操作；用户需重新登录和同步歌单，学习成本较高。",
+          "summary_en": "【Event Overview】At the HDC2026 Huawei Developer Conference, the Hongmeng single-framework in-vehicle system showcased the native version of NetEase Cloud Music App for the first time. This means NetEase Cloud Music has successfully adapted to the native HarmonyOS NEXT system, achieving seamless migration from phone to car. The native app, based on Hongmeng's distributed capabilities, runs directly on the vehicle system without relying on phone projection or virtual machines, significantly improving smoothness and resource utilization. This marks a key breakthrough in the Hongmeng in-vehicle ecosystem for entertainment, setting a benchmark for future third-party app adaptations.\n\n【Experience Value】Users can directly access all features of NetEase Cloud Music on the vehicle system without phone assistance, including online playlists, lossless audio, and personalized recommendations. The native app offers faster response, lower power consumption, and leverages the vehicle's screen and audio system for an immersive listening experience, reducing operation layers and latency.\n\n【Potential Friction】Initial adaptation may lack some features, such as social or membership functions; the UI may not be optimized for driving scenarios, potentially causing distraction; users need to re-login and sync playlists, increasing learning costs."
+        },
+        {
+          "title": "梅赛德斯-奔驰OTA远程在线升级至零层级界面",
+          "url": "https://www.autor.com.cn/index/newest/18000.html",
+          "site_name": "AutoR智驾",
+          "publish_date": "2026-06-09",
+          "tags": [
+            "奔驰",
+            "MBUX",
+            "零层级",
+            "OTA"
+          ],
+          "summary": "【事件概述】梅赛德斯-奔驰宣布自6月9日起，向搭载第二代MBUX智能人机交互系统（版本号E211）的S级轿车和C级车推送OTA远程升级，免费为约10万名车主提供“零层级界面”交互体验。该界面将导航、音乐、电话等核心功能以卡片形式常驻于主屏幕，用户无需进入子菜单即可一键操作，大幅减少操作步骤。升级还优化了语音助手响应速度和界面动画流畅度，旨在提升驾驶专注度。这是传统豪华品牌在软件定义汽车时代的重要举措，通过OTA持续迭代用户体验。\n\n【体验价值】零层级设计减少了驾驶中的视觉分心和操作复杂度，核心功能触手可及，符合安全驾驶原则。OTA升级无需到店，降低了用户时间成本。界面动画和语音响应优化提升了整体流畅感，增强了豪华品牌的科技属性。\n\n【潜在槽点】零层级界面可能牺牲个性化定制空间，用户无法自由调整卡片布局；部分高级功能（如车辆设置）仍需进入深层菜单，导致操作逻辑不一致；OTA升级可能因网络或存储问题失败，影响用户体验。",
+          "summary_en": "【Event Overview】Mercedes-Benz announced an OTA remote upgrade starting June 9 for S-Class and C-Class vehicles equipped with the second-generation MBUX system (version E211), providing approximately 100,000 owners with a 'zero-layer interface' experience for free. This interface permanently displays core functions like navigation, music, and phone as cards on the home screen, allowing one-tap operation without entering submenus, significantly reducing steps. The upgrade also improves voice assistant response speed and interface animation smoothness, aiming to enhance driving focus. This marks a key move for traditional luxury brands in the software-defined vehicle era, iterating user experience through OTA.\n\n【Experience Value】The zero-layer design reduces visual distraction and operation complexity during driving, with core functions easily accessible, aligning with safe driving principles. OTA upgrades eliminate the need for dealership visits, saving user time. Improved animation and voice response enhance overall smoothness, reinforcing the luxury brand's tech attributes.\n\n【Potential Friction】The zero-layer interface may sacrifice personalization, as users cannot freely adjust card layouts; some advanced functions (e.g., vehicle settings) still require deep menu navigation, causing logic inconsistency; OTA upgrades may fail due to network or storage issues, impacting user experience."
+        }
+      ],
+      "created_at": "2026-06-19 15:21:31"
+    },
+    {
       "date": "2026-06-18",
       "date_display": "06月18日",
       "weekday": "周四",
