@@ -1,6 +1,58 @@
 {
   "records": [
     {
+      "date": "2026-06-20",
+      "date_display": "06月20日",
+      "weekday": "周六",
+      "news_count": 3,
+      "news": [
+        {
+          "title": "奔驰开启新一轮OTA升级 优化AI智能用车体验",
+          "url": "https://biznews.sohu.com/a/1037186353_122466279",
+          "site_name": "搜狐",
+          "publish_date": "2026-06-20",
+          "tags": [
+            "奔驰",
+            "MBUX",
+            "AI大模型",
+            "情感交互"
+          ],
+          "summary": "【事件概述】梅赛德斯-奔驰面向中国市场车型推送新一轮OTA升级，围绕辅助驾驶与数字座舱带来12项新增功能与优化。核心亮点包括：强化学习大模型上车，使语音助手能根据用户习惯主动推荐导航路线、空调温度等；AI情感式数字豪华座舱落地，系统可通过摄像头识别用户情绪（如疲劳、烦躁），并自动调整氛围灯、音乐和香氛，营造舒适氛围。此外，零层级界面交互得到优化，常用功能卡片可一触即达，减少操作层级。\n\n【体验价值】AI主动推荐和情感识别功能让座舱从“被动响应”进化为“主动关怀”，提升了豪华感和个性化体验。零层级界面减少了驾驶中的操作步骤，降低了分心风险，符合安全驾驶需求。\n\n【潜在槽点】情感识别可能引发隐私担忧，用户需明确知晓摄像头数据的使用范围。AI推荐若不够精准，反而可能成为干扰（如频繁推荐不合适的路线）。零层级界面若自定义选项过多，可能增加初次使用的学习成本。",
+          "summary_en": "【Event Overview】Mercedes-Benz pushes an OTA update for Chinese market vehicles, adding 12 new features and optimizations. Highlights include: reinforcement learning LLM integration for proactive route and climate recommendations; AI emotional luxury cockpit that recognizes user emotions (e.g., fatigue, irritation) via camera and adjusts ambient lighting, music, and fragrance. The zero-layer interface is also optimized for one-tap access to core functions. \n\n【Experience Value】Proactive AI and emotion recognition transform the cockpit from passive to proactive care, enhancing luxury and personalization. The zero-layer interface reduces steps during driving, lowering distraction risk and improving safety. \n\n【Potential Friction】Emotion recognition raises privacy concerns; users need clear data usage policies. Inaccurate AI recommendations may become distractions (e.g., frequent irrelevant route suggestions). Excessive customization in the zero-layer interface could increase initial learning curve."
+        },
+        {
+          "title": "超800项交互升级 ID. ERA 9X迎来OTA更新",
+          "url": "https://www.bitauto.com/article/1003110845687/",
+          "site_name": "易车",
+          "publish_date": "2026-06-20",
+          "tags": [
+            "大众",
+            "ID.OS",
+            "OTA",
+            "用户反馈"
+          ],
+          "summary": "【事件概述】上汽大众正式启动ID. ERA 9X首次OTA升级，此次更新基于首批用户的真实用车反馈，围绕导航、语音交互、远程安全及车载娱乐等高频场景进行了系统优化，实现了超过800项交互体验的革新。具体改进包括：导航路线规划更智能，支持避开拥堵和充电站推荐；语音助手响应速度提升30%，并新增方言识别能力；远程控制功能增强，如远程开关车窗、预约空调；车载娱乐新增短视频和播客应用。大众宣称这是“史上最快OTA”，升级包大小优化至2GB以内，下载和安装时间大幅缩短。\n\n【体验价值】基于用户反馈的OTA迭代体现了“用户共创”理念，800项优化覆盖了日常高频痛点，如导航不准、语音反应慢等，显著提升了实际使用满意度。快速OTA机制让用户无需等待即可获得新功能，增强了“常用常新”的获得感。\n\n【潜在槽点】800项优化中可能包含大量微小修复，用户感知不强，宣传有“刷数字”之嫌。OTA升级虽快，但若未充分测试，可能引入新bug。方言识别准确率在复杂口音下仍存疑，需实际验证。",
+          "summary_en": "【Event Overview】SAIC Volkswagen launches the first OTA update for ID. ERA 9X, incorporating real user feedback to optimize over 800 interaction experiences across navigation, voice, remote safety, and in-car entertainment. Improvements include smarter navigation with congestion avoidance and charging station recommendations; 30% faster voice response with dialect recognition; enhanced remote control (e.g., windows, climate); and new short video and podcast apps. Volkswagen claims the 'fastest OTA ever' with a package size under 2GB for quick download and installation. \n\n【Experience Value】User-feedback-driven OTA embodies 'co-creation', addressing daily pain points like inaccurate navigation and slow voice response, significantly boosting satisfaction. Fast OTA mechanisms give users a sense of 'always new, always fresh'. \n\n【Potential Friction】Many of the 800 optimizations may be minor fixes with low user perception, risking 'number padding'. Rapid OTA without thorough testing could introduce new bugs. Dialect recognition accuracy in complex accents remains questionable and needs real-world validation."
+        },
+        {
+          "title": "2026智能座舱AI Agent演进趋势及3大案例分析报告",
+          "url": "https://www.sohu.com/a/1037911945_122263607",
+          "site_name": "搜狐",
+          "publish_date": "2026-06-20",
+          "tags": [
+            "商汤",
+            "蔚来",
+            "小米",
+            "AI Agent",
+            "情感交互"
+          ],
+          "summary": "【事件概述】佐思汽研发布2026年智能座舱AI Agent演进趋势报告，指出三大核心方向：情感引擎化、多Agent协同、端云一体化。报告以商汤绝影可悠、蔚来NOMI GPT、小米超级小爱为标杆案例。商汤绝影可悠具备情感共情能力，能通过语音和表情识别用户情绪并主动关怀；蔚来NOMI GPT整合大模型，支持多轮对话和复杂任务（如规划旅行路线并预订餐厅）；小米超级小爱则打通手机、家居和车机生态，实现跨设备任务接力（如手机导航上车后自动同步）。\n\n【体验价值】AI Agent从工具升级为“数字伙伴”，情感引擎化让交互更自然、有温度；多Agent协同可并行处理多个任务（如同时导航、播放音乐、调节空调），提升效率；端云一体化确保离线场景下的基础功能可用，同时云端提供强大算力支持复杂任务。\n\n【潜在槽点】情感引擎可能过度拟人化，导致用户产生不切实际的期望或隐私担忧（如情绪数据被滥用）。多Agent协同若任务冲突（如导航和音乐同时占用语音通道），可能引发交互混乱。端云切换时若网络不稳定，体验可能中断。",
+          "summary_en": "【Event Overview】Zos Automotive Research releases a 2026 report on AI Agent trends in smart cockpits, highlighting three directions: emotional engine, multi-agent collaboration, and cloud-edge integration. Case studies include SenseTime's JoyYou (emotional empathy), NIO's NOMI GPT (multi-turn dialogue and complex tasks), and Xiaomi's Super XiaoAi (cross-device task relay). These agents evolve from tools to 'digital companions', enabling natural interaction and parallel task handling. \n\n【Experience Value】Emotional engine makes interactions warmer and more natural; multi-agent collaboration improves efficiency by handling multiple tasks simultaneously; cloud-edge integration ensures basic offline functionality while leveraging cloud power for complex tasks. \n\n【Potential Friction】Over-anthropomorphization may create unrealistic expectations or privacy concerns (e.g., emotional data misuse). Multi-agent conflicts (e.g., navigation and music competing for voice channel) could cause interaction chaos. Unstable network during cloud-edge switching may disrupt experience."
+        }
+      ],
+      "created_at": "2026-06-20 14:38:30"
+    },
+    {
       "date": "2026-06-19",
       "date_display": "06月19日",
       "weekday": "周五",
