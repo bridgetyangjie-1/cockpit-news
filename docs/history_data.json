@@ -1,6 +1,30 @@
 {
   "records": [
     {
+      "date": "2026-06-22",
+      "date_display": "06月22日",
+      "weekday": "周一",
+      "news_count": 1,
+      "news": [
+        {
+          "title": "老车福音！手车互联一开，车机比新车还好用",
+          "url": "https://post.smzdm.com/p/amorkp2d/",
+          "site_name": "什么值得买",
+          "publish_date": "2026-06-22",
+          "tags": [
+            "高德地图",
+            "手车互联",
+            "老车升级",
+            "导航",
+            "零成本"
+          ],
+          "summary": "【事件概述】高德地图推出“手车互联”功能，旨在零成本升级老旧车机。该功能通过手机高德APP与车机版高德（或支持CarLife等协议的旧车机）建立连接，实现手机端规划的路线、收藏的地点、实时路况信息等一键同步至车机屏幕。核心创新在于“无感同步”：用户只需在手机上设置好目的地并选择“发送到汽车”，车机即可自动接收并开始导航，无需在车机上重复输入。此外，手机端更新的地图数据（如新开通道路、限行规则）会实时同步，解决老车机地图老旧、无法联网更新的痛点。该方案不依赖车机硬件升级，仅需软件支持。\n\n【体验价值】该功能精准解决了老车主的“导航焦虑”。用户无需更换车机或购买外接设备，即可享受实时路况、在线更新等现代导航体验。操作流程极简：手机设好目的地，车机自动导航，符合“手机优先”的用户习惯，降低了在车机上复杂输入的学习成本。\n\n【潜在槽点】功能高度依赖手机与车机的稳定连接（蓝牙或Wi-Fi），连接中断会导致导航中断，体验割裂。对于完全不支持任何互联协议的老旧车机（如仅支持本地地图），该功能无法使用。此外，手机持续运行导航会加速电量消耗，长途驾驶时需注意充电。",
+          "summary_en": "【Event Overview】Amap launched a 'Phone-Car Connectivity' feature aimed at zero-cost upgrades for older head units. The function connects the Amap app on a phone to the in-car Amap (or older units supporting CarLife protocols), enabling one-click sync of planned routes, saved locations, and real-time traffic to the car screen. The core innovation is 'seamless sync': users set a destination on the phone and select 'Send to Car', and the car automatically receives and starts navigation without repeated input. Updated map data (e.g., new roads, traffic restrictions) syncs in real-time, solving the pain point of outdated offline maps. \n\n【Experience Value】This feature precisely solves the 'navigation anxiety' of older car owners. Users enjoy real-time traffic and online updates without replacing hardware. The workflow is minimal: set destination on phone, car navigates automatically, aligning with 'phone-first' habits and reducing learning costs for complex in-car input. \n\n【Potential Friction】The function heavily relies on stable phone-car connection (Bluetooth or Wi-Fi); disconnection causes navigation interruption, creating a fragmented experience. It is unusable on very old units that support no connectivity protocols. Continuous phone operation drains battery quickly, requiring charging on long trips."
+        }
+      ],
+      "created_at": "2026-06-22 15:35:14"
+    },
+    {
       "date": "2026-06-21",
       "date_display": "06月21日",
       "weekday": "周日",
