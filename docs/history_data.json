@@ -1,6 +1,58 @@
 {
   "records": [
     {
+      "date": "2026-06-23",
+      "date_display": "06月23日",
+      "weekday": "周二",
+      "news_count": 3,
+      "news": [
+        {
+          "title": "鸿蒙座舱：重构人车家全场景，定义下一代智能汽车应用生态",
+          "url": "https://jishuzhan.net/article/2068484841485725697",
+          "site_name": "Jishuzhan",
+          "publish_date": "2026-06-20",
+          "tags": [
+            "华为",
+            "鸿蒙座舱",
+            "安全隔离",
+            "跨设备生态"
+          ],
+          "summary": "【事件概述】鸿蒙座舱近期通过CC EAL 5+高安全认证，并详细阐述了其安全架构。核心创新在于通过微内核与分布式技术，实现了车载应用与车身控制系统的严格隔离。这意味着第三方影音、支付、游戏等应用在运行时，无法篡改刹车、转向等核心行车数据。同时，所有跨设备（如手机、平板、智能家居）的数据传输均采用端到端加密，用户隐私数据（如人脸、家庭设备信息）强制本地存储，杜绝应用窃取。这一设计在保障生态开放性的同时，从底层架构上解决了智能座舱长期面临的安全与隐私痛点。\n\n【体验价值】用户无需再担心安装第三方应用会危及行车安全，可以放心使用丰富的应用生态。跨设备无缝流转体验（如手机导航自动流转至车机）在安全加密下更加可靠，提升了多设备协同的流畅感和信任感。\n\n【潜在槽点】严格的隔离机制可能导致部分需要深度调用车辆传感器（如摄像头、雷达）的第三方应用功能受限，影响创新应用的落地。此外，端到端加密可能增加跨设备连接时的配对复杂度，对非技术用户不够友好。",
+          "summary_en": "【Event Overview】HarmonyOS Cockpit recently passed CC EAL 5+ security certification, detailing its security architecture. The core innovation lies in strict isolation between in-vehicle apps and vehicle control systems via microkernel and distributed technology. Third-party apps cannot tamper with core driving data. Cross-device data transmission is end-to-end encrypted, and user privacy data is stored locally. This design addresses long-standing security and privacy pain points in smart cockpits. \n\n【Experience Value】Users can confidently install third-party apps without worrying about driving safety. Cross-device seamless transfer (e.g., phone navigation to car) is more reliable with encryption, enhancing trust and fluidity. \n\n【Potential Friction】Strict isolation may limit third-party apps that require deep access to vehicle sensors (e.g., cameras, radar), hindering innovative app deployment. End-to-end encryption could increase pairing complexity for non-tech users."
+        },
+        {
+          "title": "全员布局大模型 5家车企谁走得最快？",
+          "url": "https://www.163.com/dy/article/L03PK4U705476UZY.html",
+          "site_name": "163",
+          "publish_date": "2026-06-23",
+          "tags": [
+            "比亚迪",
+            "吉利",
+            "奇瑞",
+            "大模型",
+            "情感化座舱"
+          ],
+          "summary": "【事件概述】2026年，比亚迪、吉利、奇瑞、长安、长城五大传统车企全面拥抱AI大模型，从4nm智驾芯片到世界行为模型，从端到端智驾到情感化座舱智能体，正在用AI重写出行规则。其中，情感化座舱智能体成为焦点，通过大模型理解用户情绪（如疲劳、烦躁），主动调整氛围灯、音乐、空调，甚至生成个性化语音交互。例如，吉利计划将大模型集成到座舱中，实现“千人千面”的交互体验；奇瑞则强调大模型对语音助手自然语言理解能力的提升，使其能处理复杂多轮对话。\n\n【体验价值】大模型使座舱从“被动响应”转向“主动关怀”。用户无需记忆固定指令，自然对话即可完成操作；情绪感知功能可提升驾驶安全与舒适度，例如检测到疲劳时主动建议休息或播放提神音乐，带来更人性化的体验。\n\n【潜在槽点】情感化交互可能引发隐私担忧——持续监测用户情绪需要摄像头或生物传感器数据，若未明确告知或加密，易导致用户反感。此外，大模型推理延迟可能影响实时交互流畅度，尤其在复杂场景下，响应速度若慢于传统规则引擎，反而会降低体验。",
+          "summary_en": "【Event Overview】In 2026, five major automakers (BYD, Geely, Chery, Changan, Great Wall) are fully embracing AI large models, from 4nm chips to world behavior models. Emotional cockpit agents are a focus, using large models to understand user emotions (e.g., fatigue, irritability) and proactively adjust ambient lighting, music, AC, and generate personalized voice interactions. Geely plans to integrate large models for 'thousand-person, thousand-face' interaction; Chery emphasizes improved natural language understanding for complex multi-turn dialogues. \n\n【Experience Value】Large models shift the cockpit from 'passive response' to 'proactive care'. Users can operate via natural conversation without memorizing commands. Emotion sensing can enhance driving safety and comfort, e.g., suggesting rest when detecting fatigue, offering a more humanized experience. \n\n【Potential Friction】Emotional interaction raises privacy concerns—continuous monitoring requires camera or biometric data, which may cause user backlash if not clearly disclosed or encrypted. Additionally, large model inference latency may affect real-time interaction fluency, especially in complex scenarios, potentially degrading experience compared to traditional rule-based engines."
+        },
+        {
+          "title": "前蔚来座舱负责人朱太平回归广汽：智能座舱竞争已从体验转向规模",
+          "url": "https://www.huxiu.com/article/4867918.html",
+          "site_name": "虎嗅",
+          "publish_date": "2026-06-18",
+          "tags": [
+            "广汽",
+            "语音交互",
+            "用户引导",
+            "交互设计"
+          ],
+          "summary": "【事件概述】前蔚来座舱负责人朱太平回归广汽，在访谈中提出智能座舱竞争已从体验转向规模，并强调用户引导的重要性。他提到，许多初次使用智能车的用户不知道如何唤醒车机，因此建议在屏幕左上角弹出提示词，告诉用户可以呼唤“小祺”；同时保留方向盘上的实体语音按键。他认为，用户没有时间理解复杂菜单逻辑，过度教育反而会让用户产生“你在教我做事”的反感。这一观点直击当前座舱交互设计的核心矛盾：功能日益复杂，但用户学习成本却未被有效降低。\n\n【体验价值】通过显性提示和保留实体按键，降低了新用户的入门门槛，尤其是对非科技爱好者友好。这种“轻引导”设计避免了用户因找不到功能而产生的挫败感，提升了首次使用体验。同时，保留实体按键为习惯传统交互的用户提供了安全感。\n\n【潜在槽点】屏幕提示若设计不当（如频繁弹出、遮挡内容）可能变成干扰，反而增加认知负担。此外，过度依赖提示可能抑制用户主动探索的意愿，长期来看不利于用户形成高效的操作习惯。实体按键的保留也可能与全触控趋势冲突，增加硬件成本。",
+          "summary_en": "【Event Overview】Former NIO cockpit head Zhu Taiping returned to GAC, stating that smart cockpit competition has shifted from experience to scale, emphasizing the importance of user guidance. He noted that many first-time users don't know how to wake the system, suggesting on-screen prompts (e.g., 'Say Hello, Xiaoqi') and retaining physical voice buttons. He argued that users lack time to understand complex menus, and over-education may cause resentment. This insight addresses the core contradiction: increasing feature complexity vs. high learning costs. \n\n【Experience Value】Explicit prompts and physical buttons lower the entry barrier for new users, especially non-tech enthusiasts. This 'light guidance' design reduces frustration from not finding features, improving first-time experience. Physical buttons provide a sense of security for users accustomed to traditional interactions. \n\n【Potential Friction】Poorly designed prompts (e.g., frequent pop-ups, content occlusion) may become distractions, increasing cognitive load. Over-reliance on prompts may discourage active exploration, hindering long-term efficiency. Retaining physical buttons may conflict with the all-touch trend and add hardware costs."
+        }
+      ],
+      "created_at": "2026-06-23 14:17:09"
+    },
+    {
       "date": "2026-06-22",
       "date_display": "06月22日",
       "weekday": "周一",
