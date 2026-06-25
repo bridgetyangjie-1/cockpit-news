@@ -1,6 +1,94 @@
 {
   "records": [
     {
+      "date": "2026-06-25",
+      "date_display": "06月25日",
+      "weekday": "周四",
+      "news_count": 5,
+      "news": [
+        {
+          "title": "国产大模型打入特斯拉座舱是否意味海外AI技术垄断时代终结？",
+          "url": "https://news.sina.cn/bignews/insight/2026-06-25/detail-inieqnch2582413.d.html",
+          "site_name": "新浪新闻",
+          "publish_date": "2026-06-25",
+          "tags": [
+            "特斯拉",
+            "豆包大模型",
+            "语音助手",
+            "OTA",
+            "火山引擎",
+            "AI大模型"
+          ],
+          "summary": "【事件概述】2026年4月，特斯拉中国车机语音大模型服务通过备案，正式接入字节跳动的豆包大模型和深度求索的DeepSeek，均通过火山引擎提供技术支持。分工明确：豆包负责导航、娱乐等高频场景的语义理解与生成，DeepSeek则专注于复杂逻辑推理与多轮对话。该功能通过OTA推送至特斯拉全系车型，标志着特斯拉首次在座舱内引入第三方国产大模型，打破了此前完全自研的语音技术路线。用户可通过语音指令实现更自然的上下文对话、模糊意图识别（如“我有点冷”自动调高空调温度）以及多任务并行处理（如同时查询天气并设置导航）。\n\n【体验价值】从UX视角看，该功能显著降低了语音交互的认知负荷。用户无需记忆固定指令，可用自然语言表达需求，系统能主动推理并执行。例如，用户说“找一家附近的充电站，要便宜的”，系统可自动筛选并规划路线，减少了手动操作的层级。多模态融合（语音+屏幕反馈）也提升了交互的直观性。\n\n【潜在槽点】隐私风险是最大挑战：语音数据需上传至云端处理，用户可能担忧对话被录音或滥用。此外，大模型响应延迟在弱网环境下可能影响体验，且对复杂方言的识别准确率仍有待验证。若模型“幻觉”导致错误导航或设置，可能引发安全风险。",
+          "summary_en": "【Event Overview】In April 2026, Tesla's China infotainment system officially integrated ByteDance's Doubao and DeepSeek large language models via Volcengine, delivered through OTA. Doubao handles navigation and entertainment, while DeepSeek focuses on complex reasoning. This marks Tesla's first adoption of third-party AI in its cockpit, enabling natural language understanding, fuzzy intent recognition, and multi-task processing. \n\n【Experience Value】The feature reduces cognitive load by allowing users to speak naturally without memorizing commands. For example, saying 'find a cheap nearby charging station' triggers automatic filtering and route planning, minimizing manual steps. Multimodal feedback (voice + screen) enhances intuitiveness. \n\n【Potential Friction】Privacy risks are paramount: voice data is uploaded to the cloud, raising concerns about recording and misuse. Latency in weak network conditions may degrade experience, and dialect recognition accuracy remains unproven. Model 'hallucinations' could lead to incorrect navigation or settings, posing safety risks."
+        },
+        {
+          "title": "你车上的鸿蒙座舱，还能进化成什么样？",
+          "url": "https://chejiahao.autohome.com.cn/info/25372074",
+          "site_name": "汽车之家",
+          "publish_date": "2026-04-25",
+          "tags": [
+            "华为",
+            "鸿蒙座舱",
+            "HarmonySpace 6",
+            "语音助手",
+            "多模态交互",
+            "AI Agent"
+          ],
+          "summary": "【事件概述】2026年4月25日，华为在鸿蒙座舱生态论坛上发布HarmonySpace 6，核心升级是MoLA 2.0多Agent架构。该架构将座舱语音助手“小艺”拆分为多个专业Agent，如导航Agent、娱乐Agent、车辆控制Agent等，各Agent独立运行并协同工作。用户无需唤醒词即可跨场景连续对话，例如在导航中直接说“播放周杰伦的歌”，系统自动切换至音乐Agent并保持导航后台运行。此外，HarmonySpace 6支持多模态交互，融合语音、手势、视线追踪，用户可通过眼神注视屏幕并说“打开这个”来精准控制。\n\n【体验价值】MoLA 2.0架构显著提升了交互效率与自然度。用户无需重复上下文，系统能理解跨场景意图，减少了操作步骤。多模态融合（如视线+语音）降低了误触率，尤其适合驾驶中快速操作。例如，注视副驾屏并说“播放视频”，系统可精准响应，避免了手动切换的繁琐。\n\n【潜在槽点】多Agent协同可能带来响应延迟，尤其在复杂场景下（如同时控制导航、音乐和空调）。视线追踪需要摄像头持续工作，可能引发隐私担忧。此外，用户需适应新的交互范式（如眼神+语音），学习成本较高，且对佩戴眼镜或光线敏感的用户可能不友好。",
+          "summary_en": "【Event Overview】On April 25, 2026, Huawei unveiled HarmonySpace 6 at its cockpit ecosystem forum, featuring the MoLA 2.0 multi-agent architecture. The voice assistant 'Xiaoyi' is split into specialized agents (navigation, entertainment, vehicle control) that collaborate seamlessly. Users can issue cross-scenario commands without wake words, e.g., saying 'play Jay Chou's song' during navigation triggers the music agent while keeping navigation active. Multimodal interaction (voice + gaze + gesture) is also supported. \n\n【Experience Value】The architecture enhances interaction efficiency and naturalness. Users avoid repeating context, reducing steps. Multimodal fusion (e.g., gaze + voice) minimizes mis-taps, ideal for driving. For instance, looking at the passenger screen and saying 'play video' triggers precise response. \n\n【Potential Friction】Multi-agent coordination may cause latency in complex scenarios (e.g., controlling navigation, music, and AC simultaneously). Gaze tracking requires continuous camera use, raising privacy concerns. Users must adapt to new interaction paradigms (gaze + voice), with high learning costs, and may be less effective for glasses wearers or in bright light."
+        },
+        {
+          "title": "魏牌咖啡系列车型OTA重磅升级！智能体验再跃升，领跑高阶新势力",
+          "url": "https://cj.sina.com.cn/articles/view/7857141524/1d452771401903gfqe",
+          "site_name": "新浪财经",
+          "publish_date": "2026-05-28",
+          "tags": [
+            "魏牌",
+            "蓝山",
+            "OTA",
+            "语音大模型",
+            "卡片式桌面",
+            "UI/UX"
+          ],
+          "summary": "【事件概述】2026年5月28日，魏牌新能源咖啡系列车型迎来OTA重磅升级，其中蓝山车型的第6次OTA尤为突出。核心更新包括：1）语音大模型：引入端侧大模型，支持离线语音识别与自然语义理解，用户可用口语化指令控制车辆，如“我饿了”自动搜索附近餐厅并导航；2）卡片式桌面：全新UI设计，将常用功能（导航、音乐、空调）以卡片形式呈现，支持自定义布局和滑动切换，减少层级；3）场景模式：新增“露营模式”“小憩模式”等，一键联动座椅、空调、车窗、氛围灯。\n\n【体验价值】卡片式桌面降低了信息密度，用户可快速访问高频功能，减少驾驶分心。语音大模型离线可用，解决了弱网环境下的交互痛点，提升了可靠性。场景模式将多步操作压缩为单次触发，例如“小憩模式”自动调平座椅、关闭车窗、播放白噪音，显著提升了便利性。\n\n【潜在槽点】卡片式桌面虽直观，但自定义选项过多可能导致用户困惑，尤其对非科技爱好者。离线语音大模型的能力有限，复杂查询（如“附近评分最高的川菜馆”）仍需联网，可能造成体验割裂。场景模式若误触发（如语音误识别），可能干扰驾驶安全。",
+          "summary_en": "【Event Overview】On May 28, 2026, Wey's Coffee series received a major OTA update, with the Lanshan model's 6th OTA being the highlight. Key updates include: 1) On-device voice LLM supporting offline natural language understanding, e.g., 'I'm hungry' triggers restaurant search and navigation; 2) Card-based desktop UI with customizable layouts for quick access to navigation, music, and AC; 3) Scene modes like 'Camping Mode' and 'Nap Mode' that one-tap adjust seats, windows, AC, and ambient lighting. \n\n【Experience Value】The card-based UI reduces information density, enabling quick access to frequent functions and minimizing distraction. Offline voice LLM addresses weak network pain points, improving reliability. Scene modes compress multi-step operations into single triggers, e.g., 'Nap Mode' auto-adjusts seats and plays white noise, enhancing convenience. \n\n【Potential Friction】Excessive customization options in the card UI may confuse non-tech-savvy users. Offline LLM capabilities are limited; complex queries (e.g., 'best-rated Sichuan restaurant nearby') still require connectivity, causing experience fragmentation. Accidental scene mode triggers via voice misrecognition could interfere with driving safety."
+        },
+        {
+          "title": "小米SU7到底有多智能？从小米汽车App上可以找到答案",
+          "url": "https://36kr.com/p/2704884387483522",
+          "site_name": "36氪",
+          "publish_date": "2026-06-23",
+          "tags": [
+            "小米",
+            "SU7",
+            "小米汽车App",
+            "手车互联",
+            "语音助手",
+            "跨设备生态"
+          ],
+          "summary": "【事件概述】文章探讨了小米SU7的智能化体验，重点聚焦小米汽车App作为手车互联桥梁的作用。核心创新点包括：1）非小米手机用户可通过App实现远程车控（如开关空调、车窗、查看充电状态），但功能受限；2）App内集成社区、商城、充电地图等生态服务，形成“车-手机-生活”闭环；3）文章建议小米应提升App的交互逻辑，例如引入第三方语音助手联动（如小爱同学与Siri/Google Assistant互通），或新增“手机遥控泊车”等高级功能，以吸引非小米用户。\n\n【体验价值】App作为统一入口，降低了用户学习成本，无需切换多个应用即可管理车辆。远程车控功能提升了便利性，例如夏天提前开空调。社区和商城功能增强了用户粘性，形成品牌生态。若实现第三方语音助手联动，可覆盖更广泛用户群体，避免“换车必换手机”的痛点。\n\n【潜在槽点】非小米手机用户的功能限制可能造成体验割裂，例如无法使用小爱同学语音控车，需依赖App内操作，增加了步骤。App功能过多可能导致界面臃肿，用户难以快速找到核心功能。第三方语音助手联动的隐私风险（如语音数据跨平台共享）需谨慎处理。",
+          "summary_en": "【Event Overview】The article explores Xiaomi SU7's smart features, focusing on the Xiaomi Car App as a bridge for phone-car connectivity. Key innovations include: 1) Non-Xiaomi phone users can perform remote controls (e.g., AC, windows, charging status) via the app, albeit with limited functionality; 2) The app integrates community, mall, and charging map services, forming a 'car-phone-life' ecosystem; 3) The article suggests enhancing the app's interaction logic, such as integrating third-party voice assistants (e.g., XiaoAi with Siri/Google Assistant) or adding 'phone-controlled parking' to attract non-Xiaomi users. \n\n【Experience Value】The app serves as a unified entry point, reducing learning costs. Remote controls enhance convenience, e.g., pre-cooling the car in summer. Community and mall features boost user stickiness. Third-party voice assistant integration could cover broader user bases, avoiding the 'buy car, buy phone' dilemma. \n\n【Potential Friction】Feature limitations for non-Xiaomi users may cause experience fragmentation, e.g., no XiaoAi voice control, requiring more app steps. Feature bloat could clutter the UI, making core functions hard to find. Privacy risks from cross-platform voice data sharing need careful handling."
+        },
+        {
+          "title": "智能座舱语音科技2026年度榜单与真实体验深度解读",
+          "url": "https://blog.csdn.net/shanshu49/article/details/162231333",
+          "site_name": "CSDN博客",
+          "publish_date": "2026-06-23",
+          "tags": [
+            "语音助手",
+            "多语种",
+            "大模型",
+            "多模态交互",
+            "全球化"
+          ],
+          "summary": "【事件概述】文章发布了2026年智能座舱语音科技榜单，重点分析了多语种支持能力作为大模型语音助手国际化的核心指标。以“超级AI天琴2.0”为例，它支持40余种语种，包括中、英、德、法、西等，并能根据地区语料调整语音习惯（如英式/美式英语、方言口音）。此外，榜单强调多模态交互趋势，如语音+手势+视线融合，以及端侧大模型实现离线语音识别。文章还指出，2026年语音助手已从“命令式”转向“对话式”，能理解模糊意图和情感（如“我累了”自动调暗灯光、播放舒缓音乐）。\n\n【体验价值】多语种支持打破了语言壁垒，使跨国用户或外籍人士能自然使用座舱功能，提升了全球化体验。对话式交互降低了学习成本，用户无需记忆固定指令。情感感知功能增强了人性化体验，例如根据用户情绪调整氛围，提升了座舱的舒适感。\n\n【潜在槽点】多语种支持可能增加系统复杂度，导致响应延迟或识别错误，尤其在混合语言场景（如中英夹杂）。情感感知依赖摄像头或麦克风数据，可能侵犯隐私，且误判情绪（如将疲劳误判为悲伤）可能导致不合适的响应。端侧大模型的能力有限，复杂任务仍需云端，造成体验不一致。",
+          "summary_en": "【Event Overview】The article releases the 2026 smart cockpit voice technology ranking, highlighting multilingual support as a key metric for LLM voice assistant globalization. For example, 'Super AI Tianqin 2.0' supports 40+ languages (Chinese, English, German, French, Spanish) and adapts to regional accents (e.g., British/American English). It also emphasizes multimodal interaction trends (voice + gesture + gaze) and on-device LLMs for offline recognition. Voice assistants have shifted from command-based to conversational, understanding fuzzy intent and emotion (e.g., 'I'm tired' triggers dimmed lights and soothing music). \n\n【Experience Value】Multilingual support breaks language barriers, enabling natural use for international users. Conversational interaction reduces learning costs. Emotion sensing enhances humanization, e.g., adjusting ambiance based on mood, improving comfort. \n\n【Potential Friction】Multilingual support may increase system complexity, causing latency or errors, especially in code-switching scenarios (e.g., Chinese-English mix). Emotion sensing relies on camera/mic data, raising privacy concerns; misjudging emotions (e.g., fatigue as sadness) could trigger inappropriate responses. On-device LLMs have limited capabilities, requiring cloud for complex tasks, causing experience inconsistency."
+        }
+      ],
+      "created_at": "2026-06-25 14:17:20"
+    },
+    {
       "date": "2026-06-23",
       "date_display": "06月23日",
       "weekday": "周二",
