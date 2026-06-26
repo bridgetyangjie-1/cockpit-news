@@ -1,6 +1,57 @@
 {
   "records": [
     {
+      "date": "2026-06-26",
+      "date_display": "06月26日",
+      "weekday": "周五",
+      "news_count": 3,
+      "news": [
+        {
+          "title": "长安把3A游戏大作搬进驾驶室，等人的时候终于不无聊了",
+          "url": "https://www.sohu.com/a/1041435328_100226048",
+          "site_name": "Sohu",
+          "publish_date": "2026-06-26",
+          "tags": [
+            "长安",
+            "AI Box Ultra",
+            "端侧AI",
+            "游戏生态"
+          ],
+          "summary": "【事件概述】在第四届中国国际供应链促进博览会上，英特尔与长安汽车联合发布了基于酷睿Ultra平台的AI座舱解决方案。该方案的核心是英特尔AI Box Ultra，它通过强大的端侧AI算力，将3A级游戏大作引入汽车座舱。用户可以在停车等待时，通过车机屏幕直接运行高画质游戏，无需依赖手机或外接设备。该方案还整合了成熟的安卓应用生态，支持影音、社交等第三方应用的无缝接入，旨在将座舱从单纯的驾驶空间转变为多功能娱乐中心。\n\n【体验价值】该功能显著提升了用户在停车等待场景下的娱乐体验，将碎片化时间转化为高质量的游戏时光。端侧AI的本地化处理确保了游戏运行的流畅性和低延迟，无需网络依赖，体验稳定。同时，安卓生态的引入降低了用户的学习成本，熟悉的App操作逻辑让上手更轻松。\n\n【潜在槽点】3A游戏对算力和散热要求极高，长时间运行可能导致车机过热或电池消耗过快，影响车辆启动。此外，游戏操作与驾驶安全存在潜在冲突，若未严格限制仅驻车时使用，可能诱导分心驾驶。游戏内容的版权和更新维护也可能增加车企的长期运营成本。",
+          "summary_en": "【Event Overview】At the 4th China International Supply Chain Expo, Intel and Changan Automobile jointly unveiled an AI cockpit solution based on the Core Ultra platform. The core is Intel's AI Box Ultra, which leverages powerful on-device AI computing to bring AAA games into the car. Users can run high-fidelity games directly on the infotainment screen while waiting, without relying on phones or external devices. The solution also integrates the mature Android app ecosystem, enabling seamless access to third-party apps like video streaming and social media, transforming the cockpit from a mere driving space into a multifunctional entertainment hub.\n\n【Experience Value】This feature significantly enhances the entertainment experience during parking/waiting scenarios, turning fragmented time into high-quality gaming sessions. On-device AI ensures smooth, low-latency gameplay without network dependency. The familiar Android ecosystem reduces the learning curve, making app usage intuitive.\n\n【Potential Friction】AAA games demand high computing power and cooling, potentially causing overheating or excessive battery drain, affecting vehicle startup. If not strictly limited to parked mode, it could encourage distracted driving. Game copyright and update maintenance may also increase long-term operational costs for automakers."
+        },
+        {
+          "title": "全球首个全模态端到端大模型Auto Omni上车，汽车座舱迈入主动智能时代",
+          "url": "https://www.thecover.cn/news/wrvgceAiayWH90qSdq8Jkw==",
+          "site_name": "Thecover",
+          "publish_date": "2026-06-26",
+          "tags": [
+            "Auto Omni",
+            "端到端大模型",
+            "主动智能",
+            "多模态交互"
+          ],
+          "summary": "【事件概述】全球首个全模态端到端大模型Auto Omni正式上车，标志着汽车座舱从被动响应迈入主动智能时代。该模型能够同时处理语音、视觉、触控、环境感知等多模态输入，实现跨模态的深度理解与推理。例如，当用户说“我有点热”，系统不仅能自动调低空调温度，还能结合车内摄像头识别用户是否在出汗、是否刚运动完，从而调整风量和风向。Auto Omni还具备主动预测能力，可根据用户习惯和场景（如即将到家）提前推荐功能（如开启回家模式）。该模型已在IDC评测中排名第一，覆盖15个汽车品牌。\n\n【体验价值】多模态融合让交互更自然、更人性化，用户无需精确指令，系统能通过上下文和场景主动提供贴心服务。主动智能减少了用户操作步骤，提升了驾驶安全性和便利性。例如，在长途驾驶中，系统可主动建议休息或调整座椅按摩模式，真正成为“出行伙伴”。\n\n【潜在槽点】全模态感知依赖大量传感器和摄像头，可能引发用户对车内隐私的担忧（如持续人脸监控）。主动预测若出现误判（如错误推荐功能），可能造成用户困惑或反感。端到端模型的“黑箱”特性使得故障排查困难，一旦出现错误行为，难以快速定位和修复。",
+          "summary_en": "【Event Overview】The world's first full-modal end-to-end large model, Auto Omni, has been deployed in vehicles, marking the transition of cockpits from passive response to proactive intelligence. It processes multi-modal inputs (voice, vision, touch, environmental sensing) simultaneously for deep cross-modal understanding and reasoning. For example, when a user says “I feel hot,” the system not only lowers the AC temperature but also uses the in-cabin camera to detect if the user is sweating or just exercised, adjusting fan speed and direction accordingly. Auto Omni also proactively predicts user needs based on habits and context (e.g., approaching home) to recommend actions (e.g., enable home mode). It ranks first in IDC evaluations, covering 15 car brands.\n\n【Experience Value】Multi-modal fusion makes interaction more natural and human-like, reducing the need for precise commands. Proactive intelligence minimizes user steps, enhancing driving safety and convenience. For instance, during long drives, the system can proactively suggest rest breaks or adjust seat massage, acting as a true “travel companion.”\n\n【Potential Friction】Full-modal sensing relies on extensive sensors and cameras, raising privacy concerns (e.g., continuous facial monitoring). Proactive predictions may cause confusion or annoyance if misjudged (e.g., wrong recommendations). The “black box” nature of end-to-end models makes troubleshooting difficult; erroneous behaviors are hard to locate and fix quickly."
+        },
+        {
+          "title": "IDC评测9家座舱大模型 斑马智行全面领跑",
+          "url": "https://m.guokr.com/article/467217",
+          "site_name": "M",
+          "publish_date": "2026-06-26",
+          "tags": [
+            "斑马智行",
+            "元神AI",
+            "大模型",
+            "通义"
+          ],
+          "summary": "【事件概述】IDC发布了针对9家主流座舱大模型的评测报告，斑马智行的元神AI大模型全面领跑。该模型基于阿里通义基础大模型研制，专为智能座舱场景优化，具备多轮对话、上下文理解、情感识别和主动服务能力。在评测中，元神AI在意图理解准确率、响应速度、多模态融合（如结合语音与视觉）等维度均排名第一。例如，它能通过用户语气和表情判断情绪，主动提供安慰或娱乐建议。斑马智行表示，该模型已与多家车企合作，覆盖从入门到高端车型。\n\n【体验价值】元神AI的高准确率和快速响应让语音交互更流畅、更自然，减少了用户重复指令的挫败感。情感识别功能使座舱更具“人情味”，能根据用户情绪调整交互风格（如用户烦躁时简化回复）。多模态融合能力让交互更丰富，例如用户说“我想看星星”，系统可自动打开天窗并调暗氛围灯。\n\n【潜在槽点】情感识别依赖摄像头和麦克风持续采集数据，可能引发隐私争议。若模型过度“拟人化”，部分用户可能感到不适或觉得虚假。多模态融合需要高算力支持，低端车型可能无法流畅运行，导致体验分化。此外，模型对复杂方言或口音的识别能力仍需验证。",
+          "summary_en": "【Event Overview】IDC released a benchmark report evaluating nine major cockpit large models, with Banma Zhixing's Yuanshen AI leading across all metrics. Based on Alibaba's Tongyi foundation model, it is optimized for cockpit scenarios, featuring multi-turn dialogue, context understanding, emotion recognition, and proactive service. In the evaluation, Yuanshen AI ranked first in intent understanding accuracy, response speed, and multi-modal fusion (e.g., combining voice and vision). For example, it can detect user mood from tone and facial expressions, proactively offering comfort or entertainment suggestions. Banma Zhixing states the model is already deployed across multiple automakers, covering entry-level to premium vehicles.\n\n\n【Experience Value】High accuracy and fast response make voice interaction smoother and more natural, reducing frustration from repeated commands. Emotion recognition adds a “human touch,” adapting interaction style based on user mood (e.g., simplifying replies when user is irritated). Multi-modal fusion enables richer interactions, e.g., user says “I want to see stars,” and the system automatically opens the sunroof and dims ambient lighting.\n\n【Potential Friction】Emotion recognition relies on continuous camera and microphone data collection, raising privacy concerns. Over-anthropomorphism may feel uncanny or fake to some users. Multi-modal fusion requires high computing power, potentially causing performance issues on lower-end vehicles, leading to fragmented experiences. The model's ability to handle complex dialects or accents remains unverified."
+        }
+      ],
+      "created_at": "2026-06-26 14:18:57"
+    },
+    {
       "date": "2026-06-25",
       "date_display": "06月25日",
       "weekday": "周四",
