@@ -1,6 +1,71 @@
 {
   "records": [
     {
+      "date": "2026-06-27",
+      "date_display": "06月27日",
+      "weekday": "周六",
+      "news_count": 4,
+      "news": [
+        {
+          "title": "比亚迪汉荣耀版获推 OTA 升级：新增手车互联，支持华为、荣耀、OPPO、...",
+          "url": "https://www.ithome.com/0/968/423.htm",
+          "site_name": "IT之家",
+          "publish_date": "2026-06-25",
+          "tags": [
+            "比亚迪",
+            "DiLink",
+            "OTA",
+            "手车互联"
+          ],
+          "summary": "【事件概述】比亚迪汉荣耀版于2026年6月25日获推OTA升级，新增四大功能：百变主题新增多款萌宠、裸眼3D等动态精品主题；新增手车互联功能，支持连接华为、荣耀、OPPO、真我、一加、vivo、iQOO、小米、红米等品牌的部分手机型号；融合音乐App新增网易云音乐，支持全场景智能语音播放歌曲等控制。此次升级显著提升了车机系统的个性化与互联能力，尤其是手车互联功能覆盖主流安卓品牌，实现了手机与车机的无缝协同。\n\n【体验价值】手车互联功能打破了品牌壁垒，用户无需更换手机即可享受导航、音乐等服务的跨屏流转，降低了操作门槛。动态主题和裸眼3D效果增强了视觉新鲜感，语音控制网易云音乐则提升了驾驶中的娱乐便捷性，整体交互更流畅、个性化。\n\n【潜在槽点】手车互联对手机型号有严格限制，部分用户可能因设备不兼容而无法使用，导致体验割裂。动态主题可能增加系统资源占用，影响老款车机流畅度。语音控制网易云音乐需依赖网络，弱网环境下响应延迟或失败。",
+          "summary_en": "【Event Overview】BYD Han Glory Edition received an OTA update on June 25, 2026, adding four major features: new dynamic themes including cute pets and 3D effects; phone-car connectivity supporting Huawei, Honor, OPPO, Realme, OnePlus, vivo, iQOO, Xiaomi, Redmi; and NetEase Cloud Music integration with full voice control. This upgrade significantly enhances personalization and cross-device synergy. \n\n【Experience Value】The phone-car connectivity breaks brand barriers, enabling seamless service transfer without changing phones. Dynamic themes and 3D effects boost visual freshness, while voice-controlled music improves in-car entertainment convenience. \n\n【Potential Friction】Phone-car connectivity has strict model restrictions, potentially excluding some users. Dynamic themes may consume system resources, affecting older models. Voice control relies on network stability, with potential delays in weak signal areas."
+        },
+        {
+          "title": "小鹏回应系统升级无法退回:天玑升级属于系统彻底变更 无法回退",
+          "url": "https://k.sina.cn/article_7857141524_1d452771401903hc32.html",
+          "site_name": "新浪",
+          "publish_date": "2026-06-03",
+          "tags": [
+            "小鹏",
+            "天玑系统",
+            "OTA",
+            "系统升级"
+          ],
+          "summary": "【事件概述】小鹏汽车MONA产品负责人于2026年6月3日回应了用户关于系统升级无法退回的疑问，明确表示“天玑系统升级属于系统彻底变更，无法回退”。天玑系统是小鹏基于XNGP智能驾驶架构打造的全新座舱操作系统，采用全新的UI/UX设计，并深度整合了AI大模型与智能驾驶功能。此次升级涉及底层架构重构，包括应用框架、数据模型和交互逻辑的全面革新，因此不支持降级。\n\n【体验价值】天玑系统的彻底变更意味着更流畅的动画、更统一的交互逻辑和更强大的AI能力。用户可享受更智能的语音助手、更精准的导航预测和更沉浸的娱乐体验。系统升级后，应用生态将更丰富，第三方应用兼容性提升。\n\n【潜在槽点】无法回退的设计剥夺了用户的选择权，若新系统存在bug或用户不适应新交互，将面临“升级即锁定”的困境。底层架构变更可能导致部分旧应用不兼容，且升级过程若失败，恢复成本极高。用户需提前备份数据，否则可能丢失个性化设置。",
+          "summary_en": "【Event Overview】XPeng confirmed that the 'Tianji' system upgrade is a fundamental change and cannot be rolled back. The new OS features a redesigned UI/UX, deep AI integration, and XNGP architecture, involving a complete overhaul of the application framework and data model. \n\n【Experience Value】The upgrade offers smoother animations, unified interaction logic, and enhanced AI capabilities, including smarter voice assistants and more accurate navigation. The app ecosystem becomes richer with better third-party compatibility. \n\n【Potential Friction】The inability to roll back removes user choice; if bugs or unfamiliar interactions arise, users are locked in. Old apps may become incompatible, and upgrade failure carries high recovery costs. Users must back up data to avoid losing personalized settings."
+        },
+        {
+          "title": "华为鸿蒙座舱上榜！哪些车的语音助手是大模型",
+          "url": "https://news.zol.com.cn/1204/12045806.html",
+          "site_name": "中关村在线",
+          "publish_date": "2026-06-24",
+          "tags": [
+            "华为",
+            "鸿蒙座舱",
+            "语音助手",
+            "大模型"
+          ],
+          "summary": "【事件概述】华为鸿蒙座舱HarmonySpace 6的小艺智能体在智能座舱语音科技2026年度榜单中上榜，其核心创新在于采用MoLA（Mixture of Large-model Agent Architecture）2.0多Agent架构。该架构打破了传统车载语音助手的单一模型限制，通过多个专用大模型协同工作，分别处理语音识别、语义理解、任务执行和情感交互。小艺智能体支持多轮对话、上下文记忆、模糊指令解析，并能主动推荐服务，如根据用户习惯推荐餐厅或提醒日程。\n\n【体验价值】MoLA 2.0架构使语音助手从“命令执行器”升级为“智能伙伴”，能理解复杂、模糊的指令，如“我有点冷，放点轻松的音乐”，并自动调节空调和播放列表。多轮对话能力减少了重复唤醒，交互更自然。主动推荐功能提升了场景化服务体验，如导航时自动推荐充电站。\n\n【潜在槽点】多Agent架构增加了系统复杂性和响应延迟，尤其在弱网环境下。主动推荐可能被视为“过度干预”，干扰用户驾驶专注度。隐私方面，语音数据需上传云端处理，用户对数据使用范围的控制权有限。",
+          "summary_en": "【Event Overview】Huawei's HarmonySpace 6 XiaoYi agent uses MoLA 2.0 multi-agent architecture, combining multiple specialized large models for speech recognition, semantic understanding, task execution, and emotional interaction. It supports multi-turn dialogue, context memory, and proactive service recommendations. \n\n【Experience Value】The architecture upgrades the voice assistant from a command executor to an intelligent partner, understanding complex and vague commands. Multi-turn dialogue reduces repetitive wake-ups, and proactive recommendations enhance contextual services like suggesting charging stations during navigation. \n\n【Potential Friction】Multi-agent architecture increases system complexity and response latency, especially in weak networks. Proactive recommendations may distract drivers. Privacy concerns arise as voice data is processed in the cloud, with limited user control over data usage."
+        },
+        {
+          "title": "长安说：硬件年年升级，但老车主换个板子就能跟上",
+          "url": "https://www.sohu.com/a/1041437694_120123550",
+          "site_name": "搜狐",
+          "publish_date": "2026-06-25",
+          "tags": [
+            "长安",
+            "天枢座舱",
+            "硬件升级",
+            "AI全景声"
+          ],
+          "summary": "【事件概述】长安汽车宣布其天枢座舱将支持硬件模块化升级，老车主可通过更换核心板（如升级至酷睿Ultra芯片）来获得最新软件功能。同时，天枢座舱搭载AI全景声技术，利用酷睿Ultra的图形与音频算力，实时优化车内声场和降噪，未来还将落地高精度视频AI渲染与画面增强，结合多屏联动构建沉浸式视听空间。长安强调，硬件升级策略旨在解决“硬件跟不上软件”的痛点，让老车主也能享受新功能。\n\n【体验价值】硬件模块化升级延长了车机系统的生命周期，用户无需换车即可获得最新AI功能，降低了长期使用成本。AI全景声技术通过实时声场优化，提升了音乐、导航语音的沉浸感和清晰度，尤其在嘈杂环境下效果显著。多屏联动与AI渲染增强了视觉体验，如导航地图更立体、视频播放更流畅。\n\n【潜在槽点】硬件升级可能涉及高成本，且更换板子需要专业安装，用户无法自行操作。模块化设计可能限制第三方硬件兼容性，未来升级路径依赖长安官方。AI全景声对音源质量敏感，低码率音频可能无法发挥效果。",
+          "summary_en": "【Event Overview】Changan announced modular hardware upgrades for its Tianshu cockpit, allowing old owners to replace core boards (e.g., with Core Ultra chips) to access new software. The cockpit features AI panoramic sound technology for real-time sound field optimization and noise reduction, with future plans for AI video rendering and multi-screen integration. \n\n【Experience Value】Modular upgrades extend the cockpit's lifecycle, reducing long-term costs. AI panoramic sound enhances immersion and clarity, especially in noisy environments. Multi-screen and AI rendering improve visual experiences like 3D navigation maps. \n\n【Potential Friction】Hardware upgrades may be costly and require professional installation. Modular design may limit third-party compatibility, and future upgrades depend on Changan. AI panoramic sound is sensitive to audio source quality, with low-bitrate files potentially underperforming."
+        }
+      ],
+      "created_at": "2026-06-27 14:00:04"
+    },
+    {
       "date": "2026-06-26",
       "date_display": "06月26日",
       "weekday": "周五",
