@@ -1,6 +1,61 @@
 {
   "records": [
     {
+      "date": "2026-06-28",
+      "date_display": "06月28日",
+      "weekday": "周日",
+      "news_count": 3,
+      "news": [
+        {
+          "title": "国产大模型打入特斯拉座舱是否意味海外AI技术垄断时代终结？",
+          "url": "https://news.sina.cn/bignews/insight/2026-06-25/detail-inieqnch2582413.d.html?vt=4",
+          "site_name": "新浪新闻",
+          "publish_date": "2026-06-25",
+          "tags": [
+            "特斯拉",
+            "豆包大模型",
+            "DeepSeek",
+            "语音交互",
+            "OTA",
+            "本土化"
+          ],
+          "summary": "【事件概述】2026年6月，特斯拉中国车机系统正式接入字节跳动豆包大模型和深度求索DeepSeek，通过火山引擎统一提供技术支持。豆包大模型专注车辆硬件控制，支持导航、空调、多媒体等指令及车主手册语音查询，具备0.5秒响应、18种方言识别能力；DeepSeek则负责更复杂的多轮对话和知识问答。此次升级通过OTA推送，标志着特斯拉智能座舱本土化进入落地阶段，打破了此前仅依赖海外AI技术的格局。\n\n【体验价值】用户可享受更精准、更自然的语音交互，方言识别降低了使用门槛，0.5秒响应速度接近真人对话体验。导航、空调等高频操作无需手动，提升驾驶安全性和便捷性。\n\n【潜在槽点】双大模型分工可能造成用户认知混淆，例如复杂问题可能误触发硬件控制指令。数据隐私方面，语音数据上传至第三方云服务可能引发用户对信息安全的担忧。",
+          "summary_en": "【Event Overview】In June 2026, Tesla's Chinese infotainment system integrated ByteDance's Doubao and DeepSeek LLMs via Volcengine. Doubao handles vehicle hardware control (navigation, AC, multimedia) with 0.5s response and 18 dialect recognition; DeepSeek manages complex dialogues. OTA update marks localization milestone. \n\n【Experience Value】Users enjoy more accurate, natural voice interaction; dialect support lowers barriers; 0.5s response mimics human conversation. High-frequency operations become hands-free, enhancing safety and convenience. \n\n【Potential Friction】Dual-LLM division may confuse users (e.g., complex queries triggering hardware commands). Privacy concerns arise from voice data uploaded to third-party cloud services."
+        },
+        {
+          "title": "比亚迪汉荣耀版OTA升级：手车互联+网易云音乐上车，智能座舱体验再优化",
+          "url": "https://auto.news18a.com/news/storys_269853.html",
+          "site_name": "网通社",
+          "publish_date": "2026-06-28",
+          "tags": [
+            "比亚迪",
+            "DiLink",
+            "OTA",
+            "手车互联",
+            "娱乐生态"
+          ],
+          "summary": "【事件概述】比亚迪汉荣耀版近期推送OTA升级，新增手车互联功能和网易云音乐应用。手车互联支持手机与车机无缝连接，实现导航、音乐、电话等应用的跨屏流转；网易云音乐上车后，用户可享受专属车载音效和歌单推荐。此次更新聚焦座舱交互与娱乐生态，未涉及智驾系统升级。比亚迪强调，汉荣耀版作为2024年车型，历经两年仍持续获得软件迭代，体现了“软件定义汽车”理念。\n\n【体验价值】手车互联简化了手机与车机的操作割裂，用户可无缝切换应用，提升连贯性。网易云音乐上车丰富了娱乐选择，车载音效优化带来沉浸式听觉体验。\n\n【潜在槽点】手车互联可能依赖特定手机品牌或系统版本，兼容性不足导致部分用户无法使用。OTA更新未涉及智驾功能，可能让期待智驾升级的用户失望。",
+          "summary_en": "【Event Overview】BYD Han Glory Edition received an OTA update adding phone-car connectivity and NetEase Cloud Music. Phone-car connectivity enables seamless app transfer (navigation, music, calls); NetEase Cloud Music offers exclusive in-car sound effects and playlists. Update focuses on cabin interaction and entertainment, not ADAS. \n\n【Experience Value】Phone-car connectivity reduces operational fragmentation, enhancing continuity. NetEase Cloud Music enriches entertainment with immersive audio. \n\n【Potential Friction】Phone-car connectivity may be limited to specific phone brands/OS versions, causing compatibility issues. Lack of ADAS updates may disappoint users expecting driving assistance improvements."
+        },
+        {
+          "title": "蔚来Banyan 3.5.0 OTA推送：自定义泊车姿态，窄车位预留开门空间",
+          "url": "https://www.douyin.com/video/7654843863450818225",
+          "site_name": "抖音",
+          "publish_date": "2026-06-28",
+          "tags": [
+            "蔚来",
+            "Banyan",
+            "OTA",
+            "自动泊车",
+            "自定义"
+          ],
+          "summary": "【事件概述】蔚来推送Banyan 3.5.0大模型OTA升级，自动泊车功能新增自定义泊车姿态选项。用户可在车机设置中选择偏左、居中、偏右三种车位停放模式。在窄车位场景下，系统可自动靠边预留开门空间，避免邻车磕碰，方便家用上下车。该功能基于大模型算法，优化了泊车路径规划和姿态控制。\n\n【体验价值】自定义泊车姿态解决了窄车位开门难、邻车磕碰的痛点，用户可根据实际场景灵活选择，提升泊车安全性和便利性。大模型算法使泊车更精准、更智能。\n\n【潜在槽点】自定义泊车姿态可能增加泊车时间，尤其在复杂车位中。用户需学习如何设置和切换模式，可能造成初期使用困惑。大模型依赖云端计算，网络不佳时可能影响响应速度。",
+          "summary_en": "【Event Overview】NIO pushed Banyan 3.5.0 OTA update, adding custom parking posture options (left, center, right). In narrow spaces, the system automatically leaves door-opening room to avoid collisions. Based on LLM algorithms, it optimizes path planning and posture control. \n\n【Experience Value】Custom parking posture solves door-opening issues in tight spots, enhancing safety and convenience. LLM algorithms improve precision and intelligence. \n\n【Potential Friction】Custom posture may increase parking time, especially in complex spots. Users need to learn settings, causing initial confusion. LLM relies on cloud computing; poor network may affect response speed."
+        }
+      ],
+      "created_at": "2026-06-28 14:32:51"
+    },
+    {
       "date": "2026-06-27",
       "date_display": "06月27日",
       "weekday": "周六",
