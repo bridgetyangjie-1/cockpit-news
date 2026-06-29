@@ -1,6 +1,71 @@
 {
   "records": [
     {
+      "date": "2026-06-29",
+      "date_display": "06月29日",
+      "weekday": "周一",
+      "news_count": 4,
+      "news": [
+        {
+          "title": "比亚迪老车型能OTA升级手车互联功能吗",
+          "url": "https://k.sina.cn/article_7879923925_1d5ae18d506801hpku.html",
+          "site_name": "新浪",
+          "publish_date": "2026-06-29",
+          "tags": [
+            "比亚迪",
+            "DiLink",
+            "OTA",
+            "手车互联"
+          ],
+          "summary": "【事件概述】比亚迪于2025年7月15日宣布全品牌上线“手车互联”功能，覆盖从7万级海鸥到百万级仰望的所有车型。老车主通过OTA升级即可免费获得导航流转、音乐接续、应用镜像等能力。该功能支持华为、荣耀、OPPO、真我、一加、vivo、iQOO、小米、红米等主流品牌手机，通过无线连接实现手机应用无缝流转至车机大屏，彻底解决车载生态碎片化痛点。此次OTA还新增了百变主题（含萌宠、裸眼3D动态主题）和融合音乐App（新增网易云音乐），支持全场景智能语音控制。\n\n【体验价值】手车互联实现了“手机即车机”的无缝体验，用户无需在车机上重复安装应用，导航、音乐等高频场景可一键流转，大幅降低学习成本。老车型通过OTA获得新功能，延长了车辆生命周期，提升了用户忠诚度。\n\n【潜在槽点】手车互联依赖手机品牌兼容性，部分小众或旧款手机可能无法支持，导致体验割裂。应用镜像功能在驾驶场景下可能分散注意力，存在安全隐患。OTA升级包大小和稳定性对老车型硬件性能构成挑战，可能出现卡顿或功能降级。",
+          "summary_en": "【Event Overview】BYD announced on July 15, 2025, that its entire brand lineup, from the 70,000-yuan Seagull to the million-yuan Yangwang, would receive a \"Phone-Car Connectivity\" feature via OTA. Owners can get free navigation transfer, music continuation, and app mirroring. The feature supports major phone brands like Huawei, Honor, OPPO, vivo, Xiaomi, etc., enabling seamless app flow from phone to car screen, solving the fragmentation of in-car ecosystems. The OTA also adds dynamic themes and NetEase Cloud Music integration with voice control.\n\n【Experience Value】Phone-car connectivity offers a seamless \"phone as car machine\" experience, eliminating the need to install apps on the car screen. High-frequency scenarios like navigation and music can be transferred with one click, greatly reducing learning costs. OTA updates extend vehicle lifespan and boost user loyalty.\n\n【Potential Friction】Connectivity depends on phone brand compatibility; niche or older models may not be supported, causing fragmented experiences. App mirroring could distract drivers, posing safety risks. OTA package size and stability may challenge older hardware, leading to lag or feature degradation."
+        },
+        {
+          "title": "2026智能座舱人机交互技术演进与用户体验分析报告.docx",
+          "url": "https://max.book118.com/html/2026/0627/8104006104010104.shtm",
+          "site_name": "原创力文档",
+          "publish_date": "2026-06-28",
+          "tags": [
+            "行业趋势",
+            "多模态交互",
+            "AI",
+            "UX设计"
+          ],
+          "summary": "【事件概述】该报告系统分析了2026年智能座舱人机交互技术的演进趋势，指出交互将呈现硬件多维化、交互多模态化、系统AI化、架构云端化的立体格局。核心创新包括：多模态融合技术（语音、手势、视线追踪、生物特征识别）实现“主动感知用户意图”；AI主动式智能体从“人找功能”转向“服务找人”，能根据用户情绪、场景甚至潜意识需求提供个性化服务；端侧大模型部署使语音助手具备毫秒级响应和上下文理解能力；云端架构支持持续OTA升级和生态扩展。报告预测，到2026年全球智能座舱市场规模将突破千亿美元，多模态交互渗透率将从40%增长至75%以上。\n\n【体验价值】多模态交互让用户以最自然的方式（语音、手势、眼神）与座舱沟通，降低学习成本。AI主动式智能体提供“千人千面”的个性化体验，如自动调节座椅、推荐音乐、规划路线，使座舱成为有温度的“第三空间”。\n\n【潜在槽点】多模态交互的误触发率较高，如手势识别可能被乘客无意动作干扰，视线追踪可能因光线或眼镜反光失效。AI主动式服务若过度“猜测”用户意图，可能造成隐私侵犯或交互冗余。端侧大模型对硬件算力要求高，低端车型难以普及。",
+          "summary_en": "【Event Overview】This report systematically analyzes the evolution of human-machine interaction in smart cockpits in 2026, highlighting trends toward hardware multi-dimensionality, multimodal interaction, AI-driven systems, and cloud-native architectures. Key innovations include multimodal fusion (voice, gesture, eye tracking, biometrics) for proactive intent sensing; AI proactive agents shifting from \"human finds function\" to \"service finds human,\" offering personalized services based on emotion, scene, and even subconscious needs; on-device large language models enabling millisecond response and contextual understanding; and cloud architecture supporting continuous OTA and ecosystem expansion. The report predicts the global smart cockpit market will exceed $100 billion by 2026, with multimodal interaction penetration growing from 40% to over 75%.\n\n【Experience Value】Multimodal interaction allows users to communicate naturally (voice, gesture, gaze), reducing learning curves. AI proactive agents deliver personalized experiences, such as auto-adjusting seats, recommending music, and planning routes, making the cockpit a warm \"third space.\"\n\n【Potential Friction】Multimodal interaction has high false-trigger rates; gestures may be misinterpreted by passenger movements, and eye tracking can fail due to lighting or glasses. Overly proactive AI may invade privacy or cause interaction redundancy. On-device LLMs require high hardware specs, limiting adoption in low-end vehicles."
+        },
+        {
+          "title": "全栈自研 vs 生态合作：2026年智能座舱的两条“生死线”",
+          "url": "https://blog.csdn.net/IOT5570/article/details/162012531",
+          "site_name": "CSDN博客",
+          "publish_date": "2026-06-23",
+          "tags": [
+            "行业趋势",
+            "全栈自研",
+            "生态合作",
+            "战略"
+          ],
+          "summary": "【事件概述】文章深入探讨了2026年智能座舱领域车企面临的两大战略路径：全栈自研与生态合作。全栈自研代表如小鹏、蔚来，通过自研操作系统（如X-EEA3.0、AI天玑系统）和AI大模型，实现软硬件深度耦合，提供差异化体验和快速迭代能力。生态合作代表如长安与英特尔、腾讯与岚图，借助成熟安卓生态和第三方AI能力，降低研发成本，快速丰富应用生态。文章指出，车载应用商店活跃度预计增长300%，商业模式重构是最大变量。自研路径能掌控核心体验但投入巨大，合作路径能快速铺量但可能丧失差异化。\n\n【体验价值】全栈自研能实现更流畅的交互和更深的硬件优化，如小鹏的VLA模型实现端到端智驾与座舱融合。生态合作则能快速引入海量应用（如游戏、办公），满足用户多样化需求，降低学习成本。\n\n【潜在槽点】全栈自研可能导致生态封闭，第三方应用适配慢，用户选择受限。生态合作则面临数据隐私风险（第三方应用可能过度收集用户数据），且系统更新依赖合作伙伴节奏，可能造成版本碎片化。两种路径均需平衡开放与安全。",
+          "summary_en": "【Event Overview】This article explores two strategic paths for smart cockpits in 2026: full-stack in-house development vs. ecosystem collaboration. In-house examples include XPeng and NIO, with self-developed OS (e.g., X-EEA3.0, AI Tianji) and AI models for deep hardware-software coupling and differentiated experiences. Collaboration examples include Changan with Intel and Tencent with Voyah, leveraging mature Android ecosystems and third-party AI to reduce costs and rapidly enrich app ecosystems. The article notes that in-car app store activity is expected to grow 300%, with business model restructuring being a key variable. In-house development offers control but high investment; collaboration enables rapid scaling but risks losing differentiation.\n\n【Experience Value】In-house development enables smoother interaction and deeper hardware optimization, such as XPeng's VLA model integrating autonomous driving and cockpit. Ecosystem collaboration quickly introduces diverse apps (games, office), meeting varied user needs and reducing learning curves.\n\n【Potential Friction】In-house development may lead to closed ecosystems, slow third-party app adaptation, and limited user choice. Collaboration faces data privacy risks (third-party apps may over-collect data) and update dependency on partners, causing version fragmentation. Both paths must balance openness and security."
+        },
+        {
+          "title": "奇瑞、荣威“区别升级”引爆车主众怒：OTA为何总轮不到你？",
+          "url": "https://youjia-pc.bdstatic.com/article/9672324375573813548.html",
+          "site_name": "有驾",
+          "publish_date": "2026-06-29",
+          "tags": [
+            "奇瑞",
+            "荣威",
+            "OTA",
+            "用户体验"
+          ],
+          "summary": "【事件概述】文章曝光了奇瑞、荣威等品牌因OTA升级不均引发的车主集体不满。部分车型长期未收到OTA推送，或推送内容与宣传不符，导致车主质疑车企“区别对待”。核心问题包括：OTA升级策略不透明，老车型被选择性忽略；升级包大小和功能因车型硬件差异而缩水；部分功能需付费解锁，引发“硬件预埋、软件收费”争议。文章建议车主主动查询升级信息、加入车友群获取动态，并呼吁车企建立更公平的OTA升级机制。\n\n【体验价值】公平透明的OTA升级能增强用户信任，让老车主持续获得新功能，提升车辆保值率和品牌忠诚度。统一推送策略可避免“信息孤岛”，确保所有用户享受一致体验。\n\n【潜在槽点】硬件差异导致功能降级是客观限制，但车企若未提前告知，易引发“虚假宣传”投诉。付费解锁模式若定价不合理，可能被用户视为“割韭菜”。OTA推送频率过高也可能占用用户流量和存储空间，造成体验负担。",
+          "summary_en": "【Event Overview】This article exposes user dissatisfaction with Chery and Roewe due to uneven OTA upgrades. Some models have not received OTA pushes for a long time, or the pushed content does not match promotions, leading to accusations of \"differential treatment.\" Key issues include opaque upgrade strategies, feature downgrades due to hardware differences, and pay-to-unlock features. The article advises users to proactively check upgrade info and join owner groups, and calls for fairer OTA mechanisms from automakers.\n\n【Experience Value】Fair and transparent OTA upgrades build user trust, allowing old owners to continuously receive new features, improving vehicle resale value and brand loyalty. Unified push strategies prevent \"information silos\" and ensure consistent experiences.\n\n【Potential Friction】Hardware differences causing feature downgrades are objective, but if not disclosed in advance, they may lead to \"false advertising\" complaints. Unreasonable pay-to-unlock pricing may be seen as profiteering. Excessive OTA frequency may also consume user data and storage, causing experience burden."
+        }
+      ],
+      "created_at": "2026-06-29 14:59:49"
+    },
+    {
       "date": "2026-06-28",
       "date_display": "06月28日",
       "weekday": "周日",
