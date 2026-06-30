@@ -1,6 +1,57 @@
 {
   "records": [
     {
+      "date": "2026-06-30",
+      "date_display": "06月30日",
+      "weekday": "周二",
+      "news_count": 3,
+      "news": [
+        {
+          "title": "“合资新势力”的专属响应，东风日产N7为何“不一样”？_ 汽扯扒谈",
+          "url": "https://www.qcwp.com/news/992131",
+          "site_name": "汽扯扒谈",
+          "publish_date": "2026-06-25",
+          "tags": [
+            "东风日产",
+            "Nissan Connect",
+            "OTA",
+            "AI大模型"
+          ],
+          "summary": "【事件概述】东风日产N7首次OTA升级新增和优化超100项功能，包括AI大模型功能、亲子空间APP、主驾隐私关怀、哨兵模式等。该车型是引入华为IPMS（智能产品管理系统）机制推出的首款车型，旨在通过持续OTA迭代提升智能化体验。AI大模型功能预计将支持自然语言交互和场景化服务，亲子空间APP则针对家庭用户提供儿童娱乐和安全监控，主驾隐私关怀可自动隐藏敏感信息，哨兵模式提供停车监控。\n\n【体验价值】AI大模型功能有望实现更自然的语音交互和主动服务，降低用户学习成本。亲子空间APP针对家庭场景优化，提升了后排儿童的安全和娱乐体验。主驾隐私关怀在共享用车场景下保护用户隐私，哨兵模式则增强了车辆安全感知。这些功能体现了从“功能叠加”到“场景化服务”的转变。\n\n【潜在槽点】超100项功能同时推送可能导致用户信息过载，部分功能（如AI大模型）的实际效果可能受限于算力和数据质量。亲子空间APP需配合硬件（如摄像头）才能发挥全部作用，低配车型可能体验缩水。哨兵模式可能增加电池消耗，影响续航。隐私关怀功能可能因误触发而干扰正常使用。",
+          "summary_en": "【Event Overview】Dongfeng Nissan N7's first OTA update added and optimized over 100 features, including AI large model capabilities, a Family Space app, driver privacy care, and sentry mode. This model is the first to adopt Huawei's IPMS mechanism, aiming to enhance intelligence through continuous OTA iterations. The AI large model is expected to support natural language interaction and contextual services, while the Family Space app targets family users with child entertainment and safety monitoring. Driver privacy care automatically hides sensitive information, and sentry mode provides parking surveillance.\n\n【Experience Value】The AI large model can enable more natural voice interaction and proactive services, reducing learning costs. The Family Space app optimizes for family scenarios, enhancing rear-seat child safety and entertainment. Driver privacy care protects user privacy in shared-use scenarios, while sentry mode improves vehicle security perception. These features represent a shift from feature stacking to contextual services.\n\n【Potential Friction】Over 100 features pushed simultaneously may cause information overload. The AI large model's effectiveness may be limited by computing power and data quality. The Family Space app requires hardware (e.g., cameras) for full functionality, potentially degrading on lower trims. Sentry mode may increase battery drain, affecting range. Privacy care may trigger falsely, disrupting normal use."
+        },
+        {
+          "title": "澎湃OS 4全面曝光：小米十六年\"屎山\"终于要炸，新系统能不能接住|安卓...",
+          "url": "https://www.163.com/dy/article/L09LI0720511AKPC.html",
+          "site_name": "网易",
+          "publish_date": "2026-06-25",
+          "tags": [
+            "小米",
+            "澎湃OS",
+            "UI设计",
+            "AI集成"
+          ],
+          "summary": "【事件概述】澎湃OS 4全面曝光，小米计划对系统进行重大革新。核心变化包括：引入全新的“液态玻璃”UI设计，提供通透和柔和两种可切换风格，类似iOS的柔润效果；深度集成AI能力，覆盖相册、系统工具和智能体；调整交互方式，强化与新一代硬件的绑定。此次升级旨在解决长期存在的Bug和系统碎片化问题，将系统从“附加价值”转变为“核心卖点”。\n\n【体验价值】液态玻璃UI设计提升了视觉统一性和高级感，可切换风格满足不同用户审美偏好。AI深度集成有望实现更智能的相册管理、系统优化和主动服务，减少用户手动操作。交互方式调整可能降低学习曲线，提升操作效率。整体上，澎湃OS 4试图通过软件体验提升小米生态的竞争力。\n\n【潜在槽点】UI风格切换可能增加系统资源消耗，影响低端设备流畅度。AI集成可能引发隐私担忧，尤其是相册和系统工具的数据访问。长期存在的Bug能否一次性解决存疑，用户可能对“画饼”式更新产生疲劳。新系统与硬件的深度绑定可能导致老机型升级体验不佳。",
+          "summary_en": "【Event Overview】HyperOS 4 has been fully exposed, with Xiaomi planning a major system overhaul. Key changes include a new 'Liquid Glass' UI design with transparent and soft switchable styles, deep AI integration across albums, system tools, and agents, and interaction adjustments tied to new hardware. This update aims to solve long-standing bugs and fragmentation, transforming the system from an 'add-on' to a 'core selling point'.\n\n【Experience Value】The Liquid Glass UI enhances visual consistency and premium feel, with switchable styles catering to different aesthetic preferences. Deep AI integration enables smarter album management, system optimization, and proactive services, reducing manual operations. Interaction adjustments may lower the learning curve and improve efficiency. Overall, HyperOS 4 seeks to boost Xiaomi's ecosystem competitiveness through software experience.\n\n【Potential Friction】UI style switching may increase resource consumption, affecting low-end device smoothness. AI integration raises privacy concerns, especially regarding album and system tool data access. Whether long-standing bugs can be resolved in one go is questionable, and users may be fatigued by 'vaporware' updates. Deep hardware binding may result in poor upgrade experiences on older models."
+        },
+        {
+          "title": "AR - HUD 升级，等红灯也有趣 问界OTA再升级有点意思 新增红绿灯趣味动效",
+          "url": "https://www.douyin.com/video/7656956625445919396",
+          "site_name": "抖音",
+          "publish_date": "2026-06-30",
+          "tags": [
+            "问界",
+            "HarmonyOS",
+            "AR-HUD",
+            "趣味交互"
+          ],
+          "summary": "【事件概述】问界通过OTA升级AR-HUD，新增红绿灯趣味动效。当车辆等红灯时，AR-HUD会显示“舞林萌主-憨憨”动画，增加等待趣味性。开启辅助驾驶时，AR-HUD还能通过动效表达变道、刹停、起步等意图，提升人机交互透明度。此次升级旨在通过趣味化设计传递科技温度，将AR-HUD从单纯的信息显示工具转变为情感化交互载体。\n\n【体验价值】红绿灯趣味动效缓解了等红灯的无聊感，提升了驾驶愉悦度。辅助驾驶意图表达让用户更直观地理解系统决策，增强信任感。这种“有温度”的交互设计降低了科技产品的冰冷感，可能提升用户对智能驾驶的接受度。\n\n【潜在槽点】趣味动效可能分散驾驶员注意力，尤其在复杂路口。动画效果需确保不影响关键信息（如导航、车速）的显示优先级。辅助驾驶意图表达可能因算法误判而显示错误动效，导致用户困惑。此外，此类功能可能仅适用于特定硬件配置，低配车型无法体验。",
+          "summary_en": "【Event Overview】AITO upgraded its AR-HUD via OTA, adding a fun traffic light animation. When waiting at a red light, the AR-HUD displays a 'Dancing Master - Hanhan' animation to add fun. During assisted driving, the AR-HUD uses animations to express lane change, braking, and start intentions, improving human-machine interaction transparency. This upgrade aims to convey technological warmth through playful design, transforming the AR-HUD from a pure information display tool into an emotional interaction medium.\n\n【Experience Value】The traffic light animation alleviates boredom while waiting, enhancing driving pleasure. Assisted driving intention expression allows users to intuitively understand system decisions, building trust. This 'warm' interaction design reduces the coldness of technology, potentially increasing user acceptance of intelligent driving.\n\n【Potential Friction】Fun animations may distract drivers, especially at complex intersections. Animations must not interfere with critical information display priority. Assisted driving intention expression may show incorrect animations due to algorithm errors, causing confusion. Additionally, such features may be limited to specific hardware configurations, excluding lower trims."
+        }
+      ],
+      "created_at": "2026-06-30 14:21:48"
+    },
+    {
       "date": "2026-06-29",
       "date_display": "06月29日",
       "weekday": "周一",
