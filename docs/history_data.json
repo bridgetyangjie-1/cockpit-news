@@ -1,6 +1,57 @@
 {
   "records": [
     {
+      "date": "2026-07-02",
+      "date_display": "07月02日",
+      "weekday": "周四",
+      "news_count": 3,
+      "news": [
+        {
+          "title": "你们把座舱游戏想简单了 - 42 号车库",
+          "url": "https://www.42how.com/article/5818",
+          "site_name": "42How",
+          "publish_date": "2026-07-02",
+          "tags": [
+            "座舱游戏",
+            "Steam",
+            "云游戏",
+            "生态"
+          ],
+          "summary": "【事件概述】文章深入探讨了智能座舱游戏生态的现状与未来。核心创新点包括：Steam商城数字版游戏可在车机端浏览、购买和下载，已拥有游戏可同步至车机，并支持与PC端游戏进度同步。此外，座舱游戏不再局限于简单休闲游戏，而是向3A大作扩展，利用车机高性能芯片和云游戏技术实现流畅运行。文章还提到，游戏生态与座舱硬件（如方向盘、座椅震动）深度联动，提供沉浸式体验。\n\n【体验价值】用户可在停车充电或休息时，直接在车内畅玩PC级游戏，无需额外设备。游戏进度跨设备同步，无缝衔接家庭与车载场景。座舱硬件联动（如方向盘模拟转向）增强游戏沉浸感，将车内时间转化为娱乐时光。\n\n【潜在槽点】3A游戏对车机算力和散热要求极高，可能导致芯片过热降频，影响游戏流畅度。游戏操作与驾驶安全存在冲突，需严格限制行驶中游戏功能，但用户可能通过破解绕过限制，带来安全隐患。",
+          "summary_en": "【Event Overview】The article deeply explores the current state and future of the smart cockpit gaming ecosystem. Core innovations include: Steam digital games can be browsed, purchased, and downloaded on the car system; owned games can be synced to the car, supporting progress synchronization with PC. Additionally, cockpit gaming is no longer limited to simple casual games but extends to AAA titles, leveraging high-performance car chips and cloud gaming technology for smooth operation. The article also mentions deep integration of the gaming ecosystem with cockpit hardware (e.g., steering wheel, seat vibration) for immersive experiences.\n\n【Experience Value】Users can enjoy PC-level games directly in the car during parking or charging, without additional devices. Game progress syncs across devices, seamlessly connecting home and in-car scenarios. Cockpit hardware integration (e.g., steering wheel simulating turns) enhances immersion, turning in-car time into entertainment time.\n\n【Potential Friction】AAA games impose high demands on car chip computing power and heat dissipation, potentially causing chip overheating and throttling, affecting game smoothness. Game operation conflicts with driving safety; strict restrictions on gaming while driving are needed, but users may bypass them through hacking, posing safety risks."
+        },
+        {
+          "title": "2026智能座舱AI Agent量产会改变什么？",
+          "url": "https://k.sina.cn/article_7879923871_1d5ae189f068019nks.html",
+          "site_name": "新浪新闻",
+          "publish_date": "2026-07-02",
+          "tags": [
+            "AI Agent",
+            "多模态交互",
+            "无感交互",
+            "大模型"
+          ],
+          "summary": "【事件概述】文章指出，2026年智能座舱AI Agent进入量产阶段，核心变化在于交互方式从“指令式”向“无感式”质变。传统语音助手需用户明确下达分步指令，而AI Agent通过多模态大模型融合语音、手势、表情、环境感知，实现意图预判和主动服务。例如，系统可通过摄像头识别用户疲劳状态，自动调节空调温度、播放提神音乐，并建议休息。此外，AI Agent支持多轮对话和上下文记忆，能理解复杂指令如“导航到上次那家餐厅，并提醒我路过加油站”。\n\n【体验价值】用户无需学习特定指令，交互更自然直觉。主动服务减少驾驶分心，提升安全性。上下文记忆让连续任务更高效，例如一次对话完成导航、音乐、空调等多重设置，节省操作时间。\n\n【潜在槽点】多模态感知依赖摄像头和传感器，可能引发隐私担忧，用户对车内持续监控的接受度存疑。AI Agent的主动决策若与用户预期不符（如误判疲劳状态），可能造成困扰。系统复杂度增加，可能导致响应延迟或误触发，影响体验流畅性。",
+          "summary_en": "【Event Overview】The article points out that in 2026, smart cockpit AI Agents enter mass production, with the core change being a qualitative shift from 'command-based' to 'unconscious' interaction. Traditional voice assistants require users to give step-by-step commands, while AI Agents use multimodal large models integrating voice, gesture, expression, and environmental perception to achieve intent prediction and proactive service. For example, the system can recognize user fatigue via camera, automatically adjust air conditioning temperature, play refreshing music, and suggest rest. Additionally, AI Agents support multi-turn dialogue and contextual memory, understanding complex commands like 'Navigate to that restaurant we visited last time and remind me to pass a gas station.'\n\n【Experience Value】Users don't need to learn specific commands; interaction is more natural and intuitive. Proactive services reduce driving distraction and improve safety. Contextual memory makes continuous tasks more efficient, such as completing navigation, music, and air conditioning settings in one conversation, saving operation time.\n\n【Potential Friction】Multimodal perception relies on cameras and sensors, raising privacy concerns; user acceptance of continuous in-car monitoring is questionable. If the AI Agent's proactive decisions don't match user expectations (e.g., misjudging fatigue), it may cause annoyance. Increased system complexity may lead to response delays or false triggers, affecting experience smoothness."
+        },
+        {
+          "title": "上汽通用：AI原生架构驱动的下一代智能座舱设计与量产实践",
+          "url": "http://auto.cnfol.com/cheshidongtai/20260701/32296116.shtml",
+          "site_name": "中金在线",
+          "publish_date": "2026-07-01",
+          "tags": [
+            "上汽通用",
+            "AI原生架构",
+            "情感交互",
+            "自我进化"
+          ],
+          "summary": "【事件概述】上汽通用发布AI原生架构驱动的下一代智能座舱，核心创新在于从集成大模型、部署多Agent的工具阶段，迈向具备情感连接、自我进化能力，并最终提供主动服务的“类人”智能体。该架构采用端侧大模型与云端协同，实现低延迟响应和离线可用。关键功能包括：情感识别（通过语音语调、面部表情判断用户情绪并调整交互风格）、主动服务（如根据日程自动规划路线并提前调节座舱环境）、以及自我进化（通过用户行为数据持续优化模型，无需OTA即可本地学习）。\n\n【体验价值】情感交互让座舱更具“人情味”，提升用户粘性。主动服务减少手动操作，使驾驶更专注。自我进化能力让车辆越用越懂用户，个性化体验随时间增长而深化，无需等待官方OTA推送。\n\n【潜在槽点】情感识别可能因文化差异或个体差异产生误判，导致尴尬或不适。自我进化依赖用户数据，若数据量不足或质量差，进化效果有限。端侧模型受限于算力，复杂任务仍需云端，网络不佳时体验下降。",
+          "summary_en": "【Event Overview】SAIC-GM released the next-generation smart cockpit driven by an AI-native architecture, with the core innovation moving from integrating large models and deploying multi-Agent tools to an 'human-like' intelligent agent with emotional connection, self-evolution capabilities, and ultimately proactive service. The architecture uses on-device large models with cloud collaboration for low-latency response and offline availability. Key features include: emotion recognition (judging user mood via voice tone and facial expression to adjust interaction style), proactive service (e.g., automatically planning routes based on schedule and pre-adjusting cockpit environment), and self-evolution (continuously optimizing models through user behavior data without OTA).\n\n【Experience Value】Emotional interaction makes the cockpit more 'human', enhancing user stickiness. Proactive services reduce manual operations, making driving more focused. Self-evolution allows the vehicle to better understand the user over time, deepening personalization without waiting for official OTA pushes.\n\n【Potential Friction】Emotion recognition may misjudge due to cultural or individual differences, causing awkwardness or discomfort. Self-evolution relies on user data; insufficient or poor-quality data may limit effectiveness. On-device models are constrained by computing power; complex tasks still require cloud, leading to degraded experience when network is poor."
+        }
+      ],
+      "created_at": "2026-07-02 14:08:00"
+    },
+    {
       "date": "2026-07-01",
       "date_display": "07月01日",
       "weekday": "周三",
