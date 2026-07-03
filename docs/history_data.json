@@ -1,6 +1,71 @@
 {
   "records": [
     {
+      "date": "2026-07-03",
+      "date_display": "07月03日",
+      "weekday": "周五",
+      "news_count": 4,
+      "news": [
+        {
+          "title": "极氪 OTA 7.2 更新发布：40 项新增功能，18 项体验优化",
+          "url": "https://www.ithome.com/0/971/505.htm",
+          "site_name": "IT之家",
+          "publish_date": "2026-07-02",
+          "tags": [
+            "极氪",
+            "ZEEKR OS",
+            "OTA",
+            "语音助手"
+          ],
+          "summary": "【事件概述】2026年7月2日，极氪宣布多款车型推送OTA 7.2版本，带来40项新增功能和18项体验优化。核心亮点是“超级Eva”语音助手的全面进化，实现了“懂你又懂路”的类人交互。该助手能够理解模糊语义和上下文，例如用户说“我有点冷”，Eva会自动调高空调温度并关闭车窗；同时，它能结合导航信息主动提供建议，如“前方拥堵，是否切换路线？”此外，更新还优化了HMI界面动效、新增了场景模式联动（如“露营模式”自动调整座椅、空调和灯光），并提升了第三方应用兼容性。此次OTA覆盖极氪001、009等多款车型，标志着极氪在AI驱动的主动式座舱体验上迈出关键一步。\n\n【体验价值】“超级Eva”的主动式交互显著降低了用户的操作层级，从“用户指令-系统响应”转变为“系统预判-主动服务”，极大提升了驾驶安全性和便利性。场景模式联动则让座舱从工具变为懂你的空间，增强了情感连接。\n\n【潜在槽点】主动式AI的误判风险不容忽视，例如错误理解用户意图可能导致尴尬或危险操作。此外，大量新功能可能增加用户的学习成本，部分用户可能因不熟悉而关闭主动建议，导致功能闲置。隐私方面，持续的环境感知和语音分析可能引发用户对数据安全的担忧。",
+          "summary_en": "【Event Overview】On July 2, 2026, Zeekr pushed OTA 7.2 to multiple models, introducing 40 new features and 18 experience optimizations. The highlight is the evolution of the 'Super Eva' voice assistant, enabling human-like interaction that understands context and proactively offers suggestions (e.g., 'I'm cold' triggers climate adjustment). The update also includes HMI animation improvements, scene mode linkages (e.g., 'Camping Mode'), and enhanced third-party app compatibility. This marks a key step in Zeekr's AI-driven proactive cockpit experience.\n\n【Experience Value】'Super Eva's' proactive interaction reduces user operation layers, shifting from 'user command-system response' to 'system prediction-proactive service,' significantly improving driving safety and convenience. Scene mode linkages transform the cockpit from a tool to an understanding space, enhancing emotional connection.\n\n【Potential Friction】The risk of proactive AI misjudgment is non-negligible, potentially leading to awkward or dangerous actions. The sheer volume of new features may increase the learning curve, causing some users to disable proactive suggestions. Privacy concerns regarding continuous environmental sensing and voice analysis may also arise."
+        },
+        {
+          "title": "魏牌咖啡系列车型OTA重磅升级！智能体验再跃升，领跑高阶新势力",
+          "url": "https://k.sina.cn/article_7857141524_1d452771401903oubi.html?subch=oauto",
+          "site_name": "新浪",
+          "publish_date": "2026-06-27",
+          "tags": [
+            "魏牌",
+            "Coffee OS",
+            "OTA",
+            "UI/UX"
+          ],
+          "summary": "【事件概述】2026年6月底，魏牌新能源宣布旗下咖啡系列车型迎来Coffee OS史上最大规模OTA迭代。蓝山、高山车型进行了252项功能迭代与优化，摩卡、拿铁、玛奇朵则迎来153项升级。此次升级的核心是“零层级”交互理念的全面落地，重新设计了桌面布局，将高频功能（如导航、音乐、空调）以卡片形式置于首页，支持自定义快捷面板，大幅减少操作步骤。同时，语音助手升级为“可见即可说”，覆盖更多系统界面和第三方应用。此外，更新还引入了“智慧场景引擎”，可根据时间、天气、用户习惯自动推荐场景模式（如“下班回家”自动导航、播放音乐、调节座椅）。此次OTA的规模和深度在传统车企中较为罕见，展现了魏牌向软件驱动转型的决心。\n\n【体验价值】“零层级”桌面设计直接降低了用户的操作认知负荷，高频功能一触即达，符合驾驶场景下的“最小注意力”原则。智慧场景引擎的引入，让座舱从被动响应变为主动服务，提升了日常通勤的便利性和仪式感。\n\n【潜在槽点】252项功能迭代可能带来“功能过载”风险，部分用户可能因找不到设置入口而感到困惑。智慧场景引擎的推荐算法若不够精准，可能产生“不智能”的负面体验。此外，大量OTA更新对车机硬件性能提出更高要求，老旧车型可能出现卡顿。",
+          "summary_en": "【Event Overview】In late June 2026, Wey announced the largest OTA iteration in Coffee OS history for its coffee series models. The Blue Mountain and High Mountain received 252 feature iterations and optimizations, while the Mocha, Latte, and Macchiato received 153 upgrades. The core is the full implementation of a 'zero-layer' interaction concept, redesigning the desktop layout with high-frequency functions (navigation, music, climate) as cards on the home screen, supporting customizable quick panels. The voice assistant now supports 'see-and-say' across more interfaces. A 'Smart Scene Engine' automatically recommends scene modes based on time, weather, and user habits.\n\n【Experience Value】The 'zero-layer' desktop design directly reduces cognitive load, with high-frequency functions accessible with one tap, aligning with the 'minimum attention' principle in driving scenarios. The Smart Scene Engine transforms the cockpit from passive response to proactive service, enhancing daily commute convenience.\n\n【Potential Friction】252 feature iterations risk 'feature overload,' potentially confusing some users. Inaccurate recommendations from the Smart Scene Engine could lead to a negative 'not-so-smart' experience. The large OTA update may strain older hardware, causing lag."
+        },
+        {
+          "title": "手车互联_手车互联最新动态",
+          "url": "https://m.ithome.com/tags/手车互联",
+          "site_name": "IT之家",
+          "publish_date": "2026-07-03",
+          "tags": [
+            "比亚迪",
+            "手车互联",
+            "跨端生态",
+            "应用流转"
+          ],
+          "summary": "【事件概述】2026年7月，比亚迪汉荣耀版获推OTA升级，新增“手车互联”功能，支持华为、荣耀、OPPO、vivo、小米等主流品牌手机。该功能的核心是“无感连接”和“应用流转”：手机靠近车辆时自动连接，无需手动操作；手机上的导航、音乐、视频等应用可一键流转至车机屏幕，并支持反向控制（如车机端接听电话、回复微信）。此外，手机端的部分设置（如驾驶模式、座椅记忆）可同步至车机，实现“人-车-手机”统一账号体系。比亚迪与OPPO合作的首款车型腾势Z9GT更展示了深度互联能力，包括手机远程控车、车机调用手机摄像头等。这标志着比亚迪在跨端生态融合上迈出重要一步，打破了品牌壁垒。\n\n【体验价值】手车互联消除了手机与车机之间的“信息孤岛”，用户无需在车机上重复设置，降低了学习成本。应用流转功能让用户无缝切换设备，提升了连续性体验。多品牌兼容性则扩大了用户覆盖面，避免了生态锁定。\n\n【潜在槽点】多品牌兼容性可能导致体验不一致，部分品牌的功能深度可能受限。隐私风险显著，手机与车机深度互联意味着大量个人数据（通讯录、位置、应用使用习惯）在两者间传输，若安全防护不足，易被攻击。此外，连接稳定性在不同品牌间可能存在差异，影响用户体验。",
+          "summary_en": "【Event Overview】In July 2026, BYD's Han Glory Edition received an OTA update adding 'Phone-Car Connectivity,' supporting mainstream brands like Huawei, Honor, OPPO, vivo, and Xiaomi. Key features include 'seamless connection' (auto-connect when approaching the car) and 'app handoff' (one-tap transfer of navigation, music, video from phone to car screen, with reverse control). Some phone settings (driving mode, seat memory) sync to the car via a unified account. The Denza Z9GT, co-developed with OPPO, demonstrates deeper integration, including remote control and using the phone's camera. This marks BYD's significant step in cross-device ecosystem integration.\n\n【Experience Value】Phone-car connectivity eliminates the 'information island' between devices, reducing the learning curve. App handoff provides a seamless continuity experience. Multi-brand compatibility broadens user reach and avoids ecosystem lock-in.\n\n【Potential Friction】Multi-brand compatibility may lead to inconsistent experiences, with limited feature depth for some brands. Privacy risks are significant, as deep integration transmits personal data (contacts, location, app usage) between devices, vulnerable to attacks if security is insufficient. Connection stability may vary across brands, affecting user experience."
+        },
+        {
+          "title": "智能座舱新范式：基于Agent技术构建差异化交互体验",
+          "url": "https://developer.baidu.com/article/detail.html?id=7862200",
+          "site_name": "百度开发者中心",
+          "publish_date": "2026-07-01",
+          "tags": [
+            "百度",
+            "Agent",
+            "AI交互",
+            "多模态"
+          ],
+          "summary": "【事件概述】2026年7月1日，百度开发者中心发布文章，深入解析基于Agent技术构建智能座舱交互新范式。文章指出，传统座舱交互依赖“用户触发-系统响应”的单轮模式，而Agent技术通过引入“感知-推理-行动”闭环，使座舱具备主动感知、自主决策和持续学习能力。具体而言，Agent可融合多模态传感器（摄像头、麦克风、雷达）数据，实时理解用户状态（如疲劳、情绪）和环境（如天气、路况），并主动提供个性化服务（如检测到疲劳时建议休息、播放提神音乐）。Agent还支持多轮对话和任务分解，例如用户说“帮我规划去机场的路线，并提醒我加油”，Agent可自动完成导航、查询油价、设置提醒等子任务。文章强调，Agent技术是座舱从“功能堆砌”走向“智慧空间”的关键。\n\n【体验价值】Agent技术将座舱交互从“被动响应”升级为“主动服务”，显著提升了安全性和便利性。多轮对话和任务分解能力降低了用户的操作复杂度，让复杂指令变得简单。个性化服务基于持续学习，使座舱越用越懂用户，增强了情感粘性。\n\n【潜在槽点】Agent的自主决策可能引发“失控”风险，例如错误判断用户状态导致不当干预。多模态感知涉及大量隐私数据（如车内视频、音频），若处理不当易引发信任危机。此外，Agent的推理能力在复杂场景下可能不足，导致任务执行失败，影响用户体验。",
+          "summary_en": "【Event Overview】On July 1, 2026, Baidu Developer Center published an article analyzing the new paradigm of Agent-based cockpit interaction. Traditional interaction relies on a 'user trigger-system response' model, while Agent technology introduces a 'perception-reasoning-action' loop, enabling proactive sensing, autonomous decision-making, and continuous learning. Agents fuse multi-modal sensor data (camera, microphone, radar) to understand user state (fatigue, emotion) and environment (weather, traffic), proactively offering personalized services. They support multi-turn dialogue and task decomposition (e.g., 'Plan a route to the airport and remind me to refuel'). This is key to evolving the cockpit from 'feature stacking' to 'smart space.'\n\n【Experience Value】Agent technology upgrades interaction from 'passive response' to 'proactive service,' significantly improving safety and convenience. Multi-turn dialogue and task decomposition reduce user complexity. Personalized services based on continuous learning make the cockpit 'smarter over time,' enhancing emotional attachment.\n\n【Potential Friction】Autonomous decision-making risks 'loss of control,' e.g., misjudging user state leading to inappropriate intervention. Multi-modal sensing involves extensive privacy data (in-car video, audio), potentially causing trust issues if mishandled. Agent reasoning may be insufficient in complex scenarios, leading to task failure and negative user experience."
+        }
+      ],
+      "created_at": "2026-07-03 14:01:54"
+    },
+    {
       "date": "2026-07-02",
       "date_display": "07月02日",
       "weekday": "周四",
