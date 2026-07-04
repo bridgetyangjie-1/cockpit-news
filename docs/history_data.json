@@ -1,6 +1,14 @@
 {
   "records": [
     {
+      "date": "2026-07-04",
+      "date_display": "07月04日",
+      "weekday": "周六",
+      "news_count": 0,
+      "news": [],
+      "created_at": "2026-07-04 13:55:09"
+    },
+    {
       "date": "2026-07-03",
       "date_display": "07月03日",
       "weekday": "周五",
