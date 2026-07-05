@@ -1,6 +1,29 @@
 {
   "records": [
     {
+      "date": "2026-07-05",
+      "date_display": "07月05日",
+      "weekday": "周日",
+      "news_count": 1,
+      "news": [
+        {
+          "title": "小米澎湃os 4最快下月登场：清除miui遗留代码 流畅度大提升",
+          "url": "https://www.163.com/dy/article/L11HSV3N0511CPVM.html",
+          "site_name": "网易",
+          "publish_date": "2026-07-04",
+          "tags": [
+            "小米",
+            "澎湃OS",
+            "系统重构",
+            "OTA"
+          ],
+          "summary": "【事件概述】据爆料，小米澎湃OS 4最快将于8月发布，其核心升级在于系统底层的彻底重构。开发团队全面清除了MIUI时代的冗余代码与旧版SDK，使澎湃OS 4成为首个真正意义上的“零遗留”系统。这一举措旨在解决长期困扰用户的系统臃肿、卡顿和资源占用过高问题。对于汽车领域，这意味着搭载澎湃OS的小米汽车有望获得更流畅、更稳定的座舱交互体验，并为后续更复杂的AI功能和多设备协同（人车家全生态）提供更纯净的底层基础。\n\n【体验价值】清除冗余代码将直接提升系统响应速度和动画流畅度，减少应用启动延迟和后台资源竞争。用户将感受到更“跟手”的触控反馈和更稳定的多任务处理能力，这是提升日常使用愉悦感的基础性改进。\n\n【潜在槽点】系统重构可能带来初期兼容性问题，部分旧版应用或功能可能出现闪退或适配延迟。此外，“零遗留”是否意味着彻底放弃对旧款小米手机/车机的支持，可能导致部分老用户无法升级，引发生态割裂。",
+          "summary_en": "【Event Overview】According to leaks, Xiaomi's HyperOS 4 is expected to launch as early as August, with the core upgrade being a complete bottom-layer system reconstruction. The development team has thoroughly removed redundant code and old SDKs from the MIUI era, making HyperOS 4 the first truly 'zero-legacy' system. This aims to solve long-standing issues of system bloat, lag, and high resource usage. For the automotive sector, this means Xiaomi cars equipped with HyperOS could gain a smoother and more stable cabin interaction experience, providing a cleaner foundation for future complex AI functions and multi-device collaboration within the 'Human x Car x Home' ecosystem. \n\n【Experience Value】Removing redundant code will directly improve system response speed and animation smoothness, reducing app launch delays and background resource contention. Users will experience more responsive touch feedback and more stable multitasking, a fundamental improvement for daily driving pleasure. \n\n【Potential Friction】System reconstruction may cause initial compatibility issues, with some older apps or features potentially crashing or experiencing adaptation delays. Furthermore, 'zero legacy' might imply dropping support for older Xiaomi phones/vehicles, potentially leaving some users unable to upgrade and causing ecosystem fragmentation."
+        }
+      ],
+      "created_at": "2026-07-05 14:13:44"
+    },
+    {
       "date": "2026-07-04",
       "date_display": "07月04日",
       "weekday": "周六",
