@@ -1,6 +1,71 @@
 {
   "records": [
     {
+      "date": "2026-07-06",
+      "date_display": "07月06日",
+      "weekday": "周一",
+      "news_count": 4,
+      "news": [
+        {
+          "title": "它是怎么成为汽车配件界的App Store_腾讯新闻",
+          "url": "https://news.qq.com/rain/a/20260702A09R7H00",
+          "site_name": "腾讯新闻",
+          "publish_date": "2026-07-02",
+          "tags": [
+            "大疆",
+            "车载应用商店",
+            "无人机控制",
+            "生态开放"
+          ],
+          "summary": "【事件概述】该新闻报道了某汽车配件平台通过车机支持下载大疆App，实现中控屏对无人机的拍摄、预览和控制。这一创新将车辆转变为移动旅拍设备，打破了车机与外部智能硬件的壁垒。用户无需额外手持设备，即可在驾驶途中通过车机大屏实时操控无人机，完成航拍、跟拍等操作。该功能的核心在于车机应用商店的开放性和深度集成能力，不仅支持App下载，还实现了与车辆硬件（如屏幕、网络）的无缝协同，为车载生态拓展提供了新范式。\n\n【体验价值】从UX视角看，该功能显著降低了无人机操作的门槛，将专业设备融入日常驾驶场景。用户无需停车或分心操作手机，通过车机大屏即可获得更直观的操控体验和实时预览，提升了旅拍效率和安全性。同时，这种“车+无人机”的生态联动，增强了车辆的娱乐性和社交分享属性，符合年轻用户对智能出行和内容创作的需求。\n\n【潜在槽点】该功能可能面临隐私风险，如无人机拍摄数据在车机端的存储和传输安全性。此外，用户需额外购买无人机并学习车机App的操控逻辑，存在一定的学习成本。在行驶中操作无人机可能分散注意力，需严格限制使用场景（如仅限停车或副驾操作），否则可能引发安全争议。",
+          "summary_en": "【Event Overview】This news reports that a car accessory platform supports downloading the DJI App via the infotainment system, enabling drone shooting, preview, and control through the center console. This innovation transforms the vehicle into a mobile travel photography device, breaking the barrier between the car and external smart hardware. Users can control drones in real-time via the large screen without additional handheld devices, achieving aerial photography and follow-shots. The core lies in the openness and deep integration of the in-car app store, which not only supports App downloads but also achieves seamless synergy with vehicle hardware (e.g., screen, network), providing a new paradigm for in-car ecosystem expansion.\n\n【Experience Value】From a UX perspective, this feature significantly lowers the barrier to drone operation, integrating professional equipment into daily driving scenarios. Users can obtain a more intuitive control experience and real-time preview through the large screen without stopping or distracting themselves with a phone, improving travel photography efficiency and safety. Additionally, this 'car + drone' ecological linkage enhances the vehicle's entertainment and social sharing attributes, meeting young users' demands for smart mobility and content creation.\n\n【Potential Friction】This feature may face privacy risks, such as the security of drone shooting data storage and transmission on the infotainment system. Moreover, users need to purchase an additional drone and learn the control logic of the in-car App, incurring a certain learning cost. Operating a drone while driving may distract attention, requiring strict usage scenario restrictions (e.g., only when parked or operated by the front passenger), otherwise, it may raise safety concerns."
+        },
+        {
+          "title": "让座舱大模型\"办得成\"!AquaClaw如何帮车企撕开智能化的突破口？",
+          "url": "https://www.163.com/dy/article/L0UE8GNM05568W0A.html",
+          "site_name": "网易",
+          "publish_date": "2026-07-03",
+          "tags": [
+            "中科创达",
+            "AquaClaw",
+            "大模型",
+            "Agent"
+          ],
+          "summary": "【事件概述】中科创达的AquaClaw座舱产品升级，旨在让大模型从“娱乐聊天玩具”演进为“全能超级智能体”，核心是打破传统车机“一问一答”的傻瓜模式。AquaClaw通过端侧大模型、Agent产品矩阵和生态服务整合，实现任务闭环。例如，用户说“我饿了”，AI Agent不仅能推荐餐厅，还能直接导航、预订座位并调节车内环境。其创新在于多步骤任务的自主规划与执行，而非仅提供信息。此外，AquaClaw支持跨App联动（如音乐、导航、空调），并可通过OTA持续学习用户习惯，实现个性化服务。\n\n【体验价值】从UX视角看，AquaClaw将语音助手从被动响应升级为主动服务，显著减少了用户操作步骤。用户只需表达意图，系统即可自动拆解任务并调用相关功能，提升了驾驶安全性和效率。例如，复杂指令“导航去机场，顺便把空调调低，再播周杰伦的歌”可一次性完成，无需逐条操作。这种“办得成”的能力增强了用户对智能座舱的信任感和依赖度，使交互更接近人类助理。\n\n【潜在槽点】该功能对自然语言理解（NLU）和任务规划能力要求极高，若误判用户意图（如将“我饿了”误解为“找加油站”），可能导致体验崩溃。此外，跨App联动可能引发权限冲突或隐私泄露，例如AI Agent自动调用支付功能预订餐厅时，需确保用户授权。实际落地中，车企需与大量第三方服务商合作，生态整合难度大，初期可能仅支持有限场景。",
+          "summary_en": "【Event Overview】Thunder Software's AquaClaw cockpit product upgrade aims to evolve the large model from an 'entertainment chat toy' to an 'omnipotent super agent', breaking the traditional 'one question, one answer' mode. AquaClaw achieves task closure through end-side large models, Agent product matrix, and ecosystem service integration. For example, when a user says 'I'm hungry', the AI Agent can not only recommend restaurants but also directly navigate, book a table, and adjust the in-car environment. The innovation lies in autonomous planning and execution of multi-step tasks, rather than just providing information. Additionally, AquaClaw supports cross-App linkage (e.g., music, navigation, AC) and can continuously learn user habits via OTA for personalized services.\n\n【Experience Value】From a UX perspective, AquaClaw upgrades the voice assistant from passive response to proactive service, significantly reducing user operation steps. Users only need to express their intent, and the system automatically decomposes tasks and calls relevant functions, improving driving safety and efficiency. For example, a complex command like 'Navigate to the airport, turn down the AC, and play Jay Chou's songs' can be completed in one go without step-by-step operations. This 'can-do' capability enhances user trust and reliance on the smart cockpit, making interaction closer to a human assistant.\n\n【Potential Friction】This feature requires extremely high natural language understanding (NLU) and task planning capabilities. If the system misinterprets user intent (e.g., misunderstanding 'I'm hungry' as 'find a gas station'), it may lead to experience collapse. Moreover, cross-App linkage may cause permission conflicts or privacy leaks; for instance, when the AI Agent automatically calls payment functions to book a restaurant, user authorization must be ensured. In practice, automakers need to cooperate with numerous third-party service providers, making ecosystem integration difficult, and initial support may be limited to a few scenarios."
+        },
+        {
+          "title": "蔚来发布Banyan 3.0.0智能系统 计划分批次按提车顺序推送",
+          "url": "https://k.sina.cn/article_7857201856_1d45362c001907kru4.html",
+          "site_name": "新浪",
+          "publish_date": "2026-06-30",
+          "tags": [
+            "蔚来",
+            "Banyan 3.0",
+            "AI化",
+            "OTA"
+          ],
+          "summary": "【事件概述】蔚来发布Banyan 3.0.0智能系统，这是其首个基于AI核心底层能力打造的全新系统，标志着蔚来座舱AI化的第一个大版本。该版本将进行超130项功能新增及优化，核心创新在于将AI算法与智能硬件、原生智能框架和智能应用深度融合。例如，系统可能引入基于AI的主动服务（如根据用户习惯自动调整座椅、空调），以及更智能的语音助手和场景引擎。此外，Banyan 3.0.0强调OTA持续进化能力，计划分批次按提车顺序推送，确保用户体验的平滑升级。\n\n【体验价值】从UX视角看，Banyan 3.0.0的AI化升级使座舱从“被动响应”转向“主动感知”。例如，系统可学习用户每日通勤习惯，在接近公司时自动推荐咖啡店或调整驾驶模式。这种个性化服务减少了用户手动设置，提升了日常使用的便捷性和愉悦感。同时，超130项功能优化覆盖了从导航到娱乐的多个维度，用户无需等待硬件换代即可获得全新体验，增强了车辆的长期价值。\n\n【潜在槽点】分批次按提车顺序推送可能导致用户等待时间不均，引发老用户不满。此外，AI化升级依赖大量用户数据训练，若隐私保护措施不透明，可能引发信任危机。超130项功能的新增也可能导致系统复杂度上升，部分用户可能因功能过多而感到困惑，需要更清晰的引导和默认设置。",
+          "summary_en": "【Event Overview】NIO released the Banyan 3.0.0 intelligent system, its first system built on AI core underlying capabilities, marking the first major version of NIO's cockpit AI transformation. This version will add or optimize over 130 features, with the core innovation being the deep integration of AI algorithms with intelligent hardware, native intelligent frameworks, and intelligent applications. For example, the system may introduce AI-based proactive services (e.g., automatically adjusting seats and AC based on user habits) and smarter voice assistants and scene engines. Additionally, Banyan 3.0.0 emphasizes OTA continuous evolution capability, planning to push updates in batches according to vehicle delivery order to ensure a smooth upgrade experience.\n\n【Experience Value】From a UX perspective, the AI upgrade of Banyan 3.0.0 shifts the cockpit from 'passive response' to 'active perception'. For instance, the system can learn users' daily commute habits and automatically recommend coffee shops or adjust driving modes when approaching the office. This personalized service reduces manual settings, enhancing daily convenience and enjoyment. Meanwhile, the optimization of over 130 features covers multiple dimensions from navigation to entertainment, allowing users to obtain a new experience without waiting for hardware upgrades, thereby enhancing the vehicle's long-term value.\n\n【Potential Friction】Batch pushing according to delivery order may lead to uneven waiting times, causing dissatisfaction among old users. Moreover, AI upgrades rely on large amounts of user data for training; if privacy protection measures are not transparent, it may trigger a trust crisis. The addition of over 130 features may also increase system complexity, and some users may feel confused by too many functions, requiring clearer guidance and default settings."
+        },
+        {
+          "title": "小米澎湃OS 4最快下月登场：清除MIUI遗留代码 流畅度大提升",
+          "url": "https://news.qq.com/rain/a/20260704A0AS2C00",
+          "site_name": "腾讯新闻",
+          "publish_date": "2026-07-04",
+          "tags": [
+            "小米",
+            "澎湃OS 4",
+            "系统重构",
+            "流畅度"
+          ],
+          "summary": "【事件概述】小米澎湃OS 4预计最快8月发布，核心创新在于清除MIUI遗留代码，实现底层逻辑重构，以提升系统流畅度和稳定性。该版本引入类似iOS的液态玻璃设计，UI审美跳出过往框架，同时优化后台调度和资源管理。对于汽车领域，澎湃OS 4可能影响小米汽车的车机系统，因为小米已宣布将澎湃OS应用于汽车。清除遗留代码意味着车机系统将更轻量化，减少卡顿和兼容性问题，为后续OTA升级和第三方应用生态打下基础。此外，系统转向自研架构，可能增强与小米生态设备（如手机、家居）的互联能力。\n\n【体验价值】从UX视角看，澎湃OS 4的流畅度提升将直接改善车机交互的响应速度和动画平滑度，减少用户等待时间。清除遗留代码可降低系统资源占用，使车机在低配硬件上也能流畅运行，扩大适用车型范围。液态玻璃设计带来更现代的视觉风格，提升界面美观度和操作愉悦感。同时，底层重构有助于更高效地支持多任务和跨设备协同，例如手机与车机无缝切换导航或音乐。\n\n【潜在槽点】系统重构可能导致初期兼容性问题，部分现有App或功能可能无法正常运行，需用户等待适配更新。此外，UI设计大幅变化可能增加老用户的学习成本，尤其是习惯MIUI操作逻辑的用户。若澎湃OS 4在汽车上的落地延迟或优化不足，可能影响小米汽车的用户体验，需警惕“画饼”风险。",
+          "summary_en": "【Event Overview】Xiaomi's HyperOS 4 is expected to be released as early as August, with the core innovation being the removal of MIUI legacy code and a fundamental logic reconstruction to improve system smoothness and stability. This version introduces a liquid glass design similar to iOS, breaking away from previous UI frameworks, while optimizing background scheduling and resource management. For the automotive sector, HyperOS 4 may impact Xiaomi's car infotainment system, as Xiaomi has announced the application of HyperOS to vehicles. Removing legacy code means the car system will be more lightweight, reducing lag and compatibility issues, laying the foundation for future OTA upgrades and third-party app ecosystems. Additionally, the shift to a self-developed architecture may enhance connectivity with Xiaomi ecosystem devices (e.g., phones, smart home).\n\n【Experience Value】From a UX perspective, the smoothness improvement of HyperOS 4 will directly enhance the responsiveness and animation smoothness of car infotainment interaction, reducing user waiting time. Removing legacy code can lower system resource usage, allowing the car system to run smoothly even on low-end hardware, expanding the range of applicable vehicle models. The liquid glass design brings a more modern visual style, improving interface aesthetics and operational pleasure. Meanwhile, the underlying reconstruction helps to more efficiently support multitasking and cross-device collaboration, such as seamless switching of navigation or music between phone and car.\n\n【Potential Friction】System reconstruction may lead to initial compatibility issues, with some existing apps or functions potentially not working properly, requiring users to wait for adaptation updates. Moreover, significant UI design changes may increase the learning cost for old users, especially those accustomed to MIUI operation logic. If HyperOS 4's implementation in cars is delayed or optimized insufficiently, it may affect the user experience of Xiaomi cars, posing a risk of 'overpromising'."
+        }
+      ],
+      "created_at": "2026-07-06 14:45:44"
+    },
+    {
       "date": "2026-07-05",
       "date_display": "07月05日",
       "weekday": "周日",
