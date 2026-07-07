@@ -1,6 +1,63 @@
 {
   "records": [
     {
+      "date": "2026-07-07",
+      "date_display": "07月07日",
+      "weekday": "周二",
+      "news_count": 3,
+      "news": [
+        {
+          "title": "让座舱大模型\"办得成\"!AquaClaw如何帮车企撕开智能化的突破口？",
+          "url": "https://stock.10jqka.com.cn/20260703/c677939418.shtml",
+          "site_name": "Stock",
+          "publish_date": "2026-07-03",
+          "tags": [
+            "中科创达",
+            "AquaClaw",
+            "端侧大模型",
+            "Agent产品矩阵",
+            "生态服务整合",
+            "任务执行"
+          ],
+          "summary": "【事件概述】中科创达发布AquaClaw座舱大模型方案，核心突破在于从“一问一答”的娱乐聊天模式进化为“全能超级智能体”，强调“办得成”事。AquaClaw整合了端侧大模型、Agent产品矩阵和生态服务，能主动理解用户意图并拆解为多步任务，例如用户说“我饿了”，系统自动搜索附近餐厅、查看评价、规划路线并发送到导航，全程无需用户逐一下指令。方案还支持跨应用联动（如音乐、空调、车窗）和第三方服务接入。\n\n【体验价值】用户从“指令式”交互升级为“意图式”交互，大幅降低操作门槛。多步任务自动执行减少驾驶分心，提升安全性和效率。跨应用联动让座舱成为真正的“智能管家”，而非孤立功能集合。\n\n【潜在槽点】多步任务执行依赖云端和端侧协同，网络不稳定时可能失败或延迟。用户隐私风险增加，因为系统需持续监听和分析车内对话。若任务拆解逻辑与用户预期不符（如推荐不喜欢的餐厅），可能引发挫败感，且纠正流程复杂。",
+          "summary_en": "【Event Overview】Thunder Software released the AquaClaw cockpit large model solution, with the core breakthrough evolving from a 'Q&A' entertainment chat mode to a 'universal super agent', emphasizing 'getting things done'. AquaClaw integrates on-device large models, Agent product matrices, and ecosystem services, capable of proactively understanding user intent and decomposing it into multi-step tasks. For example, when a user says 'I'm hungry', the system automatically searches for nearby restaurants, checks reviews, plans a route, and sends it to navigation, without requiring the user to issue commands step by step. The solution also supports cross-app linkage (e.g., music, AC, windows) and third-party service access.\n\n【Experience Value】Users upgrade from 'command-based' interaction to 'intent-based' interaction, significantly lowering the operation threshold. Automatic execution of multi-step tasks reduces driving distraction, improving safety and efficiency. Cross-app linkage makes the cockpit a true 'smart butler' rather than a collection of isolated functions.\n\n【Potential Friction】Multi-step task execution relies on cloud and on-device collaboration; unstable networks may cause failures or delays. User privacy risks increase as the system needs to continuously monitor and analyze in-car conversations. If the task decomposition logic does not match user expectations (e.g., recommending disliked restaurants), it may cause frustration, and the correction process is complex."
+        },
+        {
+          "title": "车载大模型全面上车，智能座舱迈入全域 AI 交互时代",
+          "url": "https://auto.sina.cn/2026-07-07/detail-inifxhzi8389159.d.html?vt=4",
+          "site_name": "Auto",
+          "publish_date": "2026-07-07",
+          "tags": [
+            "全域AI交互",
+            "多模态交互",
+            "车载大模型",
+            "场景联动",
+            "OTA",
+            "语音控制"
+          ],
+          "summary": "【事件概述】2026年汽车智能化重心从硬件配置转向车载大模型大规模量产上车，智能座舱从单一语音控制升级为全域AI交互体系。核心创新包括：多模态交互（语音、手势、视线、触控融合）、跨场景联动（车机与手机、家居、办公设备无缝协同）、以及AI自主规划能力（如根据日程自动调整车内环境、推荐路线）。系统不再只是影音导航工具，而是可自主规划、多模态沟通、跨场景联动的车载智能终端。\n\n【体验价值】多模态交互让用户在不同场景下选择最自然的交互方式（如驾驶时用语音，停车时用手势），提升灵活性和包容性。跨场景联动打破设备孤岛，实现“上车前-行驶中-下车后”的连续体验。AI自主规划减少用户决策负担，让出行更高效。\n\n【潜在槽点】多模态融合可能增加系统复杂度，导致误识别或冲突（如语音和手势同时触发不同指令）。跨场景联动依赖生态开放度，若手机品牌不兼容则体验割裂。AI自主规划若过于激进（如未经确认就修改导航），可能引发用户不信任。",
+          "summary_en": "【Event Overview】In 2026, the focus of automotive intelligence has shifted from hardware configuration to large-scale deployment of on-board large models. The smart cockpit has upgraded from single voice control to a full-domain AI interaction system. Core innovations include: multimodal interaction (fusion of voice, gesture, gaze, and touch), cross-scenario linkage (seamless collaboration between car, phone, home, and office devices), and AI autonomous planning capabilities (e.g., automatically adjusting in-car environment based on schedule, recommending routes). The system is no longer just an audio-visual navigation tool, but a vehicle-mounted intelligent terminal capable of autonomous planning, multimodal communication, and cross-scenario linkage.\n\n【Experience Value】Multimodal interaction allows users to choose the most natural interaction method in different scenarios (e.g., voice while driving, gesture while parked), improving flexibility and inclusivity. Cross-scenario linkage breaks device silos, enabling a continuous experience from 'pre-boarding to driving to post-exit'. AI autonomous planning reduces user decision-making burden, making travel more efficient.\n\n【Potential Friction】Multimodal fusion may increase system complexity, leading to misrecognition or conflicts (e.g., voice and gesture triggering different commands simultaneously). Cross-scenario linkage depends on ecosystem openness; incompatibility with certain phone brands may cause fragmented experiences. If AI autonomous planning is too aggressive (e.g., modifying navigation without confirmation), it may erode user trust."
+        },
+        {
+          "title": "极氪OTA 6.5正式开启推送,数十项升级打造跃进式智能体验",
+          "url": "https://k.sina.com.cn/article_7857141524_1d452771401903we9y.html",
+          "site_name": "K",
+          "publish_date": "2026-07-04",
+          "tags": [
+            "极氪",
+            "OTA 6.5",
+            "主动安全",
+            "自动紧急转向",
+            "前车溜车提醒",
+            "防误踩加速踏板"
+          ],
+          "summary": "【事件概述】极氪推送OTA 6.5版本，包含数十项升级，核心软件创新集中在主动安全领域。新增自动紧急转向（AES）功能：当检测到与前方静止车辆有碰撞风险且驾驶员未采取规避措施时，系统自动转向避让。新增前车溜车提醒（FVSW）：检测前车意外溜车并提醒驾驶员。新增加速踏板防误踩辅助（ACPE）：在检测到误踩电门时抑制加速并提醒。这些功能通过软件算法优化，无需硬件改动即可提升安全性。\n\n【体验价值】AES功能在紧急情况下提供“最后一秒”避险能力，减少碰撞概率。FVSW和ACPE针对日常驾驶中的高频误操作场景，降低新手司机压力。OTA持续推送安全升级，让老车主也能享受最新防护，提升车辆保值感。\n\n【潜在槽点】AES在复杂路况（如多车道、行人穿插）下可能误判，导致不必要的转向或引发新风险。ACPE若过于敏感，在需要急加速超车时可能误触发，干扰驾驶意图。安全功能依赖传感器精度，恶劣天气下性能可能下降。",
+          "summary_en": "【Event Overview】Zeekr pushed OTA version 6.5, including dozens of upgrades, with core software innovations focused on active safety. New features include: Automatic Emergency Steering (AES) - when a collision risk with a stationary vehicle ahead is detected and the driver takes no evasive action, the system automatically steers to avoid; Forward Vehicle Rollaway Warning (FVSW) - detects unexpected rollaway of the vehicle ahead and alerts the driver; Accelerator Pedal Misapplication Prevention (ACPE) - suppresses acceleration and alerts when a pedal misapplication is detected. These functions are achieved through software algorithm optimization without hardware changes.\n\n【Experience Value】AES provides a 'last-second' avoidance capability in emergencies, reducing collision probability. FVSW and ACPE target high-frequency misoperation scenarios in daily driving, reducing stress for novice drivers. Continuous OTA safety upgrades allow older car owners to enjoy the latest protection, enhancing vehicle value retention.\n\n【Potential Friction】AES may misjudge in complex road conditions (e.g., multiple lanes, pedestrian crossing), leading to unnecessary steering or new risks. ACPE may be overly sensitive, potentially interfering with driving intent during urgent acceleration for overtaking. Safety functions rely on sensor accuracy, which may degrade in adverse weather conditions."
+        }
+      ],
+      "created_at": "2026-07-07 14:17:09"
+    },
+    {
       "date": "2026-07-06",
       "date_display": "07月06日",
       "weekday": "周一",
