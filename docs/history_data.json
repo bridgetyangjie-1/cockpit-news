@@ -1,6 +1,60 @@
 {
   "records": [
     {
+      "date": "2026-07-08",
+      "date_display": "07月08日",
+      "weekday": "周三",
+      "news_count": 3,
+      "news": [
+        {
+          "title": "40项新增+18项优化 极氪OTA 7.2正式推送",
+          "url": "https://m.autohome.com.cn/news/202607/1315489.html",
+          "site_name": "汽车之家",
+          "publish_date": "2026-07-03",
+          "tags": [
+            "极氪",
+            "Zeekr AI OS",
+            "OTA",
+            "语音助手",
+            "智驾"
+          ],
+          "summary": "【事件概述】极氪正式推送Zeekr OTA 7.2版本，带来40项新增功能和18项优化，核心升级围绕超级Eva语音助手、千里浩瀚G-ASD 4.0高阶智驾和全新Zeekr AI OS 7座舱系统。该版本覆盖全系高通8295平台车型，语音助手支持更复杂的上下文理解和多轮对话，智驾系统新增主动超车变道等功能，座舱系统界面和交互逻辑全面重构。\n\n【体验价值】语音助手从单一指令执行升级为场景化理解，例如“我有点冷”可自动调高空调温度并关闭车窗。智驾功能增强让高速和城市道路的辅助驾驶更连贯，减少用户接管频率。\n\n【潜在槽点】40项新功能可能导致用户学习成本陡增，部分功能可能被长期忽略。OTA推送分批进行，部分用户等待时间较长，且大版本更新可能带来初期稳定性问题。",
+          "summary_en": "【Event Overview】Zeekr pushed OTA 7.2 with 40 new features and 18 optimizations, focusing on the Eva voice assistant, G-ASD 4.0 ADAS, and Zeekr AI OS 7. The voice assistant now supports contextual understanding, and the ADAS adds active lane change. \n\n【Experience Value】Voice commands become more natural, e.g., 'I'm cold' triggers AC and window adjustments. ADAS enhancements reduce driver intervention in highway and city scenarios. \n\n【Potential Friction】40 new features may overwhelm users, leading to underutilization. Phased OTA rollout causes delays, and major updates risk initial stability issues."
+        },
+        {
+          "title": "重构人车交互：蔚来Banyan系统如何用语音定义智能座舱新范式",
+          "url": "https://chejiahao.autohome.com.cn/info/22739586?isfrom=m",
+          "site_name": "汽车之家",
+          "publish_date": "2026-07-05",
+          "tags": [
+            "蔚来",
+            "Banyan",
+            "语音交互",
+            "场景预判",
+            "动态UI"
+          ],
+          "summary": "【事件概述】蔚来Banyan系统通过语义理解和场景预判，将高频功能（如导航、音乐、温控）直接呈现于主界面，并根据用户行为动态调整布局。例如，当检测到用户频繁使用座椅按摩功能时，该选项会自动出现在最易触达的位置。系统还支持多模态交互，结合语音和触控实现更自然的操作。\n\n【体验价值】动态UI减少用户寻找功能的步骤，提升操作效率。场景预判让系统主动适应用户习惯，例如在通勤时间自动推荐导航回家，体验更个性化。\n\n【潜在槽点】动态布局可能让习惯固定界面的用户感到困惑，频繁变化增加认知负担。隐私方面，系统需持续学习用户行为，数据收集可能引发担忧。",
+          "summary_en": "【Event Overview】NIO's Banyan system uses semantic understanding and scenario prediction to surface high-frequency functions on the main UI and dynamically adjust layout based on user behavior. For example, frequent seat massage usage moves the option to an easily accessible position. \n\n【Experience Value】Dynamic UI reduces steps to find functions, improving efficiency. Scenario prediction proactively adapts to user habits, e.g., recommending navigation home during commute, offering a personalized experience. \n\n【Potential Friction】Dynamic layout may confuse users accustomed to fixed interfaces, increasing cognitive load. Privacy concerns arise from continuous behavior tracking."
+        },
+        {
+          "title": "2026中国智能座舱多模态交互体验升级与硬件供应链重塑分析.docx",
+          "url": "https://max.book118.com/html/2026/0702/8104127114010105.shtm",
+          "site_name": "原创力文档",
+          "publish_date": "2026-07-02",
+          "tags": [
+            "多模态交互",
+            "DMS",
+            "OMS",
+            "显示技术",
+            "硬件升级"
+          ],
+          "summary": "【事件概述】报告指出智能座舱多模态交互体验升级依赖硬件供应链重塑，核心趋势包括：大屏化与多屏联动持续，异形OLED和MiniLED背光技术替代传统LCD，提升对比度和色域；DMS和OMS摄像头分辨率从200万像素升级，支持更精准的驾驶员和乘客监测；传感硬件升级为AI Agent和手势识别提供基础。\n\n【体验价值】更高分辨率的摄像头和显示技术让多模态交互更精准，例如DMS可识别疲劳驾驶并主动提醒，OMS支持后排儿童状态监测。沉浸式视觉体验提升影音和导航效果。\n\n【潜在槽点】硬件升级推高整车成本，可能转嫁给消费者。高分辨率摄像头和传感器增加数据量，对车端算力和隐私保护提出更高要求，且部分功能可能因法规限制无法完全落地。",
+          "summary_en": "【Event Overview】The report highlights that multimodal interaction upgrades rely on hardware supply chain reshaping: large screens and multi-screen setups, OLED/MiniLED for better contrast, and higher-res DMS/OMS cameras for precise monitoring. \n\n【Experience Value】Higher-res cameras enable accurate fatigue detection and child monitoring. Immersive displays enhance media and navigation. \n\n【Potential Friction】Hardware upgrades increase costs, potentially passed to consumers. More data from sensors strains on-device compute and privacy protection, and some features may face regulatory hurdles."
+        }
+      ],
+      "created_at": "2026-07-08 13:29:46"
+    },
+    {
       "date": "2026-07-07",
       "date_display": "07月07日",
       "weekday": "周二",
