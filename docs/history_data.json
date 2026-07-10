@@ -1,6 +1,77 @@
 {
   "records": [
     {
+      "date": "2026-07-10",
+      "date_display": "07月10日",
+      "weekday": "周五",
+      "news_count": 4,
+      "news": [
+        {
+          "title": "2026年主流车语音助手对比：大模型驱动的智能座舱",
+          "url": "https://news.sohu.com/a/1048078850_122354587",
+          "site_name": "News",
+          "publish_date": "2026-07-09",
+          "tags": [
+            "华为",
+            "小鹏",
+            "特斯拉",
+            "语音助手",
+            "大模型",
+            "多模态交互"
+          ],
+          "summary": "【事件概述】2026年主流车企（华为、小鹏、特斯拉等）的语音助手全面升级，核心驱动力是端侧大模型。华为小艺、小鹏AI天玑、特斯拉语音助手等均实现多模态交互，融合语音、手势、视线、触控甚至情绪感知。响应速度低至700毫秒，误唤醒率降至0.1%以下。小鹏AI天玑系统支持AI代驾，可根据用户驾驶习惯自动规划路线；华为小艺可理解复杂语义，如“我有点冷，但别关窗”，并联动空调和车窗。这些助手从“听懂指令”进化为“看懂需求”，具备主动场景预判能力。\n\n【体验价值】多模态交互让语音助手不再是“聋子”和“瞎子”，用户可通过自然语言、手势或眼神与车交互，降低学习门槛。低误唤醒率减少干扰，提升专注度。主动预判功能（如根据用户习惯提前调节座椅、空调）让座舱更“懂”用户，增强个性化体验。AI代驾功能将智驾与语音结合，简化操作流程。\n\n【潜在槽点】多模态交互依赖摄像头和传感器，可能引发隐私担忧，用户需信任数据本地处理。复杂语义理解仍可能出错，例如“别关窗”与“开窗”混淆，导致误操作。主动预判若过于频繁或错误，可能让用户感到被“监视”或烦躁，需平衡主动性与用户控制权。",
+          "summary_en": "【Event Overview】In 2026, mainstream automakers (Huawei, XPeng, Tesla, etc.) have fully upgraded their voice assistants, driven by on-device large models. Huawei's Xiaoyi, XPeng's AI Tianji, and Tesla's voice assistant all achieve multimodal interaction, integrating voice, gesture, gaze, touch, and even emotion sensing. Response time is as low as 700ms, and false wake-up rate is below 0.1%. XPeng's AI Tianji supports AI co-pilot, automatically planning routes based on driving habits; Huawei's Xiaoyi can understand complex semantics like 'I'm a bit cold, but don't close the window' and adjust AC and windows accordingly. These assistants evolve from 'understanding commands' to 'understanding needs,' with proactive scene prediction. \n\n【Experience Value】Multimodal interaction makes voice assistants no longer 'deaf' or 'blind,' allowing users to interact via natural language, gestures, or gaze, lowering the learning curve. Low false wake-up rate reduces distraction. Proactive prediction (e.g., pre-adjusting seats/AC based on habits) makes the cockpit more 'understanding,' enhancing personalization. AI co-pilot combines ADAS with voice, simplifying operations. \n\n【Potential Friction】Multimodal interaction relies on cameras and sensors, raising privacy concerns; users must trust local data processing. Complex semantics may still be misinterpreted (e.g., 'don't close window' vs. 'close window'), causing errors. Overly frequent or incorrect proactive predictions may make users feel 'watched' or annoyed, requiring a balance between proactivity and user control."
+        },
+        {
+          "title": "联友智连：AI原生赋能智能座舱交互升级",
+          "url": "https://auto.gasgoo.com/news/202607/7I70464778C106.shtml",
+          "site_name": "盖世汽车资讯",
+          "publish_date": "2026-07-09",
+          "tags": [
+            "联友智连",
+            "AI原生",
+            "记忆引擎",
+            "个性化交互",
+            "端侧大模型"
+          ],
+          "summary": "【事件概述】联友智连发布AI原生智能座舱交互方案，核心创新是“双通道记忆引擎”，实现千人千面的个性化交互。该引擎通过端侧大模型持续学习用户行为（如座椅位置、空调偏好、常用导航目的地、音乐口味），并建立用户画像。当用户上车时，系统自动识别身份并恢复个性化设置，甚至根据时间、天气、日程主动推荐服务（如工作日自动导航到公司、周末推荐附近餐厅）。记忆引擎支持多用户切换，且数据本地存储，不依赖云端。此外，方案还支持多模态交互，融合语音、手势和触控。\n\n【体验价值】双通道记忆引擎让座舱“越用越懂用户”，减少重复设置操作，提升便利性。主动推荐功能（如根据日程导航）节省用户决策时间，增强场景化体验。多用户切换支持家庭共享，每位成员都能获得专属体验。数据本地处理保障隐私，用户无需担心数据泄露。\n\n【潜在槽点】记忆引擎需要足够的数据积累才能准确，初期可能因数据不足导致推荐不精准，用户需耐心“训练”系统。多用户切换若识别错误（如误认副驾为主驾），可能导致设置混乱。主动推荐若与用户意图不符（如推荐餐厅但用户想回家），可能造成干扰，需提供便捷的取消或修改方式。",
+          "summary_en": "【Event Overview】Lianyou Zhilian released an AI-native smart cockpit interaction solution, with the core innovation being a 'dual-channel memory engine' for personalized interaction. The engine uses an on-device large model to continuously learn user behaviors (e.g., seat position, AC preference, frequent navigation destinations, music taste) and build user profiles. When a user enters the car, the system automatically identifies the identity and restores personalized settings, and even proactively recommends services based on time, weather, and schedule (e.g., navigate to work on weekdays, recommend nearby restaurants on weekends). The memory engine supports multi-user switching, with data stored locally. \n\n【Experience Value】The dual-channel memory engine makes the cockpit 'understand users better over time,' reducing repetitive settings and enhancing convenience. Proactive recommendations (e.g., navigation based on schedule) save decision time, improving contextual experience. Multi-user switching supports family sharing, giving each member a personalized experience. Local data processing ensures privacy. \n\n【Potential Friction】The memory engine requires sufficient data accumulation for accuracy; early recommendations may be imprecise, requiring user patience to 'train' the system. Multi-user switching errors (e.g., misidentifying passenger as driver) could cause setting confusion. Proactive recommendations conflicting with user intent (e.g., recommending a restaurant when user wants to go home) may cause annoyance, requiring easy cancellation or modification."
+        },
+        {
+          "title": "比亚迪全品牌上线手车互联，带来全新用车体验",
+          "url": "https://k.sina.cn/article_7857141524_1d4527714019040i36.html",
+          "site_name": "K",
+          "publish_date": "2026-07-06",
+          "tags": [
+            "比亚迪",
+            "手车互联",
+            "ICCOA Carlink",
+            "跨端生态",
+            "OTA"
+          ],
+          "summary": "【事件概述】比亚迪宣布全品牌上线手车互联功能，基于ICCOA Carlink协议，支持手机与车机无缝连接。该功能覆盖有线与无线两种方式，实现融合桌面、镜像投屏、应用流转等体验。用户可将手机上的导航、音乐、微信等应用直接投射到车机屏幕，并支持反向控制（如用车机触控屏操作手机应用）。比亚迪还通过OTA推送了手车互联更新，部分车型新增了荣耀、小米等品牌手机的深度适配，支持应用无缝流转（如手机导航上车后自动切换到车机）。\n\n【体验价值】手车互联打破了手机与车机的生态壁垒，用户无需在车机上重复安装应用，直接使用手机生态，降低学习成本。融合桌面让手机应用以车机友好的方式呈现，提升操作便利性。应用流转功能（如导航自动切换）减少用户手动操作，增强连贯性。OTA推送确保老车主也能享受新功能，延长车辆生命周期。\n\n【潜在槽点】手车互联依赖手机品牌和系统版本，部分安卓手机或旧款iPhone可能无法获得完整体验，导致用户感知差异。镜像投屏时，手机应用界面可能未针对车机屏幕优化，出现字体过小或按钮难点击的问题。无线连接可能存在延迟或断连，影响稳定性。隐私方面，手机数据投射到车机可能增加泄露风险。",
+          "summary_en": "【Event Overview】BYD announced the launch of phone-car connectivity across all brands, based on the ICCOA Carlink protocol, supporting seamless connection between phone and car infotainment. The feature covers both wired and wireless methods, enabling fusion desktop, screen mirroring, and app streaming. Users can project phone apps (navigation, music, WeChat) onto the car screen, with reverse control (e.g., using car touchscreen to operate phone apps). BYD also pushed OTA updates for phone-car connectivity, with deep adaptation for Honor, Xiaomi, and other brands, supporting seamless app streaming (e.g., phone navigation auto-switches to car screen). \n\n【Experience Value】Phone-car connectivity breaks the ecosystem barrier between phone and car, allowing users to use phone apps without installing duplicates on the car, lowering the learning curve. Fusion desktop presents phone apps in a car-friendly manner, improving convenience. App streaming (e.g., auto-switching navigation) reduces manual operations, enhancing continuity. OTA ensures older models also benefit, extending vehicle lifecycle. \n\n【Potential Friction】Phone-car connectivity depends on phone brand and OS version; some Android phones or older iPhones may not get full experience, causing user perception gaps. Screen mirroring may not optimize phone app UI for car screen, resulting in small fonts or hard-to-tap buttons. Wireless connection may have latency or disconnection issues, affecting stability. Privacy-wise, projecting phone data to car may increase leak risk."
+        },
+        {
+          "title": "智能座舱平台研究：多维度重构座舱系统架构，实现多智能体协同与主动服务",
+          "url": "https://www.eeworld.com.cn/qcdz/eic732050.html",
+          "site_name": "Eeworld",
+          "publish_date": "2026-07-09",
+          "tags": [
+            "东软",
+            "NAGIC.AI",
+            "AI Box",
+            "多智能体",
+            "分布式架构",
+            "OTA"
+          ],
+          "summary": "【事件概述】东软集团发布NAGIC.AI座舱软件平台，采用“分布式+集中式”双架构并行设计，覆盖存量与新车型。核心创新是引入独立的AI算力单元（AI Box），集成高通QCS9075芯片，负责运行端侧AI大模型及复杂AI任务。该平台支持多智能体协同，即多个AI Agent（如语音助手、导航助手、娱乐助手）可并行工作，共享上下文信息，实现更复杂的场景联动（如用户说“我饿了”，语音助手自动搜索餐厅，导航助手规划路线，娱乐助手推荐音乐）。平台还支持OTA持续升级，确保功能迭代。\n\n【体验价值】多智能体协同让座舱交互更智能，用户无需分别唤醒不同功能，一个指令即可触发多任务联动，提升效率。AI Box独立算力单元确保大模型运行不占用主芯片资源，避免卡顿，提升流畅度。分布式架构兼容存量车型，老车主也能通过OTA升级获得新功能，降低换车成本。\n\n【潜在槽点】多智能体协同需要复杂的上下文管理和任务调度，若协同逻辑不完善，可能导致任务冲突或响应延迟（如同时触发导航和音乐推荐）。AI Box增加硬件成本，可能仅出现在高端车型或选装包中。分布式架构对网络稳定性要求高，OTA升级失败可能影响多个功能模块。隐私方面，多智能体共享用户数据可能增加数据滥用风险。",
+          "summary_en": "【Event Overview】Neusoft released the NAGIC.AI cockpit software platform, adopting a 'distributed + centralized' dual architecture to cover both existing and new models. The core innovation is an independent AI compute unit (AI Box) with Qualcomm QCS9075 chip, running on-device large models and complex AI tasks. The platform supports multi-agent collaboration, where multiple AI Agents (e.g., voice assistant, navigation assistant, entertainment assistant) work in parallel, sharing context for complex scene linkage (e.g., user says 'I'm hungry,' voice assistant searches restaurants, navigation plans route, entertainment recommends music). The platform also supports OTA for continuous updates. \n\n【Experience Value】Multi-agent collaboration makes cockpit interaction smarter; users don't need to wake different functions separately—one command triggers multi-task linkage, improving efficiency. The AI Box ensures large model operation doesn't consume main chip resources, avoiding lag and enhancing smoothness. Distributed architecture allows older models to upgrade via OTA, reducing replacement cost. \n\n【Potential Friction】Multi-agent collaboration requires complex context management and task scheduling; imperfect logic may cause task conflicts or response delays (e.g., triggering navigation and music recommendation simultaneously). AI Box adds hardware cost, potentially limited to high-end models or options. Distributed architecture demands network stability; OTA failure may affect multiple modules. Privacy-wise, multi-agent data sharing may increase misuse risk."
+        }
+      ],
+      "created_at": "2026-07-10 14:12:59"
+    },
+    {
       "date": "2026-07-08",
       "date_display": "07月08日",
       "weekday": "周三",
