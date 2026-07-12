@@ -1,6 +1,30 @@
 {
   "records": [
     {
+      "date": "2026-07-12",
+      "date_display": "07月12日",
+      "weekday": "周日",
+      "news_count": 1,
+      "news": [
+        {
+          "title": "联友智连：AI原生赋能智能座舱交互升级",
+          "url": "https://auto.gasgoo.com/news/202607/7I70464778C104.shtml",
+          "site_name": "Auto",
+          "publish_date": "2026-07-12",
+          "tags": [
+            "联友智连",
+            "AI原生",
+            "记忆引擎",
+            "个性化交互",
+            "座舱OS"
+          ],
+          "summary": "【事件概述】联友智连推出AI原生智能座舱方案，核心创新是“双通道记忆引擎”，通过端侧和云侧协同学习用户行为，实现“越用越懂你”的个性化交互。系统能记忆座椅位置、空调偏好、常用路线等，并主动推荐场景模式（如“通勤模式”自动调整导航和音乐）。此外，方案支持多模态交互，融合语音、手势、视线控制，提升操作效率。\n\n【体验价值】从UX视角看，记忆引擎减少重复设置，用户无需每次上车调整，提升便捷性。主动推荐场景模式降低认知负荷，用户只需确认即可。多模态交互提供冗余操作路径，适应不同场景（如驾驶中用手势控制音量），增强安全性和灵活性。\n\n【潜在槽点】记忆引擎可能误判用户意图，如推荐不合适的场景模式，导致用户反感。多模态交互的融合可能增加系统复杂度，导致响应延迟或误触发。用户隐私数据（如位置、偏好）的云端存储可能引发安全担忧，需明确数据使用政策。",
+          "summary_en": "【Event Overview】Lianyou Zhilian launched an AI-native smart cockpit solution, featuring a 'dual-channel memory engine' that learns user behavior via edge and cloud collaboration for personalized interaction. It remembers seat positions, AC preferences, common routes, and proactively recommends scene modes (e.g., 'Commute Mode' adjusting navigation and music). The solution also supports multimodal interaction, integrating voice, gesture, and gaze control.\n\n【Experience Value】From a UX perspective, the memory engine reduces repetitive settings, improving convenience. Proactive scene recommendations lower cognitive load, requiring only user confirmation. Multimodal interaction provides redundant operation paths, adapting to different scenarios (e.g., gesture control for volume while driving), enhancing safety and flexibility.\n\n【Potential Friction】The memory engine may misjudge user intent, recommending inappropriate scene modes, causing annoyance. Multimodal integration may increase system complexity, leading to response lag or false triggers. User privacy data (e.g., location, preferences) stored in the cloud may raise security concerns, requiring clear data usage policies."
+        }
+      ],
+      "created_at": "2026-07-12 13:36:48"
+    },
+    {
       "date": "2026-07-11",
       "date_display": "07月11日",
       "weekday": "周六",
