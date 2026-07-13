@@ -1,6 +1,43 @@
 {
   "records": [
     {
+      "date": "2026-07-13",
+      "date_display": "07月13日",
+      "weekday": "周一",
+      "news_count": 2,
+      "news": [
+        {
+          "title": "小米澎湃智能座舱",
+          "url": "https://www.xiaomiev.com/smartcabin",
+          "site_name": "Xiaomiev",
+          "publish_date": "2026-07-11",
+          "tags": [
+            "小米",
+            "澎湃OS",
+            "手车互联",
+            "生态融合"
+          ],
+          "summary": "【事件概述】小米汽车官网更新了其澎湃智能座舱的详细功能描述。该系统深度整合了小米澎湃OS（HyperOS）的生态能力，实现了手机与车机的无缝流转。核心创新点包括：支持HUAWEI HiCar和ICCOA Carlink双协议的手车互联，覆盖更广泛的安卓手机用户；智能寻车功能可通过手机远程查看车辆位置、鸣笛闪灯；整车OTA升级服务支持远程诊断和系统更新。此外，座舱系统与小米智能家居生态打通，用户可在车内控制家中的小米智能设备，如灯光、空调、扫地机器人等，实现“人车家全生态”的闭环体验。系统还支持小爱同学语音助手，可进行多轮对话和场景化指令执行。\n\n【体验价值】从UX视角看，该系统的核心价值在于“无感流转”。用户无需学习新操作逻辑，手机上的导航、音乐、通话等任务可自动同步到车机，极大降低了跨设备切换的认知负担。智能家居控制功能将座舱延伸为“移动的家”，提升了日常通勤和长途旅行中的便利性和情感连接。\n\n【潜在槽点】生态绑定风险显著：非小米手机用户可能无法享受完整的流转体验，导致功能割裂。隐私方面，车机与家庭设备的深度互联可能引发数据泄露担忧，例如家庭摄像头画面在车内被意外调用。此外，多设备协同的稳定性在复杂网络环境下可能打折扣，出现断连或延迟。",
+          "summary_en": "【Event Overview】Xiaomi EV updated its official page detailing the Xiaomi HyperOS-powered smart cabin. Key innovations include seamless hand-car connectivity via HUAWEI HiCar and ICCOA Carlink, smart car-finding via phone, full-vehicle OTA, and deep integration with Xiaomi smart home ecosystem, enabling control of home devices from the car. The system also features Xiao AI voice assistant for multi-turn conversations and scenario-based commands.\n\n【Experience Value】From a UX perspective, the core value is 'seamless transition'. Users don't need to learn new logic; tasks like navigation, music, and calls sync automatically between phone and car, reducing cognitive load. Smart home control extends the cabin into a 'mobile home', enhancing convenience and emotional connection during commutes and road trips.\n\n【Potential Friction】Significant ecosystem lock-in: non-Xiaomi phone users may not enjoy full seamless experience, leading to feature fragmentation. Privacy concerns arise from deep home-device integration, e.g., accidental access to home camera feeds in the car. Stability of multi-device coordination under complex network conditions may cause disconnections or latency."
+        },
+        {
+          "title": "2025年1月中国汽车OTA数据汇总：更新892项功能",
+          "url": "https://finance.sina.com.cn/tech/roll/2025-02-24/doc-inemqtxk0784301.shtml",
+          "site_name": "Finance",
+          "publish_date": "2025-02-24",
+          "tags": [
+            "OTA",
+            "行业趋势",
+            "功能更新",
+            "智驾"
+          ],
+          "summary": "【事件概述】一份行业报告显示，2025年1月中国汽车市场共推送了892项OTA功能更新，其中新势力品牌贡献了471项，占比超过一半。更新主要集中在“智驾”与“车控车设”两大模块。智驾方面，多家车企推送了城市NOA（导航辅助驾驶）的扩展、记忆泊车优化、以及AEB（自动紧急制动）性能提升。车控车设方面，更新包括新增情景模式、优化空调逻辑、以及个性化座椅记忆等。此外，部分车企还通过OTA提升了语音助手的自然语言理解能力，并引入了第三方应用生态的扩展。报告指出，OTA已成为车企快速迭代功能、提升用户体验的核心手段，且更新频率和功能数量均呈上升趋势。\n\n【体验价值】高频OTA更新让用户无需等待新车或进店即可获得新功能，例如城市NOA的扩展让更多用户享受到高阶辅助驾驶的便利。车控车设的优化提升了日常使用的舒适性和个性化程度，例如空调逻辑优化可更精准地调节温度。语音助手的升级降低了交互门槛，使操作更自然。\n\n【潜在槽点】OTA更新频率过高可能导致用户“更新疲劳”，尤其是每次更新后需要重新适应界面或功能变化。部分更新可能引入新Bug，影响现有功能的稳定性。此外，OTA功能分布不均，新势力品牌更新频繁，而传统品牌更新较少，导致用户体验差距拉大。",
+          "summary_en": "【Event Overview】An industry report shows that in January 2025, Chinese auto market pushed 892 OTA feature updates, with new energy brands contributing 471. Updates focused on 'intelligent driving' and 'vehicle control & settings'. Intelligent driving updates included expansion of city NOA, memory parking optimization, and AEB performance improvement. Vehicle control updates included new scene modes, optimized AC logic, and personalized seat memory. Some brands also improved voice assistant NLU and expanded third-party app ecosystem. The report indicates OTA has become a core method for rapid feature iteration and user experience enhancement.\n\n【Experience Value】High-frequency OTA allows users to get new features without waiting for new cars or dealer visits, e.g., city NOA expansion brings advanced assisted driving to more users. Vehicle control optimizations improve daily comfort and personalization, e.g., optimized AC logic for more precise temperature control. Voice assistant upgrades lower interaction barriers, making operations more natural.\n\n【Potential Friction】Excessive OTA frequency may cause 'update fatigue', especially when users need to re-adapt to interface or feature changes after each update. Some updates may introduce new bugs, affecting stability of existing features. Uneven distribution of OTA features widens experience gap between new energy brands (frequent updates) and traditional brands (fewer updates)."
+        }
+      ],
+      "created_at": "2026-07-13 13:47:23"
+    },
+    {
       "date": "2026-07-12",
       "date_display": "07月12日",
       "weekday": "周日",
