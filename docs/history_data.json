@@ -1,6 +1,71 @@
 {
   "records": [
     {
+      "date": "2026-07-14",
+      "date_display": "07月14日",
+      "weekday": "周二",
+      "news_count": 4,
+      "news": [
+        {
+          "title": "小米澎湃OS 4下月发布，流畅度暴增40%？车机互联提升300%能否终结卡顿...",
+          "url": "https://cj.sina.com.cn/articles/view/7880068201/1d5b04c690680294os",
+          "site_name": "财经",
+          "publish_date": "2026-07-13",
+          "tags": [
+            "小米",
+            "澎湃OS",
+            "OTA",
+            "手车互联"
+          ],
+          "summary": "【事件概述】据国内科技媒体爆料，小米澎湃OS 4计划于2026年8月正式发布。此次升级的核心并非单纯的功能堆叠，而是旨在让澎湃OS彻底摆脱“手机系统”的定位，成为小米全生态的软件核心。官方宣称，新系统将实现流畅度暴增40%，车机互联性能提升300%。这意味着小米SU7等车型的车机系统将获得底层架构的优化，有望终结此前用户反馈的卡顿问题。此外，澎湃OS 4还将强化跨设备无缝流转能力，例如手机应用、导航任务、音乐播放等可在手机与车机间自由切换，并支持更丰富的车控功能。\n\n【体验价值】流畅度的大幅提升将直接改善用户日常操作车机时的跟手感和响应速度，减少等待焦虑。车机互联性能的飞跃，意味着手机与车机的连接更稳定、延迟更低，导航、音乐等核心场景的切换将更加丝滑，真正实现“上车即连、无缝接力”的体验。\n\n【潜在槽点】“流畅度提升40%”等宣传数据缺乏第三方实测验证，可能存在营销夸大。底层架构重构可能带来初期兼容性问题，部分老车型或旧版应用可能出现闪退或功能异常。用户需等待OTA推送，升级周期较长。",
+          "summary_en": "【Event Overview】According to domestic tech media leaks, Xiaomi's HyperOS 4 is scheduled for official release in August 2026. The core of this upgrade is not simply stacking features, but to completely shed the 'phone system' positioning and become the software core of the entire Xiaomi ecosystem. The company claims a 40% increase in smoothness and a 300% improvement in car-phone connectivity performance. This means the in-vehicle system of models like the Xiaomi SU7 will receive underlying architecture optimizations, potentially ending the lag issues reported by users. Additionally, HyperOS 4 will enhance cross-device seamless flow, allowing apps, navigation tasks, and music to switch freely between phone and car, along with richer vehicle control functions.\n\n【Experience Value】The significant improvement in smoothness will directly enhance the responsiveness and speed of daily car system operations, reducing waiting anxiety. The leap in car-phone connectivity performance means more stable and lower-latency connections, making core scenarios like navigation and music switching smoother, truly achieving a 'get in, connect, seamless handoff' experience.\n\n【Potential Friction】Marketing claims like '40% smoother' lack third-party verification and may be exaggerated. The underlying architecture overhaul could introduce initial compatibility issues, with some older models or legacy apps potentially experiencing crashes or malfunctions. Users must wait for OTA push, and the upgrade cycle may be lengthy."
+        },
+        {
+          "title": "2026款小鹏P7+的车联网系统有哪些特色功能？",
+          "url": "https://auto.sina.cn/2026-07-10/detail-inihhvkf8409264.d.html?vt=4",
+          "site_name": "新浪汽车",
+          "publish_date": "2026-07-10",
+          "tags": [
+            "小鹏",
+            "天玑AIOS",
+            "语音助手",
+            "AI大模型"
+          ],
+          "summary": "【事件概述】2026款小鹏P7+全系搭载天玑AIOS 6.0座舱系统，这是小鹏“智能升级”战略的核心成果。系统三大亮点：1）全场景语音助手“小P”，支持连续对话、可见即可说，驾驶员无需低头即可完成空调、音乐、导航等操作，语义理解准确率提升40%；2）Max版首发搭载小鹏自研图灵AI芯片，单颗算力750TOPS，首次将如此高算力压入2万美元（约13.8万元）以内，为端侧大模型推理提供硬件基础；3）系统支持VLA（视觉语言动作）模型，可理解复杂场景指令，如“帮我找附近充电桩并规划避开拥堵的路线”。此外，系统还提供个性化场景引擎，可根据用户习惯自动调整座椅、空调、音乐等。\n\n【体验价值】语音助手准确率的大幅提升，让用户更自然地用语音控制车辆，减少分心，提升行车安全。图灵AI芯片的端侧算力，使得大模型响应更快、更智能，无需依赖网络，在弱网环境下也能流畅交互。个性化场景引擎则让车辆“懂你”，减少手动设置步骤，提升日常使用的便捷性。\n\n【潜在槽点】“语义理解准确率提升40%”等数据缺乏独立第三方评测，实际体验可能因方言、口音或复杂指令而打折。图灵AI芯片的高算力可能带来更高的功耗和发热，影响系统稳定性。个性化场景引擎若过度学习，可能引发用户对数据隐私的担忧。",
+          "summary_en": "【Event Overview】The 2026 XPeng P7+ is fully equipped with the Tianji AIOS 6.0 cockpit system, a core outcome of XPeng's 'smart upgrade' strategy. Three highlights: 1) The all-scenario voice assistant 'Xiao P' supports continuous dialogue and 'see-and-say', allowing drivers to control AC, music, navigation without looking down, with a 40% improvement in semantic understanding accuracy; 2) The Max version debuts XPeng's self-developed Turing AI chip, with a single-chip computing power of 750 TOPS, the first time such high power is packed into a vehicle under $20,000, providing hardware foundation for on-device large model inference; 3) The system supports VLA (Vision-Language-Action) models, capable of understanding complex scene commands like 'find nearby charging stations and plan a route avoiding traffic'. Additionally, a personalized scene engine automatically adjusts seats, AC, music based on user habits.\n\n【Experience Value】The significant improvement in voice assistant accuracy allows users to control the vehicle more naturally with voice, reducing distraction and enhancing driving safety. The on-device computing power of the Turing AI chip enables faster and smarter large model responses without relying on the network, ensuring smooth interaction even in weak network conditions. The personalized scene engine makes the vehicle 'understand you', reducing manual setup steps and improving daily convenience.\n\n【Potential Friction】Claims like '40% improvement in semantic understanding' lack independent third-party evaluation; actual experience may degrade with dialects, accents, or complex commands. The high computing power of the Turing AI chip may lead to higher power consumption and heat generation, affecting system stability. Over-learning by the personalized scene engine could raise user concerns about data privacy."
+        },
+        {
+          "title": "蔚来发布三大智能系统最新固件升级",
+          "url": "https://auto.sina.cn/2026-07-12/detail-inihpipy5969194.d.html?vt=4",
+          "site_name": "新浪汽车",
+          "publish_date": "2026-07-12",
+          "tags": [
+            "蔚来",
+            "Banyan",
+            "OTA",
+            "智驾"
+          ],
+          "summary": "【事件概述】蔚来于2026年7月12日发布Aspen、Alder与Banyan三大智能系统固件升级，内容涉及座舱体验、驾驶操控、辅助驾驶等多个领域，含超百项功能新增及优化。其中，Banyan 3.5.0版本引入了世界模型，在城区智驾实测中展现出夜间识别电动车自动避光、陡坡左转汇入等复杂场景的应对能力。座舱方面，升级包括更智能的NOMI语音助手、新增的个性化场景模式（如“影院模式”自动调暗灯光、关闭车窗、调整座椅），以及优化后的HUD显示效果。此外，系统还提升了手车互联的稳定性，并修复了此前用户反馈的蓝牙连接断连问题。\n\n【体验价值】超百项功能优化意味着用户无需换车即可持续获得新体验，OTA的频次和深度体现了蔚来对软件迭代的重视。世界模型在智驾中的应用，让车辆能更好地理解复杂路况，提升安全性和驾驶信心。座舱个性化场景模式让用户一键切换车内氛围，减少繁琐的手动操作，提升沉浸感。\n\n【潜在槽点】超百项功能更新可能导致用户学习成本高，部分功能可能被埋没。世界模型的实际表现仍需更多用户实测验证，夜间或极端天气下的可靠性存疑。OTA升级包较大，下载和安装时间较长，可能影响用户即时使用。",
+          "summary_en": "【Event Overview】NIO released firmware upgrades for its three major intelligent systems—Aspen, Alder, and Banyan—on July 12, 2026, covering cockpit experience, driving control, and assisted driving, with over 100 new features and optimizations. Notably, Banyan 3.5.0 introduces a world model, demonstrating capabilities in complex urban scenarios like automatically dimming lights for detected e-bikes at night and merging left on steep slopes. Cockpit upgrades include a smarter NOMI voice assistant, new personalized scene modes (e.g., 'Cinema Mode' automatically dims lights, closes windows, adjusts seats), and optimized HUD display. The update also improves car-phone connectivity stability and fixes previously reported Bluetooth disconnection issues.\n\n【Experience Value】Over 100 feature optimizations mean users can continuously gain new experiences without changing vehicles, reflecting NIO's commitment to software iteration. The world model in autonomous driving helps the vehicle better understand complex road conditions, enhancing safety and driving confidence. Personalized cockpit scene modes allow users to switch the in-car atmosphere with one click, reducing tedious manual operations and improving immersion.\n\n【Potential Friction】Over 100 feature updates may lead to a high learning curve for users, with some features potentially overlooked. The real-world performance of the world model still needs more user verification; reliability in nighttime or extreme weather conditions is questionable. The large OTA update package may require long download and installation times, affecting immediate usability."
+        },
+        {
+          "title": "2026-2030全球及中国车载娱乐市场调查报告（IIM2N5H0）",
+          "url": "https://www.iim.net.cn/2267/view-296025-1.html",
+          "site_name": "IIM",
+          "publish_date": "2026-07-10",
+          "tags": [
+            "车载应用",
+            "生态服务",
+            "流媒体",
+            "场景生态"
+          ],
+          "summary": "【事件概述】据IIM发布的《2026-2030全球及中国车载娱乐市场调查报告》，2025年全球车载应用商店下载量超过47亿次，付费服务订阅收入达31亿美元。车载视频流媒体时长同比增加140%，其中短视频类应用增速最为突出。中国本土市场更涌现出车载端定制化健身、冥想等场景，用户日均使用时长已突破55分钟。报告指出，随着5G和V2X技术普及，车载娱乐正从“被动收听”向“主动交互”转变，个性化内容推荐、多屏互动、游戏化体验成为新趋势。此外，中国于2025年3月实施的《智能网联汽车应用商店管理暂行办法》明确了应用内容合规审查与数据本地化存储要求，直接导致42款未达标应用下架。\n\n【体验价值】车载娱乐生态的繁荣为用户提供了更多选择，长途驾驶或充电等待时，用户可享受视频、健身、冥想等多样化内容，提升出行乐趣。个性化推荐算法能根据用户偏好推送内容，减少搜索时间。多屏互动（如后排屏与中控屏联动）让不同乘客各取所需，提升家庭出行体验。\n\n【潜在槽点】车载视频流媒体时长激增可能分散驾驶员注意力，存在安全隐患。定制化健身、冥想等场景若缺乏合理引导，可能沦为鸡肋功能。应用商店的合规审查虽保障了安全，但也可能限制部分创新应用的快速上线，影响生态多样性。",
+          "summary_en": "【Event Overview】According to the '2026-2030 Global and China In-Vehicle Entertainment Market Survey Report' by IIM, global in-vehicle app store downloads exceeded 4.7 billion in 2025, with paid service subscription revenue reaching $3.1 billion. In-vehicle video streaming time increased by 140% year-over-year, with short-video apps showing the fastest growth. In China, customized in-vehicle fitness and meditation scenarios emerged, with average daily user time exceeding 55 minutes. The report indicates that with 5G and V2X technology普及, in-vehicle entertainment is shifting from 'passive listening' to 'active interaction', with personalized content recommendations, multi-screen interaction, and gamified experiences becoming new trends. Additionally, China's 'Interim Measures for the Management of Intelligent Connected Vehicle App Stores' implemented in March 2025 mandated content compliance review and data localization, leading to the removal of 42 non-compliant apps.\n\n【Experience Value】The thriving in-vehicle entertainment ecosystem offers users more choices, allowing them to enjoy diverse content like videos, fitness, and meditation during long drives or charging waits, enhancing travel enjoyment. Personalized recommendation algorithms can push content based on user preferences, reducing search time. Multi-screen interaction (e.g., rear-seat screen syncing with the center console) allows different passengers to enjoy their own content, improving family travel experiences.\n\n【Potential Friction】The surge in in-vehicle video streaming time may distract drivers, posing safety risks. Customized fitness and meditation scenarios may become gimmicky features if not properly guided. While app store compliance reviews ensure safety, they may also limit the rapid launch of some innovative apps, affecting ecosystem diversity."
+        }
+      ],
+      "created_at": "2026-07-14 13:08:05"
+    },
+    {
       "date": "2026-07-13",
       "date_display": "07月13日",
       "weekday": "周一",
