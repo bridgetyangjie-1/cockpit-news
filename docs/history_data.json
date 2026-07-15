@@ -1,6 +1,85 @@
 {
   "records": [
     {
+      "date": "2026-07-15",
+      "date_display": "07月15日",
+      "weekday": "周三",
+      "news_count": 5,
+      "news": [
+        {
+          "title": "2026智能座舱战局：从大模型卷向 AI Agent",
+          "url": "https://www.eet-china.com/mp/a509909.html",
+          "site_name": "电子工程专辑",
+          "publish_date": "2026-07-15",
+          "tags": [
+            "AI Agent",
+            "大模型",
+            "座舱OS",
+            "交互范式"
+          ],
+          "summary": "【事件概述】2026年7月15日，电子工程专辑发布深度分析文章，指出智能座舱竞争已从大模型语音助手转向AI Agent。文章强调，2026年不是发令枪，而是淘汰赛，车企需将大模型从“对话工具”升级为“主动服务Agent”。核心创新在于：Agent能感知多模态输入（语音、视线、手势、生物信号），结合用户历史记忆与场景上下文，自主决策并执行复杂任务（如根据日程自动规划充电、导航、空调、音乐）。文章引用星河AIOS等案例，展示端侧大模型在16GB内存下实现287ms响应，并支持动态稀疏激活、分层知识蒸馏等车端优化技术。这标志着座舱交互从“被动响应”向“主动预判”的范式转变。\n\n【体验价值】用户无需逐一下达指令，Agent可“读懂”意图并提前执行，例如检测到用户疲劳时自动调低温度、播放提神音乐并建议休息。这种无感交互大幅降低操作层级，提升驾驶安全与座舱舒适度，让车真正成为“懂你的伙伴”。\n\n【潜在槽点】Agent的主动决策可能引发隐私担忧（如持续感知生物信号）和误判风险（如错误理解场景导致尴尬操作）。用户可能感到“被控制”，需要精细的权限管理和可解释性设计，否则易产生信任危机。",
+          "summary_en": "【Event Overview】On July 15, 2026, EET-China published an in-depth analysis stating that the smart cockpit competition has shifted from large-model voice assistants to AI Agents. The article emphasizes that 2026 is not a starting gun but a knockout round, requiring OEMs to upgrade large models from 'dialogue tools' to 'proactive service Agents.' Key innovations include: Agents perceive multimodal inputs (voice, gaze, gestures, biosignals), combine user history and scene context, and autonomously decide and execute complex tasks (e.g., automatically planning charging, navigation, AC, and music based on calendar). Cases like Xinghe AIOS demonstrate on-device large models achieving 287ms response within 16GB memory, using dynamic sparse activation and hierarchical knowledge distillation. This marks a paradigm shift from 'passive response' to 'proactive anticipation.'\n\n【Experience Value】Users no longer need to issue commands one by one; the Agent can 'understand' intent and execute proactively—e.g., detecting fatigue and automatically lowering temperature, playing energizing music, and suggesting rest. This frictionless interaction reduces operation layers, enhances driving safety and comfort, making the car a true 'companion that understands you.'\n\n【Potential Friction】Proactive decisions may raise privacy concerns (e.g., continuous biosignal sensing) and misjudgment risks (e.g., incorrect scene interpretation leading to awkward actions). Users may feel 'controlled,' requiring fine-grained permission management and explainability design to avoid trust crises."
+        },
+        {
+          "title": "问界智舱曝隐私漏洞，余承东内部群发飙",
+          "url": "https://news.qq.com/rain/a/20260713A05AND00",
+          "site_name": "腾讯新闻",
+          "publish_date": "2026-07-13",
+          "tags": [
+            "问界",
+            "隐私安全",
+            "权限管理",
+            "OTA"
+          ],
+          "summary": "【事件概述】2026年7月13日，腾讯新闻报道上海问界M8车主投诉车辆权限漏洞：车主在APP中关闭配偶副账号的定位权限后，对方仍能通过泊车代驾辅助功能查看实时车辆位置。该漏洞暴露了智能座舱权限管理系统的设计缺陷——功能级权限与数据级权限未解耦，导致“关闭定位”的意图被底层服务绕过。余承东在内部群中严厉批评，要求立即修复。此事件引发行业对智能汽车隐私安全的广泛讨论，凸显OTA虽能快速修复漏洞，但权限架构的先天设计问题需更根本的软件重构。\n\n【体验价值】该事件反向推动行业重视权限透明度和用户控制权。若修复得当，用户将获得更精细的权限管理（如按功能、按时间、按场景授权），增强对个人数据的掌控感，提升座舱数字生态的信任基础。\n\n【潜在槽点】修复可能增加权限设置的复杂度，用户需学习“功能权限”与“数据权限”的区别，易产生困惑。此外，车企若仅打补丁而非重构架构，类似漏洞可能在其他场景（如麦克风、摄像头）重现，治标不治本。",
+          "summary_en": "【Event Overview】On July 13, 2026, Tencent News reported a privacy vulnerability in the AITO M8: after the owner disabled the location permission for a spouse's sub-account in the app, the spouse could still view real-time vehicle location via the valet parking assist feature. This exposed a design flaw in the smart cockpit's permission management system—functional permissions and data permissions were not decoupled, allowing the 'disable location' intent to be bypassed by underlying services. Yu Chengdong criticized the issue internally, demanding an immediate fix. The incident sparked industry-wide discussion on smart car privacy, highlighting that while OTA can quickly patch bugs, fundamental permission architecture issues require deeper software restructuring.\n\n【Experience Value】This event pushes the industry to prioritize permission transparency and user control. If fixed properly, users will gain finer-grained permission management (e.g., by function, time, or scenario), enhancing control over personal data and strengthening trust in the cockpit's digital ecosystem.\n\n【Potential Friction】Fixes may increase permission setting complexity, requiring users to learn the difference between 'functional permissions' and 'data permissions,' causing confusion. If OEMs only apply patches instead of restructuring the architecture, similar vulnerabilities may reappear in other scenarios (e.g., microphone, camera), offering a temporary fix rather than a permanent solution."
+        },
+        {
+          "title": "星河AIOS+星火大模型：车规级智能座舱的OS与大模型深度耦合实践",
+          "url": "https://blog.csdn.net/weixin_42557537/article/details/162777802",
+          "site_name": "CSDN博客",
+          "publish_date": "2026-07-10",
+          "tags": [
+            "星河AIOS",
+            "星火大模型",
+            "端侧推理",
+            "座舱OS"
+          ],
+          "summary": "【事件概述】2026年7月10日，CSDN博客发布技术文章，详细阐述星河AIOS与星火大模型的深度耦合实践。星河AIOS作为全栈自研车规级座舱OS，通过感知-决策-执行三层服务总线，将星火大模型原生集成于认知引擎层。关键技术包括：动态稀疏激活（仅激活与当前任务相关的模型参数，降低算力消耗）、分层知识蒸馏（将云端大模型知识压缩至车端小模型）、硬件感知编译（针对不同SoC自动优化推理路径）。在16GB内存约束下，实现端到端响应287ms，支持多模态输入（语音、手势、视线）的实时融合推理。该方案展示了OS级与大模型协同的工程突破，为座舱AI Agent的落地提供了可复用的技术栈。\n\n【体验价值】用户可享受毫秒级的多模态交互响应，例如同时用语音说“导航到公司”并用手势指向屏幕上的路线，系统能无缝融合理解。OS级集成确保AI能力与底层硬件、安全机制深度协同，避免第三方方案常见的延迟和兼容性问题。\n\n【潜在槽点】深度耦合意味着OS升级与大模型迭代需同步进行，增加了OTA的复杂性和失败风险。若模型更新后出现兼容性问题，可能导致整个座舱系统不稳定，用户需承受更长的修复周期。",
+          "summary_en": "【Event Overview】On July 10, 2026, a CSDN blog post detailed the deep coupling practice of Xinghe AIOS and Spark large model. Xinghe AIOS, a full-stack self-developed automotive-grade cockpit OS, natively integrates the Spark large model into the cognitive engine layer via a perception-decision-execution three-layer service bus. Key technologies include: dynamic sparse activation (activating only task-relevant model parameters to reduce compute), hierarchical knowledge distillation (compressing cloud model knowledge to on-device small models), and hardware-aware compilation (automatically optimizing inference paths for different SoCs). Under 16GB memory constraints, it achieves 287ms end-to-end response, supporting real-time fusion inference of multimodal inputs (voice, gesture, gaze). This demonstrates an engineering breakthrough in OS-level large model collaboration, providing a reusable tech stack for cockpit AI Agent deployment.\n\n【Experience Value】Users enjoy millisecond-level multimodal interaction responses—e.g., simultaneously saying 'navigate to office' and pointing to a route on screen, with the system seamlessly fusing understanding. OS-level integration ensures deep synergy between AI capabilities and underlying hardware/security mechanisms, avoiding latency and compatibility issues common in third-party solutions.\n\n【Potential Friction】Deep coupling means OS upgrades and large model iterations must be synchronized, increasing OTA complexity and failure risk. If model updates cause compatibility issues, the entire cockpit system may become unstable, requiring longer repair cycles for users."
+        },
+        {
+          "title": "深蓝L06升级后我惊了!这个四图融合智能座舱是真的好用",
+          "url": "https://www.douyin.com/note/7662364425224110181",
+          "site_name": "抖音",
+          "publish_date": "2026-07-14",
+          "tags": [
+            "深蓝",
+            "四图融合",
+            "HMI",
+            "OTA"
+          ],
+          "summary": "【事件概述】2026年7月14日，抖音用户分享深蓝L06 OTA升级后的“四图融合”智能座舱体验。该功能将导航地图、智驾感知图、车辆状态图、娱乐内容图四层信息动态叠加在同一屏幕上，通过半透明图层和智能优先级算法，避免信息过载。例如，导航时智驾感知图（如周围车辆、行人）以半透明形式叠加在导航路径上，用户无需切换视图即可同时关注路线与安全。娱乐内容图（如音乐歌词、播客封面）在停车或低速时自动浮现，高速时隐去。该设计打破了传统车机“分屏”或“切换”的交互逻辑，实现了信息的高效融合。\n\n【体验价值】用户无需在多应用间频繁切换，驾驶时关键信息（导航、安全）始终可见，娱乐信息按场景智能呈现。这种“一屏多用”的融合设计减少了视觉干扰，提升了信息获取效率，尤其适合复杂路况下的多任务需求。\n\n【潜在槽点】四图融合对屏幕分辨率和算力要求高，低配车型可能出现卡顿或图层错位。用户初次使用时可能因信息密度高而感到眼花缭乱，需要适应期。此外，智能优先级算法若误判（如高速时仍显示娱乐信息），可能分散驾驶员注意力。",
+          "summary_en": "【Event Overview】On July 14, 2026, a Douyin user shared the 'four-map fusion' smart cockpit experience after a Deepal L06 OTA upgrade. This feature dynamically overlays four layers of information—navigation map, intelligent driving perception map, vehicle status map, and entertainment content map—on a single screen, using semi-transparent layers and intelligent priority algorithms to avoid information overload. For example, during navigation, the perception map (e.g., surrounding vehicles, pedestrians) is overlaid semi-transparently on the route, allowing users to monitor both directions and safety without switching views. The entertainment layer (e.g., lyrics, podcast covers) automatically appears when parked or at low speed and fades at high speed. This design breaks the traditional 'split-screen' or 'switch' interaction logic, achieving efficient information fusion.\n\n【Experience Value】Users no longer need to frequently switch between apps; critical information (navigation, safety) remains visible while driving, and entertainment content appears intelligently based on context. This 'one-screen-multiple-uses' fusion design reduces visual clutter and improves information acquisition efficiency, especially for multitasking in complex traffic.\n\n【Potential Friction】Four-map fusion demands high screen resolution and computing power; low-spec models may experience lag or layer misalignment. First-time users may feel overwhelmed by the high information density and need an adaptation period. Additionally, if the intelligent priority algorithm misjudges (e.g., showing entertainment at high speed), it could distract the driver."
+        },
+        {
+          "title": "智能座舱 Agent 记忆系统架构设计与最佳实践",
+          "url": "https://blog.csdn.net/universsky2015/article/details/162736591",
+          "site_name": "CSDN博客",
+          "publish_date": "2026-07-09",
+          "tags": [
+            "Agent记忆",
+            "端云协同",
+            "多用户隔离",
+            "隐私设计"
+          ],
+          "summary": "【事件概述】2026年7月9日，CSDN博客发布技术文章，系统阐述智能座舱Agent记忆系统的架构设计。文章指出，记忆系统是“AI原生汽车”体验的核心差异化因素，其本质不是存储对话历史，而是构建用户画像与场景图谱。设计需满足车规级可靠性、端云协同、多用户隔离、安全优先、场景强驱动五大约束。以赛力斯赛豆“云+端双层Agent”架构为例：端侧存储高频使用的短期记忆（如常用导航地址、音乐偏好），云侧存储长期记忆（如驾驶习惯、健康数据），并通过差分隐私技术保护敏感信息。多用户隔离确保不同驾驶员（如家庭成员）拥有独立记忆空间，切换时自动加载对应画像。该架构为Agent实现“千人千面”的个性化服务提供了技术基础。\n\n【体验价值】Agent能记住用户的偏好和习惯，例如每次上车自动调整座椅、空调、音乐到上次设置，甚至根据历史驾驶风格推荐充电策略。多用户隔离让家庭共享车辆时，每位成员都能获得专属体验，无需手动重置。\n\n【潜在槽点】记忆系统的隐私风险极高——若云侧数据泄露，用户的生活习惯、健康信息等敏感数据将暴露。端侧存储虽安全，但容量有限，可能导致长期记忆丢失。用户可能对“被记住”感到不适，需要清晰的记忆管理界面（如查看、删除、导出记忆）。",
+          "summary_en": "【Event Overview】On July 9, 2026, a CSDN blog post systematically described the architecture design of a smart cockpit Agent memory system. The article states that the memory system is the core differentiator of 'AI-native car' experiences, and its essence is not storing conversation history but building user profiles and scene graphs. Design must meet five constraints: automotive-grade reliability, cloud-edge collaboration, multi-user isolation, security-first, and strong scene-driven. Taking Seres Saido's 'cloud+edge dual-layer Agent' architecture as an example: the edge stores high-frequency short-term memory (e.g., common navigation addresses, music preferences), while the cloud stores long-term memory (e.g., driving habits, health data), with differential privacy protecting sensitive information. Multi-user isolation ensures different drivers (e.g., family members) have independent memory spaces, automatically loading corresponding profiles upon switching. This architecture provides the technical foundation for Agent to deliver 'thousands of faces' personalized services.\n\n【Experience Value】The Agent remembers user preferences and habits—e.g., automatically adjusting seats, AC, and music to last settings upon each entry, or even recommending charging strategies based on historical driving style. Multi-user isolation allows each family member to enjoy a dedicated experience when sharing the vehicle, without manual resets.\n\n【Potential Friction】The privacy risk of memory systems is extremely high—if cloud data is leaked, sensitive information like lifestyle habits and health data is exposed. Edge storage is safer but has limited capacity, potentially leading to long-term memory loss. Users may feel uncomfortable being 'remembered,' requiring a clear memory management interface (e.g., view, delete, export memories)."
+        }
+      ],
+      "created_at": "2026-07-15 13:08:46"
+    },
+    {
       "date": "2026-07-14",
       "date_display": "07月14日",
       "weekday": "周二",
