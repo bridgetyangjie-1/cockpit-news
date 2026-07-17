@@ -1,6 +1,62 @@
 {
   "records": [
     {
+      "date": "2026-07-17",
+      "date_display": "07月17日",
+      "weekday": "周五",
+      "news_count": 3,
+      "news": [
+        {
+          "title": "手车互联再起势？比亚迪与OPPO合作落地",
+          "url": "http://www.gnche.com/cheshi/69665.html",
+          "site_name": "国际车评",
+          "publish_date": "2026-07-14",
+          "tags": [
+            "比亚迪",
+            "OPPO",
+            "手车互联",
+            "OTA",
+            "应用流转",
+            "跨端生态"
+          ],
+          "summary": "【事件概述】比亚迪与OPPO宣布合作，首个落地产品“手车互联”将通过OTA在腾势Z9GT和OPPO Find X8系列上搭载。该功能支持手机应用无缝流转至车机屏幕，实现导航、音乐、通话等核心场景的跨端协同。用户无需额外安装车机版APP，即可在车载大屏上直接操作手机应用，且支持语音和触控交互。此次合作标志着主流车企与手机厂商在底层协议层面的深度打通，不同于简单的投屏方案，而是基于系统级API实现数据与服务的实时同步。\n\n【体验价值】从UX视角看，手车互联消除了手机与车机之间的“数字鸿沟”，用户无需学习两套应用生态，上车后手机应用自动流转至车机，保持操作连续性。例如，手机上的导航路线可一键同步至车机，音乐播放列表无缝续播，极大降低了跨设备切换的认知负荷。\n\n【潜在槽点】该功能高度依赖手机型号和系统版本，非OPPO或特定型号用户可能无法使用，造成体验碎片化。此外，应用流转可能涉及隐私数据（如通讯录、位置）的跨设备传输，若权限管理不透明，用户可能担忧数据泄露风险。",
+          "summary_en": "【Event Overview】BYD and OPPO announced a partnership, with the first product 'Phone-Car Connectivity' being rolled out via OTA on the Denza Z9 GT and OPPO Find X8 series. The feature enables seamless app streaming from phone to car screen, supporting navigation, music, and calls. Unlike simple screen mirroring, it leverages system-level APIs for real-time data sync. \n\n【Experience Value】From a UX perspective, this eliminates the digital gap between phone and car, allowing users to maintain task continuity without learning two app ecosystems. For example, navigation routes and music playlists sync automatically, reducing cognitive load. \n\n【Potential Friction】The feature is heavily dependent on phone model and OS version, potentially excluding non-OPPO users and creating fragmented experiences. Privacy concerns arise from cross-device data transmission (e.g., contacts, location) if permission management is not transparent."
+        },
+        {
+          "title": "座舱大模型：智能驾驶的未来引擎",
+          "url": "http://www.chinakejiw.com/articleid/334471.html",
+          "site_name": "中华科技网",
+          "publish_date": "2026-07-14",
+          "tags": [
+            "极氪",
+            "Kr AI",
+            "DeepSeek R1",
+            "大模型",
+            "端侧AI",
+            "语音交互"
+          ],
+          "summary": "【事件概述】极氪自研的Kr AI大模型与DeepSeek R1大模型融合，推动座舱端侧AI大规模应用。该方案将大模型部署于车机本地芯片，实现毫秒级响应，支持自然语言理解、多轮对话、上下文记忆等功能。用户可通过语音指令完成复杂任务，如“帮我规划一条去机场避开拥堵且途经充电站的路线”，系统能自动调用导航、充电桩数据和实时路况。此外，大模型还能根据用户习惯主动推荐音乐、空调温度等，实现个性化座舱体验。\n\n【体验价值】端侧大模型显著提升了语音交互的流畅度和智能性，用户无需等待云端响应，对话更自然。主动推荐功能减少了用户操作步骤，例如根据历史出行时间自动预热座椅，提升了“无感交互”的体验层次。\n\n【潜在槽点】端侧大模型对芯片算力要求极高，可能导致老款车型无法通过OTA获得同等体验，造成功能分化。此外，大模型的“主动推荐”若过于频繁或误判用户意图，可能变成干扰，增加用户关闭功能的概率。",
+          "summary_en": "【Event Overview】Geely's Kr AI large model integrates with DeepSeek R1, enabling on-device AI in the cockpit. Deployed locally on the car's chip, it achieves millisecond-level response for natural language understanding, multi-turn dialogue, and context memory. Users can issue complex voice commands like 'Plan a route to the airport avoiding traffic and passing a charging station,' and the system automatically calls navigation, charging data, and real-time traffic. It also proactively recommends music and climate settings based on user habits. \n\n【Experience Value】On-device large models significantly improve voice interaction fluency and intelligence, eliminating cloud latency for more natural conversations. Proactive recommendations reduce user steps, such as pre-warming seats based on historical departure times, enhancing 'frictionless interaction.' \n\n【Potential Friction】High chip requirements may prevent older models from receiving equivalent OTA updates, creating feature disparity. Overly frequent or misjudged proactive recommendations could become intrusive, leading users to disable the feature."
+        },
+        {
+          "title": "智能座舱新战事：大模型不是答案，只是起点",
+          "url": "https://m.elecfans.com/article/7558891.html",
+          "site_name": "电子发烧友网",
+          "publish_date": "2026-07-14",
+          "tags": [
+            "大模型",
+            "智能座舱",
+            "多模态交互",
+            "UI/UX",
+            "语音助手"
+          ],
+          "summary": "【事件概述】文章指出，当前智能座舱的大模型应用仍处于早期阶段，多数车企仅将大模型作为语音助手的升级版，未能真正释放其潜力。作者认为，大模型应成为座舱的“认知中枢”，整合视觉、语音、触控等多模态输入，实现场景化理解。例如，当用户说“我有点累”时，系统不仅播放提神音乐，还能自动调节座椅按摩、调低空调温度、建议导航至最近休息区。文章强调，真正的创新在于将大模型与座舱硬件（如摄像头、传感器）深度耦合，而非简单替换语音引擎。\n\n【体验价值】多模态融合的认知中枢能提供更人性化的交互，用户无需明确指令，系统通过上下文和传感器数据主动服务。例如，检测到副驾乘客频繁看手机，自动调亮阅读灯，这种“无感智能”提升了座舱的舒适度和安全性。\n\n【潜在槽点】多模态融合需要大量传感器数据，可能引发隐私担忧（如车内摄像头持续分析用户行为）。此外，场景化理解若出现误判（如将打哈欠误判为疲劳），可能导致不恰当的干预，反而分散驾驶注意力。",
+          "summary_en": "【Event Overview】The article argues that current large model applications in cockpits are still nascent, with most automakers merely using them as upgraded voice assistants. The author proposes that large models should serve as a 'cognitive hub' integrating multimodal inputs (vision, voice, touch) for contextual understanding. For example, when a user says 'I'm tired,' the system not only plays energizing music but also adjusts seat massage, lowers AC temperature, and suggests navigation to the nearest rest area. True innovation lies in deep coupling with hardware like cameras and sensors. \n\n【Experience Value】A multimodal cognitive hub enables more human-like interaction, where the system proactively serves based on context and sensor data without explicit commands. For instance, detecting a passenger frequently looking at their phone and automatically brightening the reading light enhances comfort and safety. \n\n【Potential Friction】Multimodal fusion requires extensive sensor data, raising privacy concerns (e.g., continuous in-cabin camera analysis). Misinterpretation of scenarios (e.g., mistaking a yawn for fatigue) could lead to inappropriate interventions, distracting the driver."
+        }
+      ],
+      "created_at": "2026-07-17 13:21:15"
+    },
+    {
       "date": "2026-07-16",
       "date_display": "07月16日",
       "weekday": "周四",
@@ -3545,61 +3601,6 @@
         }
       ],
       "created_at": "2026-05-16 05:34:12"
-    },
-    {
-      "date": "2026-05-15",
-      "date_display": "05月15日",
-      "weekday": "周五",
-      "news_count": 5,
-      "news": [
-        {
-          "title": "大模型批量上车，智能化大战开打了",
-          "title_en": "Large Models Mass-Produced in Vehicles, Intelligent War Begins",
-          "url": "https://36kr.com/p/3798591715504640",
-          "site_name": "36氪",
-          "publish_date": "2026-05-11",
-          "summary": "【事件概述】本文深度报道了AI大模型在中国汽车行业加速“上车”的趋势。核心事件包括：小鹏汽车搭建统一AI中台，支撑智驾、座舱和机器人业务；理想汽车与阿里云深度整合MindGPT大模型和智能体，并推动智能座舱与智驾系统的技术合流。文章指出，汽车行业正从“硬件定义”转向“生态定义”，大模型厂商和智驾供应商正与车企展开双向博弈，争夺智能化下半场的差异化优势。\n\n【体验价值】从UX视角看，大模型上车将彻底改变人车交互范式。用户不再需要记忆固定指令，而是可以通过自然语言与车辆进行多轮、上下文相关的对话。例如，用户可以说“我有点冷，帮我调高温度，再放一首舒缓的歌”，系统能理解复合意图并执行。这解决了传统语音助手“听不懂、反应慢、只能单步操作”的核心痛点，使交互从“命令式”进化为“对话式”，极大降低了学习成本。\n\n【商业影响】大模型上车是提升用户粘性和软件订阅率的关键。一旦用户习惯了这种“懂你”的智能交互，将很难回到传统车机。车企可以通过OTA持续迭代大模型能力，推出如“AI代驾”、“AI管家”等高级订阅服务，创造新的收入来源。同时，与阿里云等科技巨头的合作，也意味着数据生态的打通，为后续精准服务和广告变现奠定基础。",
-          "summary_en": "【Event Overview】This article provides an in-depth report on the accelerating trend of AI large models being deployed in China's automotive industry. Key events include: XPeng Motors building a unified AI middle platform to support its intelligent driving, cockpit, and robotics businesses; Li Auto deeply integrating the MindGPT large model and AI agents with Alibaba Cloud, while promoting the technological convergence of its smart cockpit and intelligent driving systems. The article points out that the automotive industry is shifting from 'hardware-defined' to 'ecosystem-defined,' with large model companies and intelligent driving suppliers engaging in a two-way game with automakers to compete for differentiation in the second half of the intelligence race.\n\n【Experience Value】From a UX perspective, the deployment of large models will fundamentally change the human-vehicle interaction paradigm. Users will no longer need to memorize fixed commands; instead, they can engage in multi-turn, context-aware conversations with the vehicle using natural language. For example, a user could say, 'I'm a bit cold, please turn up the temperature and play a soothing song,' and the system would understand the compound intent and execute it. This solves the core pain points of traditional voice assistants—'can't understand, slow to respond, and only capable of single-step operations'—evolving interaction from 'command-based' to 'conversational,' significantly reducing the learning curve.\n\n【Business Impact】The integration of large models is key to enhancing user stickiness and software subscription rates. Once users become accustomed to this 'understanding' intelligent interaction, they will find it difficult to return to traditional infotainment systems. Automakers can continuously iterate on large model capabilities through OTA updates, launching premium subscription services such as 'AI Co-Pilot' or 'AI Butler,' creating new revenue streams. Furthermore, partnerships with tech giants like Alibaba Cloud imply the integration of data ecosystems, laying the groundwork for future precision services and advertising monetization."
-        },
-        {
-          "title": "哈曼发布AI赋能车载K歌平台Sing Drive",
-          "title_en": "Harman Launches AI-Powered In-Car Karaoke Platform Sing Drive",
-          "url": "https://news.yiche.com/hao/wenzhang/109855350/",
-          "site_name": "易车",
-          "publish_date": "2026-05-11",
-          "summary": "【事件概述】哈曼发布了全新的AI赋能车载K歌平台Sing Drive。该平台的核心功能包括：融合实时AI人声消除技术，能够从任何歌曲中智能分离并消除人声，保留伴奏；与整车系统深度集成，实现方向盘、座椅震动等联动效果；以及殿堂级音频处理技术，提供专业级混响和音效。这标志着车载娱乐从“被动聆听”向“人人参与的沉浸体验”进化。\n\n【体验价值】从UX视角看，Sing Drive解决了车内K歌的两个核心痛点：一是曲库受限，AI人声消除技术让用户能唱任何歌曲，无需等待版权更新；二是体验割裂，通过与整车硬件（音响、氛围灯、座椅）的深度联动，营造出沉浸式KTV包厢感。这种“软硬一体”的体验设计，将车内空间从一个单纯的移动工具，转变为一个社交娱乐空间，极大地丰富了乘客的旅途体验。\n\n【商业影响】车载K歌是已被验证的高频娱乐场景。Sing Drive通过AI技术降低了内容门槛，有望大幅提升用户使用时长和活跃度。哈曼作为Tier 1供应商，其平台化方案可被多家车企采用，形成标准化的娱乐服务。车企可将其作为选装包或订阅服务（如“K歌会员”）进行销售，直接创造软件收入。同时，该平台也为后续接入更多AI驱动的娱乐功能（如AI作曲、AI语音陪唱）打开了想象空间。",
-          "summary_en": "【Event Overview】Harman has launched a new AI-powered in-car karaoke platform called Sing Drive. Core features include: real-time AI vocal removal technology that intelligently separates and removes vocals from any song while preserving the instrumental track; deep integration with the vehicle system for synchronized effects like steering wheel and seat vibration; and premium audio processing for professional-grade reverb and sound effects. This marks an evolution of in-car entertainment from 'passive listening' to an 'immersive experience for everyone to participate in.'\n\n【Experience Value】From a UX perspective, Sing Drive addresses two core pain points of in-car karaoke. First, the limitation of song libraries is solved by AI vocal removal, allowing users to sing along to virtually any song without waiting for copyright updates. Second, the fragmented experience is resolved through deep integration with vehicle hardware (audio, ambient lighting, seats), creating an immersive KTV booth-like atmosphere. This 'hardware-software integrated' experience design transforms the vehicle interior from a mere transportation tool into a social entertainment space, greatly enriching the passenger's journey.\n\n【Business Impact】In-car karaoke is a proven high-frequency entertainment scenario. By lowering the content barrier with AI, Sing Drive is poised to significantly increase user engagement time and activity. As a Tier 1 supplier, Harman's platform-based solution can be adopted by multiple automakers, creating a standardized entertainment service. Automakers can sell it as an option package or subscription service (e.g., 'Karaoke Membership'), generating direct software revenue. Furthermore, this platform opens up possibilities for integrating more AI-driven entertainment features in the future, such as AI music composition or AI vocal accompaniment."
-        },
-        {
-          "title": "不做跟随者，只做定义者：博世下一代AI智能座舱的全球答卷",
-          "title_en": "Not a Follower, But a Definer: Bosch's Global Answer for Next-Gen AI Smart Cockpit",
-          "url": "https://www.sohu.com/a/1021950085_121136454",
-          "site_name": "搜狐汽车",
-          "publish_date": "2026-05-13",
-          "summary": "【事件概述】本文报道了博世在2026年发布的下一代AI智能座舱方案。核心观点是，座舱AI Agent已正式驶入量产快车道，人车交互正经历从“被动响应指令”到“主动理解需求”的范式革命。博世的方案强调从“单点功能智能”全面转向“全局场景智能”，通过多模态感知（视觉、语音、生物识别）和AI推理，主动为用户提供服务，例如根据驾驶者疲劳状态自动调节座舱环境，或根据日程安排主动建议导航路线。\n\n【体验价值】博世方案的核心体验价值在于“无感”与“主动”。传统座舱需要用户主动发起指令，而AI Agent驱动的座舱能通过传感器和算法预判用户需求。例如，当系统检测到用户频繁看手机时，会主动询问是否需要将会议日程同步到车机；当识别到副驾乘客是儿童时，会自动切换为儿童模式。这种“想你所想，甚至先于你想到”的体验，将人车关系从“工具-使用者”升级为“伙伴-朋友”，极大提升了便捷性和安全感。\n\n【商业影响】博世作为全球顶级Tier 1，其方案具有行业风向标意义。AI Agent的落地将催生全新的软件订阅模式。例如，“主动安全关怀包”、“智能日程管家”等高级功能可作为付费服务。更重要的是，博世的方案为车企提供了差异化竞争的抓手，帮助它们在硬件趋同的时代，通过软件和AI体验建立品牌护城河。这也会倒逼其他供应商和车企加速AI座舱的研发投入。",
-          "summary_en": "【Event Overview】This article reports on Bosch's next-generation AI smart cockpit solution unveiled in 2026. The core thesis is that cockpit AI Agents have officially entered the fast lane of mass production, with human-vehicle interaction undergoing a paradigm shift from 'passive response to commands' to 'proactive understanding of needs.' Bosch's solution emphasizes a comprehensive shift from 'single-point functional intelligence' to 'holistic scenario intelligence.' Through multimodal perception (vision, voice, biometrics) and AI reasoning, it proactively serves users, such as automatically adjusting the cockpit environment based on the driver's fatigue level or proactively suggesting navigation routes based on the user's calendar.\n\n【Experience Value】The core experience value of Bosch's solution lies in its 'seamless' and 'proactive' nature. Traditional cockpits require users to initiate commands, whereas an AI Agent-driven cockpit can anticipate user needs through sensors and algorithms. For example, if the system detects the user frequently glancing at their phone, it might proactively ask if they want to sync their meeting schedule to the infotainment system. If it identifies the front passenger as a child, it could automatically switch to child mode. This experience of 'knowing what you want, even before you do' elevates the human-vehicle relationship from 'tool-user' to 'partner-friend,' greatly enhancing convenience and a sense of safety.\n\n【Business Impact】As a top global Tier 1 supplier, Bosch's solution serves as a bellwether for the industry. The deployment of AI Agents will spawn new software subscription models. For instance, premium features like 'Proactive Safety Care Package' or 'Smart Schedule Assistant' could be offered as paid services. More importantly, Bosch's solution provides automakers with a lever for differentiation, helping them build brand moats through software and AI experiences in an era of converging hardware. This will also force other suppliers and automakers to accelerate their R&D investment in AI cockpits."
-        },
-        {
-          "title": "清华大学车辆与运载学院：智能座舱定义AGI时代的汽车新范式",
-          "title_en": "Tsinghua University School of Vehicle and Mobility: Smart Cockpit Defines New Automotive Paradigm in the AGI Era",
-          "url": "https://www.eet-china.com/mp/a495426.html",
-          "site_name": "Eet-China",
-          "publish_date": "2026-05-15",
-          "summary": "【事件概述】清华大学车辆与运载学院联合面壁智能、中国汽车报发布了《智能座舱：定义AGI时代的汽车新范式》白皮书。白皮书指出，当前中国市场智能座舱配装率已突破76%，但用户可感知的智能体验仍严重不足。核心矛盾在于，硬件配置（大屏、多屏）的普及并未带来体验的质变，用户对座舱的智能化感知与高配装率之间存在巨大鸿沟。白皮书呼吁行业从“功能堆砌”转向“体验驱动”。\n\n【体验价值】这份白皮书从学术和产业高度，精准指出了当前智能座舱的“体验鸿沟”问题。许多车型虽然配备了顶级硬件，但软件交互逻辑混乱、功能冗余、学习成本高，导致用户“买了不用”。白皮书强调的“体验驱动”意味着，未来的座舱设计应围绕用户真实场景（如通勤、长途、亲子）进行重构，通过AI Agent实现“千人千面”的个性化体验，而非提供千篇一律的功能列表。这为UX设计师提供了明确的方向：从“我能提供什么功能”转向“用户在这个场景下真正需要什么”。\n\n【商业影响】白皮书的发布具有行业警示和指导意义。它揭示了“高配装率、低使用率”的行业泡沫，迫使车企和供应商重新审视其产品策略。未来，能够真正解决“体验鸿沟”的车企，将获得巨大的竞争优势。这也会推动行业从“硬件军备竞赛”转向“软件体验竞赛”，加速对AI、大数据、用户研究等领域的投入。对于软件订阅模式而言，只有提供了真正有价值的体验，用户才愿意为之付费。",
-          "summary_en": "【Event Overview】The School of Vehicle and Mobility at Tsinghua University, in collaboration with ModelBest and China Automotive News, released a white paper titled 'Smart Cockpit: Defining the New Automotive Paradigm in the AGI Era.' The white paper points out that while the installation rate of smart cockpits in the Chinese market has exceeded 76%, the user-perceivable intelligent experience remains severely lacking. The core contradiction is that the proliferation of hardware (large screens, multiple screens) has not led to a qualitative leap in experience, creating a significant gap between high installation rates and user perception of intelligence. The paper calls for the industry to shift from 'feature stacking' to 'experience-driven' design.\n\n【Experience Value】From an academic and industrial perspective, this white paper accurately identifies the 'experience gap' in current smart cockpits. Many vehicles are equipped with top-tier hardware, but suffer from chaotic software interaction logic, redundant features, and high learning costs, leading to a 'buy but don't use' phenomenon. The 'experience-driven' approach emphasized by the paper means that future cockpit design should be restructured around real user scenarios (e.g., commuting, long trips, family outings), using AI Agents to deliver personalized 'thousands of people, thousands of faces' experiences, rather than offering a uniform list of functions. This provides a clear direction for UX designers: shift from 'what features can I offer' to 'what does the user truly need in this scenario.'\n\n【Business Impact】The release of this white paper serves as both a warning and a guide for the industry. It exposes the industry bubble of 'high installation rates, low usage rates,' forcing automakers and suppliers to re-evaluate their product strategies. In the future, automakers that can truly bridge the 'experience gap' will gain a significant competitive advantage. This will also drive the industry to shift from a 'hardware arms race' to a 'software experience race,' accelerating investment in AI, big data, and user research. For software subscription models, users will only be willing to pay for experiences that deliver genuine value."
-        },
-        {
-          "title": "鸿蒙车机APP开发：智能座舱的第三方应用机遇——从安全交互到语音控车的...",
-          "title_en": "HarmonyOS In-Vehicle App Development: Third-Party App Opportunities in Smart Cockpits – From Safe Interaction to Voice Control...",
-          "url": "https://blog.csdn.net/m0_71441912/article/details/161081836",
-          "site_name": "CSDN博客",
-          "publish_date": "2026-05-14",
-          "summary": "【事件概述】这是一篇技术博客，详细介绍了基于华为鸿蒙系统（HarmonyOS）进行车机APP开发的技术要点和设计规范。文章重点强调了“零层级操作设计”原则，即通过大面积的可视化交互区，让大部分设置和信息一步直达，避免多级菜单。例如，导航界面与音乐应用分屏显示，既保障导航信息持续可见，又允许乘客便捷选曲。文章还讨论了基于ArkUI开发车机应用时需遵循的安全交互和语音控车规范。\n\n【体验价值】“零层级操作”是解决当前车机交互复杂性的关键UX原则。许多车机应用嵌套在深层次菜单中，驾驶时操作极其危险。鸿蒙车机强调的“一步直达”和“分屏并行”设计，能显著降低驾驶分心风险。同时，该文章为第三方开发者提供了明确的开发指南，意味着鸿蒙车机生态正在向第三方开放。这将极大丰富车机应用商店的内容，从导航、音乐扩展到办公、游戏、生活服务等，满足用户多样化的需求。\n\n【商业影响】鸿蒙车机生态的开放，是华为构建“1+8+N”全场景智慧生活战略的关键一环。对于车企，接入鸿蒙生态可以快速获得丰富的应用和服务，降低自研成本。对于开发者，车机应用市场是一个全新的蓝海。通过提供优质的第三方应用，可以吸引用户，并通过应用内购买、广告或订阅服务实现商业变现。这标志着智能座舱的竞争，正从车企自研的封闭生态，转向平台化的开放生态竞争。",
-          "summary_en": "【Event Overview】This technical blog post details the key technical points and design specifications for developing in-vehicle apps based on Huawei's HarmonyOS. It emphasizes the 'zero-level operation design' principle, which aims to make most settings and information accessible in a single step through large visual interaction areas, avoiding multi-level menus. For example, the navigation interface and music app can be displayed in split-screen, ensuring navigation information is always visible while allowing passengers to easily select songs. The article also discusses safety interaction and voice control specifications that must be followed when developing in-vehicle apps using ArkUI.\n\n【Experience Value】'Zero-level operation' is a key UX principle for solving the complexity of current in-vehicle interactions. Many in-vehicle apps are buried deep in menus, making them extremely dangerous to operate while driving. The 'one-step access' and 'split-screen parallel' design emphasized by HarmonyOS can significantly reduce the risk of driver distraction. Furthermore, this article provides clear development guidelines for third-party developers, signaling that the HarmonyOS in-vehicle ecosystem is opening up. This will greatly enrich the content of the in-vehicle app store, expanding from navigation and music to office, gaming, lifestyle services, etc., meeting diverse user needs.\n\n【Business Impact】The opening of the HarmonyOS in-vehicle ecosystem is a key part of Huawei's '1+8+N' all-scenario smart life strategy. For automakers, integrating into the HarmonyOS ecosystem allows them to quickly gain access to a rich array of apps and services, reducing self-development costs. For developers, the in-vehicle app market represents a new blue ocean. By offering high-quality third-party applications, they can attract users and achieve commercial monetization through in-app purchases, advertising, or subscription services. This marks a shift in smart cockpit competition from automakers' self-developed closed ecosystems to platform-based open ecosystem competition."
-        }
-      ],
-      "created_at": "2026-05-15 02:22:08",
-      "updated_at": "2026-05-15 10:19:36"
     }
   ]
 }
