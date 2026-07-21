@@ -1,6 +1,45 @@
 {
   "records": [
     {
+      "date": "2026-07-21",
+      "date_display": "07月21日",
+      "weekday": "周二",
+      "news_count": 2,
+      "news": [
+        {
+          "title": "小米澎湃OS 3.0深度解析：AI、隐私、生态三大特色功能谁最值得买？",
+          "url": "https://k.sina.cn/article_7879776483_1d5abd8e3068024wjc.html",
+          "site_name": "新浪",
+          "publish_date": "2026-07-21",
+          "tags": [
+            "小米",
+            "澎湃OS",
+            "AI智能代理",
+            "隐私防护",
+            "人车家全生态"
+          ],
+          "summary": "【事件概述】小米澎湃OS 3.0于2026年7月正式发布，核心创新聚焦三大方向：AI智能代理、隐私防护和人车家全生态。AI智能代理可主动学习用户习惯，在车机端实现场景化建议，如根据日历自动导航、调节空调等。隐私防护方面，系统引入“隔离沙箱”技术，确保车机与手机数据独立，并支持一键清除所有车机端个人数据。人车家全生态则进一步打通小米手机、智能家居与SU7车机，支持跨设备任务流转，如手机导航无缝接力至车机，或车机远程控制家中设备。该系统基于Android深度定制，但强调底层调度优化，宣称可减少后台重载，提升长期流畅度。\n\n【体验价值】AI智能代理降低了用户操作层级，从“人找服务”变为“服务找人”，尤其适合驾驶场景下的无感交互。隐私防护增强了用户对车机数据安全的信任，而全生态互联则让车成为智能生活的延伸，提升整体效率。\n\n【潜在槽点】AI代理的主动服务可能因误判用户意图而产生干扰，例如在非必要场景推送建议。隐私沙箱虽安全，但可能增加跨设备数据同步的步骤，影响流畅性。此外，底层优化效果需长期验证，老机型升级后可能面临性能衰减。",
+          "summary_en": "【Event Overview】Xiaomi HyperOS 3.0 launched in July 2026, focusing on AI agent, privacy protection, and human-car-home ecosystem. The AI agent learns user habits for proactive suggestions like navigation and climate control. Privacy features include an isolation sandbox for car-phone data separation and one-click data wipe. The ecosystem enables seamless task transfer across phones, smart home devices, and SU7 car infotainment. The system claims improved background task management for long-term smoothness. \n\n【Experience Value】The AI agent reduces interaction steps, shifting from user-initiated to service-initiated interactions, ideal for driving. Privacy protection builds trust, while ecosystem integration extends the car's utility as a smart living hub. \n\n【Potential Friction】Proactive AI may misjudge context and cause distractions. Privacy sandbox could add friction to cross-device data sync. Long-term performance gains on older hardware remain unproven."
+        },
+        {
+          "title": "长城汽车多屏联动交互实测：跨屏流转的真实体验到底如何？",
+          "url": "https://www.csdn.net/article/2026-07-20/163055149",
+          "site_name": "CSDN",
+          "publish_date": "2026-07-20",
+          "tags": [
+            "长城",
+            "Coffee OS",
+            "多屏联动",
+            "跨屏流转",
+            "AI智慧空间"
+          ],
+          "summary": "【事件概述】长城汽车新一代智慧座舱系统Coffee OS 3以“AI智慧空间”为理念，实测展示了多屏联动功能。系统支持仪表盘、中控屏、副驾屏、HUD及后排屏之间的信息协同，例如导航信息可从仪表流转至HUD，副驾可将娱乐内容一键分享至后排屏。核心创新在于“跨屏流转”的交互逻辑：用户可通过手势或语音将应用窗口拖拽至另一屏幕，系统自动适配屏幕尺寸和分辨率。此外，AI可根据乘客位置和状态自动调整各屏内容，如检测到副驾疲劳时，自动推送提神音乐或调整氛围灯。\n\n【体验价值】多屏联动减少了信息孤岛，驾驶者可在HUD上获取导航，副驾独立娱乐，后排共享内容，提升全车乘员的体验。跨屏拖拽操作直观，降低了学习成本。AI主动服务则增强了座舱的智能化和人性化。\n\n【潜在槽点】多屏联动对系统算力和网络稳定性要求高，可能出现延迟或不同步。拖拽操作在行驶中可能分散驾驶者注意力。AI主动推送若判断失误，可能干扰用户当前任务，例如在通话时突然切换音乐。",
+          "summary_en": "【Event Overview】GWM's new Coffee OS 3 cockpit system demonstrates multi-screen interaction, enabling information coordination across instrument cluster, center display, passenger screen, HUD, and rear screens. Key innovation is 'cross-screen transfer': users can drag app windows between screens via gesture or voice, with auto-adaptation to screen size. AI adjusts content based on passenger position and state, e.g., pushing alert music when detecting driver fatigue. \n\n【Experience Value】Multi-screen linkage reduces information silos, allowing driver to focus on HUD navigation while passengers enjoy independent entertainment. Drag-and-drop interaction is intuitive. AI proactive service enhances cabin intelligence and personalization. \n\n【Potential Friction】High demands on compute and network stability may cause latency or desync. Drag operations during driving could distract the driver. Incorrect AI proactive pushes may interrupt user tasks, e.g., switching music during a call."
+        }
+      ],
+      "created_at": "2026-07-21 13:28:42"
+    },
+    {
       "date": "2026-07-20",
       "date_display": "07月20日",
       "weekday": "周一",
@@ -3494,61 +3533,6 @@
       ],
       "created_at": "2026-05-20 10:19:02",
       "updated_at": "2026-05-20 14:17:43"
-    },
-    {
-      "date": "2026-05-19",
-      "date_display": "05月19日",
-      "weekday": "周二",
-      "news_count": 5,
-      "news": [
-        {
-          "title": "中国车企加速出海，一场围绕车载内容生态的重构正在发生",
-          "title_en": "Chinese Automakers Accelerate Overseas Expansion: A Restructuring of In-Vehicle Content Ecosystem is Underway",
-          "url": "https://www.toutiao.com/article/7639326347428512266/",
-          "site_name": "Toutiao",
-          "publish_date": "2026-05-19",
-          "summary": "【事件概述】该新闻指出，随着2024年中国汽车出口量突破520万辆，中国车企在出海过程中面临一个关键挑战：车载内容体验在不同市场出现显著差异。文章强调，问题已从“单一App接入”升级为“内容生态问题”。例如，国内流行的音乐、视频、社交应用在海外市场可能无法使用或缺乏本地化内容，导致座舱体验割裂。这要求车企必须针对不同地区重构内容生态，包括接入当地流媒体、导航、支付等服务，并适配本地语言和法规。\n\n【价值与影响】从UX视角看，这直接关系到用户粘性：海外用户若无法在车内获得熟悉的数字服务，将严重影响对智能座舱的满意度。从商业视角看，内容生态的本地化能力将成为车企出海的核心竞争力，决定其能否在海外市场复制国内的成功。潜在风险是，若忽视此问题，可能导致产品“水土不服”，错失市场机会。",
-          "summary_en": "【Event Overview】The news highlights that as China's auto exports surpassed 5.2 million units in 2024, Chinese automakers face a critical challenge: significant disparities in in-vehicle content experiences across different overseas markets. The article emphasizes that the issue has evolved from 'single app integration' to a 'content ecosystem problem.' For instance, popular domestic music, video, and social apps may be unavailable or lack localized content abroad, leading to a fragmented cockpit experience. This requires automakers to rebuild content ecosystems for each region, including integrating local streaming, navigation, payment services, and adapting to local languages and regulations.\n\n【Value & Impact】From a UX perspective, this directly impacts user stickiness: if overseas users cannot access familiar digital services in the car, satisfaction with the smart cockpit will be severely compromised. From a business perspective, the ability to localize content ecosystems will become a core competitive advantage for automakers going global, determining whether they can replicate domestic success abroad. A potential risk is that neglecting this issue could lead to product 'maladaptation' and missed market opportunities."
-        },
-        {
-          "title": "2026款吉利星愿带着一套“会思考、更懂你”的智能座舱系统当纯电",
-          "title_en": "2026 Geely Staryun Debuts with a 'Thinking, Understanding' Smart Cockpit System",
-          "url": "https://k.sina.cn/article_7857141524_1d452771401902oce8.html",
-          "site_name": "K",
-          "publish_date": "2026-05-19",
-          "summary": "【事件概述】新闻介绍了2026款吉利星愿的智能座舱系统，核心亮点是Flyme Link手车互联功能。该功能允许手机上的导航、音乐、日程等应用无缝流转至车机，并支持手机远程控制车辆解锁、查看电量。这解决了现代人“手机不离身”的习惯，实现了跨端协作。操作方式上，用户无需额外设置，手机应用即可自动同步到车机屏幕，实现连续性体验。技术亮点在于其深度整合了手机与车机的底层系统，降低了使用门槛。\n\n【价值与影响】从UX视角看，该功能解决了用户在不同设备间切换的痛点，提升了操作便捷性和连贯性。从商业视角看，手车互联增强了用户对品牌生态的粘性，可能推动软件订阅服务（如云存储、高级导航）的渗透。对行业而言，这进一步加剧了车企与手机厂商在生态入口上的竞争，吉利通过与Flyme合作，有望在生态整合上占据优势。潜在风险是过度依赖手机可能导致车机独立性减弱。",
-          "summary_en": "【Event Overview】The news introduces the smart cockpit system of the 2026 Geely Staryun, with the core highlight being the Flyme Link phone-car connectivity feature. This allows seamless transfer of apps like navigation, music, and calendar from the phone to the car's infotainment system, and supports remote control of vehicle functions like unlocking and battery check via the phone. It addresses modern users' 'phone-dependent' habits, enabling cross-device collaboration. Operationally, apps automatically sync to the car screen without extra setup, ensuring a continuous experience. The technical highlight is the deep integration of phone and car systems, lowering the usage barrier.\n\n【Value & Impact】From a UX perspective, this feature solves the pain point of switching between devices, enhancing convenience and continuity. From a business perspective, phone-car connectivity boosts user stickiness to the brand's ecosystem, potentially driving software subscription services (e.g., cloud storage, premium navigation). For the industry, it intensifies competition between automakers and phone manufacturers for ecosystem entry points. Geely's partnership with Flyme could give it an edge in ecosystem integration. A potential risk is over-reliance on the phone, which may reduce the car's independence."
-        },
-        {
-          "title": "20余家车企抢滩DeepSeek：AI...",
-          "title_en": "Over 20 Automakers Rush to Integrate DeepSeek: AI...",
-          "url": "https://chejiahao.autohome.com.cn/info/19230742",
-          "site_name": "Chejiahao",
-          "publish_date": "2026-05-19",
-          "summary": "【事件概述】新闻指出，超过20家车企正在将DeepSeek等AI大模型集成到智能座舱中，推动交互逻辑从传统的“指令式交互”向“主动服务”转变。例如，理想汽车的“空间机器人”概念依托自研MindGPT构建差异化体验，而华为鸿蒙智行则通过手机-车机跨端协同强化生态壁垒。这些AI模型能够理解用户意图，主动提供导航、娱乐、车辆控制等服务，无需用户明确指令。技术亮点在于大模型在车端的轻量化部署和实时响应能力。\n\n【价值与影响】从UX视角看，这彻底改变了人车交互方式，从“人找服务”变为“服务找人”，大幅降低学习成本，提升驾驶安全性和便利性。从商业视角看，AI大模型成为车企差异化竞争的关键，能增强用户粘性和品牌忠诚度。同时，这为软件订阅和增值服务（如个性化AI助手）创造了新收入来源。潜在风险是数据隐私和模型可靠性问题，若AI误判可能导致用户体验下降或安全风险。",
-          "summary_en": "【Event Overview】The news reports that over 20 automakers are integrating AI large models like DeepSeek into smart cockpits, shifting interaction logic from traditional 'command-based' to 'proactive service.' For example, Li Auto's 'Space Robot' concept leverages its self-developed MindGPT for differentiated experiences, while Huawei's HarmonyOS Smart Mobility strengthens ecosystem barriers through phone-car cross-device collaboration. These AI models understand user intent and proactively offer navigation, entertainment, and vehicle control services without explicit commands. Technical highlights include lightweight deployment of large models on the vehicle side and real-time response capabilities.\n\n【Value & Impact】From a UX perspective, this fundamentally changes human-car interaction from 'people seeking services' to 'services finding people,' significantly reducing the learning curve and enhancing driving safety and convenience. From a business perspective, AI large models become key differentiators, boosting user stickiness and brand loyalty. They also create new revenue streams through software subscriptions and value-added services like personalized AI assistants. Potential risks include data privacy concerns and model reliability issues, where AI misjudgments could degrade user experience or pose safety risks."
-        },
-        {
-          "title": "对谈高德＆理想：Agent 如何改变汽车的未来",
-          "title_en": "Dialogue with AutoNavi & Li Auto: How Agents Will Change the Future of Cars",
-          "url": "https://k.sina.cn/article_7294209083_1b2c4cc3b00101ro82.html",
-          "site_name": "K",
-          "publish_date": "2026-05-19",
-          "summary": "【事件概述】该新闻记录了对高德和理想汽车高管的深度访谈，探讨AI Agent如何重塑智能座舱。核心观点是，车机正从信息界面进化为能理解用户意图的Agent，例如“对话式导航”功能，用户只需自然语言描述目的地（如“找个附近评分高的川菜馆”），系统即可自动规划路线。理想汽车产品负责人强调，Agent将深度结合驾驶和出行场景，实现主动服务。技术亮点在于多模态交互（语音、视觉、触控）的融合和端到端大模型的应用。\n\n【价值与影响】从UX视角看，Agent化交互极大简化了操作流程，让驾驶更安全、更直觉。从商业视角看，这标志着智能座舱竞争进入新阶段，Agent能力将成为核心卖点。对高德等地图服务商而言，这是从工具向服务平台的转型机会，可拓展广告、本地生活等商业模式。潜在风险是Agent的决策可能不符合用户预期，导致信任危机；同时，过度依赖AI可能削弱用户对车辆的直接控制感。",
-          "summary_en": "【Event Overview】This news records an in-depth interview with executives from AutoNavi and Li Auto, exploring how AI Agents will reshape smart cockpits. The core idea is that the car's infotainment system is evolving from an information interface to an Agent that understands user intent. For example, 'conversational navigation' allows users to describe destinations in natural language (e.g., 'Find a highly-rated Sichuan restaurant nearby'), and the system automatically plans the route. Li Auto's product head emphasizes that Agents will deeply integrate with driving and travel scenarios to deliver proactive services. Technical highlights include multimodal interaction (voice, vision, touch) and end-to-end large model applications.\n\n【Value & Impact】From a UX perspective, Agent-based interaction greatly simplifies operations, making driving safer and more intuitive. From a business perspective, this marks a new phase in smart cockpit competition, where Agent capabilities become a core selling point. For map service providers like AutoNavi, this is an opportunity to transform from a tool to a service platform, expanding into advertising and local life services. Potential risks include Agent decisions not meeting user expectations, leading to trust issues, and over-reliance on AI potentially reducing users' sense of direct control over the vehicle."
-        },
-        {
-          "title": "Gemini 进入 Google built-in 汽车：车载语音助手开始变得更像真正的 AI...",
-          "title_en": "Gemini Enters Google Built-in Cars: In-Vehicle Voice Assistants Start to Become True AI...",
-          "url": "https://www.knightli.com/2026/05/01/gemini-cars-with-google-built-in/",
-          "site_name": "Knightli",
-          "publish_date": "2026-05-01",
-          "summary": "【事件概述】新闻介绍了Google将Gemini AI模型集成到其Google Built-in汽车平台中，使车载语音助手从依赖固定命令的交互升级为更自然的对话式AI。例如，用户可以用日常语言询问“附近有什么好玩的？”或“帮我规划一条去机场避开拥堵的路线”，Gemini能理解上下文并执行多步骤任务。功能覆盖地图、消息、音乐等场景，并支持Gemini Live实现边走边聊的连续对话。技术亮点在于Gemini的端侧推理能力，减少了对云端的依赖，提升了响应速度和隐私保护。\n\n【价值与影响】从UX视角看，这解决了传统语音助手“听不懂人话”的痛点，让交互更自然、高效，尤其适合驾驶场景。从商业视角看，这强化了Google在车载生态中的主导地位，可能推动更多车企采用Google Built-in方案。对用户而言，统一的AI体验能提升跨设备（手机、车机）的连贯性。潜在风险是数据隐私问题，以及Gemini的决策可能在某些场景下不够准确，影响用户信任。",
-          "summary_en": "【Event Overview】The news introduces Google's integration of the Gemini AI model into its Google Built-in automotive platform, upgrading the in-vehicle voice assistant from fixed-command interaction to more natural conversational AI. For example, users can ask in everyday language, 'What's fun nearby?' or 'Help me plan a route to the airport avoiding traffic,' and Gemini understands context and executes multi-step tasks. Features cover maps, messaging, music, and support Gemini Live for continuous conversation on the go. Technical highlights include Gemini's on-device reasoning capabilities, reducing reliance on the cloud and improving response speed and privacy.\n\n【Value & Impact】From a UX perspective, this solves the pain point of traditional voice assistants 'not understanding human speech,' making interaction more natural and efficient, especially for driving scenarios. From a business perspective, it strengthens Google's dominance in the in-vehicle ecosystem, potentially driving more automakers to adopt Google Built-in solutions. For users, a unified AI experience enhances cross-device (phone, car) continuity. Potential risks include data privacy concerns and the possibility that Gemini's decisions may be inaccurate in certain scenarios, affecting user trust."
-        }
-      ],
-      "created_at": "2026-05-19 06:02:53",
-      "updated_at": "2026-05-19 06:18:02"
     }
   ]
 }
