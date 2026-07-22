@@ -1,6 +1,29 @@
 {
   "records": [
     {
+      "date": "2026-07-22",
+      "date_display": "07月22日",
+      "weekday": "周三",
+      "news_count": 1,
+      "news": [
+        {
+          "title": "小鹏MONA L03购车手册：售价12.38万起，9款车型怎么选？",
+          "url": "https://chejiahao.autohome.com.cn/info/26001429?reply=reply",
+          "site_name": "Chejiahao",
+          "publish_date": "2026-07-22",
+          "tags": [
+            "小鹏",
+            "天玑AIOS",
+            "手车互联",
+            "四音区识别"
+          ],
+          "summary": "【事件概述】小鹏MONA L03标配MT8676座舱芯片及天玑AIOS系统，核心软件创新包括：1) 四音区识别，支持主副驾及后排独立语音指令，如后排说“打开车窗”仅控制对应侧；2) 无麦K歌，利用座舱麦克风实现全车卡拉OK；3) 智能场景模式，如“小憩模式”自动调座椅、关窗、播放白噪音；4) 手车互联支持HUAWEI HiCar和ICCOA Carlink，实现手机应用无缝投射。这些功能通过OTA持续迭代。\n\n【体验价值】四音区识别极大提升后排乘客的交互便利性，避免语音误触发。无麦K歌降低硬件门槛，让全车人随时娱乐。智能场景模式一键切换多种用车场景，简化操作。手车互联打破生态壁垒，让用户手机习惯自然延续到车机。\n\n【潜在槽点】四音区识别在嘈杂环境（如高速）可能准确率下降。无麦K歌音质受限于座舱麦克风，可能不如专用麦克风。智能场景模式若逻辑复杂，用户可能不愿设置。手车互联依赖手机端支持，部分功能可能因手机型号受限。",
+          "summary_en": "【Event Overview】Xpeng MONA L03 comes standard with MT8676 chip and Tianji AIOS. Key software innovations: 1) Four-zone voice recognition, allowing independent commands from front and rear seats; 2) Microphone-free karaoke using cockpit mics; 3) Smart scene modes like 'Nap Mode' auto-adjusting seats, closing windows, playing white noise; 4) Phone-car connectivity supporting HUAWEI HiCar and ICCOA Carlink for seamless app projection. Features evolve via OTA. \n\n【Experience Value】Four-zone recognition greatly enhances rear passenger convenience, reducing false triggers. Microphone-free karaoke lowers hardware barriers for instant fun. Smart scene modes simplify multi-step operations. Phone-car connectivity breaks ecosystem walls, extending phone habits to the car. \n\n【Potential Friction】Four-zone accuracy may drop in noisy environments like highways. Karaoke audio quality is limited by cockpit mics vs. dedicated ones. Complex scene logic may deter user setup. Phone-car features may be restricted by phone model compatibility."
+        }
+      ],
+      "created_at": "2026-07-22 13:27:34"
+    },
+    {
       "date": "2026-07-21",
       "date_display": "07月21日",
       "weekday": "周二",
@@ -3453,86 +3476,6 @@
       ],
       "created_at": "2026-05-21 14:20:55",
       "updated_at": "2026-05-21 18:11:31"
-    },
-    {
-      "date": "2026-05-20",
-      "date_display": "05月20日",
-      "weekday": "周三",
-      "news_count": 5,
-      "news": [
-        {
-          "title": "【图】新增奥迪助手形象动画等多项功能 奥迪E5 Sportback迎来OTA...",
-          "url": "https://www.autohome.com.cn/news/202605/1314264.html",
-          "site_name": "汽车之家",
-          "publish_date": "2026-05-20",
-          "tags": [
-            "奥迪",
-            "AUDI OS",
-            "OTA",
-            "数字助手"
-          ],
-          "summary": "【事件概述】奥迪E5 Sportback迎来AUDI OS 1.2.1版本OTA升级，核心创新包括新增奥迪助手形象动画和车态消息提醒功能。奥迪助手从纯语音交互升级为带有动态形象动画的虚拟角色，能够在导航、充电、车辆状态提醒等场景中，以更生动的视觉反馈与用户互动。车态消息提醒功能则通过系统级通知，实时推送车辆关键状态（如胎压异常、充电完成、保养提醒），并支持在仪表盘和中控屏上以卡片形式呈现。此次升级还优化了多项交互流畅度，例如应用启动速度和语音响应延迟。\n\n【体验价值】形象动画赋予数字助手“人格化”特征，降低冷冰冰的机器感，提升情感连接；车态消息提醒将分散的车辆信息整合为统一通知流，减少用户主动查询的负担，符合“信息找人”的UX趋势。\n\n【潜在槽点】动画效果可能分散驾驶注意力，需确保在行车中自动简化或关闭；车态消息若推送过于频繁，易造成通知疲劳，用户需能精细控制提醒阈值。",
-          "summary_en": "【Event Overview】Audi E5 Sportback receives AUDI OS 1.2.1 OTA update, featuring new Audi assistant animated avatar and vehicle status notifications. The assistant evolves from pure voice to a dynamic visual character, while notifications consolidate key vehicle info into a unified card-based stream. \n\n【Experience Value】The animated avatar humanizes the digital assistant, enhancing emotional connection; vehicle status notifications reduce user query burden by proactively pushing critical info, aligning with 'info-finds-user' UX. \n\n【Potential Friction】Animations may distract driving; excessive notifications could cause fatigue, requiring granular user control."
-        },
-        {
-          "title": "冒险家将亮相车展，SYNC Max展现“零层级”交互美学",
-          "url": "https://www.163.com/dy/article/KR473HPK05568QAK.html",
-          "site_name": "网易",
-          "publish_date": "2026-05-20",
-          "tags": [
-            "林肯",
-            "SYNC Max",
-            "零层级交互",
-            "桌面设计"
-          ],
-          "summary": "【事件概述】全新林肯冒险家搭载SYNC Max林肯星幕智行互联系统，核心创新是Redwood 2.0零层级桌面设计。该设计摒弃传统应用抽屉，将核心功能（导航、音乐、空调、车辆设置）以卡片形式直接置于桌面，用户无需进入二级菜单即可一触即达。下拉快捷面板支持自定义常用功能，如座椅加热、驾驶模式切换等。系统还深度融合语音助手，支持多轮对话和免唤醒指令，进一步减少手动操作层级。\n\n【体验价值】零层级桌面大幅降低交互深度，尤其适合驾驶场景下的快速操作，减少视线离开道路的时间。自定义面板让用户按个人习惯排列功能，提升效率。语音与触控的互补设计，覆盖不同偏好用户。\n\n【潜在槽点】卡片过多可能导致桌面信息过载，新手需时间适应布局；自定义自由度若过高，可能引发设置混乱；语音免唤醒在车内多人对话时易误触发，需优化声纹识别。",
-          "summary_en": "【Event Overview】Lincoln Corsair debuts SYNC Max with Redwood 2.0 zero-layer desktop design. Core functions are presented as cards on the home screen, eliminating app drawers. Customizable quick panel and deep voice integration further reduce interaction depth. \n\n【Experience Value】Zero-layer design minimizes interaction steps, reducing driver distraction. Customization empowers users to tailor layout. Voice-touch complementarity caters to diverse preferences. \n\n【Potential Friction】Card overload may overwhelm new users; excessive customization could cause confusion; voice mis-triggering in multi-person cabin needs improved speaker recognition."
-        },
-        {
-          "title": "小鹏天玑5.9亮点功能-抖音",
-          "url": "https://www.douyin.com/shipin/7570547049003943979",
-          "site_name": "抖音",
-          "publish_date": "2026-05-20",
-          "tags": [
-            "小鹏",
-            "天玑系统",
-            "OTA",
-            "UI优化"
-          ],
-          "summary": "【事件概述】小鹏MONA M03推送天玑系统XOS 5.7.09版本，核心亮点是用户反馈驱动的UI优化：歌词字体大小和样式可调，解决了此前用户吐槽的“歌词字体太小”问题。此外，系统还优化了导航界面信息密度，新增驾驶模式快捷切换卡片，并提升了语音助手的自然语言理解能力，支持更复杂的连续指令（如“打开空调并导航到公司”）。升级过程支持断点续传，降低OTA失败风险。\n\n【体验价值】快速响应用户反馈并迭代UI细节，体现了以用户为中心的敏捷开发理念。歌词字体可调直接提升娱乐场景体验；导航信息精简减少视觉干扰；连续指令支持降低交互次数，提升驾驶安全性。\n\n【潜在槽点】歌词字体调整仅解决单一痛点，其他UI细节（如图标大小、配色）仍需持续优化；连续指令的语义理解在方言或口音下可能出错；断点续传虽好，但升级包体积增大可能占用过多存储空间。",
-          "summary_en": "【Event Overview】Xpeng MONA M03 receives XOS 5.7.09 OTA with user-driven UI improvements: adjustable lyrics font size, optimized navigation info density, new driving mode shortcut card, and enhanced NLU for complex commands. \n\n【Experience Value】Rapid user feedback iteration demonstrates agile UX development. Adjustable lyrics enhance in-car entertainment; streamlined navigation reduces visual clutter; complex commands lower interaction count for safer driving. \n\n【Potential Friction】Single-point fix may leave other UI issues unaddressed; NLU may struggle with dialects; larger OTA packages could consume significant storage."
-        },
-        {
-          "title": "宝马发布全新AI智能座舱助手 能理解用户复杂出行需求",
-          "url": "https://m.php.cn/faq/2379347.html",
-          "site_name": "PHP中文网",
-          "publish_date": "2026-05-20",
-          "tags": [
-            "宝马",
-            "AI助手",
-            "多模态交互",
-            "出行规划"
-          ],
-          "summary": "【事件概述】宝马发布全新AI智能座舱助手，核心创新在于其多模态理解能力：助手能融合语音、手势、视线追踪和车辆传感器数据，理解用户复杂出行需求。例如，用户说“我有点累，想找个能充电的咖啡店”，助手会结合疲劳监测数据、导航信息、充电站位置和用户历史偏好，自动规划路线并推荐沿途休息点。助手还支持主动式服务，如根据日历提醒提前预热电池或调整空调。\n\n【体验价值】多模态融合让交互更自然，减少重复指令；主动式服务从“被动响应”转向“预判需求”，提升出行效率。复杂需求理解能力降低了用户操作门槛，尤其适合长途驾驶场景。\n\n【潜在槽点】多模态数据融合涉及大量隐私（如视线追踪、生物特征），用户可能担忧数据滥用；主动式服务若预判错误（如错误预热电池），反而造成资源浪费；复杂场景下的理解准确率仍需实测验证。",
-          "summary_en": "【Event Overview】BMW launches new AI cockpit assistant with multimodal understanding: integrates voice, gesture, eye-tracking, and sensor data to comprehend complex travel needs. It proactively offers services like pre-conditioning battery based on calendar. \n\n【Experience Value】Multimodal fusion enables natural interaction; proactive services shift from reactive to predictive, enhancing efficiency. Complex need understanding lowers user effort, ideal for long trips. \n\n【Potential Friction】Privacy concerns over biometric data (eye-tracking); incorrect proactive actions waste resources; real-world accuracy in complex scenarios needs validation."
-        },
-        {
-          "title": "智能座舱的终局是什么？面壁智能给出了自己的答案",
-          "url": "https://chedongxi.com/p/367581.html",
-          "site_name": "车东西",
-          "publish_date": "2026-05-20",
-          "tags": [
-            "面壁智能",
-            "大模型",
-            "AI座舱",
-            "自然交互"
-          ],
-          "summary": "【事件概述】面壁智能提出智能座舱的终局是“告别指令式智能”，其核心创新在于将大语言模型（LLM）深度嵌入座舱系统，实现从“用户下指令”到“系统主动理解并执行”的范式转变。系统能通过多轮对话和上下文记忆，理解用户隐含意图（如用户说“有点冷”，系统自动调高温度并关闭天窗）。此外，大模型支持动态生成UI布局，根据当前任务（如导航、通话）自动调整卡片优先级和显示位置，实现“无感交互”。\n\n【体验价值】告别指令式交互大幅降低学习成本，尤其对非技术用户友好；动态UI布局让信息呈现始终与当前任务对齐，减少认知负荷；上下文记忆让交互更连贯，避免重复输入。\n\n【潜在槽点】大模型推理延迟可能影响实时性，尤其在高速驾驶场景；动态UI频繁变化可能让用户感到失控，需提供锁定选项；上下文记忆若存储过多隐私数据（如行程、偏好），存在泄露风险。",
-          "summary_en": "【Event Overview】Mianbi Intelligence proposes LLM-deep integration in cockpits to shift from command-based to proactive understanding. System infers implicit intent (e.g., 'cold' triggers heat + close sunroof), dynamically generates UI layouts based on current task. \n\n【Experience Value】Eliminates command learning curve, especially for non-tech users. Dynamic UI aligns info with task, reducing cognitive load. Contextual memory enables coherent interactions. \n\n【Potential Friction】LLM inference latency may hinder real-time performance; frequent UI changes could cause loss of control; contextual memory storing trip data poses privacy risks."
-        }
-      ],
-      "created_at": "2026-05-20 10:19:02",
-      "updated_at": "2026-05-20 14:17:43"
     }
   ]
 }
