@@ -1,6 +1,60 @@
 {
   "records": [
     {
+      "date": "2026-07-23",
+      "date_display": "07月23日",
+      "weekday": "周四",
+      "news_count": 3,
+      "news": [
+        {
+          "title": "小鹏L03参数配置表",
+          "url": "https://www.xiaopeng.com/l03/configuration.html",
+          "site_name": "小鹏汽车",
+          "publish_date": "2026-07-20",
+          "tags": [
+            "小鹏",
+            "天玑AIOS",
+            "手车互联",
+            "OTA",
+            "主题定制"
+          ],
+          "summary": "【事件概述】小鹏L03车型配置表显示，其搭载的天玑AIOS系统支持手车互联（HUAWEI HiCar、ICCOA Carlink）、整车OTA升级服务、远程诊断系统，以及ROAM“拾光漫游”主题定制UI。该主题可选飞船造型自车模型和太空风格背景，并联动氛围灯主题。系统还提供智能寻车功能（查看位置、鸣笛、闪灯）。\n\n【体验价值】主题定制UI将品牌调性与用户个性化需求深度结合，通过自车模型和氛围灯联动，营造沉浸式座舱氛围，提升情感连接。手车互联和OTA功能则保障了生态扩展性和持续进化能力。\n\n【潜在槽点】主题定制UI可能增加系统资源占用，影响流畅度；手车互联功能需依赖手机端生态，若手机品牌不兼容，体验将大打折扣。",
+          "summary_en": "【Event Overview】The Xiaopeng L03 configuration sheet reveals that its Tianji AIOS system supports phone-car connectivity (HUAWEI HiCar, ICCOA Carlink), full-vehicle OTA upgrade service, remote diagnosis system, and a ROAM 'Stroll of Light' themed custom UI. The theme features a spaceship-shaped car model and space-style background, syncing with ambient lighting. The system also includes smart car-finding functions (location, honk, flash).\n\n【Experience Value】The themed custom UI deeply integrates brand identity with user personalization, creating an immersive cabin atmosphere through car models and ambient light linkage, enhancing emotional connection. Phone-car connectivity and OTA ensure ecosystem scalability and continuous evolution.\n\n【Potential Friction】Themed UI may increase system resource usage, affecting smoothness; phone-car connectivity relies on the phone's ecosystem, and incompatibility with certain phone brands could severely degrade the experience."
+        },
+        {
+          "title": "权益价31.98万元起 智己LS9新车型上市",
+          "url": "https://www.sohu.com/a/1051207086_430526",
+          "site_name": "搜狐汽车",
+          "publish_date": "2026-07-16",
+          "tags": [
+            "智己",
+            "IM AIOS",
+            "多音区语音",
+            "手车互联",
+            "数字视野补盲"
+          ],
+          "summary": "【事件概述】智己LS9新车型搭载IM AIOS智能座舱系统，核心软件创新包括：多音区自然语音交互、手车互联（CarPlay、HUAWEI HiCar、Carlink）、全域数字视野补盲、AI越野补盲、雨夜模式2.0。系统还配备ERNC 2.0主动降噪技术和IM MAG磁吸拓展坞，后者支持硬件模块化扩展。\n\n【体验价值】全域数字视野补盲和雨夜模式2.0通过AI算法实时增强驾驶视野，显著提升恶劣天气下的安全性。多音区语音交互支持全车乘客独立指令，减少交互冲突。磁吸拓展坞为第三方硬件生态提供开放接口，增强可玩性。\n\n【潜在槽点】多音区语音在嘈杂环境下识别准确率可能下降；磁吸拓展坞的第三方硬件兼容性和安全性需长期验证；雨夜模式2.0可能因摄像头遮挡或算法误判导致体验不稳定。",
+          "summary_en": "【Event Overview】The Zhiji LS9 new model features the IM AIOS smart cabin system, with core software innovations including multi-zone natural voice interaction, phone-car connectivity (CarPlay, HUAWEI HiCar, Carlink), full-domain digital vision blind-spot compensation, AI off-road blind-spot compensation, and Rainy Night Mode 2.0. The system also includes ERNC 2.0 active noise cancellation and an IM MAG magnetic expansion dock for modular hardware expansion.\n\n【Experience Value】Full-domain digital vision blind-spot compensation and Rainy Night Mode 2.0 use AI algorithms to enhance driving visibility in adverse weather, significantly improving safety. Multi-zone voice interaction allows independent commands from all passengers, reducing interaction conflicts. The magnetic dock opens an interface for third-party hardware, enhancing playability.\n\n【Potential Friction】Multi-zone voice may suffer accuracy drops in noisy environments; third-party hardware compatibility and safety for the magnetic dock require long-term validation; Rainy Night Mode 2.0 may be unstable due to camera occlusion or algorithm errors."
+        },
+        {
+          "title": "冒险家将亮相车展，SYNC Max展现“零层级”交互美学",
+          "url": "https://www.163.com/dy/article/KR473HPK05568QAK.html",
+          "site_name": "网易",
+          "publish_date": "2026-07-20",
+          "tags": [
+            "林肯",
+            "SYNC Max",
+            "零层级",
+            "Redwood 2.0",
+            "UI设计"
+          ],
+          "summary": "【事件概述】全新林肯冒险家搭载SYNC Max林肯星幕智行互联系统，核心创新是Redwood 2.0零层级桌面设计。该设计将核心功能以卡片形式直接呈现于桌面，一触即达，无需进入二级菜单。下拉快捷面板支持用户自定义常用功能，减少操作步骤。系统强调“零层级”交互美学，旨在降低驾驶中的认知负荷。\n\n【体验价值】零层级桌面设计大幅减少交互层级，使高频功能（如导航、音乐、空调）触手可及，提升操作效率。自定义快捷面板允许用户按需配置，增强个性化。整体设计符合驾驶场景对“少步操作”的需求，降低分心风险。\n\n【潜在槽点】卡片过多可能导致信息过载，反而增加视觉干扰；自定义功能对新手用户存在学习门槛；零层级设计可能牺牲部分深度功能的可发现性，用户需通过语音或搜索才能找到。",
+          "summary_en": "【Event Overview】The new Lincoln Corsair features the SYNC Max Lincoln Star Curtain smart connectivity system, with the core innovation being the Redwood 2.0 zero-level desktop design. This design presents core functions as cards directly on the desktop for one-touch access, eliminating the need for secondary menus. The pull-down quick panel supports user customization of frequently used functions, reducing operation steps. The system emphasizes 'zero-level' interaction aesthetics to reduce cognitive load while driving.\n\n【Experience Value】The zero-level desktop design significantly reduces interaction layers, making high-frequency functions (e.g., navigation, music, AC) easily accessible, improving operational efficiency. The customizable quick panel allows users to configure as needed, enhancing personalization. The design aligns with the need for 'fewer steps' in driving scenarios, reducing distraction risk.\n\n【Potential Friction】Too many cards may cause information overload, increasing visual distraction; customization has a learning curve for novice users; zero-level design may sacrifice discoverability of deep functions, requiring voice or search to find them."
+        }
+      ],
+      "created_at": "2026-07-23 13:33:07"
+    },
+    {
       "date": "2026-07-22",
       "date_display": "07月22日",
       "weekday": "周三",
@@ -3396,86 +3450,6 @@
         }
       ],
       "created_at": "2026-05-22 14:17:27"
-    },
-    {
-      "date": "2026-05-21",
-      "date_display": "05月21日",
-      "weekday": "周四",
-      "news_count": 5,
-      "news": [
-        {
-          "title": "比亚迪5月OTA重磅推送，超多新功能免费体验",
-          "url": "https://www.toutiao.com/article/7640282022556041770/",
-          "site_name": "今日头条",
-          "publish_date": "2026-05-21",
-          "tags": [
-            "比亚迪",
-            "DiLink",
-            "OTA",
-            "免费升级"
-          ],
-          "summary": "【事件概述】2026年5月，比亚迪启动大规模免费OTA升级，覆盖海鸥至仰望等全系车型。此次升级聚焦于软件功能优化，包括新增手车互联功能，全面兼容中国主流手机品牌，支持手机NFC/UWB车钥匙、远程控制及数据同步。同时，升级还优化了智能语音交互、导航体验和系统流畅度，所有功能均免费推送，无需额外付费。这标志着比亚迪在软件生态服务上迈出重要一步，通过OTA持续提升用户体验，强化了“软件定义汽车”的理念。\n\n【体验价值】免费OTA降低了用户使用门槛，手车互联功能让手机与车辆无缝协同，提升了日常用车的便捷性。系统优化后，交互响应更流畅，语音识别更精准，减少了操作层级，增强了驾驶安全性和满意度。\n\n【潜在槽点】大规模推送可能导致部分车型适配延迟，用户等待时间较长。手车互联功能依赖手机品牌兼容性，老旧机型可能无法完全支持，造成体验割裂。此外，免费升级虽好，但后续若转为付费，可能引发用户不满。",
-          "summary_en": "【Event Overview】In May 2026, BYD initiated a large-scale free OTA update covering all models from Seagull to Yangwang. The upgrade focuses on software feature optimization, including new phone-car connectivity that is fully compatible with major Chinese phone brands, supporting NFC/UWB keys, remote control, and data sync. It also improves voice interaction, navigation, and system smoothness, all free of charge. This marks a significant step in BYD's software ecosystem services, enhancing user experience through continuous OTA updates. \n\n【Experience Value】Free OTA lowers user barriers, and phone-car connectivity enables seamless interaction, improving daily convenience. System optimization leads to faster responses and more accurate voice recognition, reducing operation steps and enhancing driving safety and satisfaction. \n\n【Potential Friction】Large-scale rollout may cause delays for some models, leading to long wait times. Phone-car connectivity depends on phone brand compatibility, potentially excluding older devices. Additionally, while free upgrades are welcome, future paid models could cause user dissatisfaction."
-        },
-        {
-          "title": "瑞虎8L迎来全新OTA升级，四大进阶焕新家庭出行体验",
-          "url": "https://cj.sina.com.cn/articles/view/7857141524/1d452771401902nl3o",
-          "site_name": "新浪财经",
-          "publish_date": "2026-05-21",
-          "tags": [
-            "奇瑞",
-            "Lion",
-            "OTA",
-            "家庭出行"
-          ],
-          "summary": "【事件概述】奇瑞瑞虎8L于6月底推送全新OTA升级，围绕舒适、智能、交互与安全四大维度进行优化。升级内容包括：智能语音系统增强，支持更自然的连续对话和场景理解；交互界面优化，引入“零层级”设计理念，核心功能卡片一触即达；新增家庭模式，可自动调整座椅、空调和娱乐设置；安全功能升级，如盲区监测和碰撞预警的算法优化。此次升级是奇瑞“终身FOTA升级”承诺的兑现，旨在提升家庭用户的出行体验。\n\n【体验价值】“零层级”交互设计减少了操作步骤，让驾驶员能更快访问常用功能，提升驾驶安全性。家庭模式自动适配车内环境，减少了手动调节的繁琐，增强了全家出行的舒适性和便利性。\n\n【潜在槽点】“零层级”设计可能导致功能入口过于集中，新手用户需要时间适应。家庭模式的场景识别可能不够精准，例如误判乘客数量或偏好，导致设置不匹配。此外，OTA升级的稳定性需验证，避免升级过程中出现系统卡顿或功能异常。",
-          "summary_en": "【Event Overview】Chery Tiggo 8L receives a new OTA update at the end of June, optimizing comfort, intelligence, interaction, and safety. Upgrades include enhanced voice system for natural dialogue, a 'zero-level' UI with one-tap card access, a family mode that auto-adjusts seats, AC, and entertainment, and improved safety algorithms. This fulfills Chery's 'lifetime FOTA' promise, aiming to enhance family travel. \n\n【Experience Value】The 'zero-level' design reduces steps, allowing faster access to key functions, improving safety. Family mode automates settings, reducing manual adjustments and enhancing comfort and convenience for family trips. \n\n【Potential Friction】The 'zero-level' design may cluster functions, requiring adaptation for new users. Family mode's scene recognition might be inaccurate, misjudging passenger count or preferences. OTA stability needs verification to avoid system lag or malfunctions during updates."
-        },
-        {
-          "title": "蔚来Banyan 3.3.0 智能化大成之作",
-          "url": "https://chejiahao.autohome.com.cn/info/16626933",
-          "site_name": "汽车之家",
-          "publish_date": "2026-05-21",
-          "tags": [
-            "蔚来",
-            "Banyan",
-            "OTA",
-            "认知智能"
-          ],
-          "summary": "【事件概述】蔚来Banyan 3.3.0于2026年1月全量推送，搭载NWM 2.0（蔚来世界模型）与闭环强化学习架构，标志着从“规则驱动”向“认知智能”的跃迁。升级核心是智能驾驶体验的软件化提升，包括窄路会车、无保护左转、施工绕行等复杂场景的自主决策能力。同时，座舱交互也得到优化，NOMI语音助手更主动，能根据用户习惯提供个性化建议。此次OTA强调端到端大模型的应用，使车辆能像人类司机一样理解环境并做出反应。\n\n【体验价值】认知智能让车辆在复杂路况下更从容，减少了驾驶员的紧张感。NOMI的主动服务功能，如提前调节空调或推荐路线，提升了座舱的智能感和贴心度，让交互更自然。\n\n【潜在槽点】认知智能依赖大量数据训练，边缘场景的决策可能仍不够可靠，用户需保持警惕。主动服务功能若过于频繁，可能干扰驾驶，造成信息过载。此外，OTA升级对硬件要求高，老款车型可能无法完全体验新功能。",
-          "summary_en": "【Event Overview】NIO Banyan 3.3.0, rolled out in January 2026, features NWM 2.0 and closed-loop reinforcement learning, marking a shift from rule-based to cognitive intelligence. Key upgrades include autonomous decision-making in complex scenarios like narrow roads and unprotected turns. The NOMI voice assistant becomes more proactive, offering personalized suggestions. This OTA emphasizes end-to-end large models for human-like environment understanding. \n\n【Experience Value】Cognitive intelligence reduces driver stress in complex traffic. NOMI's proactive services, like pre-adjusting AC or recommending routes, enhance the cabin's smart feel and natural interaction. \n\n【Potential Friction】Cognitive decisions may be unreliable in edge cases, requiring driver vigilance. Overly frequent proactive services could distract or cause information overload. Older models may not fully support new features due to hardware limitations."
-        },
-        {
-          "title": "小鹏AI天玑5.4.0全球首发，智驾云端大模型竞争拉开序幕",
-          "url": "https://www.xiaopeng.com/news/company_news/5393.html",
-          "site_name": "小鹏汽车",
-          "publish_date": "2026-05-21",
-          "tags": [
-            "小鹏",
-            "天玑",
-            "OTA",
-            "云端大模型"
-          ],
-          "summary": "【事件概述】小鹏汽车发布AI天玑5.4.0系统，全球首发，主打“0速激活，原地启动”的智驾能力。该系统基于云端大模型架构，融合XNet、XBrain与XPlanner技术，实现端到端智驾进化。核心创新包括：小路绕行、跨车道变道、汇入汇出口等复杂场景的老司机级操作；座舱交互升级，AI天玑系统能主动识别用户意图，提供场景化服务。此次OTA标志着小鹏在智驾云端大模型竞争中领先，将AI能力从座舱延伸至驾驶全场景。\n\n【体验价值】“0速激活”让智驾更易用，用户无需繁琐设置即可启动，降低了学习成本。复杂场景的拟人化操作提升了驾驶信心，座舱主动服务则减少了手动操作，让交互更高效。\n\n【潜在槽点】云端大模型依赖网络连接，信号不佳时可能影响智驾响应速度。主动服务功能若误判用户意图，可能导致不必要的操作，增加交互冗余。此外，OTA升级频率高，用户需频繁适应新功能，可能产生疲劳感。",
-          "summary_en": "【Event Overview】XPeng launches AI Tianji 5.4.0 globally, featuring '0-speed activation' for instant ADAS start. Based on cloud large models, it integrates XNet, XBrain, and XPlanner for end-to-end evolution. Key innovations include expert-level maneuvers in complex scenarios like narrow roads and lane changes. The cockpit AI proactively identifies user intent for contextual services. This OTA positions XPeng as a leader in cloud-based ADAS. \n\n【Experience Value】'0-speed activation' simplifies ADAS use, reducing learning curve. Human-like operations in complex scenarios boost driver confidence, while proactive services minimize manual steps, enhancing efficiency. \n\n【Potential Friction】Cloud reliance may cause lag in poor network conditions. Misjudged user intent by proactive services could lead to unnecessary actions, adding interaction redundancy. Frequent OTA updates may cause user fatigue from constant adaptation."
-        },
-        {
-          "title": "AI座舱热度持续攀升，佑驾创新引领智能座舱进入大模型时代",
-          "url": "https://www.163.com/dy/article/KT7E4VRI05118HA4.html",
-          "site_name": "网易",
-          "publish_date": "2026-05-21",
-          "tags": [
-            "佑驾创新",
-            "OpenClaw",
-            "大模型",
-            "跨端协同"
-          ],
-          "summary": "【事件概述】佑驾创新在2026北京车展推出新一代Agent“OpenClaw”，将座舱能力延展至车外世界。其座舱大模型智能管家BamBam升级了“龙虾助手”，实现车舱内跨端协同，如手机、平板与车机无缝流转。核心创新在于：大模型驱动的主动服务，能根据用户日程、位置和偏好，提前规划路线、调节车内环境；跨端协同让用户在不同设备间切换任务时，体验不中断。这标志着智能座舱从被动响应向主动智能演进。\n\n【体验价值】跨端协同打破了设备壁垒，用户可在手机和车机间无缝切换，提升了多任务处理效率。主动服务减少了用户操作，让出行更省心，例如自动推荐充电站或餐厅，增强了场景化体验。\n\n【潜在槽点】跨端协同需多设备生态支持，若用户设备不兼容，体验将大打折扣。主动服务可能过度收集用户数据，引发隐私担忧。大模型决策的准确性需验证，错误推荐可能导致用户不满。",
-          "summary_en": "【Event Overview】Youjia Innovation debuts 'OpenClaw' Agent at 2026 Beijing Auto Show, extending cabin capabilities to the outside world. Its BamBam AI butler upgrades with 'Lobster Assistant' for cross-device collaboration between phone, tablet, and car. Core innovations include large model-driven proactive services that plan routes and adjust cabin based on user schedule and preferences, and seamless task switching across devices. This marks a shift from passive to proactive intelligence. \n\n【Experience Value】Cross-device collaboration breaks barriers, enabling seamless task switching and improving multitasking efficiency. Proactive services reduce user effort, making travel more convenient, such as auto-recommending charging stations or restaurants, enhancing contextual experience. \n\n【Potential Friction】Cross-device features require ecosystem support; incompatible devices degrade experience. Proactive services may over-collect user data, raising privacy concerns. Large model decision accuracy needs validation; incorrect recommendations could cause user dissatisfaction."
-        }
-      ],
-      "created_at": "2026-05-21 14:20:55",
-      "updated_at": "2026-05-21 18:11:31"
     }
   ]
 }
