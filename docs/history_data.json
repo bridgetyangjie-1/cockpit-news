@@ -1,6 +1,45 @@
 {
   "records": [
     {
+      "date": "2026-07-27",
+      "date_display": "07月27日",
+      "weekday": "周一",
+      "news_count": 2,
+      "news": [
+        {
+          "title": "仰望U8推送OTA升级 新增13项功能",
+          "url": "https://www.12365auto.com/news/20260727/572615.shtml",
+          "site_name": "车质网",
+          "publish_date": "2026-07-27",
+          "tags": [
+            "仰望",
+            "DiOS",
+            "OTA",
+            "隐私保护",
+            "交互优化"
+          ],
+          "summary": "【事件概述】比亚迪仰望U8豪华版与越野玩家版近期完成OTA升级，新增13项功能。核心创新包括：顶部状态栏新增“灵动岛”通知，将手机端流行的交互范式引入车机，实现非侵入式信息提示；通话时导航播报支持独立开关，解决多任务场景下的音频冲突；行车记录仪新增自动录制功能，提升安全冗余；全局字号提供三挡调节，适配不同视力用户；新增一键关闭车外灯、外后视镜自动防眩目功能，优化夜间用车体验；特别值得关注的是“一键无痕”功能，可快速清除导航、通话、媒体等个人使用痕迹，强化隐私保护。\n\n【体验价值】灵动岛通知设计降低了驾驶分心风险，用户无需切换界面即可获取关键信息；全局字号调节体现了对老年用户和视力障碍者的包容性设计；一键无痕功能在借车、代驾等场景下，有效缓解用户对隐私泄露的焦虑，提升了座舱的信任感。\n\n【潜在槽点】灵动岛通知若频繁弹出或内容过长，可能反而干扰驾驶注意力；一键无痕功能若操作路径过深或缺乏明确反馈，用户可能误触或遗忘使用，导致隐私保护效果打折扣。",
+          "summary_en": "【Event Overview】BYD Yangwang U8 received an OTA update adding 13 features. Key innovations include a 'Dynamic Island' notification on the top status bar, independent navigation audio control during calls, auto-recording for dashcam, three-level global font size adjustment, one-touch exterior light off, auto-dimming side mirrors, and a 'One-Touch Privacy' mode to clear personal traces. \n\n【Experience Value】The Dynamic Island reduces distraction; font adjustment improves accessibility; the privacy mode alleviates anxiety in shared driving scenarios, enhancing trust. \n\n【Potential Friction】Frequent Dynamic Island notifications may cause distraction; the privacy mode might be underutilized if the operation path is too deep or lacks clear feedback."
+        },
+        {
+          "title": "仰望U7 V2.4版本OTA升级详解：隐私防护与智能座舱全面进化",
+          "url": "https://evwaynews.com/latest-news/yangwang-u7-v24-ota-update",
+          "site_name": "Evwaynews",
+          "publish_date": "2026-07-26",
+          "tags": [
+            "仰望",
+            "DiOS",
+            "OTA",
+            "隐私保护",
+            "泊车辅助"
+          ],
+          "summary": "【事件概述】仰望汽车向U7全系推送V2.4版本OTA升级，围绕隐私防护、车机交互、泊车辅助等六大维度进行进化。核心创新包括：强化“一键无痕”功能，可一键清除导航历史、通话记录、媒体播放列表等敏感数据，并支持设置自动触发条件（如车辆熄火后自动清除）；车机交互层面优化了多任务切换动画与手势响应速度；泊车辅助新增窄车位场景下的自动折叠后视镜与精准轨迹预测。此次升级强调“隐私即服务”理念，将数据安全作为座舱体验的核心竞争力。\n\n【体验价值】一键无痕功能的自动触发机制，降低了用户手动操作的心理负担，在代客泊车、共享用车等场景中实现“无感隐私保护”；泊车辅助的窄车位优化，直接解决了城市停车痛点，提升了日常使用的便利性。\n\n【潜在槽点】自动清除功能若误触发（如短暂熄火再启动），可能导致用户丢失重要导航记录或通话回执；隐私保护策略若过于激进，可能影响个性化推荐等依赖历史数据的服务体验。",
+          "summary_en": "【Event Overview】Yangwang U7 receives V2.4 OTA update focusing on privacy, interaction, and parking. Key innovation: enhanced 'One-Touch Privacy' with auto-trigger (e.g., on engine off) to clear navigation, calls, and media history. Interaction improvements include smoother multitasking animations. Parking assist adds auto-folding mirrors and precise trajectory prediction for narrow spots. \n\n【Experience Value】Auto-trigger privacy mode reduces user effort in shared scenarios; narrow-spot parking assist directly addresses urban parking pain points. \n\n【Potential Friction】Auto-clear may accidentally delete important data if triggered incorrectly; aggressive privacy may hinder personalized services relying on history."
+        }
+      ],
+      "created_at": "2026-07-27 13:58:35"
+    },
+    {
       "date": "2026-07-24",
       "date_display": "07月24日",
       "weekday": "周五",
@@ -3369,75 +3408,6 @@
         }
       ],
       "created_at": "2026-05-24 14:09:49"
-    },
-    {
-      "date": "2026-05-23",
-      "date_display": "05月23日",
-      "weekday": "周六",
-      "news_count": 4,
-      "news": [
-        {
-          "title": "鸿蒙座舱HarmonySpace 6:一次更聪明、更有温度的进化",
-          "url": "https://k.sina.cn/article_7857141524_1d452771401902pqba.html",
-          "site_name": "K",
-          "publish_date": "2026-05-20",
-          "tags": [
-            "华为",
-            "鸿蒙座舱",
-            "Agent",
-            "多模态交互",
-            "场景生态"
-          ],
-          "summary": "【事件概述】华为在2026鸿蒙座舱生态论坛上发布了HarmonySpace 6，核心升级在于引入更多Agent（智能体）加持，使小艺语音助手从被动响应进化为主动服务。新系统通过多模态感知（语音、视觉、触觉）理解用户意图，例如识别驾驶员疲劳时主动调节空调、播放提神音乐，或根据乘客情绪推荐娱乐内容。此外，HarmonySpace 6强化了跨设备协同，支持手机、手表、家居设备无缝流转，实现“车外-车内-家”全场景智能联动。\n\n【体验价值】从UX视角看，Agent化交互降低了用户操作层级，从“用户指令-系统执行”转变为“系统预判-主动服务”，减少了驾驶分心。多模态融合使交互更自然，例如通过视线追踪和手势识别实现无接触控制，提升了安全性和直觉性。\n\n【潜在槽点】主动服务可能引发隐私担忧，例如持续监测驾驶员状态需摄像头常开，用户可能感到被监控。此外，Agent决策的准确性依赖场景模型，若误判（如将正常疲劳误判为紧急情况）可能导致不必要的干预，增加用户困惑。",
-          "summary_en": "【Event Overview】Huawei released HarmonySpace 6 at the 2026 HarmonyOS Cockpit Ecosystem Forum, with the core upgrade being the introduction of more Agents, evolving the Xiaoyi voice assistant from passive response to proactive service. The new system uses multimodal perception (voice, vision, touch) to understand user intent, such as detecting driver fatigue and proactively adjusting the AC or playing energizing music. It also strengthens cross-device collaboration for seamless smart home integration.\n\n【Experience Value】From a UX perspective, Agent-based interaction reduces user operation layers, shifting from 'user command-system response' to 'system prediction-proactive service', minimizing driving distraction. Multimodal fusion enables more natural interaction, such as gaze tracking and gesture control, enhancing safety and intuitiveness.\n\n【Potential Friction】Proactive services may raise privacy concerns, as continuous driver monitoring requires always-on cameras, potentially making users feel surveilled. Additionally, Agent decision accuracy depends on scenario models; misjudgments (e.g., mistaking normal fatigue for an emergency) could lead to unnecessary interventions, causing user confusion."
-        },
-        {
-          "title": "零跑B系与C系OTA升级来袭 激光雷达车型解锁城市领航等多项新功能",
-          "url": "https://db.m.auto.sohu.com/model_7232/a/1023580811_362225",
-          "site_name": "Db",
-          "publish_date": "2026-05-16",
-          "tags": [
-            "零跑",
-            "LEAP OS",
-            "OTA",
-            "城市领航",
-            "一键泊车"
-          ],
-          "summary": "【事件概述】零跑汽车于2026年5月16日启动大规模OTA升级，覆盖B系、C系及Lafa5车型。核心功能包括：1）全国范围开放城市领航辅助驾驶（NOA），支持复杂路口通行、自动变道等；2）新增一键泊车快捷键，支持垂直、侧方及斜列车位；3）空调系统加入防霉菌功能，通过智能调节风量与温度抑制霉菌；4）优化道路救援B-Call服务，实现自动定位与快速接通。此次升级聚焦高频场景，旨在提升日常通勤与停车效率。\n\n【体验价值】城市领航的全国开放降低了用户对高阶智驾的认知门槛，一键泊车快捷键减少了操作步骤，尤其对新手司机友好。空调防霉菌功能解决了长期用车中的健康痛点，体现了对细节体验的关注。道路救援优化增强了安全感，形成“智驾-泊车-健康-安全”的完整体验闭环。\n\n【潜在槽点】城市领航在复杂路况（如无保护左转、施工区域）的可靠性仍需验证，用户可能因过度信任而放松警惕。一键泊车快捷键若误触可能导致意外启动，需设计防误触机制。防霉菌功能的效果依赖空调使用习惯，实际感知可能不明显。",
-          "summary_en": "【Event Overview】Leapmotor initiated a major OTA update on May 16, 2026, covering B, C, and Lafa5 models. Key features include: 1) nationwide city NOA for complex intersections and auto lane changes; 2) one-touch parking shortcut for various spaces; 3) anti-mold AC function via smart airflow adjustment; 4) optimized road rescue B-Call with auto-location. The update focuses on high-frequency scenarios to improve daily commuting and parking efficiency.\n\n【Experience Value】Nationwide city NOA lowers the cognitive barrier for advanced driving assistance. The one-touch parking shortcut reduces steps, especially benefiting novice drivers. The anti-mold function addresses long-term health concerns, while rescue optimization enhances safety, forming a complete experience loop.\n\n【Potential Friction】City NOA reliability in complex conditions (e.g., unprotected left turns, construction zones) remains unverified; users may over-trust the system. Accidental activation of the parking shortcut could cause issues, requiring anti-mistouch design. The anti-mold effect depends on AC usage habits and may be imperceptible."
-        },
-        {
-          "title": "小鹏MONA M03车机体验：XOS天玑系统+8155P芯片，流畅度表现如何",
-          "url": "https://chejiahao.autohome.com.cn/info/25536916/",
-          "site_name": "Chejiahao",
-          "publish_date": "2026-05-22",
-          "tags": [
-            "小鹏",
-            "XOS天玑",
-            "分屏",
-            "语音交互",
-            "VLM大模型"
-          ],
-          "summary": "【事件概述】小鹏MONA M03搭载XOS天玑系统与8155P芯片，车机体验聚焦流畅度与功能灵活性。系统支持分屏显示，可同时运行导航与娱乐应用，提升多任务效率。语音控制覆盖绝大多数功能，响应快、识别准，并集成小鹏VLM大模型，支持复杂语义理解与上下文记忆。此外，系统支持手机互联、远程升级及丰富娱乐应用生态，强调“操作简单易上手”的设计理念。\n\n【体验价值】分屏功能解决了传统车机“单任务”痛点，用户可在导航时同步查看音乐或车辆信息，减少切换频率。VLM大模型使语音交互更自然，例如连续指令“导航到公司并打开空调”可一次执行，降低了学习成本。8155P芯片保障了动画与触控的丝滑响应，提升了整体愉悦感。\n\n【潜在槽点】分屏模式下，部分应用可能未适配导致显示异常，影响体验一致性。VLM大模型的上下文记忆若过长，可能误判用户意图（如混淆“关闭空调”与“关闭车窗”）。8155P芯片虽流畅，但未来高负载场景（如多应用并行）可能面临性能瓶颈。",
-          "summary_en": "【Event Overview】Xpeng MONA M03 features the XOS Tianji system with a 8155P chip, focusing on smoothness and flexibility. It supports split-screen for simultaneous navigation and entertainment, enhancing multitasking. Voice control covers most functions with fast response and high accuracy, integrating the VLM large model for complex semantics and context memory. It also supports phone connectivity, OTA, and a rich app ecosystem.\n\n【Experience Value】Split-screen solves the single-task pain point, reducing switching frequency. The VLM model enables natural voice interaction, e.g., executing 'navigate to office and turn on AC' in one command, lowering the learning curve. The 8155P chip ensures smooth animations and touch response, boosting overall satisfaction.\n\n【Potential Friction】Some apps may not be optimized for split-screen, causing display issues. The VLM's context memory might misinterpret intent if too long (e.g., confusing 'turn off AC' with 'close window'). The 8155P chip may face performance bottlenecks under high-load scenarios like multiple apps running simultaneously."
-        },
-        {
-          "title": "端到端大模型量产上车,小鹏汽车开启AI智驾时代",
-          "url": "https://k.sina.cn/article_7857141524_1d452771401902rqhg.html",
-          "site_name": "K",
-          "publish_date": "2026-05-23",
-          "tags": [
-            "小鹏",
-            "AI天玑",
-            "端到端大模型",
-            "XNet",
-            "XPlanner"
-          ],
-          "summary": "【事件概述】小鹏汽车在520 AI DAY上宣布全量推送AI天玑系统，核心是端到端大模型量产上车。该模型由三部分组成：XNet（感知与语义）、XPlanner（规控）、XBrain（大场景认知）。与传统模块化方案不同，端到端模型将感知、决策、控制融合为单一神经网络，直接从传感器数据生成驾驶指令，减少信息损失。小鹏声称这是国内首个端到端上车方案，旨在提升复杂场景（如无保护转弯、行人博弈）的决策连贯性与拟人度。\n\n【体验价值】端到端模型使智驾行为更接近人类驾驶，例如在拥堵路况下更平滑地跟车与变道，减少顿挫感。用户无需理解复杂规则，系统通过数据驱动自我优化，长期使用中体验可持续进化。XBrain的认知能力增强了对罕见场景（如施工改道）的适应性，提升了安全信心。\n\n【潜在槽点】端到端模型的“黑箱”特性增加了故障诊断难度，若出现异常行为（如误判障碍物），用户难以理解原因。模型依赖海量训练数据，边缘场景（如极端天气）的泛化能力存疑。此外，OTA升级后模型行为可能突变，用户需重新适应，存在学习成本。",
-          "summary_en": "【Event Overview】Xpeng announced full rollout of AI Tianji system at 520 AI DAY, featuring the first mass-produced end-to-end large model in China. The model comprises XNet (perception), XPlanner (planning), and XBrain (cognition). Unlike modular approaches, it fuses perception, decision, and control into a single neural network, generating driving commands directly from sensor data to reduce information loss, aiming for smoother and more human-like behavior in complex scenarios.\n\n【Experience Value】The end-to-end model makes driving assistance more human-like, e.g., smoother car-following and lane changes in traffic, reducing jerkiness. Users don't need to understand complex rules; the system self-optimizes through data, enabling continuous evolution. XBrain's cognitive ability improves adaptability to rare scenarios like construction detours, enhancing safety confidence.\n\n【Potential Friction】The 'black box' nature of end-to-end models complicates fault diagnosis; users may struggle to understand abnormal behaviors like misjudging obstacles. Generalization in edge cases (e.g., extreme weather) is questionable due to data dependency. OTA updates may cause sudden behavioral changes, requiring user re-adaptation and posing a learning curve."
-        }
-      ],
-      "created_at": "2026-05-23 13:46:17"
     }
   ]
 }
