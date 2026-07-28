@@ -1,6 +1,14 @@
 {
   "records": [
     {
+      "date": "2026-07-28",
+      "date_display": "07月28日",
+      "weekday": "周二",
+      "news_count": 0,
+      "news": [],
+      "created_at": "2026-07-28 13:22:42"
+    },
+    {
       "date": "2026-07-27",
       "date_display": "07月27日",
       "weekday": "周一",
@@ -3343,71 +3351,6 @@
         }
       ],
       "created_at": "2026-05-25 14:44:55"
-    },
-    {
-      "date": "2026-05-24",
-      "date_display": "05月24日",
-      "weekday": "周日",
-      "news_count": 4,
-      "news": [
-        {
-          "title": "仰望u9迎来ota升级 4项新增功能与7项优化体验",
-          "url": "https://m.autohome.com.cn/news/202605/1314372.html",
-          "site_name": "汽车之家",
-          "publish_date": "2026-05-24",
-          "tags": [
-            "仰望",
-            "OTA",
-            "行车记录仪",
-            "安全"
-          ],
-          "summary": "【事件概述】仰望U9推送V2.1.0版本OTA升级，新增4项核心功能并优化7项体验。其中亮点是“全向行车记录仪功能”，支持前后左右四路环视视角，用户可在车机端自由切换视角并回放，实现无死角安全记录。其他新增功能包括场景模式优化、语音助手增强等。此次升级聚焦行车安全与日常使用便利性，通过OTA持续迭代，体现了超跑车型在软件层面的快速进化能力。\n\n【体验价值】全向行车记录仪提供了360°无死角监控，尤其对超跑的低矮视野和盲区有显著补偿，增强了用户对车辆周围环境的掌控感。四路视角自由切换与回放功能，在事故取证或泊车场景中极为实用，提升了安全信心。\n\n【潜在槽点】四路视频同时录制可能占用大量存储空间，用户需频繁清理或外接存储设备，增加维护成本。此外，多视角切换的UI交互若设计不当（如层级过深），可能分散驾驶注意力，需优化为快捷操作。",
-          "summary_en": "【Event Overview】Yangwang U9 received V2.1.0 OTA update with 4 new features and 7 optimizations. Highlight is the 'omni-directional dashcam' with front/rear/left/right views, allowing free switching and playback on the infotainment screen. Other additions include scene mode optimization and voice assistant enhancements. This focuses on safety and daily convenience via OTA iteration. \n\n【Experience Value】The 360° dashcam compensates for the supercar's low visibility and blind spots, enhancing situational awareness. Free view switching and playback are practical for accident evidence and parking, boosting safety confidence. \n\n【Potential Friction】Simultaneous four-channel recording may consume significant storage, requiring frequent cleanup or external storage. Poor UI design for view switching (e.g., deep menus) could distract drivers, needing shortcut optimization."
-        },
-        {
-          "title": "小米澎湃OS 4.0更多细节流出，AI与底层重构，液态玻璃只是开始",
-          "url": "https://www.sohu.com/a/1025851034_121784105",
-          "site_name": "搜狐",
-          "publish_date": "2026-05-24",
-          "tags": [
-            "小米",
-            "澎湃OS",
-            "AI",
-            "UI/UX"
-          ],
-          "summary": "【事件概述】小米澎湃OS 4.0细节曝光，强调从“功能系统”到“体验系统”的跨越。核心创新包括AI底层重构，实现跨设备智能协同（如手机、车机、家居无缝流转），以及全新的“液态玻璃”视觉风格，UI设计跳出传统框架，强调动态光影与材质质感。系统还优化了跨设备互通流畅度，减少卡顿。澎湃OS 4.0预计由小米18首发，标志着小米在操作系统层面的重大迭代，旨在通过AI与设计融合提升全场景体验。\n\n【体验价值】AI底层重构使跨设备协同更智能，例如用户从手机切换到车机时，应用状态、导航路线可无缝延续，减少操作中断。液态玻璃UI带来视觉新鲜感与沉浸感，动态反馈（如触摸动画）增强了交互的愉悦度，符合高端用户对美学与流畅性的期待。\n\n【潜在槽点】“液态玻璃”等视觉创新可能增加GPU负载，导致低端设备卡顿或发热，影响实际体验。AI协同的隐私边界需明确，例如跨设备数据共享可能引发用户对个人数据安全的担忧，需提供细粒度控制选项。",
-          "summary_en": "【Event Overview】Xiaomi HyperOS 4.0 details reveal a shift from 'functional system' to 'experience system'. Core innovations include AI-driven cross-device collaboration (phone, car, home) and a 'liquid glass' visual style with dynamic lighting and textures. The system optimizes cross-device fluidity to reduce lag. It is expected to debut on Xiaomi 18, marking a major OS iteration. \n\n【Experience Value】AI-driven cross-device collaboration enables seamless task continuity (e.g., navigation from phone to car), reducing interruptions. The liquid glass UI offers visual novelty and immersion, with dynamic feedback enhancing interaction pleasure, meeting high-end user expectations for aesthetics and smoothness. \n\n【Potential Friction】Visual innovations like 'liquid glass' may increase GPU load, causing lag or overheating on low-end devices. AI collaboration raises privacy concerns about cross-device data sharing, requiring granular control options to avoid user distrust."
-        },
-        {
-          "title": "新MG4 OTA再升级，10项新增6项优化",
-          "url": "https://cj.sina.com.cn/articles/view/7857141524/1d452771401902sfx4",
-          "site_name": "新浪财经",
-          "publish_date": "2026-05-24",
-          "tags": [
-            "MG",
-            "OTA",
-            "智慧出行",
-            "安全"
-          ],
-          "summary": "【事件概述】全新MG4迎来OTA升级，新增10项功能并优化6项体验，聚焦智慧出行与安全守护。新增功能包括智能场景模式（如“露营模式”、“午休模式”）、语音助手增强（支持连续对话与模糊指令）、以及驾驶辅助功能优化（如自动泊车精度提升）。MG4承诺保持常态化OTA迭代节奏，逐步释放整车智能化能力，使功能更新更贴合用户真实需求。这体现了主流车型在软件定义汽车趋势下的快速进化。\n\n【体验价值】智能场景模式一键切换车内环境（如空调、座椅、灯光），简化了用户操作，提升了场景化体验的便捷性。语音助手增强支持连续对话，减少了重复唤醒的交互摩擦，使驾驶更专注。常态化OTA迭代让用户持续获得新功能，增强了车辆的“常用常新”感。\n\n【潜在槽点】新增功能过多可能导致用户学习成本上升，尤其是场景模式设置若缺乏引导，用户可能忽略或误用。OTA升级包大小与下载稳定性需优化，否则可能因网络问题导致升级失败，影响用户体验。",
-          "summary_en": "【Event Overview】The new MG4 received an OTA update with 10 new features and 6 optimizations, focusing on smart mobility and safety. New features include smart scene modes (e.g., 'camping mode', 'nap mode'), enhanced voice assistant (continuous dialogue, fuzzy commands), and driving assist improvements (e.g., auto-parking accuracy). MG4 commits to regular OTA iteration to align with user needs. \n\n【Experience Value】Smart scene modes simplify one-tap environment adjustments (AC, seats, lights), enhancing convenience. Enhanced voice assistant with continuous dialogue reduces interaction friction, allowing more focused driving. Regular OTA updates create a 'always fresh' feeling for users. \n\n【Potential Friction】Too many new features may increase learning curve; scene modes without guidance could be ignored or misused. OTA package size and download stability need optimization to avoid upgrade failures due to network issues."
-        },
-        {
-          "title": "手车互联引领未来座舱，FlymeAuto能否一超多强？",
-          "url": "https://www.eeworld.com.cn/qcdz/hisic641547.html",
-          "site_name": "电子工程世界",
-          "publish_date": "2026-05-23",
-          "tags": [
-            "FlymeAuto",
-            "手车互联",
-            "生态",
-            "交互"
-          ],
-          "summary": "【事件概述】文章探讨了FlymeAuto在手车互联领域的领先地位，强调其通过深度整合手机与车机生态，实现应用无缝流转、通知同步、硬件共享（如手机摄像头作为车机行车记录仪）等功能。FlymeAuto的核心创新在于“无感连接”与“生态融合”，用户上车后手机应用自动映射至车机，无需手动操作。同时，其开放生态支持第三方应用适配，形成“手机-车机-云端”一体化体验。这被视为未来座舱交互的重要方向。\n\n【体验价值】无感连接大幅降低了用户上车后的操作门槛，手机应用自动流转至车机，避免了重复设置。硬件共享（如手机摄像头）提升了车机功能扩展性，无需额外硬件成本。生态融合使车机不再是孤岛，用户熟悉的手机应用体验得以延续，降低了学习成本。\n\n【潜在槽点】手车互联高度依赖手机品牌与型号，非Flyme手机用户可能无法享受完整功能，形成生态壁垒。硬件共享（如摄像头）可能涉及隐私风险，例如手机摄像头被车机调用时需明确权限控制，否则可能被滥用。",
-          "summary_en": "【Event Overview】The article discusses FlymeAuto's leadership in phone-car connectivity, emphasizing deep integration for seamless app flow, notification sync, and hardware sharing (e.g., phone camera as dashcam). Core innovation is 'seamless connection' and 'ecosystem fusion', where phone apps auto-map to the car infotainment. Its open ecosystem supports third-party apps, creating a phone-car-cloud integrated experience. \n\n【Experience Value】Seamless connection reduces user effort; phone apps auto-transfer to the car, avoiding redundant setup. Hardware sharing (e.g., camera) expands car functionality without extra cost. Ecosystem fusion extends familiar phone app experience to the car, lowering learning curve. \n\n【Potential Friction】Phone-car connectivity heavily depends on phone brand/model; non-Flyme users may miss features, creating ecosystem lock-in. Hardware sharing (e.g., camera) raises privacy risks; clear permission controls are needed to prevent misuse."
-        }
-      ],
-      "created_at": "2026-05-24 14:09:49"
     }
   ]
 }
