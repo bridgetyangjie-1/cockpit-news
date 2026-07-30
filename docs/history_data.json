@@ -1,6 +1,71 @@
 {
   "records": [
     {
+      "date": "2026-07-30",
+      "date_display": "07月30日",
+      "weekday": "周四",
+      "news_count": 4,
+      "news": [
+        {
+          "title": "特斯拉公开API文档，第三方应用可能就要来了",
+          "url": "https://36kr.com/p/2478505347061894",
+          "site_name": "36Kr",
+          "publish_date": "2026-07-28",
+          "tags": [
+            "特斯拉",
+            "FleetAPI",
+            "应用商店",
+            "开放生态"
+          ],
+          "summary": "【事件概述】特斯拉近日正式公开了官方API文档，宣布从明年起所有第三方应用需通过新的FleetAPI接入。FleetAPI是一种RESTful架构的数据和命令服务，可提供对特斯拉车辆和能源设备的访问权限。此举标志着特斯拉可能即将开放车机应用商店，允许第三方开发者为其车机系统开发应用，类似于苹果App Store或谷歌Play Store的模式。这将是特斯拉在软件生态上的重大战略转变，从封闭走向开放，有望极大丰富车机功能。\n\n【体验价值】开放API将带来丰富的第三方应用生态，用户可自定义导航、音乐、效率工具等，提升座舱个性化与实用性。开发者社区参与可加速创新，例如专属充电规划、车载游戏等，让车机从“工具”变为“平台”。\n\n【潜在槽点】安全与隐私风险显著：第三方应用可能获取车辆数据（如位置、驾驶习惯），若审核不严易导致漏洞。此外，应用质量参差不齐，可能影响系统流畅度与稳定性，增加用户选择负担。",
+          "summary_en": "【Event Overview】Tesla recently made its official API documentation public, announcing that from next year, all third-party apps must access through the new FleetAPI. FleetAPI is a RESTful data and command service providing access to Tesla vehicles and energy devices. This move signals Tesla's potential opening of an in-car app store, allowing third-party developers to create apps for its infotainment system, similar to Apple's App Store or Google Play. This marks a major strategic shift from a closed to an open ecosystem, promising to significantly enrich in-car functionality.\n\n【Experience Value】Open APIs will bring a rich third-party app ecosystem, enabling users to customize navigation, music, productivity tools, etc., enhancing cabin personalization and utility. Developer community involvement can accelerate innovation, such as dedicated charging planners or in-car games, transforming the infotainment system from a 'tool' to a 'platform'.\n\n【Potential Friction】Significant security and privacy risks: third-party apps may access vehicle data (e.g., location, driving habits), and lax review could lead to vulnerabilities. Additionally, variable app quality may affect system smoothness and stability, increasing user choice burden."
+        },
+        {
+          "title": "澎湃OS 4全面曝光：小米花了十六年，终于下决心把地基炸了！",
+          "url": "https://www.163.com/dy/article/L2SMKNL60511AKPC.html",
+          "site_name": "163",
+          "publish_date": "2026-07-27",
+          "tags": [
+            "小米",
+            "澎湃OS",
+            "Rust",
+            "Flutter"
+          ],
+          "summary": "【事件概述】小米澎湃OS 4被曝将进行全面底层重构，核心模块改用Rust语言与Flutter工具链重写，取代此前碎片化的Java和Kotlin遗留架构。这一“炸地基”式的升级旨在解决长期存在的流畅度、安全性和跨设备一致性痛点。新系统将带来9项交互升级，包括更流畅的动画、更高效的资源调度和更统一的跨端体验。澎湃OS 4还将深度整合AI超级小爱，实现更自然的语音控制和场景联动，覆盖手机、汽车和200多类米家设备。\n\n【体验价值】底层重构将显著提升系统流畅度和稳定性，减少卡顿和掉帧，尤其对车机多任务场景至关重要。Rust语言增强安全性，降低漏洞风险。Flutter工具链确保手机与车机UI一致性，降低用户跨设备学习成本。\n\n【潜在槽点】大规模底层重写可能导致初期兼容性问题，部分旧应用或设备可能无法完美适配。用户需适应新的交互逻辑，学习曲线陡峭。此外，Rust和Flutter的维护成本高，若优化不足可能反而引入新Bug。",
+          "summary_en": "【Event Overview】Xiaomi's HyperOS 4 is reportedly undergoing a comprehensive bottom-layer reconstruction, with core modules rewritten in Rust and Flutter toolchain, replacing the fragmented Java and Kotlin legacy architecture. This 'foundation demolition' upgrade aims to address long-standing issues of smoothness, security, and cross-device consistency. The new system will bring 9 interaction upgrades, including smoother animations, more efficient resource scheduling, and unified cross-device experiences. HyperOS 4 will also deeply integrate AI Super Xiao Ai for more natural voice control and scene linkage across phones, cars, and over 200 Mi Home devices.\n\n【Experience Value】The bottom-layer reconstruction will significantly improve system smoothness and stability, reducing lag and frame drops, especially critical for in-car multitasking. Rust enhances security, reducing vulnerability risks. Flutter ensures UI consistency between phone and car, lowering cross-device learning costs.\n\n【Potential Friction】Large-scale bottom-layer rewriting may cause early compatibility issues, with some old apps or devices not perfectly adapting. Users need to adapt to new interaction logic, with a steep learning curve. Additionally, high maintenance costs for Rust and Flutter could introduce new bugs if optimization is insufficient."
+        },
+        {
+          "title": "乐道推送椰子智能3.1.0：智驾座舱全维度迭代",
+          "url": "https://chejiahao.autohome.com.cn/info/26041663",
+          "site_name": "Chejiahao",
+          "publish_date": "2026-07-24",
+          "tags": [
+            "乐道",
+            "椰子智能",
+            "OTA",
+            "世界模型"
+          ],
+          "summary": "【事件概述】乐道汽车正式向全量用户推送椰子智能系统3.1.0版本OTA升级，覆盖辅助驾驶、智能座舱和智能底盘三大领域。此次升级针对不同硬件配置采取差异化策略：2026款Max+与Ultra+版车型获得Coconut+ 3.1.0升级，搭载蔚来自研神玑NX9031芯片及激光雷达，并首次应用最新版蔚来世界模型NWM。智能座舱方面，系统优化了底层交互逻辑，新增场景化推荐和更流畅的语音交互，并非简单的功能补丁，而是全维度迭代。\n\n【体验价值】差异化升级确保高配车型发挥硬件潜力，世界模型NWM上车提升智驾场景理解能力，让辅助驾驶更拟人。座舱交互逻辑优化减少操作层级，提升日常使用效率，场景化推荐让功能更贴合用户即时需求。\n\n【潜在槽点】差异化策略可能导致低配车型用户感到“被抛弃”，引发不满。世界模型NWM依赖高算力芯片，若优化不足可能增加功耗和发热。新交互逻辑需要用户重新适应，初期可能降低操作效率。",
+          "summary_en": "【Event Overview】Onvo has officially pushed the Coconut Intelligent System 3.1.0 OTA update to all users, covering assisted driving, intelligent cabin, and intelligent chassis. The upgrade adopts a differentiated strategy based on hardware configuration: 2026 Max+ and Ultra+ models receive Coconut+ 3.1.0, equipped with NIO's self-developed Shenji NX9031 chip and LiDAR, and debut the latest NIO World Model NWM. For the cabin, the system optimizes underlying interaction logic, adds scene-based recommendations, and smoother voice interaction, representing a full-dimensional iteration rather than a simple patch.\n\n【Experience Value】Differentiated upgrades ensure high-end models leverage hardware potential. The NWM world model enhances driving scene understanding, making assisted driving more human-like. Cabin interaction logic optimization reduces operation layers, improving daily efficiency, while scene-based recommendations make features more relevant to immediate user needs.\n\n【Potential Friction】The differentiated strategy may cause low-spec model users to feel 'left behind,' leading to dissatisfaction. The NWM model relies on high-compute chips, and poor optimization could increase power consumption and heat. New interaction logic requires user re-adaptation, potentially reducing efficiency initially."
+        },
+        {
+          "title": "小鹏天玑5.10.5版推送，功能优化提升",
+          "url": "https://www.bilibili.com/video/BV1w63F6KEK4/",
+          "site_name": "Bilibili",
+          "publish_date": "2026-07-27",
+          "tags": [
+            "小鹏",
+            "天玑",
+            "OTA",
+            "语音交互"
+          ],
+          "summary": "【事件概述】小鹏汽车向用户推送天玑系统5.10.5版本OTA升级，主要聚焦功能优化与体验提升。根据用户反馈，此次更新修复了NGP重度智驾场景下的已知Bug，例如系统在复杂路况下的决策逻辑优化，以及语音交互的响应速度和准确率提升。小鹏官方在用户报告Bug后6小时内即锁定故障并准备修复，展现了高效的OTA响应机制。此外，系统还优化了界面动画流畅度和部分应用启动速度，但未引入重大新功能，属于小版本迭代。\n\n【体验价值】快速响应Bug修复体现了用户共创理念，增强用户信任感。语音交互优化让指令执行更流畅，减少重复操作。界面动画优化提升日常使用愉悦感，虽是小改进但累积效应显著。\n\n【潜在槽点】小版本更新未引入新功能，可能让期待惊喜的用户失望。修复Bug的同时可能引入新问题，例如部分用户反馈更新后出现新UI显示异常。OTA推送的差异化（如分批推送）可能导致用户等待焦虑。",
+          "summary_en": "【Event Overview】XPeng has pushed the Tianji System 5.10.5 OTA update to users, focusing on functional optimization and experience improvement. Based on user feedback, the update fixes known bugs in NGP heavy autonomous driving scenarios, such as decision logic optimization in complex road conditions, and improves voice interaction response speed and accuracy. XPeng's official team locked the fault and prepared a fix within 6 hours of user reports, demonstrating an efficient OTA response mechanism. The system also optimizes interface animation smoothness and app launch speed, but introduces no major new features, making it a minor iteration.\n\n【Experience Value】Rapid bug fix response embodies user co-creation philosophy, enhancing user trust. Voice interaction optimization makes command execution smoother, reducing repetitive operations. Interface animation optimization improves daily usage pleasure; though small, cumulative effects are significant.\n\n【Potential Friction】The minor update without new features may disappoint users expecting surprises. Bug fixes may introduce new issues, e.g., some users report UI display anomalies after update. OTA push differentiation (e.g., batch rollout) may cause user waiting anxiety."
+        }
+      ],
+      "created_at": "2026-07-30 13:16:23"
+    },
+    {
       "date": "2026-07-28",
       "date_display": "07月28日",
       "weekday": "周二",
@@ -3300,57 +3365,6 @@
         }
       ],
       "created_at": "2026-05-26 14:15:20"
-    },
-    {
-      "date": "2026-05-25",
-      "date_display": "05月25日",
-      "weekday": "周一",
-      "news_count": 3,
-      "news": [
-        {
-          "title": "仰望U9迎来OTA升级 4项新增功能与7项优化体验",
-          "url": "https://www.autohome.com.cn/news/202605/1314372.html",
-          "site_name": "汽车之家",
-          "publish_date": "2026-05-25",
-          "tags": [
-            "仰望",
-            "ZEEKR OS",
-            "OTA",
-            "安全功能"
-          ],
-          "summary": "【事件概述】仰望U9推送V2.1.0版本OTA升级，新增4项核心功能并优化7项体验。新增功能包括全向行车记录仪，可覆盖车辆前后左右四个方向，实现360度无死角监控；以及基于视觉感知的智能泊车辅助增强，支持更复杂的车位识别。优化项涉及语音助手响应速度提升30%、导航界面布局调整、空调控制逻辑简化等。此次升级聚焦行车安全与日常使用便利性，通过软件迭代强化超跑车型的实用属性。\n\n【体验价值】全向行车记录仪解决了传统单摄像头盲区问题，用户无需额外加装硬件即可获得全景监控，提升事故取证和停车安全感。语音响应速度优化减少了交互等待时间，导航界面调整使信息层级更清晰，整体降低了驾驶中的操作分心。\n\n【潜在槽点】全向记录仪可能涉及隐私争议，尤其在公共区域持续录制；新增功能对老款车型硬件兼容性存疑，部分用户可能因芯片算力不足无法获得完整体验。",
-          "summary_en": "【Event Overview】Yangwang U9 pushes V2.1.0 OTA update, adding 4 core functions and optimizing 7 experiences. New features include an omnidirectional dashcam covering front, rear, left, and right for 360-degree monitoring, and enhanced intelligent parking assist with visual perception for complex spots. Optimizations cover 30% faster voice response, refined navigation layout, and simplified AC controls. The update focuses on safety and daily usability through software iteration. \n\n【Experience Value】The omnidirectional dashcam eliminates blind spots of traditional single cameras, providing panoramic monitoring without extra hardware, enhancing accident evidence and parking security. Faster voice response reduces wait time, and refined navigation clarifies information hierarchy, lowering driving distraction. \n\n【Potential Friction】Omnidirectional recording may raise privacy concerns in public spaces; compatibility with older hardware is questionable, as some users may lack chip power for full features."
-        },
-        {
-          "title": "HarmonySpace鸿蒙座舱大规模OTA升级",
-          "url": "http://www.cniteyes.com/archives/39564",
-          "site_name": "Cniteyes",
-          "publish_date": "2026-05-25",
-          "tags": [
-            "华为",
-            "HarmonyOS",
-            "OTA",
-            "AI大模型"
-          ],
-          "summary": "【事件概述】华为鸿蒙座舱（HarmonySpace）迎来大规模OTA升级，核心亮点是“千悟大模型”的深度集成。该大模型专为用车场景打造，融合基础大模型、舱内感知技术（如摄像头、麦克风阵列）及鸿蒙生态应用，大幅提升语音助手“小艺”的服务能力。升级后，小艺可理解复杂多轮对话（如“我有点冷，但别开太猛”），并主动推荐空调温度与风量；还能通过视觉识别乘客手势，实现隔空操控音乐切换、音量调节等。此外，系统新增“场景引擎”，可根据时间、位置、用户习惯自动触发模式（如下班回家自动导航并播放播客）。\n\n【体验价值】千悟大模型使语音交互从“命令式”转向“理解式”，用户可用自然语言表达模糊需求，系统主动推理并执行，大幅降低学习成本。手势识别补充了非语音场景（如车内嘈杂时），提供多模态交互选择。场景引擎减少手动设置步骤，提升日常通勤的连贯性。\n\n【潜在槽点】大模型依赖云端处理，网络不佳时响应延迟或降级；视觉感知持续运行可能消耗更多电量，且隐私风险（如车内录像）需用户明确授权；手势识别在强光或遮挡下可能误触发。",
-          "summary_en": "【Event Overview】Huawei HarmonySpace receives a major OTA update, featuring deep integration of the 'Qianwu Large Model'. Tailored for driving scenarios, it combines base LLM, in-cabin perception (cameras, microphones), and HarmonyOS ecosystem to enhance voice assistant 'Xiaoyi'. After update, Xiaoyi understands complex multi-turn dialogues (e.g., 'I'm cold, but not too strong') and proactively recommends AC settings; it also recognizes passenger gestures for air controls like music switching. A new 'Scene Engine' auto-triggers modes based on time, location, and habits. \n\n【Experience Value】The large model shifts voice interaction from command-based to understanding-based, allowing natural language for vague needs, reducing learning curve. Gesture recognition supplements noisy scenarios, offering multimodal interaction. Scene engine reduces manual steps, enhancing commute continuity. \n\n【Potential Friction】Cloud-dependent LLM may lag or degrade on poor networks; continuous visual perception drains battery and raises privacy concerns (e.g., in-car recording) requiring explicit consent; gesture recognition may misfire in bright light or occlusion."
-        },
-        {
-          "title": "蔚来推送Banyan 榕 2.6.5 更新：智能驾驶升级，ES8车型二排体验优化",
-          "url": "https://k.sina.cn/article_7857141524_1d452771401902owge.html",
-          "site_name": "新浪",
-          "publish_date": "2026-05-19",
-          "tags": [
-            "蔚来",
-            "Banyan",
-            "OTA",
-            "场景模式"
-          ],
-          "summary": "【事件概述】蔚来汽车推送Banyan·榕 2.6.5 CN版本更新，带来超20项功能新增及优化。核心软件创新包括：1）NOMI人工智能伙伴升级，新增“情感记忆”功能，可记住用户偏好（如常听的播客、座椅位置）并在特定场景主动提醒（如“今天周三，您常听的播客更新了”）；2）ES8车型二排体验优化，新增“老板键”虚拟化控制，通过中控屏或语音调节副驾座椅位置，为后排乘客腾出空间；3）场景模式扩展，新增“露营模式”和“影院模式”，一键联动空调、灯光、音响和屏幕，营造沉浸氛围。此外，智能驾驶部分优化了自动变道和匝道汇入的平顺性。\n\n【体验价值】NOMI情感记忆功能让AI助手更具人性化，通过主动关怀提升用户粘性；虚拟老板键简化了后排空间调节流程，无需物理按键即可操作；场景模式一键切换减少多步设置，提升便利性和仪式感。\n\n【潜在槽点】情感记忆可能被用户视为“过度监控”，隐私担忧增加；虚拟老板键依赖中控屏操作，行驶中调节可能分散注意力；场景模式若预设不合理（如影院模式亮度太低），用户需手动调整，反而增加步骤。",
-          "summary_en": "【Event Overview】NIO pushes Banyan·Rong 2.6.5 CN update with 20+ new features and optimizations. Key software innovations: 1) NOMI AI partner upgrade with 'emotional memory', remembering user preferences (e.g., frequent podcasts, seat position) and proactively reminding (e.g., 'It's Wednesday, your podcast updated'); 2) ES8 second-row experience optimization with virtual 'boss button' via center screen or voice to adjust front passenger seat for rear space; 3) Expanded scene modes, adding 'Camping Mode' and 'Cinema Mode', one-tap linking AC, lights, audio, and screen. ADAS optimizes lane change and ramp merging smoothness. \n\n【Experience Value】NOMI emotional memory makes AI more human-like, boosting user engagement via proactive care; virtual boss button simplifies rear space adjustment without physical buttons; scene modes reduce multi-step settings, enhancing convenience and ceremony. \n\n【Potential Friction】Emotional memory may be seen as 'over-monitoring', raising privacy concerns; virtual boss button relies on center screen, potentially distracting during driving; poorly preset scene modes (e.g., cinema mode too dim) may require manual tweaks, adding steps instead."
-        }
-      ],
-      "created_at": "2026-05-25 14:44:55"
     }
   ]
 }
