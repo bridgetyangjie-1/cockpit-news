@@ -1,6 +1,57 @@
 {
   "records": [
     {
+      "date": "2026-08-04",
+      "date_display": "08月04日",
+      "weekday": "周二",
+      "news_count": 3,
+      "news": [
+        {
+          "title": "魏牌V9X首次OTA升级推送 20余项新增功能 150余项优化",
+          "url": "https://smartcar.cnmo.com/news/814803.html",
+          "site_name": "CNMO科技",
+          "publish_date": "2026-08-01",
+          "tags": [
+            "魏牌",
+            "OTA",
+            "代客模式",
+            "后排娱乐屏"
+          ],
+          "summary": "【事件概述】魏牌V9X迎来首次重大OTA升级，新增20余项功能并优化150余项细节。核心亮点包括：1）代客模式：开启后车辆最高限速120km/h，自动关闭辅助驾驶和泊车功能，保障车辆与隐私安全；2）跛行模式：针对动力电池过放等极限工况，激活安全冗余，允许车辆低速稳健行驶至服务站点；3）后排娱乐屏升级：新增21.4英寸后排娱乐屏与前排防碰保护功能，支持深度语音控制和1/3屏播放列表，无需切换全屏应用即可收听；4）AI空调界面优化：文字空间更清晰，界面更简洁；5）HUD与像素大灯导航提示模式优化，提高HUD优先级。\n\n【体验价值】代客模式精准解决了车辆外借时的安全焦虑，通过软件策略限制车辆性能，比物理钥匙更灵活。后排娱乐屏的1/3屏播放列表设计，允许用户边导航边控制媒体，减少应用切换的认知负担。HUD优先级提升让关键导航信息在驾驶视野中更突出，符合驾驶分心最小化的UX原则。\n\n【潜在槽点】代客模式限速120km/h在高速场景可能引发后车追尾风险，且关闭辅助驾驶功能可能让不熟悉车辆的用户在紧急情况下失去主动安全保护。跛行模式的触发条件若不够明确，用户可能误解为车辆故障而恐慌。后排娱乐屏的防碰保护功能若过于敏感，可能频繁中断观影体验。",
+          "summary_en": "【Event Overview】WEY V9X receives its first major OTA update, adding 20+ features and optimizing 150+ details. Key highlights include: 1) Valet Mode: limits speed to 120km/h, disables ADAS and parking assist for safety and privacy; 2) Limp Mode: activates safety redundancy for extreme conditions like battery over-discharge, allowing low-speed driving to service stations; 3) Rear entertainment screen upgrade: 21.4-inch display with front anti-collision protection, deep voice control, and 1/3-screen playlist without full-screen app switching; 4) AI climate control UI optimization; 5) HUD and pixel headlight navigation display strategy optimization.\n\n【Experience Value】Valet Mode precisely addresses safety anxiety when lending vehicles, using software policies to restrict performance more flexibly than physical keys. The 1/3-screen playlist design reduces cognitive load by allowing simultaneous navigation and media control. Higher HUD priority keeps critical navigation info in the driver's sightline, minimizing distraction.\n\n【Potential Friction】120km/h speed limit in Valet Mode may cause rear-end collision risks on highways, and disabling ADAS could leave unfamiliar users without active safety in emergencies. Unclear limp mode trigger conditions may cause user panic. Overly sensitive anti-collision protection on rear screens could frequently interrupt viewing."
+        },
+        {
+          "title": "比亚迪腾势Z9S预售：兼容多品牌手车互联，首搭苹果CarPlay小窗模式",
+          "url": "https://www.itbear.com.cn/html/2026-08/1478875.html",
+          "site_name": "ITBear",
+          "publish_date": "2026-08-03",
+          "tags": [
+            "比亚迪",
+            "腾势",
+            "CarPlay",
+            "手车互联"
+          ],
+          "summary": "【事件概述】腾势Z9S在预售发布会上宣布实现主流手机品牌全兼容的手车互联生态，覆盖华为、苹果、小米、OPPO、vivo、荣耀、三星等品牌，通过专属互联协议实现深度交互。该车首次搭载苹果CarPlay小窗模式，允许CarPlay界面以悬浮小窗形式呈现，与车机原生应用并行显示，而非传统全屏替换。这一设计打破了CarPlay与车机系统二选一的传统交互逻辑，用户可在使用车机导航的同时，通过小窗快速访问iPhone上的音乐、消息或第三方应用。此外，多品牌兼容意味着不同手机用户无需更换手机即可获得深度互联体验，包括无缝投屏、应用流转和车控功能。\n\n【体验价值】CarPlay小窗模式是手车互联交互逻辑的重要突破，解决了长期存在的\"用CarPlay就不能用车机\"的痛点。用户无需在系统间切换，降低了多任务操作的学习成本。多品牌兼容策略消除了生态壁垒，让用户保有手机选择自由，同时通过统一互联协议保证体验一致性，这是对用户主权的高度尊重。\n\n【潜在槽点】小窗模式下，CarPlay应用与车机应用并行可能造成视觉信息过载，尤其在驾驶中需要快速扫视时。多品牌兼容意味着不同手机的互联深度可能不一致，用户预期管理困难。此外，小窗模式若支持的应用过多，可能诱导驾驶中操作手机应用，增加分心风险。",
+          "summary_en": "【Event Overview】Denza Z9S announces full compatibility with mainstream phone brands including Huawei, Apple, Xiaomi, OPPO, vivo, Honor, and Samsung via proprietary interconnection protocols. It debuts Apple CarPlay windowed mode, allowing CarPlay UI to appear as a floating window alongside native car system apps, rather than full-screen replacement. This breaks the traditional either-or interaction logic, letting users access iPhone music, messages, or third-party apps while using car navigation. Multi-brand compatibility means users can get deep interconnection without changing phones, including seamless projection, app continuity, and vehicle controls.\n\n【Experience Value】CarPlay windowed mode is a significant breakthrough in phone-car interaction, solving the long-standing pain point of choosing between CarPlay and native systems. Users avoid system switching, reducing learning costs for multitasking. Multi-brand compatibility eliminates ecosystem barriers, preserving user freedom of phone choice while ensuring consistent experience through unified protocols.\n\n【Potential Friction】Parallel display of CarPlay and native apps may cause visual information overload, especially during quick glances while driving. Different phones may have varying interconnection depths, making user expectations hard to manage. If windowed mode supports too many apps, it may encourage phone app usage while driving, increasing distraction risk."
+        },
+        {
+          "title": "莲花OTA升级12项功能：哨兵模式+导航优化，老车主体验如何变化？",
+          "url": "https://chejiahao.autohome.com.cn/info/26120262",
+          "site_name": "车家号",
+          "publish_date": "2026-08-04",
+          "tags": [
+            "莲花",
+            "OTA",
+            "方向盘自定义",
+            "哨兵模式"
+          ],
+          "summary": "【事件概述】莲花汽车推送新一轮OTA升级，新增12项功能，重点包括哨兵模式和导航优化。座舱交互方面，方向盘按键自定义功能成为核心调整：用户可根据使用习惯，将HUD调节、外后视镜设置、音源切换、全景影像、电动尾门、自动泊车等功能绑定至方向盘按键。这一功能将原本分散在屏幕菜单或物理按键的操作集中到方向盘，减少驾驶中伸手触屏的频率。导航优化涉及路径规划算法和地图显示细节，提升复杂路口的指引清晰度。哨兵模式则利用车辆摄像头在驻车时监控周围环境，异常事件触发录像并通过手机APP通知车主。\n\n【体验价值】方向盘按键自定义是典型的\"减少操作层级\"设计，将高频功能直接映射到驾驶者手边，符合视线不离开道路的驾驶安全原则。用户可按个人习惯配置按键，适应不同驾驶场景（如城市通勤常用全景影像，高速常用HUD调节）。哨兵模式为车辆安全提供主动监控，增强车主远程掌控感。\n\n【潜在槽点】方向盘按键自定义的配置过程本身需要学习成本，且按键数量有限，功能选择可能让用户纠结。误触风险增加——若将电动尾门绑定至方向盘，行驶中误触可能导致尾门开启。哨兵模式持续录像可能消耗蓄电池电量，长期停放可能导致亏电，且涉及公共区域隐私合规问题。",
+          "summary_en": "【Event Overview】Lotus pushes new OTA with 12 features, focusing on sentry mode and navigation optimization. Steering wheel button customization is the core interaction change: users can bind HUD adjustment, mirror settings, audio source switching, surround view, power tailgate, and auto parking to steering wheel buttons. This centralizes functions previously scattered in screen menus or physical buttons, reducing touchscreen reach during driving. Navigation optimization improves route planning algorithms and map display details. Sentry mode uses vehicle cameras to monitor surroundings when parked, triggering recording on abnormal events and notifying owners via phone app.\n\n【Experience Value】Steering wheel button customization exemplifies \"reducing operation layers,\" mapping high-frequency functions to the driver's fingertips, aligning with the safety principle of keeping eyes on the road. Users can configure buttons per driving scenarios. Sentry mode provides proactive vehicle monitoring, enhancing remote control sense.\n\n【Potential Friction】Configuration process itself requires learning, and limited button count may cause choice anxiety. Mis-touch risk increases—binding power tailgate to steering wheel could accidentally open it while driving. Sentry mode's continuous recording may drain battery during long parking, and raises privacy compliance concerns in public areas."
+        }
+      ],
+      "created_at": "2026-08-04 13:22:23"
+    },
+    {
       "date": "2026-08-03",
       "date_display": "08月03日",
       "weekday": "周一",
@@ -3231,71 +3282,6 @@
         }
       ],
       "created_at": "2026-05-31 14:29:01"
-    },
-    {
-      "date": "2026-05-30",
-      "date_display": "05月30日",
-      "weekday": "周六",
-      "news_count": 4,
-      "news": [
-        {
-          "title": "比亚迪上线手车互联:三大生态赋能，打造智能出行新体验",
-          "url": "https://k.sina.com.cn/article_7857141524_1d452771401902c33i.html",
-          "site_name": "新浪网",
-          "publish_date": "2026-05-30",
-          "tags": [
-            "比亚迪",
-            "DiLink",
-            "手车互联",
-            "生态融合"
-          ],
-          "summary": "【事件概述】比亚迪宣布上线手车互联功能，成为行业内首家实现Carlink、HUAWEI HiCar、荣耀车联三大手车互联生态全覆盖的汽车品牌。该功能支持“摇一摇导航上车”，用户只需在手机上摇一摇，即可将导航信息无缝流转至车机屏幕。此外，比亚迪还整合了通义大模型，提供智能语音助手和场景化服务推荐。这一举措打破了手机与车机之间的生态壁垒，让用户无需更换手机品牌即可享受深度互联体验。OTA推送计划已公布，覆盖比亚迪旗下多款车型。\n\n【体验价值】“摇一摇导航上车”极大简化了导航设置流程，从手机到车机的信息流转几乎无感，降低了驾驶前的操作负担。三大生态全覆盖意味着用户无需受限于单一手机品牌，提升了兼容性和选择自由度。通义大模型的加入，使语音助手能理解更复杂的自然语言指令，如“找最近的充电站并规划避开拥堵的路线”，增强了出行效率。\n\n【潜在槽点】手车互联依赖手机和车机同时支持特定协议，若用户手机系统版本过旧，可能无法使用全部功能。隐私方面，导航信息等敏感数据在手机与车机间传输，若加密不足，存在泄露风险。此外，“摇一摇”触发方式可能因误操作导致频繁启动，造成交互冗余。",
-          "summary_en": "【Event Overview】BYD launched its hand-car connectivity feature, becoming the first automaker to fully support three major ecosystems: Carlink, HUAWEI HiCar, and Honor Car Connect. The feature includes 'shake to navigate'—users shake their phone to seamlessly transfer navigation to the car screen. BYD also integrates Tongyi Qianwen LLM for intelligent voice assistant and scenario-based service recommendations. This breaks down ecosystem barriers, allowing users to enjoy deep connectivity regardless of phone brand. OTA rollout covers multiple BYD models. \n\n【Experience Value】'Shake to navigate' greatly simplifies navigation setup, with near-seamless information transfer from phone to car, reducing pre-driving operational burden. Full ecosystem coverage enhances compatibility and user freedom. The LLM integration enables the voice assistant to understand complex natural language commands, improving travel efficiency. \n\n【Potential Friction】Functionality depends on both phone and car supporting specific protocols; older phone OS versions may not work. Privacy risks exist if navigation data is not encrypted during transfer. The 'shake' trigger may cause accidental activations, leading to interaction redundancy."
-        },
-        {
-          "title": "佑驾创新携座舱大模型BamBam...",
-          "url": "https://www.cnstock.com/commonDetail/519451",
-          "site_name": "中国证券网",
-          "publish_date": "2026-05-30",
-          "tags": [
-            "佑驾创新",
-            "BamBam",
-            "大模型",
-            "语音助手"
-          ],
-          "summary": "【事件概述】佑驾创新发布了座舱智能管家BamBam，采用“端云结合”技术架构，以“大模型+小模型”实现效率与性能的平衡。BamBam具备多模态交互能力，支持语音、手势、视线等多种输入方式，并能根据驾驶场景主动提供服务，如检测到驾驶员疲劳时自动调节空调和播放提神音乐。其“云上+端上”架构确保个人数据在本地处理，敏感信息不上云，兼顾隐私与流畅体验。BamBam还支持个性化学习，能根据用户习惯调整座舱设置，如座椅位置、音乐偏好等。\n\n【体验价值】多模态交互让用户在不同场景下选择最自然的交互方式，如驾驶时用语音、停车时用手势，提升了灵活性和安全性。主动服务能力减少了用户主动操作的需求，例如疲劳检测后的自动调节，体现了“无感”智能。端云结合架构在保护隐私的同时，保证了复杂任务的响应速度，增强了用户信任感。\n\n【潜在槽点】多模态交互可能增加系统复杂度，手势和视线识别在强光或驾驶员佩戴墨镜时准确率下降。个性化学习需要大量数据积累，初期可能无法准确理解用户偏好，导致推荐不精准。此外，“端云结合”对本地硬件算力要求较高，老车型可能无法流畅运行。",
-          "summary_en": "【Event Overview】Youjia Innovation launched the cockpit smart butler BamBam, using an 'end-cloud combined' architecture with 'big model + small model' for efficiency and performance balance. BamBam supports multimodal interaction (voice, gesture, gaze) and proactively provides services based on driving scenarios, such as detecting driver fatigue and automatically adjusting AC and playing alert music. Its 'cloud + on-device' architecture ensures personal data is processed locally, balancing privacy and smooth experience. BamBam also supports personalized learning to adapt cockpit settings like seat position and music preferences. \n\n【Experience Value】Multimodal interaction allows users to choose the most natural input method in different scenarios, enhancing flexibility and safety. Proactive service reduces user operation needs, embodying 'seamless' intelligence. The end-cloud architecture protects privacy while ensuring response speed for complex tasks, building user trust. \n\n【Potential Friction】Multimodal interaction increases system complexity; gesture and gaze recognition accuracy may drop in bright light or when the driver wears sunglasses. Personalized learning requires large data accumulation, leading to inaccurate recommendations initially. The 'end-cloud' architecture demands high local hardware performance, potentially causing lag on older models."
-        },
-        {
-          "title": "尊界S800发布五月OTA升级 辅助驾驶与座舱功能优化",
-          "url": "https://www.bitauto.com/article/1003110229506/",
-          "site_name": "易车",
-          "publish_date": "2026-05-25",
-          "tags": [
-            "尊界",
-            "鸿蒙座舱",
-            "OTA",
-            "账号同步"
-          ],
-          "summary": "【事件概述】尊界S800发布五月OTA升级，重点优化辅助驾驶与座舱功能。座舱方面，新增智慧控车能力，用户可通过更自然的语音指令控制空调、车窗、多媒体等功能。输入法与车机交互逻辑也进行了优化，提升车内文本输入效率，例如支持语音转文字和手写输入。针对多人用车场景，新版本强化了账号与个性化设置同步能力，不同用户进入车内后能快速恢复座椅、后视镜、音乐偏好等设置。此外，还优化了萌宠主题壁纸和仪表盘车模颜色自定义功能，提升视觉个性化体验。\n\n【体验价值】智慧控车能力通过自然语音指令降低了操作门槛，例如说“我有点冷”即可自动调高空调温度，更符合人类直觉。账号同步功能解决了家庭或共享用车场景下的配置混乱问题，每次上车无需手动调整，提升了便利性。输入法优化让导航地址输入或搜索更高效，减少驾驶分心。视觉个性化选项增加了座舱的情感化体验，让用户感觉车辆更“懂”自己。\n\n【潜在槽点】智慧控车依赖语音识别准确率，在嘈杂环境或方言场景下可能误判。账号同步功能需要用户提前登录并授权，若网络不佳可能导致同步失败。输入法优化可能增加界面复杂度，部分用户可能觉得传统按键输入更习惯，学习成本较高。",
-          "summary_en": "【Event Overview】Zunjie S800 released a May OTA update focusing on ADAS and cockpit optimization. New smart control capabilities allow natural voice commands for AC, windows, and multimedia. Input method and interaction logic are optimized for efficient text input, supporting voice-to-text and handwriting. Account synchronization is enhanced for multi-user scenarios, quickly restoring seat, mirror, and music preferences. Visual personalization options like pet-themed wallpapers and dashboard car model colors are also added. \n\n【Experience Value】Smart control via natural voice reduces operation barriers, e.g., saying 'I'm cold' automatically adjusts AC temperature, aligning with human intuition. Account synchronization solves configuration chaos in shared car scenarios, improving convenience. Input optimization makes navigation address entry more efficient, reducing distraction. Visual personalization adds emotional connection, making the car feel more 'understanding'. \n\n【Potential Friction】Smart control relies on voice recognition accuracy, which may fail in noisy environments or with dialects. Account sync requires prior login and authorization; poor network may cause sync failure. Input optimization may increase interface complexity; some users may prefer traditional key input, leading to a learning curve."
-        },
-        {
-          "title": "AI大模型“神仙打架”上车:你的下一辆车,可能比你还懂你",
-          "url": "https://k.sina.com.cn/article_7857141524_1d452771401902vvr6.html",
-          "site_name": "新浪网",
-          "publish_date": "2026-05-30",
-          "tags": [
-            "小米",
-            "澎湃OS",
-            "大模型",
-            "语音助手"
-          ],
-          "summary": "【事件概述】2026年3月小米SU7发布会上，雷军发布了三款面向Agent时代的自研大模型：旗舰基座模型Xiaomi MiMo-V2-Pro、全模态大模型Xiaomi MiMo-V2-Omni、语音大模型Xiaomi MiMo-V2-Voice。这些模型将深度集成到小米澎湃OS中，赋能车机系统。MiMo-V2-Omni支持文本、图像、语音、视频等多模态输入，能理解用户意图并主动执行复杂任务，例如根据用户说“我想去一个安静的地方吃火锅”，自动搜索并推荐餐厅、规划路线、预订座位。语音大模型则专注于提升语音交互的自然度和上下文理解能力。\n\n【体验价值】多模态大模型让车机从被动响应变为主动服务，用户只需表达模糊意图，系统即可完成多步骤任务，极大降低了操作复杂度。例如，一句话即可完成餐厅搜索、导航、预订，节省了多次点击的时间。语音大模型的上下文理解能力让多轮对话更流畅，用户无需重复关键信息，提升了交互效率。这种“懂你”的体验增强了用户对智能座舱的依赖感和满意度。\n\n【潜在槽点】大模型依赖云端算力，网络不佳时响应延迟或功能降级，影响体验。多模态理解可能因训练数据偏差导致推荐不准确，例如推荐的餐厅不符合用户真实口味。隐私方面，用户意图数据上传云端存在泄露风险，若本地处理能力不足，可能引发用户对数据安全的担忧。",
-          "summary_en": "【Event Overview】At the March 2026 Xiaomi SU7 launch, Lei Jun unveiled three self-developed LLMs for the Agent era: flagship base model MiMo-V2-Pro, full-modal model MiMo-V2-Omni, and voice model MiMo-V2-Voice. These will deeply integrate into Xiaomi HyperOS to power the cockpit. MiMo-V2-Omni supports text, image, voice, and video inputs, understanding user intent and proactively executing complex tasks, e.g., searching for restaurants, planning routes, and booking tables based on 'I want to eat hotpot in a quiet place'. The voice model focuses on naturalness and context understanding. \n\n【Experience Value】Multimodal LLMs transform the cockpit from passive response to proactive service. Users only need to express vague intent, and the system completes multi-step tasks, greatly reducing operation complexity. For example, one sentence can handle restaurant search, navigation, and booking. Context understanding makes multi-turn dialogue smoother, improving interaction efficiency. This 'understanding' experience enhances user satisfaction and reliance on the smart cockpit. \n\n【Potential Friction】LLMs rely on cloud computing; poor network causes response delays or feature degradation. Multimodal understanding may produce inaccurate recommendations due to training data bias. Privacy risks exist as user intent data is uploaded to the cloud; if local processing is insufficient, users may worry about data security."
-        }
-      ],
-      "created_at": "2026-05-30 13:54:51"
     }
   ]
 }
