@@ -1,6 +1,71 @@
 {
   "records": [
     {
+      "date": "2026-08-05",
+      "date_display": "08月05日",
+      "weekday": "周三",
+      "news_count": 4,
+      "news": [
+        {
+          "title": "7月OTA重磅升级！看懂理想智驾迭代，才懂真正的长期投资价值",
+          "url": "https://xueqiu.com/5768956315/403580346",
+          "site_name": "雪球",
+          "publish_date": "2026-08-04",
+          "tags": [
+            "理想",
+            "OTA",
+            "智驾大模型",
+            "马赫VLA"
+          ],
+          "summary": "【事件概述】理想汽车于7月推送OTA 9.1版本，带来31项新增功能与10项体验优化。本次升级的核心并非功能堆砌，而是基于自研M100芯片与马赫VLA大模型的深度整合。该版本重点强化了智驾系统的底层能力，通过端到端大模型架构，实现了更拟人化的驾驶决策与更流畅的交互反馈。同时，OTA升级还覆盖了座舱内的多模态交互体验，例如基于大模型的语音助手能够理解更复杂的上下文指令，并主动提供场景化服务。此次升级标志着理想汽车从单纯的硬件堆料转向以软件和算法驱动的长期价值迭代，其持续、稳定的OTA能力被视为品牌的核心竞争壁垒。\n\n【体验价值】从UX角度看，OTA 9.1的最大价值在于“无感进化”。用户无需学习新操作，即可在日常驾驶中感受到智驾系统在变道、过弯等场景下的决策更平滑、更符合人类驾驶习惯。大模型赋能的语音交互也减少了多轮对话的冗余，提升了指令完成的效率与自然度。\n\n【潜在槽点】尽管功能强大，但31项新增功能对非科技爱好者用户而言存在较高的学习成本，部分功能入口隐藏较深。此外，智驾大模型的持续迭代高度依赖数据回传，可能引发用户对隐私安全的担忧。",
+          "summary_en": "【Event Overview】Li Auto pushed OTA 9.1 in July, bringing 31 new features and 10 experience optimizations. The core of this upgrade is not feature stacking, but deep integration based on its self-developed M100 chip and Mach VLA large model. This version focuses on strengthening the underlying capabilities of the intelligent driving system, achieving more human-like driving decisions and smoother interaction feedback through an end-to-end large model architecture. Meanwhile, the OTA upgrade also covers multimodal interaction experiences within the cockpit, such as the large-model-powered voice assistant understanding more complex contextual commands and proactively providing scenario-based services. This upgrade marks Li Auto's shift from simple hardware stacking to long-term value iteration driven by software and algorithms, with its continuous and stable OTA capability seen as a core competitive moat.\n\n【Experience Value】From a UX perspective, the greatest value of OTA 9.1 is 'imperceptible evolution'. Users can feel the intelligent driving system making smoother and more human-like decisions in scenarios like lane changes and turns without learning new operations. The large-model-powered voice interaction also reduces redundancy in multi-turn dialogues, enhancing efficiency and naturalness.\n\n【Potential Friction】Despite its power, the 31 new features pose a high learning cost for non-tech-savvy users, and some feature entries are hidden deep. Additionally, the continuous iteration of the intelligent driving large model relies heavily on data feedback, which may raise privacy concerns."
+        },
+        {
+          "title": "手车互联彻底消灭手机支架？ 比亚迪海狮06EV车机系统详细体验",
+          "url": "https://www.dongchedi.com/video/7570727396161094187",
+          "site_name": "懂车帝",
+          "publish_date": "2026-08-02",
+          "tags": [
+            "比亚迪",
+            "手车互联",
+            "跨端生态",
+            "手机映射"
+          ],
+          "summary": "【事件概述】比亚迪海狮06EV上市后，其搭载的最新DiLink车机系统因新增的“手车互联”功能而备受关注。该功能旨在通过无线连接，将手机上的核心应用（如导航、音乐、微信）无缝投射到车机大屏，并支持反向控制。与传统的CarPlay/CarLife不同，比亚迪的这套方案更深度地整合了安卓系统的底层能力，允许手机应用以“平行视界”或“分屏”形式在车机上运行，甚至支持调用车机硬件（如摄像头、麦克风）。其核心目标是让用户摆脱手机支架，在车内获得与手机一致且更安全的应用体验。视频通过实际演示，探讨了该功能在导航流转、信息回复、应用生态丰富度等方面的真实表现，并检验其是否真的能取代手机支架。\n\n【体验价值】手车互联的体验价值在于“无缝衔接”。用户上车后无需重新设置，手机上的导航目的地、正在播放的音乐或语音通话可以无缝流转至车机，降低了驾驶中的操作分心。同时，车机大屏能显示更丰富的手机应用，解决了车机原生应用生态不足的痛点，让用户感觉车机就是手机的延伸，学习成本极低。\n\n【潜在槽点】手车互联的体验高度依赖手机性能和无线连接的稳定性，可能出现延迟、卡顿或断连，影响使用信心。此外，大量手机应用在车机大屏上显示时，UI适配参差不齐，部分应用字体过小或按钮难以点击，反而增加了操作难度和驾驶风险。",
+          "summary_en": "【Event Overview】Following the launch of BYD's Sealion 06EV, its latest DiLink system has attracted attention for its new 'Phone-Car Connectivity' feature. This feature aims to seamlessly project core phone apps (navigation, music, WeChat) onto the car screen via wireless connection and supports reverse control. Unlike traditional CarPlay/CarLife, BYD's solution integrates deeper with the Android system, allowing apps to run in 'parallel view' or split-screen modes, and even call upon car hardware. The core goal is to let users ditch phone mounts and get a safer, consistent app experience. The video demonstrates the feature's real-world performance in navigation handoff, message replies, and app ecosystem richness.\n\n【Experience Value】The value lies in 'seamless continuity'. Users don't need to reconfigure; navigation destinations, music, or calls seamlessly transfer to the car screen, reducing distraction. It also solves the problem of limited native car apps, making the car feel like an extension of the phone with a minimal learning curve.\n\n【Potential Friction】The experience is highly dependent on phone performance and wireless stability, which can lead to lag, stutter, or disconnections. Moreover, many phone apps are poorly adapted for the car's large screen, with small fonts or hard-to-tap buttons, increasing operational difficulty and driving risk."
+        },
+        {
+          "title": "小米澎湃OS 4八月发布：零遗留重构能否终结安卓卡顿？+FAQ",
+          "url": "https://k.sina.cn/article_7879923804_1d5ae185c06801ldiy.html",
+          "site_name": "新浪",
+          "publish_date": "2026-08-03",
+          "tags": [
+            "小米",
+            "澎湃OS",
+            "系统重构",
+            "Rust"
+          ],
+          "summary": "【事件概述】小米澎湃OS 4确定于2026年8月上旬发布，这是该系统第三代重大迭代版本。此次升级被官方称为“零遗留”底层重构，彻底清除所有MIUI遗留代码，并采用Rust语言重写系统内核，以解决安卓系统长期使用后卡顿的顽疾。同时，新系统引入“液态玻璃”视觉设计语言，强调流畅与通透的动效。在AI能力上，澎湃OS 4将深度整合端侧全离线AI大模型，实现更智能的语音助手、图像识别和文本处理，且所有数据处理均在本地完成，以保障用户隐私。此次重构被视为小米在自研芯片、自研OS和自研AI大模型“大会师”战略中的关键一步，旨在打造一个从底层到应用层完全自主可控的软件生态。\n\n【体验价值】澎湃OS 4的体验价值在于“长久流畅”。通过底层重构，有望从根本上解决安卓系统因后台资源占用导致的卡顿问题，提升多任务切换的响应速度。Rust语言的内存安全特性也能减少系统崩溃和漏洞，提升稳定性。端侧AI的加入则让语音助手等功能的响应更快、更智能，且无需网络，保护了用户隐私。\n\n【潜在槽点】“零遗留”重构意味着系统兼容性风险极高，早期版本可能出现大量应用闪退或功能异常，影响用户体验。此外，Rust语言虽安全，但开发门槛高，可能导致第三方应用适配进度缓慢，生态建设初期可能落后于预期。",
+          "summary_en": "【Event Overview】Xiaomi's HyperOS 4 is confirmed to launch in early August 2026, marking its third major iteration. This upgrade is officially called a 'zero-legacy' bottom-up reconstruction, completely removing all MIUI legacy code and using the Rust language to rewrite the system kernel to solve the chronic lag issue of Android. The new system also introduces a 'liquid glass' visual design language. In AI capabilities, HyperOS 4 will deeply integrate an on-device offline AI large model for smarter voice assistants, image recognition, and text processing, all processed locally for privacy. This is a key step in Xiaomi's 'convergence' strategy of self-developed chips, OS, and AI.\n\n【Experience Value】The value lies in 'long-lasting smoothness'. The bottom-up reconstruction aims to fundamentally solve lag issues caused by background resource usage, improving multitasking responsiveness. Rust's memory safety also reduces crashes and vulnerabilities. On-device AI makes features like voice assistants faster and smarter, without needing a network, protecting privacy.\n\n【Potential Friction】The 'zero-legacy' reconstruction poses a high compatibility risk, with early versions potentially suffering from app crashes or malfunctions. Additionally, Rust's high development threshold may slow third-party app adaptation, potentially lagging behind expectations in the early stages of ecosystem building."
+        },
+        {
+          "title": "座舱大模型：智能驾驶的未来引擎",
+          "url": "http://inandu.cn/news/53620.html",
+          "site_name": "南都时讯",
+          "publish_date": "2026-08-01",
+          "tags": [
+            "极氪",
+            "Kr AI",
+            "DeepSeek",
+            "端侧大模型"
+          ],
+          "summary": "【事件概述】文章聚焦于大模型技术在智能座舱中的应用，特别以极氪自研的Kr AI大模型与DeepSeek R1大模型的融合为案例。这一融合推动了座舱端侧AI的大规模应用，使得车辆能够在本地处理复杂的自然语言理解和多模态交互任务，而无需依赖云端。这种端侧部署模式不仅降低了延迟，提升了响应速度，还增强了数据隐私保护。文章指出，大模型上车正从“能用”向“好用”转变，其核心在于将大模型的通用能力与座舱内的具体场景（如用车控制、导航、娱乐）深度结合，实现更智能的主动服务。例如，用户可以用更口语化的指令完成车辆控制，系统也能根据上下文和用户习惯提供个性化推荐。\n\n【体验价值】端侧大模型的价值在于“即时与个性”。所有计算在本地完成，语音助手和交互界面的响应几乎无延迟，体验更加流畅。同时，大模型能够理解用户的模糊意图和上下文，使得交互更加自然，减少了学习成本。个性化推荐基于本地数据，更精准且不泄露隐私，提升了用户的专属感。\n\n【潜在槽点】端侧大模型对芯片算力要求极高，可能导致硬件成本上升，最终转嫁给消费者。此外，尽管大模型能力强大，但在处理复杂或非标准指令时仍可能出错，若系统无法妥善处理错误，反而会降低用户信任。同时，本地模型的更新迭代不如云端灵活，功能进化可能受限。",
+          "summary_en": "【Event Overview】The article focuses on the application of large models in smart cockpits, particularly the fusion of Zeekr's self-developed Kr AI large model and DeepSeek R1. This fusion promotes the large-scale application of on-device AI, enabling vehicles to handle complex NLP and multimodal tasks locally without cloud reliance. This on-device deployment reduces latency, improves response speed, and enhances data privacy. The article points out that large models in cars are shifting from 'usable' to 'easy to use', with the core being deep integration of general capabilities with specific cockpit scenarios for smarter proactive services.\n\n【Experience Value】The value of on-device large models lies in 'immediacy and personalization'. All computation is local, making voice assistant and UI responses nearly lag-free. The model's ability to understand vague intent and context makes interaction more natural, reducing the learning curve. Personalized recommendations are more accurate and private, enhancing a sense of exclusivity.\n\n【Potential Friction】On-device large models demand extremely high chip computing power, potentially increasing hardware costs. Moreover, despite their power, they can still err on complex or non-standard commands; if errors aren't handled gracefully, user trust may decrease. Also, local model updates are less flexible than cloud-based ones, potentially limiting feature evolution."
+        }
+      ],
+      "created_at": "2026-08-05 13:22:55"
+    },
+    {
       "date": "2026-08-04",
       "date_display": "08月04日",
       "weekday": "周二",
@@ -3230,58 +3295,6 @@
         }
       ],
       "created_at": "2026-06-01 15:11:37"
-    },
-    {
-      "date": "2026-05-31",
-      "date_display": "05月31日",
-      "weekday": "周日",
-      "news_count": 3,
-      "news": [
-        {
-          "title": "微信生态融合AI大模型：构建高活跃度智能座舱服务闭环",
-          "url": "https://cloud.tencent.com/developer/article/2677372",
-          "site_name": "Cloud",
-          "publish_date": "2026-05-29",
-          "tags": [
-            "腾讯",
-            "微信",
-            "AI大模型",
-            "生态融合"
-          ],
-          "summary": "【事件概述】腾讯智慧出行提出“AI大模型+开放生态”的融合方案，旨在将微信生态深度嵌入智能座舱。核心创新点在于：利用大模型理解用户自然语言，将微信小程序、小游戏、支付、社交等能力无缝转化为座舱服务。例如，用户可通过语音直接说“帮我订一杯咖啡，送到公司”，系统自动调用微信支付、定位、小程序下单，并规划到达时间。此外，微信小游戏生态（月活5亿+）被引入座舱，支持副驾或停车时通过语音或轻触交互游玩，无需下载。该方案还打通了车家互联，用户可通过微信控制美的、海尔等智能家居设备。\n\n【体验价值】从UX视角看，最大价值在于“零学习成本”。用户无需安装新APP或适应新交互逻辑，直接复用微信的社交、支付、服务生态，极大降低了使用门槛。非驾驶状态下，座舱内峰值停留时长已达25分钟+，微信生态的引入能有效填充这些碎片时间，提升座舱活跃度。\n\n【潜在槽点】驾驶分心风险显著。小游戏和社交互动可能诱导用户在驾驶时使用，增加安全隐患。此外，微信生态的广告和推送机制若不加限制地移植到座舱，会形成严重的交互冗余，干扰驾驶专注度。隐私方面，微信账号与车辆深度绑定，可能引发数据滥用担忧。",
-          "summary_en": "【Event Overview】Tencent Smart Mobility proposed an 'AI large model + open ecosystem' integration solution to deeply embed the WeChat ecosystem into smart cockpits. The core innovation is using large models to understand natural language, seamlessly converting WeChat mini-programs, mini-games, payments, and social features into cockpit services. For example, a user can say 'Order a coffee and deliver it to the office,' and the system automatically uses WeChat Pay, location, and mini-program ordering, while planning arrival time. Additionally, the WeChat mini-game ecosystem (500M+ MAU) is introduced for passenger or parked use via voice or light touch, without downloads. The solution also enables car-to-home control of smart devices from brands like Midea and Haier.\n\n【Experience Value】From a UX perspective, the greatest value is 'zero learning cost.' Users don't need to install new apps or adapt to new interaction logic; they directly reuse WeChat's social, payment, and service ecosystem, significantly lowering the barrier. During non-driving states, peak in-cabin dwell time has reached 25+ minutes, and WeChat's ecosystem effectively fills these fragmented moments, boosting cockpit engagement.\n\n【Potential Friction】Driving distraction risk is significant. Mini-games and social interactions may tempt use while driving, increasing safety hazards. Additionally, if WeChat's ad and push mechanisms are ported without restriction, they will create severe interaction redundancy, distracting from driving. Privacy-wise, deep binding of WeChat accounts to vehicles may raise data misuse concerns."
-        },
-        {
-          "title": "大模型驱动座舱交互进入智能体服务新阶段",
-          "url": "https://www.163.com/dy/article/KU0J4B1A05568W0A.html",
-          "site_name": "163",
-          "publish_date": "2026-05-28",
-          "tags": [
-            "AI大模型",
-            "智能体",
-            "人机交互",
-            "多模态"
-          ],
-          "summary": "【事件概述】行业分析指出，从2023至2026年，座舱交互从司机单人走向全乘员交互，但底层逻辑未变，用户与车机交互频次极低（每小时仅4-5次）。大模型上车正推动交互进入“智能体服务”新阶段。核心创新在于：座舱不再依赖传统点击、按键或指令式语音，而是通过多模态感知（视觉、听觉、触觉）和AI推理，主动提供个性化服务。例如，系统通过摄像头识别用户表情和视线方向，判断其是否对当前音乐不满，自动切换曲风；通过分析历史行为，在用户接近充电站时主动询问是否需要预约充电。这种“智能体”模式将交互从“用户驱动”转变为“场景驱动”，意图实现“零交互”的极致体验。\n\n【体验价值】从UX视角看，最大价值是“化繁为简”。用户无需主动操作，系统通过环境感知和意图推理，在正确时机提供正确服务，极大减少认知负荷和操作步骤。对于非技术用户，这种“无感”交互降低了学习门槛，使座舱真正成为“懂你”的智能空间。\n\n【潜在槽点】过度依赖AI推理可能导致“过度服务”，如频繁推荐不相关功能，形成交互冗余。多模态感知的准确性在复杂场景（如多人对话、光线变化）下可能下降，导致误判。此外，用户对“被监控”的隐私担忧可能影响接受度，尤其是摄像头持续分析表情和视线。",
-          "summary_en": "【Event Overview】Industry analysis indicates that from 2023 to 2026, cockpit interaction has shifted from driver-only to all-occupant, but the underlying logic remains unchanged, with extremely low interaction frequency (only 4-5 times per hour). Large models are driving interaction into an 'agent service' phase. The core innovation is that the cockpit no longer relies on traditional clicks, buttons, or command-based voice, but uses multi-modal perception (vision, hearing, touch) and AI reasoning to proactively provide personalized services. For example, the system recognizes user expressions and gaze direction via camera to detect dissatisfaction with current music and automatically switches genres; by analyzing historical behavior, it proactively asks if the user wants to schedule charging when approaching a station. This 'agent' model shifts interaction from 'user-driven' to 'scene-driven,' aiming for a 'zero-interaction' ultimate experience.\n\n【Experience Value】From a UX perspective, the greatest value is 'simplifying complexity.' Users don't need to actively operate; the system provides the right service at the right time through environmental perception and intent reasoning, greatly reducing cognitive load and operation steps. For non-technical users, this 'invisible' interaction lowers the learning curve, making the cockpit a truly 'understanding' smart space.\n\n【Potential Friction】Over-reliance on AI reasoning may lead to 'over-service,' such as frequent recommendations of irrelevant features, creating interaction redundancy. Multi-modal perception accuracy may degrade in complex scenarios (e.g., multi-person conversation, lighting changes), causing misjudgments. Additionally, privacy concerns about 'being monitored' may affect acceptance, especially with cameras continuously analyzing expressions and gaze."
-        },
-        {
-          "title": "长安启源Q05 OTA升级：HUAWEI HiCar 3D车控桌面与车家互联生态",
-          "url": "https://www.bilibili.com/video/BV1zcGm6cEE7/",
-          "site_name": "Bilibili",
-          "publish_date": "2026-05-27",
-          "tags": [
-            "长安",
-            "启源OS",
-            "OTA",
-            "HiCar",
-            "车家互联"
-          ],
-          "summary": "【事件概述】长安启源Q05迎来首次重磅OTA升级，首发“天枢智联”生态，核心创新包括两大功能：一是HUAWEI HiCar 3D车控桌面，将车辆3D模型作为交互主界面，用户可直接点击车门、车窗、空调等部件进行控制，支持手势旋转视角，视觉反馈实时同步车辆状态；二是美的、海尔车家互联生态，用户可通过车机语音或触控远程控制家中智能设备（如空调、灯光、扫地机器人），并支持场景联动（如“离家模式”一键关闭所有家电）。此外，升级还优化了语音助手，支持方言识别和连续对话。\n\n【体验价值】从UX视角看，3D车控桌面将抽象的控制菜单转化为直观的3D模型，用户无需记忆功能位置，通过视觉映射即可快速操作，降低了学习成本。车家互联生态打通了“车-家”场景，用户可在回家途中提前开启空调或热水器，提升生活便利性。OTA升级方式让用户无需到店即可获得新功能，体验持续进化。\n\n【潜在槽点】3D桌面虽直观，但渲染可能消耗较多系统资源，导致低配车型卡顿。车家互联依赖家庭网络和智能设备兼容性，若设备离线或协议不匹配，功能失效会引发用户挫败感。此外，远程控制家电的隐私安全（如摄像头被远程开启）需严格防护，否则可能成为安全隐患。",
-          "summary_en": "【Event Overview】Changan Qiyuan Q05 receives its first major OTA update, launching the 'Tianshu Zhilian' ecosystem. Core innovations include: 1) HUAWEI HiCar 3D car control desktop, using a 3D vehicle model as the main interaction interface. Users can directly click on doors, windows, AC, etc., for control, with gesture-based rotation and real-time visual feedback of vehicle status. 2) Midea and Haier car-to-home connectivity, allowing users to remotely control smart home devices (AC, lights, robot vacuum) via voice or touch, with scene linkage (e.g., 'Away Mode' turns off all appliances). The update also improves voice assistant with dialect recognition and continuous dialogue.\n\n【Experience Value】From a UX perspective, the 3D car control desktop transforms abstract control menus into an intuitive 3D model, eliminating the need to memorize function locations and reducing learning cost. Car-to-home connectivity bridges the 'car-home' scenario, allowing users to pre-cool AC or heat water on the way home, enhancing convenience. OTA updates enable continuous feature evolution without dealership visits.\n\n【Potential Friction】The 3D desktop may consume significant system resources, causing lag on lower-end models. Car-to-home functionality relies on home network and device compatibility; offline devices or protocol mismatches can lead to feature failure and user frustration. Additionally, remote control of home devices (e.g., cameras) requires strict privacy protection to prevent security risks."
-        }
-      ],
-      "created_at": "2026-05-31 14:29:01"
     }
   ]
 }
