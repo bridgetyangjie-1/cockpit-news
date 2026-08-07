@@ -1,6 +1,85 @@
 {
   "records": [
     {
+      "date": "2026-08-07",
+      "date_display": "08月07日",
+      "weekday": "周五",
+      "news_count": 5,
+      "news": [
+        {
+          "title": "暑期汽车OTA升级大战！各家新版本看点梳理",
+          "url": "https://www.bitauto.com/article/1003112037048/",
+          "site_name": "BitAuto",
+          "publish_date": "2026-08-05",
+          "tags": [
+            "仰望",
+            "OTA",
+            "隐私保护",
+            "座舱细节"
+          ],
+          "summary": "【事件概述】2026年暑期，多家车企集中推送OTA升级，其中仰望U8针对2023款豪华版和2024款越野玩家版推出专属更新，聚焦座舱细节体验与隐私安全优化，而非性能或辅助驾驶。更新内容包括增强隐私模式、优化权限管理、细化座舱显示与交互反馈等，体现了高端车型在软件层面从“功能堆砌”向“体验精修”的转变。同期，魏牌V9X也推送全域OTA，强化安全与实用性，覆盖整车多个域控单元。此次OTA大战反映出行业竞争已从硬件参数转向软件迭代速度与精细化运营，用户可通过远程升级持续获得新功能，无需进店，显著提升车辆生命周期价值。\n\n【体验价值】从UX视角看，仰望U8的OTA聚焦隐私与细节，直接回应了用户对数据安全和个性化设置的深层需求。增强隐私模式让用户对车内数据采集有更强掌控感，细节优化则减少交互冗余，提升日常使用的顺手度。这种“润物细无声”的更新，比激进的功能添加更能培养用户忠诚度，也符合高端用户对品质感的期待。\n\n【潜在槽点】OTA虽便捷，但频繁更新可能带来学习成本，用户需适应界面或功能变化。隐私优化若设置层级过深，反而增加操作负担。此外，OTA依赖网络环境，下载失败或安装中断可能引发用户焦虑，车企需提供清晰的回滚机制和进度提示。",
+          "summary_en": "【Event Overview】During the 2026 summer, multiple automakers pushed OTA updates. Yangwang U8's update focused on cabin detail experience and privacy security, shifting from performance to refinement. Wey V9X also received full-domain OTA. This reflects industry competition moving from hardware specs to software iteration speed and operational precision. Users can get new features remotely without visiting service centers, enhancing vehicle lifecycle value.\n\n【Experience Value】From UX perspective, the privacy and detail focus addresses user needs for data control and personalization. Enhanced privacy mode gives users more control over data collection, while detail optimizations reduce interaction redundancy. Such subtle updates foster loyalty and meet premium users' expectations for quality.\n\n【Potential Friction】Frequent OTA may cause learning costs as users adapt to UI changes. Privacy settings buried deep could increase operation burden. Network dependency for downloads may cause anxiety if interrupted; clear rollback and progress indicators are needed."
+        },
+        {
+          "title": "座舱大模型横评：鸿蒙、小鹏、特斯拉，工程落地差距在哪？",
+          "url": "https://www.yoojia.com/article/9656970026339221234.html",
+          "site_name": "有驾",
+          "publish_date": "2026-08-05",
+          "tags": [
+            "华为",
+            "小鹏",
+            "特斯拉",
+            "大模型"
+          ],
+          "summary": "【事件概述】近半年，座舱大模型方案密集落地：华为鸿蒙座舱HarmonySpace 6于4月发布，特斯拉中国在7月底推送搭载豆包大模型的车机OTA，阿里千问也在特斯拉车机环境完成深度测试。小鹏自研的天玑AIOS 6.0持续迭代。该横评从工程落地角度对比各家方案，指出华为依托全栈自研和生态整合，实现多设备无缝流转；小鹏则强调端到端语音大模型，提升复杂意图理解能力；特斯拉引入豆包大模型，将控车与闲聊分离，分别由豆包和DeepSeek负责，以发挥各自优势。文章分析认为，工程落地差距主要体现在模型推理延迟、端侧部署效率、与车控系统的耦合度以及数据闭环能力上，这些直接决定了用户体验的流畅性和可靠性。\n\n【体验价值】大模型进入座舱，让语音助手从“命令执行”升级为“意图理解”，用户可用自然语言完成多步操作，如“我冷了”自动调温并关窗。多模态融合（语音+视觉）进一步降低交互门槛，提升驾驶安全性。不同方案的分工协作（如控车与闲聊分离）能优化响应速度和准确性，减少误操作，让用户感受到“更懂我”的智能体验。\n\n【潜在槽点】大模型推理可能引入延迟，尤其在弱网环境下，影响交互流畅度。多模型切换可能造成语义不一致，用户需适应不同助手的“性格”。此外，大模型依赖云端，存在隐私泄露风险，用户语音数据如何本地化处理是挑战。工程上，端侧部署受限于芯片算力，可能牺牲模型能力，导致体验打折。",
+          "summary_en": "【Event Overview】In recent months, cabin large models have been deployed rapidly: Huawei HarmonySpace 6 launched in April, Tesla China pushed Doubao-powered OTA in late July, and Alibaba Qwen tested on Tesla. XPeng's Tianji AIOS 6.0 iterates. The review compares engineering implementation, noting Huawei's ecosystem integration, XPeng's end-to-end voice model, and Tesla's separation of control and chat using Doubao and DeepSeek. Key gaps include inference latency, edge deployment efficiency, coupling with vehicle control, and data loop capability.\n\n【Experience Value】Large models upgrade voice assistants from command execution to intent understanding, enabling natural language multi-step operations. Multimodal fusion reduces interaction barriers and enhances safety. Division of labor between control and chat optimizes response speed and accuracy, making users feel the assistant is smarter.\n\n【Potential Friction】Inference latency may affect fluency, especially on weak networks. Multi-model switching could cause semantic inconsistency. Cloud dependency raises privacy concerns; local processing of voice data is a challenge. Edge deployment limited by chip compute may sacrifice model capability."
+        },
+        {
+          "title": "特斯拉正式引入豆包大模型，座舱AI短板真被补齐了？3个维度看清+FAQ",
+          "url": "https://k.sina.cn/article_7879849730_1d5acf70206801kg7g.html",
+          "site_name": "新浪",
+          "publish_date": "2026-08-03",
+          "tags": [
+            "特斯拉",
+            "豆包",
+            "DeepSeek",
+            "语音助手"
+          ],
+          "summary": "【事件概述】特斯拉中国在7月底的车机OTA中正式引入豆包大模型，用于导航设定、媒体播放操控、空调温度调节、语音查询车主手册四大类控车功能；而DeepSeek Chat则承担AI闲聊与资讯查询。这种“控车”与“聊天”分离的设计，旨在让各模型发挥所长：豆包在指令理解和车控执行上更精准，DeepSeek在开放域对话上更自然。更新后，用户可通过语音完成更复杂的控车指令，如“导航到最近充电站并调低空调”，同时享受更流畅的闲聊体验。文章从响应速度、意图识别准确率、多轮对话能力三个维度分析，认为特斯拉补齐了此前语音助手的短板，但仍有提升空间，如对模糊指令的处理和方言支持。\n\n【体验价值】从UX看，双模型分工显著提升了交互效率：控车指令响应更快、更准，减少误操作；闲聊场景更自然，增强情感连接。用户无需记忆特定命令词，可用日常语言表达需求，降低了学习成本。这种“专业分工”模式也为行业提供了新思路，即根据任务类型选择最优模型，而非单一模型包打天下。\n\n【潜在槽点】双模型切换可能带来语义割裂，用户从闲聊切到控车时，助手“性格”突变，影响连贯性。此外，豆包和DeepSeek的数据处理边界需明确，否则可能引发隐私担忧。若模型更新不同步，可能导致功能不一致。用户对“控车”和“聊天”的预期差异，也可能造成困惑，需清晰提示当前模式。",
+          "summary_en": "【Event Overview】Tesla China introduced Doubao large model in late July OTA for control functions (navigation, media, AC, manual query), while DeepSeek Chat handles casual conversation and info queries. This separation aims to leverage each model's strength: Doubao for precise command execution, DeepSeek for natural dialogue. Users can now issue complex commands like 'navigate to nearest charging station and lower AC' and enjoy smoother chat. Analysis covers response speed, intent accuracy, multi-turn capability, noting improvements but gaps in vague commands and dialect support.\n\n【Experience Value】Dual-model division boosts interaction efficiency: control commands are faster and more accurate, reducing errors; chat is more natural, enhancing emotional connection. Users don't need to memorize commands, lowering learning cost. This 'specialized division' offers a new industry approach.\n\n【Potential Friction】Switching between models may cause semantic discontinuity, affecting coherence. Data processing boundaries between Doubao and DeepSeek need clarity to avoid privacy concerns. Asynchronous model updates could cause inconsistency. Users may be confused by different 'personalities' for control vs. chat; clear mode indication is needed."
+        },
+        {
+          "title": "大模型在座舱领域的创新探讨",
+          "url": "https://www.eet-china.com/mp/a513905.html",
+          "site_name": "电子工程专辑",
+          "publish_date": "2026-08-01",
+          "tags": [
+            "吉利",
+            "阶跃星辰",
+            "语音大模型",
+            "Agent"
+          ],
+          "summary": "【事件概述】文章探讨大模型在座舱领域的创新，指出座舱助手正从“聊天机器人”进化为能理解复杂意图、主动执行任务的“超级助手”。例如，吉利银河M9搭载阶跃星辰端到端语音大模型，在2026年CES上被外国观众称为“最具活人感”的语音交互体验。该模型通过端到端训练，直接映射语音到动作，减少传统流水线的错误累积，支持多轮对话和上下文记忆，能主动推荐服务。文章还提到OpenClaw作为座舱Agent的“操作系统”，提供标准化接口，让第三方开发者能快速构建座舱应用，形成生态。这种Agent化趋势，使座舱从被动响应转向主动服务，如根据用户日程自动规划充电、推荐餐厅等。\n\n【体验价值】端到端语音大模型让交互更自然、更“像人”，减少机械感，提升用户情感满意度。主动服务能力则让座舱成为“贴心助理”，在用户未开口前就提供帮助，如低电量时自动推荐充电站。Agent操作系统降低开发门槛，丰富应用生态，用户可享受更多个性化服务，增强座舱的实用性和可玩性。\n\n【潜在槽点】主动服务若判断失误，可能打扰用户，如误推荐不感兴趣的内容，造成交互冗余。端到端模型的可解释性差，出错时难以调试，可能引发安全风险。Agent生态开放也带来安全挑战，第三方应用可能访问敏感数据，需严格权限管理。此外，过度拟人化可能让用户产生不切实际的期待，导致失望。",
+          "summary_en": "【Event Overview】The article explores large model innovation in cabins, noting assistants evolving from chatbots to 'super assistants' that understand complex intents and proactively execute tasks. Geely Galaxy M9 uses StepFun's end-to-end voice model, praised at CES 2026 for 'most human-like' interaction. The model maps speech directly to actions, reducing error accumulation, supporting multi-turn dialogue and context memory. OpenClaw is mentioned as an Agent OS, providing standardized interfaces for third-party developers to build cabin apps, fostering an ecosystem.\n\n【Experience Value】End-to-end voice models make interaction more natural and human-like, enhancing emotional satisfaction. Proactive services turn the cabin into a thoughtful assistant, e.g., recommending charging stations when battery is low. Agent OS lowers development barriers, enriching app ecosystem and personalization.\n\n【Potential Friction】Proactive services may misjudge and disturb users, causing interaction redundancy. End-to-end models lack interpretability, making debugging difficult and posing safety risks. Open ecosystem raises security concerns; third-party apps may access sensitive data, requiring strict permission management. Over-anthropomorphism may create unrealistic expectations."
+        },
+        {
+          "title": "AI语音助手多模态交互是什么？智能座舱实测4大模式，买车前看懂这3个...",
+          "url": "https://k.sina.com.cn/article_7879777156_1d5abdb8406801k2go.html",
+          "site_name": "新浪",
+          "publish_date": "2026-08-01",
+          "tags": [
+            "小度",
+            "多模态",
+            "语音助手",
+            "场景感知"
+          ],
+          "summary": "【事件概述】文章介绍AI语音助手多模态交互在智能座舱的落地，以百度“超能小度”为例，该系统于2025年11月发布，面向全系设备上线。多模态交互融合语音、视觉、空间环境感知，实现四大模式：语音+手势（如指向某处说“打开那个”）、语音+视线（如注视车窗说“关窗”）、语音+触控（如点击屏幕同时语音指令）、语音+场景（如根据车内温度自动建议调温）。实测显示，这些模式能显著提升交互效率，尤其在嘈杂环境或用户不便说话时，视觉和手势可作为补充。文章还分析了多模态交互的技术成熟度，指出视觉识别准确率、多模态融合算法是当前重点，并预测未来将更深度结合驾驶员状态监测，实现主动安全交互。\n\n【体验价值】多模态交互降低了单一语音的局限性，用户可根据场景选择最自然的交互方式，如手指+语音比纯语音更精准。视觉和空间感知让助手“看懂”环境，提供上下文相关响应，减少重复指令。这种融合提升了交互的直观性和效率，尤其对驾驶场景，减少分心，增强安全性。同时，多模态也支持无障碍使用，如语音障碍用户可用手势控制。\n\n【潜在槽点】多模态融合可能增加系统复杂度，导致误识别，如手势误判或视线追踪不准，引发错误操作。用户需学习不同模态的组合规则，增加认知负担。视觉和空间感知涉及车内摄像头，隐私风险高，用户可能担忧被监控。此外，多模态交互在极端场景（如强光、遮挡）下可靠性存疑，需冗余设计。",
+          "summary_en": "【Event Overview】The article introduces multimodal interaction for AI voice assistants in cabins, using Baidu's 'Super Xiaodu' as example. It integrates voice, vision, and spatial perception, enabling four modes: voice+gesture, voice+gaze, voice+touch, and voice+context. Tests show these modes improve efficiency, especially in noisy environments or when speaking is inconvenient. The article analyzes technical maturity, noting visual recognition accuracy and fusion algorithms as key, and predicts deeper integration with driver state monitoring.\n\n【Experience Value】Multimodal interaction reduces limitations of voice-only, allowing users to choose the most natural method, e.g., pointing+voice is more precise. Vision and spatial perception let the assistant 'see' the environment, providing context-aware responses, reducing repetition. This enhances intuitiveness and efficiency, reducing distraction and improving safety. It also supports accessibility for users with speech impairments.\n\n【Potential Friction】Multimodal fusion may increase system complexity, causing misrecognition like gesture errors or gaze tracking inaccuracies. Users need to learn combination rules, adding cognitive load. Vision and spatial perception involve in-car cameras, raising privacy concerns. Reliability in extreme conditions (bright light, occlusion) is questionable, requiring redundant design."
+        }
+      ],
+      "created_at": "2026-08-07 12:31:35"
+    },
+    {
       "date": "2026-08-06",
       "date_display": "08月06日",
       "weekday": "周四",
@@ -3226,71 +3305,6 @@
         }
       ],
       "created_at": "2026-06-03 15:02:01"
-    },
-    {
-      "date": "2026-06-02",
-      "date_display": "06月02日",
-      "weekday": "周二",
-      "news_count": 4,
-      "news": [
-        {
-          "title": "小鹏AI天玑系统全量推送，AI代驾与AI泊车功能上线",
-          "url": "https://v.m.autohome.com.cn/v-2245721.html",
-          "site_name": "汽车之家",
-          "publish_date": "2026-05-28",
-          "tags": [
-            "小鹏",
-            "AI天玑",
-            "OTA",
-            "AI代驾"
-          ],
-          "summary": "【事件概述】小鹏汽车向四款车型全量推送AI天玑系统OTA升级，核心新增AI代驾和AI泊车功能。AI代驾基于端到端大模型，通过学习用户日常通勤路线（如上下班路径），实现一键激活的个性化自动驾驶，支持记忆多条路线。AI泊车则升级为“全场景泊车”，包括记忆泊车（学习固定车位路径）、遥控泊车（手机控制车辆进出窄车位）及跨层泊车（自动识别楼层并规划路径）。系统还优化了语音助手交互，支持连续对话和模糊指令理解（如“找个充电桩并导航过去”）。\n\n【体验价值】AI代驾将高频通勤场景自动化，用户无需每次手动设置导航，降低重复操作疲劳。AI泊车覆盖更多复杂场景（如多层停车场、窄车位），减少停车焦虑。语音助手升级后，用户可用自然语言完成多步操作，提升交互效率。\n\n【潜在槽点】AI代驾依赖路线学习，若用户通勤路线频繁变化（如临时绕路），系统可能误判或需重新学习。AI泊车在极端环境（如暴雨、夜间低光照）下识别率下降，导致功能不可用。语音助手对模糊指令的理解仍有限，复杂任务（如“先导航到A再找B附近的充电桩”）可能失败。",
-          "summary_en": "【Event Overview】XPeng pushed a full OTA update for its AI Tianji system across four models, introducing AI Commute and AI Parking. AI Commute uses an end-to-end model to learn daily routes (e.g., commute to work) for one-click personalized autonomous driving. AI Parking upgrades to full-scenario parking, including memory parking, remote parking, and cross-floor parking. Voice assistant now supports continuous dialogue and vague commands. \n\n【Experience Value】AI Commute automates high-frequency commutes, reducing manual navigation setup. AI Parking covers complex scenarios like multi-level garages, easing parking anxiety. Voice assistant upgrades enable natural language multi-step operations. \n\n【Potential Friction】AI Commute may misjudge if routes change frequently (e.g., detours). AI Parking performance degrades in extreme weather or low light. Voice assistant still struggles with complex vague commands, leading to failures."
-        },
-        {
-          "title": "澎湃OS4.0七大升级曝光，小米真正想抢的，其实不只是流畅度",
-          "url": "https://www.163.com/dy/article/KTUC46II0531THX3.html",
-          "site_name": "网易",
-          "publish_date": "2026-05-27",
-          "tags": [
-            "小米",
-            "澎湃OS",
-            "OTA",
-            "系统重构"
-          ],
-          "summary": "【事件概述】小米澎湃OS 4.0定档2026年6月发布，曝光七大升级，核心是彻底清理MIUI十年冗余代码，进行底层重构。创新点包括：1）全新“轻量化内核”，减少系统资源占用，提升老机型流畅度；2）AI驱动的“智能资源调度”，根据使用场景动态分配算力（如游戏时优先GPU，导航时优先GPS）；3）交互升级：引入“灵动胶囊”式通知栏（类似苹果动态岛），支持实时活动显示（如导航进度、音乐播放）；4）安全升级：新增“隐私沙盒”，隔离应用数据访问。此次升级覆盖手机和车机，强调跨设备一致性。\n\n【体验价值】底层重构直接解决安卓系统长期卡顿问题，尤其利好老机型用户。智能资源调度让车机在导航、音乐、通话等多任务下保持流畅。灵动胶囊通知减少屏幕切换，提升驾驶时信息获取效率。隐私沙盒增强用户对数据控制的信心。\n\n【潜在槽点】清理冗余代码可能导致部分老应用兼容性问题，用户需等待开发者适配。灵动胶囊功能若与第三方应用未深度整合，可能显示空白或错误信息。隐私沙盒可能限制某些合法应用（如车载健康监测）的数据访问，引发功能缺失。",
-          "summary_en": "【Event Overview】Xiaomi's HyperOS 4.0, launching June 2026, features seven major upgrades centered on cleaning up 10 years of MIUI legacy code. Innovations include: 1) lightweight kernel for reduced resource usage; 2) AI-driven resource scheduling for dynamic allocation; 3) interactive notification bar (like Dynamic Island) for real-time activities; 4) privacy sandbox for data isolation. The update covers both phones and vehicles, emphasizing cross-device consistency. \n\n【Experience Value】Kernel cleanup solves long-term Android lag, benefiting older devices. AI scheduling ensures smooth multitasking in vehicles. Dynamic Island notifications reduce screen switching, improving driving efficiency. Privacy sandbox boosts user trust. \n\n【Potential Friction】Code cleanup may cause compatibility issues with older apps. Dynamic Island may show blank or incorrect info if not integrated with third-party apps. Privacy sandbox could block legitimate apps like health monitors, causing feature loss."
-        },
-        {
-          "title": "鸿蒙智行专属小艺新架构重磅发布：首搭问界 M9，打造更聪明的全能出行...",
-          "url": "https://www.ithome.com/0/956/765.htm",
-          "site_name": "IT之家",
-          "publish_date": "2026-05-27",
-          "tags": [
-            "鸿蒙智行",
-            "小艺",
-            "AI语音",
-            "快慢脑"
-          ],
-          "summary": "【事件概述】2026年5月27日，鸿蒙智行发布全新小艺语音助手架构，首搭问界M9。核心创新是“快慢脑思考系统”：快脑负责即时响应（如“打开空调”），延迟低于0.5秒；慢脑处理复杂推理（如“我有点冷，但不想吹风”），调用大模型进行语义理解。新架构支持多模态交互，可结合摄像头识别用户手势（如指向车窗说“打开这个”）。此外，小艺新增“场景记忆”功能，能记住用户习惯（如每周五晚导航回家），并主动建议。\n\n【体验价值】快慢脑分离解决了语音助手“快而不准”或“准而慢”的矛盾，提升日常指令响应速度，同时保留复杂任务处理能力。多模态交互（手势+语音）降低驾驶时操作风险，更符合自然沟通习惯。场景记忆让车机从被动响应变为主动服务，提升个性化体验。\n\n【潜在槽点】慢脑推理依赖云端大模型，网络不佳时延迟显著增加，甚至功能降级。多模态交互需摄像头持续工作，可能引发隐私担忧（如车内录像）。场景记忆若误判用户意图（如错误推荐导航），可能造成困扰。",
-          "summary_en": "【Event Overview】On May 27, 2026, HarmonyOS smart vehicles launched a new Xiao Yi voice assistant architecture, first on AITO M9. Core innovation is the 'Fast-Slow Brain' system: Fast Brain handles instant commands (e.g., 'turn on AC') with <0.5s latency; Slow Brain handles complex reasoning (e.g., 'I'm cold but don't want wind') using large models. It supports multimodal interaction, combining camera gesture recognition. 'Scene Memory' learns user habits and proactively suggests actions. \n\n【Experience Value】Fast-Slow Brain separation balances speed and accuracy for voice commands. Multimodal interaction reduces driving risk by enabling natural gestures. Scene Memory transforms the car from reactive to proactive, enhancing personalization. \n\n【Potential Friction】Slow Brain relies on cloud models; poor network causes significant latency or degradation. Multimodal interaction requires constant camera use, raising privacy concerns. Scene Memory may misjudge user intent, leading to annoying suggestions."
-        },
-        {
-          "title": "智能座舱语音助手实力榜2026深度评测：谁更懂驾驶者",
-          "url": "https://mil.sohu.com/a/1030412502_122864692",
-          "site_name": "搜狐",
-          "publish_date": "2026-06-01",
-          "tags": [
-            "语音助手",
-            "AI大模型",
-            "座舱评测",
-            "交互体验"
-          ],
-          "summary": "【事件概述】2026年6月1日，搜狐发布智能座舱语音助手实力榜评测，从功能成熟度、语音交互体验、多语种适配、算力与功耗优化、生态融合度五个维度评估主流车载语音体系（包括小艺、小鹏、理想、蔚来NOMI、百度CarLife等）。评测发现：1）小艺在复杂语义理解（如多意图指令）上领先，得益于快慢脑架构；2）小鹏AI天玑在连续对话和模糊指令处理上表现突出；3）理想同学在家庭场景（如儿童语音识别）优化最佳；4）百度CarLife在多语种（中英混说）支持上最强。评测还指出，2026年语音助手普遍接入大模型，但算力瓶颈导致部分功能（如实时翻译）延迟较高。\n\n【体验价值】评测为消费者提供了横向对比参考，帮助选择最适合自身需求的语音系统。多语种适配和儿童语音识别优化，提升了家庭用户和国际化场景的可用性。大模型接入让语音助手从“命令执行”升级为“对话伙伴”，支持更自然的交互。\n\n【潜在槽点】评测维度偏重功能数量，忽略实际场景下的稳定性（如嘈杂环境识别率）。大模型接入导致功耗增加，可能影响续航。多语种混说支持仍不完美，方言或口音识别错误率较高。",
-          "summary_en": "【Event Overview】On June 1, 2026, Sohu published a ranking of smart cockpit voice assistants, evaluating systems from Xiao Yi, XPeng, Li Auto, NIO NOMI, and Baidu CarLife across five dimensions. Key findings: Xiao Yi leads in complex semantic understanding; XPeng excels in continuous dialogue; Li Auto optimizes for family scenarios; Baidu CarLife supports multilingual (Chinese-English mix). The review notes that large model integration is common but faces latency issues due to compute constraints. \n\n【Experience Value】The ranking helps consumers choose the best voice system for their needs. Multilingual and child voice optimization improve usability for families and international users. Large model integration upgrades assistants from command executors to conversational partners. \n\n【Potential Friction】The ranking focuses on feature count, ignoring stability in noisy environments. Large model integration increases power consumption, potentially affecting range. Multilingual support still struggles with dialects or accents, causing high error rates."
-        }
-      ],
-      "created_at": "2026-06-02 14:50:46"
     }
   ]
 }
