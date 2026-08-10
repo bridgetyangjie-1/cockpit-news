@@ -1,6 +1,44 @@
 {
   "records": [
     {
+      "date": "2026-08-10",
+      "date_display": "08月10日",
+      "weekday": "周一",
+      "news_count": 2,
+      "news": [
+        {
+          "title": "小鹏AI天玑系统全量推送：AI代驾与AI泊车成亮点",
+          "url": "https://v.m.autohome.com.cn/v-2245721.html",
+          "site_name": "汽车之家",
+          "publish_date": "2026-08-08",
+          "tags": [
+            "小鹏",
+            "天玑系统",
+            "AI代驾",
+            "AI泊车",
+            "全量OTA"
+          ],
+          "summary": "【事件概述】小鹏汽车宣布AI天玑系统（XOS 5.1）正式向X9、G9、P7i、G6四款车型全量推送，发布即推送。本次OTA的核心亮点是新增的“AI代驾”与“AI泊车”功能。AI代驾基于端到端大模型，能够学习用户的日常通勤路线和驾驶习惯，在用户设定起点和终点后，系统可自主完成变道、超车、绕行等操作，实现“点到点”的辅助驾驶。AI泊车则进一步强化了记忆泊车能力，支持跨楼层泊车和更复杂的车位识别。此外，天玑系统还对智能座舱交互进行了全面革新，引入了更自然的语音交互和全新的UI设计，旨在通过AI大模型重构人车关系，让车辆从“执行指令”向“主动服务”进化。此次全量推送标志着小鹏在AI智驾与智能座舱融合上的重要里程碑，也体现了其软件快速迭代的OTA能力。",
+          "summary_en": "【Event Overview】XPeng announced the full rollout of the AI Tianji system (XOS 5.1) to four models: X9, G9, P7i, and G6. The update highlights new 'AI代驾' (AI Co-Pilot) and 'AI泊车' (AI Parking) features. AI Co-Pilot uses end-to-end large models to learn user commuting routes and driving habits, enabling autonomous lane changes, overtaking, and obstacle avoidance for point-to-point assisted driving. AI Parking enhances memory parking with cross-floor support. The Tianji system also revamps the smart cockpit interaction with more natural voice control and a new UI, aiming to evolve the vehicle from executing commands to proactive service. This rollout marks a significant milestone in XPeng's AI-driven smart driving and cockpit integration.\n\n【Experience Value】AI代驾功能极大降低了用户在熟悉路线上重复操作的成本，让驾驶更轻松。AI泊车则解决了城市停车难、停车烦的痛点，提升了用车全流程的便利性。天玑系统的新UI和语音交互设计更注重信息层级与直觉操作，减少了用户的学习负担，让智驾功能更易用、更亲民。\n\n【Potential Friction】AI代驾功能在复杂城市路况下的安全性与可靠性仍需时间验证，用户可能对完全放手存在心理戒备。同时，该功能对高精地图和网络信号的依赖较强，在信号不佳区域可能失效。此外，不同车型间的硬件差异可能导致功能体验不一致，引发老车主的不满。"
+        },
+        {
+          "title": "酷开携AI智能体亮相ATC，重塑人车交互新范式",
+          "url": "https://k.sina.com.cn/article_7857141524_1d4527714019038vfe.html",
+          "site_name": "新浪网",
+          "publish_date": "2026-08-06",
+          "tags": [
+            "酷开",
+            "AI智能体",
+            "零层级交互",
+            "语音交互"
+          ],
+          "summary": "【事件概述】在ATC展会上，酷开展示了其最新的AI智能体解决方案，旨在重塑人车交互范式。该方案的核心是“零层级交互”理念，即通过AI感知与主动服务，让用户无需在复杂的菜单中寻找功能，而是通过语音或场景触发，直接获得所需服务。例如，当用户说“我冷了”，系统会自动调节空调温度并关闭车窗；当车辆检测到疲劳驾驶迹象时，会主动建议休息并推荐附近服务区。酷开的AI智能体不仅支持自然语言理解，还能结合车内多模态传感器（如摄像头、麦克风）感知用户情绪和状态，提供更具情感化的交互体验。这一方案代表了从“被动响应”到“主动感知”的交互革命，旨在解决当前智能座舱功能丰富但操作繁琐的痛点，让科技真正服务于人，而非增加负担。",
+          "summary_en": "【Event Overview】Coocaa showcased its latest AI Agent solution at ATC, aiming to reshape human-vehicle interaction. The core concept is 'zero-level interaction', where AI perception and proactive services eliminate the need for users to navigate complex menus. For instance, saying 'I'm cold' triggers automatic climate and window adjustments. The system also detects driver fatigue and proactively suggests breaks. Coocaa's AI Agent supports natural language understanding and combines multimodal sensors to perceive user emotions, offering a more empathetic interaction. This represents a shift from passive response to proactive perception, addressing the pain point of feature-rich but cumbersome smart cockpits.\n\n【Experience Value】“零层级交互”极大地降低了用户的学习成本，让驾驶者能更专注于驾驶本身。主动感知与情感化交互提升了座舱的“温度”，让科技更具人性化。这种设计理念将复杂功能隐藏在AI背后，用户只需表达意图，系统即可完成操作，显著提升了交互效率与驾驶安全性。\n\n【Potential Friction】“零层级交互”高度依赖AI的意图识别准确性，一旦误判，可能带来比传统操作更严重的后果。同时，主动感知功能涉及车内摄像头和麦克风数据，存在隐私泄露风险。此外，如何平衡“主动服务”与“打扰用户”之间的界限，是设计上的巨大挑战，过度主动可能引发用户反感。"
+        }
+      ],
+      "created_at": "2026-08-10 12:03:59"
+    },
+    {
       "date": "2026-08-09",
       "date_display": "08月09日",
       "weekday": "周日",
@@ -3165,57 +3203,6 @@
         }
       ],
       "created_at": "2026-06-06 14:01:18"
-    },
-    {
-      "date": "2026-06-05",
-      "date_display": "06月05日",
-      "weekday": "周五",
-      "news_count": 3,
-      "news": [
-        {
-          "title": "商汤绝影发布端侧多模态智能体基座大模型Sage",
-          "url": "https://www.leiphone.com/category/industrynews/9KqPK4sjhC0z4Qn5.html",
-          "site_name": "Leiphone",
-          "publish_date": "2026-04-22",
-          "tags": [
-            "商汤绝影",
-            "端侧大模型",
-            "多模态",
-            "智能体"
-          ],
-          "summary": "【事件概述】商汤绝影发布了端侧多模态智能体基座大模型Sage。该模型采用MoE（混合专家）架构，总参数量32B，但激活参数仅3B，是行业内首款在车端实现复杂智能体能力的基座大模型。Sage支持多模态输入（视觉、语音、文本），可在车端直接处理图像识别、语音指令和上下文理解，无需依赖云端。在PinchBench基准测试中，其性能领跑全球一线云端大模型，已在英伟达Orin等主流车规芯片上完成部署。\n\n【体验价值】Sage的端侧部署能力显著降低了对网络连接的依赖，用户在地下车库、隧道等弱网环境下仍能获得流畅的多模态交互体验。3B激活参数的设计在保证性能的同时，降低了功耗和硬件成本，使更多车型能搭载高级AI功能。多模态能力允许用户通过手势、语音和视觉组合进行更自然的交互。\n\n【潜在槽点】尽管激活参数少，但32B总参数仍对车端存储和内存有较高要求，可能限制在低端车型上的普及。多模态交互的复杂性可能导致用户学习成本增加，例如如何有效组合手势与语音指令。此外，端侧模型更新需通过OTA，若更新包过大，可能影响用户体验。",
-          "summary_en": "【Event Overview】SenseTime's Jueying released Sage, an edge-side multimodal agent base model. Using MoE architecture with 32B total parameters but only 3B activated, it's the first to achieve complex agent capabilities on-vehicle. Sage supports multimodal input (vision, voice, text) and processes locally without cloud dependency, outperforming global cloud models on PinchBench. \n\n【Experience Value】Edge deployment ensures smooth multimodal interaction in weak network environments like underground garages. The 3B activated parameters balance performance and power efficiency, enabling advanced AI on more models. Multimodal capabilities allow natural interaction via gestures, voice, and vision. \n\n【Potential Friction】The 32B total parameters still demand significant storage and memory, limiting adoption in low-end vehicles. Multimodal complexity may increase user learning curve, e.g., effectively combining gestures and voice. OTA updates for edge models could be large, impacting user experience."
-        },
-        {
-          "title": "蔚来Banyan 3.3.0 提升有多大？",
-          "url": "https://news.qq.com/rain/a/20260201V02BRX00",
-          "site_name": "腾讯新闻",
-          "publish_date": "2026-02-01",
-          "tags": [
-            "蔚来",
-            "Banyan",
-            "OTA",
-            "世界模型"
-          ],
-          "summary": "【事件概述】蔚来Banyan 3.3.0版本于2026年1月28日全量推送，核心升级是搭载了NWM 2.0（蔚来世界模型）与闭环强化学习架构。NWM 2.0能够实时预测道路参与者的行为，并生成多模态决策路径，使辅助驾驶从“规则驱动”迈向“认知智能”。该版本还优化了窄路会车、无保护左转、施工绕行等复杂场景的处理能力，并新增了泊车辅助车外语音播报功能。\n\n【体验价值】NWM 2.0的引入显著提升了辅助驾驶在复杂场景下的决策自然度和安全性，用户在面对窄路会车等场景时，车辆能更拟人化地处理，减少突兀感。闭环强化学习使系统能通过用户反馈持续优化，长期使用体验会越来越好。车外语音播报功能在泊车时提供安全提示，增强了行人交互。\n\n【潜在槽点】世界模型的决策逻辑对用户而言是“黑盒”，在极端场景下可能难以预测，导致用户信任度下降。闭环强化学习依赖大量用户数据，若数据收集不透明，可能引发隐私担忧。车外语音播报在安静环境下可能成为噪音，用户需手动关闭。",
-          "summary_en": "【Event Overview】NIO's Banyan 3.3.0 OTA, pushed on Jan 28, 2026, features NWM 2.0 (World Model) and closed-loop reinforcement learning. NWM 2.0 predicts road user behavior and generates multimodal decision paths, shifting ADAS from rule-based to cognitive intelligence. It improves handling of narrow roads, unprotected left turns, and construction zones, and adds parking assist with external voice announcements. \n\n【Experience Value】NWM 2.0 enhances decision naturalness and safety in complex scenarios, making vehicle behavior more human-like. Closed-loop learning enables continuous improvement based on user feedback. External voice announcements improve pedestrian interaction during parking. \n\n【Potential Friction】The world model's decision logic is a 'black box,' potentially reducing user trust in extreme scenarios. Closed-loop learning relies on extensive data collection, raising privacy concerns. External voice announcements may become noise in quiet environments, requiring manual deactivation."
-        },
-        {
-          "title": "腾势Z9/Z9 GT开启OTA升级，新增泊车辅助车外语音播报功能",
-          "url": "https://www.autohome.com.cn/article?id=omoIGQD4Zz8=",
-          "site_name": "Autohome",
-          "publish_date": "2026-06-05",
-          "tags": [
-            "腾势",
-            "OTA",
-            "泊车辅助",
-            "车外语音"
-          ],
-          "summary": "【事件概述】腾势Z9及Z9 GT车型通过OTA升级新增了泊车辅助车外语音播报功能。该功能在车辆自动泊车过程中，通过车外扬声器向周围行人播报提示音，如“车辆正在泊车，请注意安全”。这是继蔚来之后，又一家车企推出类似功能，旨在提升泊车场景下的行人交互安全性。\n\n【体验价值】车外语音播报功能填补了自动泊车时人车交互的空白，行人能直观了解车辆意图，减少因误解导致的碰撞风险。对于驾驶员而言，该功能提供了额外的安全保障，尤其是在视野受限的复杂泊车环境中。\n\n【潜在槽点】车外语音播报在夜间或安静住宅区可能成为噪音源，引发居民投诉。若播报音量不可调或无法关闭，用户可能感到困扰。此外，该功能依赖车外扬声器，若硬件故障，可能无法正常工作，且OTA无法修复硬件问题。",
-          "summary_en": "【Event Overview】Denza Z9 and Z9 GT received an OTA update adding parking assist with external voice announcements. During autonomous parking, the car broadcasts warnings like 'Vehicle is parking, please be careful' via external speakers, enhancing pedestrian interaction safety. \n\n【Experience Value】The feature fills the human-vehicle interaction gap during parking, allowing pedestrians to understand vehicle intent and reducing collision risks. For drivers, it provides extra safety in complex parking environments with limited visibility. \n\n【Potential Friction】External voice announcements may become noise in quiet residential areas at night, causing complaints. If volume is not adjustable or cannot be turned off, users may be annoyed. The feature relies on external speakers; hardware failure cannot be fixed via OTA."
-        }
-      ],
-      "created_at": "2026-06-05 14:40:57"
     }
   ]
 }
