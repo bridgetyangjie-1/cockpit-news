@@ -1,6 +1,90 @@
 {
   "records": [
     {
+      "date": "2026-08-11",
+      "date_display": "08月11日",
+      "weekday": "周二",
+      "news_count": 5,
+      "news": [
+        {
+          "title": "比亚迪上线手车互联:三大生态赋能，打造智能出行新体验",
+          "url": "https://k.sina.com.cn/article_7857141524_1d452771401902c33i.html",
+          "site_name": "新浪网",
+          "publish_date": "2026-08-11",
+          "tags": [
+            "比亚迪",
+            "手车互联",
+            "HiCar",
+            "Carlink",
+            "生态融合"
+          ],
+          "summary": "【事件概述】比亚迪宣布成为行业首家实现Carlink、HUAWEI HiCar、荣耀车联三大手车互联生态融合的汽车品牌。该方案通过OTA推送，支持华为、荣耀、OPPO、vivo、小米等主流品牌手机与车机无缝连接。核心创新在于“三合一”互联架构，打破了以往车机与手机品牌间的壁垒，用户无需更换手机即可享受导航流转、音乐续播、语音助手协同等跨端服务。此举标志着车企从“自建生态”转向“聚合生态”，通过兼容主流手机互联协议，快速扩充车内数字服务版图，降低用户上手门槛。\n\n【体验价值】从UX角度看，该方案最大价值在于“无感连接”与“选择自由”。用户无需学习特定品牌的车机操作逻辑，即可沿用手机上的应用习惯，实现导航地址无缝流转、通话无缝切换等场景，显著降低了跨设备操作的认知负荷，提升了出行连续性体验。\n\n【潜在槽点】多生态并行可能导致交互逻辑不统一，不同协议下的界面风格、功能层级存在差异，用户在不同手机间切换时可能感到割裂。此外，深度互联涉及大量用户数据（如通讯录、位置、日程）在车机端的缓存与使用，隐私边界与数据安全管控将成为潜在争议点。",
+          "summary_en": "【Event Overview】BYD announced it became the first automaker to integrate three major hand-car interconnection ecosystems: Carlink, HUAWEI HiCar, and Honor CarLink. The solution is delivered via OTA and supports seamless connection with mainstream phone brands. The core innovation is the 'triple-in-one' interconnection architecture, breaking down barriers between car systems and phone brands. \n\n【Experience Value】From a UX perspective, the greatest value lies in 'seamless connection' and 'freedom of choice'. Users don't need to learn brand-specific car system logic and can continue their phone app habits, significantly reducing cognitive load. \n\n【Potential Friction】Parallel ecosystems may lead to inconsistent interaction logic and UI styles. Deep interconnection involves caching and using user data (contacts, locations, schedules) in the car, raising privacy boundary and data security concerns."
+        },
+        {
+          "title": "暑期汽车OTA升级大战！各家新版本看点梳理",
+          "url": "https://news.yiche.com/hao/wenzhang/112037048/",
+          "site_name": "易车",
+          "publish_date": "2026-08-05",
+          "tags": [
+            "仰望U8",
+            "OTA",
+            "隐私安全",
+            "座舱细节",
+            "版本迭代"
+          ],
+          "summary": "【事件概述】报道梳理了暑期各车企OTA升级重点，其中仰望U8针对2023款豪华版与2024款越野玩家版推送专属OTA，本次迭代聚焦座舱细节体验与隐私安全优化，而非性能与辅助驾驶。更新内容预计包含更精细的座椅/空调调节逻辑、增强的权限管理（如麦克风、摄像头调用提示）、以及更透明的数据使用说明。此举反映出头部品牌在硬件趋同后，开始将软件竞争力转向“隐形体验”与“信任构建”，通过高频OTA打磨用户不易察觉但影响日常感受的细节。\n\n【体验价值】聚焦隐私与细节的OTA体现了对用户“安全感”与“掌控感”的关照。明确的权限提示与数据使用说明能降低用户对车内传感器与摄像头的戒备心理，而细节体验优化则能在长期使用中持续累积好感，提升品牌忠诚度。\n\n【潜在槽点】“细节优化”类更新难以通过营销直观传达价值，用户感知度可能较低，导致更新存在感弱。若隐私管理功能设计过于繁琐（如频繁弹窗询问权限），反而会打断交互流，造成新的操作负担。",
+          "summary_en": "【Event Overview】The report reviews OTA upgrade focuses during summer, highlighting Yangwang U8's exclusive OTA for 2023 Luxury and 2024 Off-Road Player editions. This iteration focuses on cabin detail experience and privacy security optimization, rather than performance or ADAS. Updates likely include more refined seat/AC control logic, enhanced permission management, and transparent data usage statements. \n\n【Experience Value】Focusing on privacy and details shows care for users' sense of security and control. Clear permission prompts reduce user wariness of in-car sensors, while detail optimizations accumulate goodwill over long-term use. \n\n【Potential Friction】'Detail optimization' updates are hard to market and may have low user perception. Overly complex privacy management (e.g., frequent permission pop-ups) could interrupt interaction flow and create new operational burdens."
+        },
+        {
+          "title": "蔚来banyan3.5这自动泊车拉完了",
+          "url": "https://www.douyin.com/video/7670553514007036281",
+          "site_name": "抖音",
+          "publish_date": "2026-08-05",
+          "tags": [
+            "蔚来",
+            "Banyan 3.5",
+            "自动泊车",
+            "用户体验",
+            "功能缺陷"
+          ],
+          "summary": "【事件概述】一位蔚来粉丝在抖音发布视频，吐槽Banyan 3.5系统的自动泊车功能表现不佳，引发关注。视频中展示了自动泊车在特定场景下的失败或笨拙表现，与用户预期存在差距。尽管该用户对品牌持正面态度，但对该功能提出了尖锐批评。这反映出在OTA高频迭代下，新版本功能可能因场景覆盖不足或算法回归而出现体验波动，用户对智驾功能的容错率极低，一次失败体验可能严重损害功能信任度。\n\n【体验价值】该事件反向凸显了真实用户反馈对OTA迭代的重要性。公开吐槽形成舆论压力，可倒逼车企加速修复算法漏洞，优化泊车策略在边缘场景（如无划线车位、窄车位）的表现，从而提升整体功能的可靠性与用户满意度。\n\n【潜在槽点】自动泊车等智驾功能在宣传时往往强调“能力边界”，但用户实际使用时易产生“全场景可用”的误解。一旦遭遇失败，不仅该功能被否定，还可能引发对品牌整体智驾水平的质疑。此外，不同车型传感器配置差异可能导致同一版本算法表现不一，增加问题定位与修复难度。",
+          "summary_en": "【Event Overview】A NIO fan posted a video criticizing the poor performance of the Banyan 3.5 auto-parking feature, which gained attention. The video shows the system failing or behaving clumsily in specific scenarios, falling short of user expectations. This reflects that under high-frequency OTA iteration, new features may experience quality fluctuations due to insufficient scenario coverage or algorithm regression. \n\n【Experience Value】This incident highlights the importance of real user feedback for OTA iteration. Public criticism can pressure automakers to accelerate bug fixes and optimize parking strategies in edge cases, improving overall reliability and satisfaction. \n\n【Potential Friction】ADAS features like auto-parking are often marketed with 'capability boundaries', but users may misunderstand them as 'usable in all scenarios'. A single failure can not only discredit the feature but also raise doubts about the brand's overall intelligent driving capability."
+        },
+        {
+          "title": "小鹏monam032026款|单车导购|掀背车导购|新能源|小鹏汽车|小鹏MONA M0...",
+          "url": "https://www.sina.cn/news/article/nimpfyi4647136.html",
+          "site_name": "新浪网",
+          "publish_date": "2026-08-07",
+          "tags": [
+            "小鹏",
+            "天玑OS 6.0",
+            "VLA 2.0",
+            "头枕音响",
+            "座舱升级"
+          ],
+          "summary": "【事件概述】报道介绍了2026款小鹏MONA M03的升级点。智能座舱方面，车机系统升级为天玑OS 6.0，配合2.5K中控大屏，交互体验与视觉效果显著提升。新款全系标配主驾头枕音响，可定向播报导航信息，避免干扰车内其他乘客。此外，小鹏承诺下半年为Max版车主升级VLA 2.0智驾系统。天玑OS 6.0预计将引入更流畅的动效、更智能的语音交互与更开放的生态应用，而头枕音响则体现了对“声音分区”这一交互细节的重视。\n\n【体验价值】主驾头枕音响的标配是典型的“场景化交互”设计，通过物理手段实现音频空间隔离，解决了导航提示与乘客娱乐之间的冲突，提升了驾驶专注度与乘客舒适度。天玑OS 6.0的升级则有望带来更统一、更高效的交互逻辑，减少操作层级。\n\n【潜在槽点】头枕音响的定向效果受座椅材质、头枕位置调节影响，实际体验可能因人而异。天玑OS 6.0若在界面布局或交互手势上大幅变动，老用户需重新适应，存在一定的学习成本。VLA 2.0的OTA承诺若延期，将再次消耗用户对品牌交付能力的信任。",
+          "summary_en": "【Event Overview】The report introduces upgrades for the 2026 Xiaopeng MONA M03. The cockpit system upgrades to Tianji OS 6.0 with a 2.5K central display. The new model features standard driver headrest speakers for directional navigation audio, avoiding disturbance to other passengers. Xiaopeng also promised VLA 2.0 ADAS upgrade for Max owners in H2. \n\n【Experience Value】The headrest speaker is a typical 'scenario-based interaction' design, using physical means to achieve audio space isolation, resolving conflicts between navigation prompts and passenger entertainment. The Tianji OS 6.0 upgrade promises more unified and efficient interaction logic. \n\n【Potential Friction】Headrest speaker directionality may vary with seat material and headrest position. Major UI or gesture changes in Tianji OS 6.0 could require existing users to re-learn, incurring learning costs. Delays in VLA 2.0 OTA promises could further erode trust in delivery capability."
+        },
+        {
+          "title": "产经周知｜腾势N9密集OTA：从功能迭代到高端市场护城河的重构",
+          "url": "https://www.pageev.com/hangye/148148.html",
+          "site_name": "Pageev",
+          "publish_date": "2026-08-07",
+          "tags": [
+            "腾势N9",
+            "OTA",
+            "高端化",
+            "软件生态",
+            "品牌向上"
+          ],
+          "summary": "【事件概述】文章指出行业竞争焦点正从“硬件参数军备竞赛”转向“软件体验与生态服务”。腾势N9通过高频、高质量的OTA来证明其智能化水平不输新势力，以支撑其38.98万-46.98万元的高端定价。密集OTA策略不仅包括功能新增，更涉及对既有交互逻辑的优化与生态服务的深化，旨在通过持续进化构建高端市场的“软件护城河”。这标志着传统高端品牌正试图用互联网式的迭代节奏，重塑用户对“豪华”的认知——从材质与动力转向智能体验的持续新鲜感。\n\n【体验价值】高频OTA为用户带来“常开常新”的体验，强化了车辆作为“可进化终端”的感知。这种持续的价值增长模式，有助于提升用户粘性，并在高端市场建立差异化的服务形象，让用户感受到品牌对软件体验的长期投入。\n\n【潜在槽点】密集OTA对版本管理与质量把控提出极高要求，若更新过于频繁或引入新Bug，易引发用户反感。同时，若OTA内容多为“修修补补”而非实质性功能突破，用户会产生“更新疲劳”，反而削弱对品牌创新能力的评价。",
+          "summary_en": "【Event Overview】The article points out that industry competition is shifting from 'hardware spec wars' to 'software experience and ecosystem services'. Denza N9 uses high-frequency, high-quality OTA to prove its intelligence level is on par with new forces, supporting its premium pricing. The dense OTA strategy includes new features, interaction logic optimization, and deeper ecosystem services, aiming to build a 'software moat' in the high-end market. \n\n【Experience Value】High-frequency OTA brings an 'always fresh' experience, reinforcing the perception of the vehicle as an 'evolvable terminal'. This continuous value growth model helps increase user stickiness and establish a differentiated service image in the premium segment. \n\n【Potential Friction】Dense OTA demands extremely high version management and quality control. If updates are too frequent or introduce new bugs, user backlash may occur. If OTA content is mostly 'patching' rather than substantial breakthroughs, users may experience 'update fatigue', weakening brand innovation perception."
+        }
+      ],
+      "created_at": "2026-08-11 11:51:25"
+    },
+    {
       "date": "2026-08-10",
       "date_display": "08月10日",
       "weekday": "周一",
@@ -3138,71 +3222,6 @@
         }
       ],
       "created_at": "2026-06-07 14:39:11"
-    },
-    {
-      "date": "2026-06-06",
-      "date_display": "06月06日",
-      "weekday": "周六",
-      "news_count": 4,
-      "news": [
-        {
-          "title": "座舱有了AI大模型，小车智能也在线，全新吉利星愿6.18万起上市！",
-          "url": "https://www.sohu.com/a/1030071424_121134540",
-          "site_name": "搜狐",
-          "publish_date": "2026-06-01",
-          "tags": [
-            "吉利",
-            "AI大模型",
-            "萌宠交互",
-            "桌面自定义"
-          ],
-          "summary": "【事件概述】全新吉利星愿于2026年6月上市，其座舱软件核心亮点是搭载了全新AI Eva大模型，并引入了创新的萌宠壁纸交互。该车采用7nm车规级龍鹰1号芯片和16G+128G大存储，确保系统流畅。交互上，用户可自由切换地图和壁纸桌面，其中萌宠壁纸支持互动——点击屏幕上的卡通动物，它会做出表情反馈，如眨眼、摇尾巴等，为座舱增添情感温度。AI Eva大模型则支持自然语言理解，能处理复杂指令，如“我饿了，推荐附近餐厅，并规划不堵车的路线”，并支持多轮对话和上下文记忆。此外，系统还提供个性化场景推荐，如根据时间自动切换白天/黑夜模式，根据驾驶模式调整界面风格。\n\n【体验价值】萌宠壁纸互动是低成本、高情感价值的UX创新，通过微交互（点击反馈）降低了座舱的冰冷感，尤其吸引年轻用户和家庭用户。AI大模型的加入让语音助手从“工具”升级为“伙伴”，能理解模糊意图，减少用户重复指令的挫败感，提升交互自然度。\n\n【潜在槽点】萌宠交互可能分散驾驶员注意力，尤其在高速行驶时，点击屏幕动物并非安全操作。AI大模型的上下文记忆若处理不当，可能导致隐私泄露（如记录用户常去地点）。此外，萌宠壁纸的动画效果可能增加系统资源消耗，影响长期流畅性。",
-          "summary_en": "【Event Overview】The new Geely Staryun launched in June 2026 features a cockpit software highlight: the new AI Eva large model and innovative pet wallpaper interaction. It uses a 7nm automotive-grade chip and 16G+128G storage for smooth performance. Users can freely switch between map and wallpaper desktops, with pet wallpapers supporting interaction—tapping a cartoon animal triggers facial feedback like blinking or tail wagging, adding emotional warmth. The AI Eva large model handles natural language understanding, processing complex commands like 'I'm hungry, recommend nearby restaurants and plan a route without traffic jams', and supports multi-turn dialogue with context memory. The system also offers personalized scenario recommendations, such as auto-switching day/night mode based on time and adjusting UI style based on driving mode.\n\n【Experience Value】The pet wallpaper interaction is a low-cost, high-emotional-value UX innovation, reducing the coldness of the cockpit through micro-interactions (click feedback), especially appealing to young and family users. The AI large model elevates the voice assistant from a 'tool' to a 'companion', understanding vague intents and reducing user frustration from repeated commands, enhancing interaction naturalness.\n\n【Potential Friction】Pet interaction may distract the driver, especially at high speeds, as tapping the screen is not safe. The AI large model's context memory, if mishandled, could lead to privacy leaks (e.g., recording frequent locations). Additionally, pet wallpaper animations may increase system resource consumption, affecting long-term smoothness."
-        },
-        {
-          "title": "捷达VS8将迎来OTA升级 新增两种手机与车机互联功能",
-          "url": "https://www.autohome.com.cn/article?id=_wteZU9Yu1U=",
-          "site_name": "汽车之家",
-          "publish_date": "2026-06-05",
-          "tags": [
-            "捷达",
-            "OTA",
-            "手机互联",
-            "功能优化"
-          ],
-          "summary": "【事件概述】捷达VS8于2026年6月公布最新OTA升级计划，核心新增两类手机与车机互联功能，并优化6项体验。新增功能包括：1）无线CarPlay/Android Auto深度集成，支持导航、音乐、电话等应用无缝投射，且可通过车机触控或语音直接操作手机端应用；2）手机远程控车功能增强，用户可通过手机APP实现远程启动空调、查看车辆状态、开关车窗等，并新增蓝牙钥匙分享功能，可临时授权他人使用车辆。6项体验优化涵盖：语音助手响应速度提升30%、导航界面增加实时路况动态渲染、音乐播放器支持无损音质、空调控制界面增加一键快速降温/升温模式、仪表盘主题新增3种风格、系统稳定性修复。\n\n【体验价值】无线CarPlay/Android Auto深度集成是核心价值，它消除了线缆束缚，让用户无缝延续手机生态，降低学习成本。远程控车和蓝牙钥匙分享提升了便利性和共享场景的灵活性，尤其适合家庭用车。OTA持续优化表明车企重视用户反馈，通过软件迭代改善体验。\n\n【潜在槽点】无线互联功能可能增加手机电量消耗和车机发热问题。蓝牙钥匙分享存在安全风险，若手机丢失或授权管理不当，可能导致车辆被盗。OTA升级过程若中断或失败，可能影响车机基础功能，用户需具备一定技术知识处理。",
-          "summary_en": "【Event Overview】Jetta VS8 announced its latest OTA upgrade plan in June 2026, adding two new phone-to-car connectivity features and optimizing 6 experiences. New features include: 1) Deep integration of wireless CarPlay/Android Auto, supporting seamless projection of navigation, music, and phone apps, with touch or voice control on the car screen; 2) Enhanced remote car control via phone app, including remote start AC, vehicle status check, window control, and new Bluetooth key sharing for temporary authorization. The 6 optimizations cover: 30% faster voice assistant response, real-time traffic dynamic rendering on navigation, lossless audio support, one-click quick cool/heat mode on AC UI, 3 new dashboard themes, and system stability fixes.\n\n【Experience Value】The deep integration of wireless CarPlay/Android Auto is the core value, eliminating cable clutter and allowing users to seamlessly continue their phone ecosystem, reducing learning costs. Remote control and Bluetooth key sharing enhance convenience and sharing scenarios, especially for family use. Continuous OTA updates show the automaker values user feedback, improving experience through software iteration.\n\n【Potential Friction】Wireless connectivity may increase phone battery drain and car system heat. Bluetooth key sharing poses security risks; if the phone is lost or authorization is mismanaged, the vehicle could be stolen. OTA upgrade interruptions or failures may affect basic car functions, requiring user technical knowledge to resolve."
-        },
-        {
-          "title": "车主实测！蔚来 Banyan 3.3.0 提升有多大？",
-          "url": "https://www.dongchedi.com/video/7601714951094895129",
-          "site_name": "懂车帝",
-          "publish_date": "2026-06-04",
-          "tags": [
-            "蔚来",
-            "Banyan",
-            "OTA",
-            "AI代驾"
-          ],
-          "summary": "【事件概述】蔚来Banyan 3.3.0于2026年1月全量推送，但近期车主实测视频引发关注，展示其软件升级的显著提升。该版本搭载NWM 2.0（蔚来世界模型）与闭环强化学习架构，核心创新包括：1）AI代驾功能升级，系统能学习用户日常通勤路线，自动生成最优驾驶策略，如提前变道、预判红绿灯等，实现“千人千面”的驾驶辅助；2）AI泊车增强，支持更复杂的车位识别（如狭窄车位、斜列车位），并新增“遥控泊车”功能，用户可在车外通过手机APP控制车辆泊入/泊出；3）语音助手NOMI升级，支持多模态交互，如结合车内摄像头识别用户手势（如指向窗外）并执行相关指令；4）界面优化，新增“动态壁纸”功能，壁纸可根据时间、天气、驾驶模式自动变化。\n\n【体验价值】AI代驾的“学习”能力是最大亮点，它从被动辅助变为主动适应，让驾驶辅助真正个性化，减少用户手动调整的繁琐。遥控泊车解决了狭窄车位上下车难的痛点，提升便利性。多模态语音交互让指令更直观，降低操作复杂度。\n\n【潜在槽点】AI代驾的学习过程需要时间，初期可能表现不佳，用户需耐心“训练”系统。遥控泊车依赖手机信号和车机稳定性，若连接中断可能导致安全风险。多模态交互中的摄像头持续工作可能引发隐私担忧，用户需明确知晓数据用途。",
-          "summary_en": "【Event Overview】NIO Banyan 3.3.0 was fully pushed in January 2026, but recent owner test videos have drawn attention, showcasing significant software upgrades. This version features NWM 2.0 (NIO World Model) and closed-loop reinforcement learning architecture. Core innovations include: 1) Upgraded AI driving assistant that learns user daily commute routes and automatically generates optimal driving strategies, such as early lane changes and traffic light prediction, achieving personalized ADAS; 2) Enhanced AI parking supporting complex spot recognition (e.g., narrow, angled spots) and new 'remote parking' allowing users to control parking via phone app outside the car; 3) Upgraded voice assistant NOMI with multimodal interaction, such as recognizing user gestures (e.g., pointing out the window) via in-cabin camera and executing related commands; 4) UI optimization with new 'dynamic wallpaper' that changes based on time, weather, and driving mode.\n\n【Experience Value】The 'learning' capability of AI driving assistant is the highlight, shifting from passive assistance to active adaptation, truly personalizing ADAS and reducing manual adjustments. Remote parking solves the pain point of getting in/out of tight spaces, enhancing convenience. Multimodal voice interaction makes commands more intuitive, reducing operation complexity.\n\n【Potential Friction】The AI driving assistant's learning process takes time, with potentially poor initial performance, requiring user patience to 'train' the system. Remote parking relies on phone signal and car system stability; connection loss could pose safety risks. Continuous camera use in multimodal interaction may raise privacy concerns; users need clear data usage policies."
-        },
-        {
-          "title": "构建简单自然的智能座舱：从场景驱动设计到多模态交互实践",
-          "url": "https://blog.csdn.net/weixin_33275503/article/details/161609538",
-          "site_name": "CSDN博客",
-          "publish_date": "2026-06-01",
-          "tags": [
-            "场景驱动",
-            "多模态交互",
-            "UI/UX设计",
-            "智能推荐"
-          ],
-          "summary": "【事件概述】该博客文章系统阐述了智能座舱场景驱动设计与多模态交互的实践方法论，虽非具体产品发布，但代表了行业前沿设计理念。核心观点包括：1）场景驱动设计：将座舱功能按高频场景（如高速、停车、充电、通勤）分类，通过场景卡片或智能推荐栏，在特定场景下动态出现在首页便捷位置，减少用户查找层级。例如，高速场景自动弹出辅助驾驶设置卡片，停车场景弹出360环视和泊车辅助卡片。2）多模态交互融合：结合语音、手势、视线、触控等多种输入方式，根据场景自动切换最优交互模式。例如，驾驶中优先语音和手势，停车时支持触控和视线确认。3）智能推荐算法：基于用户历史行为、时间、路况等数据，主动推荐功能或内容，如通勤路上推荐常听播客，充电时推荐附近餐厅。\n\n【体验价值】场景驱动设计直接降低了用户认知负荷，让“功能找人”而非“人找功能”，提升效率。多模态融合让交互更自然，减少对单一输入方式的依赖，尤其提升驾驶安全性。智能推荐算法能创造“惊喜感”，让座舱更懂用户。\n\n【潜在槽点】场景卡片若推荐不准确（如误判场景），会变成干扰，增加用户关闭操作。多模态交互的优先级冲突（如语音和手势同时触发）可能导致系统混乱。智能推荐依赖大量用户数据，若隐私保护不透明，易引发用户不信任。",
-          "summary_en": "【Event Overview】This blog article systematically elaborates on the practice methodology of scenario-driven design and multimodal interaction in smart cockpits. Although not a specific product release, it represents cutting-edge design concepts. Core points include: 1) Scenario-driven design: Classify cockpit functions by high-frequency scenarios (e.g., highway, parking, charging, commuting), and dynamically display them on the home screen via scenario cards or smart recommendation bars, reducing user search layers. For example, highway scenarios auto-pop ADAS setting cards, parking scenarios pop 360-degree view and parking assist cards. 2) Multimodal interaction fusion: Combine voice, gesture, gaze, and touch inputs, automatically switching to the optimal interaction mode based on the scenario. For instance, prioritize voice and gesture while driving, support touch and gaze confirmation when parked. 3) Smart recommendation algorithm: Based on user history, time, and road conditions, proactively recommend functions or content, such as recommending frequent podcasts during commutes or nearby restaurants when charging.\n\n【Experience Value】Scenario-driven design directly reduces user cognitive load, making 'functions find people' instead of 'people find functions', improving efficiency. Multimodal fusion makes interaction more natural, reducing reliance on a single input method, especially enhancing driving safety. Smart recommendation algorithms can create a 'surprise' feeling, making the cockpit more understanding of the user.\n\n【Potential Friction】If scenario cards are inaccurate (e.g., misjudging the scenario), they become distractions, increasing user closure operations. Priority conflicts in multimodal interaction (e.g., simultaneous voice and gesture triggers) may cause system confusion. Smart recommendations rely on extensive user data; if privacy protection is not transparent, it may lead to user distrust."
-        }
-      ],
-      "created_at": "2026-06-06 14:01:18"
     }
   ]
 }
