@@ -1,6 +1,43 @@
 {
   "records": [
     {
+      "date": "2026-08-12",
+      "date_display": "08月12日",
+      "weekday": "周三",
+      "news_count": 2,
+      "news": [
+        {
+          "title": "Automakers Are Quietly Halting Weekly OTA Updates",
+          "url": "https://www.motor1.com/news/804122/automakers-changing-ota-updates-now/",
+          "site_name": "Motor1",
+          "publish_date": "2026-08-08",
+          "tags": [
+            "OTA策略",
+            "软件迭代",
+            "用户体验",
+            "可靠性"
+          ],
+          "summary": "【事件概述】Motor1报道了汽车行业OTA策略的重大转变：车企正悄然放弃高频次的周更，转向更少但影响更深远的更新。报道指出，这种转变的核心是聚焦于更深层次的行为和可靠性改进，而非持续的信息娱乐微调。这意味着车企开始意识到，频繁的更新不仅消耗大量研发资源，还可能因引入新Bug或改变用户习惯而带来负面体验。新的策略更注重每次更新的质量和稳定性，将资源集中在解决核心问题、优化关键功能或引入重大体验变革上。\n\n【体验价值】从UX角度看，这种“少而精”的OTA策略有助于提升系统的稳定性和用户信任度。用户不再需要频繁适应界面微调或应对更新后出现的新问题，减少了学习成本和被打扰感。更稳定的系统意味着更可靠的核心功能表现，如导航、语音助手等，从而提升整体驾驶体验的满意度。\n\n【潜在槽点】这种策略的潜在风险在于，用户可能会感觉系统更新缓慢，缺乏新鲜感，尤其是在竞争对手通过高频更新快速迭代功能时。此外，如果车企对“高影响”更新的判断失误，将重大功能更新推迟过久，可能会错失市场窗口期，导致用户体验落后于时代。",
+          "summary_en": "【Event Overview】Motor1 reported a major shift in automotive OTA strategy: automakers are quietly moving away from high-frequency weekly updates towards fewer, but more impactful ones. The report indicates a focus on deeper behavioral and reliability changes rather than constant infotainment tweaks. This shift acknowledges that frequent updates consume significant resources and can harm user experience by introducing bugs or disrupting habits. The new strategy prioritizes the quality and stability of each update, concentrating resources on solving core issues or introducing major experience overhauls. \n\n【Experience Value】From a UX perspective, this 'less is more' OTA strategy helps enhance system stability and user trust. Users no longer need to frequently adapt to UI tweaks or deal with new issues post-update, reducing cognitive load and annoyance. A more stable system means more reliable performance of core functions like navigation and voice assistants, thereby improving overall satisfaction. \n\n【Potential Friction】The potential risk is that users may perceive the system as slow to evolve, lacking freshness, especially when competitors rapidly iterate features. Furthermore, if an automaker misjudges what constitutes a 'high-impact' update and delays major feature releases for too long, they may miss market windows, leaving their user experience lagging behind the times."
+        },
+        {
+          "title": "智能座舱多屏联动体验设计：让每一块屏幕各司其职的交互哲学",
+          "url": "https://www.momohmi.com/ux/momoux4971.html",
+          "site_name": "MOMOUX",
+          "publish_date": "2026-08-12",
+          "tags": [
+            "多屏交互",
+            "HMI设计",
+            "注意力分散",
+            "信息架构"
+          ],
+          "summary": "【事件概述】MOMOUX发表文章，深入探讨了智能座舱多屏联动的体验设计哲学。文章指出，随着屏幕数量增加，体验碎片化问题日益严重。其调研数据显示，驾驶员在一次操作中，视线需在2-3块屏幕间来回跳转，平均每次转移耗时0.8-1.2秒，这在高速驾驶中构成安全隐患。文章提出“让每一块屏幕各司其职”的交互哲学，主张通过明确的信息层级和功能分区，减少视觉跳跃，优化信息获取效率，而非单纯追求屏幕数量或炫技效果。\n\n【体验价值】该设计理念的核心价值在于“减负”。通过合理的功能分区（如仪表盘专注驾驶信息、中控屏负责主要交互、副驾屏提供娱乐），可以显著降低驾驶员的认知负荷和视线转移频率，提升操作效率和安全性。这种以用户注意力为核心的设计，能让多屏系统真正服务于驾驶场景，而非成为新的干扰源。\n\n【潜在槽点】“各司其职”的静态分区可能无法适应所有场景。例如，在导航时，驾驶员可能希望地图信息在仪表盘和中控屏间无缝流转，而严格的分区会阻碍这种灵活性。此外，如何定义“司其职”的边界，需要深入的用户研究和场景分析，若定义不当，反而会限制功能的自然发现和探索，增加用户的学习成本。",
+          "summary_en": "【Event Overview】MOMOUX published an article exploring the UX design philosophy of multi-screen interaction in smart cabins. It highlights the growing issue of experience fragmentation as screen count increases. Their research shows that a driver's gaze needs to jump between 2-3 screens during a single operation, with each transfer taking an average of 0.8-1.2 seconds, posing a safety risk at high speeds. The article proposes a philosophy of 'letting each screen do its own job', advocating for clear information hierarchy and functional zoning to reduce visual jumps and improve information retrieval efficiency, rather than merely pursuing screen quantity or flashy effects. \n\n【Experience Value】The core value of this design philosophy is 'reducing cognitive load'. By logically partitioning functions (e.g., instrument cluster for driving info, center console for primary interaction, passenger screen for entertainment), it can significantly reduce the driver's cognitive load and frequency of gaze shifts, enhancing operational efficiency and safety. This user-attention-centric design ensures the multi-screen system serves the driving scenario rather than becoming a new source of distraction. \n\n【Potential Friction】A static 'each does its own job' partition may not adapt to all scenarios. For instance, during navigation, a driver might want map information to seamlessly flow between the instrument cluster and the center console, but strict zoning could hinder this flexibility. Furthermore, defining the boundaries of 'its own job' requires deep user research and scenario analysis; if defined poorly, it could limit natural feature discovery and exploration, increasing the user's learning cost."
+        }
+      ],
+      "created_at": "2026-08-12 12:14:41"
+    },
+    {
       "date": "2026-08-11",
       "date_display": "08月11日",
       "weekday": "周二",
@@ -3157,71 +3194,6 @@
         }
       ],
       "created_at": "2026-06-08 14:54:43"
-    },
-    {
-      "date": "2026-06-07",
-      "date_display": "06月07日",
-      "weekday": "周日",
-      "news_count": 4,
-      "news": [
-        {
-          "title": "腾讯构建智能座舱AI Agent：端云协同与混元大模型驱动",
-          "url": "https://cloud.tencent.com/developer/article/2680553",
-          "site_name": "Cloud",
-          "publish_date": "2026-06-01",
-          "tags": [
-            "腾讯",
-            "AI Agent",
-            "端云协同",
-            "混元大模型"
-          ],
-          "summary": "【事件概述】腾讯推出端云协同Agentic AI架构，专为智能座舱提供全场景解决方案。该方案通过场景感知、自主决策与协同执行三大能力，实现高频互联网生态无缝上车。已覆盖车主服务、AI导航、通勤点单及娱乐周边四大核心场景，提供加油、充电、停车等3万+服务点接入。AI导航支持复杂行程一键规划，通勤点单功能可在用户上车前自动完成咖啡或早餐预订。该架构采用端侧轻量模型与云端大模型协同，确保低延迟与高智能。\n\n【体验价值】端云协同架构在保证实时响应（端侧）的同时，利用云端大模型处理复杂任务（如多目的地规划、个性化推荐），实现了“快”与“智”的平衡。用户无需在不同APP间切换，一个AI Agent即可串联出行全链路，极大简化了操作流程，提升了出行效率。\n\n【潜在槽点】端云协同依赖网络稳定性，在信号弱区（如隧道、山区）可能导致服务中断或降级。此外，AI Agent的自主决策（如自动下单）若出现错误（如点错餐品），用户追责和纠错流程可能复杂，存在信任风险。",
-          "summary_en": "【Event Overview】Tencent launched an end-cloud collaborative Agentic AI architecture for smart cockpits, covering four core scenarios: owner services, AI navigation, commute ordering, and entertainment. It integrates 30,000+ service points for refueling, charging, and parking. The AI navigation supports one-click planning for complex trips, and the commute ordering function can automatically book coffee or breakfast before the user gets in the car. The architecture uses an end-side lightweight model and a cloud-side large model to ensure low latency and high intelligence. \n\n【Experience Value】The end-cloud collaborative architecture balances 'speed' and 'intelligence' by handling real-time responses on the device and complex tasks (e.g., multi-destination planning, personalized recommendations) in the cloud. Users no longer need to switch between different apps; one AI Agent can connect the entire travel chain, greatly simplifying the operation process and improving travel efficiency. \n\n【Potential Friction】The end-cloud collaboration relies on network stability. In areas with weak signals (e.g., tunnels, mountains), services may be interrupted or degraded. Additionally, if the AI Agent's autonomous decisions (e.g., automatic ordering) make errors (e.g., wrong meal), the user's process for recourse and correction may be complex, posing a trust risk."
-        },
-        {
-          "title": "蔚来发布Banyan 榕 3.1.0版本 推送自动紧急避让功能AES",
-          "url": "https://k.sina.cn/article_7857141524_1d452771401902ya80.html",
-          "site_name": "K",
-          "publish_date": "2026-06-03",
-          "tags": [
-            "蔚来",
-            "Banyan",
-            "OTA",
-            "AES"
-          ],
-          "summary": "【事件概述】蔚来正式发布智能系统「Banyan 榕 3.1.0」版本，并开启推送。此次更新涵盖NOMI、智能驾驶、应用生态、日常出行体验等多个功能域，共117项功能新增和体验优化。核心亮点是推送了自动紧急避让功能AES（Automatic Emergency Steering），该功能在AEB（自动紧急制动）无法完全避免碰撞时，可主动转向避让障碍物，提升行车安全。此外，NOMI语音助手新增了更自然的对话能力和场景化推荐，应用生态引入了更多第三方服务。\n\n【体验价值】AES功能在AEB基础上增加了转向避让能力，填补了极端场景下的安全空白，给用户带来更强的安全感。117项更新体现了蔚来对软件持续迭代的重视，用户无需换车即可获得新功能，提升了车辆的长期价值感和新鲜感。\n\n【潜在槽点】AES功能涉及主动转向，若算法误判（如误将安全区域识别为障碍物），可能导致不必要的避让动作，引发危险。此外，117项更新内容过多，用户可能难以感知所有变化，部分优化可能沦为“无感更新”，降低OTA的传播效果。",
-          "summary_en": "【Event Overview】NIO officially released the 'Banyan 3.1.0' smart system with 117 new features and optimizations. The highlight is the Automatic Emergency Steering (AES) function, which can actively steer to avoid obstacles when AEB cannot completely prevent a collision. Additionally, the NOMI voice assistant has more natural conversation capabilities and scenario-based recommendations, and the app ecosystem has introduced more third-party services. \n\n【Experience Value】The AES function adds steering avoidance capability on top of AEB, filling a safety gap in extreme scenarios and giving users a stronger sense of security. The 117 updates reflect NIO's emphasis on continuous software iteration, allowing users to gain new features without changing cars, enhancing the vehicle's long-term value and freshness. \n\n【Potential Friction】The AES function involves active steering. If the algorithm misjudges (e.g., identifying a safe area as an obstacle), it may cause unnecessary avoidance maneuvers, leading to danger. Additionally, with 117 updates, users may find it difficult to perceive all changes, and some optimizations may become 'invisible updates,' reducing the communication effect of OTA."
-        },
-        {
-          "title": "特斯拉车机语音要变聪明了：接入了豆包和 DeepSeek",
-          "url": "https://www.163.com/dy/article/KUG4I6IU05562WCU.html",
-          "site_name": "163",
-          "publish_date": "2026-06-03",
-          "tags": [
-            "特斯拉",
-            "语音助手",
-            "豆包",
-            "DeepSeek"
-          ],
-          "summary": "【事件概述】据媒体报道，特斯拉计划在中国市场为其车机语音助手接入字节跳动的“豆包”和深度求索的“DeepSeek”大模型，以提升语音交互的智能化水平。此前特斯拉的语音助手功能相对基础，主要支持导航、媒体控制等简单指令。接入大模型后，语音助手将能理解更复杂的自然语言，支持多轮对话、上下文记忆、知识问答等，从“听口令”升级为“理解意图”。此举旨在补上特斯拉在中国市场“本土AI座舱”的关键短板，应对蔚小理等本土品牌的竞争。\n\n【体验价值】对于特斯拉车主而言，语音助手从“功能机”升级为“智能体”，将大幅降低学习成本。用户可以用更自然的语言表达需求（如“我有点冷，帮我调高温度，再放点舒缓的音乐”），车机能够理解并执行，交互更接近人与人之间的沟通，提升驾驶专注度和便利性。\n\n【潜在槽点】接入第三方大模型可能带来数据隐私风险，用户语音数据是否会被上传至云端？此外，大模型响应延迟可能影响实时交互体验，尤其在网络不佳时。若模型“幻觉”导致错误回答（如导航误导），可能引发安全问题。",
-          "summary_en": "【Event Overview】According to media reports, Tesla plans to integrate ByteDance's 'Doubao' and DeepSeek's large models into its in-car voice assistant in China to enhance intelligence. Previously, Tesla's voice assistant was basic, mainly supporting simple commands like navigation and media control. After integration, it will understand complex natural language, support multi-turn dialogue, context memory, and knowledge Q&A, upgrading from 'listening to commands' to 'understanding intent.' This move aims to fill Tesla's key shortcoming in the 'local AI cockpit' in China. \n\n【Experience Value】For Tesla owners, the voice assistant upgrade from a 'function machine' to an 'intelligent agent' will significantly reduce the learning curve. Users can express needs in more natural language (e.g., 'I'm a bit cold, turn up the temperature and play some soothing music'), and the car can understand and execute, making interaction closer to human communication, improving driving focus and convenience. \n\n【Potential Friction】Integrating third-party large models may raise data privacy risks—will user voice data be uploaded to the cloud? Additionally, large model response latency may affect real-time interaction, especially in poor network conditions. If the model 'hallucinates' and gives wrong answers (e.g., misleading navigation), it could cause safety issues."
-        },
-        {
-          "title": "智能座舱语音助手实力榜2026深度评测：谁更懂驾驶者",
-          "url": "https://www.sohu.com/a/1030412502_122864692",
-          "site_name": "Sohu",
-          "publish_date": "2026-06-01",
-          "tags": [
-            "语音助手",
-            "评测",
-            "多模态",
-            "生态融合"
-          ],
-          "summary": "【事件概述】搜狐汽车发布《智能座舱语音助手实力榜2026》深度评测，从功能成熟度、语音交互体验、多语种适配、算力与功耗优化、生态融合度等维度，对当前主流车载语音体系进行横向对比。评测覆盖了蔚来NOMI、小鹏小P、理想同学、华为小艺、比亚迪智能语音等。结果显示，头部语音助手已从“能听懂”进化到“会思考”，支持多轮对话、上下文记忆、主动推荐、情感识别等。评测特别指出，生态融合度成为关键差异点，如小艺与鸿蒙生态的深度联动，NOMI与蔚来服务体系的整合。\n\n【体验价值】该评测为消费者提供了客观的选车参考，推动行业良性竞争。从UX角度看，评测强调的“生态融合度”揭示了语音助手的真正价值不在于单点功能，而在于能否串联起导航、娱乐、车控、生活服务等全场景，实现“一句话搞定一切”的无缝体验。\n\n【潜在槽点】评测标准可能偏向头部品牌，对中小品牌不够公平。此外，语音助手的实际体验高度依赖网络和硬件，评测环境与真实使用场景可能存在偏差。用户应结合自身用车习惯（如方言、网络环境）理性看待排名。",
-          "summary_en": "【Event Overview】Sohu Auto released the 'Smart Cockpit Voice Assistant Power List 2026' in-depth review, comparing mainstream in-car voice systems from dimensions such as functional maturity, voice interaction experience, multilingual adaptation, computing power and power optimization, and ecological integration. The review covered NIO NOMI, XPeng XiaoP, Li Auto Tongxue, Huawei Xiaoyi, BYD Smart Voice, etc. Results show that top voice assistants have evolved from 'being able to hear' to 'being able to think,' supporting multi-turn dialogue, context memory, proactive recommendations, and emotion recognition. The review particularly pointed out that ecological integration has become a key differentiator. \n\n【Experience Value】This review provides consumers with an objective car-buying reference and promotes healthy competition in the industry. From a UX perspective, the emphasis on 'ecological integration' reveals that the true value of a voice assistant lies not in single-point functions, but in its ability to connect navigation, entertainment, vehicle control, and lifestyle services across all scenarios, achieving a seamless 'one sentence does it all' experience. \n\n【Potential Friction】The review criteria may favor leading brands and be unfair to smaller ones. Additionally, the actual experience of voice assistants is highly dependent on network and hardware, and the review environment may deviate from real-world usage. Users should view the rankings rationally based on their own habits (e.g., dialect, network environment)."
-        }
-      ],
-      "created_at": "2026-06-07 14:39:11"
     }
   ]
 }
