@@ -1,6 +1,57 @@
 {
   "records": [
     {
+      "date": "2026-08-14",
+      "date_display": "08月14日",
+      "weekday": "周五",
+      "news_count": 3,
+      "news": [
+        {
+          "title": "奇瑞携手火山引擎在印尼发布东南亚首个量产AI大模型座舱",
+          "url": "https://stock.10jqka.com.cn/20260812/c678902522.shtml",
+          "site_name": "同花顺",
+          "publish_date": "2026-08-12",
+          "tags": [
+            "奇瑞",
+            "豆包大模型",
+            "Agentic AI",
+            "出海"
+          ],
+          "summary": "【事件概述】奇瑞旗下品牌OMODA & JAECOO与火山引擎在印尼联合发布新一代超级AI智能座舱，这是东南亚地区首个具备完整AI原生能力并实现规模化量产落地的方案。首款搭载车型OMODA 4深度融入本土化定制，基于豆包大模型与Agentic AI架构，实现了十大车载智能体协同运作。这些智能体覆盖车控、导航、闲聊、娱乐、新闻、体育、用车答疑、AI生图等多元场景，支持出色的多意图识别、多轮对话、联网搜索及复杂任务执行能力。该方案标志着中国AI大模型技术出海进入新阶段，从单一语音助手升级为主动式、场景化的智能服务生态。",
+          "summary_en": "【Event Overview】Chery's OMODA & JAECOO, in partnership with Volcano Engine, launched a new-generation AI cockpit in Indonesia, marking Southeast Asia's first mass-produced solution with native AI capabilities. The OMODA 4, the first model to feature it, is deeply localized and built on the Doubao large model with an Agentic AI architecture. It enables ten in-car intelligent agents to collaborate across scenarios like vehicle control, navigation, chit-chat, entertainment, news, sports, and AI image generation. The system supports multi-intent recognition, multi-turn dialogue, and complex task execution, showcasing the global expansion of Chinese AI models. \n\n【Experience Value】The agent-based architecture moves beyond simple voice commands to proactive, task-oriented assistance. For example, a user can say 'I'm hungry and want to go somewhere quiet,' and the system will chain together navigation, restaurant search, and music selection. This reduces cognitive load and interaction steps, making the cockpit feel more like a proactive assistant than a tool. \n\n【Potential Friction】The reliance on cloud-based large models could lead to high data usage and potential privacy concerns, especially in regions with less robust data protection laws. The 'ten agents' concept might also overwhelm users with too many proactive suggestions, creating interaction redundancy and a sense of being monitored. Localization quality and network dependency in Southeast Asia are also potential hurdles."
+        },
+        {
+          "title": "小米澎湃OS 4 Beta版推送计划公告",
+          "url": "https://web.vip.miui.com/page/info/mio/mio/detail?postId=53263627",
+          "site_name": "小米社区",
+          "publish_date": "2026-08-13",
+          "tags": [
+            "小米",
+            "HyperOS 4",
+            "自研内核",
+            "Rust"
+          ],
+          "summary": "【事件概述】小米官方发布澎湃OS 4 Beta版推送计划，标志着这一重大系统版本进入公测阶段。根据已曝光的宣传页面，澎湃OS 4的核心改进在于自研内核，新增了“负载精算”和“RAM预载”两项关键技术。其中，“负载精算”通过更精细的任务调度算法，动态分配CPU/GPU资源，以降低功耗和发热；“RAM预载”则利用AI学习用户习惯，在后台预加载常用应用，实现应用秒开。此外，系统底层采用Rust语言重写关键模块，旨在从根本上提升内存安全和系统稳定性。这一系列底层重构，不仅关乎手机体验，也为车机等跨端设备的流畅度和安全性奠定了更坚实的基础。",
+          "summary_en": "【Event Overview】Xiaomi announced the Beta rollout plan for HyperOS 4, marking a major milestone. Leaked promotional materials reveal that the core upgrade lies in the self-developed kernel, introducing 'load precision calculation' and 'RAM preloading' technologies. The former uses refined task scheduling to dynamically allocate resources, reducing power consumption and heat. The latter leverages AI to learn user habits and preload frequently used apps for instant launch. Furthermore, critical modules are being rewritten in Rust to enhance memory safety and system stability. These foundational changes are expected to benefit not just phones but also cross-device experiences like in-car systems. \n\n【Experience Value】The 'RAM preloading' feature directly addresses the pain point of app launch latency, making the system feel incredibly responsive. The Rust rewrite promises fewer crashes and memory leaks, leading to a more stable and reliable experience. For automotive scenarios, this translates to faster boot times for navigation and media apps, and a more secure foundation for critical functions. \n\n【Potential Friction】The AI-driven RAM preloading might consume more background data and battery, raising privacy concerns about user behavior tracking. The Beta phase could introduce compatibility issues with existing apps, and the transition to a new kernel might require users to relearn certain system behaviors or settings, adding a temporary learning curve."
+        },
+        {
+          "title": "方程S系列首搭比亚迪智慧生态2.0 实现座舱可定制",
+          "url": "https://news.yiche.com/xinchexiaoxi/20260810/21112178714.html",
+          "site_name": "易车",
+          "publish_date": "2026-08-10",
+          "tags": [
+            "比亚迪",
+            "智慧生态2.0",
+            "硬件接口",
+            "可定制"
+          ],
+          "summary": "【事件概述】比亚迪方程豹汽车宣布，其S系列车型将首发搭载“智慧生态2.0”系统。该系统的一大核心创新在于物理层面的开放与可定制：全车配备PIN口、磁吸及螺纹接口，允许用户和第三方开发者通过标准化的硬件接口，自由添加或更换座舱模块，如附加屏幕、控制旋钮、个性化氛围灯或健康监测设备。软件层面，系统将提供对应的SDK和API，让开发者能够为这些硬件模块编写专属应用，实现“座舱可定制、可进化、可成长”的理念。这标志着智能座舱从封闭的预装模式，向开放的硬件生态平台演进。",
+          "summary_en": "【Event Overview】BYD's Fangchengbao brand announced that its S-series models will debut the 'Smart Ecosystem 2.0'. A key innovation is physical openness: the vehicle is equipped with standardized PIN, magnetic, and threaded interfaces, allowing users and third-party developers to freely add or swap cockpit modules like extra screens, control knobs, or health sensors. On the software side, the system will provide SDKs and APIs, enabling developers to create custom apps for these hardware modules. This represents a shift from a closed, pre-installed cockpit model to an open hardware ecosystem platform. \n\n【Experience Value】This approach empowers users to personalize their cockpit in a tangible way, moving beyond software themes to physical interaction. It fosters a sense of ownership and community, as users can share and install custom modules. For developers, it creates a new platform for innovation, potentially leading to niche solutions for specific user needs like accessibility or professional workflows. \n\n【Potential Friction】The open hardware interface introduces significant safety and reliability risks. Poorly designed third-party modules could interfere with vehicle electronics or compromise safety. The complexity of managing drivers, power, and data for various modules could lead to software instability. Moreover, the cost and effort of developing and certifying hardware modules might limit the ecosystem's growth, leaving the feature underutilized."
+        }
+      ],
+      "created_at": "2026-08-14 12:14:54"
+    },
+    {
       "date": "2026-08-13",
       "date_display": "08月13日",
       "weekday": "周四",
@@ -3132,57 +3183,6 @@
         }
       ],
       "created_at": "2026-06-10 14:40:17"
-    },
-    {
-      "date": "2026-06-09",
-      "date_display": "06月09日",
-      "weekday": "周二",
-      "news_count": 3,
-      "news": [
-        {
-          "title": "闪电快讯｜高通宣布车端人工智能Claw生态计划，将智能体AI引入智能座舱",
-          "url": "https://m.jiemian.com/article/14541847.html",
-          "site_name": "界面新闻",
-          "publish_date": "2026-06-05",
-          "tags": [
-            "高通",
-            "AI Agent",
-            "生态计划",
-            "智能体"
-          ],
-          "summary": "【事件概述】2026年6月5日，高通在汽车技术与合作峰会上宣布与诚迈科技、车联天下、斑马智能等企业联合推出车端人工智能Claw生态计划。该计划基于可扩展的模块化架构，将骁龙数字底盘解决方案与高通智能体AI运行环境结合，旨在将智能体AI引入智能座舱。通过合作伙伴在座舱、车载操作系统等领域的专长，Claw生态计划将推动AI Agent在车端的落地，实现从被动响应到主动服务的交互升级。\n\n【体验价值】AI Agent的引入将显著提升座舱的主动服务能力，例如根据用户习惯自动调节座椅、空调、音乐，甚至提前规划行程。这种“认知座舱”体验减少了用户手动操作，让交互更自然、更个性化，提升了驾驶的便捷性和舒适度。\n\n【潜在槽点】AI Agent的主动决策可能引发隐私担忧，用户需授权大量个人数据。此外，若模型误判用户意图，可能导致不必要的干扰或操作，增加学习成本。生态计划的落地依赖合作伙伴的深度适配，初期可能仅限高端车型，普及速度存疑。",
-          "summary_en": "【Event Overview】On June 5, 2026, Qualcomm announced the vehicle-side AI Claw ecosystem plan at the Automotive Technology and Cooperation Summit, in collaboration with companies like CEC, Cheliantianxia, and Banma Intelligence. Based on a scalable modular architecture, the plan integrates the Snapdragon Digital Chassis solution with Qualcomm's AI Agent runtime environment, aiming to introduce AI Agents into smart cockpits. By leveraging partners' expertise in cockpit and OS domains, the Claw ecosystem will drive the deployment of AI Agents, shifting from passive response to proactive service. \n\n【Experience Value】The introduction of AI Agents will significantly enhance the cockpit's proactive service capabilities, such as automatically adjusting seats, climate, and music based on user habits, or even pre-planning routes. This 'cognitive cockpit' experience reduces manual operations, making interactions more natural and personalized, improving driving convenience and comfort. \n\n【Potential Friction】The proactive decision-making of AI Agents may raise privacy concerns, requiring users to authorize extensive personal data. Additionally, if the model misinterprets user intent, it could cause unnecessary distractions or operations, increasing the learning curve. The ecosystem's deployment depends on deep partner adaptation, potentially limiting initial availability to high-end models, raising questions about mass adoption."
-        },
-        {
-          "title": "腾势Z9/Z9GT开启OTA 涉及10项新增+19项优化",
-          "url": "https://www.bitauto.com/article/1003110482190/",
-          "site_name": "BitAuto",
-          "publish_date": "2026-06-03",
-          "tags": [
-            "腾势",
-            "OTA",
-            "IoT生态",
-            "安全取证"
-          ],
-          "summary": "【事件概述】2026年6月3日，腾势Z9GT与腾势Z9同步开启新一轮OTA升级。本次升级围绕智能互联、车载娱乐、安全取证以及IoT生态四大维度，涉及10项新增功能与19项功能优化。新增功能包括车载KTV、智能家居控制、行车记录仪远程查看等，优化了语音识别、导航路线规划等高频使用场景。IoT生态的引入允许用户通过车机控制智能家居设备，如灯光、空调等，进一步扩展了座舱的数字化服务边界。\n\n【体验价值】OTA升级持续为车辆注入新功能，让用户无需换车即可享受最新体验。IoT生态的整合将座舱变为智能家居的控制中心，提升了生活便利性。安全取证功能（如远程查看行车记录）增强了车辆的安全感和实用性，尤其适合家庭用户。\n\n【潜在槽点】新增功能可能增加系统复杂度，用户需花时间学习如何操作IoT控制或安全取证功能。车载KTV等娱乐功能在行驶中可能分散驾驶员注意力，存在安全隐患。此外，IoT生态依赖第三方设备兼容性，若设备不支持，功能可能形同虚设。",
-          "summary_en": "【Event Overview】On June 3, 2026, Denza Z9GT and Denza Z9 simultaneously received a new OTA update. The upgrade focuses on four dimensions: smart connectivity, in-car entertainment, safety forensics, and IoT ecosystem, with 10 new features and 19 optimizations. New features include in-car KTV, smart home control, and remote viewing of dashcam footage. High-frequency scenarios like voice recognition and navigation route planning have been optimized. The IoT ecosystem allows users to control smart home devices via the car, such as lights and air conditioning, further expanding the cockpit's digital service boundaries. \n\n【Experience Value】OTA updates continuously inject new features, allowing users to enjoy the latest experiences without replacing their vehicles. IoT integration turns the cockpit into a smart home control center, enhancing daily convenience. Safety forensics features, like remote dashcam viewing, increase the vehicle's sense of security and practicality, especially for family users. \n\n【Potential Friction】New features may increase system complexity, requiring users to spend time learning how to operate IoT controls or safety forensics. Entertainment features like in-car KTV could distract the driver during driving, posing safety risks. Additionally, IoT ecosystem relies on third-party device compatibility; if devices are unsupported, features may be useless."
-        },
-        {
-          "title": "智能座舱核心体验全面Agent化，业界呼吁与芯片企业深度协同",
-          "url": "https://www.sohu.com/a/1032651619_121134737",
-          "site_name": "搜狐",
-          "publish_date": "2026-06-05",
-          "tags": [
-            "蔚来",
-            "AI Agent",
-            "认知座舱",
-            "芯片协同"
-          ],
-          "summary": "【事件概述】2026年6月5日，蔚来创始人李斌在高通汽车技术与合作峰会上表示，智能座舱的核心体验要全面Agent化，AI正在重构下一代座舱体验，将智能座舱带入认知座舱时代。他强调，AI Agent应实现多模态融合交互，从被动响应转向主动服务，例如根据用户情绪调整氛围灯、推荐音乐，或基于日程自动规划充电。同时，业界呼吁与芯片企业深度协同，以提升AI Agent的实时性和本地化处理能力，减少云端依赖。\n\n【体验价值】全面Agent化使座舱从工具变为“伙伴”，能主动理解用户需求并提供个性化服务，如疲劳驾驶时自动调节座椅和播放提神音乐。这种认知交互降低了用户操作负担，提升了驾驶安全性和情感连接，尤其适合长途或高频驾驶场景。\n\n【潜在槽点】AI Agent的主动服务可能被用户视为“过度干预”，尤其当误判情绪或需求时，可能引发反感。全面Agent化对芯片算力要求极高，若硬件不足，可能导致响应延迟或功能降级。此外，用户数据的大量采集可能引发隐私争议，需明确数据使用边界。",
-          "summary_en": "【Event Overview】On June 5, 2026, NIO founder William Li stated at the Qualcomm Automotive Technology and Cooperation Summit that the core experience of smart cockpits should be fully Agentized, with AI reshaping next-generation cockpit experiences and ushering in the era of cognitive cockpits. He emphasized that AI Agents should enable multimodal fusion interaction, shifting from passive response to proactive service, such as adjusting ambient lighting based on user mood, recommending music, or automatically planning charging based on schedule. Meanwhile, the industry calls for deep collaboration with chip companies to enhance AI Agent's real-time and local processing capabilities, reducing cloud dependency. \n\n【Experience Value】Full Agentization transforms the cockpit from a tool to a 'companion,' actively understanding user needs and providing personalized services, such as automatically adjusting seats and playing energizing music when detecting driver fatigue. This cognitive interaction reduces user operational burden, improving driving safety and emotional connection, especially for long-distance or high-frequency driving scenarios. \n【Potential Friction】The proactive service of AI Agents may be perceived as 'over-intervention,' especially when misjudging mood or needs, potentially causing user annoyance. Full Agentization demands extremely high chip computing power; insufficient hardware may lead to response delays or feature degradation. Additionally, extensive user data collection may raise privacy concerns, requiring clear data usage boundaries."
-        }
-      ],
-      "created_at": "2026-06-09 14:17:29"
     }
   ]
 }
