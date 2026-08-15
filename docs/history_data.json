@@ -1,6 +1,57 @@
 {
   "records": [
     {
+      "date": "2026-08-15",
+      "date_display": "08月15日",
+      "weekday": "周六",
+      "news_count": 3,
+      "news": [
+        {
+          "title": "奕境X9首搭鸿蒙座舱HarmonySpace 6！",
+          "url": "https://www.bitauto.com/article/1003112178815/",
+          "site_name": "Bitauto",
+          "publish_date": "2026-08-10",
+          "tags": [
+            "华为",
+            "鸿蒙座舱",
+            "云游戏",
+            "游戏生态"
+          ],
+          "summary": "【事件概述】奕境X9宣布首发搭载鸿蒙座舱HarmonySpace 6，核心创新在于深度整合游戏生态。系统内置丰富的车端游戏，并一键打通腾讯云游戏平台，实现无需下载、即点即玩的3A大作体验，如《黑神话：悟空》等。此举将座舱娱乐从“本地应用”推向“云端流式服务”，并利用HUAWEI SOUND音响、氛围灯与激光投影巨幕，构建沉浸式“移动电竞房”场景，探索汽车作为第三空间的独特价值。\n\n【体验价值】“即点即玩”的云游戏模式彻底消除了下载等待和存储焦虑，降低了3A游戏的上手门槛。结合声、光、影的联动设计，为用户提供了前所未有的沉浸式娱乐体验，将座舱从单纯的交通工具转变为可移动的娱乐空间，极大丰富了停车等候或充电时的碎片化时间价值。\n\n【潜在槽点】云游戏体验高度依赖网络质量，在信号不佳的地库或高速移动场景下，延迟和画质波动可能严重破坏体验。此外，游戏操控与座舱交互的融合逻辑尚不明确，外接手柄或触屏映射的学习成本较高，且“电竞房”概念对非游戏用户吸引力有限，存在场景冗余风险。",
+          "summary_en": "【Event Overview】The Yijing X9 debuts HarmonySpace 6, focusing on deep gaming ecosystem integration. It offers rich in-car games and one-click access to Tencent Cloud Gaming, enabling instant play of AAA titles without downloads. The system leverages HUAWEI SOUND, ambient lighting, and a laser projection screen to create an immersive 'mobile e-sports room', exploring the car's potential as a third space.\n\n【Experience Value】The 'click-to-play' cloud gaming model eliminates download and storage anxiety, lowering the barrier to AAA gaming. The synchronized audio-visual design provides an unprecedented immersive entertainment experience, transforming the cabin into a mobile entertainment hub and enriching idle time.\n\n【Potential Friction】Cloud gaming is highly dependent on network quality; latency and quality fluctuations could ruin the experience in poor signal areas. The interaction logic between game controls and cabin UI is unclear, posing a learning curve. The 'e-sports room' concept may not appeal to non-gamers, risking feature redundancy."
+        },
+        {
+          "title": "蔚来Banyan 榕 3.0.0正式推送",
+          "url": "https://www.autohome.com.cn/article?id=7j310f6a8xQ=",
+          "site_name": "Autohome",
+          "publish_date": "2026-08-13",
+          "tags": [
+            "蔚来",
+            "Banyan",
+            "AI底盘",
+            "NIO Link"
+          ],
+          "summary": "【事件概述】蔚来正式推送Banyan 3.0.0智能系统，带来超130项功能新增及优化，覆盖AI智能底盘、NOMI、全景数字空间、NIO Link全景互联及用车体验五大板块。核心亮点是“4D全域舒适领航”功能，它利用全栈自研的智能底盘域控制器与传感器融合，结合AI算法预判路面起伏，实时调整悬架阻尼，实现“魔毯”般的平顺体验。同时，NOMI助手获得大模型能力加持，交互更加自然智能。\n\n【体验价值】“4D全域舒适领航”将被动响应式底盘升级为主动预判式，显著提升了乘坐舒适性，尤其在颠簸路面或连续弯道中，减少了用户的眩晕与疲劳感。NOMI的进化让语音交互从“命令式”转向“对话式”，降低了操作门槛，使驾驶者能更专注于路况，提升了整体驾驶的安全感与愉悦感。\n\n【潜在槽点】超130项的新增功能可能导致用户“功能迷失”，难以全面掌握和利用所有特性，造成学习成本过高。AI底盘功能依赖高精地图和传感器数据，在数据覆盖不全或恶劣天气下可能失效或退出，引发用户对系统可靠性的担忧。此外，大版本更新对老款车型的硬件兼容性也是潜在挑战。",
+          "summary_en": "【Event Overview】NIO has officially pushed the Banyan 3.0.0 system, introducing over 130 new features and optimizations across AI chassis, NOMI, digital space, NIO Link, and vehicle experience. The highlight is '4D全域舒适领航', which uses self-developed chassis domain control and sensor fusion with AI algorithms to predict road undulations and adjust suspension damping in real-time. NOMI also gains large model capabilities for more natural interaction.\n\n【Experience Value】The 4D comfort feature upgrades the chassis from reactive to predictive, significantly improving ride comfort and reducing fatigue on rough roads. NOMI's evolution towards conversational interaction lowers the operational threshold, allowing drivers to focus more on the road, enhancing safety and enjoyment.\n\n【Potential Friction】Over 130 new features may lead to 'feature fatigue', with users struggling to learn and utilize all capabilities. The AI chassis relies on HD maps and sensor data, which may fail in poor coverage or weather, raising reliability concerns. Hardware compatibility for older models is also a potential challenge."
+        },
+        {
+          "title": "深蓝S05推送DEEPAL OS 3.2 OTA 超20项功能升级",
+          "url": "https://chemizhijia.com/posts/deepal-s05-os32-ota",
+          "site_name": "车迷之家",
+          "publish_date": "2026-08-11",
+          "tags": [
+            "深蓝",
+            "DEEPAL OS",
+            "OTA",
+            "个性化"
+          ],
+          "summary": "【事件概述】深蓝S05正式推送DEEPAL OS 3.2版本OTA升级，包含超20项功能新增与优化。本次升级重点包括：支持行车记录仪外接U盘扩容，方便用户在电脑端读取视频文件，缓解内置存储压力；优化疲劳提醒与隐私保护功能；新增“AI智绘APP”，允许用户自由编辑和设置主题、壁纸，提升座舱界面的个性化程度。此次更新体现了深蓝在细节体验和用户个性化需求上的持续投入。\n\n【体验价值】U盘扩容功能直击行车记录仪存储不足的痛点，为用户提供了更灵活、低成本的数据管理方案，提升了实用性和透明度。AI智绘APP赋予用户深度定制界面的能力，满足了年轻用户对个性化和审美表达的需求，增强了用户对座舱的情感归属感。隐私保护的优化则回应了用户对数据安全的关切，提升了信任度。\n\n【潜在槽点】AI智绘APP的编辑功能可能操作复杂，对于非技术用户存在一定的学习门槛，且自定义主题可能影响部分系统信息的可读性，带来安全隐患。U盘扩容虽好，但不同品牌U盘的兼容性和读写速度差异可能导致体验不稳定。隐私保护功能的优化细节未明确，用户可能对其实际效果存疑。",
+          "summary_en": "【Event Overview】Deepal S05 received DEEPAL OS 3.2 OTA with over 20 feature additions and optimizations. Key updates include support for external U-disk expansion for the dashcam, allowing easy video file access on computers; optimized fatigue reminder and privacy protection; and a new 'AI Drawing APP' for users to customize themes and wallpapers, enhancing interface personalization.\n\n【Experience Value】The U-disk expansion directly addresses dashcam storage limitations, offering a flexible and cost-effective data management solution. The AI Drawing APP empowers users to deeply customize the interface, catering to personal expression and enhancing emotional attachment. Privacy optimizations address data security concerns, building user trust.\n\n【Potential Friction】The AI Drawing APP's editing features may be complex for non-tech users, and custom themes could affect readability of system info, posing safety risks. U-disk compatibility and speed variations may lead to unstable experiences. The specifics of privacy protection optimizations are unclear, potentially causing user skepticism."
+        }
+      ],
+      "created_at": "2026-08-15 11:00:25"
+    },
+    {
       "date": "2026-08-14",
       "date_display": "08月14日",
       "weekday": "周五",
@@ -3109,80 +3160,6 @@
         }
       ],
       "created_at": "2026-06-11 14:59:22"
-    },
-    {
-      "date": "2026-06-10",
-      "date_display": "06月10日",
-      "weekday": "周三",
-      "news_count": 4,
-      "news": [
-        {
-          "title": "五大玩家上车，AI智能体变身“生活助理”",
-          "url": "https://nev.ofweek.com/2026-05/ART-77014-8140-30686993.html",
-          "site_name": "OFweek新能源汽车网",
-          "publish_date": "2026-05-01",
-          "tags": [
-            "豆包",
-            "千问",
-            "元宝",
-            "DeepSeek",
-            "讯飞星火",
-            "AI智能体",
-            "语音交互",
-            "生态服务"
-          ],
-          "summary": "【事件概述】2026年5月，豆包、千问、元宝、DeepSeek、讯飞星火五大AI玩家正式入局汽车座舱，各自走出差异化路径：豆包依托字节跳动生态，实现抖音、今日头条等应用的无缝流转；千问借助阿里生态，打通高德、饿了么等本地生活服务；元宝整合腾讯系资源，强化社交与娱乐场景；DeepSeek以技术硬核著称，提供轻量化本地部署方案；讯飞星火则深耕语音交互，推出多模态情感识别。这些AI智能体不再局限于简单的语音问答，而是能主动推荐餐厅、规划行程、控制家居设备，甚至根据用户情绪调整座舱氛围，标志着车载AI从“工具”向“生活助理”的进化。\n\n【体验价值】用户无需切换多个App，通过单一语音入口即可完成点餐、导航、娱乐等复杂任务，交互效率显著提升。AI主动服务（如根据日程提前预热车辆、推荐充电站）减少了操作步骤，让驾驶更专注。多模态情感识别能感知用户疲劳或烦躁，自动调节音乐或开启香氛，提升座舱舒适度。\n\n【潜在槽点】多AI生态的兼容性可能成为痛点：用户需绑定多个账号，且不同AI的响应逻辑不一致，导致学习成本高。隐私风险突出——AI需持续监听车内对话以提供主动服务，用户可能担忧数据被滥用。此外，AI的“过度主动”可能干扰驾驶，例如在用户专注驾驶时频繁推送无关信息。",
-          "summary_en": "【Event Overview】In May 2026, five major AI players—Doubao, Qianwen, Yuanbao, DeepSeek, and iFlytek Spark—entered the automotive cockpit market, each with distinct strategies: Doubao leverages ByteDance's ecosystem for seamless app integration; Qianwen taps into Alibaba's local services; Yuanbao integrates Tencent's social and entertainment features; DeepSeek offers lightweight local deployment; iFlytek Spark focuses on multimodal emotional recognition. These AI agents evolve from simple Q&A to proactive life assistants, recommending restaurants, planning trips, and adjusting cabin ambiance based on user mood.\n\n【Experience Value】Users can complete complex tasks like ordering food, navigation, and entertainment through a single voice command, boosting efficiency. Proactive AI services (e.g., pre-heating the car based on schedule) reduce steps and enhance focus. Multimodal emotion detection improves comfort by adjusting music or fragrance when detecting fatigue.\n\n【Potential Friction】Compatibility issues may arise: users need multiple accounts, and inconsistent AI response logic increases learning costs. Privacy risks are significant—continuous voice monitoring for proactive services may lead to data misuse. Overly proactive AI could distract drivers, pushing irrelevant notifications during critical moments."
-        },
-        {
-          "title": "车主实测！蔚来Banyan 3.3.0提升有多大？",
-          "url": "https://chejiahao.autohome.com.cn/info/24812339?pvareaid=2808101",
-          "site_name": "汽车之家",
-          "publish_date": "2026-01-28",
-          "tags": [
-            "蔚来",
-            "Banyan",
-            "NWM 2.0",
-            "OTA",
-            "辅助驾驶",
-            "UI/UX"
-          ],
-          "summary": "【事件概述】2026年1月28日，蔚来全量推送Banyan 3.3.0版本，核心升级为NWM 2.0（蔚来世界模型）与闭环强化学习架构，标志着从“规则驱动”迈向“认知智能”。软件层面，新版本优化了窄路会车、无保护左转、施工绕行等复杂场景的决策逻辑，通过端到端学习减少人工规则。交互方面，HMI界面新增“认知可视化”功能，实时显示车辆对周围环境的理解（如识别行人意图、预测车辆轨迹），提升用户信任感。此外，语音助手NOMI升级了多轮对话能力，支持连续指令（如“导航到公司，顺便提醒我买咖啡”）。\n\n【体验价值】复杂场景的决策更拟人化，例如窄路会车时车辆能主动微调方向并减速，减少用户接管焦虑。认知可视化让用户“看懂”AI的思考过程，增强对自动驾驶的信任。语音助手的连续指令能力减少了重复操作，交互更自然流畅。\n\n【潜在槽点】认知可视化可能增加信息过载：在高速行驶时，屏幕上的动态预测线可能分散注意力。NWM 2.0的决策逻辑仍存在“黑箱”问题，用户难以理解某些异常行为（如突然减速）。OTA升级后，部分老用户反映界面布局变化导致学习成本，需重新适应。",
-          "summary_en": "【Event Overview】On January 28, 2026, NIO pushed Banyan 3.3.0 with NWM 2.0 and closed-loop reinforcement learning, shifting from rule-based to cognitive AI. The update improves decision-making in complex scenarios like narrow-road passing and unprotected left turns. The HMI adds 'cognitive visualization' to show the vehicle's understanding of surroundings (e.g., pedestrian intent prediction). NOMI gains multi-turn dialogue for continuous commands.\n\n【Experience Value】More human-like decisions reduce driver anxiety in complex scenarios. Cognitive visualization builds trust by revealing AI reasoning. Continuous voice commands streamline interactions.\n\n【Potential Friction】Cognitive visualization may cause information overload at high speeds. NWM 2.0's 'black box' decisions can confuse users during unexpected behaviors. UI layout changes after OTA require relearning for existing users."
-        },
-        {
-          "title": "岚图FREE+座舱系统亮点全解析",
-          "url": "https://m.zol.com.cn/article/9902700.htm",
-          "site_name": "中关村在线",
-          "publish_date": "2026-06-01",
-          "tags": [
-            "岚图",
-            "FREE+",
-            "座舱系统",
-            "UI/UX",
-            "多屏交互",
-            "生态服务"
-          ],
-          "summary": "【事件概述】2026年6月，岚图FREE+全新座舱系统在粤港澳大湾区车展首次公开，主打“数字座舱”概念。软件层面，系统采用“一芯多屏”架构，中控屏、副驾屏、后排屏可独立运行不同应用，并支持“跨屏拖拽”功能：用户可将导航路线从中控屏拖拽至副驾屏，由副驾乘客协助规划。交互方面，系统引入“手势+语音”双模控制：例如，手指在屏幕前画圈可调节音量，同时语音可叠加指令（如“调大音量并切换到下一首”）。生态服务上，系统深度整合百度地图、腾讯视频、网易云音乐等第三方应用，并支持“场景模式”一键切换（如“影院模式”自动调暗灯光、关闭车窗、启动环绕音效）。\n\n【体验价值】跨屏拖拽让副驾乘客参与导航规划，提升协作效率。手势+语音双模控制减少了触摸屏幕的驾驶分心，尤其适合快速调节。场景模式一键切换简化了多步操作，让座舱氛围瞬间适配用户需求。\n\n【潜在槽点】手势识别可能受光线或遮挡影响，导致误触发或响应延迟。跨屏拖拽功能在行驶中可能分散驾驶员注意力，需限制仅副驾操作。场景模式若未提供自定义选项，可能无法满足所有用户的偏好（如“影院模式”的灯光亮度不可调）。",
-          "summary_en": "【Event Overview】In June 2026, Voyah FREE+ debuted its new cockpit system at the GBA Auto Show, featuring a 'one-chip multi-screen' architecture. Key software features include cross-screen drag-and-drop (e.g., dragging navigation to the passenger screen), gesture+voice dual-mode control (e.g., drawing a circle to adjust volume), and scene modes (e.g., 'Cinema Mode' dims lights, closes windows, and activates surround sound).\n\n【Experience Value】Cross-screen drag-and-drop enables passenger collaboration on navigation. Gesture+voice control reduces touchscreen distraction. Scene modes simplify multi-step adjustments.\n\n【Potential Friction】Gesture recognition may fail in poor lighting or with obstructions. Cross-screen drag-and-drop could distract the driver if not restricted to passenger use. Scene modes lacking customization may not suit all preferences."
-        },
-        {
-          "title": "智能座舱语音交互：贴心助手还是干扰噪音？",
-          "url": "https://post.smzdm.com/p/aqkdn4xv/",
-          "site_name": "什么值得买",
-          "publish_date": "2026-06-01",
-          "tags": [
-            "语音交互",
-            "用户体验",
-            "隐私",
-            "多模态",
-            "AI"
-          ],
-          "summary": "【事件概述】2026年6月，一篇基于1000+用户调研的文章揭示了智能座舱语音交互的现状与争议。调研显示，60%的用户认为语音助手是“贴心助手”，尤其在导航、音乐控制等高频场景中效率提升明显；但30%的用户认为其是“干扰噪音”，主要抱怨包括：误唤醒（如车内聊天时助手突然插话）、响应延迟（超过2秒）、以及缺乏上下文理解（如连续指令失败）。文章还指出，儿童乘客的交互需求被忽视：儿童语音识别准确率低，且助手无法理解儿童的非标准表达（如“我要听那个歌”）。此外，多模态交互（如语音+手势）的普及率不足10%，用户更倾向于单一语音或触控。\n\n【体验价值】调研揭示了用户对语音交互的真实痛点，为车企优化提供了数据支撑。例如，误唤醒问题可通过声纹识别或定向麦克风解决；儿童交互需求可推动开发专用语音模型。多模态交互的潜力尚未释放，但有望在特定场景（如驾驶中）提升效率。\n\n【潜在槽点】调研样本可能偏向科技爱好者，无法代表全体用户。误唤醒和响应延迟的解决方案（如增加麦克风阵列）可能增加硬件成本。儿童语音模型的开发需大量数据，但涉及隐私法规（如COPPA），落地难度大。",
-          "summary_en": "【Event Overview】A June 2026 survey of 1000+ users revealed mixed perceptions of in-car voice assistants: 60% find them helpful for navigation and music, but 30% see them as noise due to false activations, response delays (>2s), and lack of context. Children's interaction needs are neglected, with low recognition accuracy for non-standard speech. Multimodal interaction (voice+gesture) adoption is below 10%.\n\n【Experience Value】The survey highlights real pain points, guiding OEMs to improve false activation via voiceprint recognition and address children's needs with specialized models. Multimodal interaction potential remains untapped.\n\n【Potential Friction】Survey sample may skew toward tech enthusiasts. Solutions like additional microphones increase hardware costs. Developing children's voice models requires extensive data, raising privacy compliance challenges."
-        }
-      ],
-      "created_at": "2026-06-10 14:40:17"
     }
   ]
 }
