@@ -1,6 +1,85 @@
 {
   "records": [
     {
+      "date": "2026-08-17",
+      "date_display": "08月17日",
+      "weekday": "周一",
+      "news_count": 5,
+      "news": [
+        {
+          "title": "长安汽车与荣耀手机共建实验室 深蓝S05将搭荣耀车联3.0系统",
+          "url": "https://news.yiche.com/zonghexinwen/20260813/21112258917.html",
+          "site_name": "易车",
+          "publish_date": "2026-08-13",
+          "tags": [
+            "长安",
+            "荣耀",
+            "手车互联",
+            "生态融合"
+          ],
+          "summary": "【事件概述】长安汽车与荣耀终端宣布共建“联合创新开放实验室”，并宣布深蓝S05将首发搭载荣耀车联3.0系统。此次合作的核心在于从传统的手机投屏互联，升级为系统级生态融合。荣耀车联3.0预计将深度整合手机与车机的应用生态，实现手机应用无缝流转至车机，并可能利用手机算力增强车机性能。此举标志着车企与手机厂商的合作从简单的硬件适配，走向底层系统与服务的深度共创，旨在打破设备壁垒，为用户提供跨终端的无缝数字体验。\n\n【体验价值】从UX角度看，系统级融合能显著降低用户的学习成本。用户无需区分手机和车机是两个独立设备，熟悉的手机应用界面和操作逻辑可直接映射到车机，实现“无缝接力”。这种连续性体验减少了在驾驶场景下的操作分心，提升了从上车前到行驶中的体验一致性。\n\n【潜在槽点】系统级融合可能带来隐私安全挑战，手机与车机深度互联意味着更多个人数据（如通讯录、日程、位置）在车内被调用，用户对数据使用范围的掌控力可能被削弱。此外，深度绑定荣耀生态，可能对非荣耀手机用户不友好，形成新的生态壁垒。",
+          "summary_en": "【Event Overview】Changan Automobile and Honor announced a joint innovation lab, with the Shenlan S05 set to debut Honor's Car Connect 3.0 system. The core of this collaboration is upgrading from simple phone projection to system-level ecosystem integration, enabling seamless app flow and potentially leveraging phone computing power for the car. This marks a deep collaboration from hardware adaptation to underlying system and service co-creation. \n\n【Experience Value】From a UX perspective, system-level integration can significantly reduce the user's learning curve. Users don't need to distinguish between phone and car systems; familiar app interfaces and interactions can be mapped directly to the car, providing a 'seamless handoff' experience that enhances consistency and reduces distraction. \n\n【Potential Friction】Deep integration may raise privacy concerns, as more personal data is accessed in the car, potentially reducing user control. Additionally, deep binding to the Honor ecosystem could be unfriendly to non-Honor phone users, creating new ecosystem barriers."
+        },
+        {
+          "title": "蔚来 firefly 萤火虫 aster 紫菀 2.0.0 开启推送：新增沉浸桌面、无麦...",
+          "url": "https://www.ithome.com/0/989/603.htm",
+          "site_name": "IT之家",
+          "publish_date": "2026-08-14",
+          "tags": [
+            "蔚来",
+            "萤火虫",
+            "OTA",
+            "AI生图"
+          ],
+          "summary": "【事件概述】蔚来旗下品牌firefly萤火虫正式向旗下车型推送aster紫菀2.0.0版本OTA升级。本次升级覆盖智能座舱、智能伙伴lumo、整车体验及智能辅助驾驶。其中，座舱升级亮点包括新增“百变小萤”AI生图功能，用户可上传自定义图片，结合系统预设的AI创意模板生成专属车机壁纸，实现高度个性化的座舱视觉定制。此外，更新还涉及沉浸式桌面体验优化，旨在通过视觉和交互层面的改进，提升座舱的整体氛围感和操作沉浸感。\n\n【体验价值】AI生图功能将个性化定制从“选择预设”推向“创造内容”，极大满足了用户对座舱专属感的心理需求。沉浸式桌面则通过优化信息层级和视觉动效，减少干扰，让用户更专注于当前任务或享受氛围，提升了交互的愉悦感和情感连接。\n\n【潜在槽点】AI生图功能可能被视为“炫技”而非刚需，用户新鲜感过后使用频率可能下降。同时，生成内容的版权和审核问题需要关注。沉浸式桌面若动效过于复杂，可能增加视觉负担，甚至影响关键信息的获取效率，存在交互冗余的风险。",
+          "summary_en": "【Event Overview】NIO's sub-brand firefly is pushing the aster 2.0.0 OTA update, covering smart cockpit, AI assistant lumo, vehicle experience, and ADAS. A key feature is the 'Bianbian Xiaoying' AI image generation, allowing users to upload custom images and use preset AI templates to create personalized wallpapers. The update also includes an immersive desktop experience for better ambiance and interaction. \n\n【Experience Value】The AI image generation feature elevates personalization from 'selecting presets' to 'creating content', fulfilling users' desire for a unique cabin. The immersive desktop optimizes information hierarchy and visual dynamics, reducing distraction and enhancing emotional connection and interaction pleasure. \n\n【Potential Friction】The AI image generation might be seen as a gimmick rather than a necessity, with potentially low long-term usage. Content copyright and moderation are also concerns. Overly complex immersive animations could increase visual load and hinder information access, posing a risk of interaction redundancy."
+        },
+        {
+          "title": "重磅！AI座舱再添猛将，一汽-大众纯电新星正式接入豆包大模型",
+          "url": "https://www.sohu.com/a/1062997627_122066679",
+          "site_name": "搜狐汽车",
+          "publish_date": "2026-08-14",
+          "tags": [
+            "一汽-大众",
+            "豆包",
+            "大模型",
+            "语音交互"
+          ],
+          "summary": "【事件概述】火山引擎宣布，一汽-大众全新纯电旗舰ID.AURA T6已深度接入豆包大模型。该车型定位为“AI座舱”，旨在通过大模型技术提升语音交互的智能化水平。豆包大模型在2025年曾获全球AIGC座舱推理速度第一，其接入意味着ID.AURA T6的语音助手将具备更强的自然语言理解、多轮对话和内容生成能力，能够处理更复杂的指令，如“帮我规划一个去郊区露营的路线，并推荐适合的营地”，从而从“执行命令”向“理解意图”进化。\n\n【体验价值】接入大模型后，语音交互将从“命令式”转向“对话式”，用户可以用更自然、更口语化的方式与车辆沟通，降低了交互门槛。同时，大模型带来的推理能力提升，使车机能够处理模糊指令和复杂需求，提供更智能、更主动的服务，显著提升了交互效率和便捷性。\n\n【潜在槽点】大模型在车内的应用面临“幻觉”问题，即可能生成不准确或虚构的信息，在导航、车辆控制等安全关键场景下风险较高。此外，大模型对网络连接的依赖性强，在弱网或离线环境下功能可能受限，影响体验的稳定性。",
+          "summary_en": "【Event Overview】Volcano Engine announced that FAW-Volkswagen's new pure electric flagship ID.AURA T6 has deeply integrated the Doubao large model. The model, which previously won first place in global AIGC cockpit inference speed, will empower the voice assistant with enhanced natural language understanding, multi-turn dialogue, and content generation. This allows the system to handle complex commands and evolve from 'executing commands' to 'understanding intent'. \n\n【Experience Value】With the large model, voice interaction shifts from 'command-based' to 'conversational', allowing users to communicate more naturally and lowering the interaction barrier. The improved reasoning enables the system to handle ambiguous instructions and complex needs, providing smarter, more proactive services and significantly enhancing efficiency and convenience. \n\n【Potential Friction】Large models in cars face the 'hallucination' problem, potentially generating inaccurate or fabricated information, which is risky in safety-critical scenarios like navigation. Additionally, heavy reliance on network connectivity means functionality may be limited in weak or offline environments, affecting stability."
+        },
+        {
+          "title": "2026智能座舱多模态交互体验测评体系与芯片算力需求预测报告.docx",
+          "url": "https://max.book118.com/html/2026/0815/5343020241013304.shtm",
+          "site_name": "原创力文档",
+          "publish_date": "2026-08-16",
+          "tags": [
+            "多模态交互",
+            "评测体系",
+            "芯片算力",
+            "行业报告"
+          ],
+          "summary": "【事件概述】一份关于2026年智能座舱多模态交互体验测评体系与芯片算力需求预测的报告发布。报告指出，多模态交互体验的评测范式正从传统的主观评价主导向主客观融合演进。核心在于将人类感知的细腻度与机器测量的精准性对齐，在复杂车内场景中形成可量化、可复现、可解释的体验度量。这意味着行业正在建立更科学、更严谨的标准来评估语音、手势、视线等多种交互方式融合后的综合体验，而非仅凭主观感受。\n\n【体验价值】建立科学的评测体系对用户体验有间接但深远的正向价值。它促使车企在设计多模态交互时，有据可依，从“凭感觉”转向“凭数据”，从而更精准地发现和解决交互痛点。最终，用户将受益于更流畅、更自然、更符合直觉的交互系统，减少因交互逻辑混乱带来的学习成本和误操作。\n\n【潜在槽点】过度依赖客观评测数据可能忽略个体差异和情感体验等主观因素，导致“数据好看但体验不佳”的情况。同时，建立评测体系需要大量投入，可能加剧行业“内卷”，对中小车企形成压力。评测标准的统一也可能限制交互设计的创新空间，导致产品同质化。",
+          "summary_en": "【Event Overview】A report on the 2026 evaluation system for multi-modal interaction experience in smart cockpits and chip computing power demand predictions was released. It highlights that the evaluation paradigm is shifting from subjective assessment to a fusion of subjective and objective methods. The core is aligning human perceptual nuance with machine measurement precision to create quantifiable, reproducible, and explainable experience metrics in complex in-car scenarios. This indicates the industry is establishing more scientific standards to evaluate integrated interactions like voice, gesture, and gaze. \n\n【Experience Value】A scientific evaluation system has an indirect but profound positive impact on UX. It encourages car manufacturers to base design decisions on data rather than intuition, helping to identify and solve interaction pain points more accurately. Ultimately, users benefit from more fluid, natural, and intuitive interaction systems, reducing learning costs and errors. \n\n【Potential Friction】Over-reliance on objective metrics may overlook individual differences and emotional aspects, leading to situations where 'data looks good but experience is poor'. Establishing such systems requires significant investment, potentially intensifying industry competition and pressuring smaller companies. Standardization might also limit design innovation, leading to product homogenization."
+        },
+        {
+          "title": "2026年多屏联动怎么选？新国标强制盲操、物理按键回归，一文看懂+FAQ",
+          "url": "https://k.sina.cn/article_7879923805_1d5ae185d06801oz7e.html",
+          "site_name": "新浪",
+          "publish_date": "2026-08-16",
+          "tags": [
+            "多屏联动",
+            "盲操",
+            "物理按键",
+            "法规标准"
+          ],
+          "summary": "【事件概述】文章指出，自2026年7月1日起，新生产车辆的空调、音量等关键操纵件必须“基本可盲操”。这一新国标对当前盛行的“大屏化”和“多屏联动”趋势提出了新要求。文章分析了多屏联动如何从“信息孤岛”走向“全舱可流转”，并探讨了在法规强制要求下，物理按键如何回归，以及屏幕与物理旋钮融合的新方案。这标志着座舱交互设计在追求科技感的同时，必须回归安全与实用的本质。\n\n【体验价值】新国标强制“盲操”能力，从法规层面保障了驾驶安全，减少了驾驶员因操作触屏而分神的风险。物理按键的回归或与屏幕的融合，提供了更可靠的触觉反馈，允许驾驶员在视线不离开道路的情况下完成关键操作，提升了驾驶的安心感和对车辆的掌控感。\n\n【潜在槽点】“基本可盲操”的定义可能模糊，导致车企在执行时标准不一。物理按键的回归可能占用宝贵的中控台空间，与“极简”设计趋势相悖。如何在有限的屏幕和按键之间平衡功能与美学，对设计师提出了更高要求，处理不当可能造成交互逻辑混乱。",
+          "summary_en": "【Event Overview】The article highlights that starting July 1, 2026, new vehicles must ensure key controls like air conditioning and volume are 'basically operable by touch without looking'. This new national standard challenges the current trend of large screens and multi-screen linkage. It analyzes how multi-screen linkage evolves from 'information silos' to 'cabin-wide flow', and discusses the return of physical buttons and new solutions integrating screens with physical knobs under regulatory pressure. This marks a return to safety and practicality in interaction design. \n\n【Experience Value】The mandatory 'blind operation' capability ensures driving safety by reducing distraction from touchscreen use. The return or integration of physical buttons provides reliable tactile feedback, allowing drivers to perform key operations without taking their eyes off the road, enhancing a sense of security and control. \n\n【Potential Friction】The definition of 'basically operable by touch' may be vague, leading to inconsistent implementation. The return of physical buttons might conflict with minimalist design trends and occupy valuable console space. Balancing functionality and aesthetics between screens and buttons poses a significant design challenge, and poor execution could lead to confusing interaction logic."
+        }
+      ],
+      "created_at": "2026-08-17 11:08:00"
+    },
+    {
       "date": "2026-08-16",
       "date_display": "08月16日",
       "weekday": "周日",
@@ -3063,75 +3142,6 @@
         }
       ],
       "created_at": "2026-06-14 14:50:48"
-    },
-    {
-      "date": "2026-06-12",
-      "date_display": "06月12日",
-      "weekday": "周五",
-      "news_count": 4,
-      "news": [
-        {
-          "title": "智能体验再进化，问界M9新一轮OTA升级正式推送",
-          "url": "https://xueqiu.com/1859976643/393505118",
-          "site_name": "雪球",
-          "publish_date": "2026-06-08",
-          "tags": [
-            "问界",
-            "鸿蒙座舱",
-            "OTA",
-            "辅助驾驶",
-            "语音交互"
-          ],
-          "summary": "【事件概述】问界M9系列迎来新一轮OTA重磅升级，聚焦辅助驾驶和鸿蒙座舱两大核心领域。辅助驾驶方面，新增城市NCA（城区智驾领航辅助）功能，支持复杂路口通行、无保护左转等场景，并优化了高速NCA的变道策略，减少无效变道。鸿蒙座舱方面，新增“超级桌面2.0”功能，支持手机应用在车机端以平行视界或全屏模式运行，并优化了语音助手“小艺”的上下文理解能力，可连续执行多轮指令（如“打开空调，然后导航到公司”）。此外，还新增了“智慧寻车”功能，通过车外摄像头自动记录停车位置并发送至手机。\n\n【体验价值】城市NCA的加入让用户在日常通勤中减少驾驶疲劳，尤其复杂路口的处理能力提升了信心。超级桌面2.0实现了手机与车机的深度融合，用户无需学习新应用，即可在车机上无缝使用手机生态。语音助手的上下文理解优化，使多步操作更自然，减少了手动点击，提升了驾驶安全性。智慧寻车功能解决了大型停车场找车难的痛点，提升了日常便利性。\n\n【潜在槽点】城市NCA在极端天气或复杂路况下可能表现不稳定，用户需保持警惕，存在过度依赖风险。超级桌面2.0可能因手机性能差异导致卡顿或闪退，影响体验。语音助手的上下文理解在嘈杂环境下识别率下降，且多轮指令的误执行（如误解“打开空调”为“打开车窗”）可能引发安全隐患。",
-          "summary_en": "【Event Overview】The AITO M9 series received a major OTA update focusing on assisted driving and HarmonyOS cockpit. New features include urban NCA (City Navigation Pilot) for complex intersections and unprotected left turns, optimized highway NCA lane-change strategy, 'Super Desktop 2.0' for seamless phone app streaming, enhanced voice assistant 'Xiao Yi' with contextual understanding for multi-step commands, and 'Smart Car Finder' that records parking location via external cameras.\n\n【Experience Value】Urban NCA reduces driving fatigue in daily commutes, especially at complex intersections. Super Desktop 2.0 deeply integrates phone and car, allowing users to use familiar apps without learning new interfaces. Enhanced voice assistant makes multi-step operations more natural, reducing manual clicks and improving safety. Smart Car Finder solves the pain point of finding cars in large parking lots.\n\n【Potential Friction】Urban NCA may be unstable in extreme weather or complex conditions, risking over-reliance. Super Desktop 2.0 could lag or crash on low-performance phones. Voice assistant's contextual understanding degrades in noisy environments, and misinterpreting commands (e.g., 'open AC' as 'open window') could pose safety risks."
-        },
-        {
-          "title": "蔚来世界模型 穿越溶洞 搭载最新NWM蔚来世界模型的 #乐道L60 完成了行业首次0接管，穿越极窄溶洞",
-          "url": "https://www.douyin.com/video/7650160176994040942",
-          "site_name": "抖音",
-          "publish_date": "2026-06-11",
-          "tags": [
-            "蔚来",
-            "NWM世界模型",
-            "OTA",
-            "辅助驾驶",
-            "感知"
-          ],
-          "summary": "【事件概述】蔚来宣布其最新NWM（蔚来世界模型）版本已推送至乐道L60，并完成了行业首次0接管穿越极窄溶洞的挑战。NWM世界模型基于多元自回归架构，可在100毫秒内同步推演216种潜在行车场景，实现实时路径规划和避障。此次升级还覆盖蔚来品牌的Banyan、Cedar、Cedar S及乐道品牌的Coconut+等车型平台。该模型通过融合多模态传感器数据（摄像头、激光雷达、毫米波雷达），构建高精度环境模型，使车辆在无GPS信号的溶洞内也能精准定位和导航。\n\n【体验价值】从UX视角看，NWM世界模型显著提升了辅助驾驶在极端场景下的可靠性和安全性。0接管穿越溶洞展示了系统在无信号、窄路、复杂光照条件下的强大感知和决策能力，增强了用户对自动驾驶的信任。用户无需手动干预即可应对突发障碍，降低了驾驶压力。OTA推送方式让所有车主都能持续获得能力升级，实现“常用常新”。\n\n【潜在槽点】世界模型的高算力需求可能导致车机功耗增加，影响续航或产生过热问题。在真实道路中，溶洞场景的极端性不代表日常驾驶，用户可能对系统能力产生不切实际的期望，导致在普通场景中过度依赖。此外，模型的黑盒特性使得决策过程难以解释，一旦发生事故，责任归属和故障排查将变得复杂。",
-          "summary_en": "【Event Overview】NIO announced that its latest NWM (NIO World Model) version has been pushed to the Onvo L60, completing the industry's first zero-intervention traversal of an extremely narrow cave. The NWM model, based on a multi-variate autoregressive architecture, can simultaneously infer 216 potential driving scenarios in 100ms, enabling real-time path planning and obstacle avoidance. The update covers NIO's Banyan, Cedar, Cedar S, and Onvo's Coconut+ platforms. It fuses multimodal sensor data for precise localization and navigation even in GPS-denied environments.\n\n【Experience Value】From a UX perspective, the NWM model significantly enhances assisted driving reliability and safety in extreme scenarios. The zero-intervention cave traversal demonstrates strong perception and decision-making in signal-less, narrow, and complex lighting conditions, boosting user trust in autonomous driving. Users avoid manual intervention for unexpected obstacles, reducing driving stress. OTA delivery ensures continuous capability upgrades for all owners.\n\n【Potential Friction】High compute demands of the world model may increase power consumption, affecting range or causing overheating. The extreme cave scenario may set unrealistic user expectations for everyday driving, leading to over-reliance. The black-box nature of the model makes decision processes opaque, complicating fault attribution and troubleshooting in accidents."
-        },
-        {
-          "title": "小鹏天玑5.1系统全面上线",
-          "url": "https://bbs.xiaopeng.com/article/2630169",
-          "site_name": "小鹏汽车在线社区",
-          "publish_date": "2026-06-12",
-          "tags": [
-            "小鹏",
-            "天玑系统",
-            "XOS 5.1",
-            "AI小P",
-            "语音交互"
-          ],
-          "summary": "【事件概述】小鹏汽车宣布XOS 5.1天玑系统全面上线，覆盖X9、G9、P7i、G6四款车型，发布即推送。本次升级核心亮点包括：全新AI小P语音助手，基于大模型实现更自然的对话和上下文理解，支持“可见即可说”和免唤醒连续对话；新增“人机共驾”模式，在辅助驾驶状态下，用户可通过语音或手势指令临时调整车辆行为（如“超车”或“靠左”），系统在安全前提下执行；优化了座舱交互界面，采用全新3D渲染引擎，支持实时天气和路况动态壁纸。\n\n【体验价值】AI小P的升级使语音交互从“命令式”转向“对话式”，用户可用自然语言表达复杂需求（如“我有点冷，帮我调高空调温度”），降低了学习成本。人机共驾模式让用户在不退出辅助驾驶的情况下微调车辆行为，提升了控制感和安全感，尤其适合中国复杂路况。3D动态壁纸增强了座舱的沉浸感和个性化，提升了视觉愉悦度。\n\n【潜在槽点】免唤醒连续对话可能因环境噪音或车内多人交谈导致误触发，例如乘客聊天被误解为指令，引发不必要的操作。人机共驾模式中，用户语音指令（如“超车”）可能被系统过度保守执行，导致时机延误或安全隐患。3D动态壁纸可能占用过多系统资源，导致车机卡顿或影响导航性能。",
-          "summary_en": "【Event Overview】XPeng announced the full rollout of XOS 5.1 Tianji system, covering X9, G9, P7i, and G6 models with immediate push. Key upgrades include: new AI Xiao P voice assistant with large model-based natural conversation and contextual understanding, supporting 'see-and-say' and wake-free continuous dialogue; new 'Human-Machine Co-Pilot' mode allowing voice or gesture commands to adjust vehicle behavior (e.g., 'overtake' or 'move left') during assisted driving; optimized cockpit UI with a new 3D rendering engine for real-time weather and traffic dynamic wallpapers.\n\n【Experience Value】The upgraded AI Xiao P shifts voice interaction from command-based to conversational, allowing users to express complex needs naturally (e.g., 'I'm cold, raise the AC'), reducing learning costs. Human-Machine Co-Pilot mode lets users fine-tune vehicle behavior without exiting assisted driving, enhancing control and safety, especially in complex Chinese traffic. 3D dynamic wallpapers improve immersion and personalization, boosting visual delight.\n\n【Potential Friction】Wake-free continuous dialogue may be falsely triggered by ambient noise or multi-person conversations, causing unintended actions. In Human-Machine Co-Pilot mode, voice commands like 'overtake' may be executed too conservatively, leading to missed opportunities or safety risks. 3D dynamic wallpapers may consume excessive system resources, causing lag or affecting navigation performance."
-        },
-        {
-          "title": "东风奕派纳米06 第二次OTA内测升级",
-          "url": "https://www.bilibili.com/video/BV149Ev6ZEsi/",
-          "site_name": "Bilibili",
-          "publish_date": "2026-06-11",
-          "tags": [
-            "东风奕派",
-            "纳米06",
-            "OTA",
-            "语音交互",
-            "远程看护"
-          ],
-          "summary": "【事件概述】东风奕派宣布旗下纳米06车型启动第二次OTA内测升级，包含8项功能新增与2项细节优化。核心更新包括：导航体验升级，上线明星语音包并支持自定义导航播报，门店检索优先匹配官方门店；语音交互升级，支持“可见即可说”和免唤醒连续对话，识别更准、响应更快，并新增二次确认机制避免误操作；远程看护升级，手机App新增远程视频查看功能，用户可实时查看车内情况；系统管理优化，新增车辆使用提醒（如保养、电量低）和更简洁的菜单布局。\n\n【体验价值】明星语音包和自定义导航播报增加了导航的趣味性和个性化，提升了驾驶愉悦感。可见即可说功能让用户无需记忆指令，直接说出屏幕上的文字即可操作，降低了学习成本。远程视频查看功能让用户随时监控车内安全，尤其适合有儿童或宠物的家庭，增强了安心感。二次确认机制在关键操作（如车窗升降）前增加确认步骤，减少了误操作风险。\n\n【潜在槽点】明星语音包可能因版权问题导致更新不及时或内容有限，用户新鲜感过后可能弃用。远程视频查看功能涉及车内隐私，若数据加密不严或服务器被攻击，可能导致用户隐私泄露。二次确认机制在频繁操作场景（如连续调节音量）中可能显得冗余，增加交互步骤，影响效率。",
-          "summary_en": "【Event Overview】Dongfeng Yipai announced the second OTA beta update for Nano 06, adding 8 new features and 2 optimizations. Key updates include: navigation upgrade with celebrity voice packs and custom navigation announcements, priority for official stores in search; voice interaction upgrade with 'see-and-say' and wake-free continuous dialogue, faster recognition, and a new confirmation mechanism to prevent misoperations; remote monitoring upgrade with live video view via phone app; system management optimization with vehicle usage reminders and cleaner menu layout.\n\n【Experience Value】Celebrity voice packs and custom announcements add fun and personalization to navigation, enhancing driving pleasure. 'See-and-say' eliminates the need to memorize commands, reducing learning costs. Remote live video allows users to monitor car interior anytime, especially reassuring for families with children or pets. The confirmation mechanism adds a step before critical operations (e.g., window control), reducing misoperation risks.\n\n【Potential Friction】Celebrity voice packs may face copyright issues, leading to limited updates or content, and user novelty may wear off quickly. Remote video viewing involves in-car privacy; weak data encryption or server attacks could lead to privacy leaks. The confirmation mechanism may feel redundant in frequent operations (e.g., continuous volume adjustment), adding steps and reducing efficiency."
-        }
-      ],
-      "created_at": "2026-06-12 14:52:19"
     }
   ]
 }
