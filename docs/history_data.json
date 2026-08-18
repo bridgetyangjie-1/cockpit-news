@@ -1,6 +1,57 @@
 {
   "records": [
     {
+      "date": "2026-08-18",
+      "date_display": "08月18日",
+      "weekday": "周二",
+      "news_count": 3,
+      "news": [
+        {
+          "title": "大模型在座舱领域的创新探讨",
+          "url": "https://www.eet-china.com/mp/a516943.html",
+          "site_name": "电子工程专辑",
+          "publish_date": "2026-08-14",
+          "tags": [
+            "AI大模型",
+            "语音交互",
+            "主动服务",
+            "场景智能"
+          ],
+          "summary": "【事件概述】本文深入探讨了大模型在智能座舱领域的创新应用，指出座舱助手已从简单的“聊天机器人”进化为能理解复杂意图、主动执行任务的“超级助手”。文章重点介绍了吉利银河M9搭载的阶跃星辰端到端语音大模型，该模型在2026年CES上被外国观众称为“最具活人感”的语音交互体验。此外，文章还提及了OpenClaw作为座舱Agent的“操作系统”的概念，预示着座舱软件架构正从功能堆叠向以AI为核心的智能体生态演进。这一转变的核心在于，大模型不再仅仅是语音识别的工具，而是成为理解用户需求、调度座舱功能、提供个性化服务的中央大脑，标志着座舱交互从“被动响应”向“主动服务”的关键跃迁。\n\n【体验价值】从UX视角看，端到端语音大模型的最大价值在于降低了交互成本。用户无需记忆特定指令，用自然语言即可完成复杂操作，如“我有点冷”系统自动调节空调并关闭车窗。这种“活人感”交互大幅提升了对话的流畅度和自然度，减少了认知负担，让驾驶者能更专注于驾驶，体验从“工具感”向“伙伴感”转变。\n\n【潜在槽点】端到端大模型存在“幻觉”风险，可能误解指令并执行错误操作，尤其在驾驶等高风险场景下后果严重。此外，大模型的运行需要消耗大量算力，可能导致车机发热和功耗增加，影响续航。用户对AI决策的不透明性也可能产生不信任感，需要车企在交互设计上提供清晰的反馈和撤销机制。",
+          "summary_en": "【Event Overview】This article explores the innovative application of large models in smart cockpits, noting that cockpit assistants have evolved from simple 'chatbots' to 'super assistants' capable of understanding complex intent and proactively executing tasks. It highlights the end-to-end voice large model by StepFun in Geely Galaxy M9, praised as the 'most human-like' voice interaction at CES 2026. The article also introduces OpenClaw as an 'operating system' for cockpit Agents, indicating a shift from feature-stacking to an AI-centric intelligent agent ecosystem. This transformation marks a key leap from 'passive response' to 'proactive service' in cockpit interaction.\n\n【Experience Value】From a UX perspective, the primary value of end-to-end voice large models is reducing interaction costs. Users can perform complex operations using natural language without memorizing specific commands, such as saying 'I'm a bit cold' to trigger automatic AC adjustment and window closing. This 'human-like' interaction significantly enhances conversational fluency and naturalness, reducing cognitive load and allowing drivers to focus more on driving.\n\n【Potential Friction】End-to-end large models risk 'hallucinations', potentially misinterpreting commands and executing wrong actions, which is critical in high-risk driving scenarios. Additionally, running large models consumes significant computing power, potentially causing device heating and increased energy consumption. Users may also distrust AI decision-making opacity, requiring clear feedback and undo mechanisms in interaction design."
+        },
+        {
+          "title": "小米澎湃OS 4，正式开启升级推送",
+          "url": "https://news.qq.com/rain/a/20260815A0CE1100",
+          "site_name": "腾讯新闻",
+          "publish_date": "2026-08-15",
+          "tags": [
+            "小米",
+            "澎湃OS",
+            "OTA",
+            "AI大模型"
+          ],
+          "summary": "【事件概述】小米新一代澎湃OS 4系列正式开启Beta招募升级，此次升级未提前预热或召开发布会，而是直接开放推送。据相关体验报道，澎湃OS 4是MIUI改名后升级最大的一代，不仅在UI设计、流畅程度、发热控制、系统功能上有了明显改善，还加入了小米最新的MiMo大模型。该系统预计将深度整合AI能力，在系统层面实现智能调度、个性化推荐和主动服务。对于小米汽车用户而言，澎湃OS 4的升级可能带来更流畅的手车互联体验、更智能的语音助手以及更丰富的跨端应用流转能力，进一步强化小米“人车家全生态”的战略布局。此次OTA推送也体现了小米在软件迭代速度和用户参与度上的新策略。\n\n【体验价值】澎湃OS 4的升级核心价值在于“流畅性”和“智能性”的双重提升。UI设计和系统流畅度的改善直接降低了用户的操作挫败感，提升了日常使用的愉悦度。MiMo大模型的加入则让系统具备更强的学习和预测能力，能够根据用户习惯智能预加载应用、优化资源分配，实现“越用越懂你”的个性化体验，减少用户主动设置的负担。\n\n【潜在槽点】大版本OTA升级可能带来兼容性问题，部分老款设备或第三方应用可能出现闪退、卡顿等不稳定现象。用户需要重新适应新的UI和交互逻辑，存在一定的学习成本。此外，MiMo大模型的本地运行可能占用更多存储空间和系统资源，对中低端设备的性能造成压力。Beta版本的稳定性也存疑，可能影响用户的日常使用。",
+          "summary_en": "【Event Overview】Xiaomi's new HyperOS 4 series has officially begun Beta recruitment upgrades, without prior hype or a launch event. Reports indicate it's the biggest upgrade since MIUI was renamed, with significant improvements in UI design, smoothness, heat control, and system functions, plus the integration of Xiaomi's latest MiMo large model. The system is expected to deeply integrate AI capabilities for intelligent scheduling, personalized recommendations, and proactive services. For Xiaomi car users, this upgrade may bring smoother phone-car connectivity, smarter voice assistants, and richer cross-device app flow capabilities, strengthening Xiaomi's 'Human x Car x Home' ecosystem strategy.\n\n【Experience Value】The core value of the HyperOS 4 upgrade lies in dual improvements in 'smoothness' and 'intelligence'. UI design and system fluency improvements directly reduce user frustration and enhance daily usage pleasure. The MiMo large model enables the system to learn and predict user habits, intelligently pre-loading apps and optimizing resource allocation for a personalized 'understands you better over time' experience, reducing the burden of manual settings.\n\n【Potential Friction】Major OTA upgrades may bring compatibility issues, with some older devices or third-party apps experiencing crashes or lag. Users need to adapt to new UI and interaction logic, incurring learning costs. Additionally, local operation of the MiMo model may consume more storage and system resources, pressuring mid-to-low-end devices. Beta version stability is also questionable, potentially affecting daily use."
+        },
+        {
+          "title": "沉浸式游戏座舱怎么选？3大维度拆解理想L8/荣威家越07/华为鸿蒙+FAQ",
+          "url": "https://auto.sina.cn/2026-08-16/detail-ininmtkf0232606.d.html?vt=4",
+          "site_name": "新浪汽车",
+          "publish_date": "2026-08-16",
+          "tags": [
+            "游戏座舱",
+            "生态",
+            "多屏互动",
+            "鸿蒙"
+          ],
+          "summary": "【事件概述】本文从3大维度拆解了如何选择沉浸式游戏座舱，对比了理想L8、荣威家越07和华为鸿蒙座舱。文章指出，沉浸式游戏座舱的核心不是堆屏幕，而是让全家人都能“陷”进去。理想L8凭借6K巨幕、9.3.6音响和四座零重力座椅成为家用天花板；荣威家越07以15万级价格提供了零重力座椅和母婴座舱；华为鸿蒙座舱则依靠一芯多屏和手机投屏赢在生态。文章强调，游戏座舱的体验取决于硬件（屏幕、音响、座椅）与软件（游戏生态、交互逻辑）的协同。这反映了座舱娱乐功能正从简单的视频播放向深度游戏体验演进，成为车企差异化竞争的新焦点，也推动了座舱SoC图形处理能力和游戏内容生态的发展。\n\n【体验价值】沉浸式游戏座舱的体验价值在于将车内空间转化为“第三生活空间”，满足用户在停车等待、充电等场景下的娱乐需求。高质量的音响和屏幕能提供沉浸式视听享受，零重力座椅则提升了长时间游戏的舒适性。华为鸿蒙的生态优势让用户能无缝访问手机游戏和应用，降低了内容获取门槛。这种体验增强了车辆的“可玩性”，提升了用户对车辆的情感依附和品牌忠诚度。\n\n【潜在槽点】游戏功能仅在P挡静止状态下可用，使用场景受限，且可能诱导用户在车内长时间停留，影响健康。游戏生态的丰富度取决于合作伙伴，初期可能内容不足。高性能游戏会大量消耗电量，对电动车续航造成影响。此外，游戏操作与车机交互逻辑的适配（如方向盘、踏板是否可用）需要精心设计，否则体验不佳。硬件成本也可能推高车价。",
+          "summary_en": "【Event Overview】This article analyzes how to choose an immersive gaming cockpit from three dimensions, comparing the Li Auto L8, Roewe Jiayue 07, and Huawei HarmonyOS cockpit. It argues that the core of a gaming cockpit is not stacking screens but engaging the whole family. The Li L8 is a home ceiling with a 6K screen, 9.3.6 audio, and four zero-gravity seats; the Roewe Jiayue 07 offers zero-gravity seats and a mother-infant cockpit at a 150k price point; Huawei's HarmonyOS cockpit wins on ecosystem with one-chip-multi-screen and phone projection. The article emphasizes that gaming experience depends on the synergy of hardware (screen, audio, seats) and software (game ecosystem, interaction logic). This reflects the evolution of cockpit entertainment from simple video playback to deep gaming experiences.\n\n【Experience Value】The value of an immersive gaming cockpit lies in transforming the car into a 'third living space', meeting entertainment needs during parking, waiting, or charging. High-quality audio and screens provide immersive audiovisual enjoyment, while zero-gravity seats enhance comfort during extended gaming. Huawei's ecosystem advantage allows seamless access to phone games and apps, lowering content acquisition barriers. This enhances the vehicle's 'playability', increasing emotional attachment and brand loyalty.\n\n【Potential Friction】Gaming is only available in Park, limiting usage scenarios and potentially encouraging prolonged in-car stays, affecting health. Game ecosystem richness depends on partners, with potential initial content shortages. High-performance games consume significant power, impacting EV range. Additionally, adapting game controls to car interaction logic (e.g., steering wheel, pedals) requires careful design to avoid poor experience. Hardware costs may also increase vehicle prices."
+        }
+      ],
+      "created_at": "2026-08-18 11:03:38"
+    },
+    {
       "date": "2026-08-17",
       "date_display": "08月17日",
       "weekday": "周一",
@@ -3063,85 +3114,6 @@
         }
       ],
       "created_at": "2026-06-15 15:31:16"
-    },
-    {
-      "date": "2026-06-14",
-      "date_display": "06月14日",
-      "weekday": "周日",
-      "news_count": 5,
-      "news": [
-        {
-          "title": "汽车产业观察｜AI Agent加速落地 智能座舱迈向认知智能",
-          "url": "https://news.qq.com/rain/a/20260609A04VFD00",
-          "site_name": "腾讯新闻",
-          "publish_date": "2026-06-09",
-          "tags": [
-            "AI Agent",
-            "多模态交互",
-            "认知智能",
-            "语音交互"
-          ],
-          "summary": "【事件概述】2026年上半年，AI Agent在智能座舱领域进入量产应用阶段，成为最引人注目的技术趋势。与传统语音助手相比，新一代车载AI Agent在多模态融合交互（融合语音、手势、视线）、长上下文理解（可记忆多轮对话历史）、自主决策执行（如主动推荐路线、调节空调）以及跨设备协同能力（与手机、家居联动）方面持续增强。该技术推动智能座舱从“被动响应”向“认知智能”演进，能够理解用户意图并主动提供服务，例如根据驾驶习惯和日程自动规划充电站、调整座椅姿态等。多家车企已开始将AI Agent集成到座舱OS中，预计2026年下半年将迎来大规模OTA推送。\n\n【体验价值】AI Agent显著降低了用户的操作层级，从“用户发出指令”转变为“系统预判需求”，减少了驾驶分心。多模态融合交互允许用户通过自然语言和手势组合完成复杂任务，提升了交互的直觉性和效率。长上下文理解使系统能记住用户偏好，提供个性化服务，增强了座舱的“懂你”体验。\n\n【潜在槽点】AI Agent的自主决策可能引发用户对控制权的担忧，例如系统主动调整设置与用户预期不符时，会产生挫败感。隐私风险显著增加，因为系统需要持续收集用户行为数据以优化预测。此外，多模态交互的误识别率在嘈杂或复杂场景下仍较高，可能导致交互冗余。",
-          "summary_en": "【Event Overview】In the first half of 2026, AI Agent entered mass production in smart cockpits, becoming the most notable tech trend. Compared to traditional voice assistants, new-generation in-vehicle AI Agents enhance multimodal fusion interaction (voice, gesture, gaze), long-context understanding (remembering multi-turn dialogues), autonomous decision-making (e.g., proactively recommending routes), and cross-device collaboration. This pushes cockpits from 'passive response' to 'cognitive intelligence', understanding user intent and proactively offering services. Multiple OEMs have integrated AI Agents into cockpit OS, with large-scale OTA expected in H2 2026.\n\n【Experience Value】AI Agent significantly reduces user operation layers, shifting from 'user commands' to 'system prediction', reducing driving distraction. Multimodal fusion allows complex tasks via natural language and gestures, improving intuitiveness and efficiency. Long-context understanding enables personalized services, enhancing the 'understanding you' experience.\n\n【Potential Friction】Autonomous decisions may cause user control concerns, e.g., when system adjustments mismatch expectations, leading to frustration. Privacy risks increase significantly due to continuous behavior data collection. Misrecognition rates in noisy or complex scenarios remain high, potentially causing interaction redundancy."
-        },
-        {
-          "title": "小米澎湃OS 4大换血：底层重写，能否终结安卓“用久就卡”魔咒？",
-          "url": "https://www.sohu.com/a/1033361644_122694825",
-          "site_name": "搜狐",
-          "publish_date": "2026-06-10",
-          "tags": [
-            "小米",
-            "澎湃OS",
-            "底层重构",
-            "液态玻璃"
-          ],
-          "summary": "【事件概述】小米即将在2026年夏季发布澎湃OS 4，此次升级核心在于底层架构重写，旨在解决安卓系统长期使用后卡顿的顽疾。新系统引入“液态玻璃”设计语言，支持AI自适应取色和光场交互，提升视觉流畅度。底层优化包括内存管理、调度算法和文件系统重构，减少碎片化积累。此外，澎湃OS 4将强化跨设备协同，实现手机、车机、智能家居的无缝流转。首批搭载机型预计为小米18系列，后续将通过OTA覆盖更多设备。\n\n【体验价值】底层重写直接针对用户痛点——“用久就卡”，通过优化资源分配和垃圾回收机制，有望显著提升长期使用后的系统响应速度。液态玻璃设计语言带来更统一的视觉风格和更顺滑的动画，降低视觉疲劳。跨设备协同能力增强，使车机与手机生态融合更紧密，例如导航、音乐无缝接力。\n\n【潜在槽点】底层重写可能引入新兼容性问题，部分第三方应用或旧设备可能出现闪退或功能异常。液态玻璃设计若过度追求视觉效果，可能增加GPU负载，反而影响低端设备流畅度。用户学习成本较高，新交互逻辑（如光场交互）需要适应期。",
-          "summary_en": "【Event Overview】Xiaomi is set to release HyperOS 4 in summer 2026, with a core focus on rewriting the underlying architecture to address Android's long-term lag issue. The new system introduces a 'liquid glass' design language, supporting AI adaptive color extraction and light-field interaction for smoother visuals. Underlying optimizations include memory management, scheduling algorithms, and file system restructuring to reduce fragmentation. Cross-device collaboration is enhanced for seamless flow between phone, car, and smart home. First batch devices expected to be Xiaomi 18 series, with OTA coverage for more devices.\n\n【Experience Value】The rewrite directly targets the pain point of 'lag over time', potentially significantly improving long-term response speed. The liquid glass design offers a unified visual style and smoother animations, reducing visual fatigue. Enhanced cross-device collaboration tightens car-phone ecosystem integration, e.g., seamless navigation and music handoff.\n\n【Potential Friction】The rewrite may introduce new compatibility issues, causing crashes or malfunctions in some third-party apps or older devices. The liquid glass design, if overdone, could increase GPU load, affecting low-end device smoothness. User learning cost is high, as new interaction logic (e.g., light-field) requires adaptation."
-        },
-        {
-          "title": "中国移动携手深蓝汽车深耕车网融合，拓展智能用车体验边界",
-          "url": "https://m.thepaper.cn/newsDetail_forward_33333112",
-          "site_name": "澎湃新闻",
-          "publish_date": "2026-06-09",
-          "tags": [
-            "深蓝汽车",
-            "车网融合",
-            "数字车钥匙",
-            "话费支付"
-          ],
-          "summary": "【事件概述】中国移动与深蓝汽车宣布深化车网融合合作，推出多项创新数字服务。核心亮点包括：人车绑定体系，将车辆与用户手机号深度绑定，实现手机与车机账号互通、流量共享；超级SIM数字车钥匙，利用SIM卡安全芯片实现无感解锁、启动车辆；车载话费支付功能，用户可直接通过话费账户支付充电、停车、过路费等场景费用。此外，双方还计划基于5G网络优化车机OTA升级速度，并探索V2X（车路协同）应用。\n\n【体验价值】人车绑定体系消除了多账号管理的繁琐，用户上车即自动登录，流量共享避免了额外购买车载流量的麻烦。超级SIM数字车钥匙无需额外硬件，手机即可充当钥匙，提升了便捷性和安全性。话费支付功能简化了支付流程，用户无需绑定银行卡或第三方支付，降低了使用门槛。\n\n【潜在槽点】超级SIM数字车钥匙依赖运营商网络，在无信号区域（如地下车库）可能失效，造成尴尬。话费支付可能产生意外扣费，用户需警惕自动续费或误操作。账号深度绑定后，换手机号或转网流程复杂，用户数据迁移成本高。",
-          "summary_en": "【Event Overview】China Mobile and Deepal Auto announced deepened cooperation on vehicle-network integration, launching innovative digital services. Key highlights include: a human-vehicle binding system that deeply links the vehicle to the user's phone number, enabling account interoperability and data sharing between phone and car; a Super SIM digital car key using SIM security chip for keyless entry and start; and a mobile bill payment feature allowing users to pay for charging, parking, and tolls via their phone bill. They also plan to optimize OTA speeds using 5G and explore V2X applications.\n\n【Experience Value】The binding system eliminates multi-account management, auto-logging users upon entry. Data sharing avoids extra in-car data purchases. The Super SIM key requires no extra hardware, enhancing convenience and security. Bill payment simplifies the process, reducing the need for bank cards or third-party payments.\n\n【Potential Friction】The Super SIM key relies on network coverage; in no-signal areas (e.g., underground garages), it may fail, causing inconvenience. Bill payment may lead to accidental charges, requiring user vigilance against auto-renewals. Deep account binding makes changing phone numbers or carriers complex, with high data migration costs."
-        },
-        {
-          "title": "当 OpenAI 还在屏幕里，这家中国车企已经让 AI 长出了身体",
-          "url": "https://www.163.com/dy/article/KV7KIT4405119FMA.html",
-          "site_name": "网易",
-          "publish_date": "2026-06-12",
-          "tags": [
-            "火山引擎",
-            "豆包大模型",
-            "多模态交互",
-            "车端智能体"
-          ],
-          "summary": "【事件概述】火山引擎为某中国车企（推测为蔚来或小鹏）的AIVA系统提供豆包大模型能力，实现AI从“屏幕内”到“身体化”的跨越。核心创新在于：多模态交互融合语音、手势、视线和触控，支持驾驶状态下免提操作；车端智能体可自主执行复杂任务，如预订餐厅、规划多目的地路线；针对车内多用户场景（驾驶员、乘客、儿童），系统能区分不同角色并调整交互逻辑。此外，大模型在车端本地运行，减少云端延迟，提升隐私安全性。该技术已进入量产验证阶段。\n\n【体验价值】多模态交互使驾驶状态下用户无需全神贯注于屏幕，通过自然语言和手势即可完成操作，显著降低分心风险。车端智能体自主执行任务，减少用户操作步骤，提升效率。角色感知能力让系统能同时服务不同乘客，例如为儿童播放动画、为驾驶员导航，避免交互冲突。\n\n【潜在槽点】车端本地运行大模型对芯片算力要求极高，可能仅限高端车型，普及性受限。多用户场景下的角色区分可能误判，例如儿童声音被误认为成人，导致不合适的响应。隐私方面，本地模型虽减少云端传输，但车端数据存储仍存在被黑客攻击的风险。",
-          "summary_en": "【Event Overview】Volcano Engine provides Doubao large model capabilities to a Chinese OEM's (likely NIO or XPeng) AIVA system, enabling AI to transcend from 'on-screen' to 'embodied'. Core innovations: multimodal interaction fusing voice, gesture, gaze, and touch, supporting hands-free operation while driving; in-vehicle agents autonomously executing complex tasks like restaurant booking and multi-destination route planning; role-aware interaction distinguishing driver, passengers, and children, adjusting logic accordingly. The model runs locally on the vehicle, reducing cloud latency and enhancing privacy. The tech is in mass production validation.\n\n【Experience Value】Multimodal interaction allows users to operate without full screen attention, significantly reducing distraction risk. Autonomous agents reduce user steps, improving efficiency. Role awareness enables simultaneous service to different occupants, e.g., playing cartoons for kids while navigating for the driver, avoiding interaction conflicts.\n\n【Potential Friction】Local large model operation demands high chip compute, likely limited to high-end models, restricting adoption. Role differentiation may misidentify, e.g., a child's voice mistaken for an adult, leading to inappropriate responses. Privacy-wise, local data storage still risks hacking attacks."
-        },
-        {
-          "title": "AI 语音输入法，正在偷偷挤走「键盘」",
-          "url": "https://36kr.com/p/3606264618402825",
-          "site_name": "36氪",
-          "publish_date": "2026-06-13",
-          "tags": [
-            "AI语音",
-            "输入法",
-            "交互范式",
-            "自然语言"
-          ],
-          "summary": "【事件概述】AI语音输入法正逐步取代传统键盘输入，成为人机交互的新范式。核心创新在于：AI能理解不完整、有错别字、格式混乱的语音输入，并自动纠正、组织成连贯文本；支持中途切换话题，AI仍能保持上下文连贯；在车载场景中，语音输入法可无缝集成到导航、消息回复、搜索等应用中，用户只需自然说话即可完成输入。该技术基于大语言模型，能处理长句和多轮对话，准确率显著提升。多家车企已开始将AI语音输入法作为座舱标配，替代传统触控键盘。\n\n【体验价值】AI语音输入法大幅降低了输入门槛，用户无需学习键盘布局或打字技巧，尤其适合驾驶等免提场景。自动纠错和话题切换能力使交互更接近真人对话，减少了重复输入的挫败感。在车载场景中，用户可快速发送消息、设置导航，提升效率和安全。\n\n【潜在槽点】语音输入在嘈杂环境（如高速行驶、车内多人交谈）下准确率下降，可能导致误操作。隐私问题突出，语音数据需上传云端处理，用户可能担忧录音被滥用。过度依赖语音可能削弱用户对触控交互的熟练度，在需要静音或隐私场景下（如车内有人休息）造成不便。",
-          "summary_en": "【Event Overview】AI voice input is gradually replacing traditional keyboard input as a new interaction paradigm. Core innovations: AI understands incomplete, typo-ridden, or messy voice input, auto-correcting and organizing into coherent text; supports topic switching mid-conversation while maintaining context; in-vehicle scenarios, voice input seamlessly integrates into navigation, messaging, search apps, requiring only natural speech. The tech is based on large language models, handling long sentences and multi-turn dialogues with high accuracy. Multiple OEMs are adopting AI voice input as standard cockpit feature, replacing touch keyboards.\n\n【Experience Value】AI voice input significantly lowers input barriers, eliminating the need for keyboard layout learning or typing skills, ideal for hands-free scenarios like driving. Auto-correction and topic switching make interaction more natural, reducing frustration from repeated input. In-vehicle, users can quickly send messages or set navigation, improving efficiency and safety.\n\n【Potential Friction】Voice input accuracy drops in noisy environments (e.g., highway driving, multiple conversations), leading to errors. Privacy concerns are prominent, as voice data is uploaded to the cloud, raising fears of misuse. Over-reliance on voice may reduce user proficiency in touch interaction, causing inconvenience in quiet or private scenarios (e.g., when others are resting in the car)."
-        }
-      ],
-      "created_at": "2026-06-14 14:50:48"
     }
   ]
 }
