@@ -1,6 +1,57 @@
 {
   "records": [
     {
+      "date": "2026-08-20",
+      "date_display": "08月20日",
+      "weekday": "周四",
+      "news_count": 3,
+      "news": [
+        {
+          "title": "尚界Z7和Z7T推送暑期OTA升级 三大维度20余项体验进化",
+          "url": "https://chejiahao.autohome.com.cn/info/26214650",
+          "site_name": "车家号",
+          "publish_date": "2026-08-17",
+          "tags": [
+            "尚界",
+            "OTA",
+            "泊车辅助",
+            "导航升级"
+          ],
+          "summary": "【事件概述】尚界Z7与Z7T车型于暑期推送大规模OTA升级，覆盖智能座舱、辅助驾驶与整车体验三大维度，共计20余项功能进化。本次升级的核心亮点集中在泊车与导航场景的深度优化：新增“离开或到达车位支持直达充电车位”功能，打通了导航与充电补能场景的闭环；新增“园区内部途经点”功能，解决了大型园区内复杂路径规划的痛点；同时引入“自动防追尾辅助”与“守位泊车”功能，进一步强化了行车与泊车阶段的安全冗余。此外，升级还优化了3D渲染界面与导航搜索记录页面，提升了视觉交互的流畅度与信息检索效率。\n\n【体验价值】本次OTA精准聚焦高频痛点场景。充电车位直达与园区途经点功能显著降低了用户在陌生环境下的认知负荷与操作步骤，体现了“场景化服务”的设计思维。3D渲染与搜索页面的优化则直接提升了视觉清晰度与操作流畅性，让用户能更直观地感知系统状态，减少理解成本。\n\n【潜在槽点】“守位泊车”与“自动防追尾”等新增功能可能对传感器精度与算法稳定性提出更高要求，在极端天气或复杂车位环境下存在误判风险。此外，大量新增功能集中推送，可能增加用户的学习成本，部分功能入口若设计不够直观，容易被用户忽略。",
+          "summary_en": "【Event Overview】Shangjie Z7 and Z7T received a major summer OTA update covering smart cockpit, ADAS, and vehicle experience with 20+ enhancements. Key highlights include direct navigation to charging spots upon arrival/departure, support for waypoints within campus areas, automatic rear-end collision prevention, and 'position-keeping parking'. The update also refines the 3D rendering interface and navigation search history page for smoother interaction.\n\n【Experience Value】The update precisely targets high-frequency pain points. Direct charging spot navigation and campus waypoints significantly reduce cognitive load and operational steps in unfamiliar environments, exemplifying scenario-based service design. Refined 3D rendering and search pages enhance visual clarity and operational fluidity, reducing comprehension costs.\n\n【Potential Friction】New features like 'position-keeping parking' and 'automatic rear-end prevention' demand high sensor accuracy and algorithm stability, posing misjudgment risks in extreme weather or complex parking scenarios. The simultaneous push of 20+ features may increase the user learning curve, and poorly designed entry points could lead to feature neglect."
+        },
+        {
+          "title": "特斯拉OTA大升级！新增3大隐藏功能，车主惊呼：这还是我那台车吗？",
+          "url": "https://www.yoojia.com/article/9471512088638019261.html",
+          "site_name": "有驾",
+          "publish_date": "2026-08-14",
+          "tags": [
+            "特斯拉",
+            "OTA",
+            "豆包大模型",
+            "AI助手"
+          ],
+          "summary": "【事件概述】特斯拉推送2026.14.13版本OTA升级，本次更新最引人注目的是深度整合了豆包大模型，标志着其车载AI助手从规则驱动向大模型驱动的范式跃迁。该版本不仅包含此前版本的体验修复，更将大模型能力融入语音交互、场景理解与主动服务等核心链路，使车机能够处理更复杂的自然语言指令与多轮对话。此外，本次升级还新增了3项“隐藏功能”，具体细节虽未完全披露，但据用户反馈，涉及更智能的充电建议、基于驾驶习惯的主动座舱调节以及更精准的行程预测。整体来看，此次OTA是特斯拉在AI定义座舱方向上的一次关键落子，旨在通过软件迭代持续解锁硬件潜力。\n\n【体验价值】豆包大模型的整合极大提升了语音交互的自然度与容错率，用户无需记忆特定指令，可用更口语化的方式与车机沟通。主动服务能力的增强，如基于习惯的座舱调节，减少了用户的显式操作，让交互从“被动响应”走向“主动预判”，提升了驾驶的便捷性与个性化体验。\n\n【潜在槽点】大模型上车对车机算力与网络连接提出更高要求，在弱网或离线环境下，AI响应速度与准确性可能大幅下降。同时，大模型的“黑盒”特性可能引发用户对决策逻辑的不信任，尤其在涉及驾驶安全的功能上。此外，频繁的OTA迭代也可能让部分用户产生版本疲劳，增加适应成本。",
+          "summary_en": "【Event Overview】Tesla pushed OTA version 2026.14.13, notably integrating the Doubao large language model, marking a paradigm shift in its in-car AI assistant from rule-based to LLM-driven. The update enhances voice interaction, scene understanding, and proactive services, enabling more complex natural language processing and multi-turn dialogues. It also introduces 3 'hidden features' reportedly involving smarter charging suggestions, proactive cabin adjustments based on driving habits, and more accurate trip predictions. This OTA is a key step in Tesla's AI-defined cockpit strategy.\n\n【Experience Value】The Doubao LLM integration significantly improves the naturalness and fault tolerance of voice interaction, allowing users to communicate more colloquially. Enhanced proactive services, like habit-based cabin adjustments, reduce explicit user operations, shifting interaction from 'passive response' to 'proactive anticipation', boosting convenience and personalization.\n\n【Potential Friction】LLM integration demands high in-car compute and network connectivity; performance may degrade significantly in weak or offline environments. The 'black box' nature of LLMs could also breed user distrust, especially for safety-critical functions. Frequent OTA iterations might cause version fatigue and increase adaptation costs."
+        },
+        {
+          "title": "2026全新HiCar连接技术 有线CarPlay升级无线HiCar手车互联 诚意满满",
+          "url": "https://www.douyin.com/video/7675642254450593066",
+          "site_name": "抖音",
+          "publish_date": "2026-08-19",
+          "tags": [
+            "华为HiCar",
+            "CarPlay",
+            "无线互联",
+            "后装方案"
+          ],
+          "summary": "【事件概述】该视频展示了DriveKit奥风车联推出的2026全新HiCar连接技术方案，核心卖点是将传统有线CarPlay体验升级为无线HiCar手车互联。该方案通过一个外接互联盒，实现了从有线到无线的体验跃迁，解决了用户上车插线的繁琐操作。视频强调其“诚意满满”，暗示在连接稳定性、延迟控制与功能兼容性上均有优化。这一后装解决方案瞄准了存量车市场，让未预装HiCar的车型也能享受到华为生态的手车互联能力，包括应用流转、导航无缝衔接等。其本质是通过硬件外设+软件协议适配，打破车机原厂系统的生态壁垒。\n\n【体验价值】从有线到无线的升级，直接消除了用户上车插线的物理动作，降低了使用门槛，提升了便利性。对于拥有华为手机的用户，该方案能无缝接入HiCar生态，实现手机应用与车机大屏的深度联动，如导航信息无缝流转、音乐无缝续播，增强了跨设备体验的一致性。\n\n【潜在槽点】后装互联盒的稳定性与延迟表现高度依赖硬件质量与软件优化，劣质产品可能导致连接频繁中断或操作卡顿。此外，无线连接对手机电量消耗较大，长时间使用可能加剧手机发热。该方案仅适用于特定车型，兼容性覆盖有限，用户需提前确认适配性。",
+          "summary_en": "【Event Overview】This video showcases DriveKit's 2026 new HiCar connection technology, which upgrades wired CarPlay to wireless HiCar connectivity via an external dongle. It addresses the hassle of plugging in cables, emphasizing improved connection stability, low latency, and broad compatibility. This aftermarket solution targets the existing car market, enabling non-HiCar vehicles to access Huawei's ecosystem, including app continuity and seamless navigation. It essentially breaks down the original car system's ecosystem barriers through hardware and software protocol adaptation.\n\n【Experience Value】The shift from wired to wireless eliminates the physical action of plugging in, lowering the usage threshold and enhancing convenience. For Huawei phone users, it seamlessly integrates into the HiCar ecosystem, enabling deep linkage between phone apps and the car screen, such as seamless navigation handoff and continuous music playback, enhancing cross-device consistency.\n\n【Potential Friction】The stability and latency of aftermarket dongles heavily depend on hardware quality and software optimization; poor products may cause frequent disconnections or lag. Wireless connections consume significant phone battery, potentially causing overheating during extended use. Compatibility is limited to specific car models, requiring users to verify fitment beforehand."
+        }
+      ],
+      "created_at": "2026-08-20 11:04:54"
+    },
+    {
       "date": "2026-08-18",
       "date_display": "08月18日",
       "weekday": "周二",
@@ -3049,71 +3100,6 @@
         }
       ],
       "created_at": "2026-06-16 15:36:49"
-    },
-    {
-      "date": "2026-06-15",
-      "date_display": "06月15日",
-      "weekday": "周一",
-      "news_count": 4,
-      "news": [
-        {
-          "title": "五大玩家上车,AI智能体变身'生活助理'",
-          "url": "https://cj.sina.com.cn/articles/view/7857141524/1d452771401902zab8",
-          "site_name": "新浪财经",
-          "publish_date": "2026-06-15",
-          "tags": [
-            "AI智能体",
-            "生态融合",
-            "语音交互",
-            "支付场景"
-          ],
-          "summary": "【事件概述】2026年6月，爱奇艺、支付宝、腾讯等五大玩家宣布将AI智能体（Agent）集成至车载座舱系统。爱奇艺座舱Agent实现AI搜片与互动观影，用户可通过语音指令直接搜索并播放影视内容；支付宝车载助手打通停车缴费、语音点单支付，实现车内无感支付闭环；腾讯云游戏则将键鼠、体感游戏搬进座舱，丰富车内娱乐场景。此举标志着2026年成为AI智能体上车元年，座舱从被动响应转向主动服务，通过多模态交互（语音+触控+手势）和跨应用协同，为用户提供一站式生活助理体验。\n\n【体验价值】AI智能体将碎片化功能整合为连贯任务流，用户无需在多个App间切换，例如一句话即可完成“找餐厅-导航-支付”，大幅降低操作层级，提升驾驶专注度与效率。\n\n【潜在槽点】多应用权限打通可能引发隐私泄露风险，用户需授权支付、位置等敏感数据；跨平台协同的稳定性待验证，若支付失败或内容加载延迟，将严重破坏体验一致性。",
-          "summary_en": "【Event Overview】In June 2026, five major players including iQiyi, Alipay, and Tencent announced the integration of AI agents into vehicle cockpits. iQiyi's agent enables AI-powered search and interactive viewing; Alipay's in-car assistant streamlines parking payment and voice ordering; Tencent Cloud Gaming brings keyboard/mouse and motion-sensing games into the cabin. This marks 2026 as the year of AI agents in vehicles, shifting from passive response to proactive service via multimodal interaction and cross-app collaboration. \n\n【Experience Value】AI agents consolidate fragmented functions into seamless task flows, allowing users to complete complex actions like 'find restaurant - navigate - pay' with a single command, reducing interaction layers and enhancing driving focus. \n\n【Potential Friction】Cross-app permission integration raises privacy concerns, requiring access to sensitive data like location and payment info; stability of cross-platform coordination remains unproven, with potential failures in payment or content loading severely disrupting user experience."
-        },
-        {
-          "title": "小米澎湃OS 4引入苹果同款液态玻璃：博主称细节审美提升100倍",
-          "url": "https://www.163.com/dy/article/KV2DJLNG0511CPVM.html",
-          "site_name": "网易",
-          "publish_date": "2026-06-10",
-          "tags": [
-            "小米",
-            "澎湃OS",
-            "UI设计",
-            "光场交互"
-          ],
-          "summary": "【事件概述】小米计划于2026年下半年推出澎湃OS 4，该系统采用全新光场交互设计，并首次引入苹果同款“液态玻璃”设计语言。核心创新包括：AI自适应取色功能，可根据壁纸和场景动态调整界面色彩；底层代码重构，清理十年冗余代码以提升流畅度；桌面7.0版本已进入压测阶段。液态玻璃设计强调动态光影和透明质感，使图标、卡片和控件呈现类似玻璃的折射与模糊效果，提升视觉层次感。此外，系统还优化了动画曲线和触控反馈，意图在交互细节上对标iOS。\n\n【体验价值】液态玻璃设计通过动态光影和实时模糊，营造出沉浸且富有质感的视觉体验，减少界面割裂感；AI自适应取色让界面与内容更协调，降低用户视觉疲劳，提升长时间使用的舒适度。\n\n【潜在槽点】过度追求视觉特效可能增加GPU负载，导致发热和续航下降；液态玻璃的复杂渲染在低端机型上可能出现卡顿或掉帧，影响基础交互流畅性；用户若偏好简洁风格，可能认为该设计冗余。",
-          "summary_en": "【Event Overview】Xiaomi plans to launch HyperOS 4 in H2 2026, featuring a new light-field interaction design and Apple-like 'liquid glass' design language. Key innovations include AI adaptive color extraction that dynamically adjusts UI colors based on wallpapers and scenes, and a bottom-layer code refactoring to remove a decade of redundant code for improved smoothness. The liquid glass design emphasizes dynamic lighting and transparency, making icons and cards appear with refraction and blur effects, enhancing visual depth. \n\n【Experience Value】The liquid glass design creates an immersive, premium visual experience with dynamic lighting and real-time blur, reducing interface fragmentation; AI adaptive color extraction aligns UI with content, lowering visual fatigue for prolonged use. \n\n【Potential Friction】Excessive visual effects may increase GPU load, causing overheating and battery drain; complex rendering could cause stuttering on low-end devices, compromising basic interaction smoothness; users preferring minimalism may find the design cluttered."
-        },
-        {
-          "title": "2026 未来汽车 AI 技术展 6 月 13 日在渝启幕！",
-          "url": "https://www.ithome.com/0/964/062.htm",
-          "site_name": "IT之家",
-          "publish_date": "2026-06-14",
-          "tags": [
-            "火山引擎",
-            "科大讯飞",
-            "斑马智行",
-            "座舱大模型"
-          ],
-          "summary": "【事件概述】2026年6月13日，未来汽车AI技术展在重庆开幕，聚焦AI座舱与智能交互。火山引擎展示了与多家车企合作的座舱大模型落地案例，实现多模态交互（语音+视觉+手势）和个性化内容推荐；科大讯飞推出“星火大模型”车载深度应用，支持复杂语义理解和多轮对话；斑马智行呈现AliOS与通义大模型深度融合的智能座舱系统，强调“零层级”交互和主动服务；中科创达展示“滴水OS”面向中央计算的整车操作系统，支持跨域融合。展会凸显2026年座舱AI从“语音助手”向“认知智能”演进，大模型成为核心驱动力。\n\n【体验价值】座舱大模型使交互更自然，用户可用日常语言表达复杂需求（如“找一家评分高、有充电桩的川菜馆”），系统自主推理并执行；多模态融合提升交互冗余度，在嘈杂环境下仍可准确理解意图。\n\n【潜在槽点】大模型推理依赖云端，网络延迟或断网时功能降级严重；模型“幻觉”可能导致错误推荐（如导航到已关闭的店铺），引发用户信任危机；多模态数据（如摄像头画面）的实时处理对算力和隐私保护提出更高要求。",
-          "summary_en": "【Event Overview】On June 13, 2026, the Future Automotive AI Technology Expo opened in Chongqing, focusing on AI cockpits and intelligent interaction. Volcengine showcased cockpit large model implementations with multiple automakers, enabling multimodal interaction and personalized content recommendations; iFlytek launched the 'Spark' large model for in-car deep applications, supporting complex semantic understanding and multi-turn dialogue; Banma presented the AliOS integrated with Tongyi large model, emphasizing 'zero-level' interaction and proactive services; ThunderSoft displayed 'Drip OS' for central computing vehicle OS. The expo highlighted the evolution from voice assistants to cognitive intelligence driven by large models. \n\n【Experience Value】Cockpit large models enable natural interaction, allowing users to express complex needs in everyday language (e.g., 'find a highly-rated Sichuan restaurant with charging stations'), with the system autonomously reasoning and executing; multimodal fusion improves interaction redundancy, accurately understanding intent even in noisy environments. \n\n【Potential Friction】Large model inference relies on cloud connectivity, leading to severe degradation during network latency or offline scenarios; model 'hallucinations' may cause erroneous recommendations (e.g., navigating to a closed store), eroding user trust; real-time processing of multimodal data (e.g., camera feeds) imposes high demands on computing power and privacy protection."
-        },
-        {
-          "title": "Latest Lucid Gravity OTA Update Brings Along Hands-Free Driving and Google Maps Places",
-          "url": "https://www.autoevolution.com/news/latest-lucid-gravity-ota-update-brings-along-hands-free-driving-and-google-maps-places-271201.html",
-          "site_name": "Autoevolution",
-          "publish_date": "2026-06-08",
-          "tags": [
-            "Lucid",
-            "OTA",
-            "Google Maps",
-            "导航"
-          ],
-          "summary": "【事件概述】Lucid Gravity车型近期通过OTA更新引入了免手驾驶功能（Hands-Free Driving）和Google Maps Places API集成。免手驾驶功能允许驾驶员在特定高速路段无需手握方向盘，系统自动控制加速、刹车和转向。更值得关注的是，Google Maps Places API与Lucid导航系统深度融合，使车辆能提供更精准、更具上下文感知的搜索结果。例如，用户可语音查询“附近评分最高的意大利餐厅”，系统不仅返回列表，还能根据当前时间、交通状况和用户历史偏好推荐最佳路线和停车选项。该更新通过OTA推送，无需到店升级，体现了软件定义汽车的趋势。\n\n【体验价值】免手驾驶功能在长途高速场景中显著减轻驾驶员疲劳，提升舒适性；Google Maps Places集成使导航从“路线指引”升级为“生活服务助手”，用户无需切换应用即可完成从搜索到导航的闭环，交互效率大幅提升。\n\n【潜在槽点】免手驾驶功能在复杂路况（如施工区、恶劣天气）下可能不可靠，用户需保持警惕，易产生“虚假安全感”；Places API依赖网络连接，离线时功能受限；OTA更新可能因网络中断或存储不足而失败，影响用户体验。",
-          "summary_en": "【Event Overview】Lucid Gravity's latest OTA update introduces Hands-Free Driving and Google Maps Places API integration. Hands-Free Driving allows the vehicle to control acceleration, braking, and steering on specific highways without driver hand contact. More notably, the Google Maps Places API deeply integrates with Lucid's navigation, enabling context-aware search results. For example, users can voice-query 'top-rated Italian restaurants nearby,' and the system returns not only a list but also recommends optimal routes and parking based on current time, traffic, and user history. The update is delivered OTA, reflecting the software-defined vehicle trend. \n\n【Experience Value】Hands-Free Driving significantly reduces driver fatigue on long highway trips, enhancing comfort; Google Maps Places integration upgrades navigation from 'route guidance' to a 'life service assistant,' allowing users to complete the search-to-navigation loop without switching apps, greatly improving interaction efficiency. \n\n【Potential Friction】Hands-Free Driving may be unreliable in complex conditions (e.g., construction zones, bad weather), requiring driver vigilance and potentially creating a false sense of safety; Places API relies on network connectivity, with limited functionality offline; OTA updates may fail due to network interruptions or insufficient storage, impacting user experience."
-        }
-      ],
-      "created_at": "2026-06-15 15:31:16"
     }
   ]
 }
