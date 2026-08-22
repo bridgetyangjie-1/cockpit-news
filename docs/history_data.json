@@ -1,6 +1,60 @@
 {
   "records": [
     {
+      "date": "2026-08-22",
+      "date_display": "08月22日",
+      "weekday": "周六",
+      "news_count": 3,
+      "news": [
+        {
+          "title": "特斯拉中国车机正式接入豆包大模型，采用豆包+DeepSeek双模型协同",
+          "url": "https://www.toast.com.cn/news/2026-08-20-特斯拉中国车机正式接入豆包大模型入华十余年首次深度集成第三方大模型",
+          "site_name": "Toast",
+          "publish_date": "2026-08-20",
+          "tags": [
+            "特斯拉",
+            "豆包大模型",
+            "DeepSeek",
+            "OTA",
+            "语音交互"
+          ],
+          "summary": "【事件概述】特斯拉中国车机系统通过2026.14.13版本OTA正式接入字节跳动旗下火山引擎的豆包大模型，覆盖Model 3/Y/S/X全系车型。此次升级采用“豆包+DeepSeek Chat”双模型协同架构：豆包大模型负责导航、车控等高频且对响应速度要求高的指令处理，而DeepSeek Chat则专注于闲聊、资讯查询等开放式对话场景。这是特斯拉入华十余年来首次深度集成第三方大模型，标志着其语音交互从封闭走向开放，也意味着特斯拉在华智能座舱战略的重大转向，旨在通过本土化AI能力提升用户体验。\n\n【体验价值】双模型分工明确，可显著提升语音交互的响应速度和准确性。高频指令由豆包快速处理，减少等待；闲聊场景由DeepSeek提供更丰富的知识储备和更自然的对话体验。这种“各司其职”的模式让用户既能高效完成操作，又能享受更智能的陪伴感，整体交互体验更流畅、更贴心。\n\n【潜在槽点】双模型切换可能带来交互逻辑的不一致，用户难以感知当前由哪个模型响应，可能产生困惑。此外，语音数据需上传至第三方云端处理，涉及用户隐私和数据安全问题，尤其在车内外对话被录音并传输的场景下，用户对数据使用的知情权和选择权需要明确保障。",
+          "summary_en": "【Event Overview】Tesla China's in-car system has officially integrated ByteDance's Doubao large model via OTA version 2026.14.13, covering all Model 3/Y/S/X. The upgrade adopts a 'Doubao + DeepSeek Chat' dual-model architecture: Doubao handles high-frequency commands like navigation and vehicle control, while DeepSeek Chat manages open-ended conversations and information queries. This marks Tesla's first deep integration of a third-party large model in China, signaling a strategic shift towards localized AI to enhance user experience.\n\n【Experience Value】The division of labor between the two models can significantly improve response speed and accuracy. High-frequency commands are processed quickly by Doubao, reducing wait times, while DeepSeek provides richer knowledge and more natural dialogue for casual chats. This 'each doing its job' model allows users to complete operations efficiently while enjoying more intelligent companionship, making the overall interaction smoother and more considerate.\n\n【Potential Friction】The switch between dual models may lead to inconsistent interaction logic, leaving users confused about which model is responding. Additionally, voice data must be uploaded to third-party clouds for processing, raising privacy and data security concerns. Users need clear information and control over how their in-car conversations are recorded and used."
+        },
+        {
+          "title": "小鹏第二代VLA蒸馏版下放Max老车主，分屏与CarPlay同步回归",
+          "url": "https://www.pageev.com/xinche/149281.html",
+          "site_name": "Pageev",
+          "publish_date": "2026-08-21",
+          "tags": [
+            "小鹏",
+            "天玑AIOS",
+            "VLA",
+            "OTA",
+            "CarPlay"
+          ],
+          "summary": "【事件概述】8月19日，小鹏汽车启动新一轮OTA内测，覆盖P7+与G6的Max版本，并同时适配双Orin-X和单颗图灵AI芯片两套硬件平台。此次更新的核心是将第二代VLA（Vision-Language-Action）蒸馏版正式推送给Max车型，使老车主也能体验到最新的端到端智驾能力。与此同时，天玑AIOS座舱系统恢复了分屏桌面功能，并同步上线了Apple CarPlay。这一举措不仅提升了智驾性能，还通过回归用户呼声较高的功能，优化了座舱交互体验，体现了小鹏在软件迭代上对老用户的关怀。\n\n【体验价值】VLA模型下放让老车主无需换车即可获得智驾能力升级，提升了产品生命周期价值。分屏桌面的回归增强了多任务处理效率，用户可同时查看导航和媒体信息。CarPlay的加入则为iPhone用户提供了熟悉的交互界面，降低了学习成本，实现了车机与手机生态的无缝衔接，整体提升了座舱的实用性和用户满意度。\n\n【潜在槽点】VLA蒸馏版在算力较弱的单芯片平台上的实际表现可能与双芯片存在差距，可能导致体验不一致。分屏功能与部分第三方应用可能存在适配问题，影响显示效果。CarPlay的回归虽好，但可能与小鹏自有的语音助手或地图服务产生功能重叠，造成交互冗余，用户需要在两套生态间做出选择。",
+          "summary_en": "【Event Overview】On August 19, XPeng initiated a new OTA beta test covering P7+ and G6 Max versions, adapting to both dual Orin-X and single Turing AI chip platforms. The core update is the rollout of the second-generation VLA (Vision-Language-Action) distilled version to Max models, bringing the latest end-to-end intelligent driving capabilities to existing owners. Concurrently, the Tianji AIOS cockpit system restored the split-screen desktop and introduced Apple CarPlay. This move not only enhances intelligent driving performance but also optimizes cockpit interaction by bringing back highly requested features, demonstrating XPeng's commitment to its existing user base.\n\n【Experience Value】The VLA model rollout allows old owners to upgrade their intelligent driving experience without changing cars, extending the product's lifecycle value. The return of split-screen enhances multitasking efficiency, allowing users to view navigation and media simultaneously. CarPlay provides a familiar interface for iPhone users, reducing the learning curve and enabling seamless integration between phone and car ecosystems, thereby improving overall practicality and user satisfaction.\n\n【Potential Friction】The performance of the distilled VLA on single-chip platforms with lower compute may differ from dual-chip versions, potentially leading to inconsistent experiences. Split-screen may have compatibility issues with some third-party apps, affecting display. While CarPlay's return is welcome, it may overlap with XPeng's own voice assistant or map services, creating interaction redundancy and forcing users to choose between two ecosystems."
+        },
+        {
+          "title": "方程豹钛7车机互联功能存在缺陷",
+          "url": "https://m.12365auto.com/zlts/20260818/1747735.shtml",
+          "site_name": "车质网",
+          "publish_date": "2026-08-18",
+          "tags": [
+            "方程豹",
+            "车机互联",
+            "质量缺陷",
+            "用户体验",
+            "售后"
+          ],
+          "summary": "【事件概述】车质网收到车主投诉，反映方程豹钛7车型的车机互联功能存在永久性功能缺失。车主指出，手车互联和车载影音作为车辆宣传的标配实用功能，在新车出厂时就存在系统设计缺陷，严重影响日常用车体验。车主多次往返4S店并致电客服，但厂家与4S店均未履行售后质保维修义务，互相推诿，未给出实质性处理方案。此事件暴露了部分车企在软件功能交付上“重宣传、轻验证”的问题，以及售后服务体系对软件类故障响应机制的缺失。\n\n【体验价值】此新闻虽为负面，但其体验价值在于警示行业：软件功能的稳定性和可用性是用户体验的基石。宣传中的亮点功能若无法正常使用，会严重损害品牌信任。此案例强调了车企在OTA和功能发布前需进行充分测试，并建立高效的软件问题反馈与解决渠道，确保用户为“智能”付出的溢价能获得相应的可靠体验。\n\n【潜在槽点】该事件的核心槽点在于车企的售后责任缺失。当软件功能出现缺陷时，用户往往陷入“举证难、维权难”的困境。厂家与4S店之间的推诿，反映出软件问题在传统售后体系中的权责不清。此外，若缺陷被定义为“永久性”，则意味着用户可能需要长期忍受功能缺失，而车企仅通过OTA推送不痛不痒的补丁，无法从根本上解决问题，这极大消耗了用户的耐心与信任。",
+          "summary_en": "【Event Overview】A car owner complaint on Chezhiwang reveals that the Fangchengbao Titan 7's car-connectivity features have permanent functional deficiencies. The owner states that hand-car connectivity and in-car audio/video, which are advertised as standard practical features, had system design flaws from the factory, severely impacting daily use. Despite multiple visits to the 4S store and calls to customer service, the manufacturer and dealer have not fulfilled their after-sales warranty obligations, shifting blame and failing to provide a substantive solution. This incident exposes the problem of 'heavy promotion, light verification' in software feature delivery by some car companies, and the lack of response mechanisms for software-related faults in after-sales service.\n\n【Experience Value】Although this news is negative, its experiential value lies in warning the industry: the stability and usability of software features are the cornerstone of user experience. If highlighted features fail to work, it severely damages brand trust. This case emphasizes the need for car companies to conduct thorough testing before OTA and feature releases, and to establish efficient channels for feedback and resolution of software issues, ensuring users receive reliable experiences for the premium they pay for 'intelligence'.\n\n【Potential Friction】The core friction in this case is the lack of after-sales responsibility. When software features fail, users often face difficulties in providing evidence and seeking recourse. The blame-shifting between the manufacturer and 4S stores reflects unclear responsibilities for software issues in the traditional after-sales system. Furthermore, if the defect is defined as 'permanent', it means users may have to endure the missing functionality long-term, while the company only pushes ineffective patches via OTA, failing to solve the root problem and greatly consuming user patience and trust."
+        }
+      ],
+      "created_at": "2026-08-22 11:01:52"
+    },
+    {
       "date": "2026-08-21",
       "date_display": "08月21日",
       "weekday": "周五",
@@ -3021,85 +3075,6 @@
         }
       ],
       "created_at": "2026-06-18 15:01:32"
-    },
-    {
-      "date": "2026-06-17",
-      "date_display": "06月17日",
-      "weekday": "周三",
-      "news_count": 5,
-      "news": [
-        {
-          "title": "鸿蒙NEXT座舱（单框架）2026落地节奏与行业冲击分析",
-          "url": "https://xueqiu.com/7772363285/394674875",
-          "site_name": "雪球",
-          "publish_date": "2026-06-14",
-          "tags": [
-            "华为",
-            "鸿蒙OS",
-            "单框架",
-            "生态割裂"
-          ],
-          "summary": "【事件概述】该分析指出，华为鸿蒙NEXT单框架座舱系统预计2026年落地，将彻底摆脱对安卓AOSP的依赖。这一变革对依赖谷歌AAOS（Android Automotive OS）的合资品牌和二线自主品牌构成巨大冲击。AAOS架构老旧、国内本地化服务薄弱、手机车机生态完全割裂，当单框架座舱成为消费者选购智能汽车的核心标准后，这些车型的智能化标签将快速失效。鸿蒙NEXT通过统一内核和分布式技术，实现手机、车机、智能家居等设备的无缝协同，提供一致且流畅的跨设备体验。\n\n【体验价值】单框架座舱消除了手机与车机之间的生态壁垒，用户无需在车机上重新学习应用逻辑，手机上的服务、数据、习惯可无缝流转至车内，极大降低了跨设备操作的学习成本，提升了整体交互的连贯性和效率。\n\n【潜在槽点】单框架系统初期可能面临应用生态匮乏的问题，部分常用第三方应用适配进度缓慢，用户可能暂时无法使用某些特定服务。此外，系统封闭性可能限制用户自定义空间，对习惯开放安卓生态的用户造成不适。",
-          "summary_en": "【Event Overview】The analysis points out that Huawei's HarmonyOS NEXT single-framework cockpit system is expected to launch in 2026, completely breaking away from Android AOSP. This poses a significant threat to joint venture and second-tier domestic brands relying on Google's AAOS, which suffers from outdated architecture, weak local services, and fragmented phone-car ecosystems. HarmonyOS NEXT uses a unified kernel and distributed technology to achieve seamless collaboration across phones, cars, and smart home devices. \n\n【Experience Value】The single-framework cockpit eliminates the ecosystem barrier between phone and car, allowing users to seamlessly transfer services, data, and habits from phone to car without relearning app logic, greatly reducing cross-device learning costs and improving interaction coherence. \n\n【Potential Friction】The initial ecosystem may lack sufficient third-party apps, with slow adaptation progress for some common services. Additionally, the system's closed nature may limit user customization, causing discomfort for those accustomed to the open Android ecosystem."
-        },
-        {
-          "title": "华为 HiCar 7.0 手车互联解决方案官宣，定档 6 月 13 日发布",
-          "url": "https://www.ithome.com/0/963/222.htm",
-          "site_name": "IT之家",
-          "publish_date": "2026-06-11",
-          "tags": [
-            "华为",
-            "HiCar",
-            "手车互联",
-            "跨设备"
-          ],
-          "summary": "【事件概述】华为宣布将于2026年6月13日发布HiCar 7.0手车互联解决方案。HiCar智行是华为推出的手机和汽车互联产品，通过简单连接，用户可在驾驶时通过车机使用手机的导航、音乐、电话、语音交互等功能。2024年6月，升级版HiCar随HarmonyOS NEXT一同发布，带来了全新桌面设计和音乐/导航等功能交互。HiCar 7.0预计将进一步深化手机与车机的融合，可能引入更丰富的应用流转、多屏互动以及更智能的语音助手功能，旨在打造无缝的“人-车-家”全场景智慧体验。\n\n【体验价值】HiCar 7.0通过将手机生态直接映射到车机，用户无需在车机上单独安装应用，即可使用手机上的常用App，如高德地图、网易云音乐等，且操作习惯与手机一致，大幅降低了学习成本。同时，手机算力可被车机调用，提升导航、语音等功能的响应速度和准确性。\n\n【潜在槽点】HiCar依赖手机连接，若手机性能不足或连接不稳定，车机体验会受影响。此外，部分车机屏幕分辨率与手机应用不匹配，可能导致UI显示异常或操作不便。用户隐私数据在手机与车机间传输的安全性也需进一步保障。",
-          "summary_en": "【Event Overview】Huawei announced the launch of HiCar 7.0 on June 13, 2026. HiCar connects phones and cars, allowing drivers to use phone apps like navigation, music, and voice control on the car screen. The 2024 version introduced a new desktop design and improved interactions. HiCar 7.0 is expected to deepen integration, possibly with enhanced app streaming, multi-screen interaction, and smarter voice assistants. \n\n【Experience Value】HiCar 7.0 mirrors the phone ecosystem onto the car screen, eliminating the need to install apps separately. Users can access familiar phone apps with consistent operation habits, reducing learning costs. Phone computing power can also be leveraged to improve responsiveness and accuracy of features like navigation. \n\n【Potential Friction】The experience depends on phone performance and connection stability; a weak phone or unstable connection can degrade the experience. Screen resolution mismatches may cause UI display issues. Privacy and data security during transmission between phone and car also need attention."
-        },
-        {
-          "title": "座舱娱乐研究：车载游戏将成为下一个爆发点",
-          "url": "https://k.sina.cn/article_7857141524_1d4527714019039r3c.html?subch=oauto",
-          "site_name": "新浪",
-          "publish_date": "2026-06-15",
-          "tags": [
-            "车载游戏",
-            "云游戏",
-            "Steam",
-            "娱乐生态"
-          ],
-          "summary": "【事件概述】该研究指出，车载游戏正成为智能座舱娱乐的下一个爆发点。特斯拉已上线Steam平台，宝马在全新5系上引入瑞士游戏平台AirConsole，比亚迪规划搭载英伟达GeForce NOW云游戏服务。这些举措表明，车企正将游戏作为提升座舱娱乐体验和用户粘性的关键手段。车载游戏从简单的休闲游戏向3A大作演进，利用座舱大屏、高性能芯片和云游戏技术，为用户提供沉浸式游戏体验。同时，游戏场景也催生了新的交互方式，如方向盘、语音、手势控制等。\n\n【体验价值】车载游戏丰富了座舱娱乐场景，尤其适合充电等待、停车休息等碎片化时间。云游戏技术让用户无需高性能本地硬件即可畅玩大作，降低了门槛。游戏与座舱硬件（如音响、氛围灯）联动，可营造沉浸式氛围，提升整体娱乐体验。\n\n【潜在槽点】游戏可能分散驾驶员注意力，存在安全隐患，需严格限制驾驶时使用。云游戏对网络稳定性要求极高，信号不佳时体验会严重下降。此外，游戏内容审核和本地化适配也是挑战，部分游戏可能不适合车内环境或不符合国内法规。",
-          "summary_en": "【Event Overview】The research highlights in-car gaming as the next growth area for smart cockpit entertainment. Tesla has launched Steam, BMW introduced AirConsole on the new 5 Series, and BYD plans to integrate NVIDIA GeForce NOW cloud gaming. These moves show automakers using games to enhance cockpit entertainment and user engagement. Games are evolving from casual to AAA titles, leveraging large screens, high-performance chips, and cloud gaming for immersive experiences. New interaction methods like steering wheel, voice, and gesture control are also emerging. \n\n【Experience Value】In-car gaming enriches entertainment scenarios, especially during charging or parking. Cloud gaming lowers hardware requirements, allowing users to play high-end games without powerful local chips. Integration with cockpit hardware like audio and ambient lighting creates an immersive atmosphere. \n\n【Potential Friction】Games may distract drivers, posing safety risks; strict usage restrictions are needed. Cloud gaming requires stable network connectivity; poor signals degrade the experience. Content review and localization are also challenges, as some games may not suit the in-car environment or comply with local regulations."
-        },
-        {
-          "title": "智能座舱语音助手实力榜2026",
-          "url": "https://post.smzdm.com/p/awwedx8p/",
-          "site_name": "什么值得买",
-          "publish_date": "2026-06-16",
-          "tags": [
-            "语音助手",
-            "交互评测",
-            "多模态",
-            "情感交互"
-          ],
-          "summary": "【事件概述】该榜单对2026年主流智能座舱语音助手进行了全面评测，涵盖识别准确率、响应速度、语义理解、多轮对话、方言支持、情感交互等维度。评测显示，头部语音助手已从简单的命令执行进化为具备主动推荐、情感识别和个性化服务的智能伴侣。例如，部分助手能通过声纹识别用户身份，根据情绪调整回复语气，甚至主动提醒日程、推荐音乐。同时，多模态交互（如语音+手势+视线）成为新趋势，语音助手可结合摄像头和传感器信息，提供更精准的服务。\n\n【体验价值】进化后的语音助手让用户能用自然语言完成复杂操作，如“我有点冷，帮我调高空调温度并播放舒缓音乐”，无需手动逐级菜单操作。情感交互功能让助手更具“人情味”，提升驾驶过程中的陪伴感和舒适度，尤其适合长途驾驶。\n\n【潜在槽点】情感交互可能引发隐私担忧，如持续录音和摄像头监控。过度拟人化可能导致用户分心或产生不切实际的期望。此外，方言和口音识别仍有局限，部分用户可能无法获得流畅体验。",
-          "summary_en": "【Event Overview】The ranking evaluates mainstream smart cockpit voice assistants in 2026, covering accuracy, response speed, semantic understanding, multi-turn dialogue, dialect support, and emotional interaction. Top assistants have evolved from simple command executors to proactive, emotionally aware companions. Some can identify users via voiceprint, adjust tone based on emotion, and proactively remind schedules or recommend music. Multi-modal interaction (voice + gesture + gaze) is also emerging, combining camera and sensor data for more precise services. \n\n【Experience Value】Evolved assistants allow users to perform complex tasks with natural language, like “I’m cold, turn up the AC and play soothing music,” without manual menu navigation. Emotional interaction makes the assistant more human-like, enhancing companionship and comfort during long drives. \n\n【Potential Friction】Emotional interaction raises privacy concerns due to continuous recording and camera monitoring. Over-anthropomorphism may distract users or create unrealistic expectations. Dialect and accent recognition still have limitations, potentially frustrating some users."
-        },
-        {
-          "title": "理想新一代旗舰座舱公布：高通 8797 Elite 芯片、90Hz 高刷宽屏，支持苹果 CarPlay",
-          "url": "https://www.ithome.com/0/964/597.htm",
-          "site_name": "IT之家",
-          "publish_date": "2026-06-15",
-          "tags": [
-            "理想",
-            "旗舰座舱",
-            "高刷屏",
-            "CarPlay"
-          ],
-          "summary": "【事件概述】理想汽车公布了新一代旗舰座舱，首发高通8797 Elite芯片，硬件能力号称超越主流手机。座舱配备行业首个90Hz高刷超宽全景屏，显示带宽达23.5G，并搭载9.3.6无瑕星环剧院音响系统。同时支持苹果CarPlay及主流手机互联，CarPlay可联动HUD显示地图。这一配置旨在提供极致的视觉和听觉体验，高刷屏确保动画和交互流畅无拖影，高性能芯片支持多任务并行和复杂应用运行。CarPlay的深度集成让苹果用户能无缝使用手机生态。\n\n【体验价值】90Hz高刷屏显著提升界面滑动、地图缩放、动画过渡的流畅度，减少视觉疲劳。高性能芯片确保多应用同时运行不卡顿，提升整体交互响应速度。CarPlay联动HUD让导航信息直接投射到前挡风玻璃，减少视线转移，提升驾驶安全性。\n\n【潜在槽点】高刷屏和高性能芯片可能增加功耗和发热，影响续航和散热。CarPlay功能虽好，但可能削弱理想自研座舱系统的存在感，导致用户对原生系统依赖降低。此外，硬件升级可能推高车价，对价格敏感用户不友好。",
-          "summary_en": "【Event Overview】Li Auto unveiled its next-generation flagship cockpit, featuring the first Qualcomm 8797 Elite chip, claimed to surpass mainstream phones in performance. It includes the industry's first 90Hz high-refresh-rate ultra-wide panoramic screen with 23.5G bandwidth, and a 9.3.6 surround sound system. It supports Apple CarPlay with HUD integration for map display. This configuration aims for top-tier visual and audio experiences, with smooth animations and multi-tasking capabilities. \n\n【Experience Value】The 90Hz screen significantly improves smoothness in scrolling, map zooming, and animations, reducing visual fatigue. The powerful chip ensures lag-free multi-tasking and fast response. CarPlay with HUD projects navigation onto the windshield, reducing eye movement and enhancing safety. \n\n【Potential Friction】High-refresh screen and powerful chip may increase power consumption and heat, affecting range and cooling. CarPlay integration might reduce reliance on Li Auto's native system. Hardware upgrades could also raise vehicle price, alienating budget-conscious buyers."
-        }
-      ],
-      "created_at": "2026-06-17 15:22:33"
     }
   ]
 }
