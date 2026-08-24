@@ -1,6 +1,43 @@
 {
   "records": [
     {
+      "date": "2026-08-24",
+      "date_display": "08月24日",
+      "weekday": "周一",
+      "news_count": 2,
+      "news": [
+        {
+          "title": "上汽奥迪E7X销量破万，quattro热爱版上市，OTA升级带来智能新体验",
+          "url": "https://www.sohu.com/a/1066183895_362225",
+          "site_name": "搜狐",
+          "publish_date": "2026-08-22",
+          "tags": [
+            "奥迪",
+            "Avatar",
+            "OTA",
+            "人机交互"
+          ],
+          "summary": "【事件概述】上汽奥迪E7X宣布销量破万，并推出quattro热爱版车型。在软件层面，奥迪E7X将于9月迎来首次OTA升级，此次更新聚焦人机交互优化。核心亮点包括：新增多款Avatar虚拟形象，增强互动趣味性；云端大模型持续迭代，提升语音识别准确率与响应速度。这表明传统豪华品牌正在加速软件定义汽车的转型步伐，通过OTA持续为已售车辆注入新功能，以提升用户体验和产品竞争力，而不仅仅是依赖硬件配置的堆砌。\n\n【体验价值】Avatar虚拟形象的引入为冰冷的机械交互增添了情感温度，使语音助手更具人格化特征，有助于建立用户与车辆的情感连接。云端大模型的迭代则直接提升了语音交互的效率和自然度，减少了因识别错误带来的挫败感。这种“软硬结合”的升级方式，让传统豪华品牌的座舱体验在保留质感的同时，也跟上了智能化浪潮。\n\n【潜在槽点】Avatar形象若设计不当，可能显得幼稚或与豪华品牌调性不符，引发用户反感。云端大模型依赖网络连接，在信号不佳的环境下可能导致语音响应延迟或功能降级。此外，OTA升级的推送策略和覆盖范围是否透明，以及升级后是否会出现新的交互逻辑变化导致用户需要重新适应，都是潜在槽点。",
+          "summary_en": "【Event Overview】SAIC Audi E7X announced sales exceeding 10,000 units and launched the quattro enthusiast edition. On the software front, the Audi E7X will receive its first OTA upgrade in September, focusing on human-machine interaction optimization. Key highlights include adding multiple Avatar virtual images to enhance interactive fun, and continuous iteration of the cloud large model to improve voice recognition accuracy and response speed. This indicates that traditional luxury brands are accelerating their software-defined vehicle transformation, using OTA to continuously inject new features into sold vehicles to enhance user experience and competitiveness. \n\n【Experience Value】The introduction of Avatar virtual images adds emotional warmth to cold mechanical interaction, making the voice assistant more personified and helping build an emotional connection between user and vehicle. The iteration of the cloud large model directly improves the efficiency and naturalness of voice interaction, reducing frustration from recognition errors. This 'software-hardware combined' upgrade approach allows traditional luxury brands to keep pace with the intelligence wave while retaining their sense of quality. \n\n【Potential Friction】If poorly designed, Avatar images may appear childish or inconsistent with the luxury brand's tone, potentially alienating users. Cloud large model reliance on network connectivity could lead to voice response delays or feature degradation in areas with poor signals. Additionally, the transparency of the OTA push strategy and coverage, and whether users will need to re-adapt to new interaction logic changes after the upgrade, are potential friction points."
+        },
+        {
+          "title": "2026款林肯冒险家：16.99万起，2.0T+8AT+27英寸大屏，豪华SUV性价比之选",
+          "url": "https://auto.sina.cn/2026-08-23/detail-iniphssu2509348.d.html?vt=4",
+          "site_name": "新浪汽车",
+          "publish_date": "2026-08-23",
+          "tags": [
+            "林肯",
+            "零层级交互",
+            "大屏",
+            "UI/UX"
+          ],
+          "summary": "【事件概述】2026款林肯冒险家正式上市，指导价23.78-29.88万元，终端优惠后入门价低至16.99万元。新车在智能座舱方面搭载了27英寸4K巨屏，并引入了“零层级交互系统”。该系统旨在摒弃传统车机复杂的菜单层级，通过卡片式布局和智能推荐，让用户在主界面即可完成大部分高频操作，减少操作步骤。这一设计理念体现了当前座舱交互从“功能堆砌”向“体验精简”的转变，尤其对于传统豪华品牌而言，是其在智能化浪潮中保持竞争力的关键尝试。\n\n【体验价值】“零层级交互”的核心价值在于降低认知负荷。27英寸4K巨屏提供了充足的信息展示空间，配合卡片式布局，用户无需在层层菜单中寻找功能，所有核心操作一目了然。这种设计对新手用户尤为友好，能显著缩短学习时间，提升驾驶过程中的操作安全性，让科技配置真正服务于“易用”而非“炫技”。\n\n【潜在槽点】“零层级”设计可能导致主界面信息过载，在驾驶时分散注意力。卡片式布局的灵活性若不足，可能无法满足用户的个性化需求。此外，27英寸巨屏的功耗和对系统流畅度的要求较高，若硬件优化不到位，可能出现卡顿或发热问题。传统豪华品牌在软件生态上的积累相对薄弱，其“零层级”系统的实际体验能否超越新势力，仍需市场检验。",
+          "summary_en": "【Event Overview】The 2026 Lincoln Corsair has officially launched with a guide price of 237,800-298,800 yuan, with an entry price as low as 169,900 yuan after terminal discounts. In terms of smart cockpit, the new car features a 27-inch 4K giant screen and introduces a 'zero-level interaction system'. This system aims to abandon the complex menu hierarchy of traditional infotainment systems, using card-based layouts and smart recommendations to allow users to complete most high-frequency operations on the main interface, reducing operational steps. This design philosophy reflects the current shift in cockpit interaction from 'feature stacking' to 'experience simplification'. \n\n【Experience Value】The core value of 'zero-level interaction' lies in reducing cognitive load. The 27-inch 4K giant screen provides ample space for information display, and with the card-based layout, users don't need to search through layers of menus; all core operations are clear at a glance. This design is particularly friendly to novice users, significantly shortening the learning curve and enhancing operational safety during driving, making technology serve 'ease of use' rather than 'showmanship'. \n\n【Potential Friction】The 'zero-level' design may lead to information overload on the main interface, distracting drivers. If the card-based layout lacks flexibility, it may fail to meet personalized user needs. Additionally, the 27-inch giant screen has high power consumption and system fluidity requirements; if hardware optimization is insufficient, lag or heating issues may occur. Traditional luxury brands have relatively weak software ecosystem accumulation, and whether the actual experience of their 'zero-level' system can surpass new forces remains to be tested by the market."
+        }
+      ],
+      "created_at": "2026-08-24 11:11:54"
+    },
+    {
       "date": "2026-08-22",
       "date_display": "08月22日",
       "weekday": "周六",
@@ -3010,71 +3047,6 @@
         }
       ],
       "created_at": "2026-06-19 15:21:31"
-    },
-    {
-      "date": "2026-06-18",
-      "date_display": "06月18日",
-      "weekday": "周四",
-      "news_count": 4,
-      "news": [
-        {
-          "title": "从“功能机”到“智能体”，地平线想凭咖咖虾重写智能座舱游戏规则",
-          "url": "https://www.pconline.com.cn/autotech/2137/21371951.html",
-          "site_name": "Pconline",
-          "publish_date": "2026-06-18",
-          "tags": [
-            "地平线",
-            "座舱OS",
-            "AI Agent",
-            "端侧大模型"
-          ],
-          "summary": "【事件概述】地平线发布“咖咖虾”智能座舱方案，核心创新在于将数字AI Agent与高阶智驾端到端大模型集成于单颗芯片运行，实现座舱体验从“交付即固化”向“自我生长生态”的转变。该方案通过端侧大模型支持多模态交互（语音、视觉、手势），并允许用户通过自然语言自定义座舱场景，如“我有点困”自动调暗灯光、播放提神音乐并开启香氛。同时，系统支持OTA持续进化，可动态加载新技能，如后续通过升级获得车内K歌、游戏等第三方生态能力。\n\n【体验价值】从UX视角看，该方案将座舱从被动响应工具升级为主动感知的“智能体”，用户无需记忆复杂指令，通过模糊意图即可触发多维度联动，显著降低交互门槛。端侧处理保障了隐私与低延迟，而持续OTA能力让座舱功能随用户习惯“生长”，避免硬件过时即体验停滞的痛点。\n\n【潜在槽点】端侧大模型对芯片算力要求极高，可能导致中低端车型无法享受完整体验，形成功能分层。此外，AI Agent的主动决策若误判用户意图（如错误触发场景），可能引发驾驶分心或隐私泄露担忧。",
-          "summary_en": "【Event Overview】Horizon Robotics launched the 'Kaka Xia' smart cockpit solution, integrating a digital AI Agent and an end-to-end large model for autonomous driving on a single chip. This enables the cockpit to evolve from a static product to a self-growing ecosystem. The system supports multimodal interaction (voice, vision, gesture) and allows users to customize scenarios via natural language, such as 'I'm a bit sleepy' automatically dimming lights and playing energizing music. OTA updates enable continuous skill expansion, like adding in-car karaoke or gaming. \n\n【Experience Value】From a UX perspective, this transforms the cockpit from a passive tool to an active 'agent', reducing interaction barriers by allowing fuzzy intent triggers. On-device processing ensures privacy and low latency, while OTA capabilities prevent experience stagnation. \n\n【Potential Friction】High chip requirements may limit full experience to premium models, creating feature stratification. The AI Agent's proactive decisions, if misjudged, could cause distraction or privacy concerns."
-        },
-        {
-          "title": "座舱大模型：智能驾驶的未来引擎",
-          "url": "http://www.zgteachnet.com/articleid/176088.html",
-          "site_name": "Zgteachnet",
-          "publish_date": "2026-06-18",
-          "tags": [
-            "极氪",
-            "Kr AI",
-            "DeepSeek R1",
-            "端侧AI"
-          ],
-          "summary": "【事件概述】极氪宣布自研Kr AI大模型与DeepSeek R1大模型融合，推动座舱端侧AI大规模应用。该方案将大模型部署于车机本地，支持离线语音识别、自然语义理解及多轮对话，无需联网即可处理复杂指令，如“帮我找一家评分4.5以上、距离5公里内的川菜馆”。同时，系统能根据用户历史行为（如常听的音乐类型、常用导航目的地）主动推荐服务，并支持通过语音直接控制车辆功能（如空调、车窗）。该融合模型还具备自我学习能力，能通过用户反馈持续优化响应策略。\n\n【体验价值】端侧大模型消除了对云端的依赖，在隧道、山区等弱网场景下仍能提供流畅的语音交互，显著提升可靠性。主动推荐功能减少了用户操作步骤，使座舱从“指令-执行”模式转向“预测-服务”模式，符合直觉化交互趋势。\n\n【潜在槽点】端侧模型受限于车机算力，复杂任务（如多意图理解）的准确率可能低于云端方案。主动推荐若过于频繁或不够精准，易被视为骚扰，增加用户认知负担。此外，本地存储的用户行为数据若未加密，可能面临隐私泄露风险。",
-          "summary_en": "【Event Overview】Zeekr integrated its self-developed Kr AI model with DeepSeek R1 for large-scale on-device AI deployment. The system supports offline voice recognition, natural language understanding, and multi-turn dialogue, handling complex commands like 'find a Sichuan restaurant within 5km with a rating above 4.5'. It proactively recommends services based on user history and learns from feedback. \n\n【Experience Value】On-device processing ensures reliable voice interaction in weak network scenarios, shifting the cockpit from 'command-execute' to 'predict-serve' mode, aligning with intuitive interaction trends. \n\n【Potential Friction】Limited on-device compute may reduce accuracy for complex tasks. Overly frequent or inaccurate proactive recommendations could annoy users. Unencrypted local user data poses privacy risks."
-        },
-        {
-          "title": "智能座舱，才是大模型的真考场",
-          "url": "https://t.cj.sina.com.cn/articles/view/7935767827/1d902351300101f9i8?finpagefr=p_104",
-          "site_name": "新浪财经",
-          "publish_date": "2026-06-18",
-          "tags": [
-            "大模型",
-            "多模态交互",
-            "噪声处理",
-            "安全边界"
-          ],
-          "summary": "【事件概述】文章指出，许多大模型在发布会上表现优异，但进入真实座舱场景后暴露诸多问题，如噪声环境下的语音识别失败、多人对话混淆、弱网延迟以及安全边界模糊。核心创新点在于提出“座舱大模型需通过四重考验”：1）噪声鲁棒性，需在风噪、胎噪、音乐背景下准确识别；2）多角色区分，能分辨主副驾及后排乘客指令；3）离线能力，在无网络时仍能执行关键功能；4）安全护栏，避免模型生成危险建议（如“开车时设置导航”）。文章强调，座舱大模型必须从“通用AI”转向“场景定制AI”，通过端侧优化和领域知识注入解决上述挑战。\n\n【体验价值】该分析为座舱AI设计提供了明确的质量标准，推动行业从“炫技”转向“实用”。用户将获得更可靠的语音交互，减少误唤醒和错误执行，尤其在嘈杂或弱网环境下体验一致性提升。安全护栏机制可防止AI诱导危险行为，增强用户信任。\n\n【潜在槽点】严格的场景定制可能限制大模型的通用能力，导致跨场景迁移困难。安全护栏若过于保守，可能抑制用户对创新功能（如AI代驾）的探索。此外，多角色区分需额外硬件（如麦克风阵列）支持，增加成本。",
-          "summary_en": "【Event Overview】The article highlights that many large models fail in real cockpit scenarios due to noise, multi-speaker confusion, weak network, and safety boundaries. It proposes four tests: noise robustness, role differentiation, offline capability, and safety guardrails. The solution involves shifting from general AI to scenario-customized AI via on-device optimization and domain knowledge injection. \n\n【Experience Value】This analysis sets quality standards for cockpit AI, ensuring reliable voice interaction in noisy or weak network conditions. Safety guardrails prevent dangerous suggestions, enhancing user trust. \n\n【Potential Friction】Over-customization may limit model versatility. Overly conservative guardrails could stifle exploration of innovative features. Multi-role differentiation requires additional hardware, increasing costs."
-        },
-        {
-          "title": "新款问界M9正式开启交付，多项软硬件升级优化产品体验",
-          "url": "https://chejiahao.autohome.com.cn/info/25687091",
-          "site_name": "车家号",
-          "publish_date": "2026-06-18",
-          "tags": [
-            "问界",
-            "鸿蒙座舱",
-            "多屏联动",
-            "AR-HUD"
-          ],
-          "summary": "【事件概述】新款问界M9交付，座舱核心升级包括：全新寰宇三连屏组合（10.25英寸仪表+两块17.2英寸3.4K高清屏），搭载AR-HUD抬头显示系统，实现多屏联动。软件层面，基于鸿蒙座舱OS，支持跨屏无缝流转（如导航从仪表流转至中控），以及手机-车机-智能家居的分布式协同（如上车后自动同步手机日程并导航至目的地）。语音助手升级为盘古大模型驱动，支持多轮对话和模糊意图理解，如“我有点冷”自动调高空调温度并关闭车窗。系统还引入“情景模式”一键切换（如“影院模式”自动调暗灯光、关闭车窗、播放电影）。\n\n【体验价值】多屏联动和AR-HUD将信息分层呈现，减少驾驶者视线偏移，提升安全性。分布式协同打通了用户数字生活，实现“上车即延续”的无缝体验。盘古大模型驱动的语音助手能理解自然语言，降低学习成本，情景模式则简化了复杂操作。\n\n【潜在槽点】多屏联动若缺乏统一交互逻辑，可能导致信息过载或操作混乱。分布式协同依赖华为生态，非华为手机用户可能无法享受完整功能。AR-HUD在强光下显示效果可能打折，且内容过多时易分散注意力。",
-          "summary_en": "【Event Overview】The new AITO M9 features a triple-screen setup (10.25-inch instrument + two 17.2-inch 3.4K screens) with AR-HUD for multi-screen interaction. Based on HarmonyOS, it supports cross-screen content flow and distributed collaboration with phones and smart home devices. The voice assistant, powered by the Pangu model, understands natural language and offers one-click scene modes like 'Cinema Mode'. \n\n【Experience Value】Multi-screen interaction and AR-HUD reduce driver distraction by layering information. Distributed collaboration creates a seamless 'continue on car' experience. Natural language voice and scene modes simplify complex operations. \n\n【Potential Friction】Lack of unified interaction logic across screens may cause information overload. Full functionality requires Huawei ecosystem devices. AR-HUD may degrade in bright light and distract if overloaded."
-        }
-      ],
-      "created_at": "2026-06-18 15:01:32"
     }
   ]
 }
