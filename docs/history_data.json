@@ -1,6 +1,85 @@
 {
   "records": [
     {
+      "date": "2026-09-05",
+      "date_display": "09月05日",
+      "weekday": "周六",
+      "news_count": 5,
+      "news": [
+        {
+          "title": "别克OTA升级被指与宣传不符：更新后反倒删减了原车功能",
+          "url": "https://finance.sina.com.cn/tech/roll/2026-09-03/doc-iniqpzpu6855509.shtml",
+          "site_name": "新浪科技",
+          "publish_date": "2026-09-03",
+          "tags": [
+            "别克",
+            "OTA",
+            "功能删减",
+            "用户信任"
+          ],
+          "summary": "【事件概述】别克车主集体投诉其OTA升级与宣传不符，更新后不仅未兑现承诺的新功能，反而删减了原车自带的仪表盘工况显示等实用功能。用户普遍诉求集中在三点：兑现宣传功能、恢复被删功能、公示完整更新日志。该事件反映出部分传统车企在软件定义汽车转型中，对OTA权限的滥用和对用户知情权的漠视，将OTA作为“功能回收”而非“体验增值”的工具，严重损害了品牌信誉与用户信任。\n\n【体验价值】此事件反向凸显了OTA透明化对用户体验的基石作用。清晰、详尽的更新日志和功能变更说明，是用户决定是否升级、如何适应新交互逻辑的前提。尊重用户既有使用习惯，不擅自剥夺已熟悉的功能，是维持驾驶安全感和系统掌控感的基本要求。\n\n【潜在槽点】车企可能因技术债务或合规压力而被迫“负优化”，但若缺乏坦诚沟通，将直接导致用户强烈的背叛感与学习成本激增。用户被迫适应被删减的功能，寻找替代操作路径，极易引发投诉和口碑崩塌。OTA不应成为车企单方面变更产品属性的暗门。",
+          "summary_en": "【Event Overview】Buick owners have collectively complained that their OTA updates did not match promotional claims, and instead of delivering promised new features, the update removed practical functions like the original instrument panel status display. User demands focus on three points: delivering advertised features, restoring removed functions, and publishing complete update logs. This incident reflects some traditional automakers' misuse of OTA authority and disregard for user rights during the software-defined vehicle transition, using OTA as a tool for 'feature removal' rather than 'experience enhancement,' severely damaging brand reputation and user trust.\n\n【Experience Value】This incident highlights the foundational role of OTA transparency for user experience. Clear update logs and change descriptions are prerequisites for users to decide whether to upgrade and how to adapt to new interaction logic. Respecting existing user habits and not arbitrarily removing familiar functions is a basic requirement for maintaining driving safety and a sense of system control.\n\n【Potential Friction】Automakers may be forced into 'negative optimization' due to technical debt or compliance pressure, but without honest communication, this directly leads to strong user betrayal and increased learning costs. Users forced to adapt to removed functions and find alternative operation paths can easily trigger complaints and reputational collapse. OTA should not become a hidden door for automakers to unilaterally change product attributes."
+        },
+        {
+          "title": "多屏联动正在重新定义智能座舱的交互方式，从鸿蒙座舱的游戏生态到跨设备协同办公",
+          "url": "https://auto.sina.cn/2026-09-04/detail-iniqsenu1255049.d.html?vt=4",
+          "site_name": "新浪汽车",
+          "publish_date": "2026-09-04",
+          "tags": [
+            "鸿蒙座舱",
+            "多屏联动",
+            "跨设备协同",
+            "游戏生态"
+          ],
+          "summary": "【事件概述】报道指出多屏联动已成为2026年智能座舱竞争的新焦点，车内屏幕正从“显示工具”升级为“信息中枢”。核心创新场景包括：基于鸿蒙座舱的游戏生态，支持车机与手机双屏互联，实现主副驾“多屏开黑”的低延迟游戏体验；以及跨设备协同办公，将手机、平板等个人设备与车机无缝流转，实现日程、文档、视频会议在车内屏幕间的连续操作。这标志着座舱交互从单点触控向多设备、多用户、多任务并行处理的分布式协同架构演进。\n\n【体验价值】多屏联动显著提升了座舱的信息处理效率和娱乐沉浸感。副驾或后排乘客可独立操作娱乐或办公内容，而不干扰主驾导航，实现了“一人一屏”的个性化体验。跨设备无缝流转降低了用户在不同屏幕间切换的认知负担，使车机不再是信息孤岛，而是个人数字生态的自然延伸。\n\n【潜在槽点】多屏交互极易造成驾驶员分心，如何界定各屏的使用边界和安全优先级是巨大挑战。同时，跨设备互联的配置流程和权限管理可能过于复杂，对非技术用户构成学习门槛。此外，多屏同时运行高负载应用对系统算力和功耗管理提出严苛要求，可能导致发热、卡顿或续航下降，影响实际体验的稳定性。",
+          "summary_en": "【Event Overview】The report points out that multi-screen connectivity has become a new focal point of smart cockpit competition in 2026, with in-car screens upgrading from 'display tools' to 'information hubs'. Key innovative scenarios include: HarmonyOS-based gaming ecosystem supporting car-machine and phone dual-screen connectivity for low-latency 'multi-screen gaming' between driver and passenger; and cross-device collaborative office work, seamlessly flowing calendars, documents, and video conferences between personal devices and the car screen. This marks the evolution of cockpit interaction from single-point touch to a distributed collaborative architecture supporting multi-device, multi-user, and multi-task parallel processing.\n\n【Experience Value】Multi-screen connectivity significantly enhances cockpit information processing efficiency and entertainment immersion. Passengers can independently operate entertainment or office content without disturbing the driver's navigation, achieving a 'one screen per person' personalized experience. Seamless cross-device flow reduces the cognitive burden of switching between different screens, making the car machine no longer an information island but a natural extension of the user's personal digital ecosystem.\n\n【Potential Friction】Multi-screen interaction can easily cause driver distraction; defining usage boundaries and safety priorities for each screen is a major challenge. Simultaneously, the configuration process and permission management for cross-device connectivity may be overly complex, posing a learning barrier for non-technical users. Furthermore, running high-load applications on multiple screens simultaneously imposes strict demands on system computing power and power management, potentially leading to overheating, lag, or reduced battery life, affecting the stability of the actual experience."
+        },
+        {
+          "title": "比亚迪实现车道级导航，和手车互联的教程来了！老车机也可以~",
+          "url": "https://www.bilibili.com/video/BV1BwtG6qEw2/",
+          "site_name": "Bilibili",
+          "publish_date": "2026-09-01",
+          "tags": [
+            "比亚迪",
+            "车道级导航",
+            "手车互联",
+            "老车机升级"
+          ],
+          "summary": "【事件概述】视频内容显示，比亚迪通过OTA或第三方方案为部分老款车型实现了车道级导航功能，并详细演示了手车互联的配置教程。核心创新在于打破了以往车道级导航仅限新款高配车型的惯例，通过软件优化和通信协议适配，让搭载旧款车机系统的车辆也能获得高精度的车道级指引。同时，教程强调了手车互联的便捷性，可能涉及将手机上的导航任务无缝流转至车机，利用手机算力或数据网络增强车机导航的实时性和准确性。\n\n【体验价值】车道级导航的下放对老车主是重大利好，显著提升了复杂路口、高架桥等场景下的导航清晰度和决策信心，减少了因走错车道导致的绕路和焦虑。手车互联的加入则弥补了老车机在联网能力和算力上的不足，让用户无需更换硬件即可享受到最新的导航服务和生态应用，延长了车辆软件生命周期的价值。\n\n【潜在槽点】老车机的硬件性能（如GPS模块精度、处理器速度）可能无法完全发挥车道级导航的全部潜力，导致定位延迟或渲染卡顿。依赖手机互联实现部分功能，会增加手机耗电和发热，且连接稳定性受蓝牙/Wi-Fi信号影响。此外，第三方方案或非官方OTA可能存在安全漏洞和保修风险，用户需谨慎权衡。",
+          "summary_en": "【Event Overview】The video shows that BYD has implemented lane-level navigation for some older models through OTA or third-party solutions, and provides a detailed tutorial on configuring phone-car connectivity. The core innovation lies in breaking the convention that lane-level navigation is exclusive to new high-end models, using software optimization and communication protocol adaptation to provide high-precision lane-level guidance for vehicles with older infotainment systems. The tutorial also emphasizes the convenience of phone-car connectivity, potentially involving seamless transfer of navigation tasks from phone to car, leveraging phone computing power or data network to enhance real-time accuracy.\n\n【Experience Value】The rollout of lane-level navigation to older models is a significant benefit for existing owners, markedly improving navigation clarity and decision confidence in complex intersections and elevated roads, reducing anxiety and detours caused by wrong-lane driving. The addition of phone-car connectivity compensates for the older system's deficiencies in networking and computing, allowing users to enjoy the latest navigation services and ecosystem applications without hardware replacement, extending the value of the vehicle's software lifecycle.\n\n【Potential Friction】The hardware performance of older systems (e.g., GPS module accuracy, processor speed) may not fully unleash the potential of lane-level navigation, leading to positioning delays or rendering stutter. Relying on phone connectivity for some functions increases phone battery drain and heat, and connection stability is susceptible to Bluetooth/Wi-Fi signal interference. Additionally, third-party solutions or unofficial OTAs may carry security vulnerabilities and warranty risks that users must carefully weigh."
+        },
+        {
+          "title": "AI语音助手多模态交互革命：2026年智能座舱如何从“听见”到“看懂”？",
+          "url": "https://auto.sina.cn/2026-09-02/detail-iniqmshw2864262.d.html?vt=4",
+          "site_name": "新浪汽车",
+          "publish_date": "2026-09-02",
+          "tags": [
+            "AI语音助手",
+            "多模态交互",
+            "视觉融合",
+            "人机共驾"
+          ],
+          "summary": "【事件概述】文章探讨了2026年AI语音助手从单一语音识别向融合视觉、手势、感知的多模态交互的演进。核心创新在于系统不再仅依赖语音指令，而是通过舱内摄像头识别用户视线方向、唇语、手势甚至情绪，结合声源定位，实现更精准的意图理解。例如，用户只需看着车窗并说“打开这个”，系统即可根据视线焦点判断具体控制对象。文章还讨论了人机共驾边界，强调多模态交互需在提升便利性的同时，确保驾驶员注意力不被过度分散，并提出了安全标识与行业规范的必要性。\n\n【体验价值】多模态交互大幅降低了语音指令的歧义性，提升了交互效率和自然度。用户无需记忆精确的指令词，用更接近人与人交流的方式（如眼神+简单词语）即可操控车辆功能。这种“所见即所说”的交互模式，尤其在对复杂功能或模糊指代（如“这个”、“那个”）的控制上，能显著减少操作步骤和认知负荷，让驾驶更专注、更安全。\n\n【潜在槽点】多模态交互严重依赖舱内摄像头和麦克风阵列的持续感知，这引发了用户对隐私被监控的深切担忧。系统误判视线或手势可能导致意外操作，反而增加分心风险。此外，融合多路传感器数据的算法复杂度极高，对芯片算力和功耗提出挑战，且在不同光线、遮挡等复杂环境下的识别鲁棒性仍需验证。",
+          "summary_en": "【Event Overview】The article explores the evolution of AI voice assistants in 2026 from single voice recognition to multimodal interaction integrating vision, gesture, and perception. The core innovation is that the system no longer relies solely on voice commands but uses in-cabin cameras to recognize user gaze direction, lip movements, gestures, and even emotions, combined with sound source localization, for more precise intent understanding. For example, a user can simply look at a window and say 'open this', and the system will determine the specific control target based on gaze focus. The article also discusses the boundaries of human-machine co-driving, emphasizing that multimodal interaction must enhance convenience without excessively distracting the driver, and proposes the necessity of safety markers and industry standards.\n\n【Experience Value】Multimodal interaction significantly reduces the ambiguity of voice commands, improving interaction efficiency and naturalness. Users do not need to memorize precise command words and can control vehicle functions in a way closer to human communication (e.g., eye contact + simple words). This 'what you see is what you say' interaction mode, especially for controlling complex functions or vague references (like 'this' or 'that'), can significantly reduce operation steps and cognitive load, making driving more focused and safer.\n\n【Potential Friction】Multimodal interaction relies heavily on continuous perception by in-cabin cameras and microphone arrays, raising deep user concerns about privacy surveillance. System misjudgment of gaze or gestures could lead to unintended operations, paradoxically increasing distraction risk. Furthermore, the algorithmic complexity of fusing multi-sensor data is extremely high, posing challenges to chip computing power and power consumption, and the robustness of recognition in complex environments like varying lighting or occlusion still needs verification."
+        },
+        {
+          "title": "2026款小鹏MONA M03参数全解析：11.98万起加量不加价，值不值得买？",
+          "url": "https://auto.sina.cn/2026-08-31/detail-iniqearc7687450.d.html?vt=4",
+          "site_name": "新浪汽车",
+          "publish_date": "2026-08-31",
+          "tags": [
+            "小鹏",
+            "天玑AIOS",
+            "图灵AI芯片",
+            "OTA"
+          ],
+          "summary": "【事件概述】2026款小鹏MONA M03全系标配天玑AIOS 6.0系统，首次引入图灵AI芯片（Max版），将高阶智驾门槛拉至13万以内。软件层面的核心创新在于天玑AIOS 6.0的底层架构升级，其深度整合了AI大模型能力，不仅优化了语音助手“小P”的自然对话和上下文理解能力，还实现了从“被动响应”到“主动服务”的跨越。系统能够学习用户的出行习惯、偏好设置，主动提供场景化建议，如根据日历日程提前规划充电、根据驾驶风格调整动力响应等。同时，AI芯片的加入为端侧运行更复杂的感知和决策模型提供了算力基础，支持更流畅的视觉交互和车控指令。\n\n【体验价值】天玑AIOS 6.0的主动服务理念显著提升了用车便利性和个性化体验。系统不再是等待指令的工具，而是能预判需求的“智能副驾”，减少了用户操作步骤。AI大模型赋能的语音交互，让用户能用更口语化、更复杂的语句控制车辆，降低了学习门槛。将高阶智驾和AI体验下放到15万级市场，让更多用户能以亲民价格享受到前沿的智能化成果，推动了整个行业智能化配置的普及。\n\n【潜在槽点】主动服务依赖对用户数据的深度学习和分析，这必然涉及大量个人隐私（如位置、日程、驾驶行为）的采集和处理，数据安全与用户授权透明度是潜在风险点。AI的“主动”若判断不准，可能变成打扰，例如在用户不希望被打扰时推送建议，反而增加干扰。此外，入门版与Max版的软件功能差异可能过大，导致基础版用户体验不到核心AI亮点，造成预期落差。",
+          "summary_en": "【Event Overview】The 2026 Xiaopeng MONA M03 comes standard with the Tianji AIOS 6.0 system and introduces the Turing AI chip for the first time (Max version), lowering the barrier for high-level smart driving to under 130,000 RMB. The core software innovation lies in the underlying architecture upgrade of Tianji AIOS 6.0, which deeply integrates AI large model capabilities. It not only optimizes the natural dialogue and contextual understanding of the voice assistant 'Xiao P', but also achieves a leap from 'passive response' to 'active service'. The system can learn user travel habits and preferences, proactively providing scenario-based suggestions, such as planning charging in advance based on calendar schedules or adjusting power response based on driving style. The AI chip provides the computing foundation for running more complex perception and decision models on the edge, supporting smoother visual interaction and vehicle control commands.\n\n【Experience Value】The proactive service concept of Tianji AIOS 6.0 significantly enhances convenience and personalized experience. The system is no longer a tool waiting for commands but an 'intelligent co-pilot' that can anticipate needs, reducing user operation steps. AI large model-powered voice interaction allows users to control the vehicle with more colloquial and complex sentences, lowering the learning curve. Bringing high-level smart driving and AI experience down to the 150,000 RMB market allows more users to enjoy cutting-edge intelligent achievements at an affordable price, promoting the popularization of intelligent configurations across the industry.\n\n【Potential Friction】Proactive services rely on deep learning and analysis of user data, inevitably involving the collection and processing of significant personal privacy (e.g., location, schedule, driving behavior). Data security and user authorization transparency are potential risk points. If AI's 'proactiveness' misjudges, it could become a disturbance, such as pushing suggestions when the user does not want to be disturbed, adding interference. Furthermore, the software feature gap between the entry-level and Max versions may be too large, preventing base version users from experiencing core AI highlights, leading to expectation gaps."
+        }
+      ],
+      "created_at": "2026-09-05 14:53:53"
+    },
+    {
       "date": "2026-09-03",
       "date_display": "09月03日",
       "weekday": "周四",
@@ -3124,94 +3203,6 @@
         }
       ],
       "created_at": "2026-06-26 14:18:57"
-    },
-    {
-      "date": "2026-06-25",
-      "date_display": "06月25日",
-      "weekday": "周四",
-      "news_count": 5,
-      "news": [
-        {
-          "title": "国产大模型打入特斯拉座舱是否意味海外AI技术垄断时代终结？",
-          "url": "https://news.sina.cn/bignews/insight/2026-06-25/detail-inieqnch2582413.d.html",
-          "site_name": "新浪新闻",
-          "publish_date": "2026-06-25",
-          "tags": [
-            "特斯拉",
-            "豆包大模型",
-            "语音助手",
-            "OTA",
-            "火山引擎",
-            "AI大模型"
-          ],
-          "summary": "【事件概述】2026年4月，特斯拉中国车机语音大模型服务通过备案，正式接入字节跳动的豆包大模型和深度求索的DeepSeek，均通过火山引擎提供技术支持。分工明确：豆包负责导航、娱乐等高频场景的语义理解与生成，DeepSeek则专注于复杂逻辑推理与多轮对话。该功能通过OTA推送至特斯拉全系车型，标志着特斯拉首次在座舱内引入第三方国产大模型，打破了此前完全自研的语音技术路线。用户可通过语音指令实现更自然的上下文对话、模糊意图识别（如“我有点冷”自动调高空调温度）以及多任务并行处理（如同时查询天气并设置导航）。\n\n【体验价值】从UX视角看，该功能显著降低了语音交互的认知负荷。用户无需记忆固定指令，可用自然语言表达需求，系统能主动推理并执行。例如，用户说“找一家附近的充电站，要便宜的”，系统可自动筛选并规划路线，减少了手动操作的层级。多模态融合（语音+屏幕反馈）也提升了交互的直观性。\n\n【潜在槽点】隐私风险是最大挑战：语音数据需上传至云端处理，用户可能担忧对话被录音或滥用。此外，大模型响应延迟在弱网环境下可能影响体验，且对复杂方言的识别准确率仍有待验证。若模型“幻觉”导致错误导航或设置，可能引发安全风险。",
-          "summary_en": "【Event Overview】In April 2026, Tesla's China infotainment system officially integrated ByteDance's Doubao and DeepSeek large language models via Volcengine, delivered through OTA. Doubao handles navigation and entertainment, while DeepSeek focuses on complex reasoning. This marks Tesla's first adoption of third-party AI in its cockpit, enabling natural language understanding, fuzzy intent recognition, and multi-task processing. \n\n【Experience Value】The feature reduces cognitive load by allowing users to speak naturally without memorizing commands. For example, saying 'find a cheap nearby charging station' triggers automatic filtering and route planning, minimizing manual steps. Multimodal feedback (voice + screen) enhances intuitiveness. \n\n【Potential Friction】Privacy risks are paramount: voice data is uploaded to the cloud, raising concerns about recording and misuse. Latency in weak network conditions may degrade experience, and dialect recognition accuracy remains unproven. Model 'hallucinations' could lead to incorrect navigation or settings, posing safety risks."
-        },
-        {
-          "title": "你车上的鸿蒙座舱，还能进化成什么样？",
-          "url": "https://chejiahao.autohome.com.cn/info/25372074",
-          "site_name": "汽车之家",
-          "publish_date": "2026-04-25",
-          "tags": [
-            "华为",
-            "鸿蒙座舱",
-            "HarmonySpace 6",
-            "语音助手",
-            "多模态交互",
-            "AI Agent"
-          ],
-          "summary": "【事件概述】2026年4月25日，华为在鸿蒙座舱生态论坛上发布HarmonySpace 6，核心升级是MoLA 2.0多Agent架构。该架构将座舱语音助手“小艺”拆分为多个专业Agent，如导航Agent、娱乐Agent、车辆控制Agent等，各Agent独立运行并协同工作。用户无需唤醒词即可跨场景连续对话，例如在导航中直接说“播放周杰伦的歌”，系统自动切换至音乐Agent并保持导航后台运行。此外，HarmonySpace 6支持多模态交互，融合语音、手势、视线追踪，用户可通过眼神注视屏幕并说“打开这个”来精准控制。\n\n【体验价值】MoLA 2.0架构显著提升了交互效率与自然度。用户无需重复上下文，系统能理解跨场景意图，减少了操作步骤。多模态融合（如视线+语音）降低了误触率，尤其适合驾驶中快速操作。例如，注视副驾屏并说“播放视频”，系统可精准响应，避免了手动切换的繁琐。\n\n【潜在槽点】多Agent协同可能带来响应延迟，尤其在复杂场景下（如同时控制导航、音乐和空调）。视线追踪需要摄像头持续工作，可能引发隐私担忧。此外，用户需适应新的交互范式（如眼神+语音），学习成本较高，且对佩戴眼镜或光线敏感的用户可能不友好。",
-          "summary_en": "【Event Overview】On April 25, 2026, Huawei unveiled HarmonySpace 6 at its cockpit ecosystem forum, featuring the MoLA 2.0 multi-agent architecture. The voice assistant 'Xiaoyi' is split into specialized agents (navigation, entertainment, vehicle control) that collaborate seamlessly. Users can issue cross-scenario commands without wake words, e.g., saying 'play Jay Chou's song' during navigation triggers the music agent while keeping navigation active. Multimodal interaction (voice + gaze + gesture) is also supported. \n\n【Experience Value】The architecture enhances interaction efficiency and naturalness. Users avoid repeating context, reducing steps. Multimodal fusion (e.g., gaze + voice) minimizes mis-taps, ideal for driving. For instance, looking at the passenger screen and saying 'play video' triggers precise response. \n\n【Potential Friction】Multi-agent coordination may cause latency in complex scenarios (e.g., controlling navigation, music, and AC simultaneously). Gaze tracking requires continuous camera use, raising privacy concerns. Users must adapt to new interaction paradigms (gaze + voice), with high learning costs, and may be less effective for glasses wearers or in bright light."
-        },
-        {
-          "title": "魏牌咖啡系列车型OTA重磅升级！智能体验再跃升，领跑高阶新势力",
-          "url": "https://cj.sina.com.cn/articles/view/7857141524/1d452771401903gfqe",
-          "site_name": "新浪财经",
-          "publish_date": "2026-05-28",
-          "tags": [
-            "魏牌",
-            "蓝山",
-            "OTA",
-            "语音大模型",
-            "卡片式桌面",
-            "UI/UX"
-          ],
-          "summary": "【事件概述】2026年5月28日，魏牌新能源咖啡系列车型迎来OTA重磅升级，其中蓝山车型的第6次OTA尤为突出。核心更新包括：1）语音大模型：引入端侧大模型，支持离线语音识别与自然语义理解，用户可用口语化指令控制车辆，如“我饿了”自动搜索附近餐厅并导航；2）卡片式桌面：全新UI设计，将常用功能（导航、音乐、空调）以卡片形式呈现，支持自定义布局和滑动切换，减少层级；3）场景模式：新增“露营模式”“小憩模式”等，一键联动座椅、空调、车窗、氛围灯。\n\n【体验价值】卡片式桌面降低了信息密度，用户可快速访问高频功能，减少驾驶分心。语音大模型离线可用，解决了弱网环境下的交互痛点，提升了可靠性。场景模式将多步操作压缩为单次触发，例如“小憩模式”自动调平座椅、关闭车窗、播放白噪音，显著提升了便利性。\n\n【潜在槽点】卡片式桌面虽直观，但自定义选项过多可能导致用户困惑，尤其对非科技爱好者。离线语音大模型的能力有限，复杂查询（如“附近评分最高的川菜馆”）仍需联网，可能造成体验割裂。场景模式若误触发（如语音误识别），可能干扰驾驶安全。",
-          "summary_en": "【Event Overview】On May 28, 2026, Wey's Coffee series received a major OTA update, with the Lanshan model's 6th OTA being the highlight. Key updates include: 1) On-device voice LLM supporting offline natural language understanding, e.g., 'I'm hungry' triggers restaurant search and navigation; 2) Card-based desktop UI with customizable layouts for quick access to navigation, music, and AC; 3) Scene modes like 'Camping Mode' and 'Nap Mode' that one-tap adjust seats, windows, AC, and ambient lighting. \n\n【Experience Value】The card-based UI reduces information density, enabling quick access to frequent functions and minimizing distraction. Offline voice LLM addresses weak network pain points, improving reliability. Scene modes compress multi-step operations into single triggers, e.g., 'Nap Mode' auto-adjusts seats and plays white noise, enhancing convenience. \n\n【Potential Friction】Excessive customization options in the card UI may confuse non-tech-savvy users. Offline LLM capabilities are limited; complex queries (e.g., 'best-rated Sichuan restaurant nearby') still require connectivity, causing experience fragmentation. Accidental scene mode triggers via voice misrecognition could interfere with driving safety."
-        },
-        {
-          "title": "小米SU7到底有多智能？从小米汽车App上可以找到答案",
-          "url": "https://36kr.com/p/2704884387483522",
-          "site_name": "36氪",
-          "publish_date": "2026-06-23",
-          "tags": [
-            "小米",
-            "SU7",
-            "小米汽车App",
-            "手车互联",
-            "语音助手",
-            "跨设备生态"
-          ],
-          "summary": "【事件概述】文章探讨了小米SU7的智能化体验，重点聚焦小米汽车App作为手车互联桥梁的作用。核心创新点包括：1）非小米手机用户可通过App实现远程车控（如开关空调、车窗、查看充电状态），但功能受限；2）App内集成社区、商城、充电地图等生态服务，形成“车-手机-生活”闭环；3）文章建议小米应提升App的交互逻辑，例如引入第三方语音助手联动（如小爱同学与Siri/Google Assistant互通），或新增“手机遥控泊车”等高级功能，以吸引非小米用户。\n\n【体验价值】App作为统一入口，降低了用户学习成本，无需切换多个应用即可管理车辆。远程车控功能提升了便利性，例如夏天提前开空调。社区和商城功能增强了用户粘性，形成品牌生态。若实现第三方语音助手联动，可覆盖更广泛用户群体，避免“换车必换手机”的痛点。\n\n【潜在槽点】非小米手机用户的功能限制可能造成体验割裂，例如无法使用小爱同学语音控车，需依赖App内操作，增加了步骤。App功能过多可能导致界面臃肿，用户难以快速找到核心功能。第三方语音助手联动的隐私风险（如语音数据跨平台共享）需谨慎处理。",
-          "summary_en": "【Event Overview】The article explores Xiaomi SU7's smart features, focusing on the Xiaomi Car App as a bridge for phone-car connectivity. Key innovations include: 1) Non-Xiaomi phone users can perform remote controls (e.g., AC, windows, charging status) via the app, albeit with limited functionality; 2) The app integrates community, mall, and charging map services, forming a 'car-phone-life' ecosystem; 3) The article suggests enhancing the app's interaction logic, such as integrating third-party voice assistants (e.g., XiaoAi with Siri/Google Assistant) or adding 'phone-controlled parking' to attract non-Xiaomi users. \n\n【Experience Value】The app serves as a unified entry point, reducing learning costs. Remote controls enhance convenience, e.g., pre-cooling the car in summer. Community and mall features boost user stickiness. Third-party voice assistant integration could cover broader user bases, avoiding the 'buy car, buy phone' dilemma. \n\n【Potential Friction】Feature limitations for non-Xiaomi users may cause experience fragmentation, e.g., no XiaoAi voice control, requiring more app steps. Feature bloat could clutter the UI, making core functions hard to find. Privacy risks from cross-platform voice data sharing need careful handling."
-        },
-        {
-          "title": "智能座舱语音科技2026年度榜单与真实体验深度解读",
-          "url": "https://blog.csdn.net/shanshu49/article/details/162231333",
-          "site_name": "CSDN博客",
-          "publish_date": "2026-06-23",
-          "tags": [
-            "语音助手",
-            "多语种",
-            "大模型",
-            "多模态交互",
-            "全球化"
-          ],
-          "summary": "【事件概述】文章发布了2026年智能座舱语音科技榜单，重点分析了多语种支持能力作为大模型语音助手国际化的核心指标。以“超级AI天琴2.0”为例，它支持40余种语种，包括中、英、德、法、西等，并能根据地区语料调整语音习惯（如英式/美式英语、方言口音）。此外，榜单强调多模态交互趋势，如语音+手势+视线融合，以及端侧大模型实现离线语音识别。文章还指出，2026年语音助手已从“命令式”转向“对话式”，能理解模糊意图和情感（如“我累了”自动调暗灯光、播放舒缓音乐）。\n\n【体验价值】多语种支持打破了语言壁垒，使跨国用户或外籍人士能自然使用座舱功能，提升了全球化体验。对话式交互降低了学习成本，用户无需记忆固定指令。情感感知功能增强了人性化体验，例如根据用户情绪调整氛围，提升了座舱的舒适感。\n\n【潜在槽点】多语种支持可能增加系统复杂度，导致响应延迟或识别错误，尤其在混合语言场景（如中英夹杂）。情感感知依赖摄像头或麦克风数据，可能侵犯隐私，且误判情绪（如将疲劳误判为悲伤）可能导致不合适的响应。端侧大模型的能力有限，复杂任务仍需云端，造成体验不一致。",
-          "summary_en": "【Event Overview】The article releases the 2026 smart cockpit voice technology ranking, highlighting multilingual support as a key metric for LLM voice assistant globalization. For example, 'Super AI Tianqin 2.0' supports 40+ languages (Chinese, English, German, French, Spanish) and adapts to regional accents (e.g., British/American English). It also emphasizes multimodal interaction trends (voice + gesture + gaze) and on-device LLMs for offline recognition. Voice assistants have shifted from command-based to conversational, understanding fuzzy intent and emotion (e.g., 'I'm tired' triggers dimmed lights and soothing music). \n\n【Experience Value】Multilingual support breaks language barriers, enabling natural use for international users. Conversational interaction reduces learning costs. Emotion sensing enhances humanization, e.g., adjusting ambiance based on mood, improving comfort. \n\n【Potential Friction】Multilingual support may increase system complexity, causing latency or errors, especially in code-switching scenarios (e.g., Chinese-English mix). Emotion sensing relies on camera/mic data, raising privacy concerns; misjudging emotions (e.g., fatigue as sadness) could trigger inappropriate responses. On-device LLMs have limited capabilities, requiring cloud for complex tasks, causing experience inconsistency."
-        }
-      ],
-      "created_at": "2026-06-25 14:17:20"
     }
   ]
 }
