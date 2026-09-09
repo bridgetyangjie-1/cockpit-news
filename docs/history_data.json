@@ -1,6 +1,85 @@
 {
   "records": [
     {
+      "date": "2026-09-09",
+      "date_display": "09月09日",
+      "weekday": "周三",
+      "news_count": 5,
+      "news": [
+        {
+          "title": "风云A9L第三次OTA正式全域推送，17项新功能，7项体验优化，你收到推送了吗？",
+          "url": "https://www.douyin.com/video/7682210267980079737",
+          "site_name": "抖音",
+          "publish_date": "2026-09-06",
+          "tags": [
+            "奇瑞",
+            "灵犀系统",
+            "UI 2.0",
+            "OTA"
+          ],
+          "summary": "【事件概述】奇瑞风云A9L于2026年9月6日启动第三次OTA全域推送，本次升级规模较大，共带来17项新功能与7项体验优化。核心更新围绕全新的UI 2.0界面设计语言展开，对系统视觉风格、图标动效和页面布局进行了重构，旨在提升信息获取效率与操作流畅度。此外，本次OTA还针对灵犀智能语音系统的上下文理解能力进行了增强，并新增了部分车控功能的快捷指令，体现了主机厂通过远程升级持续迭代产品体验的常态化趋势。\n\n【体验价值】UI 2.0的更新直接作用于用户每日高频接触的视觉与交互界面，统一的设计语言和更合理的布局能显著降低认知负荷，提升操作直观性。语音系统的持续进化则让“所说即所得”的交互体验更加成熟，减少了用户因功能层级过深而产生的操作挫败感。\n\n【潜在槽点】OTA虽能带来新功能，但UI的大幅变更往往伴随用户重新学习适应的成本，部分老用户可能对新界面感到陌生。此外，OTA推送的稳定性与分批推送策略可能导致用户间体验不一致，引发社区内的负面讨论。",
+          "summary_en": "【Event Overview】Chery Fengyun A9L initiated its third full-region OTA push on September 6, 2026, bringing 17 new features and 7 experience optimizations. The core update revolves around a new UI 2.0 design language, reconstructing the system's visual style, icon animations, and page layouts to enhance information acquisition efficiency and operational fluidity. Additionally, the update enhances the contextual understanding capabilities of the Lingxi intelligent voice system and adds quick commands for certain vehicle control functions, reflecting the OEM's trend of continuously iterating product experience through remote upgrades.\n\n【Experience Value】The UI 2.0 update directly impacts the visual and interactive interfaces users engage with daily. A unified design language and more rational layout can significantly reduce cognitive load and improve operational intuitiveness. The continuous evolution of the voice system makes the 'say what you mean and get it' interaction more mature, reducing user frustration caused by deep functional hierarchies.\n\n【Potential Friction】While OTA brings new features, major UI changes often come with a learning curve for users, and some existing users may feel alienated by the new interface. Furthermore, the stability of the OTA push and phased rollout strategies can lead to inconsistent experiences among users, potentially sparking negative discussions within the community."
+        },
+        {
+          "title": "端云一体，AI重构：四巨头大模型如何让汽车座舱从\"智能响应\"走向\"主动智能体\"",
+          "url": "https://www.sohu.com/a/1072101002_121124477",
+          "site_name": "搜狐",
+          "publish_date": "2026-09-05",
+          "tags": [
+            "AI大模型",
+            "端云一体",
+            "主动智能",
+            "交互范式"
+          ],
+          "summary": "【事件概述】文章指出，2026年中国智能座舱正经历从“被动响应”到“主动智能体”的范式变革。核心驱动力是AI大模型通过端云一体化架构深入座舱交互。所谓“主动智能体”，是指系统不再仅仅等待用户指令，而是通过感知车内外的多模态数据（如语音、视线、情绪、位置、时间等），主动推理用户潜在需求并执行服务。例如，系统可根据驾驶日程主动规划充电或导航，或根据乘客情绪调整氛围灯与音乐。文章分析了四家头部科技车企的大模型方案，强调其竞争焦点已从单一功能转向对用户意图的预判与场景化服务编排能力。\n\n【体验价值】从UX角度看，主动智能体的核心价值在于将交互从“人找服务”转变为“服务找人”。这种范式能极大减少用户在驾驶过程中的分心操作，提升安全性的同时，也通过提供恰到好处的“无感”服务，营造出更贴心、高级的驾乘体验，是走向个性化服务的必经之路。\n\n【潜在槽点】主动智能的核心是“预判”，但预判不准会严重干扰用户，形成负向体验。同时，为了实现主动服务，系统需要持续感知和分析用户行为与环境数据，这引发了关于数据隐私和用户被“监控”感的深切担忧。如何在提供智能服务与尊重用户隐私边界之间取得平衡，是巨大挑战。",
+          "summary_en": "【Event Overview】The article points out that in 2026, China's intelligent cockpits are undergoing a paradigm shift from 'passive response' to 'proactive intelligent agents'. The core driving force is AI large models integrated into cockpit interactions through a cloud-device integrated architecture. A 'proactive agent' means the system no longer just waits for user commands but actively infers and executes services by perceiving multi-modal data (e.g., voice, gaze, emotion, location, time). For instance, it can proactively plan charging or navigation based on the driver's schedule, or adjust ambient lighting and music based on passenger emotions. The article analyzes the large model strategies of four leading tech-automakers, emphasizing that the competitive focus has shifted from single functions to predicting user intent and orchestrating contextual services.\n\n【Experience Value】From a UX perspective, the core value of a proactive agent is shifting interaction from 'people looking for services' to 'services finding people'. This paradigm can significantly reduce driver distraction, enhance safety, and create a more attentive and premium experience through just-right 'imperceptible' services, marking a necessary path towards personalized services.\n\n【Potential Friction】The core of proactive intelligence is 'prediction', but inaccurate predictions can severely disturb users, creating negative experiences. Concurrently, to enable proactive services, the system needs continuous sensing and analysis of user behavior and environmental data, raising deep concerns about data privacy and the feeling of being 'monitored'. Balancing intelligent service with respecting user privacy boundaries is a significant challenge."
+        },
+        {
+          "title": "10万级混动SUV配备三联屏+双大模型 真正实现“懂人”体验",
+          "url": "https://k.sina.cn/article_1747383115_6826f34b02003k538.html",
+          "site_name": "新浪",
+          "publish_date": "2026-09-09",
+          "tags": [
+            "长安",
+            "梧桐3.0R",
+            "多屏交互",
+            "AI大模型"
+          ],
+          "summary": "【事件概述】长安CS75 PLUS蓝鲸超擎版作为一款10万级混动SUV，其核心卖点在于标配了37英寸三联屏架构和高通8155芯片驱动的梧桐3.0R系统，并引入了双AI大模型支持场景化交互。新闻详细评测了其智能座舱的实测表现，指出其优势在于通过多屏组合实现了信息分区与交互协同，例如驾驶信息、娱乐内容和车辆控制可在不同屏幕间高效流转。双AI大模型的加持，旨在提供更自然的语音理解和更主动的场景推荐服务，例如根据导航信息或车内环境自动调整车辆设置，意图在主流价位区间提供越级的智能化体验。\n\n【体验价值】三联屏的设计如果应用得当，可以显著提升信息可视性，减少用户在多个层级菜单中的查找时间，提升操作效率。双大模型的引入，使得语音助手能更好地理解复杂指令和上下文，降低了交互门槛。这种将高端配置下放至10万级市场的策略，有望让更广泛的用户群体体验到先进的智能座舱功能。\n\n【潜在槽点】三联屏虽然视觉冲击力强，但若软件优化不足，容易出现信息过载、屏幕间交互逻辑混乱的问题，反而增加学习成本。同时，多屏和高性能芯片带来的功耗与发热问题，在车辆静止或低电量场景下可能影响体验。此外，“双大模型”的具体功能差异和实际价值需要用户仔细甄别，避免沦为营销噱头。",
+          "summary_en": "【Event Overview】The Changan CS75 Plus Blue Whale Ultra, a 100k-class hybrid SUV, features a standard 37-inch triple-screen architecture and a Qualcomm 8155 chip-driven Wutong 3.0R system, incorporating dual AI large models for contextual interaction. The review highlights its strength in achieving information partitioning and interactive collaboration through multi-screen setup, allowing efficient flow of driving info, entertainment, and vehicle controls across screens. The dual AI models aim to provide more natural voice understanding and proactive scenario-based recommendations, intending to deliver a class-leading intelligent experience in the mainstream price segment.\n\n【Experience Value】If well-applied, the triple-screen design can significantly enhance information visibility, reduce time spent searching through menu hierarchies, and improve operational efficiency. The integration of dual large models enables the voice assistant to better understand complex commands and context, lowering the interaction barrier. This strategy of bringing high-end configurations down to the 100k market segment is expected to expose a broader user base to advanced cockpit features.\n\n【Potential Friction】Despite the visual impact of triple screens, poor software optimization can lead to information overload and confusing cross-screen interaction logic, increasing the learning curve. Simultaneously, the power consumption and heat generated by multiple screens and high-performance chips could affect the experience during idle or low-battery scenarios. Furthermore, users need to scrutinize the specific functional differences and real value of the 'dual AI models' to avoid marketing hype."
+        },
+        {
+          "title": "AI语音助手上岛，车载交互迎来新变革？3个维度说清+FAQ",
+          "url": "https://k.sina.cn/article_7879923802_1d5ae185a06801i814.html",
+          "site_name": "新浪",
+          "publish_date": "2026-09-09",
+          "tags": [
+            "AI语音",
+            "灵动岛",
+            "多模态反馈",
+            "交互设计"
+          ],
+          "summary": "【事件概述】新闻聚焦于AI语音助手与“灵动岛”式交互在车载系统上的结合。文章指出，部分国产OS已将语音反馈接入屏幕顶部的灵动岛区域，使得驾驶者在进行语音交互时，无需将视线从道路移开至中控大屏，即可在视线平视范围内看到导航、音乐播放、车辆状态等关键信息的可视化反馈。这一设计标志着车载语音交互从单纯的“听”向“可见”升级，通过视觉与听觉的双通道反馈，增强交互的确定性和效率。文章从交互范式、安全性和技术实现三个维度分析了该设计的价值与挑战。\n\n【体验价值】将语音反馈集成于视线附近的灵动岛，是车载UX设计的一大进步。它有效缩短了驾驶者的视线转移路径，降低了因查看屏幕而分神带来的安全风险。同时，视觉反馈的加入弥补了纯语音交互在信息呈现上的模糊性，例如确认指令执行结果或展示列表选项时，视觉呈现比语音播报更清晰高效，提升了交互的掌控感。\n\n【潜在槽点】灵动岛区域面积有限，若信息展示过多或过于复杂，反而会造成视觉干扰，影响驾驶专注。此外，该交互模式高度依赖语音识别的准确率和响应速度，若语音理解出错，视觉反馈会放大错误，让用户感到困惑。如何设计一套清晰、克制且不干扰驾驶的信息呈现规则，是决定该功能成败的关键。",
+          "summary_en": "【Event Overview】The news focuses on the integration of AI voice assistants with 'Dynamic Island'-style interactions in vehicle systems. It points out that some domestic OS have integrated voice feedback into the Dynamic Island area at the top of the screen, allowing drivers to see visual feedback for key information like navigation, music playback, and vehicle status without taking their eyes off the road to look at the central display. This marks an upgrade from purely 'audible' to 'visible' voice interaction, enhancing interaction certainty and efficiency through dual visual and auditory feedback channels. The article analyzes the value and challenges of this design from three dimensions: interaction paradigm, safety, and technical implementation.\n\n【Experience Value】Integrating voice feedback into a Dynamic Island near the line of sight is a significant advancement in automotive UX design. It effectively shortens the driver's gaze transfer path, reducing the safety risk of distraction from looking at screens. The addition of visual feedback compensates for the ambiguity of pure voice interaction in presenting information, such as confirming command execution results or showing list options, which is clearer and more efficient than voice broadcast, enhancing the user's sense of control.\n\n【Potential Friction】The Dynamic Island area is limited; if too much or overly complex information is displayed, it can cause visual distraction and impair driving focus. Moreover, this interaction mode heavily relies on the accuracy and response speed of voice recognition. If the voice understanding is wrong, the visual feedback can amplify the error, confusing the user. Designing a clear, restrained, and non-distracting information presentation rule is key to the success of this feature."
+        },
+        {
+          "title": "沉浸式座舱娱乐技术升级：3D视觉+AI情感+三维声场，谁在重新定义车内娱乐？",
+          "url": "https://auto.sina.cn/2026-09-07/detail-iniqyzxx0302362.d.html?vt=4",
+          "site_name": "新浪汽车",
+          "publish_date": "2026-09-07",
+          "tags": [
+            "3D交互",
+            "AI情感",
+            "三维声场",
+            "沉浸式娱乐"
+          ],
+          "summary": "【事件概述】新闻盘点了2025-2026年沉浸式座舱娱乐技术的三大升级方向。首先是基于虚幻引擎5.6等游戏引擎实现的“全场景3D交互”，将车辆控制、导航和娱乐界面整合在三维立体空间中，提供更具空间感和真实感的操作体验。其次是“AI情感化陪伴”，例如鸿蒙座舱的AI萌宠，通过情感计算与用户进行拟人化互动，增强情感连接。最后是“三维声场技术”，如Xperi DTS AutoStage，通过软件算法营造出具有高度、深度和宽度的声场，为乘客提供更具包围感的影音娱乐体验。文章分析了这些技术如何共同作用，重新定义车内娱乐的形态。\n\n【体验价值】3D交互界面能利用人的深度感知，构建更符合直觉的虚拟空间布局，可能降低特定操作的学习成本。AI情感化陪伴则为冰冷的机器赋予了“温度”，能够缓解驾驶疲劳和孤独感，提升情感层面的满足感。三维声场技术则能显著提升影音内容的沉浸感和临场感，将车内娱乐体验提升至新的高度。\n\n【潜在槽点】高渲染精度的3D界面需要强大的GPU算力，可能导致系统功耗和发热增加，并可能引发部分用户（特别是对3D眩晕敏感者）的不适。AI情感化交互若设计不当，容易陷入“恐怖谷”效应或显得虚假，反而引起用户反感。三维声场效果受限于车内扬声器硬件配置，软件算法在普通音响上可能效果甚微，存在“重宣传、轻体验”的风险。",
+          "summary_en": "【Event Overview】The news reviews three major upgrade directions for immersive cockpit entertainment technology in 2025-2026. First is 'full-scene 3D interaction' based on game engines like Unreal Engine 5.6, integrating vehicle control, navigation, and entertainment interfaces into a three-dimensional space for a more spatial and realistic operation experience. Second is 'AI emotional companionship', such as the Hongmeng cockpit's AI pet, which uses affective computing for anthropomorphic interaction to enhance emotional connection. Third is '3D sound field technology', like Xperi DTS AutoStage, which uses software algorithms to create a sound field with height, depth, and width, providing a more enveloping audio-visual entertainment experience. The article analyzes how these technologies collectively redefine the form of in-car entertainment.\n\n【Experience Value】3D interactive interfaces can leverage human depth perception to build a more intuitive virtual spatial layout, potentially reducing the learning curve for specific operations. AI emotional companionship adds 'warmth' to cold machines, potentially alleviating driving fatigue and loneliness, enhancing emotional satisfaction. 3D sound field technology can significantly improve the immersion and presence of audio-visual content, elevating the in-car entertainment experience to new heights.\n\n【Potential Friction】High-fidelity 3D interfaces require powerful GPU compute, potentially increasing system power consumption and heat, and may cause discomfort for users sensitive to 3D motion sickness. Poorly designed AI emotional interaction risks falling into the 'uncanny valley' or feeling inauthentic, potentially repelling users. The effectiveness of 3D sound fields is highly dependent on the vehicle's speaker hardware; software algorithms may have minimal effect on standard audio systems, posing a risk of overemphasizing marketing over actual experience."
+        }
+      ],
+      "created_at": "2026-09-09 15:18:59"
+    },
+    {
       "date": "2026-09-08",
       "date_display": "09月08日",
       "weekday": "周二",
@@ -3176,71 +3255,6 @@
         }
       ],
       "created_at": "2026-06-30 14:21:48"
-    },
-    {
-      "date": "2026-06-29",
-      "date_display": "06月29日",
-      "weekday": "周一",
-      "news_count": 4,
-      "news": [
-        {
-          "title": "比亚迪老车型能OTA升级手车互联功能吗",
-          "url": "https://k.sina.cn/article_7879923925_1d5ae18d506801hpku.html",
-          "site_name": "新浪",
-          "publish_date": "2026-06-29",
-          "tags": [
-            "比亚迪",
-            "DiLink",
-            "OTA",
-            "手车互联"
-          ],
-          "summary": "【事件概述】比亚迪于2025年7月15日宣布全品牌上线“手车互联”功能，覆盖从7万级海鸥到百万级仰望的所有车型。老车主通过OTA升级即可免费获得导航流转、音乐接续、应用镜像等能力。该功能支持华为、荣耀、OPPO、真我、一加、vivo、iQOO、小米、红米等主流品牌手机，通过无线连接实现手机应用无缝流转至车机大屏，彻底解决车载生态碎片化痛点。此次OTA还新增了百变主题（含萌宠、裸眼3D动态主题）和融合音乐App（新增网易云音乐），支持全场景智能语音控制。\n\n【体验价值】手车互联实现了“手机即车机”的无缝体验，用户无需在车机上重复安装应用，导航、音乐等高频场景可一键流转，大幅降低学习成本。老车型通过OTA获得新功能，延长了车辆生命周期，提升了用户忠诚度。\n\n【潜在槽点】手车互联依赖手机品牌兼容性，部分小众或旧款手机可能无法支持，导致体验割裂。应用镜像功能在驾驶场景下可能分散注意力，存在安全隐患。OTA升级包大小和稳定性对老车型硬件性能构成挑战，可能出现卡顿或功能降级。",
-          "summary_en": "【Event Overview】BYD announced on July 15, 2025, that its entire brand lineup, from the 70,000-yuan Seagull to the million-yuan Yangwang, would receive a \"Phone-Car Connectivity\" feature via OTA. Owners can get free navigation transfer, music continuation, and app mirroring. The feature supports major phone brands like Huawei, Honor, OPPO, vivo, Xiaomi, etc., enabling seamless app flow from phone to car screen, solving the fragmentation of in-car ecosystems. The OTA also adds dynamic themes and NetEase Cloud Music integration with voice control.\n\n【Experience Value】Phone-car connectivity offers a seamless \"phone as car machine\" experience, eliminating the need to install apps on the car screen. High-frequency scenarios like navigation and music can be transferred with one click, greatly reducing learning costs. OTA updates extend vehicle lifespan and boost user loyalty.\n\n【Potential Friction】Connectivity depends on phone brand compatibility; niche or older models may not be supported, causing fragmented experiences. App mirroring could distract drivers, posing safety risks. OTA package size and stability may challenge older hardware, leading to lag or feature degradation."
-        },
-        {
-          "title": "2026智能座舱人机交互技术演进与用户体验分析报告.docx",
-          "url": "https://max.book118.com/html/2026/0627/8104006104010104.shtm",
-          "site_name": "原创力文档",
-          "publish_date": "2026-06-28",
-          "tags": [
-            "行业趋势",
-            "多模态交互",
-            "AI",
-            "UX设计"
-          ],
-          "summary": "【事件概述】该报告系统分析了2026年智能座舱人机交互技术的演进趋势，指出交互将呈现硬件多维化、交互多模态化、系统AI化、架构云端化的立体格局。核心创新包括：多模态融合技术（语音、手势、视线追踪、生物特征识别）实现“主动感知用户意图”；AI主动式智能体从“人找功能”转向“服务找人”，能根据用户情绪、场景甚至潜意识需求提供个性化服务；端侧大模型部署使语音助手具备毫秒级响应和上下文理解能力；云端架构支持持续OTA升级和生态扩展。报告预测，到2026年全球智能座舱市场规模将突破千亿美元，多模态交互渗透率将从40%增长至75%以上。\n\n【体验价值】多模态交互让用户以最自然的方式（语音、手势、眼神）与座舱沟通，降低学习成本。AI主动式智能体提供“千人千面”的个性化体验，如自动调节座椅、推荐音乐、规划路线，使座舱成为有温度的“第三空间”。\n\n【潜在槽点】多模态交互的误触发率较高，如手势识别可能被乘客无意动作干扰，视线追踪可能因光线或眼镜反光失效。AI主动式服务若过度“猜测”用户意图，可能造成隐私侵犯或交互冗余。端侧大模型对硬件算力要求高，低端车型难以普及。",
-          "summary_en": "【Event Overview】This report systematically analyzes the evolution of human-machine interaction in smart cockpits in 2026, highlighting trends toward hardware multi-dimensionality, multimodal interaction, AI-driven systems, and cloud-native architectures. Key innovations include multimodal fusion (voice, gesture, eye tracking, biometrics) for proactive intent sensing; AI proactive agents shifting from \"human finds function\" to \"service finds human,\" offering personalized services based on emotion, scene, and even subconscious needs; on-device large language models enabling millisecond response and contextual understanding; and cloud architecture supporting continuous OTA and ecosystem expansion. The report predicts the global smart cockpit market will exceed $100 billion by 2026, with multimodal interaction penetration growing from 40% to over 75%.\n\n【Experience Value】Multimodal interaction allows users to communicate naturally (voice, gesture, gaze), reducing learning curves. AI proactive agents deliver personalized experiences, such as auto-adjusting seats, recommending music, and planning routes, making the cockpit a warm \"third space.\"\n\n【Potential Friction】Multimodal interaction has high false-trigger rates; gestures may be misinterpreted by passenger movements, and eye tracking can fail due to lighting or glasses. Overly proactive AI may invade privacy or cause interaction redundancy. On-device LLMs require high hardware specs, limiting adoption in low-end vehicles."
-        },
-        {
-          "title": "全栈自研 vs 生态合作：2026年智能座舱的两条“生死线”",
-          "url": "https://blog.csdn.net/IOT5570/article/details/162012531",
-          "site_name": "CSDN博客",
-          "publish_date": "2026-06-23",
-          "tags": [
-            "行业趋势",
-            "全栈自研",
-            "生态合作",
-            "战略"
-          ],
-          "summary": "【事件概述】文章深入探讨了2026年智能座舱领域车企面临的两大战略路径：全栈自研与生态合作。全栈自研代表如小鹏、蔚来，通过自研操作系统（如X-EEA3.0、AI天玑系统）和AI大模型，实现软硬件深度耦合，提供差异化体验和快速迭代能力。生态合作代表如长安与英特尔、腾讯与岚图，借助成熟安卓生态和第三方AI能力，降低研发成本，快速丰富应用生态。文章指出，车载应用商店活跃度预计增长300%，商业模式重构是最大变量。自研路径能掌控核心体验但投入巨大，合作路径能快速铺量但可能丧失差异化。\n\n【体验价值】全栈自研能实现更流畅的交互和更深的硬件优化，如小鹏的VLA模型实现端到端智驾与座舱融合。生态合作则能快速引入海量应用（如游戏、办公），满足用户多样化需求，降低学习成本。\n\n【潜在槽点】全栈自研可能导致生态封闭，第三方应用适配慢，用户选择受限。生态合作则面临数据隐私风险（第三方应用可能过度收集用户数据），且系统更新依赖合作伙伴节奏，可能造成版本碎片化。两种路径均需平衡开放与安全。",
-          "summary_en": "【Event Overview】This article explores two strategic paths for smart cockpits in 2026: full-stack in-house development vs. ecosystem collaboration. In-house examples include XPeng and NIO, with self-developed OS (e.g., X-EEA3.0, AI Tianji) and AI models for deep hardware-software coupling and differentiated experiences. Collaboration examples include Changan with Intel and Tencent with Voyah, leveraging mature Android ecosystems and third-party AI to reduce costs and rapidly enrich app ecosystems. The article notes that in-car app store activity is expected to grow 300%, with business model restructuring being a key variable. In-house development offers control but high investment; collaboration enables rapid scaling but risks losing differentiation.\n\n【Experience Value】In-house development enables smoother interaction and deeper hardware optimization, such as XPeng's VLA model integrating autonomous driving and cockpit. Ecosystem collaboration quickly introduces diverse apps (games, office), meeting varied user needs and reducing learning curves.\n\n【Potential Friction】In-house development may lead to closed ecosystems, slow third-party app adaptation, and limited user choice. Collaboration faces data privacy risks (third-party apps may over-collect data) and update dependency on partners, causing version fragmentation. Both paths must balance openness and security."
-        },
-        {
-          "title": "奇瑞、荣威“区别升级”引爆车主众怒：OTA为何总轮不到你？",
-          "url": "https://youjia-pc.bdstatic.com/article/9672324375573813548.html",
-          "site_name": "有驾",
-          "publish_date": "2026-06-29",
-          "tags": [
-            "奇瑞",
-            "荣威",
-            "OTA",
-            "用户体验"
-          ],
-          "summary": "【事件概述】文章曝光了奇瑞、荣威等品牌因OTA升级不均引发的车主集体不满。部分车型长期未收到OTA推送，或推送内容与宣传不符，导致车主质疑车企“区别对待”。核心问题包括：OTA升级策略不透明，老车型被选择性忽略；升级包大小和功能因车型硬件差异而缩水；部分功能需付费解锁，引发“硬件预埋、软件收费”争议。文章建议车主主动查询升级信息、加入车友群获取动态，并呼吁车企建立更公平的OTA升级机制。\n\n【体验价值】公平透明的OTA升级能增强用户信任，让老车主持续获得新功能，提升车辆保值率和品牌忠诚度。统一推送策略可避免“信息孤岛”，确保所有用户享受一致体验。\n\n【潜在槽点】硬件差异导致功能降级是客观限制，但车企若未提前告知，易引发“虚假宣传”投诉。付费解锁模式若定价不合理，可能被用户视为“割韭菜”。OTA推送频率过高也可能占用用户流量和存储空间，造成体验负担。",
-          "summary_en": "【Event Overview】This article exposes user dissatisfaction with Chery and Roewe due to uneven OTA upgrades. Some models have not received OTA pushes for a long time, or the pushed content does not match promotions, leading to accusations of \"differential treatment.\" Key issues include opaque upgrade strategies, feature downgrades due to hardware differences, and pay-to-unlock features. The article advises users to proactively check upgrade info and join owner groups, and calls for fairer OTA mechanisms from automakers.\n\n【Experience Value】Fair and transparent OTA upgrades build user trust, allowing old owners to continuously receive new features, improving vehicle resale value and brand loyalty. Unified push strategies prevent \"information silos\" and ensure consistent experiences.\n\n【Potential Friction】Hardware differences causing feature downgrades are objective, but if not disclosed in advance, they may lead to \"false advertising\" complaints. Unreasonable pay-to-unlock pricing may be seen as profiteering. Excessive OTA frequency may also consume user data and storage, causing experience burden."
-        }
-      ],
-      "created_at": "2026-06-29 14:59:49"
     }
   ]
 }
