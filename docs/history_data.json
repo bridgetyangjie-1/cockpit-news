@@ -1,6 +1,100 @@
 {
   "records": [
     {
+      "date": "2026-09-12",
+      "date_display": "09月12日",
+      "weekday": "周六",
+      "news_count": 5,
+      "news": [
+        {
+          "title": "广汽埃安第二代 AION V、V Home 车型 OTA 升级：新增苹果 CarPlay 手...",
+          "url": "https://finance.sina.com.cn/tech/digi/2026-09-10/doc-iniritau7701118.shtml",
+          "site_name": "Finance",
+          "publish_date": "2026-09-10",
+          "tags": [
+            "广汽埃安",
+            "CarPlay",
+            "OTA",
+            "手车互联",
+            "座舱生态"
+          ],
+          "summary": "【事件概述】广汽埃安针对第二代 AION V 与 V Home 车型推送了一次规模较大的 OTA 升级，官方称智能座舱与智能驾驶辅助双线进化，共带来 13 项重磅体验新增与 15 项体验细节优化。其中最受关注的是新增苹果 CarPlay 手机互联能力，这意味着此前以自研车机生态为主的埃安座舱，开始向 iPhone 用户的高频使用习惯妥协与开放。除 CarPlay 外，升级还覆盖语音交互、导航、多媒体与车控逻辑等模块，属于典型的“功能补齐 + 体验打磨”型 OTA。对存量车主而言，这类升级不依赖硬件更换即可获得新能力，是软件定义汽车价值的直接体现。",
+          "summary_en": "【Event Overview】GAC Aion pushed a large-scale OTA to the second-generation AION V and V Home, adding 13 new features and refining 15 details across the cockpit and ADAS. The headline is Apple CarPlay support, marking a shift from a closed in-house ecosystem toward accommodating iPhone users' habits. The update also touches voice, navigation, media and vehicle control, representing a classic feature-fill plus polish OTA that delivers new value to existing owners without hardware changes.",
+          "体验价值": "【体验价值】CarPlay 的加入显著降低了 iPhone 用户的上手成本，导航、音乐、通话等高频场景可直接复用手机生态，减少车机学习负担，提升互联一致性与驾驶专注度。",
+          "潜在槽点": "【潜在槽点】CarPlay 与自研车机存在双系统割裂风险，用户需在兩套逻辑间切换；部分车控功能无法在 CarPlay 内调用，且无线连接稳定性与隐私数据边界仍是落地难点。"
+        },
+        {
+          "title": "东风日产天籁·鸿蒙座舱的MoLA大模型AI语音助手有哪些特点？",
+          "url": "https://k.sina.cn/article_7879777164_1d5abdb8c068030x8u.html",
+          "site_name": "K",
+          "publish_date": "2026-09-11",
+          "tags": [
+            "东风日产",
+            "HarmonySpace",
+            "大模型",
+            "多Agent",
+            "语音交互"
+          ],
+          "summary": "【事件概述】东风日产天籁搭载的鸿蒙座舱引入基于 HarmonySpace 5 的 MoLA（Mixture of LM Agent）混合大模型架构，其 AI 语音助手从传统“一问一答”的规则式工具，升级为可整合图文视频、打通控车与应用生态的多 Agent 协同体。核心变化在于：语音不再只是指令入口，而是能拆解复杂口语、跨域调度车控与生态服务的智能代理。例如用户可用自然语言组合导航、空调、娱乐等多步操作，由多个专业 Agent 分工协作完成闭环。这标志着合资品牌借助国内大模型能力，在座舱交互层面加速补课，试图缩小与新势力在语音智能化上的差距。",
+          "summary_en": "【Event Overview】The Dongfeng Nissan Teana's Harmony cockpit introduces the MoLA (Mixture of LM Agent) architecture built on HarmonySpace 5, upgrading its voice assistant from rule-based Q&A to a multi-agent system that integrates text, images and video while orchestrating vehicle control and ecosystem services. Users can issue complex natural-language commands spanning navigation, climate and entertainment, with specialized agents collaborating to close the loop, signaling joint-venture brands' accelerated catch-up in cockpit intelligence.",
+          "体验价值": "【体验价值】多 Agent 协同让语音从单点指令升级为任务闭环，用户可用自然口语完成跨域操作，减少手动层级跳转，交互更接近“对话即服务”的理想形态。",
+          "潜在槽点": "【潜在槽点】多 Agent 调度带来响应延迟与上下文丢失风险，复杂指令的误触发和不可预期行为会削弱信任；同时大模型上车的算力成本与隐私边界仍待验证。"
+        },
+        {
+          "title": "2026成都车展AI座舱全景复盘：从语音助手到整车智能体",
+          "url": "https://www.eeworld.com.cn/qcdz/eic735344.html",
+          "site_name": "Eeworld",
+          "publish_date": "2026-09-07",
+          "tags": [
+            "整车智能体",
+            "AI座舱",
+            "大模型",
+            "跨域调度",
+            "车展趋势"
+          ],
+          "summary": "【事件概述】2026 成都车展的 AI 座舱复盘显示，智能座舱正从“大模型封装语音助手”跨入整车智能体（Agent）阶段。核心特征是系统能感知乘员状态、拆解口语指令，并跨域调度车控与生态服务完成闭环，而非停留在单轮问答。与此同时，AI 座舱能力从 30 万以上旗舰车型下探至 10-15 万主流价位，合资品牌也全面接入国内大模型进行补课。这一趋势意味着座舱竞争焦点从屏幕尺寸与芯片算力，转向 Agent 编排能力、场景闭环深度与生态整合广度，交互范式正从“人操作功能”转向“系统主动服务”。",
+          "summary_en": "【Event Overview】A recap of AI cockpits at the 2026 Chengdu Auto Show shows the industry moving from LLM-wrapped voice assistants to full-vehicle agents that sense occupant state, parse spoken commands and orchestrate cross-domain vehicle control and ecosystem services. Meanwhile, AI cockpit capabilities are trickling down from 300k+ flagships to the 100-150k mainstream segment, with joint-venture brands fully adopting domestic LLMs, shifting competition from screens and chips to agent orchestration and scenario closure.",
+          "体验价值": "【体验价值】整车智能体让服务从被动响应转为主动预判，用户无需逐项操作即可获得连贯场景体验，交互负担下降，座舱从工具属性向“出行伙伴”演进。",
+          "潜在槽点": "【潜在槽点】主动服务易越界为“过度打扰”，用户对系统预判的信任建立缓慢；跨域调度涉及多供应商协议，落地一致性与责任归属仍是难题。"
+        },
+        {
+          "title": "澎湃OS4.0更新全面曝光：你的小米手机能否升级？",
+          "url": "https://www.sohu.com/a/1073898293_121885030",
+          "site_name": "Sohu",
+          "publish_date": "2026-09-09",
+          "tags": [
+            "小米",
+            "澎湃OS",
+            "跨设备流转",
+            "本地AI",
+            "UI设计"
+          ],
+          "summary": "【事件概述】小米澎湃 OS 4.0 更新全面曝光，核心变化包括全新液态玻璃风格 UI、超级小爱助手重大升级，以及跨设备无缝对话能力，实现手机、电脑与车机之间的任务流转。同时系统增强本地 AI 任务处理能力，用户隐私数据保存在本地而非上传云端。对座舱而言，这意味着手机与车机的生态边界进一步模糊：用户在手机上未完成的任务可流转至车机继续，超级小爱作为统一入口贯穿多端。液态玻璃 UI 也预示车机界面将与手机保持一致的视觉语言，降低跨设备学习成本，强化小米“人车家全生态”的软件协同叙事。",
+          "summary_en": "【Event Overview】Xiaomi's HyperOS 4.0 leak reveals a liquid-glass UI, a major Super Xiao Ai upgrade with cross-device seamless dialogue, and task handoff across phone, PC and car. On-device AI processing keeps private data local. For the cockpit, this blurs the phone-car ecosystem boundary: unfinished phone tasks continue in the car, with Super Xiao Ai as a unified entry point, while the liquid-glass UI aligns visual language across devices to cut cross-device learning costs.",
+          "体验价值": "【体验价值】跨设备任务流转与统一语音入口减少了场景切换的割裂感，用户在不同终端间获得连续体验；本地 AI 处理增强隐私安全感，提升使用意愿。",
+          "潜在槽点": "【潜在槽点】跨端流转依赖账号与网络一致性，断连或版本不匹配时体验骤降；本地 AI 算力受限可能导致复杂任务降级，用户对“本地”承诺的实际边界存疑。"
+        },
+        {
+          "title": "howto｜玩透车机 自定义阿维塔智慧场景 才发现阿维塔智慧场景可玩性超高！",
+          "url": "https://www.douyin.com/video/7683156446162671092",
+          "site_name": "Douyin",
+          "publish_date": "2026-09-08",
+          "tags": [
+            "阿维塔",
+            "智慧场景",
+            "场景引擎",
+            "自动化",
+            "用户自定义"
+          ],
+          "summary": "【事件概述】阿维塔车机的智慧场景功能展示了较高的可玩性：系统自带上班、下班、出行等预设场景，同时支持用户 DIY 专属模式。设置完成后，车辆可在上车时自动执行一系列动作，如播报天气、打开音乐、导航至目的地等，一气呵成。这本质上是场景引擎能力的用户侧落地，通过触发器与动作编排，把原本需要多次手动操作的功能组合成自动化流程。用户分享的自定义场景案例显示，该功能已具备一定的条件判断与多动作串联能力，是座舱从“功能堆叠”走向“场景编排”的典型样本，也反映出用户对个性化自动化的真实需求。",
+          "summary_en": "【Event Overview】Avatr's smart scenario feature offers strong playability: built-in commute and travel presets plus user-defined modes that auto-execute on entry, such as weather briefing, music and navigation. This is a user-facing implementation of a scenario engine, combining triggers and actions into automated flows. Shared custom scenarios show conditional logic and multi-action chaining, exemplifying the cockpit's shift from feature stacking to scenario orchestration and reflecting genuine demand for personalization.",
+          "体验价值": "【体验价值】场景自动化把重复操作前置为一次配置，用户上车即获得连贯服务，显著降低日常操作负担，个性化编排也增强了掌控感与归属感。",
+          "潜在槽点": "【潜在槽点】自定义场景的配置门槛偏高，普通用户易被触发器与动作逻辑劝退；场景误触发或执行顺序错乱会打断驾驶，调试成本与预期管理是落地难点。"
+        }
+      ],
+      "created_at": "2026-09-12 15:06:06"
+    },
+    {
       "date": "2026-09-09",
       "date_display": "09月09日",
       "weekday": "周三",
@@ -3204,57 +3298,6 @@
         }
       ],
       "created_at": "2026-07-01 14:43:01"
-    },
-    {
-      "date": "2026-06-30",
-      "date_display": "06月30日",
-      "weekday": "周二",
-      "news_count": 3,
-      "news": [
-        {
-          "title": "“合资新势力”的专属响应，东风日产N7为何“不一样”？_ 汽扯扒谈",
-          "url": "https://www.qcwp.com/news/992131",
-          "site_name": "汽扯扒谈",
-          "publish_date": "2026-06-25",
-          "tags": [
-            "东风日产",
-            "Nissan Connect",
-            "OTA",
-            "AI大模型"
-          ],
-          "summary": "【事件概述】东风日产N7首次OTA升级新增和优化超100项功能，包括AI大模型功能、亲子空间APP、主驾隐私关怀、哨兵模式等。该车型是引入华为IPMS（智能产品管理系统）机制推出的首款车型，旨在通过持续OTA迭代提升智能化体验。AI大模型功能预计将支持自然语言交互和场景化服务，亲子空间APP则针对家庭用户提供儿童娱乐和安全监控，主驾隐私关怀可自动隐藏敏感信息，哨兵模式提供停车监控。\n\n【体验价值】AI大模型功能有望实现更自然的语音交互和主动服务，降低用户学习成本。亲子空间APP针对家庭场景优化，提升了后排儿童的安全和娱乐体验。主驾隐私关怀在共享用车场景下保护用户隐私，哨兵模式则增强了车辆安全感知。这些功能体现了从“功能叠加”到“场景化服务”的转变。\n\n【潜在槽点】超100项功能同时推送可能导致用户信息过载，部分功能（如AI大模型）的实际效果可能受限于算力和数据质量。亲子空间APP需配合硬件（如摄像头）才能发挥全部作用，低配车型可能体验缩水。哨兵模式可能增加电池消耗，影响续航。隐私关怀功能可能因误触发而干扰正常使用。",
-          "summary_en": "【Event Overview】Dongfeng Nissan N7's first OTA update added and optimized over 100 features, including AI large model capabilities, a Family Space app, driver privacy care, and sentry mode. This model is the first to adopt Huawei's IPMS mechanism, aiming to enhance intelligence through continuous OTA iterations. The AI large model is expected to support natural language interaction and contextual services, while the Family Space app targets family users with child entertainment and safety monitoring. Driver privacy care automatically hides sensitive information, and sentry mode provides parking surveillance.\n\n【Experience Value】The AI large model can enable more natural voice interaction and proactive services, reducing learning costs. The Family Space app optimizes for family scenarios, enhancing rear-seat child safety and entertainment. Driver privacy care protects user privacy in shared-use scenarios, while sentry mode improves vehicle security perception. These features represent a shift from feature stacking to contextual services.\n\n【Potential Friction】Over 100 features pushed simultaneously may cause information overload. The AI large model's effectiveness may be limited by computing power and data quality. The Family Space app requires hardware (e.g., cameras) for full functionality, potentially degrading on lower trims. Sentry mode may increase battery drain, affecting range. Privacy care may trigger falsely, disrupting normal use."
-        },
-        {
-          "title": "澎湃OS 4全面曝光：小米十六年\"屎山\"终于要炸，新系统能不能接住|安卓...",
-          "url": "https://www.163.com/dy/article/L09LI0720511AKPC.html",
-          "site_name": "网易",
-          "publish_date": "2026-06-25",
-          "tags": [
-            "小米",
-            "澎湃OS",
-            "UI设计",
-            "AI集成"
-          ],
-          "summary": "【事件概述】澎湃OS 4全面曝光，小米计划对系统进行重大革新。核心变化包括：引入全新的“液态玻璃”UI设计，提供通透和柔和两种可切换风格，类似iOS的柔润效果；深度集成AI能力，覆盖相册、系统工具和智能体；调整交互方式，强化与新一代硬件的绑定。此次升级旨在解决长期存在的Bug和系统碎片化问题，将系统从“附加价值”转变为“核心卖点”。\n\n【体验价值】液态玻璃UI设计提升了视觉统一性和高级感，可切换风格满足不同用户审美偏好。AI深度集成有望实现更智能的相册管理、系统优化和主动服务，减少用户手动操作。交互方式调整可能降低学习曲线，提升操作效率。整体上，澎湃OS 4试图通过软件体验提升小米生态的竞争力。\n\n【潜在槽点】UI风格切换可能增加系统资源消耗，影响低端设备流畅度。AI集成可能引发隐私担忧，尤其是相册和系统工具的数据访问。长期存在的Bug能否一次性解决存疑，用户可能对“画饼”式更新产生疲劳。新系统与硬件的深度绑定可能导致老机型升级体验不佳。",
-          "summary_en": "【Event Overview】HyperOS 4 has been fully exposed, with Xiaomi planning a major system overhaul. Key changes include a new 'Liquid Glass' UI design with transparent and soft switchable styles, deep AI integration across albums, system tools, and agents, and interaction adjustments tied to new hardware. This update aims to solve long-standing bugs and fragmentation, transforming the system from an 'add-on' to a 'core selling point'.\n\n【Experience Value】The Liquid Glass UI enhances visual consistency and premium feel, with switchable styles catering to different aesthetic preferences. Deep AI integration enables smarter album management, system optimization, and proactive services, reducing manual operations. Interaction adjustments may lower the learning curve and improve efficiency. Overall, HyperOS 4 seeks to boost Xiaomi's ecosystem competitiveness through software experience.\n\n【Potential Friction】UI style switching may increase resource consumption, affecting low-end device smoothness. AI integration raises privacy concerns, especially regarding album and system tool data access. Whether long-standing bugs can be resolved in one go is questionable, and users may be fatigued by 'vaporware' updates. Deep hardware binding may result in poor upgrade experiences on older models."
-        },
-        {
-          "title": "AR - HUD 升级，等红灯也有趣 问界OTA再升级有点意思 新增红绿灯趣味动效",
-          "url": "https://www.douyin.com/video/7656956625445919396",
-          "site_name": "抖音",
-          "publish_date": "2026-06-30",
-          "tags": [
-            "问界",
-            "HarmonyOS",
-            "AR-HUD",
-            "趣味交互"
-          ],
-          "summary": "【事件概述】问界通过OTA升级AR-HUD，新增红绿灯趣味动效。当车辆等红灯时，AR-HUD会显示“舞林萌主-憨憨”动画，增加等待趣味性。开启辅助驾驶时，AR-HUD还能通过动效表达变道、刹停、起步等意图，提升人机交互透明度。此次升级旨在通过趣味化设计传递科技温度，将AR-HUD从单纯的信息显示工具转变为情感化交互载体。\n\n【体验价值】红绿灯趣味动效缓解了等红灯的无聊感，提升了驾驶愉悦度。辅助驾驶意图表达让用户更直观地理解系统决策，增强信任感。这种“有温度”的交互设计降低了科技产品的冰冷感，可能提升用户对智能驾驶的接受度。\n\n【潜在槽点】趣味动效可能分散驾驶员注意力，尤其在复杂路口。动画效果需确保不影响关键信息（如导航、车速）的显示优先级。辅助驾驶意图表达可能因算法误判而显示错误动效，导致用户困惑。此外，此类功能可能仅适用于特定硬件配置，低配车型无法体验。",
-          "summary_en": "【Event Overview】AITO upgraded its AR-HUD via OTA, adding a fun traffic light animation. When waiting at a red light, the AR-HUD displays a 'Dancing Master - Hanhan' animation to add fun. During assisted driving, the AR-HUD uses animations to express lane change, braking, and start intentions, improving human-machine interaction transparency. This upgrade aims to convey technological warmth through playful design, transforming the AR-HUD from a pure information display tool into an emotional interaction medium.\n\n【Experience Value】The traffic light animation alleviates boredom while waiting, enhancing driving pleasure. Assisted driving intention expression allows users to intuitively understand system decisions, building trust. This 'warm' interaction design reduces the coldness of technology, potentially increasing user acceptance of intelligent driving.\n\n【Potential Friction】Fun animations may distract drivers, especially at complex intersections. Animations must not interfere with critical information display priority. Assisted driving intention expression may show incorrect animations due to algorithm errors, causing confusion. Additionally, such features may be limited to specific hardware configurations, excluding lower trims."
-        }
-      ],
-      "created_at": "2026-06-30 14:21:48"
     }
   ]
 }
