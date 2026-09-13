@@ -1,6 +1,63 @@
 {
   "records": [
     {
+      "date": "2026-09-13",
+      "date_display": "09月13日",
+      "weekday": "周日",
+      "news_count": 3,
+      "news": [
+        {
+          "title": "星纪元ET迎来重磅OTA升级，智能体验全面跃升",
+          "url": "https://www.toutiao.com/article/7684836568070947370/",
+          "site_name": "今日头条",
+          "publish_date": "2026-09-13",
+          "tags": [
+            "星途",
+            "EXEED OS",
+            "OTA",
+            "座舱交互",
+            "车设车控"
+          ],
+          "summary": "【事件概述】星纪元ET面向用户全面推送EXEED OS 2.7.0与1.7.0两大版本OTA升级，覆盖智能座舱、智驾辅助及车设车控三大核心领域。本次升级并非单点功能补丁，而是对座舱交互逻辑的系统性重构：语音助手响应链路优化、应用启动速度提升、车控菜单层级精简，同时智驾辅助的感知与决策模块同步迭代。双版本并行推送意味着不同硬件批次车型均能获得适配更新，体现了车企在软件版本管理上的分轨策略。升级内容强调“常用常新”，试图通过持续OTA维持产品生命周期内的体验竞争力，减少用户对硬件迭代的焦虑。\n\n【体验价值】从UX视角看，车设车控菜单层级精简直接降低驾驶中的操作分心风险，语音链路优化缩短了指令到执行的等待感，整体交互从“功能堆砌”向“任务效率”靠拢，正向价值明确。\n\n【潜在槽点】双版本并行推送可能造成用户社区信息混乱，不同批次车主体验不一致易引发公平性质疑；OTA后若未提供清晰的变更日志与回滚机制，用户面对界面变动会产生学习成本与不信任感。",
+          "summary_en": "【Event Overview】Exeed ET has begun rolling out a major OTA update featuring EXEED OS 2.7.0 and 1.7.0, covering smart cockpit, ADAS, and vehicle control. This is not a single-feature patch but a systematic refactor of cockpit interaction logic: voice assistant response pipeline optimization, faster app launch, simplified vehicle control menu hierarchy, and synchronized iteration of ADAS perception and decision modules. Dual-version parallel rollout means vehicles with different hardware batches receive adapted updates, reflecting a split-track software version management strategy. The update emphasizes \"always fresh,\" attempting to maintain experience competitiveness throughout the product lifecycle and reduce user anxiety about hardware obsolescence.\n\n【Experience Value】From a UX perspective, simplifying vehicle control menu hierarchy directly reduces distraction risk during driving, and voice pipeline optimization shortens the perceived wait from command to execution. The overall interaction moves from \"feature stacking\" toward \"task efficiency,\" delivering clear positive value.\n\n【Potential Friction】Dual-version parallel rollout may cause confusion in user communities, and inconsistent experiences across batches can trigger fairness concerns. Without clear changelogs and rollback mechanisms after OTA, users face learning costs and distrust when interfaces change.",
+          "score": 9
+        },
+        {
+          "title": "广汽埃安第二代 AION V、V Home 车型 OTA 升级：新增苹果 CarPlay 手...",
+          "url": "https://www.ithome.com/1/000/894.htm",
+          "site_name": "IT之家",
+          "publish_date": "2026-09-10",
+          "tags": [
+            "广汽埃安",
+            "CarPlay",
+            "OTA",
+            "手车互联",
+            "无麦K歌"
+          ],
+          "summary": "【事件概述】广汽埃安宣布为第二代AION V和V Home推送新一轮OTA升级，新增Apple CarPlay、全场景无麦K歌、哨兵模式、遥控泊车等13项功能，并对15项体验进行优化，将于9月16日起分批推送。本次升级的核心软件价值在于CarPlay的引入——这意味着车机系统从封闭自研生态向兼容第三方手机生态迈出关键一步，直接回应了iPhone用户长期以来的互联诉求。全场景无麦K歌则利用座舱麦克风阵列与音频处理算法，省去外接硬件的繁琐。哨兵模式与遥控泊车属于安全与便利类功能补强。13项新增加15项优化的组合，体现了OTA从“补丁式更新”向“版本级迭代”的转变。\n\n【体验价值】CarPlay的加入让iPhone用户无需改变手机使用习惯即可无缝映射导航、音乐与通讯，显著降低跨生态用户的上手门槛；无麦K歌消除了线缆与硬件的物理束缚，提升了座舱娱乐的即兴性与社交属性。\n\n【潜在槽点】CarPlay与原生车机系统并存可能造成交互逻辑割裂，用户需在兩套UI间切换；无麦K歌在行驶中的拾音准确率与噪音抑制效果存疑，且可能分散驾驶员注意力，实际落地体验有待验证。",
+          "summary_en": "【Event Overview】GAC Aion announced a new OTA update for the second-generation AION V and V Home, adding Apple CarPlay, all-scenario microphone-free karaoke, sentry mode, remote parking, and 13 other features, plus 15 experience optimizations, rolling out in batches from September 16. The core software value lies in CarPlay integration—a key step from a closed in-house ecosystem toward third-party phone ecosystem compatibility, directly addressing long-standing iPhone user demands. Microphone-free karaoke leverages the cockpit microphone array and audio processing algorithms, eliminating external hardware. Sentry mode and remote parking reinforce safety and convenience. The combination of 13 additions and 15 optimizations reflects OTA's shift from \"patch-style updates\" to \"version-level iteration.\"\n\n【Experience Value】CarPlay lets iPhone users seamlessly mirror navigation, music, and communications without changing phone habits, significantly lowering the barrier for cross-ecosystem users. Microphone-free karaoke removes physical cable and hardware constraints, enhancing improvisational and social aspects of cockpit entertainment.\n\n【Potential Friction】CarPlay and the native cockpit system coexisting may cause interaction logic fragmentation, requiring users to switch between two UIs. Microphone-free karaoke's pickup accuracy and noise suppression during driving are questionable, and it may distract the driver—real-world performance remains to be validated.",
+          "score": 9
+        },
+        {
+          "title": "AI语音助手多模态交互「读心术」来了！科大讯飞AIUI副语言情感技术实...",
+          "url": "https://auto.sina.cn/2026-09-12/detail-inirqmqv1288434.d.html?vt=4",
+          "site_name": "新浪汽车",
+          "publish_date": "2026-09-12",
+          "tags": [
+            "科大讯飞",
+            "AIUI",
+            "多模态",
+            "情感计算",
+            "DMS"
+          ],
+          "summary": "【事件概述】科大讯飞AIUI副语言情感表达技术实现量产落地，将语音中的声学信息（语调、语速、停顿）与面部表情识别（DMS摄像头）、手势控制、座舱传感器数据融合，构建更立体的用户状态画像。所谓“副语言”是指超越文字语义的语音特征——同样一句“我有点冷”，疲惫语气与烦躁语气的系统响应策略应有所不同。该技术不仅是单点功能，更被定位为多模态交互的关键基础层：通过声学+视觉+触觉的多维信号交叉验证，判断用户情绪状态与认知负荷，进而动态调整语音助手的回应风格、信息密度甚至主动服务策略。这标志着座舱交互从“听懂话”向“读懂人”的范式跃迁，情感计算开始从实验室走向量产车。\n\n【体验价值】副语言情感识别让语音助手从“机械应答”进化为“共情响应”，在用户疲劳或烦躁时主动简化交互流程、降低信息密度，减少驾驶中的情绪摩擦，提升人车信任感与安全感。\n\n【潜在槽点】情感识别涉及声学特征与面部数据的持续采集，隐私边界模糊且用户难以感知何时被“读心”；情绪判断的准确率受光线、口音、文化差异影响，误判可能导致不合时宜的回应，反而加剧用户挫败感。",
+          "summary_en": "【Event Overview】iFlytek's AIUI paralinguistic emotion expression technology has reached mass production, fusing acoustic information from speech (tone, speed, pauses) with facial expression recognition (DMS camera), gesture control, and cockpit sensor data to build a more three-dimensional user state profile. \"Paralinguistics\" refers to speech features beyond literal semantics—the same phrase \"I'm a bit cold\" should trigger different system responses depending on whether the tone is tired or irritable. This technology is positioned not as a single feature but as a critical foundational layer for multimodal interaction: cross-validating acoustic, visual, and haptic signals to judge emotional state and cognitive load, then dynamically adjusting the voice assistant's response style, information density, and even proactive service strategy. This marks a paradigm shift from \"understanding words\" to \"reading people,\" with affective computing moving from lab to production vehicles.\n\n【Experience Value】Paralinguistic emotion recognition evolves the voice assistant from \"mechanical response\" to \"empathetic response,\" proactively simplifying interaction flows and reducing information density when users are fatigued or irritated, minimizing emotional friction during driving and enhancing human-vehicle trust and safety.\n\n【Potential Friction】Emotion recognition involves continuous collection of acoustic features and facial data, with blurred privacy boundaries and users unable to perceive when they are being \"read.\" Emotion judgment accuracy is affected by lighting, accent, and cultural differences—misjudgment may lead to inappropriate responses, actually worsening user frustration.",
+          "score": 8
+        }
+      ],
+      "created_at": "2026-09-13 15:24:44"
+    },
+    {
       "date": "2026-09-12",
       "date_display": "09月12日",
       "weekday": "周六",
@@ -3208,96 +3265,6 @@
         }
       ],
       "created_at": "2026-07-02 14:08:00"
-    },
-    {
-      "date": "2026-07-01",
-      "date_display": "07月01日",
-      "weekday": "周三",
-      "news_count": 5,
-      "news": [
-        {
-          "title": "iOS 26.4起开放第三方语音对话应用，ChatGPT、Grok等AI聊天机器人已登陆CarPlay",
-          "url": "https://k.sina.com.cn/article_7880068201_1d5b04c690680243to.html",
-          "site_name": "新浪新闻",
-          "publish_date": "2026-06-28",
-          "tags": [
-            "Apple",
-            "CarPlay",
-            "iOS",
-            "AI语音",
-            "第三方应用",
-            "生态开放"
-          ],
-          "summary": "【事件概述】据新浪新闻2026年6月28日报道，苹果在iOS 26.4版本中正式开放CarPlay对第三方语音对话应用的支持。这意味着，用户现在可以在车载CarPlay环境中直接使用ChatGPT、Grok等AI聊天机器人。这些应用通过语音交互界面集成，允许驾驶员在行驶过程中通过语音指令与AI进行自然对话，获取信息、进行创作或娱乐。这一更新标志着CarPlay从传统的导航、音乐、电话等基础功能，向更丰富的AI生态服务延伸，将大模型能力直接带入驾驶场景。苹果通过开放API，允许第三方AI应用接入CarPlay的语音框架，实现了与Siri的差异化共存，为用户提供了更多选择。\n\n【体验价值】从UX视角看，这一创新显著提升了车载语音助手的实用性和趣味性。用户不再受限于Siri的固定能力，可以调用ChatGPT进行深度问答、内容生成，或与Grok进行幽默互动，使驾驶过程中的信息获取和娱乐体验更加丰富和个性化。同时，语音交互的免提特性保障了驾驶安全。\n\n【潜在槽点】第三方AI应用的引入可能带来隐私风险，用户对话数据可能被不同服务商收集。此外，多AI助手并存可能导致交互逻辑混乱，用户需学习如何在不同场景下选择合适助手，增加认知负担。实际使用中，AI响应延迟或网络不稳定也会影响体验。",
-          "summary_en": "【Event Overview】According to a report from Sina News on June 28, 2026, Apple officially opened CarPlay support for third-party voice dialogue applications in iOS 26.4. This means users can now directly use AI chatbots like ChatGPT and Grok in the in-car CarPlay environment. These applications are integrated through a voice interaction interface, allowing drivers to engage in natural conversations with AI via voice commands while driving, obtaining information, creating content, or entertaining. This update marks an extension of CarPlay from basic functions like navigation, music, and phone calls to richer AI ecosystem services, bringing large model capabilities directly into the driving scenario. By opening APIs, Apple allows third-party AI applications to access CarPlay's voice framework, achieving differentiated coexistence with Siri and providing users with more choices.\n\n【Experience Value】From a UX perspective, this innovation significantly enhances the practicality and fun of in-car voice assistants. Users are no longer limited to Siri's fixed capabilities and can leverage ChatGPT for in-depth Q&A and content generation, or interact with Grok for humorous exchanges, making the information acquisition and entertainment experience during driving richer and more personalized. Meanwhile, the hands-free nature of voice interaction ensures driving safety.\n\n【Potential Friction】The introduction of third-party AI applications may bring privacy risks, as user conversation data could be collected by different service providers. Additionally, the coexistence of multiple AI assistants may lead to confusing interaction logic, requiring users to learn how to choose the appropriate assistant for different scenarios, increasing cognitive load. In practice, AI response latency or network instability may also affect the experience."
-        },
-        {
-          "title": "越开越强，腾势N8L OTA再升级功能真的香",
-          "url": "https://chejiahao.autohome.com.cn/info/25846400",
-          "site_name": "车家号",
-          "publish_date": "2026-06-30",
-          "tags": [
-            "腾势",
-            "N8L",
-            "OTA",
-            "安全",
-            "座椅",
-            "降噪",
-            "车机钥匙"
-          ],
-          "summary": "【事件概述】据车家号2026年6月30日报道，腾势N8L进行了最新一次OTA升级，包含数十项更新。此次升级覆盖安全、座椅、降噪、车机钥匙等多个维度。在安全方面，可能新增或优化了驾驶辅助功能；座椅方面，可能引入了更智能的调节或记忆功能；降噪方面，可能通过软件算法优化了车内静谧性；车机钥匙方面，可能提升了蓝牙或NFC钥匙的稳定性和便捷性。腾势通过持续OTA，使车辆在交付后不断进化，体现了“越开越强”的理念。此次升级未提及具体功能细节，但强调了对用车体验的全面优化。\n\n【体验价值】从UX视角看，OTA升级让用户无需到店即可获得新功能，降低了时间成本。座椅和降噪的优化直接提升了乘坐舒适性，车机钥匙的改进则简化了日常用车流程。安全功能的增强进一步提升了驾驶信心。这种持续迭代的模式让车辆保持新鲜感，增强了用户粘性。\n\n【潜在槽点】OTA升级可能带来兼容性问题，部分老用户可能因硬件限制无法享受全部功能。此外，升级后若UI或交互逻辑发生变化，用户需要重新适应，可能产生短期困惑。若升级过程不稳定，可能导致车辆功能暂时异常，影响用户体验。",
-          "summary_en": "【Event Overview】According to a report from Chejiahao on June 30, 2026, the Denza N8L received its latest OTA update, including dozens of improvements. This upgrade covers multiple dimensions such as safety, seats, noise reduction, and car key. In terms of safety, driving assistance functions may have been added or optimized; for seats, smarter adjustment or memory functions may have been introduced; for noise reduction, in-cabin quietness may have been optimized through software algorithms; for the car key, the stability and convenience of Bluetooth or NFC keys may have been improved. Through continuous OTA, Denza enables the vehicle to evolve after delivery, embodying the concept of 'getting stronger the more you drive.' This upgrade did not disclose specific functional details but emphasized a comprehensive optimization of the driving experience.\n\n【Experience Value】From a UX perspective, OTA updates allow users to obtain new features without visiting a dealership, reducing time costs. Optimizations to seats and noise reduction directly enhance ride comfort, while improvements to the car key simplify daily vehicle usage. Enhanced safety features further boost driving confidence. This continuous iteration model keeps the vehicle fresh and increases user stickiness.\n\n【Potential Friction】OTA updates may introduce compatibility issues, and some older users may not be able to enjoy all features due to hardware limitations. Additionally, if the UI or interaction logic changes after the update, users need to readapt, which may cause short-term confusion. If the update process is unstable, it may lead to temporary functional anomalies, affecting the user experience."
-        },
-        {
-          "title": "iCAR V27首次OTA，超140项升级，家庭新硬派智能体验全面进化",
-          "url": "https://www.sohu.com/a/1043898059_120684631",
-          "site_name": "搜狐汽车",
-          "publish_date": "2026-06-30",
-          "tags": [
-            "iCAR",
-            "V27",
-            "OTA",
-            "AI语音",
-            "离线语音",
-            "高通8295P",
-            "大模型"
-          ],
-          "summary": "【事件概述】据搜狐汽车2026年6月30日报道，iCAR V27进行了首次OTA升级，涉及超过140项更新。在智能座舱方面，该车搭载高通骁龙8295P座舱芯片与AI语音大模型。升级后，语音助手的模糊指令理解能力全面提升，用户无需死记硬背唤醒词，系统能更自然地理解用户意图。此外，新增了离线语音能力强化，在偏远山区、地下车库等弱网或无网环境下，仍能保证人车沟通流畅不卡顿。这一升级显著提升了语音交互的实用性和覆盖场景，使AI助手在无网络时也能执行基本指令。\n\n【体验价值】从UX视角看，离线语音能力的强化解决了车载语音助手在信号盲区的痛点，让用户在任何环境下都能通过语音控制车辆功能，提升了安全性和便利性。模糊指令理解能力的提升降低了用户的学习成本，使交互更接近自然对话，减少了操作步骤。高通8295P芯片的算力保障了流畅的响应体验。\n\n【潜在槽点】离线语音能力可能仅限于预设指令集，复杂或个性化需求仍需联网。140项升级可能包含大量用户不感知的底层优化，但若UI或功能布局变化过大，用户需花时间探索新功能，可能产生信息过载。此外，大模型语音的隐私处理需明确，避免用户对话数据被滥用。",
-          "summary_en": "【Event Overview】According to a report from Sohu Auto on June 30, 2026, the iCAR V27 received its first OTA upgrade, involving over 140 updates. In terms of the smart cockpit, the vehicle is equipped with a Qualcomm Snapdragon 8295P cockpit chip and an AI voice large model. After the upgrade, the voice assistant's ability to understand vague commands has been comprehensively improved, allowing users to interact without memorizing specific wake words, as the system can more naturally understand user intent. Additionally, offline voice capabilities have been strengthened, ensuring smooth human-vehicle communication in weak or no-network environments such as remote mountainous areas or underground garages. This upgrade significantly enhances the practicality and coverage of voice interaction, enabling the AI assistant to execute basic commands even without a network.\n\n【Experience Value】From a UX perspective, the strengthening of offline voice capabilities solves the pain point of voice assistants in signal dead zones, allowing users to control vehicle functions via voice in any environment, improving safety and convenience. The improved ability to understand vague commands reduces the user's learning cost, making interaction closer to natural conversation and reducing operation steps. The computing power of the Qualcomm 8295P chip ensures a smooth response experience.\n\n【Potential Friction】Offline voice capabilities may be limited to preset command sets, and complex or personalized needs may still require a network connection. The 140 upgrades may include many underlying optimizations that users do not perceive, but if the UI or functional layout changes significantly, users may need to spend time exploring new features, potentially causing information overload. Additionally, the privacy handling of large model voice data needs to be clarified to avoid misuse of user conversation data."
-        },
-        {
-          "title": "五菱缤果S的智能座舱搭载的AI语音助手实际体验如何？",
-          "url": "https://k.sina.cn/article_7880068201_1d5b04c69068023jj6.html?subch=oauto",
-          "site_name": "新浪新闻",
-          "publish_date": "2026-06-25",
-          "tags": [
-            "五菱",
-            "缤果S",
-            "AI语音",
-            "DeepSeek",
-            "场景模式",
-            "导航联动"
-          ],
-          "summary": "【事件概述】据新浪新闻2026年6月25日报道，五菱缤果S的智能座舱搭载了融合DeepSeek大模型的AI语音助手。该助手具备深度思考能力，能够回答“周边有什么好吃的/好玩的”这类开放式问题，并直接联动导航进行路线规划。此外，系统支持七大场景模式，包括宠物友好模式（短时离车保持空气恒温流通）、小憩模式等，能够主动适配出行场景。这一设计将大模型的推理能力与车辆控制、导航服务深度整合，实现了从被动响应到主动服务的转变。用户无需手动操作，只需语音即可完成从信息查询到行动执行的闭环。\n\n【体验价值】从UX视角看，DeepSeek大模型的引入使语音助手从“指令执行者”升级为“智能助理”。用户可以用自然语言提出模糊需求，系统自动理解并执行，减少了操作步骤。场景模式如宠物友好模式，体现了对用户细分需求的洞察，提升了用车便利性和情感价值。导航联动功能让信息查询直接转化为行动，提高了效率。\n\n【潜在槽点】大模型回答的准确性和安全性需严格把控，避免推荐错误信息或危险路线。场景模式可能过于预设，无法覆盖所有个性化需求。此外，语音交互在嘈杂环境下可能识别率下降，影响体验。用户对AI的过度依赖也可能导致对基础操作的生疏。",
-          "summary_en": "【Event Overview】According to a report from Sina News on June 25, 2026, the smart cockpit of the Wuling Bingo S is equipped with an AI voice assistant integrated with the DeepSeek large model. The assistant has deep thinking capabilities, able to answer open-ended questions like 'What good food or fun places are nearby?' and directly link to navigation for route planning. Additionally, the system supports seven scene modes, including a pet-friendly mode (maintaining air circulation and constant temperature when briefly leaving the car) and a nap mode, actively adapting to travel scenarios. This design deeply integrates the reasoning power of the large model with vehicle control and navigation services, achieving a shift from passive response to proactive service. Users can complete the loop from information query to action execution through voice without manual operation.\n\n【Experience Value】From a UX perspective, the introduction of the DeepSeek large model upgrades the voice assistant from a 'command executor' to an 'intelligent assistant.' Users can express vague needs in natural language, and the system automatically understands and executes, reducing operation steps. Scene modes like the pet-friendly mode demonstrate insight into users' niche needs, enhancing convenience and emotional value. The navigation linkage function allows information queries to be directly converted into actions, improving efficiency.\n\n【Potential Friction】The accuracy and safety of the large model's responses need strict control to avoid recommending incorrect information or dangerous routes. Scene modes may be too preset to cover all personalized needs. Additionally, voice interaction may suffer from reduced recognition rates in noisy environments, affecting the experience. Over-reliance on AI may also lead to unfamiliarity with basic operations."
-        },
-        {
-          "title": "2026年带AI智能座舱的SUV怎么选？从“功能堆砌”到“主动懂你”的进化之路",
-          "url": "https://www.sohu.com/a/1043719852_122810224",
-          "site_name": "搜狐汽车",
-          "publish_date": "2026-06-30",
-          "tags": [
-            "AI Agent",
-            "主动服务",
-            "语音交互",
-            "场景感知",
-            "大模型"
-          ],
-          "summary": "【事件概述】据搜狐汽车2026年6月30日报道，2026年上半年，AI Agent加速进入量产应用阶段，成为智能座舱领域最引人注目的技术趋势。与传统的语音助手相比，新一代车载AI Agent正在推动人车交互从“语音控制”和“指令响应”，向“理解需求、辅助决策和主动服务”的方向拓展。文章指出，AI Agent能够通过多模态感知（如摄像头、麦克风、传感器）理解用户状态和场景，主动提供建议，例如根据用户日程自动规划路线、根据车内温度调节空调、根据驾驶疲劳程度建议休息等。这一趋势标志着智能座舱从被动工具向主动伙伴的进化。\n\n【体验价值】从UX视角看，AI Agent的主动服务能力显著降低了用户的操作负担。系统不再等待用户指令，而是预判需求并提前行动，使交互更加自然和高效。例如，自动规划路线可节省用户时间，疲劳提醒可提升安全性。这种“无感”交互让用户更专注于驾驶本身，提升了整体体验的流畅度和智能化水平。\n\n【潜在槽点】主动服务可能被用户视为“打扰”，若预测不准确，反而增加困扰。隐私风险显著增加，因为AI Agent需要持续感知用户状态和车内环境。此外，用户可能对AI的决策缺乏信任，需要时间适应。技术实现上，多模态感知的准确性和实时性仍是挑战，误判可能导致不良后果。",
-          "summary_en": "【Event Overview】According to a report from Sohu Auto on June 30, 2026, in the first half of 2026, AI Agents have accelerated into mass production and application, becoming the most notable technological trend in the smart cockpit field. Compared with traditional voice assistants, the new generation of in-vehicle AI Agents is driving human-vehicle interaction from 'voice control' and 'command response' towards 'understanding needs, assisting decision-making, and proactive service.' The article points out that AI Agents can understand user status and scenarios through multimodal perception (such as cameras, microphones, sensors) and proactively provide suggestions, such as automatically planning routes based on user schedules, adjusting air conditioning based on in-cabin temperature, and suggesting rest based on driving fatigue levels. This trend marks the evolution of the smart cockpit from a passive tool to an active partner.\n\n【Experience Value】From a UX perspective, the proactive service capability of AI Agents significantly reduces the user's operational burden. The system no longer waits for user commands but anticipates needs and acts in advance, making interaction more natural and efficient. For example, automatic route planning can save user time, and fatigue reminders can enhance safety. This 'unobtrusive' interaction allows users to focus more on driving, improving the overall smoothness and intelligence of the experience.\n\n【Potential Friction】Proactive services may be perceived as 'intrusive' by users, and if predictions are inaccurate, they may cause annoyance instead. Privacy risks increase significantly, as AI Agents need to continuously sense user status and the in-cabin environment. Additionally, users may lack trust in AI decisions and need time to adapt. Technically, the accuracy and real-time performance of multimodal perception remain challenges, and misjudgments could lead to adverse consequences."
-        }
-      ],
-      "created_at": "2026-07-01 14:43:01"
     }
   ]
 }
