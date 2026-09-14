@@ -1,6 +1,79 @@
 {
   "records": [
     {
+      "date": "2026-09-14",
+      "date_display": "09月14日",
+      "weekday": "周一",
+      "news_count": 4,
+      "news": [
+        {
+          "title": "理想汽车携手支付宝：语音操控轻松搞定加油购票 智舱生态再升级",
+          "url": "https://www.itbear.com.cn/html/2026-09/1557315.html",
+          "site_name": "Itbear",
+          "publish_date": "2026-09-13",
+          "tags": [
+            "理想",
+            "支付宝",
+            "车载小程序",
+            "语音交互",
+            "支付闭环",
+            "场景服务"
+          ],
+          "summary": "【事件概述】理想汽车与支付宝深化合作，支付宝车载助手App正式入驻理想应用中心，深度整合支付宝小程序生态。用户可通过车载屏幕完成点餐、查询快递、加油支付、购票等日常操作，并保留完整的支付功能闭环。双方合作可追溯至2025年7月，此次升级的核心创新在于将语音交互与支付场景打通——用户通过\"理想同学\"语音指令即可完成从服务选择到支付确认的全流程，无需手动触屏操作。这一模式将手机端成熟的超级App生态以轻量化方式迁移至座舱，使车机从\"导航+娱乐\"工具向\"移动生活服务终端\"演进。\n\n【体验价值】语音驱动的支付闭环减少了驾驶中触屏操作的分心风险，加油、点餐等高频场景实现\"动口不动手\"。支付宝小程序生态的引入丰富了车机应用供给，避免了车机应用商店\"应用荒\"的尴尬。\n\n【潜在槽点】车内支付涉及资金安全，语音确认的误触发风险与支付凭证的隐私保护需严格验证。小程序在车机端的适配质量参差不齐，部分页面可能仍为手机版简单拉伸，交互体验打折。",
+          "summary_en": "【Event Overview】Li Auto has deepened its partnership with Alipay, officially integrating the Alipay车载助手 App into Li Auto's app center with deep integration of Alipay's mini-program ecosystem. Users can order food, check deliveries, pay for fuel, and buy tickets through the car screen with a complete payment loop. The core innovation is connecting voice interaction with payment scenarios—users can complete the entire flow from service selection to payment confirmation via \"Li Xiang Tong Xue\" voice commands without touching the screen. This migrates mature super-app ecosystems from mobile to the cockpit in a lightweight manner.\n\n【Experience Value】Voice-driven payment loops reduce distraction from touchscreen operation while driving, enabling hands-free fueling and food ordering. Alipay's mini-program ecosystem enriches in-car app supply, avoiding the \"app drought\" problem in car app stores.\n\n【Potential Friction】In-car payments involve financial security; accidental voice trigger risks and payment credential privacy need rigorous validation. Mini-program adaptation quality on head units varies, and some pages may still be stretched mobile versions with degraded interaction."
+        },
+        {
+          "title": "全新深蓝G318搭载鸿蒙座舱HarmonySpace 5",
+          "url": "https://news.qq.com/rain/a/20260913A094PD00",
+          "site_name": "腾讯新闻",
+          "publish_date": "2026-09-13",
+          "tags": [
+            "深蓝",
+            "鸿蒙座舱",
+            "MoLA大模型",
+            "无缝流转",
+            "导航Agent",
+            "模糊指令"
+          ],
+          "summary": "【事件概述】全新深蓝G318正式搭载华为鸿蒙座舱HarmonySpace 5，核心软件能力包括：支持手机与车机\"一碰即传\"的无缝流转，用户手机上的导航、音乐、通话等任务可瞬时迁移至车机；座舱配备MoLA大模型架构，能够理解模糊指令，例如用户说\"我有点冷\"即可自动调高空调温度并关闭对应出风口；导航Agent具备主动服务能力，可根据用户习惯和实时路况主动推荐路线调整。HarmonySpace 5延续了鸿蒙分布式架构的底层优势，通过原子化服务实现跨设备能力共享，实测跨设备延迟低于50ms。\n\n【体验价值】MoLA大模型对模糊指令的理解能力降低了语音交互的门槛，用户无需记忆固定指令格式，更接近自然对话。导航Agent的主动服务将交互范式从\"用户请求\"推向\"系统预判\"，减少了驾驶中的操作步骤。\n\n【潜在槽点】大模型理解模糊指令的准确率在嘈杂车内环境中可能下降，误操作后的纠正成本较高。主动服务若推送频率不当，可能从\"贴心\"变为\"打扰\"，用户对系统主动性的接受阈值需要精细调校。",
+          "summary_en": "【Event Overview】The new Deepal G318 officially features Huawei's HarmonySpace 5 cockpit. Core software capabilities include: \"tap-to-transfer\" seamless handoff between phone and head unit for navigation, music, and calls; MoLA large model architecture that understands fuzzy instructions—saying \"I'm a bit cold\" automatically adjusts AC temperature and closes vents; and a navigation Agent with proactive service capabilities that recommends route adjustments based on user habits and real-time traffic. HarmonySpace 5 continues HarmonyOS's distributed architecture advantages with atomic services enabling cross-device capability sharing, with measured latency under 50ms.\n\n【Experience Value】MoLA's fuzzy instruction understanding lowers the voice interaction barrier, enabling natural conversation without memorizing fixed command formats. The navigation Agent's proactive service shifts the interaction paradigm from \"user request\" to \"system anticipation,\" reducing driving-time operation steps.\n\n【Potential Friction】Large model accuracy in noisy cabin environments may degrade, and correction costs after misinterpretation are high. If proactive service push frequency is inappropriate, it may shift from \"helpful\" to \"annoying,\" requiring fine-tuned acceptance thresholds."
+        },
+        {
+          "title": "理想ONE任务大师分享码合集：一键解锁30+隐藏功能，奶爸神车还能这么...",
+          "url": "https://k.sina.cn/article_7880068362_1d5b04d0a06801j866.html",
+          "site_name": "K",
+          "publish_date": "2026-09-10",
+          "tags": [
+            "理想",
+            "任务大师",
+            "OTA",
+            "场景引擎",
+            "用户共创",
+            "分享码"
+          ],
+          "summary": "【事件概述】理想汽车任务大师功能在OTA 6.0/6.2版本下已积累35+触发条件与65+执行动作，形成覆盖安全、舒适、便捷、趣味四类的场景自动化体系。用户可通过分享码一键导入他人配置的自动化任务，例如\"低速转向自动开启全景影像\"\"防忘带手机提醒\"\"午休舒适模式\"等30+隐藏功能。理想后期通过OTA解除了50个任务的数量限制，并新增\"理想同学语音指令\"作为执行动作，使任务大师从简单的\"如果-那么\"规则引擎进化为可编排的座舱场景引擎。此外，桌面大师功能允许车主创建堵车小游戏，进一步拓展了车机娱乐属性。\n\n【体验价值】任务大师将座舱功能编排权交给用户，分享码机制降低了自动化配置的学习门槛，形成\"用户共创-社区传播-一键复用\"的正向循环。场景引擎的主动服务能力让车机从被动响应工具转变为个性化出行助手。\n\n【潜在槽点】分享码来源缺乏官方审核，恶意或错误配置可能导致安全隐患（如误关安全提示）。任务数量上限解除后，大量自动化任务并行可能引发执行冲突或系统资源占用，用户难以排查问题根源。",
+          "summary_en": "【Event Overview】Li Auto's Task Master feature under OTA 6.0/6.2 has accumulated 35+ trigger conditions and 65+ execution actions, forming a scenario automation system covering safety, comfort, convenience, and entertainment. Users can import others' automation configurations via share codes, unlocking 30+ hidden functions like \"auto panoramic view on low-speed turns,\" \"phone reminder,\" and \"nap comfort mode.\" Li Auto later removed the 50-task limit via OTA and added \"Li Xiang Tong Xue voice command\" as an execution action, evolving Task Master from a simple if-then rule engine into an orchestration-capable cockpit scenario engine. Desktop Master also allows users to create traffic jam mini-games.\n\n【Experience Value】Task Master gives users orchestration control over cockpit functions, and the share code mechanism lowers the learning barrier for automation configuration, forming a positive cycle of \"user co-creation—community spread—one-tap reuse.\" The scenario engine transforms the head unit from a passive tool into a personalized travel assistant.\n\n【Potential Friction】Share codes lack official review; malicious or erroneous configurations may cause safety hazards (e.g., accidentally disabling safety alerts). After removing the task limit, numerous parallel automations may cause execution conflicts or resource consumption, making root-cause troubleshooting difficult."
+        },
+        {
+          "title": "荣威D7 DMH车机升级终于来了！强制保电+手车互联实测，值不值得升？",
+          "url": "https://k.sina.cn/article_7880069024_1d5b04fa006803g2sg.html",
+          "site_name": "K",
+          "publish_date": "2026-09-09",
+          "tags": [
+            "荣威",
+            "手车互联",
+            "OTA",
+            "CarLink",
+            "HiCar",
+            "投诉驱动"
+          ],
+          "summary": "【事件概述】荣威D7 DMH推送车机OTA升级，核心内容包括强制保电功能优化与手车互联功能开放。车机互联是该车型车主投诉最集中的痛点——据车质网记录，2026年初多位车主反映\"硬件支持HiCar、CarLife，但上市至今从未开放\"，而同平台名爵MG7早已推送。此次升级中，CarLink和HiCar已完成内部开发并进入工信部备案阶段，预计2026年9月中下旬开始分批推送。这一事件折射出传统车企在软件服务上的历史欠账：硬件预埋但软件迟迟不兑现，导致用户信任持续消耗，最终在投诉压力下才推动功能落地。\n\n【体验价值】手车互联功能的开放终于让用户用上了购车时承诺的能力，HiCar与CarLink的接入丰富了导航、音乐等应用选择，手机生态的熟悉体验降低了学习成本。强制保电优化则回应了插混用户对电量管理的核心诉求。\n\n【潜在槽点】功能从\"硬件支持\"到\"实际可用\"间隔过长，用户对OTA承诺的信任已受损。分批推送策略可能导致部分车主等待时间过长，且互联功能在低配车型上的实际可用性仍需验证。",
+          "summary_en": "【Event Overview】Roewe D7 DMH has pushed a head unit OTA update featuring forced battery retention optimization and phone-car connectivity. Connectivity was the most complained-about pain point for this model—according to CheZhiWang records, multiple owners reported in early 2026 that \"hardware supports HiCar and CarLife, but it has never been enabled since launch,\" while the same-platform MG7 had already received the push. In this update, CarLink and HiCar have completed internal development and entered MIIT filing, with batch rollout expected in mid-to-late September 2026. This reflects traditional automakers' historical software debt: hardware pre-installed but software long undelivered, eroding user trust until complaint pressure forces action.\n\n【Experience Value】The long-awaited connectivity finally delivers promised capabilities, with HiCar and CarLink enriching navigation and music options. The familiar phone ecosystem experience lowers learning costs. Forced battery retention optimization addresses PHEV users' core concern about battery management.\n\n【Potential Friction】The gap between \"hardware support\" and \"actually usable\" has been too long, damaging trust in OTA promises. Batch rollout may leave some owners waiting extended periods, and actual usability on lower-trim models still needs verification."
+        }
+      ],
+      "created_at": "2026-09-14 15:50:19"
+    },
+    {
       "date": "2026-09-13",
       "date_display": "09月13日",
       "weekday": "周日",
@@ -3214,57 +3287,6 @@
         }
       ],
       "created_at": "2026-07-03 14:01:54"
-    },
-    {
-      "date": "2026-07-02",
-      "date_display": "07月02日",
-      "weekday": "周四",
-      "news_count": 3,
-      "news": [
-        {
-          "title": "你们把座舱游戏想简单了 - 42 号车库",
-          "url": "https://www.42how.com/article/5818",
-          "site_name": "42How",
-          "publish_date": "2026-07-02",
-          "tags": [
-            "座舱游戏",
-            "Steam",
-            "云游戏",
-            "生态"
-          ],
-          "summary": "【事件概述】文章深入探讨了智能座舱游戏生态的现状与未来。核心创新点包括：Steam商城数字版游戏可在车机端浏览、购买和下载，已拥有游戏可同步至车机，并支持与PC端游戏进度同步。此外，座舱游戏不再局限于简单休闲游戏，而是向3A大作扩展，利用车机高性能芯片和云游戏技术实现流畅运行。文章还提到，游戏生态与座舱硬件（如方向盘、座椅震动）深度联动，提供沉浸式体验。\n\n【体验价值】用户可在停车充电或休息时，直接在车内畅玩PC级游戏，无需额外设备。游戏进度跨设备同步，无缝衔接家庭与车载场景。座舱硬件联动（如方向盘模拟转向）增强游戏沉浸感，将车内时间转化为娱乐时光。\n\n【潜在槽点】3A游戏对车机算力和散热要求极高，可能导致芯片过热降频，影响游戏流畅度。游戏操作与驾驶安全存在冲突，需严格限制行驶中游戏功能，但用户可能通过破解绕过限制，带来安全隐患。",
-          "summary_en": "【Event Overview】The article deeply explores the current state and future of the smart cockpit gaming ecosystem. Core innovations include: Steam digital games can be browsed, purchased, and downloaded on the car system; owned games can be synced to the car, supporting progress synchronization with PC. Additionally, cockpit gaming is no longer limited to simple casual games but extends to AAA titles, leveraging high-performance car chips and cloud gaming technology for smooth operation. The article also mentions deep integration of the gaming ecosystem with cockpit hardware (e.g., steering wheel, seat vibration) for immersive experiences.\n\n【Experience Value】Users can enjoy PC-level games directly in the car during parking or charging, without additional devices. Game progress syncs across devices, seamlessly connecting home and in-car scenarios. Cockpit hardware integration (e.g., steering wheel simulating turns) enhances immersion, turning in-car time into entertainment time.\n\n【Potential Friction】AAA games impose high demands on car chip computing power and heat dissipation, potentially causing chip overheating and throttling, affecting game smoothness. Game operation conflicts with driving safety; strict restrictions on gaming while driving are needed, but users may bypass them through hacking, posing safety risks."
-        },
-        {
-          "title": "2026智能座舱AI Agent量产会改变什么？",
-          "url": "https://k.sina.cn/article_7879923871_1d5ae189f068019nks.html",
-          "site_name": "新浪新闻",
-          "publish_date": "2026-07-02",
-          "tags": [
-            "AI Agent",
-            "多模态交互",
-            "无感交互",
-            "大模型"
-          ],
-          "summary": "【事件概述】文章指出，2026年智能座舱AI Agent进入量产阶段，核心变化在于交互方式从“指令式”向“无感式”质变。传统语音助手需用户明确下达分步指令，而AI Agent通过多模态大模型融合语音、手势、表情、环境感知，实现意图预判和主动服务。例如，系统可通过摄像头识别用户疲劳状态，自动调节空调温度、播放提神音乐，并建议休息。此外，AI Agent支持多轮对话和上下文记忆，能理解复杂指令如“导航到上次那家餐厅，并提醒我路过加油站”。\n\n【体验价值】用户无需学习特定指令，交互更自然直觉。主动服务减少驾驶分心，提升安全性。上下文记忆让连续任务更高效，例如一次对话完成导航、音乐、空调等多重设置，节省操作时间。\n\n【潜在槽点】多模态感知依赖摄像头和传感器，可能引发隐私担忧，用户对车内持续监控的接受度存疑。AI Agent的主动决策若与用户预期不符（如误判疲劳状态），可能造成困扰。系统复杂度增加，可能导致响应延迟或误触发，影响体验流畅性。",
-          "summary_en": "【Event Overview】The article points out that in 2026, smart cockpit AI Agents enter mass production, with the core change being a qualitative shift from 'command-based' to 'unconscious' interaction. Traditional voice assistants require users to give step-by-step commands, while AI Agents use multimodal large models integrating voice, gesture, expression, and environmental perception to achieve intent prediction and proactive service. For example, the system can recognize user fatigue via camera, automatically adjust air conditioning temperature, play refreshing music, and suggest rest. Additionally, AI Agents support multi-turn dialogue and contextual memory, understanding complex commands like 'Navigate to that restaurant we visited last time and remind me to pass a gas station.'\n\n【Experience Value】Users don't need to learn specific commands; interaction is more natural and intuitive. Proactive services reduce driving distraction and improve safety. Contextual memory makes continuous tasks more efficient, such as completing navigation, music, and air conditioning settings in one conversation, saving operation time.\n\n【Potential Friction】Multimodal perception relies on cameras and sensors, raising privacy concerns; user acceptance of continuous in-car monitoring is questionable. If the AI Agent's proactive decisions don't match user expectations (e.g., misjudging fatigue), it may cause annoyance. Increased system complexity may lead to response delays or false triggers, affecting experience smoothness."
-        },
-        {
-          "title": "上汽通用：AI原生架构驱动的下一代智能座舱设计与量产实践",
-          "url": "http://auto.cnfol.com/cheshidongtai/20260701/32296116.shtml",
-          "site_name": "中金在线",
-          "publish_date": "2026-07-01",
-          "tags": [
-            "上汽通用",
-            "AI原生架构",
-            "情感交互",
-            "自我进化"
-          ],
-          "summary": "【事件概述】上汽通用发布AI原生架构驱动的下一代智能座舱，核心创新在于从集成大模型、部署多Agent的工具阶段，迈向具备情感连接、自我进化能力，并最终提供主动服务的“类人”智能体。该架构采用端侧大模型与云端协同，实现低延迟响应和离线可用。关键功能包括：情感识别（通过语音语调、面部表情判断用户情绪并调整交互风格）、主动服务（如根据日程自动规划路线并提前调节座舱环境）、以及自我进化（通过用户行为数据持续优化模型，无需OTA即可本地学习）。\n\n【体验价值】情感交互让座舱更具“人情味”，提升用户粘性。主动服务减少手动操作，使驾驶更专注。自我进化能力让车辆越用越懂用户，个性化体验随时间增长而深化，无需等待官方OTA推送。\n\n【潜在槽点】情感识别可能因文化差异或个体差异产生误判，导致尴尬或不适。自我进化依赖用户数据，若数据量不足或质量差，进化效果有限。端侧模型受限于算力，复杂任务仍需云端，网络不佳时体验下降。",
-          "summary_en": "【Event Overview】SAIC-GM released the next-generation smart cockpit driven by an AI-native architecture, with the core innovation moving from integrating large models and deploying multi-Agent tools to an 'human-like' intelligent agent with emotional connection, self-evolution capabilities, and ultimately proactive service. The architecture uses on-device large models with cloud collaboration for low-latency response and offline availability. Key features include: emotion recognition (judging user mood via voice tone and facial expression to adjust interaction style), proactive service (e.g., automatically planning routes based on schedule and pre-adjusting cockpit environment), and self-evolution (continuously optimizing models through user behavior data without OTA).\n\n【Experience Value】Emotional interaction makes the cockpit more 'human', enhancing user stickiness. Proactive services reduce manual operations, making driving more focused. Self-evolution allows the vehicle to better understand the user over time, deepening personalization without waiting for official OTA pushes.\n\n【Potential Friction】Emotion recognition may misjudge due to cultural or individual differences, causing awkwardness or discomfort. Self-evolution relies on user data; insufficient or poor-quality data may limit effectiveness. On-device models are constrained by computing power; complex tasks still require cloud, leading to degraded experience when network is poor."
-        }
-      ],
-      "created_at": "2026-07-02 14:08:00"
     }
   ]
 }
