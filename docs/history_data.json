@@ -1,6 +1,95 @@
 {
   "records": [
     {
+      "date": "2026-09-20",
+      "date_display": "09月20日",
+      "weekday": "周日",
+      "news_count": 5,
+      "news": [
+        {
+          "title": "零跑A10车型OTA升级：新增360后视镜调节入口、记忆泊车，优化城市领航辅助等",
+          "url": "https://www.ithome.com/1/004/446.htm",
+          "site_name": "IT之家",
+          "publish_date": "2026-09-19",
+          "tags": [
+            "零跑",
+            "LeapOS",
+            "OTA",
+            "云游戏",
+            "记忆泊车",
+            "声纹识别"
+          ],
+          "summary": "【事件概述】零跑A10于9月19日启动新一轮OTA推送，新增6项功能并优化8项体验。功能层面包括360后视镜调节入口、记忆泊车、声纹守护、腾讯云游戏及芒果TV等娱乐应用接入；体验优化覆盖城市领航辅助、辅助驾驶语音播报等高频场景。此次升级以用户日常用车痛点为锚点，不追求功能堆砌，而是通过精细化增补提升智能化实用性，多版本车型均有适配。\n\n【体验价值】将后视镜调节等物理操作数字化入口化，降低盲操难度；记忆泊车解决固定车位重复操作痛点；云游戏与视频应用拓展了充电等待与驻车场景的娱乐价值，声纹守护则强化了账户安全与个性化体验。\n\n【潜在槽点】云游戏对网络稳定性依赖极高，地下车库等弱网场景体验可能大打折扣；声纹识别在嘈杂环境下的准确率存疑；功能入口增多可能导致设置层级变深，新用户学习成本上升。",
+          "summary_en": "【Event Overview】On September 19, Leapmotor A10 began rolling out a new OTA update featuring 6 new functions and 8 experience optimizations. New features include a 360 mirror adjustment entry, memory parking, voiceprint protection, Tencent cloud gaming, and Mango TV integration. Optimizations cover urban navigation assist and ADAS voice broadcast. The update targets daily pain points rather than feature stacking, with multi-version compatibility.\n\n【Experience Value】Digitizing physical mirror controls reduces blind-operation difficulty; memory parking eliminates repetitive maneuvers at fixed spots; cloud gaming and video apps extend entertainment value during charging and parking; voiceprint protection enhances account security and personalization.\n\n【Potential Friction】Cloud gaming heavily depends on network stability, likely degrading in underground garages; voiceprint accuracy in noisy environments remains questionable; more entries may deepen settings hierarchy, raising learning costs for new users."
+        },
+        {
+          "title": "小米手环11首发澎湃OS 4 支持腕上控车与最长21天续航",
+          "url": "https://www.sohu.com/a/1075883043_115831",
+          "site_name": "搜狐",
+          "publish_date": "2026-09-14",
+          "tags": [
+            "小米",
+            "澎湃OS",
+            "腕上控车",
+            "跨设备互联",
+            "导航提醒",
+            "可穿戴"
+          ],
+          "summary": "【事件概述】小米手环11首发搭载澎湃OS 4，在系统动画与应用布局上进一步优化，支持双列应用排列，操作流畅度显著提升。核心创新在于智能互联能力：手环可与小米汽车实现深度联动，支持腕上控车及导航提醒功能。这意味着用户无需掏出手机或触碰车机屏幕，即可通过手腕完成车辆控制与导航信息获取，是小米\"人车家全生态\"战略在可穿戴设备端的关键落地。\n\n【体验价值】腕上控车将车控交互从手机/车机延伸至可穿戴设备，缩短操作路径；导航提醒以震动+简短信息呈现，减少驾驶中视线转移，提升安全性；双列布局提升小屏信息密度与操作效率。\n\n【潜在槽点】手环屏幕尺寸限制导致控车功能必然简化，复杂操作仍需回到手机或车机；蓝牙/WiFi连接稳定性直接影响控车可靠性，断连场景下可能产生安全隐患；导航提醒的信息量有限，路口复杂时可能不够直观。",
+          "summary_en": "【Event Overview】Xiaomi Band 11 debuts with HyperOS 4, featuring optimized animations and dual-column app layout for smoother operation. The key innovation is deep integration with Xiaomi vehicles, enabling wrist-based car control and navigation alerts. Users can control their vehicle and receive navigation info without reaching for phone or car screen—a critical implementation of Xiaomi's 'human-car-home' ecosystem strategy on wearables.\n\n【Experience Value】Wrist-based car control shortens interaction paths by extending control from phone/car screen to wearables; navigation alerts via vibration and brief text reduce gaze diversion while driving; dual-column layout improves information density on small screens.\n\n【Potential Friction】Small screen size inevitably simplifies car control functions, requiring fallback to phone or car screen for complex operations; Bluetooth/WiFi stability directly impacts control reliability, posing safety risks during disconnection; navigation alerts carry limited information, potentially insufficient at complex intersections."
+        },
+        {
+          "title": "12.99万起！天籁鸿蒙座舱沉浸式体验：燃油车终于告别\"智障\"了？",
+          "url": "https://k.sina.cn/article_7879848955_1d5acf3fb06803b648.html",
+          "site_name": "新浪",
+          "publish_date": "2026-09-18",
+          "tags": [
+            "日产",
+            "鸿蒙座舱",
+            "燃油车",
+            "MoLA大模型",
+            "语音助手",
+            "生态接入"
+          ],
+          "summary": "【事件概述】东风日产天籁以12.99万起的价格，成为全球首款全系标配鸿蒙座舱的燃油车。其搭载的MoLA大模型AI语音助手支持多音区精准定位、语音+视觉多维感知，并接入华为满血鸿蒙生态。这标志着鸿蒙座舱首次大规模进入合资燃油车阵营，打破了\"燃油车不智能\"的固有认知。上市首月订单破万，90后占比过半，验证了市场对燃油车智能化升级的强烈需求。\n\n【体验价值】鸿蒙生态为燃油车用户带来与新能源车一致的App生态、语音交互和应用流转体验；MoLA大模型使语音助手从指令执行升级为场景理解，多音区定位让后排乘客也能独立唤醒，提升全舱交互公平性。\n\n【潜在槽点】燃油车电子电气架构与鸿蒙系统的深度适配可能存在响应延迟；华为生态对非华为手机用户的吸引力有限；大模型语音在离线或弱网环境下的降级体验尚未明确，用户预期管理是关键。",
+          "summary_en": "【Event Overview】Dongfeng Nissan Teana, starting at 129,900 RMB, becomes the world's first fuel vehicle with full-line HarmonyOS cockpit. Its MoLA large-model AI voice assistant supports multi-zone positioning, voice+vision perception, and full Huawei ecosystem access. This marks HarmonyOS cockpit's first large-scale entry into joint-venture fuel vehicles, breaking the 'fuel cars aren't smart' stereotype. First-month orders exceeded 10,000 with over 50% Gen-Z buyers.\n\n【Experience Value】HarmonyOS ecosystem brings fuel car users app ecosystem, voice interaction, and app continuity comparable to NEVs; MoLA upgrades voice assistant from command execution to scene understanding; multi-zone positioning enables rear passengers independent wake-up, improving cabin-wide interaction fairness.\n\n【Potential Friction】Deep adaptation between fuel vehicle E/E architecture and HarmonyOS may cause response latency; Huawei ecosystem has limited appeal to non-Huawei phone users; degraded experience of large-model voice in offline/weak-network scenarios is unclear, making expectation management critical."
+        },
+        {
+          "title": "腾势D9多屏联动到底有多强？10屏+手车互联全解析",
+          "url": "https://weibo.com/2/detail/comos:nisczpt3903450",
+          "site_name": "微博",
+          "publish_date": "2026-09-18",
+          "tags": [
+            "腾势",
+            "DiLink",
+            "多屏联动",
+            "手车互联",
+            "投屏",
+            "反向控制"
+          ],
+          "summary": "【事件概述】腾势D9展示了10屏联动与手车互联的完整能力。手车互联覆盖国内市场90%以上安卓用户，实测中华为Pura 70系列投屏延迟低于80ms，微信消息可通过车机语音回复；小米14 Ultra支持手机导航自动同步至车机；OPPO Find X7系列甚至可反向控制车机应用，如在中控屏直接打开手机里的音乐App。这套方案的核心突破在于跨品牌兼容性与双向控制能力，打破了单一生态壁垒。\n\n【体验价值】低延迟投屏使手机应用在车机上近乎原生运行；导航自动流转消除重复输入；反向控制让车机成为手机的外延屏幕，减少驾驶中切换设备的频率，提升操作连贯性与安全性。\n\n【潜在槽点】跨品牌适配的稳定性参差不齐，非头部机型体验可能明显下降；反向控制涉及手机隐私数据在车机端的暴露风险；10屏信息架构复杂，如何避免信息过载和注意力分散是交互设计的核心挑战。",
+          "summary_en": "【Event Overview】Denza D9 demonstrates 10-screen linkage with phone-car connectivity covering 90%+ of Android users in China. Huawei Pura 70 achieves sub-80ms casting latency with voice-reply WeChat; Xiaomi 14 Ultra auto-syncs navigation; OPPO Find X7 can reverse-control car apps from the center screen. The breakthrough lies in cross-brand compatibility and bidirectional control, breaking single-ecosystem barriers.\n\n【Experience Value】Low-latency casting makes phone apps run near-natively on car screens; auto navigation handoff eliminates redundant input; reverse control extends car screen as phone's external display, reducing device switching while driving and improving safety.\n\n【Potential Friction】Cross-brand adaptation stability varies, with non-flagship devices likely degrading; reverse control raises privacy risks of phone data exposure on car screens; 10-screen information architecture risks overload and attention fragmentation."
+        },
+        {
+          "title": "2026年AI语音助手多模态交互革命：汽车座舱率先落地，一句话一个眼神",
+          "url": "https://k.sina.cn/article_7879849086_1d5acf47e06801ifre.html",
+          "site_name": "新浪",
+          "publish_date": "2026-09-19",
+          "tags": [
+            "多模态交互",
+            "AI语音",
+            "座舱",
+            "视觉感知",
+            "主动服务",
+            "大模型"
+          ],
+          "summary": "【事件概述】2026年AI语音助手正从\"听懂指令\"升级为\"看懂场景\"，汽车座舱成为多模态交互最前沿阵地。融合语音、视觉、触控和车辆状态数据，理解准确率大幅提升，还能主动预判需求、多任务并行。荣威嘉悦L7搭载豆包助手、科大讯飞新一代座舱AI等产品已实现语音+视觉+位置多维感知、四音区精准定位、环境主动调节。行业正通过AI生成内容标识规范建立信任机制。\n\n【体验价值】多模态融合使交互从\"人找功能\"变为\"功能找人\"，降低操作门槛；主动预判减少驾驶中手动操作频次；四音区定位让每位乘客获得对等交互权，尤其提升后排体验；视觉感知可识别疲劳、分心状态并主动干预。\n\n【潜在槽点】视觉感知涉及舱内摄像头持续采集，隐私边界模糊；主动服务若判断失误可能造成打扰甚至惊吓；多模态并行处理对端侧算力要求极高，低配车型可能功能阉割；AI生成内容的可信度与责任归属仍无明确规范。",
+          "summary_en": "【Event Overview】In 2026, AI voice assistants are evolving from 'understanding commands' to 'reading scenarios,' with car cockpits at the forefront of multimodal interaction. Fusing voice, vision, touch, and vehicle state data, accuracy has surged, enabling proactive prediction and multitasking. Products like Roewe's Doubao assistant and iFlytek's next-gen cockpit AI have achieved voice+vision+location perception, four-zone positioning, and proactive environment adjustment. Industry is establishing trust via AI content labeling standards.\n\n【Experience Value】Multimodal fusion shifts interaction from 'finding functions' to 'functions finding you,' lowering barriers; proactive prediction reduces manual operations while driving; four-zone positioning grants equal interaction rights to all passengers; vision perception can detect fatigue and intervene proactively.\n\n【Potential Friction】Vision perception involves continuous in-cabin camera capture with blurred privacy boundaries; proactive service misjudgments may disturb or startle; multimodal parallel processing demands extreme edge computing, risking feature cuts on lower-trim models; AI content credibility and liability remain unregulated."
+        }
+      ],
+      "created_at": "2026-09-20 15:41:35"
+    },
+    {
       "date": "2026-09-19",
       "date_display": "09月19日",
       "weekday": "周六",
@@ -3374,29 +3463,6 @@
         }
       ],
       "created_at": "2026-07-06 14:45:44"
-    },
-    {
-      "date": "2026-07-05",
-      "date_display": "07月05日",
-      "weekday": "周日",
-      "news_count": 1,
-      "news": [
-        {
-          "title": "小米澎湃os 4最快下月登场：清除miui遗留代码 流畅度大提升",
-          "url": "https://www.163.com/dy/article/L11HSV3N0511CPVM.html",
-          "site_name": "网易",
-          "publish_date": "2026-07-04",
-          "tags": [
-            "小米",
-            "澎湃OS",
-            "系统重构",
-            "OTA"
-          ],
-          "summary": "【事件概述】据爆料，小米澎湃OS 4最快将于8月发布，其核心升级在于系统底层的彻底重构。开发团队全面清除了MIUI时代的冗余代码与旧版SDK，使澎湃OS 4成为首个真正意义上的“零遗留”系统。这一举措旨在解决长期困扰用户的系统臃肿、卡顿和资源占用过高问题。对于汽车领域，这意味着搭载澎湃OS的小米汽车有望获得更流畅、更稳定的座舱交互体验，并为后续更复杂的AI功能和多设备协同（人车家全生态）提供更纯净的底层基础。\n\n【体验价值】清除冗余代码将直接提升系统响应速度和动画流畅度，减少应用启动延迟和后台资源竞争。用户将感受到更“跟手”的触控反馈和更稳定的多任务处理能力，这是提升日常使用愉悦感的基础性改进。\n\n【潜在槽点】系统重构可能带来初期兼容性问题，部分旧版应用或功能可能出现闪退或适配延迟。此外，“零遗留”是否意味着彻底放弃对旧款小米手机/车机的支持，可能导致部分老用户无法升级，引发生态割裂。",
-          "summary_en": "【Event Overview】According to leaks, Xiaomi's HyperOS 4 is expected to launch as early as August, with the core upgrade being a complete bottom-layer system reconstruction. The development team has thoroughly removed redundant code and old SDKs from the MIUI era, making HyperOS 4 the first truly 'zero-legacy' system. This aims to solve long-standing issues of system bloat, lag, and high resource usage. For the automotive sector, this means Xiaomi cars equipped with HyperOS could gain a smoother and more stable cabin interaction experience, providing a cleaner foundation for future complex AI functions and multi-device collaboration within the 'Human x Car x Home' ecosystem. \n\n【Experience Value】Removing redundant code will directly improve system response speed and animation smoothness, reducing app launch delays and background resource contention. Users will experience more responsive touch feedback and more stable multitasking, a fundamental improvement for daily driving pleasure. \n\n【Potential Friction】System reconstruction may cause initial compatibility issues, with some older apps or features potentially crashing or experiencing adaptation delays. Furthermore, 'zero legacy' might imply dropping support for older Xiaomi phones/vehicles, potentially leaving some users unable to upgrade and causing ecosystem fragmentation."
-        }
-      ],
-      "created_at": "2026-07-05 14:13:44"
     }
   ]
 }
