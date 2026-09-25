@@ -1,6 +1,83 @@
 {
   "records": [
     {
+      "date": "2026-09-25",
+      "date_display": "09月25日",
+      "weekday": "周五",
+      "news_count": 4,
+      "news": [
+        {
+          "title": "鸿蒙智行问界国庆版本 OTA 升级内容公布：新增充电站分时电价显示等功能",
+          "url": "https://www.ithome.com/1/007/141.htm",
+          "site_name": "Ithome",
+          "publish_date": "2026-09-25",
+          "tags": [
+            "问界",
+            "HarmonyOS",
+            "OTA",
+            "充电服务",
+            "导航",
+            "ADS"
+          ],
+          "summary": "【事件概述】AITO 汽车公布问界国庆版本 OTA 升级内容，9 月 24 日晚起各车型陆续启动推送。本次升级覆盖华为乾崑智驾 ADS 5 与鸿蒙座舱两大模块：智驾侧新增中控屏转向灯激活影像支持大小设置，提升盲区可视化的可调性；导航侧新增按“沿途、周边、目的地”分类搜索的能力，并支持编辑已添加的途经点，让长途补能与行程规划更贴近真实驾驶节奏。最具生态意义的是新增充电站分时电价显示，把电价信息直接嵌入导航与充电决策链路，用户可在车机端判断何时充电更划算。整体看，这是一次以“用车成本可视化 + 导航决策增强”为主线的软件迭代，而非单纯功能堆砌。\n\n【体验价值】分时电价把隐性成本显性化，用户在规划补能时即可权衡时间与费用，减少到站后才发现价格偏高的挫败感；分类搜索与途经点编辑降低了多目的地行程的操作层级，导航从“指路”升级为“行程管家”。\n\n【潜在槽点】分时电价依赖第三方数据接入，若电价更新延迟或覆盖不全，反而制造错误预期；分类搜索入口若藏得过深，用户仍会退回手动输入，功能价值被稀释。",
+          "summary_en": "【Event Overview】AITO announced its National Day OTA for AITO vehicles, rolling out from the night of Sept 24. The update spans Huawei ADS 5 and the HarmonyOS cockpit: the ADAS side adds adjustable sizing for turn-signal-activated camera views, improving blind-spot visibility; navigation gains categorized search by 'en route, nearby, destination' plus editable waypoints, making long-trip energy planning more realistic. Most notably, charging stations now display time-of-use electricity pricing, embedding cost information directly into the navigation and charging decision flow so users can judge when charging is cheapest. Overall this is a software iteration centered on cost transparency and navigation decision support rather than feature stacking.\n\n【Experience Value】Time-of-use pricing makes hidden costs visible, letting users weigh time against money before arriving at a charger; categorized search and waypoint editing reduce interaction depth, upgrading navigation from wayfinding to trip management.\n\n【Potential Friction】Pricing depends on third-party data feeds; delays or incomplete coverage could create false expectations. If categorized search is buried too deep, users may revert to manual input and the feature's value erodes.",
+          "site": "Ithome"
+        },
+        {
+          "title": "从豆包上车，聊聊现在的座舱大模型到底能做些什么？",
+          "url": "https://www.eet-china.com/mp/a527500.html",
+          "site_name": "Eet-China",
+          "publish_date": "2026-09-25",
+          "tags": [
+            "荣威",
+            "豆包大模型",
+            "座舱助手",
+            "语音交互",
+            "意图理解",
+            "AI Agent"
+          ],
+          "summary": "【事件概述】2026 年 9 月 17 日，豆包座舱助手正式发布，首款搭载车型荣威家越 07 同步开启预售。与过去给车机叠加一个更强语音模型的做法不同，这次座舱大模型被置于“用户需求”与“车辆能力”之间，扮演调度中枢：它不再只是听懂一句话，而是理解用户意图后，跨域调用导航、空调、娱乐、车控等服务，把多步操作压缩为一次自然表达。例如用户说“我有点冷而且想听点轻松的”，系统可同时调高温度并切换歌单。文章指出，座舱大模型的价值不在于参数规模，而在于能否把模糊、口语化、多诉求叠加的表达稳定转化为可执行动作，并在此过程中保持上下文记忆与多轮澄清能力。这标志着座舱交互从“命令式”向“意图式”迁移，语音入口开始具备 Agent 属性。\n\n【体验价值】用户不必再学习固定话术，模糊表达也能被正确执行，显著降低驾驶场景下的认知负担；跨域调度让多个孤立功能形成连贯服务，交互更接近与人对话。\n\n【潜在槽点】意图理解越强，误判代价越大，一次错误调温或误导航可能直接干扰驾驶；大模型调用云端时存在延迟与隐私顾虑，用户对“被理解”的边界感也需要时间建立。",
+          "summary_en": "【Event Overview】On Sept 17, 2026, the Doubao cockpit assistant officially launched, debuting on the Roewe Jiayue 07, which opened pre-sales simultaneously. Unlike past efforts that simply added a stronger voice model to the head unit, this cockpit LLM sits between user needs and vehicle capabilities as a dispatch hub: it no longer just parses a sentence but understands intent and orchestrates navigation, climate, entertainment, and vehicle control across domains, compressing multi-step operations into one natural utterance. Saying 'I'm a bit cold and want something relaxing' can raise temperature and switch playlists at once. The article argues the value lies not in parameter count but in reliably converting vague, colloquial, multi-intent speech into executable actions while maintaining context memory and multi-turn clarification. This marks a shift from command-based to intent-based cockpit interaction, giving the voice entry point agent-like qualities.\n\n【Experience Value】Users no longer need to learn fixed phrasing; vague expressions execute correctly, sharply reducing cognitive load while driving. Cross-domain orchestration turns isolated functions into coherent service, making interaction feel more conversational.\n\n【Potential Friction】Stronger intent understanding means costlier misjudgment; a wrong temperature or navigation action can directly disrupt driving. Cloud-based LLM calls raise latency and privacy concerns, and users need time to build trust around being 'understood.'",
+          "site": "Eet-China"
+        },
+        {
+          "title": "澎湃OS4跨端互联深度实测：数字孪生如何实现人车家全生态无缝流转",
+          "url": "https://blog.csdn.net/weixin_29587015/article/details/166290376",
+          "site_name": "Blog",
+          "publish_date": "2026-09-21",
+          "tags": [
+            "小米",
+            "澎湃OS",
+            "跨端互联",
+            "数字孪生",
+            "人车家",
+            "无缝流转"
+          ],
+          "summary": "【事件概述】文章对小米澎湃OS 4 的跨端互联能力进行深度实测，重点解析其如何通过设备虚拟化与分层数据同步，把“人车家全生态”从概念落地为可感知的日常操作。核心机制是数字孪生：系统为手机、车机、家居设备建立统一的虚拟映射，使应用状态、任务进度、媒体播放等数据可在设备间连续迁移。例如手机上未听完的播客上车后自动续播，车机导航到家后接力到手机或家居屏，家中空调可依据车辆接近状态提前开启。分层数据同步则区分高频状态与低频配置，减少跨端延迟与冲突。文章认为，这一架构在智能家居、移动办公、车机协同场景中价值显著，能大幅提升多设备协作效率，其意义在于把跨端体验从“手动投屏”推进到“状态自动流转”，让生态黏性从硬件绑定转向体验绑定。\n\n【体验价值】任务与媒体状态自动接力，用户无需重复操作，跨设备切换的割裂感被抹平；人车家联动让车成为生活场景的延伸，而非孤立终端，生态协同的正向体验明显。\n\n【潜在槽点】跨端流转依赖账号、网络与设备一致性，任一环节掉线即体验断裂；状态自动同步也意味着行为数据在设备间流动，用户对隐私边界的知情与控制仍显不足。",
+          "summary_en": "【Event Overview】This article deeply tests Xiaomi HyperOS 4's cross-device connectivity, focusing on how device virtualization and layered data sync turn the 'people-car-home' ecosystem from concept into perceptible daily operations. The core mechanism is a digital twin: the system builds unified virtual mappings of phone, car, and home devices so app states, task progress, and media playback migrate continuously across devices. A podcast unfinished on the phone resumes in the car; car navigation hands off to the phone or a home screen on arrival; home AC can pre-start based on vehicle proximity. Layered sync separates high-frequency states from low-frequency configs to reduce cross-device latency and conflicts. The article argues this architecture delivers significant value in smart home, mobile office, and car collaboration scenarios, advancing cross-device experience from manual casting to automatic state flow, shifting ecosystem stickiness from hardware binding to experience binding.\n\n【Experience Value】Tasks and media states hand off automatically, eliminating repeated operations and smoothing the fragmentation of device switching. People-car-home linkage extends the car into life scenarios rather than an isolated terminal, delivering clear positive ecosystem synergy.\n\n【Potential Friction】Cross-device flow depends on account, network, and device consistency; any break causes experience rupture. Automatic state sync also means behavioral data flows between devices, and user awareness and control over privacy boundaries remain insufficient.",
+          "site": "Blog"
+        },
+        {
+          "title": "2026年AI语音助手多模态交互革命：汽车座舱率先落地，一句话一个眼神",
+          "url": "https://k.sina.com.cn/article_7879849086_1d5acf47e06801ifre.html",
+          "site_name": "K",
+          "publish_date": "2026-09-19",
+          "tags": [
+            "多模态交互",
+            "端云混合",
+            "端侧大模型",
+            "语音助手",
+            "隐私",
+            "离线可用"
+          ],
+          "summary": "【事件概述】文章指出，2026 年头部厂商普遍采用端侧大模型加云端大模型的混合架构来支撑座舱多模态交互。涉及个人数据的语音处理就近在车机本地完成，例如通讯录、位置、日程等敏感信息不出车；仅当需要复杂推理，如跨城市路线规划、多条件行程编排时，才调用云端算力。这一架构的关键价值在于可用性与隐私的平衡：即便在地下车库或偏远山区无网络，基础语音功能依然可用，不会因断网变成“哑巴”。同时，多模态输入让交互不再依赖单一语音，一句话配合一个眼神或手势即可完成确认，减少误唤醒与重复唤醒。文章认为，座舱正率先成为多模态交互的落地场景，因为驾驶环境对免手操作、低延迟和安全冗余的要求最高，倒逼技术成熟。\n\n【体验价值】端侧处理保障了断网可用与低延迟响应，用户在地库等弱网场景不再受挫；敏感数据本地闭环降低隐私顾虑，多模态确认让交互更自然，减少驾驶分心。\n\n【潜在槽点】端云分工若边界模糊，用户难以知晓哪些数据出车，知情权不足；端侧模型能力受限，复杂指令仍需上云，弱网下体验落差可能被放大，形成预期管理难题。",
+          "summary_en": "【Event Overview】The article notes that in 2026 leading automakers widely adopt a hybrid on-device plus cloud LLM architecture to support multimodal cockpit interaction. Voice processing involving personal data happens locally in the car, so contacts, location, and calendar stay in-vehicle; cloud compute is called only for complex reasoning such as cross-city route planning or multi-condition itinerary orchestration. The key value is balancing availability and privacy: even in underground garages or remote mountains without network, basic voice functions still work, avoiding a 'mute' experience when offline. Meanwhile, multimodal input means interaction no longer relies on voice alone; one sentence plus a glance or gesture can confirm actions, reducing false and repeated wake-ups. The article argues the cockpit is becoming the first landing ground for multimodal interaction because driving demands hands-free operation, low latency, and safety redundancy, forcing the technology to mature.\n\n【Experience Value】On-device processing ensures offline availability and low-latency response, sparing users frustration in weak-signal scenarios like garages. Local data closure reduces privacy concerns, and multimodal confirmation makes interaction more natural, reducing driver distraction.\n\n【Potential Friction】If the on-device/cloud boundary is vague, users cannot know which data leaves the car, lacking informed consent. On-device model capability is limited, so complex commands still need the cloud; the experience gap under weak network may widen, creating expectation-management challenges.",
+          "site": "K"
+        }
+      ],
+      "created_at": "2026-09-25 15:36:20"
+    },
+    {
       "date": "2026-09-23",
       "date_display": "09月23日",
       "weekday": "周三",
@@ -3395,63 +3472,6 @@
         }
       ],
       "created_at": "2026-07-08 13:29:46"
-    },
-    {
-      "date": "2026-07-07",
-      "date_display": "07月07日",
-      "weekday": "周二",
-      "news_count": 3,
-      "news": [
-        {
-          "title": "让座舱大模型\"办得成\"!AquaClaw如何帮车企撕开智能化的突破口？",
-          "url": "https://stock.10jqka.com.cn/20260703/c677939418.shtml",
-          "site_name": "Stock",
-          "publish_date": "2026-07-03",
-          "tags": [
-            "中科创达",
-            "AquaClaw",
-            "端侧大模型",
-            "Agent产品矩阵",
-            "生态服务整合",
-            "任务执行"
-          ],
-          "summary": "【事件概述】中科创达发布AquaClaw座舱大模型方案，核心突破在于从“一问一答”的娱乐聊天模式进化为“全能超级智能体”，强调“办得成”事。AquaClaw整合了端侧大模型、Agent产品矩阵和生态服务，能主动理解用户意图并拆解为多步任务，例如用户说“我饿了”，系统自动搜索附近餐厅、查看评价、规划路线并发送到导航，全程无需用户逐一下指令。方案还支持跨应用联动（如音乐、空调、车窗）和第三方服务接入。\n\n【体验价值】用户从“指令式”交互升级为“意图式”交互，大幅降低操作门槛。多步任务自动执行减少驾驶分心，提升安全性和效率。跨应用联动让座舱成为真正的“智能管家”，而非孤立功能集合。\n\n【潜在槽点】多步任务执行依赖云端和端侧协同，网络不稳定时可能失败或延迟。用户隐私风险增加，因为系统需持续监听和分析车内对话。若任务拆解逻辑与用户预期不符（如推荐不喜欢的餐厅），可能引发挫败感，且纠正流程复杂。",
-          "summary_en": "【Event Overview】Thunder Software released the AquaClaw cockpit large model solution, with the core breakthrough evolving from a 'Q&A' entertainment chat mode to a 'universal super agent', emphasizing 'getting things done'. AquaClaw integrates on-device large models, Agent product matrices, and ecosystem services, capable of proactively understanding user intent and decomposing it into multi-step tasks. For example, when a user says 'I'm hungry', the system automatically searches for nearby restaurants, checks reviews, plans a route, and sends it to navigation, without requiring the user to issue commands step by step. The solution also supports cross-app linkage (e.g., music, AC, windows) and third-party service access.\n\n【Experience Value】Users upgrade from 'command-based' interaction to 'intent-based' interaction, significantly lowering the operation threshold. Automatic execution of multi-step tasks reduces driving distraction, improving safety and efficiency. Cross-app linkage makes the cockpit a true 'smart butler' rather than a collection of isolated functions.\n\n【Potential Friction】Multi-step task execution relies on cloud and on-device collaboration; unstable networks may cause failures or delays. User privacy risks increase as the system needs to continuously monitor and analyze in-car conversations. If the task decomposition logic does not match user expectations (e.g., recommending disliked restaurants), it may cause frustration, and the correction process is complex."
-        },
-        {
-          "title": "车载大模型全面上车，智能座舱迈入全域 AI 交互时代",
-          "url": "https://auto.sina.cn/2026-07-07/detail-inifxhzi8389159.d.html?vt=4",
-          "site_name": "Auto",
-          "publish_date": "2026-07-07",
-          "tags": [
-            "全域AI交互",
-            "多模态交互",
-            "车载大模型",
-            "场景联动",
-            "OTA",
-            "语音控制"
-          ],
-          "summary": "【事件概述】2026年汽车智能化重心从硬件配置转向车载大模型大规模量产上车，智能座舱从单一语音控制升级为全域AI交互体系。核心创新包括：多模态交互（语音、手势、视线、触控融合）、跨场景联动（车机与手机、家居、办公设备无缝协同）、以及AI自主规划能力（如根据日程自动调整车内环境、推荐路线）。系统不再只是影音导航工具，而是可自主规划、多模态沟通、跨场景联动的车载智能终端。\n\n【体验价值】多模态交互让用户在不同场景下选择最自然的交互方式（如驾驶时用语音，停车时用手势），提升灵活性和包容性。跨场景联动打破设备孤岛，实现“上车前-行驶中-下车后”的连续体验。AI自主规划减少用户决策负担，让出行更高效。\n\n【潜在槽点】多模态融合可能增加系统复杂度，导致误识别或冲突（如语音和手势同时触发不同指令）。跨场景联动依赖生态开放度，若手机品牌不兼容则体验割裂。AI自主规划若过于激进（如未经确认就修改导航），可能引发用户不信任。",
-          "summary_en": "【Event Overview】In 2026, the focus of automotive intelligence has shifted from hardware configuration to large-scale deployment of on-board large models. The smart cockpit has upgraded from single voice control to a full-domain AI interaction system. Core innovations include: multimodal interaction (fusion of voice, gesture, gaze, and touch), cross-scenario linkage (seamless collaboration between car, phone, home, and office devices), and AI autonomous planning capabilities (e.g., automatically adjusting in-car environment based on schedule, recommending routes). The system is no longer just an audio-visual navigation tool, but a vehicle-mounted intelligent terminal capable of autonomous planning, multimodal communication, and cross-scenario linkage.\n\n【Experience Value】Multimodal interaction allows users to choose the most natural interaction method in different scenarios (e.g., voice while driving, gesture while parked), improving flexibility and inclusivity. Cross-scenario linkage breaks device silos, enabling a continuous experience from 'pre-boarding to driving to post-exit'. AI autonomous planning reduces user decision-making burden, making travel more efficient.\n\n【Potential Friction】Multimodal fusion may increase system complexity, leading to misrecognition or conflicts (e.g., voice and gesture triggering different commands simultaneously). Cross-scenario linkage depends on ecosystem openness; incompatibility with certain phone brands may cause fragmented experiences. If AI autonomous planning is too aggressive (e.g., modifying navigation without confirmation), it may erode user trust."
-        },
-        {
-          "title": "极氪OTA 6.5正式开启推送,数十项升级打造跃进式智能体验",
-          "url": "https://k.sina.com.cn/article_7857141524_1d452771401903we9y.html",
-          "site_name": "K",
-          "publish_date": "2026-07-04",
-          "tags": [
-            "极氪",
-            "OTA 6.5",
-            "主动安全",
-            "自动紧急转向",
-            "前车溜车提醒",
-            "防误踩加速踏板"
-          ],
-          "summary": "【事件概述】极氪推送OTA 6.5版本，包含数十项升级，核心软件创新集中在主动安全领域。新增自动紧急转向（AES）功能：当检测到与前方静止车辆有碰撞风险且驾驶员未采取规避措施时，系统自动转向避让。新增前车溜车提醒（FVSW）：检测前车意外溜车并提醒驾驶员。新增加速踏板防误踩辅助（ACPE）：在检测到误踩电门时抑制加速并提醒。这些功能通过软件算法优化，无需硬件改动即可提升安全性。\n\n【体验价值】AES功能在紧急情况下提供“最后一秒”避险能力，减少碰撞概率。FVSW和ACPE针对日常驾驶中的高频误操作场景，降低新手司机压力。OTA持续推送安全升级，让老车主也能享受最新防护，提升车辆保值感。\n\n【潜在槽点】AES在复杂路况（如多车道、行人穿插）下可能误判，导致不必要的转向或引发新风险。ACPE若过于敏感，在需要急加速超车时可能误触发，干扰驾驶意图。安全功能依赖传感器精度，恶劣天气下性能可能下降。",
-          "summary_en": "【Event Overview】Zeekr pushed OTA version 6.5, including dozens of upgrades, with core software innovations focused on active safety. New features include: Automatic Emergency Steering (AES) - when a collision risk with a stationary vehicle ahead is detected and the driver takes no evasive action, the system automatically steers to avoid; Forward Vehicle Rollaway Warning (FVSW) - detects unexpected rollaway of the vehicle ahead and alerts the driver; Accelerator Pedal Misapplication Prevention (ACPE) - suppresses acceleration and alerts when a pedal misapplication is detected. These functions are achieved through software algorithm optimization without hardware changes.\n\n【Experience Value】AES provides a 'last-second' avoidance capability in emergencies, reducing collision probability. FVSW and ACPE target high-frequency misoperation scenarios in daily driving, reducing stress for novice drivers. Continuous OTA safety upgrades allow older car owners to enjoy the latest protection, enhancing vehicle value retention.\n\n【Potential Friction】AES may misjudge in complex road conditions (e.g., multiple lanes, pedestrian crossing), leading to unnecessary steering or new risks. ACPE may be overly sensitive, potentially interfering with driving intent during urgent acceleration for overtaking. Safety functions rely on sensor accuracy, which may degrade in adverse weather conditions."
-        }
-      ],
-      "created_at": "2026-07-07 14:17:09"
     }
   ]
 }
