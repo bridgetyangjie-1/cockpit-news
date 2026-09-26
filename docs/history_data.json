@@ -1,6 +1,63 @@
 {
   "records": [
     {
+      "date": "2026-09-26",
+      "date_display": "09月26日",
+      "weekday": "周六",
+      "news_count": 3,
+      "news": [
+        {
+          "title": "从豆包上车，聊聊现在的座舱大模型到底能做些什么？_腾讯新闻",
+          "url": "https://news.qq.com/rain/a/20260925A033U000",
+          "site_name": "腾讯新闻",
+          "publish_date": "2026-09-25",
+          "tags": [
+            "豆包",
+            "火山引擎",
+            "座舱大模型",
+            "端到端",
+            "荣威",
+            "语音交互"
+          ],
+          "summary": "【事件概述】2026年9月17日，豆包座舱助手正式发布，首款搭载车型荣威家越07同步开启预售。与过去简单叠加语音模型不同，此次座舱大模型采用端到端架构，将语音识别、语义理解、场景决策与车辆控制整合为统一推理链路。豆包座舱助手支持连续对话、上下文继承与多意图并行处理，用户可在一次唤醒后完成“导航到公司、打开座椅加热、播放昨日未听完的播客”等复合指令。更关键的是，模型具备主动服务能力：通过分析用户日程、路况与车辆状态，可在适当时机主动建议充电、提醒会议或推荐沿途餐厅。深蓝汽车也于同期官宣与火山引擎合作，首发端到端豆包大模型，标志着座舱大模型从“语音助手”向“出行智能体”的范式迁移。\n\n【体验价值】端到端架构减少了传统多模块串联的延迟与信息损耗，多意图并行处理让用户无需反复唤醒，主动服务则将交互从“人找功能”变为“服务找人”，显著提升驾驶场景下的自然感与效率。\n\n【潜在槽点】主动服务若频率或时机不当，易造成打扰甚至分心；端到端模型决策过程不透明，用户难以理解为何触发某项建议；大模型幻觉可能导致错误执行，需建立安全兜底机制。",
+          "summary_en": "【Event Overview】On September 17, 2026, Doubao Cockpit Assistant launched, debuting on the Roewe Jiayue 07. Unlike simply adding a voice model, it uses an end-to-end architecture integrating speech recognition, semantic understanding, decision-making, and vehicle control into a unified inference pipeline. It supports continuous dialogue, context inheritance, and multi-intent parallel processing. The model also offers proactive services by analyzing schedules, traffic, and vehicle status to suggest charging, meetings, or restaurants. Deepal also announced a partnership with Volcano Engine for an end-to-end Doubao model, marking a paradigm shift from voice assistant to travel agent.\n\n【Experience Value】End-to-end architecture reduces latency and information loss. Multi-intent processing eliminates repeated wake-ups. Proactive services shift interaction from 'finding functions' to 'services finding you,' enhancing naturalness and efficiency.\n\n【Potential Friction】Proactive services may disturb or distract if poorly timed. Opaque decision-making reduces user understanding. Hallucinations could cause errors, requiring safety fallbacks."
+        },
+        {
+          "title": "五菱缤果 Pro 获推 OTA 升级，尊享款新增车机网联功能_游戏新闻_17173.com中国游戏门户站",
+          "url": "https://news.17173.com/content/09212026/180455867.shtml",
+          "site_name": "17173",
+          "publish_date": "2026-09-21",
+          "tags": [
+            "五菱",
+            "灵语AI",
+            "DeepSeek",
+            "OTA",
+            "方言识别",
+            "网联功能"
+          ],
+          "summary": "【事件概述】五菱缤果Pro尊享款获推OTA升级，新增车机网联功能与语音控车能力。此次升级的核心亮点是搭载“灵语AI+DeepSeek”双模型架构，支持十种方言识别，覆盖粤语、四川话、河南话等主要方言区。用户可用方言直接控制导航、音乐、空调等常用功能，系统还能根据用户语言习惯自动切换交互语言。此外，升级后车机支持3年无限流量，内置应用商店可下载音乐、电台等第三方应用。五菱此次将大模型能力下放至十万级以下车型，标志着座舱AI从高端市场向大众市场渗透。DeepSeek的引入提升了语义理解深度，使模糊指令和口语化表达也能被准确执行。\n\n【体验价值】方言识别显著降低了非普通话用户的学习成本，让语音交互真正覆盖更广泛人群。双模型架构在保证理解深度的同时控制了成本，使入门级车型也能享受大模型红利。无限流量消除了用户对在线服务消耗的顾虑。\n\n【潜在槽点】十种方言的识别精度参差不齐，小众方言可能频繁出错；无限流量可能附带限速条款；入门级芯片运行双模型可能导致响应延迟，影响交互流畅度。",
+          "summary_en": "【Event Overview】Wuling Bingo Pro received an OTA update adding connectivity and voice control. The highlight is a dual-model architecture combining Lingyu AI and DeepSeek, supporting ten dialects including Cantonese, Sichuanese, and Henanese. Users can control navigation, music, and AC in their dialect, with automatic language switching. The update includes 3 years of unlimited data and an app store. Wuling brings large-model capabilities to sub-100k RMB vehicles, marking AI penetration into the mass market. DeepSeek enhances semantic depth for fuzzy and colloquial commands.\n\n【Experience Value】Dialect recognition lowers learning costs for non-Mandarin users, broadening voice interaction coverage. The dual-model architecture balances understanding depth and cost, bringing large-model benefits to entry-level cars. Unlimited data removes concerns about online service consumption.\n\n【Potential Friction】Dialect recognition accuracy varies; minority dialects may frequently fail. Unlimited data may have throttling clauses. Entry-level chips running dual models may cause latency, affecting fluency."
+        },
+        {
+          "title": "东风日产天籁·鸿蒙座舱的智能交互能力体现在哪些方面？|燃油车|天窗|...",
+          "url": "https://k.sina.cn/article_7879848955_1d5acf3fb06803bdnu.html",
+          "site_name": "新浪",
+          "publish_date": "2026-09-24",
+          "tags": [
+            "日产",
+            "鸿蒙座舱",
+            "零层级交互",
+            "卡片式UI",
+            "3D桌面",
+            "燃油车"
+          ],
+          "summary": "【事件概述】东风日产天籁·鸿蒙座舱作为全球首款搭载HarmonySpace的合资燃油轿车，其智能交互能力成为关注焦点。该车标配15.6英寸2K智慧屏，支持90Hz高刷新率与0.1秒操作响应，滑动跟手性达到平板级流畅体验。交互层面，天籁·鸿蒙座舱采用3D智控桌面，摒弃传统车机的层级菜单结构，改用零层级卡片式交互，关键功能如导航、音乐、空调等以卡片形式直接呈现于桌面，用户无需逐级进入即可操作。系统还支持华为生态无缝流转，手机应用可一键上车，导航、通话等场景在手机与车机间接力。此外，AI语音助手支持可见即可说与连续对话，进一步降低操作门槛。\n\n【体验价值】零层级卡片式交互将高频功能前置，显著降低上手门槛与驾驶中的操作步骤。90Hz高刷与0.1秒响应提升了触控跟手性，减少了操作不确定性。华为生态流转则让手机用户无需重新适应车机逻辑。\n\n【潜在槽点】零层级桌面在功能增多后可能变得拥挤，卡片管理逻辑需持续优化；鸿蒙座舱与日产原有车控系统的融合深度存疑，部分车辆设置可能仍需进入二级菜单；燃油车用户对智能化的付费意愿可能低于新能源用户。",
+          "summary_en": "【Event Overview】The Dongfeng Nissan Teana with HarmonySpace is the first joint-venture fuel sedan to feature Huawei's cockpit. It boasts a 15.6-inch 2K screen with 90Hz refresh and 0.1s response. The 3D smart desktop abandons hierarchical menus for zero-level card-based interaction, placing key functions like navigation, music, and AC directly on the home screen. It supports seamless Huawei ecosystem handoff, allowing phone apps to transfer to the car. The AI voice assistant supports see-and-say and continuous dialogue.\n\n【Experience Value】Zero-level card interaction front-loads high-frequency functions, reducing steps and learning costs. 90Hz refresh and 0.1s response improve touch predictability. Huawei ecosystem handoff eliminates re-learning for phone users.\n\n【Potential Friction】The zero-level desktop may become crowded as functions grow. Integration depth with Nissan's native vehicle controls is questionable; some settings may still require submenus. Fuel car users may have lower willingness to pay for smart features."
+        }
+      ],
+      "created_at": "2026-09-26 15:29:06"
+    },
+    {
       "date": "2026-09-25",
       "date_display": "09月25日",
       "weekday": "周五",
@@ -3418,60 +3475,6 @@
         }
       ],
       "created_at": "2026-07-10 14:12:59"
-    },
-    {
-      "date": "2026-07-08",
-      "date_display": "07月08日",
-      "weekday": "周三",
-      "news_count": 3,
-      "news": [
-        {
-          "title": "40项新增+18项优化 极氪OTA 7.2正式推送",
-          "url": "https://m.autohome.com.cn/news/202607/1315489.html",
-          "site_name": "汽车之家",
-          "publish_date": "2026-07-03",
-          "tags": [
-            "极氪",
-            "Zeekr AI OS",
-            "OTA",
-            "语音助手",
-            "智驾"
-          ],
-          "summary": "【事件概述】极氪正式推送Zeekr OTA 7.2版本，带来40项新增功能和18项优化，核心升级围绕超级Eva语音助手、千里浩瀚G-ASD 4.0高阶智驾和全新Zeekr AI OS 7座舱系统。该版本覆盖全系高通8295平台车型，语音助手支持更复杂的上下文理解和多轮对话，智驾系统新增主动超车变道等功能，座舱系统界面和交互逻辑全面重构。\n\n【体验价值】语音助手从单一指令执行升级为场景化理解，例如“我有点冷”可自动调高空调温度并关闭车窗。智驾功能增强让高速和城市道路的辅助驾驶更连贯，减少用户接管频率。\n\n【潜在槽点】40项新功能可能导致用户学习成本陡增，部分功能可能被长期忽略。OTA推送分批进行，部分用户等待时间较长，且大版本更新可能带来初期稳定性问题。",
-          "summary_en": "【Event Overview】Zeekr pushed OTA 7.2 with 40 new features and 18 optimizations, focusing on the Eva voice assistant, G-ASD 4.0 ADAS, and Zeekr AI OS 7. The voice assistant now supports contextual understanding, and the ADAS adds active lane change. \n\n【Experience Value】Voice commands become more natural, e.g., 'I'm cold' triggers AC and window adjustments. ADAS enhancements reduce driver intervention in highway and city scenarios. \n\n【Potential Friction】40 new features may overwhelm users, leading to underutilization. Phased OTA rollout causes delays, and major updates risk initial stability issues."
-        },
-        {
-          "title": "重构人车交互：蔚来Banyan系统如何用语音定义智能座舱新范式",
-          "url": "https://chejiahao.autohome.com.cn/info/22739586?isfrom=m",
-          "site_name": "汽车之家",
-          "publish_date": "2026-07-05",
-          "tags": [
-            "蔚来",
-            "Banyan",
-            "语音交互",
-            "场景预判",
-            "动态UI"
-          ],
-          "summary": "【事件概述】蔚来Banyan系统通过语义理解和场景预判，将高频功能（如导航、音乐、温控）直接呈现于主界面，并根据用户行为动态调整布局。例如，当检测到用户频繁使用座椅按摩功能时，该选项会自动出现在最易触达的位置。系统还支持多模态交互，结合语音和触控实现更自然的操作。\n\n【体验价值】动态UI减少用户寻找功能的步骤，提升操作效率。场景预判让系统主动适应用户习惯，例如在通勤时间自动推荐导航回家，体验更个性化。\n\n【潜在槽点】动态布局可能让习惯固定界面的用户感到困惑，频繁变化增加认知负担。隐私方面，系统需持续学习用户行为，数据收集可能引发担忧。",
-          "summary_en": "【Event Overview】NIO's Banyan system uses semantic understanding and scenario prediction to surface high-frequency functions on the main UI and dynamically adjust layout based on user behavior. For example, frequent seat massage usage moves the option to an easily accessible position. \n\n【Experience Value】Dynamic UI reduces steps to find functions, improving efficiency. Scenario prediction proactively adapts to user habits, e.g., recommending navigation home during commute, offering a personalized experience. \n\n【Potential Friction】Dynamic layout may confuse users accustomed to fixed interfaces, increasing cognitive load. Privacy concerns arise from continuous behavior tracking."
-        },
-        {
-          "title": "2026中国智能座舱多模态交互体验升级与硬件供应链重塑分析.docx",
-          "url": "https://max.book118.com/html/2026/0702/8104127114010105.shtm",
-          "site_name": "原创力文档",
-          "publish_date": "2026-07-02",
-          "tags": [
-            "多模态交互",
-            "DMS",
-            "OMS",
-            "显示技术",
-            "硬件升级"
-          ],
-          "summary": "【事件概述】报告指出智能座舱多模态交互体验升级依赖硬件供应链重塑，核心趋势包括：大屏化与多屏联动持续，异形OLED和MiniLED背光技术替代传统LCD，提升对比度和色域；DMS和OMS摄像头分辨率从200万像素升级，支持更精准的驾驶员和乘客监测；传感硬件升级为AI Agent和手势识别提供基础。\n\n【体验价值】更高分辨率的摄像头和显示技术让多模态交互更精准，例如DMS可识别疲劳驾驶并主动提醒，OMS支持后排儿童状态监测。沉浸式视觉体验提升影音和导航效果。\n\n【潜在槽点】硬件升级推高整车成本，可能转嫁给消费者。高分辨率摄像头和传感器增加数据量，对车端算力和隐私保护提出更高要求，且部分功能可能因法规限制无法完全落地。",
-          "summary_en": "【Event Overview】The report highlights that multimodal interaction upgrades rely on hardware supply chain reshaping: large screens and multi-screen setups, OLED/MiniLED for better contrast, and higher-res DMS/OMS cameras for precise monitoring. \n\n【Experience Value】Higher-res cameras enable accurate fatigue detection and child monitoring. Immersive displays enhance media and navigation. \n\n【Potential Friction】Hardware upgrades increase costs, potentially passed to consumers. More data from sensors strains on-device compute and privacy protection, and some features may face regulatory hurdles."
-        }
-      ],
-      "created_at": "2026-07-08 13:29:46"
     }
   ]
 }
