@@ -1,6 +1,79 @@
 {
   "records": [
     {
+      "date": "2026-09-29",
+      "date_display": "09月29日",
+      "weekday": "周二",
+      "news_count": 4,
+      "news": [
+        {
+          "title": "星纪元ET迎来重磅OTA升级，智能体验全面跃升 - 今日头条",
+          "url": "https://www.toutiao.com/article/7690412813449232938/",
+          "site_name": "Toutiao",
+          "publish_date": "2026-09-28",
+          "tags": [
+            "星途",
+            "EXEED OS",
+            "OTA",
+            "座舱交互",
+            "车设车控",
+            "智驾辅助"
+          ],
+          "summary": "【事件概述】星纪元ET面向用户全面推送EXEED OS 2.7.0与1.7.0两大版本OTA升级，覆盖智能座舱、智驾辅助及车设车控三大核心领域。座舱层面重点优化了交互响应速度、应用启动效率与语音唤醒逻辑，同时新增多项车控快捷入口与场景化服务卡片，使车机从\"功能堆叠\"转向\"场景聚合\"。智驾辅助部分则针对领航辅助的变道策略、泊车辅助的识别精度进行迭代，车设车控新增远程预约与个性化配置同步能力。此次双版本并行推送，意味着不同硬件批次的车型获得差异化适配，体现分层OTA策略。\n\n【体验价值】从UX视角看，本次升级的核心价值在于\"常用常新\"的预期管理——用户无需换车即可获得交互流畅度与功能完整度的持续提升，场景化服务卡片降低了功能查找的认知负荷，个性化配置同步则强化了多用户共用车辆时的归属感。\n\n【潜在槽点】双版本并行推送易造成用户困惑，不清楚自己该升哪个版本；场景卡片若缺乏自定义能力，可能沦为新的信息冗余；OTA后交互逻辑变更若未提供引导，老用户需重新学习，存在短期体验倒退风险。",
+          "summary_en": "【Event Overview】EXEED has begun rolling out EXEED OS 2.7.0 and 1.7.0 OTA updates for the Xingjiyuan ET, covering smart cockpit, ADAS, and vehicle control domains. Cockpit improvements focus on interaction responsiveness, app launch efficiency, and voice wake-up logic, while adding scenario-based service cards and quick vehicle-control entries. ADAS updates refine lane-change strategy and parking recognition. The dual-version parallel rollout indicates a tiered OTA strategy for different hardware batches.\n\n【Experience Value】The core UX value lies in expectation management—users gain continuous improvements in fluidity and feature completeness without buying a new car. Scenario cards reduce cognitive load, and personalized config sync strengthens multi-user ownership.\n\n【Potential Friction】Dual-version parallel pushes may confuse users about which version applies to them. Scenario cards without customization could become new clutter. Interaction logic changes post-OTA without onboarding guidance risk short-term experience regression for existing users."
+        },
+        {
+          "title": "小米澎程n90的智能座舱生态有哪些独特功能？|小米澎湃OS|小米汽车|智...",
+          "url": "https://auto.sina.cn/2026-09-29/detail-initnmwi2938391.d.html?vt=4",
+          "site_name": "新浪汽车",
+          "publish_date": "2026-09-29",
+          "tags": [
+            "小米",
+            "澎湃OS",
+            "人车家生态",
+            "跨端流转",
+            "米家联动",
+            "无缝互联"
+          ],
+          "summary": "【事件概述】小米澎程N90的智能座舱基于澎湃OS，将车辆打造为\"移动智能空间\"，核心差异化在于跨越车与家的\"人车家\"全生态无缝流转。基于澎湃OS的分布式能力，车机可与超过10亿台米家设备深度联动：用户在家中可通过小爱同学远程备车、预热空调；上车后导航与音乐自动从手机流转至车机；行驶中可语音控制家中灯光、扫地机器人等设备。座舱还支持多屏协同与米家场景引擎，例如\"回家模式\"可一键触发家中灯光、空调、窗帘的联动响应。此外，澎湃OS的跨端框架使应用在不同设备间保持一致的交互逻辑，降低学习成本。\n\n【体验价值】\"人车家\"闭环消除了设备切换的割裂感，场景引擎将孤立设备串联为连贯体验，对已深度使用米家生态的用户而言，迁移成本极低且体验增益显著，形成了强生态锁定效应。\n\n【潜在槽点】非米家用户几乎无法享受核心卖点，生态壁垒反而限制了开放性；跨端流转依赖网络稳定性，地下车库等弱网场景可能失效；家中设备状态同步存在隐私暴露风险，如车机显示家中无人可能被他人窥探。",
+          "summary_en": "【Event Overview】Xiaomi's Pengcheng N90 cockpit, built on HyperOS, positions the vehicle as a \"mobile smart space\" with seamless human-car-home ecosystem flow. Leveraging HyperOS distributed capabilities, the cockpit connects with over 1 billion Mijia devices: users can remotely precondition the car from home, transfer navigation and music from phone to car, and control home devices via voice while driving. A scenario engine enables one-tap \"home mode\" triggering lights, AC, and curtains. The cross-device framework maintains consistent interaction logic across devices.\n\n【Experience Value】The human-car-home loop eliminates device-switching fragmentation. The scenario engine connects isolated devices into coherent experiences. For deep Mijia users, migration cost is minimal and experience gains are significant, creating strong ecosystem lock-in.\n\n【Potential Friction】Non-Mijia users can barely benefit from core selling points—the ecosystem wall limits openness. Cross-device flow depends on network stability; weak-signal scenarios like underground garages may fail. Home device status sync poses privacy exposure risks."
+        },
+        {
+          "title": "问界M7的多屏联动功能支持哪些应用程序？|鸿蒙智行|鸿蒙座舱|OTA|场景...",
+          "url": "https://auto.sina.cn/2026-09-29/detail-initnfqc7882484.d.html?vt=4",
+          "site_name": "新浪汽车",
+          "publish_date": "2026-09-29",
+          "tags": [
+            "问界",
+            "鸿蒙座舱",
+            "CarPlay",
+            "多屏联动",
+            "OTA",
+            "双生态互联"
+          ],
+          "summary": "【事件概述】问界M7近期通过OTA升级新增CarPlay与鸿蒙座舱双生态互联能力，成为少数同时支持苹果与华为双生态的车型。多屏联动覆盖导航、音乐、电话、车外喊话等高频场景，副驾屏与中控屏可实现内容独立或协同显示。CarPlay接入意味着iOS用户可将iPhone的导航、音乐、通话无缝投射至车机，同时保留鸿蒙座舱的原生语音与车控能力。此次升级还优化了屏幕间的内容流转逻辑，例如导航信息可从中控滑至仪表或HUD，副驾可独立操作娱乐内容而不干扰主驾。累计交付超46万台的问界M7通过持续OTA拓展应用边界，体现\"软件定义汽车\"的迭代思路。\n\n【体验价值】双生态并行打破了手机品牌壁垒，iOS与鸿蒙用户均能获得原生级互联体验。多屏内容流转降低了主驾操作负担，副驾独立娱乐提升了长途乘坐体验，车外喊话则在露营等场景中提供了趣味交互。\n\n【潜在槽点】CarPlay与鸿蒙座舱并存可能导致交互逻辑冲突，如语音助手优先级不明确；双生态维护成本高，后续OTA可能出现一方更新滞后；多屏联动若缺乏统一UI规范，不同应用在屏幕间的适配质量参差不齐。",
+          "summary_en": "【Event Overview】The AITO M7 recently received an OTA update adding dual-ecosystem connectivity for both CarPlay and HarmonyOS Cockpit, making it one of few vehicles supporting both Apple and Huawei ecosystems. Multi-screen linkage covers navigation, music, phone, and external voice broadcast. CarPlay integration allows iOS users to project iPhone navigation, music, and calls seamlessly while retaining native HarmonyOS voice and vehicle control. Screen-to-screen content flow is optimized—navigation can slide from center to instrument cluster or HUD, and the passenger screen operates independently.\n\n【Experience Value】Dual-ecosystem parallelism breaks phone brand barriers, giving both iOS and HarmonyOS users native-level connectivity. Multi-screen content flow reduces driver operation burden. Passenger independent entertainment improves long-trip experience.\n\n【Potential Friction】CarPlay and HarmonyOS coexistence may cause interaction logic conflicts, such as unclear voice assistant priority. Dual-ecosystem maintenance is costly; one side may lag in future OTA updates. Without unified UI standards, app adaptation quality across screens may vary."
+        },
+        {
+          "title": "鸿蒙座舱6正式上车！对比5代有哪些升级，友商难以复制在哪",
+          "url": "https://www.toutiao.com/article/7688938433850458652/",
+          "site_name": "Toutiao",
+          "publish_date": "2026-09-24",
+          "tags": [
+            "华为",
+            "鸿蒙座舱6",
+            "分布式架构",
+            "多设备协同",
+            "UI重构",
+            "生态壁垒"
+          ],
+          "summary": "【事件概述】鸿蒙座舱HarmonySpace 6正式发布，全球首发车型为奕境X9，启境GX7与岚图梦想家9为首批落地车型。对比第5代，HarmonySpace 6在交互架构上实现三大升级：一是UI框架全面重构，引入更灵活的服务卡片与原子化组件，支持用户按场景自定义桌面布局；二是分布式能力增强，手机、平板、车机间的应用流转延迟进一步降低，支持更多第三方应用的无缝接续；三是语音与视觉融合的多模态交互落地，座舱可结合摄像头识别驾驶员状态并主动调整界面信息密度。华为强调其\"友商难以复制\"的核心在于鸿蒙分布式软总线与方舟引擎的底层协同，而非单一功能堆叠。\n\n【体验价值】原子化组件与自定义布局将桌面控制权交还用户，减少预装逻辑的强制感。多模态交互使界面能随驾驶状态动态调整，降低分心风险。分布式能力增强让跨设备体验更接近\"一个系统\"而非\"多个设备\"。\n\n【潜在槽点】自定义布局对普通用户可能造成\"选择过载\"，缺乏设计能力者易做出低效桌面；多模态识别涉及车内摄像头持续运行，隐私透明度需强化；分布式生态仍以华为设备为核心，非华为用户的实际收益有限，生态壁垒可能反噬开放性。",
+          "summary_en": "【Event Overview】HarmonySpace 6 officially launched, debuting in the Yijing X9, with Qijing GX7 and Voyah Dreamer 9 as first-wave models. Compared to Gen 5, it delivers three major upgrades: a fully restructured UI framework with flexible service cards and atomic components supporting user-customized layouts; enhanced distributed capabilities with lower app handoff latency across phone, tablet, and cockpit; and multimodal interaction fusing voice and vision to detect driver state and dynamically adjust information density. Huawei emphasizes the moat lies in distributed soft bus and Ark Engine synergy, not feature stacking.\n\n【Experience Value】Atomic components return desktop control to users, reducing forced pre-install logic. Multimodal interaction dynamically adjusts UI based on driving state, lowering distraction risk. Enhanced distributed capabilities make cross-device experience feel like \"one system\" rather than \"multiple devices.\"\n\n【Potential Friction】Custom layouts may cause choice overload; users without design sense may create inefficient desktops. Multimodal recognition requires continuous in-cabin camera operation—privacy transparency needs strengthening. The distributed ecosystem remains Huawei-centric; non-Huawei users gain limited benefit, and ecosystem walls may backfire on openness."
+        }
+      ],
+      "created_at": "2026-09-29 16:18:36"
+    },
+    {
       "date": "2026-09-28",
       "date_display": "09月28日",
       "weekday": "周一",
@@ -3429,75 +3502,6 @@
         }
       ],
       "created_at": "2026-07-12 13:36:48"
-    },
-    {
-      "date": "2026-07-11",
-      "date_display": "07月11日",
-      "weekday": "周六",
-      "news_count": 4,
-      "news": [
-        {
-          "title": "小鹏天玑5.1系统深度体验：分屏模式与AI语音升级",
-          "url": "https://auto.sina.cn/2026-07-07/detail-inifyzks8371697.d.html?vt=4",
-          "site_name": "新浪汽车",
-          "publish_date": "2026-07-07",
-          "tags": [
-            "小鹏",
-            "天玑AIOS",
-            "分屏交互",
-            "AI语音",
-            "OTA"
-          ],
-          "summary": "【事件概述】小鹏汽车推送XOS 5.1.0（天玑5.1）系统OTA升级，核心创新包括：主界面支持全屏与分屏模式自由切换，用户可在导航、音乐、车辆设置等应用间实现多任务并行操作；AI语音助手语义理解准确率提升40%，支持超200项功能的语音控制，并新增上下文记忆能力，可连续执行多步指令。此外，系统界面布局进行了重构，减少了操作层级，常用功能入口更直观。该升级覆盖小鹏G6、G9等多款车型。\n\n【体验价值】分屏模式直接解决了驾驶中频繁切换应用的痛点，例如导航与音乐同屏显示，减少了视线偏移，提升了驾驶安全性。AI语音的语义理解与上下文记忆能力，让用户可以用更自然的语言完成复杂操作（如“导航到最近的充电站，然后打开空调”），降低了学习成本，使交互更接近人与人对话。\n\n【潜在槽点】分屏模式下，部分第三方应用适配不佳，可能出现显示不全或操作冲突。AI语音的上下文记忆在嘈杂环境或多人对话场景下可能误判，导致执行错误指令。此外，频繁的OTA升级可能让部分用户感到系统不稳定，需要时间适应新交互逻辑。",
-          "summary_en": "【Event Overview】XPeng has rolled out XOS 5.1.0 (Tianji 5.1) OTA update, featuring a new split-screen mode that allows multitasking between navigation, music, and vehicle settings. The AI voice assistant now supports over 200 functions with 40% improved semantic understanding and contextual memory for multi-step commands. The UI has been redesigned to reduce operation layers and make common functions more accessible. \n\n【Experience Value】Split-screen mode directly addresses the pain point of frequent app switching, reducing driver distraction by displaying navigation and music simultaneously. The AI voice's contextual memory enables natural language commands (e.g., 'Navigate to nearest charger and turn on AC'), lowering the learning curve and making interaction more conversational. \n\n【Potential Friction】Some third-party apps may not render properly in split-screen mode, causing display issues or conflicts. The AI voice's contextual memory may misinterpret commands in noisy or multi-speaker environments. Frequent OTA updates could lead to perceived instability, requiring users to adapt to new interaction logic."
-        },
-        {
-          "title": "鸿蒙座舱HarmonySpace 6：硬件感知与理解能力升级",
-          "url": "https://chejiahao.autohome.com.cn/info/25372074?reply=reply",
-          "site_name": "汽车之家",
-          "publish_date": "2026-07-11",
-          "tags": [
-            "华为",
-            "鸿蒙座舱",
-            "HarmonySpace",
-            "多模态交互",
-            "AI感知"
-          ],
-          "summary": "【事件概述】华为发布全新一代鸿蒙座舱HarmonySpace 6，核心创新在于让硬件具备“感知”与“理解”能力。系统通过多模态传感器融合（摄像头、麦克风、压力传感器等），实时感知驾乘人员的位置、姿态、情绪及意图。例如，系统可识别驾驶员疲劳状态并自动调整座椅、空调和音乐；识别后排儿童入睡后自动降低音量并调暗灯光。此外，HarmonySpace 6支持跨设备无缝流转，手机上的视频通话可一键流转至车机，并利用车内摄像头和麦克风继续通话。\n\n【体验价值】从UX视角看，该功能实现了从“被动响应”到“主动服务”的转变。系统不再等待用户指令，而是通过环境感知预判用户需求，提供无感化、个性化的体验。例如，自动调节座舱环境以减少用户操作，提升了便利性和舒适性。跨设备流转则强化了华为生态的连贯性，让用户在手机与车机间获得一致体验。\n\n【潜在槽点】多模态感知依赖大量传感器，可能引发隐私担忧，尤其是车内摄像头持续监控用户状态。系统主动干预（如自动调暗灯光）可能违背用户当前意图，造成交互冗余。此外，跨设备流转的稳定性受网络环境影响，在信号弱时可能出现延迟或中断。",
-          "summary_en": "【Event Overview】Huawei has launched the next-generation HarmonySpace 6 cockpit system, where hardware gains 'perception' and 'understanding' capabilities. Using multi-modal sensors (cameras, microphones, pressure sensors), the system detects occupant position, posture, emotion, and intent in real-time. For example, it can identify driver fatigue and adjust seat, AC, and music; detect a sleeping child in the back and automatically dim lights and lower volume. Cross-device handoff allows seamless transfer of video calls from phone to car. \n\n【Experience Value】From a UX perspective, this shifts from 'passive response' to 'active service'. The system anticipates user needs through environmental perception, providing frictionless, personalized experiences. For instance, automatically adjusting cabin environment reduces user operations, enhancing convenience and comfort. Cross-device handoff strengthens Huawei ecosystem continuity. \n\n【Potential Friction】Multi-modal sensing relies on extensive sensors, raising privacy concerns, especially with in-car cameras continuously monitoring users. System-initiated actions (e.g., auto-dimming) may conflict with user intent, causing interaction redundancy. Cross-device handoff stability depends on network conditions, potentially causing delays or interruptions in weak signal areas."
-        },
-        {
-          "title": "大众ID.4 OTA升级频率真相：从承诺12周一次到3年才推",
-          "url": "https://auto.sina.cn/2026-07-08/detail-inihattw8203499.d.html?vt=4",
-          "site_name": "新浪汽车",
-          "publish_date": "2026-07-08",
-          "tags": [
-            "大众",
-            "ID.4",
-            "OTA",
-            "升级频率",
-            "用户体验"
-          ],
-          "summary": "【事件概述】大众ID.4的OTA升级频率被曝光与宣传严重不符。最初承诺每12周一次OTA更新，但实际从2023年提车到2026年，仅推送了少数几次升级，间隔长达3年。相比之下，主流新势力品牌（如小鹏、蔚来）通常保持每月或每季度一次的更新节奏。大众的OTA内容也较为有限，主要修复Bug，缺乏新功能引入。这导致用户提车后遇到的车机逻辑问题（如导航反应慢、语音识别不准）长期无法通过OTA解决，只能依赖线下4S店刷机。\n\n【体验价值】该事件从反面凸显了OTA频率对用户体验的关键性。高频OTA能让车辆“常用常新”，持续修复问题并引入新功能，提升用户满意度和车辆保值率。而低频OTA则让用户感觉车辆在提车后“停滞不前”，削弱了智能汽车的“软件定义”价值。\n\n【潜在槽点】大众的OTA困境反映了传统车企在软件组织架构和开发流程上的僵化。即使未来提升频率，若缺乏用户反馈闭环，更新内容仍可能偏离用户真实需求。此外，OTA升级过程中的车辆不可用时间（如升级期间无法驾驶）若未优化，也会引发用户不满。",
-          "summary_en": "【Event Overview】Volkswagen ID.4's OTA update frequency has been exposed as severely misaligned with initial promises. Originally promised every 12 weeks, actual updates have been sparse, with intervals of up to 3 years. In contrast, mainstream new energy brands (e.g., XPeng, NIO) typically deliver monthly or quarterly updates. VW's OTA content is also limited, mainly bug fixes without new features. This leaves users with unresolved infotainment issues (e.g., slow navigation, poor voice recognition) that can only be fixed at dealerships. \n\n【Experience Value】This case highlights the critical role of OTA frequency in user experience. High-frequency OTA keeps vehicles 'evergreen', continuously fixing issues and introducing new features, boosting satisfaction and resale value. Low-frequency OTA makes users feel the vehicle stagnates after purchase, undermining the 'software-defined' value of smart cars. \n\n【Potential Friction】VW's OTA struggles reflect rigid software organization and development processes in traditional automakers. Even if frequency improves, updates may still miss user needs without a feedback loop. Additionally, vehicle downtime during OTA (e.g., inability to drive) could frustrate users if not optimized."
-        },
-        {
-          "title": "座舱大模型落地竞速：从好用到易用，从尝鲜到常用",
-          "url": "https://h5.ifeng.com/c/vivoArticle/v002z2ymD5D5Dcwv8LbBzaWvKAu37D--eCP8LU1UonVx4JFU__?vivoBusiness=hiboardnews",
-          "site_name": "凤凰网",
-          "publish_date": "2026-07-11",
-          "tags": [
-            "大模型",
-            "座舱AI",
-            "语音交互",
-            "极氪",
-            "DeepSeek"
-          ],
-          "summary": "【事件概述】文章探讨了汽车座舱大模型从“尝鲜”到“常用”的落地挑战。极氪自研的Kr AI大模型与DeepSeek R1大模型融合，推动座舱端侧AI大规模应用，支持自然语言理解、多轮对话、知识问答等功能。然而，文章指出当前大模型上车效果与理想状态仍有差距：部分场景下响应延迟高、语义理解偏差、缺乏个性化记忆。行业面临的核心问题是如何让大模型从“能对话”进化到“懂用户”，实现真正的主动服务和场景化推荐。\n\n【体验价值】大模型上车后，语音交互从“命令式”升级为“对话式”，用户可用更自然的语言表达需求（如“我有点冷”而非“调高空调温度”），降低了交互门槛。端侧AI部署减少了网络依赖，提升了响应速度。长期来看，大模型有望通过学习用户习惯，提供个性化推荐（如根据驾驶风格推荐音乐、路线），提升座舱的“懂你”体验。\n\n【潜在槽点】大模型的高算力需求可能导致车机发热、功耗增加，影响续航。语义理解在方言、口音或复杂指令下仍易出错，造成交互挫败感。此外，大模型的“幻觉”问题（生成不准确信息）在驾驶场景中可能引发安全风险，例如推荐错误路线或解释车辆功能时误导用户。",
-          "summary_en": "【Event Overview】This article examines the challenges of moving large language models (LLMs) in vehicle cockpits from 'novelty' to 'daily use'. Geely's Kr AI model integrates with DeepSeek R1 for on-device AI, enabling natural language understanding, multi-turn dialogue, and knowledge Q&A. However, current performance still falls short: high latency, semantic errors, and lack of personalization. The core challenge is evolving LLMs from 'able to chat' to 'understanding users' for proactive service and contextual recommendations. \n\n【Experience Value】LLMs upgrade voice interaction from 'command-based' to 'conversational', allowing users to express needs naturally (e.g., 'I'm cold' instead of 'turn up AC'), lowering the interaction barrier. On-device AI reduces network dependency, improving response speed. Long-term, LLMs can learn user habits for personalized recommendations (e.g., music or routes based on driving style), enhancing the 'knows you' experience. \n\n【Potential Friction】High compute demands of LLMs may cause overheating and increased power consumption, affecting range. Semantic understanding still fails with dialects, accents, or complex commands, causing frustration. LLM 'hallucinations' (generating inaccurate info) pose safety risks in driving scenarios, e.g., recommending wrong routes or misinterpreting vehicle functions."
-        }
-      ],
-      "created_at": "2026-07-11 13:20:55"
     }
   ]
 }
