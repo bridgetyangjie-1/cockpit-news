@@ -1,6 +1,96 @@
 {
   "records": [
     {
+      "date": "2026-10-04",
+      "date_display": "10月04日",
+      "weekday": "周日",
+      "news_count": 5,
+      "news": [
+        {
+          "title": "问界全系国庆OTA升级：从座舱到智驾，一次“常用常新”的全面进化",
+          "url": "https://auto.news18a.com/news/storys_301590.html",
+          "site_name": "Auto",
+          "publish_date": "2026-10-02",
+          "tags": [
+            "问界",
+            "鸿蒙座舱",
+            "OTA",
+            "导航补能",
+            "交互优化",
+            "多车型覆盖"
+          ],
+          "summary": "【事件概述】问界汽车于国庆前夕推出覆盖M6、M7、M8、M9全系列的OTA升级，围绕辅助驾驶、鸿蒙座舱及便捷控车三大维度推送数十项功能更新。座舱侧重点包括导航补能路径优化、中控屏转向灯激活影像支持大小调节、语音交互体验迭代及座舱娱乐内容扩充。其中转向灯激活影像浮窗新增左下角调节按钮，允许用户自定义影像显示尺寸，避免遮挡导航信息。导航补能则结合实时路况与充电桩状态进行动态路径规划。整体升级策略强调“常用常新”，通过高频OTA维持全系车型的软件体验一致性，缩短新老车型间的功能代差。\n\n【体验价值】转向灯影像尺寸可调解决了浮窗遮挡导航的长期痛点，将控制权交还用户，体现以场景为中心的交互思路。导航补能联动则降低了长途出行的决策负担，属于高频刚需场景的实质性优化。\n\n【潜在槽点】数十项功能一次性推送，用户学习成本陡增，缺乏分层引导。影像浮窗调节入口较深，首次发现难度大。部分老车型硬件算力有限，功能下放后流畅度可能打折。",
+          "summary_en": "【Event Overview】AITO pushed a National Day OTA covering the full M6/M7/M8/M9 lineup, updating ADAS, HarmonyOS Cockpit, and remote vehicle control with dozens of new features. Cockpit highlights include optimized navigation-charging route planning, adjustable turn-signal camera overlay size via a new button, voice interaction refinements, and expanded entertainment content. The overlay resize addresses the common issue of navigation being obscured. Navigation-charging integration dynamically plans routes based on real-time traffic and charger status. The strategy emphasizes continuous OTA updates to maintain software parity across model generations.\n\n【Experience Value】Adjustable overlay size returns control to users and solves a real visibility pain point. Navigation-charging integration reduces cognitive load for long trips, delivering tangible value in high-frequency scenarios.\n\n【Potential Friction】Dozens of features at once create steep learning curves without tiered onboarding. The resize entry point is buried. Older models with limited compute may see degraded smoothness after feature backporting."
+        },
+        {
+          "title": "知识 - 手车互联怎么才能做到“无感”？拆解比亚迪和荣耀的协议级方案",
+          "url": "https://segmentfault.com/a/1190000048325382",
+          "site_name": "Segmentfault",
+          "publish_date": "2026-09-29",
+          "tags": [
+            "比亚迪",
+            "荣耀",
+            "手车互联",
+            "协议级方案",
+            "无感连接",
+            "跨生态"
+          ],
+          "summary": "【事件概述】文章深度拆解了比亚迪与荣耀在手车互联领域的协议级合作方案。双方并未直接切入座舱协同的复杂场景，而是选择从数字钥匙、无线充电等单一功能、痛点明确的场景入手，先建立合作信任和技术通道，再逐步推进至协议级深度互联。技术层面，方案涉及蓝牙+UWB融合定位、跨端身份认证协议、数据通道加密等底层能力，目标是实现用户靠近车辆即自动解锁、上车后手机应用与车机无缝接续的“无感”体验。这种“先占刚需、再深协同”的路径，为跨生态合作提供了可复用的方法论，降低了直接谈大合作的高失败率风险。\n\n【体验价值】从数字钥匙等刚需场景切入，用户无需学习新交互即可感知便利。协议级打通意味着连接稳定性和响应速度优于应用层方案，“无感”体验的核心在于消除手动操作步骤。\n\n【潜在槽点】协议级合作深度绑定特定手机品牌，换机即失效，生态封闭性风险高。UWB+蓝牙双模功耗控制若不佳，可能影响手机续航。跨端数据通道的隐私合规边界尚不清晰。",
+          "summary_en": "【Event Overview】This article dissects the protocol-level phone-to-vehicle connectivity partnership between BYD and Honor. Rather than tackling complex cockpit collaboration upfront, both parties started with single-function, high-pain-point scenarios like digital keys and wireless charging to build trust and technical channels before advancing to deep protocol-level integration. The solution involves Bluetooth+UWB fusion positioning, cross-device identity authentication protocols, and encrypted data channels, aiming for \"seamless\" experiences where users auto-unlock upon approach and phone apps continue on the car screen. This \"capture essentials first, deepen collaboration later\" approach offers a reusable methodology for cross-ecosystem partnerships.\n\n【Experience Value】Starting with essentials like digital keys means zero learning curve. Protocol-level integration delivers better stability and speed than app-layer solutions, with \"seamlessness\" defined by eliminating manual steps.\n\n【Potential Friction】Deep protocol partnerships lock users into specific phone brands—switching phones breaks the experience. UWB+Bluetooth dual-mode power consumption may impact battery life. Privacy compliance boundaries for cross-device data channels remain unclear."
+        },
+        {
+          "title": "DiAuto,安卓车机用手车互联,完全免费,Android Auto方案,支持无线及USB",
+          "url": "https://www.yeyulingfeng.com/a/1091700.html",
+          "site_name": "Yeyulingfeng",
+          "publish_date": "2026-09-28",
+          "tags": [
+            "DiAuto",
+            "Android Auto",
+            "手车互联",
+            "第三方方案",
+            "无线连接",
+            "HUD投屏"
+          ],
+          "summary": "【事件概述】DiAuto是一款由海外开发者推出的免费手车互联软件，专为兼容的安卓车机提供Android Auto方案，无需额外硬件盒子即可实现无线及USB连接。与此前发布的DiPlay（面向CarPlay方案）形成互补，DiAuto搭配支持Android Auto协议的安卓手机使用。最新版本均支持HUD显示投屏功能，可将导航、车速等关键信息投射至抬头显示区域。该方案的核心价值在于绕过了原厂车机对Android Auto的限制，让大量未预装该功能的安卓车机也能获得标准化的手车互联体验。对于车机系统封闭、应用生态匮乏的车型而言，这是一种低成本的功能扩展路径。\n\n【体验价值】零硬件成本实现Android Auto，大幅降低了手车互联的门槛。HUD投屏将导航信息前置，减少驾驶员视线偏移，提升行车安全。无线连接消除了线缆束缚。\n\n【潜在槽点】第三方方案稳定性依赖车机兼容性，不同车型表现差异大。非官方渠道安装存在安全风险，且无法获得OTA维护保障。HUD投屏的延迟和适配精度可能不及原厂方案。",
+          "summary_en": "【Event Overview】DiAuto is a free phone-to-vehicle connectivity app by overseas developers that brings Android Auto to compatible Android head units without additional hardware dongles, supporting both wireless and USB connections. It complements DiPlay (for CarPlay) and pairs with Android phones supporting Android Auto protocols. The latest versions support HUD projection for navigation, speed, and other key information. The core value lies in bypassing OEM restrictions on Android Auto, enabling standardized connectivity for head units that lack it natively—a low-cost feature expansion path for closed, app-poor vehicle systems.\n\n【Experience Value】Zero hardware cost for Android Auto dramatically lowers the barrier. HUD projection reduces driver gaze deviation for safety. Wireless connectivity eliminates cable clutter.\n\n【Potential Friction】Third-party stability varies widely across head units. Non-official installation carries security risks with no OTA maintenance. HUD projection latency and calibration may lag behind OEM solutions."
+        },
+        {
+          "title": "carwith2.0支持车型-有驾",
+          "url": "https://www.yoojia.com/wenda/1216190.html",
+          "site_name": "Yoojia",
+          "publish_date": "2026-09-30",
+          "tags": [
+            "小米",
+            "澎湃OS",
+            "CarWith",
+            "手车互联",
+            "Carlife",
+            "亿联",
+            "ICCOA"
+          ],
+          "summary": "【事件概述】小米CarWith随澎湃OS发布迎来2.0版本升级，核心变化是连接通道的扩展：从此前仅支持ICCOA协议，新增支持Carlife和亿联两种连接通道。这意味着CarWith的适配车型范围大幅扩展，不再局限于ICCOA联盟成员车型，大量仅支持Carlife或亿联的存量车型也能接入小米的手车互联生态。功能层面，CarWith 2.0延续了手机应用投屏、导航流转、音乐接续等核心能力，用户可通过无线或有线方式连接。此次升级的战略意义在于，小米通过兼容主流第三方连接协议，快速扩大了CarWith的车型覆盖面，弥补了自身作为后来者在车载生态上的入口短板，为澎湃OS“人车家全互联”愿景铺设了更广泛的车端基础。\n\n【体验价值】多协议兼容让更多存量车主无需换车即可体验小米手车互联，降低了生态迁移成本。Carlife和亿联的成熟度较高，连接稳定性有保障。\n\n【潜在槽点】多协议适配可能导致不同通道下功能体验不一致，用户难以预期。CarWith依赖手机端澎湃OS，非小米用户体验受限。协议兼容层的维护成本高，长期更新节奏存疑。",
+          "summary_en": "【Event Overview】Xiaomi CarWith received a 2.0 upgrade alongside HyperOS, expanding connectivity from ICCOA-only to also support Carlife and EasyLink channels. This significantly broadens compatible vehicle models beyond ICCOA alliance members, allowing many existing cars with only Carlife or EasyLink to access Xiaomi's phone-to-vehicle ecosystem. CarWith 2.0 retains core capabilities including app projection, navigation handoff, and music continuity via wireless or wired connections. Strategically, Xiaomi is rapidly expanding CarWith's vehicle coverage by embracing mainstream third-party protocols, compensating for its latecomer disadvantage in automotive ecosystem entry points and laying broader vehicle-side foundations for HyperOS's \"human-car-home\" vision.\n\n【Experience Value】Multi-protocol compatibility lets existing car owners experience Xiaomi connectivity without buying new vehicles, lowering ecosystem migration costs. Carlife and EasyLink are mature with reliable stability.\n\n【Potential Friction】Multi-protocol adaptation may cause inconsistent experiences across channels. CarWith depends on HyperOS, limiting non-Xiaomi users. Protocol compatibility layer maintenance costs are high, raising doubts about long-term update cadence."
+        },
+        {
+          "title": "车载大模型走向量产：智能座舱如何从语音控制进化为AI交互系统",
+          "url": "https://www.mtmtransformationcoaching.com/news/2026-09-29_1ed554.html",
+          "site_name": "Mtmtransformationcoaching",
+          "publish_date": "2026-09-29",
+          "tags": [
+            "车载大模型",
+            "AI Agent",
+            "语音交互",
+            "任务拆解",
+            "多意图识别",
+            "量产"
+          ],
+          "summary": "【事件概述】文章指出车载大模型的核心变化并非让车机“会聊天”，而是赋予车辆任务拆解能力。传统语音助手接收到“我要吃饭”时仅能搜索附近餐厅，而AI Agent需要进一步判断用户当前位置、剩余续航、预计到达时间，并协调导航、地图、支付等服务完成闭环。2025年发布的多款智能车型中，语音助手已开始支持连续对话、免唤醒、多意图识别等能力。以Apollo智舱大模型为例，其小度车载智慧助手基于文心大模型训练优化，目标是从问答工具进化为具备理解能力的智能体。这标志着座舱交互从“指令-执行”模式向“意图-规划-执行”模式跃迁，对底层服务调度和上下文管理能力提出更高要求。\n\n【体验价值】任务拆解能力将多步操作压缩为一次自然语言表达，显著降低驾驶场景下的操作复杂度。连续对话和免唤醒减少了重复唤醒的交互摩擦，使语音交互更接近人际沟通。\n\n【潜在槽点】AI Agent的决策透明度不足，用户难以理解为何推荐某条路线或某家餐厅。多意图识别在嘈杂车内环境下的准确率存疑。服务闭环涉及支付等敏感操作，授权边界和误操作风险需严格管控。",
+          "summary_en": "【Event Overview】The article argues that the core shift in in-vehicle large models isn't making head units \"chatty\" but giving vehicles task decomposition capability. When a traditional voice assistant hears \"I want to eat,\" it only searches nearby restaurants; an AI Agent must assess the user's location, remaining range, ETA, and coordinate navigation, maps, and payment services into a closed loop. Multiple 2025 smart models now support continuous dialogue, wake-word-free operation, and multi-intent recognition. Apollo's cockpit large model, for instance, uses ERNIE for training, aiming to evolve from a Q&A tool into an intelligent agent with comprehension. This marks a leap from \"command-execute\" to \"intent-plan-execute\" interaction paradigms.\n\n【Experience Value】Task decomposition compresses multi-step operations into one natural language expression, dramatically reducing complexity while driving. Continuous dialogue and wake-word-free operation reduce interaction friction, making voice feel more conversational.\n\n【Potential Friction】AI Agent decision transparency is insufficient—users can't understand why a route or restaurant is recommended. Multi-intent accuracy in noisy cabin environments is questionable. Service loops involving payments need strict authorization boundaries and misoperation controls."
+        }
+      ],
+      "created_at": "2026-10-04 16:19:29"
+    },
+    {
       "date": "2026-09-29",
       "date_display": "09月29日",
       "weekday": "周二",
@@ -3478,30 +3568,6 @@
         }
       ],
       "created_at": "2026-07-13 13:47:23"
-    },
-    {
-      "date": "2026-07-12",
-      "date_display": "07月12日",
-      "weekday": "周日",
-      "news_count": 1,
-      "news": [
-        {
-          "title": "联友智连：AI原生赋能智能座舱交互升级",
-          "url": "https://auto.gasgoo.com/news/202607/7I70464778C104.shtml",
-          "site_name": "Auto",
-          "publish_date": "2026-07-12",
-          "tags": [
-            "联友智连",
-            "AI原生",
-            "记忆引擎",
-            "个性化交互",
-            "座舱OS"
-          ],
-          "summary": "【事件概述】联友智连推出AI原生智能座舱方案，核心创新是“双通道记忆引擎”，通过端侧和云侧协同学习用户行为，实现“越用越懂你”的个性化交互。系统能记忆座椅位置、空调偏好、常用路线等，并主动推荐场景模式（如“通勤模式”自动调整导航和音乐）。此外，方案支持多模态交互，融合语音、手势、视线控制，提升操作效率。\n\n【体验价值】从UX视角看，记忆引擎减少重复设置，用户无需每次上车调整，提升便捷性。主动推荐场景模式降低认知负荷，用户只需确认即可。多模态交互提供冗余操作路径，适应不同场景（如驾驶中用手势控制音量），增强安全性和灵活性。\n\n【潜在槽点】记忆引擎可能误判用户意图，如推荐不合适的场景模式，导致用户反感。多模态交互的融合可能增加系统复杂度，导致响应延迟或误触发。用户隐私数据（如位置、偏好）的云端存储可能引发安全担忧，需明确数据使用政策。",
-          "summary_en": "【Event Overview】Lianyou Zhilian launched an AI-native smart cockpit solution, featuring a 'dual-channel memory engine' that learns user behavior via edge and cloud collaboration for personalized interaction. It remembers seat positions, AC preferences, common routes, and proactively recommends scene modes (e.g., 'Commute Mode' adjusting navigation and music). The solution also supports multimodal interaction, integrating voice, gesture, and gaze control.\n\n【Experience Value】From a UX perspective, the memory engine reduces repetitive settings, improving convenience. Proactive scene recommendations lower cognitive load, requiring only user confirmation. Multimodal interaction provides redundant operation paths, adapting to different scenarios (e.g., gesture control for volume while driving), enhancing safety and flexibility.\n\n【Potential Friction】The memory engine may misjudge user intent, recommending inappropriate scene modes, causing annoyance. Multimodal integration may increase system complexity, leading to response lag or false triggers. User privacy data (e.g., location, preferences) stored in the cloud may raise security concerns, requiring clear data usage policies."
-        }
-      ],
-      "created_at": "2026-07-12 13:36:48"
     }
   ]
 }
