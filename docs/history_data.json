@@ -1,6 +1,79 @@
 {
   "records": [
     {
+      "date": "2026-10-13",
+      "date_display": "10月13日",
+      "weekday": "周二",
+      "news_count": 4,
+      "news": [
+        {
+          "title": "特斯拉海外固件解封 Automations：车机迎来快捷指令时刻",
+          "url": "https://daily.steinslab.io/consumer/2026-10-13-tesla-automations-china-first-global-rollout/",
+          "site_name": "Daily",
+          "publish_date": "2026-10-13",
+          "tags": [
+            "特斯拉",
+            "Automations",
+            "规则引擎",
+            "OTA",
+            "快捷指令",
+            "场景自动化"
+          ],
+          "summary": "【事件概述】特斯拉海外最新固件正式解封并打磨完成 Automations 自动化功能，该功能此前已在中国市场率先落地验证。核心机制是一套规则引擎，提供 12 类触发器（如时间、位置、车速、充电状态、车门开关等）与多动作串联能力，用户可自定义「当满足某条件时自动执行一系列操作」的自动化流程，例如「到达公司自动关闭车窗并开启哨兵模式」「气温低于5度自动开启座椅加热和方向盘加热」。这一功能本质上是将消费电子领域成熟的快捷指令（Shortcuts）范式移植到车机座舱，让用户从被动接受预设功能转变为主动编排个性化场景。值得注意的是，该功能选择在中国市场率先落地再向全球推广，表明中国复杂的用车场景已成为特斯拉核心软件功能的全球试验场。\n\n【体验价值】从 UX 视角看，Automations 将座舱控制权真正交还给用户，打破了传统车机「厂商定义功能、用户被动使用」的单向模式。12 类触发器覆盖了高频用车场景，多动作串联降低了重复操作负担，用户无需每次手动调整多项设置，一次编排即可长期受益。这种「编程式交互」对极客用户极具吸引力，也为普通用户提供了从简单到复杂的渐进式学习路径。\n\n【潜在槽点】规则引擎的学习门槛不可忽视，普通用户可能面对触发器与动作的组合感到困惑，容易因配置错误导致意外行为（如误触发车窗开启）。此外，位置触发涉及持续定位，存在隐私顾虑；多条件叠加时的优先级与冲突处理逻辑若不透明，可能引发用户对系统可靠性的信任危机。",
+          "summary_en": "【Event Overview】Tesla's latest overseas firmware officially unlocks and polishes the Automations feature, which was first deployed and validated in the Chinese market. The core mechanism is a rule engine offering 12 types of triggers (time, location, speed, charging status, door state, etc.) and multi-action chaining, allowing users to define automated workflows such as 'close windows and enable Sentry Mode upon arriving at office' or 'activate seat and steering wheel heating when temperature drops below 5°C.' This feature essentially transplants the mature Shortcuts paradigm from consumer electronics into the vehicle cockpit, shifting users from passive recipients of preset functions to active orchestrators of personalized scenarios. Notably, China-first deployment before global rollout signals that China's complex driving scenarios have become Tesla's global testing ground for core software features.\n\n【Experience Value】From a UX perspective, Automations genuinely returns cockpit control to users, breaking the traditional one-way model of 'manufacturer defines features, user passively consumes.' The 12 trigger types cover high-frequency driving scenarios, and multi-action chaining reduces repetitive manual adjustments—one configuration yields long-term benefits. This 'programmatic interaction' is highly appealing to geek users while offering a progressive learning path for mainstream users.\n\n【Potential Friction】The learning curve of a rule engine is non-trivial; average users may struggle with trigger-action combinations and risk misconfiguration causing unintended behavior (e.g., accidental window opening). Location triggers involve continuous positioning, raising privacy concerns. If priority and conflict-resolution logic for overlapping conditions lacks transparency, it could erode user trust in system reliability."
+        },
+        {
+          "title": "车企内参｜问界推出国庆版本OTA升级：覆盖M6/M7/M8/M9车型背后的产品...",
+          "url": "https://www.pageev.com/hangye/152165.html",
+          "site_name": "Pageev",
+          "publish_date": "2026-10-08",
+          "tags": [
+            "问界",
+            "鸿蒙座舱",
+            "OTA",
+            "超级桌面",
+            "语音交互",
+            "安全急停"
+          ],
+          "summary": "【事件概述】问界面向 M6/M7/M8/M9 全系车型推送国庆版本 OTA 升级，覆盖鸿蒙座舱多项核心软件功能。本次升级的亮点集中在三个维度：其一，超级桌面新增设置车机壁纸和空间音频功能，进一步打通手机与车机的生态边界，用户可将手机端个性化设置无缝延展至车机；其二，语音交互新增安全急停功能，当座椅移动过程中系统可智能识别语音指令并立即停止座椅动作，以减少夹伤风险，这是将语音助手从「功能执行者」升级为「安全守护者」的重要尝试；其三，全新一代问界 M9 新增金秋画卷迎宾灯效及「鸿运当头」「福禄双全」等情景灯语，将节日文化元素融入座舱交互。整体来看，本次 OTA 体现了鸿蒙座舱在生态融合、安全交互和情感化设计三个方向的持续迭代。\n\n【体验价值】安全急停功能是本次升级中最具 UX 价值的创新——它利用语音交互的即时性来弥补物理座椅调节中潜在的安全盲区，尤其对后排儿童乘客的保护意义显著。超级桌面壁纸与空间音频的加入则强化了「手机即车机」的生态一致性体验，降低了跨设备切换的认知成本。情景灯语虽属锦上添花，但有效提升了节日场景下的情感连接。\n\n【潜在槽点】安全急停依赖语音识别在座椅移动噪音环境下的准确性，若误识别或漏识别，反而可能造成安全隐患。超级桌面壁纸同步可能带来手机与车机显示比例不匹配的适配问题。情景灯语功能存在「新鲜感衰减」风险，节后使用频率可能骤降，沦为一次性营销噱头。",
+          "summary_en": "【Event Overview】AITO has pushed a National Day OTA update to its M6/M7/M8/M9 lineup, covering multiple core HarmonyOS Cockpit software features. Highlights span three dimensions: First, Super Desktop adds custom wallpaper and spatial audio, further bridging phone-cockpit ecosystem boundaries so users can seamlessly extend personalized phone settings to the vehicle. Second, voice interaction gains a Safety Emergency Stop feature—when seats are moving, the system intelligently recognizes voice commands to immediately halt seat motion, reducing pinch injury risk. This marks an important attempt to upgrade the voice assistant from 'function executor' to 'safety guardian.' Third, the new M9 adds autumn-themed welcome light effects and scenario-based light language such as 'Fortune Arrives' and 'Blessings Abound,' integrating festive cultural elements into cockpit interaction. Overall, this OTA reflects HarmonyOS Cockpit's continued iteration across ecosystem fusion, safety interaction, and emotional design.\n\n【Experience Value】The Safety Emergency Stop is the most UX-valuable innovation here—it leverages voice interaction's immediacy to compensate for safety blind spots in physical seat adjustment, particularly significant for rear-seat child passengers. Super Desktop wallpaper and spatial audio reinforce the 'phone-as-cockpit' ecosystem consistency, reducing cross-device cognitive switching costs. Scenario light language, while supplementary, effectively enhances emotional connection during festive occasions.\n\n【Potential Friction】Safety Emergency Stop relies on voice recognition accuracy amid seat-motor noise; misrecognition or missed detection could paradoxically create safety hazards. Wallpaper sync may face aspect-ratio mismatch issues between phone and cockpit displays. Scenario light language risks 'novelty decay'—usage frequency may plummet after holidays, reducing it to a one-off marketing gimmick."
+        },
+        {
+          "title": "风云T9L迎首轮大版本OTA，不换硬件让老车主解锁全场景新体验",
+          "url": "https://www.sohu.com/a/1086020423_122002",
+          "site_name": "Sohu",
+          "publish_date": "2026-10-10",
+          "tags": [
+            "奇瑞",
+            "风云T9L",
+            "OTA",
+            "猎鹰智驾",
+            "智能平权",
+            "全场景升级"
+          ],
+          "summary": "【事件概述】奇瑞风云 T9L 迎来上市后首轮大版本 OTA 升级，主打「不换硬件、全场景满配」的升级理念。本次 OTA 的核心卖点在于：老车主无需更换任何硬件即可同步获得最新软件功能，覆盖智能驾驶辅助、座舱交互、车控体验等多个模块。奇瑞将其定义为「智能平权」和「服务平权」——即车主不会因购车时间先后而被区别对待，交付不是终点而是服务持续在线的起点。这一策略直接回应了当前行业普遍存在的「OTA 挤牙膏」痛点：许多车企的 OTA 升级幅度小、频次低，用户感知微弱。风云 T9L 选择在首轮 OTA 中一次性释放大量功能，试图以「满配升级」建立差异化口碑。从行业视角看，这代表了传统车企在软件定义汽车浪潮下，从「卖硬件」向「卖服务」转型的积极尝试。\n\n【体验价值】一次性大版本 OTA 对用户而言意味着「开新车」般的新鲜感和功能获得感，尤其对早期购车用户而言，持续的功能更新有效延长了产品的体验生命周期，降低了「买完就落后」的焦虑。全场景覆盖的升级策略也减少了用户需要逐项学习新功能的碎片化负担，一次性建立完整的系统认知。\n\n【潜在槽点】「不换硬件」的承诺可能受限于老车型的算力天花板，部分功能在实际运行中可能出现卡顿或体验打折。一次性推送大量功能可能导致用户学习曲线陡增，部分隐藏较深的功能可能长期不被发现和使用。此外，「满配」宣传若与实际体验存在落差，反而会加剧用户失望感。",
+          "summary_en": "【Event Overview】Chery's Fengyun T9L receives its first major OTA update since launch, championing a 'no hardware swap, full-scenario maxed-out' upgrade philosophy. The core selling point: existing owners gain all latest software features without any hardware replacement, covering intelligent driving assistance, cockpit interaction, and vehicle control modules. Chery frames this as 'smart equality' and 'service equality'—owners won't be treated differently based on purchase timing; delivery is not the endpoint but the starting point of continuous service. This strategy directly addresses the industry-wide 'OTA drip-feeding' pain point: many automakers offer small, infrequent updates with minimal user perception. Fengyun T9L chooses to release a massive feature set in its first OTA round, attempting to build differentiated reputation through 'maxed-out upgrades.' From an industry perspective, this represents traditional automakers' proactive attempt to transition from 'selling hardware' to 'selling services' in the software-defined vehicle era.\n\n【Experience Value】A one-time major OTA gives users a 'new car' feeling of freshness and feature acquisition. For early buyers especially, continuous feature updates effectively extend the product's experiential lifecycle, reducing 'outdated-after-purchase' anxiety. The full-scenario coverage strategy also reduces the fragmented burden of learning features piecemeal, establishing complete system cognition in one go.\n\n【Potential Friction】The 'no hardware swap' promise may be constrained by older models' compute ceilings, potentially causing lag or degraded experience for some features. Pushing numerous features at once may steepen the learning curve, with deeply buried functions going undiscovered long-term. Moreover, if 'maxed-out' marketing diverges from actual experience, it could amplify user disappointment."
+        },
+        {
+          "title": "问界M7多屏联动是真香还是鸡肋？3个维度讲透鸿蒙座舱+FAQ|鸿蒙智行|问...",
+          "url": "https://auto.sina.cn/2026-10-09/detail-iniurvzz6685200.d.html",
+          "site_name": "新浪汽车",
+          "publish_date": "2026-10-09",
+          "tags": [
+            "问界",
+            "鸿蒙座舱",
+            "多屏联动",
+            "超级桌面",
+            "MagLink",
+            "儿童守护"
+          ],
+          "summary": "【事件概述】全新问界 M7 以中控三屏加后排 17.3 英寸实体屏的组合，配合华为 MagLink 和超级桌面，将多屏联动打造为家庭出行场景的核心卖点。其软件交互的核心创新不在于屏幕数量本身，而在于场景化能力的深度整合：前后排乘客可互相控屏，实现跨屏内容流转；华为平板通过 MagLink 接口「秒上车」，无缝融入座舱生态；儿童守护功能则针对家庭用户提供后排专属的娱乐与安全管控。超级桌面进一步打通手机应用生态与车机之间的壁垒，使车机不再是信息孤岛。整体设计思路是将座舱从「驾驶工具」重新定义为「移动家庭空间」，多屏之间的协同而非孤立运行是体验差异化的关键。\n\n【体验价值】前后排互控屏解决了家庭出行中「后排乘客需求难以被前排响应」的痛点，家长可直接帮助后排儿童调整内容，减少停车操作。MagLink 平板秒上车的设计降低了设备连接的技术门槛，让非科技用户也能轻松使用。儿童守护功能从 UX 角度体现了对细分人群的深度洞察，将安全管控与娱乐需求合二为一。\n\n【潜在槽点】多屏联动的交互逻辑复杂度较高，用户需要学习不同屏幕间的权限关系和操作规则，初期学习成本不低。后排大屏在行驶中可能加剧乘客晕车风险。儿童守护功能的管控边界若过于严格，可能引发孩子的抵触情绪；若过于宽松，则失去守护意义。",
+          "summary_en": "【Event Overview】The new AITO M7 combines triple center screens with a 17.3-inch rear physical display, paired with Huawei MagLink and Super Desktop, positioning multi-screen interaction as a core selling point for family travel scenarios. The core software innovation isn't screen count itself but deep integration of scenario-based capabilities: front and rear passengers can mutually control screens for cross-display content flow; Huawei tablets 'instantly board' via MagLink interface, seamlessly integrating into the cockpit ecosystem; Child Guardian mode provides rear-seat-specific entertainment and safety controls for family users. Super Desktop further breaks barriers between phone app ecosystems and the cockpit, ensuring the vehicle is no longer an information island. The overall design philosophy redefines the cockpit from 'driving tool' to 'mobile family space,' with inter-screen collaboration rather than isolated operation being the key differentiator.\n\n【Experience Value】Front-rear mutual screen control solves the pain point of 'rear passenger needs being hard for front occupants to address' during family trips—parents can directly help rear-seat children adjust content, reducing stop-and-operate behavior. MagLink's instant tablet boarding lowers the technical threshold for device connection, making it accessible to non-tech users. Child Guardian mode reflects deep insight into a specific user segment from a UX perspective, merging safety control with entertainment needs.\n\n【Potential Friction】Multi-screen interaction logic is highly complex; users must learn permission relationships and operating rules across different screens, resulting in a non-trivial initial learning cost. Rear large screens during driving may exacerbate passenger motion sickness. If Child Guardian's control boundaries are too strict, it may trigger child resistance; if too loose, it loses its protective purpose."
+        }
+      ],
+      "created_at": "2026-10-13 17:16:47"
+    },
+    {
       "date": "2026-10-12",
       "date_display": "10月12日",
       "weekday": "周一",
@@ -3708,29 +3781,6 @@
         }
       ],
       "created_at": "2026-07-19 13:30:44"
-    },
-    {
-      "date": "2026-07-18",
-      "date_display": "07月18日",
-      "weekday": "周六",
-      "news_count": 1,
-      "news": [
-        {
-          "title": "200万台背后：Flyme Auto如何用四连冠，改写智能座舱游戏规则？",
-          "url": "https://www.163.com/dy/article/KETQ452T05119JDG.html",
-          "site_name": "网易",
-          "publish_date": "2026-07-18",
-          "tags": [
-            "魅族",
-            "Flyme Auto",
-            "生态用户",
-            "手车互联"
-          ],
-          "summary": "【事件概述】魅族宣布其智能座舱系统Flyme Auto在6个月内达成第二个100万生态用户数，累计用户突破200万，成为搭载最多、增速最快、覆盖最广的智能座舱系统。该里程碑标志着Flyme Auto在智能汽车生态领域的全面领跑。核心创新在于其“手车互联”生态，通过手机与车机的无缝流转，实现应用、数据、服务的跨端协同，例如手机导航无缝切换至车机、音乐播放列表同步等。此外，Flyme Auto采用“无界桌面”设计，将手机应用直接映射至车机，无需额外适配，大幅降低了生态门槛。\n\n【体验价值】从UX视角看，Flyme Auto的“无界桌面”和手车互联消除了用户在不同设备间的割裂感，实现了“一次登录，全端同步”的流畅体验。用户无需学习车机专属应用，直接使用手机习惯的App，降低了学习成本，提升了座舱的实用性和娱乐性。\n\n【潜在槽点】该模式高度依赖魅族手机生态，非魅族手机用户可能无法享受完整功能，导致体验碎片化。同时，手机应用直接映射至车机，可能因界面适配不佳（如竖屏应用横屏显示）造成交互冗余，且隐私数据（如通讯录、位置）在车机端的安全管理需进一步明确。",
-          "summary_en": "【Event Overview】Meizu announced that its smart cockpit system Flyme Auto reached its second 100 million ecosystem users in 6 months, totaling over 200 million, making it the most widely adopted, fastest-growing system. The core innovation lies in its 'phone-car connectivity' ecosystem, enabling seamless cross-device flow of apps, data, and services, such as navigation handoff and music playlist sync. The 'Boundless Desktop' design directly mirrors phone apps onto the car screen without adaptation, lowering the ecosystem barrier. \n\n【Experience Value】From a UX perspective, Flyme Auto's 'Boundless Desktop' and phone-car connectivity eliminate device fragmentation, offering a 'one login, all sync' experience. Users can use familiar phone apps without learning new car-specific ones, reducing learning costs and enhancing practicality and entertainment. \n\n【Potential Friction】The system heavily relies on Meizu phones; non-MeiZu users may face fragmented experiences. Directly mirroring phone apps may cause poor UI adaptation (e.g., portrait apps on landscape screens), leading to interaction redundancy. Privacy risks regarding data (contacts, location) on the car side need clearer management."
-        }
-      ],
-      "created_at": "2026-07-18 12:55:27"
     }
   ]
 }
