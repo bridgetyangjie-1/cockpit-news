@@ -1,6 +1,79 @@
 {
   "records": [
     {
+      "date": "2026-10-21",
+      "date_display": "10月21日",
+      "weekday": "周三",
+      "news_count": 4,
+      "news": [
+        {
+          "title": "迪迪虾接入多领域生态，比亚迪把第三方服务搬进车机",
+          "url": "https://www.sohu.com/a/1090544028_121880769",
+          "site_name": "Sohu",
+          "publish_date": "2026-10-20",
+          "tags": [
+            "比亚迪",
+            "DiLink",
+            "Agent",
+            "MCP",
+            "A2A",
+            "生态开放"
+          ],
+          "summary": "【事件概述】比亚迪迪迪虾迎来关键升级，通过生态智能体开放平台引入第三方Agent，并支持A2A（Agent-to-Agent）、MCP（Model Context Protocol）等标准协议，让外部服务以智能体形态直接接入车辆智能体体系。这意味着车机从被动执行语音指令的\"听话\"阶段，迈向可调用外部服务完成订票、点餐、查询等任务的\"办事\"阶段。其核心创新在于用标准化协议打通车机与第三方服务生态，而非依赖逐个应用适配，理论上可大幅扩展服务边界并降低接入成本。\n\n【体验价值】用户可用自然语言一句话完成跨服务任务，减少在多个App间跳转的操作负担，交互路径显著缩短，符合驾驶场景低分心需求。\n\n【潜在槽点】多Agent协同的响应延迟与失败回退机制尚不明确，第三方Agent质量参差可能带来错误执行；协议开放也引入数据跨服务流转的隐私合规风险，实际落地稳定性待验证。",
+          "summary_en": "【Event Overview】BYD's Didixia introduces third-party Agents via an open ecosystem platform supporting A2A and MCP protocols, letting external services plug directly into the vehicle agent system. The car shifts from merely following voice commands to actually completing tasks such as booking and ordering. The key innovation is standardized protocols replacing per-app adaptation, theoretically expanding service scope at lower integration cost.\n\n【Experience Value】Users can complete cross-service tasks with one natural-language sentence, cutting app-switching and distraction in driving scenarios.\n\n【Potential Friction】Multi-agent latency and fallback behavior are unclear; uneven third-party Agent quality may cause wrong executions, and open protocols raise cross-service data privacy compliance risks."
+        },
+        {
+          "title": "手车互联生态扩容 全新理想i9引入HUAWEI HiCar功能",
+          "url": "https://www.cqn.com.cn/auto/content/2026-10/21/content_9177333.htm",
+          "site_name": "Cqn",
+          "publish_date": "2026-10-21",
+          "tags": [
+            "理想",
+            "HUAWEI HiCar",
+            "手车互联",
+            "无感连接",
+            "应用流转",
+            "手机镜像"
+          ],
+          "summary": "【事件概述】理想汽车宣布全新i9引入HUAWEI HiCar手车互联功能，实现上车无感互联：导航、音乐及常用应用可自动流转至车机，手机镜像支持宽幅与窄幅模式切换，手机端查看商家或地址后摇一摇即可流转至车机导航。该功能首发搭载于理想i9，标志着理想在自研车机生态之外，主动兼容第三方手机生态以扩大用户覆盖。其创新点在于跨端无感连接与摇一摇流转的轻交互设计，降低手机与车机之间的操作割裂感。\n\n【体验价值】无感连接省去配对步骤，摇一摇流转贴合用户直觉，导航与音乐无缝续接显著提升上车即用的连贯体验。\n\n【潜在槽点】非华为手机用户能否完整使用存疑，生态绑定可能造成体验分层；宽窄屏镜像切换增加认知负担，跨端数据流转也带来隐私与兼容性挑战。",
+          "summary_en": "【Event Overview】Li Auto announces HUAWEI HiCar support on the new i9, enabling seamless in-car connection: navigation, music and common apps flow to the head unit, phone mirroring supports wide and narrow modes, and a shake gesture sends addresses to car navigation. Debuting on the i9, it marks Li Auto embracing third-party phone ecosystems beyond its own. The innovation lies in seamless cross-device connection and the lightweight shake-to-transfer interaction.\n\n【Experience Value】Seamless connection removes pairing steps; shake-to-transfer matches intuition; navigation and music continuity greatly improve the get-in-and-go experience.\n\n【Potential Friction】Full functionality for non-Huawei phones is questionable, risking tiered experiences; wide/narrow mirror switching adds cognitive load, and cross-device data flow raises privacy and compatibility challenges."
+        },
+        {
+          "title": "理想多屏联动到底强在哪？3块屏各司其职+OTA V8.0实测",
+          "url": "https://www.weibo.com/2/detail/comos:nivwuif5687314",
+          "site_name": "Weibo",
+          "publish_date": "2026-10-20",
+          "tags": [
+            "理想",
+            "OTA V8.0",
+            "多屏联动",
+            "NAS",
+            "影音库",
+            "后排娱乐"
+          ],
+          "summary": "【事件概述】理想OTA V8.0实测显示，多屏联动核心从屏幕数量转向三屏分工协同：打通影音娱乐、车控与后排体验的数据流转。V8.0接入极空间NAS客户端后，三屏均可访问同一影音库，后排21.4英寸屏可独立操作，结合5D影院与全车K歌场景，多屏联动从功能堆叠进化为场景化协同。其创新在于以统一数据源和跨屏权限管理支撑前后排差异化使用，属于座舱内容生态与交互架构的软件层升级。\n\n【体验价值】统一影音库让前后排共享内容又各自独立操作，减少重复登录与切换，后排娱乐自主性提升，家庭出行场景体验更完整。\n\n【潜在槽点】NAS接入依赖用户自建存储，门槛较高；多屏独立操作可能引发内容与音量冲突，跨屏权限与账号管理若不清晰，易造成交互冗余。",
+          "summary_en": "【Event Overview】Li Auto's OTA V8.0 test shows multi-screen synergy shifting from screen count to role division across three displays, unifying entertainment, vehicle control and rear-seat data flow. With the Jikongjian NAS client, all three screens access the same media library, and the 21.4-inch rear screen operates independently. Combined with 5D cinema and karaoke scenarios, multi-screen moves from feature stacking to scenario coordination via a unified data source and cross-screen permission management.\n\n【Experience Value】A shared media library lets front and rear share content while operating independently, reducing repeated logins and switching; rear-seat autonomy improves family travel.\n\n【Potential Friction】NAS access requires user-built storage, a high barrier; independent multi-screen operation may cause content and volume conflicts, and unclear cross-screen permissions add redundancy."
+        },
+        {
+          "title": "鸿蒙座舱季度报告正式发布 小艺累计被唤醒达14亿次",
+          "url": "https://smartcar.cnmo.com/news/820362.html",
+          "site_name": "Smartcar",
+          "publish_date": "2026-10-15",
+          "tags": [
+            "鸿蒙座舱",
+            "小艺",
+            "语音交互",
+            "大模型",
+            "座舱生态",
+            "用户数据"
+          ],
+          "summary": "【事件概述】鸿蒙座舱季度报告显示，小艺本季度累计被唤醒14亿次，环比新增8600万次；其中语音唤醒导航2.47亿次、语音控车3.78亿次，语音仍是车内最常用操作方式；座舱大模型累计调用2.15亿次，环比增长21.3%。数据揭示语音交互已从尝鲜功能转为高频刚需，大模型调用增长反映用户对问答、生成等复杂交互的接受度提升。其价值在于以真实使用数据验证语音优先的座舱交互范式，为UI精简与主动服务设计提供依据。\n\n【体验价值】高频语音控车与导航说明免手操作路径成熟，大模型调用增长意味着复杂需求可在车内闭环，减少触屏层级。\n\n【潜在槽点】唤醒次数高不等于满意度高，误唤醒与重复唤醒可能虚增数据；大模型调用增长伴随幻觉与隐私风险，语音优先也可能挤压其他交互方式的合理性。",
+          "summary_en": "【Event Overview】HarmonyOS Cockpit quarterly report shows Xiao Yi was awakened 1.4 billion times this quarter, up 86 million; voice navigation reached 247 million and voice vehicle control 378 million, confirming voice as the most-used in-car operation. Cockpit large-model calls hit 215 million, up 21.3% quarter-over-quarter. The data validates a voice-first interaction paradigm and supports UI simplification and proactive service design.\n\n【Experience Value】High-frequency voice control and navigation show mature hands-free paths; growing model calls mean complex needs close the loop in-car, reducing touch layers.\n\n【Potential Friction】High wake counts don't equal satisfaction; false and repeated wakeups may inflate data; model growth brings hallucination and privacy risks, and voice-first may crowd out other interaction modes."
+        }
+      ],
+      "created_at": "2026-10-21 15:26:05"
+    },
+    {
       "date": "2026-10-19",
       "date_display": "10月19日",
       "weekday": "周一",
@@ -3869,29 +3942,6 @@
         }
       ],
       "created_at": "2026-07-23 13:33:07"
-    },
-    {
-      "date": "2026-07-22",
-      "date_display": "07月22日",
-      "weekday": "周三",
-      "news_count": 1,
-      "news": [
-        {
-          "title": "小鹏MONA L03购车手册：售价12.38万起，9款车型怎么选？",
-          "url": "https://chejiahao.autohome.com.cn/info/26001429?reply=reply",
-          "site_name": "Chejiahao",
-          "publish_date": "2026-07-22",
-          "tags": [
-            "小鹏",
-            "天玑AIOS",
-            "手车互联",
-            "四音区识别"
-          ],
-          "summary": "【事件概述】小鹏MONA L03标配MT8676座舱芯片及天玑AIOS系统，核心软件创新包括：1) 四音区识别，支持主副驾及后排独立语音指令，如后排说“打开车窗”仅控制对应侧；2) 无麦K歌，利用座舱麦克风实现全车卡拉OK；3) 智能场景模式，如“小憩模式”自动调座椅、关窗、播放白噪音；4) 手车互联支持HUAWEI HiCar和ICCOA Carlink，实现手机应用无缝投射。这些功能通过OTA持续迭代。\n\n【体验价值】四音区识别极大提升后排乘客的交互便利性，避免语音误触发。无麦K歌降低硬件门槛，让全车人随时娱乐。智能场景模式一键切换多种用车场景，简化操作。手车互联打破生态壁垒，让用户手机习惯自然延续到车机。\n\n【潜在槽点】四音区识别在嘈杂环境（如高速）可能准确率下降。无麦K歌音质受限于座舱麦克风，可能不如专用麦克风。智能场景模式若逻辑复杂，用户可能不愿设置。手车互联依赖手机端支持，部分功能可能因手机型号受限。",
-          "summary_en": "【Event Overview】Xpeng MONA L03 comes standard with MT8676 chip and Tianji AIOS. Key software innovations: 1) Four-zone voice recognition, allowing independent commands from front and rear seats; 2) Microphone-free karaoke using cockpit mics; 3) Smart scene modes like 'Nap Mode' auto-adjusting seats, closing windows, playing white noise; 4) Phone-car connectivity supporting HUAWEI HiCar and ICCOA Carlink for seamless app projection. Features evolve via OTA. \n\n【Experience Value】Four-zone recognition greatly enhances rear passenger convenience, reducing false triggers. Microphone-free karaoke lowers hardware barriers for instant fun. Smart scene modes simplify multi-step operations. Phone-car connectivity breaks ecosystem walls, extending phone habits to the car. \n\n【Potential Friction】Four-zone accuracy may drop in noisy environments like highways. Karaoke audio quality is limited by cockpit mics vs. dedicated ones. Complex scene logic may deter user setup. Phone-car features may be restricted by phone model compatibility."
-        }
-      ],
-      "created_at": "2026-07-22 13:27:34"
     }
   ]
 }
