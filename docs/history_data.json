@@ -1,6 +1,62 @@
 {
   "records": [
     {
+      "date": "2026-10-25",
+      "date_display": "10月25日",
+      "weekday": "周日",
+      "news_count": 3,
+      "news": [
+        {
+          "title": "深蓝L06迎来智能OTA升级",
+          "url": "https://www.toutiao.com/article/7699402560003752483/",
+          "site_name": "Toutiao",
+          "publish_date": "2026-10-22",
+          "tags": [
+            "深蓝",
+            "DEEPAL OS",
+            "OTA",
+            "座舱交互",
+            "跨端互联",
+            "车家联动"
+          ],
+          "summary": "【事件概述】深蓝L06正式推送DEEPAL OS 4.2.1版本OTA，聚焦智能辅助驾驶、智能座舱、互联生态、智慧APP、细节体验五大板块，带来多项功能新增与优化，覆盖行车辅助、智能泊车、座舱交互、跨端互联、车家联动等全场景用车链路。深蓝汽车董事长邓承浩将本轮OTA形容为主打“听劝”，强调对用户反馈的响应。\n\n【体验价值】OTA以“听劝”为导向，意味着功能迭代更贴近真实用户痛点，座舱交互与跨端互联的优化直接提升日常使用流畅度；车家联动场景的扩展让车辆融入智能家居生态，增强了座舱作为生活空间延伸的价值感。\n\n【潜在槽点】实测反馈显示车机流畅度与续航并无实质提升，OTA宣传的“听劝”与实际感知存在落差；五大板块同时更新，功能入口增多可能加剧菜单层级冗余；跨端互联与车家联动依赖外部生态配合，落地稳定性存疑。",
+          "summary_en": "【Event Overview】Deepal L06 officially rolled out DEEPAL OS 4.2.1 OTA, focusing on five major areas: intelligent driving assistance, smart cockpit, connectivity ecosystem, smart apps, and detail experience, bringing multiple new features and optimizations covering driving assistance, smart parking, cockpit interaction, cross-device connectivity, and car-home linkage across full-scenario usage chains. Deepal Chairman Deng Chenghao described this OTA as 'listening to advice,' emphasizing responsiveness to user feedback.\n\n【Experience Value】The 'listening to advice' orientation means iterations are closer to real user pain points. Cockpit interaction and cross-device connectivity optimizations directly improve daily fluidity; car-home linkage expansion integrates the vehicle into the smart home ecosystem, enhancing the cockpit's value as a living space extension.\n\n【Potential Friction】Real-world feedback shows no substantial improvement in system smoothness or range, creating a gap between 'listening to advice' marketing and perceived reality; simultaneous updates across five areas may increase menu hierarchy redundancy; cross-device and car-home features depend on external ecosystem cooperation, raising stability concerns."
+        },
+        {
+          "title": "小鹏汽车与谷歌达成战略合作，海外车型2027年起原生集成Google Play商店",
+          "url": "https://auto.news18a.com/news/storys_307311.html",
+          "site_name": "Auto",
+          "publish_date": "2026-10-22",
+          "tags": [
+            "小鹏",
+            "Android Automotive",
+            "Google Play",
+            "应用生态",
+            "海外市场"
+          ],
+          "summary": "【事件概述】小鹏汽车宣布与谷歌深化合作，旗下海外车型将从2027年初起在基于Android Automotive OS的智能座舱中原生集成Google Play商店，覆盖全球超百个国家。这意味着小鹏海外车型用户可直接在车机端下载和使用谷歌生态内的应用与服务，座舱应用丰富度将大幅提升，同时也标志着小鹏在海外市场从自建应用体系转向拥抱主流安卓车机生态。\n\n【体验价值】原生集成Google Play商店让海外用户无需依赖手机投屏即可获得完整的应用生态，导航、音乐、播客等高频服务可直接在车机端运行，交互路径更短、体验更原生；对开发者而言，标准化分发渠道降低了适配成本，有利于应用质量的整体提升。\n\n【潜在槽点】Google Play生态与国内自研座舱系统形成两套并行体系，可能导致海内外车型体验割裂；原生安卓应用未必针对驾驶场景做UI优化，存在操作复杂度风险；谷歌服务的数据合规与隐私政策在部分市场可能引发监管摩擦。",
+          "summary_en": "【Event Overview】XPeng announced deepened cooperation with Google: starting early 2027, its overseas models will natively integrate the Google Play Store into the Android Automotive OS-based smart cockpit, covering over 100 countries. This means overseas XPeng users can directly download and use Google ecosystem apps and services on the vehicle head unit, significantly enriching cockpit app availability, and marking XPeng's shift from a self-built app system to embracing the mainstream Android automotive ecosystem in overseas markets.\n\n【Experience Value】Native Google Play integration gives overseas users a complete app ecosystem without relying on phone projection. High-frequency services like navigation, music, and podcasts run directly on the head unit with shorter interaction paths and a more native experience; for developers, a standardized distribution channel lowers adaptation costs and supports overall app quality improvement.\n\n【Potential Friction】The Google Play ecosystem and the domestic self-developed cockpit system form two parallel systems, potentially fragmenting the experience between domestic and overseas models; native Android apps may lack driving-scenario UI optimization, risking operational complexity; Google services' data compliance and privacy policies may trigger regulatory friction in some markets."
+        },
+        {
+          "title": "极空间私有云车机NAS生态再落一子：鸿蒙座舱正式上线，三层路径覆盖主流",
+          "url": "https://www.yoojia.com/article/9796446297744737912.html",
+          "site_name": "Yoojia",
+          "publish_date": "2026-10-19",
+          "tags": [
+            "极空间",
+            "鸿蒙座舱",
+            "NAS",
+            "私有云",
+            "应用商店",
+            "车家互联"
+          ],
+          "summary": "【事件概述】极空间私有云宣布正式上线鸿蒙座舱，此前已先后与理想汽车、比亚迪、长安汽车、深蓝汽车等达成合作，相关车主可在车机官方应用商店直接搜索安装极空间车机版。此次登陆鸿蒙座舱，意味着极空间进一步补齐智能座舱生态版图，形成覆盖主流车企的三层路径。用户可通过车机直接访问私有云中的影音、照片、文档等资源，实现车载场景下的个人数据调用。\n\n【体验价值】私有云上车将个人数字资产延伸至座舱场景，用户在车内即可访问家庭NAS中的影音库和文件，无需依赖公有云或手机中转，既提升了数据调用的便捷性，也强化了隐私可控感；对家庭用户而言，座舱与家庭存储的打通增强了“第三空间”的归属感。\n\n【潜在槽点】NAS车机版依赖稳定的网络连接，地下车库或弱网环境下体验可能大打折扣；私有云涉及个人敏感数据，车机端权限管理与账号安全若不到位，存在泄露风险；应用商店分发模式下，版本更新与兼容性维护成本较高。",
+          "summary_en": "【Event Overview】Zspace Private Cloud officially launched on HarmonyOS Cockpit. Previously it had partnered with Li Auto, BYD, Changan Automobile, and Deepal, allowing owners to search and install the Zspace car edition directly from official app stores. Landing on HarmonyOS Cockpit further completes Zspace's smart cockpit ecosystem map, forming a three-tier path covering mainstream automakers. Users can directly access videos, photos, and documents in their private cloud from the vehicle, enabling personal data retrieval in the car scenario.\n\n【Experience Value】Bringing private cloud into the vehicle extends personal digital assets to the cockpit. Users can access home NAS media libraries and files in the car without relying on public cloud or phone relay, improving data retrieval convenience and reinforcing a sense of privacy control; for family users, connecting the cockpit with home storage enhances the 'third space' sense of belonging.\n\n【Potential Friction】The NAS car edition depends on stable network connectivity, and experience may suffer in underground garages or weak-signal environments; private cloud involves sensitive personal data, and inadequate permission management or account security on the head unit risks leakage; under app store distribution, version updates and compatibility maintenance carry high costs."
+        }
+      ],
+      "created_at": "2026-10-25 15:31:04"
+    },
+    {
       "date": "2026-10-21",
       "date_display": "10月21日",
       "weekday": "周三",
@@ -3888,60 +3944,6 @@
         }
       ],
       "created_at": "2026-07-24 13:28:31"
-    },
-    {
-      "date": "2026-07-23",
-      "date_display": "07月23日",
-      "weekday": "周四",
-      "news_count": 3,
-      "news": [
-        {
-          "title": "小鹏L03参数配置表",
-          "url": "https://www.xiaopeng.com/l03/configuration.html",
-          "site_name": "小鹏汽车",
-          "publish_date": "2026-07-20",
-          "tags": [
-            "小鹏",
-            "天玑AIOS",
-            "手车互联",
-            "OTA",
-            "主题定制"
-          ],
-          "summary": "【事件概述】小鹏L03车型配置表显示，其搭载的天玑AIOS系统支持手车互联（HUAWEI HiCar、ICCOA Carlink）、整车OTA升级服务、远程诊断系统，以及ROAM“拾光漫游”主题定制UI。该主题可选飞船造型自车模型和太空风格背景，并联动氛围灯主题。系统还提供智能寻车功能（查看位置、鸣笛、闪灯）。\n\n【体验价值】主题定制UI将品牌调性与用户个性化需求深度结合，通过自车模型和氛围灯联动，营造沉浸式座舱氛围，提升情感连接。手车互联和OTA功能则保障了生态扩展性和持续进化能力。\n\n【潜在槽点】主题定制UI可能增加系统资源占用，影响流畅度；手车互联功能需依赖手机端生态，若手机品牌不兼容，体验将大打折扣。",
-          "summary_en": "【Event Overview】The Xiaopeng L03 configuration sheet reveals that its Tianji AIOS system supports phone-car connectivity (HUAWEI HiCar, ICCOA Carlink), full-vehicle OTA upgrade service, remote diagnosis system, and a ROAM 'Stroll of Light' themed custom UI. The theme features a spaceship-shaped car model and space-style background, syncing with ambient lighting. The system also includes smart car-finding functions (location, honk, flash).\n\n【Experience Value】The themed custom UI deeply integrates brand identity with user personalization, creating an immersive cabin atmosphere through car models and ambient light linkage, enhancing emotional connection. Phone-car connectivity and OTA ensure ecosystem scalability and continuous evolution.\n\n【Potential Friction】Themed UI may increase system resource usage, affecting smoothness; phone-car connectivity relies on the phone's ecosystem, and incompatibility with certain phone brands could severely degrade the experience."
-        },
-        {
-          "title": "权益价31.98万元起 智己LS9新车型上市",
-          "url": "https://www.sohu.com/a/1051207086_430526",
-          "site_name": "搜狐汽车",
-          "publish_date": "2026-07-16",
-          "tags": [
-            "智己",
-            "IM AIOS",
-            "多音区语音",
-            "手车互联",
-            "数字视野补盲"
-          ],
-          "summary": "【事件概述】智己LS9新车型搭载IM AIOS智能座舱系统，核心软件创新包括：多音区自然语音交互、手车互联（CarPlay、HUAWEI HiCar、Carlink）、全域数字视野补盲、AI越野补盲、雨夜模式2.0。系统还配备ERNC 2.0主动降噪技术和IM MAG磁吸拓展坞，后者支持硬件模块化扩展。\n\n【体验价值】全域数字视野补盲和雨夜模式2.0通过AI算法实时增强驾驶视野，显著提升恶劣天气下的安全性。多音区语音交互支持全车乘客独立指令，减少交互冲突。磁吸拓展坞为第三方硬件生态提供开放接口，增强可玩性。\n\n【潜在槽点】多音区语音在嘈杂环境下识别准确率可能下降；磁吸拓展坞的第三方硬件兼容性和安全性需长期验证；雨夜模式2.0可能因摄像头遮挡或算法误判导致体验不稳定。",
-          "summary_en": "【Event Overview】The Zhiji LS9 new model features the IM AIOS smart cabin system, with core software innovations including multi-zone natural voice interaction, phone-car connectivity (CarPlay, HUAWEI HiCar, Carlink), full-domain digital vision blind-spot compensation, AI off-road blind-spot compensation, and Rainy Night Mode 2.0. The system also includes ERNC 2.0 active noise cancellation and an IM MAG magnetic expansion dock for modular hardware expansion.\n\n【Experience Value】Full-domain digital vision blind-spot compensation and Rainy Night Mode 2.0 use AI algorithms to enhance driving visibility in adverse weather, significantly improving safety. Multi-zone voice interaction allows independent commands from all passengers, reducing interaction conflicts. The magnetic dock opens an interface for third-party hardware, enhancing playability.\n\n【Potential Friction】Multi-zone voice may suffer accuracy drops in noisy environments; third-party hardware compatibility and safety for the magnetic dock require long-term validation; Rainy Night Mode 2.0 may be unstable due to camera occlusion or algorithm errors."
-        },
-        {
-          "title": "冒险家将亮相车展，SYNC Max展现“零层级”交互美学",
-          "url": "https://www.163.com/dy/article/KR473HPK05568QAK.html",
-          "site_name": "网易",
-          "publish_date": "2026-07-20",
-          "tags": [
-            "林肯",
-            "SYNC Max",
-            "零层级",
-            "Redwood 2.0",
-            "UI设计"
-          ],
-          "summary": "【事件概述】全新林肯冒险家搭载SYNC Max林肯星幕智行互联系统，核心创新是Redwood 2.0零层级桌面设计。该设计将核心功能以卡片形式直接呈现于桌面，一触即达，无需进入二级菜单。下拉快捷面板支持用户自定义常用功能，减少操作步骤。系统强调“零层级”交互美学，旨在降低驾驶中的认知负荷。\n\n【体验价值】零层级桌面设计大幅减少交互层级，使高频功能（如导航、音乐、空调）触手可及，提升操作效率。自定义快捷面板允许用户按需配置，增强个性化。整体设计符合驾驶场景对“少步操作”的需求，降低分心风险。\n\n【潜在槽点】卡片过多可能导致信息过载，反而增加视觉干扰；自定义功能对新手用户存在学习门槛；零层级设计可能牺牲部分深度功能的可发现性，用户需通过语音或搜索才能找到。",
-          "summary_en": "【Event Overview】The new Lincoln Corsair features the SYNC Max Lincoln Star Curtain smart connectivity system, with the core innovation being the Redwood 2.0 zero-level desktop design. This design presents core functions as cards directly on the desktop for one-touch access, eliminating the need for secondary menus. The pull-down quick panel supports user customization of frequently used functions, reducing operation steps. The system emphasizes 'zero-level' interaction aesthetics to reduce cognitive load while driving.\n\n【Experience Value】The zero-level desktop design significantly reduces interaction layers, making high-frequency functions (e.g., navigation, music, AC) easily accessible, improving operational efficiency. The customizable quick panel allows users to configure as needed, enhancing personalization. The design aligns with the need for 'fewer steps' in driving scenarios, reducing distraction risk.\n\n【Potential Friction】Too many cards may cause information overload, increasing visual distraction; customization has a learning curve for novice users; zero-level design may sacrifice discoverability of deep functions, requiring voice or search to find them."
-        }
-      ],
-      "created_at": "2026-07-23 13:33:07"
     }
   ]
 }
