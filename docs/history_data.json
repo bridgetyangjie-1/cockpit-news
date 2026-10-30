@@ -1,6 +1,90 @@
 {
   "records": [
     {
+      "date": "2026-10-30",
+      "date_display": "10月30日",
+      "weekday": "周五",
+      "news_count": 5,
+      "news": [
+        {
+          "title": "零跑B10/B01 OTA升级实测：HiCar4.0与云游戏车机体验全攻略",
+          "url": "https://post.smzdm.com/p/arzrn66q/",
+          "site_name": "什么值得买",
+          "publish_date": "2026-10-27",
+          "tags": [
+            "零跑",
+            "HiCar4.0",
+            "OTA",
+            "手车互联",
+            "云游戏"
+          ],
+          "summary": "【事件概述】零跑B10/B01于10月27日启动新一轮OTA，官方口径为8项功能新增＋10项体验优化，核心变化是新增华为HiCar4.0手机互联，让华为手机用户可将手机内容官方化地流转至中控。同时该版本引入腾讯云游戏作为座舱娱乐内容补充，配合8295P芯片与17.3英寸3K中控屏形成软硬协同。实测反馈显示，云游戏在A10车型上存在画质差、5G热点偶发卡顿且需额外付费（约25元）的问题，属于“勉强能玩”的水平。整体看，这是一次以互联协议扩容与内容生态补位为主线的OTA，而非交互逻辑的底层重构。\n\n【体验价值】HiCar4.0的官方接入显著降低了华为用户的手车互联门槛，导航、音乐、通话可无缝流转，减少了第三方投屏的割裂感；云游戏则为充电等待等碎片场景提供了内容填充，拓展了座舱的娱乐边界。\n\n【潜在槽点】云游戏画质与网络稳定性未达预期，付费门槛进一步削弱尝鲜意愿；HiCar4.0仅覆盖华为机型，非华为用户体验增益有限，互联生态的“阵营化”可能加剧用户割裂感。",
+          "summary_en": "【Event Overview】On October 27, Leapmotor pushed a new OTA for the B10/B01, officially billed as 8 new features plus 10 experience optimizations. The headline change is official support for Huawei HiCar 4.0, allowing Huawei phone users to cast content to the center screen in a sanctioned way. The release also adds Tencent cloud gaming as entertainment filler, paired with the 8295P chip and a 17.3-inch 3K display. Real-world tests report poor cloud gaming visuals, occasional 5G hotspot stutter, and an extra fee (about 25 RMB), making it merely 'playable'. Overall this is an OTA centered on expanding connectivity protocols and content ecosystem rather than reworking interaction logic.\n\n【Experience Value】Official HiCar 4.0 access lowers the barrier for Huawei users, enabling seamless flow of navigation, music and calls and reducing the fragmentation of third-party casting. Cloud gaming fills idle charging time and extends the cockpit's entertainment boundary.\n\n【Potential Friction】Cloud gaming visuals and network stability fall short, and the paywall further dampens trial intent. HiCar 4.0 only covers Huawei devices, so non-Huawei users gain little, and the 'camp-based' connectivity ecosystem may deepen user fragmentation."
+        },
+        {
+          "title": "打通手机与家 深蓝L06 DEPPALOS 4.2.1车家互联",
+          "url": "https://news.yiche.com/hao/wenzhang/114241298/",
+          "site_name": "易车",
+          "publish_date": "2026-10-29",
+          "tags": [
+            "深蓝",
+            "DEPPALOS",
+            "车家互联",
+            "HiCar",
+            "ICCOA Carlink"
+          ],
+          "summary": "【事件概述】深蓝L06推送DEPPALOS 4.2.1版本，互联生态成为本次升级的最大看点：新增支持HUAWEI HiCar、ICCOA Carlink、荣耀车联三大互联协议，覆盖市面上主流手机品牌，直击以往不同品牌手机用户互联不兼容、投屏卡顿的痛点。升级后导航、音乐、通话、小程序均可无缝流转至车机，并引入融合桌面方案，将手机应用与车机原生界面统一编排。同时版本向“车家互联”延伸，尝试打通手机、车机与智能家居的场景链路，使车辆成为家庭IoT的一个移动节点。这一版本的本质是把互联从单一协议适配升级为多协议聚合的平台化能力。\n\n【体验价值】多协议聚合让用户不再被手机品牌绑架，融合桌面降低了跨端操作的认知切换成本，车家互联则把座舱交互延伸至生活场景，提升了生态黏性与使用连续性。\n\n【潜在槽点】三套协议并存可能带来连接优先级与状态同步的混乱，融合桌面的信息密度上升易造成视觉冗余；车家互联依赖家庭设备生态，落地覆盖面与隐私边界仍是隐忧。",
+          "summary_en": "【Event Overview】Deepal L06 rolled out DEPPALOS 4.2.1, with connectivity as the headline. It adds support for three protocols—HUAWEI HiCar, ICCOA Carlink and Honor CarLink—covering mainstream phone brands and directly addressing the incompatibility and casting stutter that users of different brands previously faced. After the update, navigation, music, calls and mini-programs can flow seamlessly to the head unit, and a fused desktop unifies phone apps with native UI. The release also extends toward car-home connectivity, linking phone, car and smart home so the vehicle becomes a mobile IoT node. The essence is an upgrade from single-protocol adaptation to a multi-protocol aggregation platform.\n\n【Experience Value】Multi-protocol aggregation frees users from brand lock-in, the fused desktop lowers cognitive switching costs across devices, and car-home linkage extends cockpit interaction into daily life, boosting ecosystem stickiness and continuity.\n\n【Potential Friction】Three coexisting protocols may create confusion over connection priority and state sync; the fused desktop's higher information density risks visual redundancy; car-home features depend on home device ecosystems, with coverage and privacy boundaries still concerns."
+        },
+        {
+          "title": "AI语音助手多模态交互技术升级值不值得关注？3个维度说清座舱交互新变化",
+          "url": "https://k.sina.cn/article_7879923805_1d5ae185d06801r7wm.html",
+          "site_name": "新浪新闻",
+          "publish_date": "2026-10-26",
+          "tags": [
+            "多模态交互",
+            "AI语音",
+            "车外交互",
+            "流式转写",
+            "座舱感知"
+          ],
+          "summary": "【事件概述】车载AI语音助手正从“听你说”升级为融合视觉、触觉、语音的多模态感知系统，核心升级集中在三个方向：一是座舱融合感知，通过摄像头与语音交叉验证实现“看哪指哪”，用户指向车窗或座椅即可完成对应控制；二是实时连续对话，流式转写支持约60种语言，显著降低对话延迟，使多轮自然语言交互成为可能；三是车外交互，车外语音控车打通寻车、泊车等场景，把交互半径从舱内扩展到舱外。这一轮升级的实质是把语音从单点指令执行推向情境理解与主动服务，交互范式由“命令—响应”转向“感知—预判”。\n\n【体验价值】“看哪指哪”大幅降低了复杂功能的发现成本，连续对话减少了反复唤醒的打断感，车外交互则在寻车、泊车等高频痛点场景提供了免手操作的便利，整体交互更接近人际沟通。\n\n【潜在槽点】摄像头常开带来隐私顾虑，多模态融合易产生误触发；方言与嘈杂环境下的识别稳定性存疑，车外语音在公共场景还可能引发扰民与误操作风险。",
+          "summary_en": "【Event Overview】In-car AI voice assistants are upgrading from 'listen to what you say' to multimodal perception fusing vision, touch and voice, with three core directions: cockpit fusion perception, where camera and voice cross-validate to enable 'point-and-control'—users point at a window or seat to control it; real-time continuous dialogue, with streaming transcription supporting about 60 languages and markedly lower latency, enabling multi-turn natural interaction; and exterior interaction, where voice control outside the car covers finding and parking scenarios, extending the interaction radius beyond the cabin. The essence is moving voice from single-command execution toward contextual understanding and proactive service—a shift from 'command-response' to 'perceive-predict'.\n\n【Experience Value】'Point-and-control' greatly lowers discovery cost for complex functions, continuous dialogue reduces the interruption of repeated wake-ups, and exterior interaction offers hands-free convenience in high-frequency pain points like finding and parking, bringing interaction closer to human conversation.\n\n【Potential Friction】Always-on cameras raise privacy concerns and multimodal fusion invites false triggers; recognition stability in dialects and noisy environments is doubtful, and exterior voice may cause disturbance and misoperation in public settings."
+        },
+        {
+          "title": "沉浸式座舱娱乐到底怎么选？10块屏+AR眼镜+全景声，3个维度说清+FAQ",
+          "url": "https://k.sina.cn/article_7879996685_1d5af350d06802ly04.html",
+          "site_name": "新浪新闻",
+          "publish_date": "2026-10-29",
+          "tags": [
+            "鸿蒙座舱",
+            "云游戏",
+            "全景声",
+            "K歌",
+            "AR眼镜"
+          ],
+          "summary": "【事件概述】报道以蔚来、启境GX7与奕境X9鸿蒙座舱6的公开物料为数据源，拆解沉浸式座舱娱乐的选型逻辑，核心观点是“光有屏幕没有内容等于摆设，软件生态才是沉浸式娱乐能否用起来的关键”。文章将内容池归纳为全景声、云游戏与K歌三条主线，并对比10块屏、AR眼镜与全景声等不同硬件组合的实际可用性。其中奕境X9的鸿蒙座舱HarmonySpace 6覆盖移动电竞房与K歌房双场景，支持座椅放倒成床、腾讯云游戏、无麦K歌与激光投影巨幕，被视为场景覆盖最全的方案。讨论还涉及车载AR眼镜与激光投影巨幕的实用性取舍，强调需结合车型适配判断。\n\n【体验价值】以内容池而非屏幕数量作为评价标尺，帮助用户识别“真沉浸”与“堆硬件”的差异；多场景覆盖让座舱在驻车、露营等静态场景中具备可复用的娱乐价值，提升车辆闲置时间的使用率。\n\n【潜在槽点】多屏与AR眼镜叠加推高成本与操作复杂度，云游戏依赖网络与订阅；无麦K歌在密闭空间的音质与扰民问题，以及巨幕投影对光线环境的苛刻要求，都可能让体验打折扣。",
+          "summary_en": "【Event Overview】Drawing on public materials from NIO, Qijing GX7 and Yijing X9's HarmonySpace 6, the report dissects how to choose immersive cockpit entertainment, arguing that 'screens without content are decoration—the software ecosystem determines whether immersive entertainment is actually usable.' It groups the content pool into three lines: spatial audio, cloud gaming and karaoke, and compares the real usability of 10-screen setups, AR glasses and spatial audio. Yijing X9's HarmonySpace 6 covers both a mobile esports room and a karaoke room, supporting fold-flat seats, Tencent cloud gaming, mic-free karaoke and a laser projection screen, and is seen as the most complete scenario coverage. It also weighs in-car AR glasses against laser projection, stressing model-specific fit.\n\n【Experience Value】Using the content pool rather than screen count as the yardstick helps users distinguish 'true immersion' from 'hardware stacking'; multi-scenario coverage gives the cockpit reusable entertainment value in parked and camping scenarios, raising utilization of idle vehicle time.\n\n【Potential Friction】Stacking multiple screens and AR glasses raises cost and operational complexity, and cloud gaming depends on network and subscriptions; mic-free karaoke's acoustics and noise in an enclosed space, plus projection's demanding lighting conditions, may all degrade the experience."
+        },
+        {
+          "title": "新能源车OTA升级能带来哪些新功能，会影响用车安全吗？",
+          "url": "https://auto.sina.cn/2026-10-29/detail-iniwvwrf8988463.d.html?vt=4",
+          "site_name": "新浪汽车",
+          "publish_date": "2026-10-29",
+          "tags": [
+            "OTA",
+            "双分区冗余",
+            "回滚机制",
+            "监管合规",
+            "哨兵模式"
+          ],
+          "summary": "【事件概述】文章系统梳理了新能源车OTA的功能价值与安全边界。功能层面，OTA可持续解锁新功能、优化原有逻辑，使车辆“越用越好用”，哨兵模式等功能的迭代是典型代表。安全层面，主流方案采用双分区冗余设计，升级失败可自动回滚，云端到车端链路加密验证，降低变砖风险。监管层面，2026年3月多部门发文严禁静默强制升级与锁电降配，要求升级前告知用户目的、内容和风险，明确了行业安全底线。文章据此给出安全使用建议，包括将OTA设为手动确认模式、避免在用车高峰升级等。整体呈现的是OTA从“功能推送”走向“合规化、可回滚、用户知情”的治理演进。\n\n【体验价值】双分区与自动回滚显著降低了升级失败的焦虑，手动确认模式把升级时机交还用户，知情权保障减少了“被升级”的被动感，整体提升了OTA的可信度与可控性。\n\n【潜在槽点】手动确认增加了操作负担，频繁弹窗易被用户忽略或延迟；回滚机制并非万能，跨版本兼容与功能降级仍可能引发困惑，监管落地的一致性也有待观察。",
+          "summary_en": "【Event Overview】The article systematically reviews the functional value and safety boundaries of OTA for NEVs. Functionally, OTA continuously unlocks features and refines logic so the car 'gets better with use', with Sentry mode iterations as a typical example. On safety, mainstream solutions use dual-partition redundancy with automatic rollback on failure and encrypted cloud-to-vehicle verification, reducing bricking risk. On regulation, in March 2026 multiple departments banned silent forced upgrades and battery-locking downgrades, requiring disclosure of purpose, content and risk before upgrading—setting a clear industry baseline. It then offers safe-usage advice, including setting OTA to manual confirmation and avoiding peak-hour upgrades. The overall picture is OTA's governance evolution from 'feature push' toward compliance, rollback capability and user awareness.\n\n【Experience Value】Dual partitions and auto-rollback markedly reduce upgrade-failure anxiety, manual confirmation returns timing control to users, and informed consent reduces the passivity of 'being upgraded', improving OTA's credibility and controllability.\n\n【Potential Friction】Manual confirmation adds operational burden and frequent pop-ups are easily ignored or deferred; rollback is not a panacea, and cross-version compatibility and feature downgrades may still confuse users, while regulatory consistency remains to be seen."
+        }
+      ],
+      "created_at": "2026-10-30 16:28:23"
+    },
+    {
       "date": "2026-10-29",
       "date_display": "10月29日",
       "weekday": "周四",
@@ -4002,14 +4086,6 @@
         }
       ],
       "created_at": "2026-07-30 13:16:23"
-    },
-    {
-      "date": "2026-07-28",
-      "date_display": "07月28日",
-      "weekday": "周二",
-      "news_count": 0,
-      "news": [],
-      "created_at": "2026-07-28 13:22:42"
     }
   ]
 }
