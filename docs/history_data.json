@@ -1,6 +1,95 @@
 {
   "records": [
     {
+      "date": "2026-11-11",
+      "date_display": "11月11日",
+      "weekday": "周三",
+      "news_count": 5,
+      "news": [
+        {
+          "title": "比亚迪携手 vivo 构建 AI 手车互联体系：登车即连无感体验，智慧出行...",
+          "url": "https://news.yiche.com/hao/wenzhang/114436597/",
+          "site_name": "News",
+          "publish_date": "2026-11-05",
+          "tags": [
+            "比亚迪",
+            "vivo",
+            "手车互联",
+            "无感连接",
+            "应用流转",
+            "AI智能体"
+          ],
+          "summary": "【事件概述】比亚迪与vivo宣布达成深度战略合作，基于系统级能力构建AI手车互联体系。核心创新在于打破传统蓝牙或Wi-Fi连接的繁琐步骤，实现“手机轻触即连”的无感体验。具体功能上，首发语音融合、灵动按键NFC碰一碰、镜像模式等全新交互方式，并搭载于腾势N8车型。用户登车后，手机应用可无感流转至车机屏幕，且车机可直接操作手机应用，实现了从“手车互联”向“手车互融”的跨越。目前该功能已服务近500万台车辆，预计2026年底覆盖比亚迪全品牌部分车型，标志着手机与车机生态壁垒的进一步消融。\n\n【体验价值】该功能极大降低了用户上车后的操作门槛，消除了连接焦虑。应用无感流转与车机直接操作手机应用，让用户在驾驶场景下无需频繁切换设备，保证了导航、娱乐等服务的连续性，提升了座舱内的数字生活连贯性。\n\n【潜在槽点】深度互联可能引发用户对隐私数据跨设备流动的担忧；镜像模式下手机应用在车机屏幕的适配若不佳，可能导致UI显示错乱或触控逻辑冲突，增加驾驶分心风险。",
+          "summary_en": "【Event Overview】BYD and vivo announced a deep strategic partnership to build an AI-powered phone-vehicle integration system. The core innovation lies in breaking the cumbersome steps of traditional Bluetooth or Wi-Fi connections, achieving a seamless 'tap-to-connect' experience. Specifically, it debuts new interaction methods such as voice fusion, NFC tap-to-connect via smart buttons, and mirroring mode, debuting on the Denza N8. After entering the vehicle, phone apps seamlessly transfer to the car screen, and the car screen can directly operate phone apps, achieving a leap from 'phone-vehicle connection' to 'phone-vehicle fusion'. Currently serving nearly 5 million vehicles, it is expected to cover some models across BYD's entire brand lineup by the end of 2026, marking a further dissolution of ecosystem barriers between phones and cars.\n\n【Experience Value】This feature significantly lowers the operational threshold after users enter the car, eliminating connection anxiety. Seamless app transfer and direct phone app operation on the car screen allow users to avoid frequent device switching while driving, ensuring continuity of navigation, entertainment, and other services, enhancing the digital life coherence within the cockpit.\n\n【Potential Friction】Deep integration may raise user concerns about privacy data flowing across devices; if phone apps are poorly adapted for the car screen in mirroring mode, it could lead to UI display confusion or touch logic conflicts, increasing the risk of driving distraction."
+        },
+        {
+          "title": "AI语音助手多模态交互值得期待吗？3个维度说清座舱交互新逻辑+FAQ",
+          "url": "https://auto.sina.cn/2026-11-07/detail-inixxcvw4621210.d.html?vt=4",
+          "site_name": "Auto",
+          "publish_date": "2026-11-07",
+          "tags": [
+            "AI语音",
+            "多模态交互",
+            "四音区",
+            "大模型",
+            "可见即可说",
+            "免唤醒"
+          ],
+          "summary": "【事件概述】2026年车载AI语音助手正从单轮指令执行向多模态原生交互演进。核心升级集中在四音区语音交互、大模型语义理解、可见即可说及免唤醒连续识别四大能力。技术层面，多说话人识别与大模型语义理解成为座舱交互的基础设施，支持整车多人同时开口，系统能精准区分不同座位的指令来源并执行相应操作。交互逻辑上，语音、视觉与触控开始融合，例如驾驶员说出目的地后，用手势在候选路线中一指、用视线确认，系统即可直接发起导航，省去中控屏逐级点选。这标志着座舱交互从“一次一句下指令”迈向“整车多人同时开口”的新阶段。\n\n【体验价值】多模态融合让操作更自然高效，视线与手势的引入减少了驾驶中的视线偏移和触屏操作，提升了行车安全。四音区识别与免唤醒连续对话，让全车成员都能平等、流畅地使用语音服务，降低了交互门槛。\n\n【潜在槽点】多说话人同时指令可能导致系统误判或响应混乱；免唤醒连续识别在嘈杂环境下易被误触发，且大模型语义理解若出现偏差，用户需反复纠正，反而增加交互冗余与学习成本。",
+          "summary_en": "【Event Overview】In 2026, in-car AI voice assistants are evolving from single-turn command execution to multimodal native interaction. Core upgrades focus on four capabilities: four-zone voice interaction, large model semantic understanding, 'see and say', and wake-free continuous recognition. Technically, multi-speaker recognition and large model semantic understanding have become foundational cockpit interaction infrastructure, supporting multiple people speaking simultaneously in the vehicle, with the system accurately distinguishing command sources from different seats and executing corresponding operations. In terms of interaction logic, voice, vision, and touch are beginning to merge; for example, after the driver states a destination, pointing at a candidate route with a gesture and confirming with gaze allows the system to directly initiate navigation, eliminating step-by-step touchscreen selection. This marks the cockpit interaction evolving from 'one command at a time' to a new stage of 'multiple people speaking simultaneously throughout the vehicle'.\n\n【Experience Value】Multimodal fusion makes operations more natural and efficient; the introduction of gaze and gestures reduces gaze deviation and touch operations while driving, enhancing driving safety. Four-zone recognition and wake-free continuous dialogue allow all vehicle occupants to use voice services equally and smoothly, lowering the interaction threshold.\n\n【Potential Friction】Simultaneous commands from multiple speakers may cause system misjudgment or response confusion; wake-free continuous recognition is prone to false triggers in noisy environments, and if large model semantic understanding deviates, users must repeatedly correct it,反而 increasing interaction redundancy and learning costs."
+        },
+        {
+          "title": "问界M7多屏联动到底值不值？3个维度拆解鸿蒙座舱真实体验+FAQ",
+          "url": "https://k.sina.cn/article_7880069023_1d5b04f9f06802cx9e.html",
+          "site_name": "K",
+          "publish_date": "2026-11-06",
+          "tags": [
+            "问界",
+            "鸿蒙座舱",
+            "多屏联动",
+            "三指滑屏",
+            "内容流转",
+            "音频分离"
+          ],
+          "summary": "【事件概述】问界M7搭载的鸿蒙座舱展示了多屏联动的深度交互能力。其核心创新在于用鸿蒙系统打通中控屏、副驾娱乐屏、后排吸顶屏与手机之间的界限，通过“三指滑屏”手势即可实现内容在不同屏幕间的无缝流转。实测中，导航与娱乐音频可完全分离，主驾看导航、副驾戴蓝牙耳机追剧互不干扰，实现了分座位的信息系统。这种设计将导航、影音、车辆设置拆分为独立模块，驾驶位专注安全，副驾协作操作，后排独立娱乐。对于多成员家庭用户而言，这种多屏协同与音频隔离能力构成了刚需配置，体现了软件定义座舱下空间与信息关系的重构。\n\n【体验价值】三指滑屏提供了直观的跨屏内容流转方式，降低了多屏操作的认知负荷。音频分离与分座位信息系统让不同乘员各取所需，避免了声音干扰，提升了长途出行中全车成员的个性化娱乐体验。\n\n【潜在槽点】三指滑屏手势需要用户学习记忆，且在不同应用间的流转兼容性若不稳定，易造成操作失败；多屏同时运行高负载应用可能拖累系统流畅度，音频分离设置对不熟悉蓝牙配对的用户存在使用门槛。",
+          "summary_en": "【Event Overview】The HarmonyOS cockpit in the AITO M7 demonstrates deep interaction capabilities of multi-screen linkage. Its core innovation lies in using HarmonyOS to break boundaries between the central control screen, passenger entertainment screen, rear ceiling screen, and mobile phone, enabling seamless content transfer between screens via a 'three-finger swipe' gesture. In testing, navigation and entertainment audio can be completely separated—the driver views navigation while the passenger watches shows with Bluetooth earphones without interference, realizing a seat-specific information system. This design splits navigation, entertainment, and vehicle settings into independent modules: the driving position focuses on safety, the passenger seat collaborates, and the rear row enjoys independent entertainment. For multi-member families, this multi-screen collaboration and audio isolation capability constitutes a essential configuration, reflecting the reconstruction of spatial and information relationships in software-defined cockpits.\n\n【Experience Value】The three-finger swipe provides an intuitive cross-screen content transfer method, reducing the cognitive load of multi-screen operations. Audio separation and seat-specific information systems allow different occupants to get what they need, avoiding sound interference and enhancing personalized entertainment experiences for all passengers on long trips.\n\n【Potential Friction】The three-finger swipe gesture requires user learning and memorization, and if transfer compatibility between different apps is unstable, operations may fail; running high-load apps on multiple screens simultaneously may drag down system smoothness, and audio separation settings pose a usage threshold for users unfamiliar with Bluetooth pairing."
+        },
+        {
+          "title": "零跑B10的OTA升级频率是怎样的？-新浪汽车",
+          "url": "https://k.sina.com.cn/article_7879996684_1d5af350c06801rrna.html",
+          "site_name": "K",
+          "publish_date": "2026-11-10",
+          "tags": [
+            "零跑",
+            "OTA",
+            "座舱保鲜",
+            "功能迭代",
+            "体验优化",
+            "版本节奏"
+          ],
+          "summary": "【事件概述】零跑B10展示了其OTA升级的稳定节奏与规模。2026年2月28日，零跑B10与B01同步推送OTA，带来7项新增功能和10项体验优化，涉及城市领航辅助、超级省电模式、360轮毂辅助等。从单次OTA规模变化看，三次推送新增功能数量分别为7项、8项、6项，保持在6—8项区间，且2月和10月两个大版本均搭配10项体验优化，覆盖语音、泊车、充电等日常场景。这种“半年一更、每次6-8项新功能”的节奏，不靠堆屏幕尺寸讲故事，而是让智能座舱通过软件迭代持续保鲜，体现了OTA作为座舱体验长尾价值核心驱动力的产品逻辑。\n\n【体验价值】稳定的OTA节奏让用户对车辆功能进化形成预期，避免了“买定离手”的贬值感。每次6-8项新功能与10项优化的组合，聚焦语音、泊车等高频场景，持续修补体验短板，提升了座舱的长期可用性与用户粘性。\n\n【潜在槽点】半年一更的节奏在竞争激烈的市场中可能显得偏慢，难以快速响应用户反馈；若新增功能与优化项缺乏重磅亮点，仅维持小修小补，用户可能对OTA产生疲劳感，期待值与实际获得感之间易产生落差。",
+          "summary_en": "【Event Overview】The Leapmotor B10 demonstrates a stable rhythm and scale of OTA upgrades. On February 28, 2026, the B10 and B01 simultaneously pushed OTA updates bringing 7 new features and 10 experience optimizations, covering urban navigation assist, super power-saving mode, and 360 wheel assist. Looking at the scale changes per OTA, the number of new features in three pushes were 7, 8, and 6 respectively, staying in the 6-8 range, with both major versions in February and October accompanied by 10 experience optimizations covering daily scenarios like voice, parking, and charging. This 'half-year update, 6-8 new features each time' rhythm doesn't rely on stacking screen sizes for storytelling, but keeps the smart cockpit fresh through software iteration, reflecting the product logic of OTA as the core driver of long-tail cockpit experience value.\n\n【Experience Value】A stable OTA rhythm allows users to form expectations for vehicle feature evolution, avoiding the depreciation feeling of 'buy and done'. The combination of 6-8 new features and 10 optimizations each time focuses on high-frequency scenarios like voice and parking, continuously patching experience shortcomings and enhancing the cockpit's long-term usability and user stickiness.\n\n【Potential Friction】The half-year update rhythm may seem slow in a highly competitive market, making it difficult to respond quickly to user feedback; if new features and optimizations lack blockbuster highlights and only maintain minor patches, users may develop OTA fatigue, creating a gap between expectations and actual gains."
+        },
+        {
+          "title": "Cedar160初体验之智慧点餐_哔哩哔哩_bilibili",
+          "url": "https://www.bilibili.com/video/BV1CL4z6SELN/",
+          "site_name": "Bilibili",
+          "publish_date": "2026-11-06",
+          "tags": [
+            "蔚来",
+            "Cedar",
+            "智慧点餐",
+            "场景服务",
+            "OTA",
+            "语音交互"
+          ],
+          "summary": "【事件概述】蔚来Cedar 1.6.0平台推送更新，将此前在Banyan平台上使用率超高的“智慧点餐”功能正式上线至Cedar平台。该功能允许用户在座舱内通过语音或触控完成点餐操作，打通了车机与生活服务生态的连接。实测体验显示，操作流畅度甚至优于此前在Banyan平台上的运行表现，体感更快。这标志着蔚来在跨平台软件功能迁移与生活服务场景落地上的持续推进，将座舱从单纯的出行工具延伸为移动生活服务终端，体现了OTA对既有功能资产的盘活与体验一致性维护。\n\n【体验价值】智慧点餐将高频生活服务引入座舱，用户无需掏出手机即可完成点餐，减少了驾驶场景下的设备切换。功能在Cedar平台上的流畅运行，保证了跨平台体验的一致性，让老用户平滑迁移，提升了座舱作为生活服务入口的实用价值。\n\n【潜在槽点】点餐功能涉及支付与位置权限，用户对在车机内完成交易存在隐私与安全顾虑；若点餐流程中的菜单加载、支付确认等环节依赖网络稳定性，弱网环境下体验可能大打折扣，且功能入口若层级过深，反而增加操作步骤。",
+          "summary_en": "【Event Overview】NIO's Cedar 1.6.0 platform update officially brings the 'smart ordering' feature, previously highly used on the Banyan platform, to the Cedar platform. This feature allows users to complete food ordering within the cockpit via voice or touch, connecting the car system with life service ecosystems. Hands-on experience shows the operation fluidity is even better than previously on Banyan, feeling faster. This marks NIO's continued advancement in cross-platform software feature migration and life service scenario implementation, extending the cockpit from a mere travel tool to a mobile life service terminal, reflecting OTA's role in revitalizing existing feature assets and maintaining experience consistency.\n\n【Experience Value】Smart ordering brings high-frequency life services into the cockpit; users can complete orders without pulling out their phones, reducing device switching while driving. The smooth operation on the Cedar platform ensures cross-platform experience consistency, allowing existing users to migrate smoothly and enhancing the cockpit's practical value as a life service entry point.\n\n【Potential Friction】The ordering feature involves payment and location permissions, raising user privacy and security concerns about completing transactions in the car; if menu loading and payment confirmation depend on network stability, experience may suffer significantly in weak network environments, and if the feature entry is buried too deep, it反而 adds operational steps."
+        }
+      ],
+      "created_at": "2026-11-11 17:12:05"
+    },
+    {
       "date": "2026-11-07",
       "date_display": "11月07日",
       "weekday": "周六",
@@ -4109,29 +4198,6 @@
       "news_count": 0,
       "news": [],
       "created_at": "2026-08-02 13:35:24"
-    },
-    {
-      "date": "2026-08-01",
-      "date_display": "08月01日",
-      "weekday": "周六",
-      "news_count": 1,
-      "news": [
-        {
-          "title": "澎湃OS 4最新细节曝光：9项交互升级来了，但流畅度才是关键",
-          "url": "https://www.sohu.com/a/1055858619_121784105",
-          "site_name": "Sohu",
-          "publish_date": "2026-08-01",
-          "tags": [
-            "小米",
-            "澎湃OS 4",
-            "交互升级",
-            "系统重构"
-          ],
-          "summary": "【事件概述】报道曝光了小米澎湃OS 4的9项交互升级细节，包括引入“液态玻璃”视觉效果、光场渲染技术以及更深入的AI交互能力。但报道强调，这些表层变化背后，底层流畅度、生态协同和长期体验才是决定系统竞争力的关键。澎湃OS 4被视为小米重塑系统竞争力的尝试，旨在通过底层重构（如清理MIUI历史代码、采用Rust/Flutter等技术）来提升系统整体流畅度与稳定性，为车机、手机、家居等多终端生态协同打下基础。\n\n【体验价值】从UX角度看，澎湃OS 4的交互升级（如液态玻璃动效）能提升视觉愉悦感和操作反馈的细腻度。更重要的底层重构将直接改善系统流畅度，减少卡顿和掉帧，这是用户感知最强烈的体验维度。多终端生态协同的强化，也为“手机-车机”无缝流转提供了更坚实的基础。\n\n【潜在槽点】系统底层重构（“零遗留”）可能带来初期兼容性问题，部分老设备或第三方应用可能出现不稳定情况。此外，华丽的视觉效果（如光场渲染）可能增加GPU负载，对中低端设备或车机硬件的续航与散热构成压力。",
-          "summary_en": "【Event Overview】The report reveals details of 9 interaction upgrades in Xiaomi's HyperOS 4, including 'liquid glass' visual effects, light field rendering, and deeper AI interaction capabilities. However, it emphasizes that beneath these surface changes, underlying fluency, ecosystem synergy, and long-term experience are key to competitiveness. HyperOS 4 is seen as an attempt to reshape system competitiveness through bottom-layer refactoring (e.g., cleaning up MIUI legacy code, adopting Rust/Flutter) to improve overall smoothness and stability, laying the foundation for multi-device ecosystem synergy across cars, phones, and smart home devices.\n\n【Experience Value】From a UX perspective, the interaction upgrades (like liquid glass animations) can enhance visual pleasure and the subtlety of feedback. More importantly, the underlying refactoring will directly improve system fluency, reducing lag and frame drops, which is the most perceptible experience dimension. Strengthened multi-device synergy also provides a more solid foundation for seamless 'phone-car' handoff.\n\n【Potential Friction】The system refactoring ('zero legacy') may cause initial compatibility issues, with some older devices or third-party apps potentially becoming unstable. Additionally, flashy visual effects (like light field rendering) may increase GPU load, putting pressure on battery life and thermal management of mid-to-low-end devices or vehicle hardware."
-        }
-      ],
-      "created_at": "2026-08-01 13:34:37"
     }
   ]
 }
