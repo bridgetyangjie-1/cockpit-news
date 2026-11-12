@@ -1,6 +1,94 @@
 {
   "records": [
     {
+      "date": "2026-11-12",
+      "date_display": "11月12日",
+      "weekday": "周四",
+      "news_count": 5,
+      "news": [
+        {
+          "title": "奥迪全球首发原生Spotify车载应用：音乐视频上车，无需连接手机",
+          "url": "https://vwcar.com.cn/2026/11/09/快讯/6287/",
+          "site_name": "Vwcar",
+          "publish_date": "2026-11-09",
+          "tags": [
+            "奥迪",
+            "Android Automotive OS",
+            "原生应用",
+            "应用商店",
+            "流媒体生态"
+          ],
+          "summary": "【事件概述】奥迪宣布成为全球首家将Spotify完整原生应用直接整合进车辆的车企，通过与Cariad和Spotify深度合作，该应用直接运行在基于Android Automotive OS的车机系统上，无需连接智能手机即可使用。10月21日起该应用在奥迪应用商店独家提供，覆盖基于PPE与PPC平台的2026款及更新车型。这意味着用户上车即用，音乐与视频内容不再依赖手机投屏或蓝牙串流，车机首次具备与手机对等的流媒体原生体验能力，标志着车企从\"手机映射\"向\"车机原生生态\"的战略转向。\n\n【体验价值】原生应用消除了配对、投屏、断连等中间环节，启动路径最短，账号与播放状态可跨端延续，显著降低驾驶场景下的操作分心，是车机生态从\"寄生\"走向\"自主\"的关键一步。\n\n【潜在槽点】原生应用深度绑定车机硬件与系统版本，老车型无法享受；应用商店独家分发意味着用户失去侧载自由；流媒体账号在车机端登录涉及隐私授权边界，且视频内容在行驶中如何安全限制仍需观察。",
+          "summary_en": "【Event Overview】Audi claims to be the world's first automaker to integrate the full native Spotify app directly into its vehicles. Through deep collaboration with Cariad and Spotify, the app runs natively on the Android Automotive OS-based infotainment system without requiring a smartphone connection. Available exclusively in the Audi app store from October 21, it covers 2026 and newer models on PPE and PPC platforms. This marks a strategic shift from phone mirroring to a native in-car ecosystem, giving the head unit streaming parity with mobile devices.\n\n【Experience Value】Native apps eliminate pairing, casting, and disconnection friction, offering the shortest launch path with cross-device account and playback continuity, reducing driver distraction and marking a key step from parasitic to autonomous in-car ecosystems.\n\n【Potential Friction】Deep hardware and OS version binding excludes older vehicles; exclusive app store distribution removes sideloading freedom; streaming account login on the head unit raises privacy authorization concerns, and how video content is safely restricted while driving remains to be seen."
+        },
+        {
+          "title": "理想汽车OTA 8.7上线 对讲机与任务大师迎来升级",
+          "url": "https://smartcar.cnmo.com/news/822243.html",
+          "site_name": "CNMO科技",
+          "publish_date": "2026-11-11",
+          "tags": [
+            "理想",
+            "OTA",
+            "任务大师",
+            "对讲机",
+            "自定义场景",
+            "园区地图"
+          ],
+          "summary": "【事件概述】理想汽车于11月11日正式推送OTA 8.7版本，覆盖2022至2025款L系列、2025款i6与i8以及2024至2025款MEGA。此次更新涉及辅助驾驶、智能泊车、影音娱乐和座舱交互多个维度，核心软件亮点包括：新增\"理想对讲机\"实现车队间实时语音通信；\"任务大师\"新增自定义音视频能力，车主可定制专属提示音与上车彩蛋；园区地图可直接展示园区路线、楼层与车位信息；同时优化充电报告与全景影像显示。这是理想首次将任务大师从纯逻辑编排扩展到音视频自定义维度，也是对讲机功能首次以原生软件形态落地座舱。\n\n【体验价值】任务大师的音视频自定义将场景编排从\"功能触发\"升级为\"情感表达\"，增强用户归属感与可玩性；对讲机原生集成免去外置设备，降低车队出行沟通成本；园区地图补全了导航\"最后一公里\"的体验断点。\n\n【潜在槽点】自定义音视频的审核与版权边界模糊，用户上传内容可能引发合规风险；对讲机依赖网络覆盖，地下车库等弱网场景体验存疑；任务大师功能层级日益复杂，新用户学习曲线陡增，存在\"极客功能\"与\"大众易用\"之间的张力。",
+          "summary_en": "【Event Overview】Li Auto officially rolled out OTA 8.7 on November 11, covering 2022-2025 L series, 2025 i6 and i8, and 2024-2025 MEGA. The update spans assisted driving, smart parking, entertainment, and cockpit interaction. Key software highlights include the new \"Li Auto Walkie-Talkie\" for real-time fleet voice communication; Task Master now supports custom audio and video, letting owners create personalized alert tones and welcome easter eggs; the campus map displays routes, floors, and parking spots; charging reports and panoramic camera views are also optimized. This marks the first expansion of Task Master from pure logic orchestration to audio-visual customization, and the first native walkie-talkie software in the cockpit.\n\n【Experience Value】Audio-visual customization elevates scene orchestration from function triggering to emotional expression, boosting belonging and playability; native walkie-talkie removes external hardware and lowers fleet communication costs; campus map completes the last-mile navigation gap.\n\n【Potential Friction】Review and copyright boundaries for custom audio-video are ambiguous, raising compliance risks; walkie-talkie depends on network coverage, with weak-signal scenarios like underground garages questionable; Task Master's growing complexity steepens the learning curve, creating tension between geek features and mass usability."
+        },
+        {
+          "title": "手车互联不是投屏，而是状态与意图的跨端协同-CSDN博客",
+          "url": "https://blog.csdn.net/weixin_29164843/article/details/170275688",
+          "site_name": "CSDN博客",
+          "publish_date": "2026-11-07",
+          "tags": [
+            "字节跳动",
+            "豆包座舱助手",
+            "手车互联",
+            "跨端协同",
+            "App联动",
+            "上汽荣威"
+          ],
+          "summary": "【事件概述】字节跳动火山引擎发布\"豆包座舱助手\"，表面是给上汽荣威家越07首发的功能模块，实质是一套完整的跨端协同架构落地样本。其核心理念是\"手车互联不是投屏，而是状态与意图的跨端协同\"，关键词包括豆包座舱助手、手车互联、App联动。该方案强调手机与车机之间不是简单的画面镜像，而是应用状态、用户意图、服务上下文的双向流转——例如手机上未完成的导航、音乐播放列表、日程提醒可在上车后无缝延续，车机端的操作也可回传手机。这标志着手车互联从\"映射层\"向\"协同层\"的范式升级。\n\n【体验价值】状态与意图级协同消除了\"上车重开App\"的割裂感，用户无需重复登录、搜索、设置，服务连续性带来真正的无缝体验；对开发者而言，跨端协同架构降低了多端适配成本，有利于生态繁荣。\n\n【潜在槽点】跨端状态同步对账号体系、隐私授权、数据一致性要求极高，一旦同步失败或错乱，用户体验反而比独立运行更糟；\"意图理解\"依赖大模型推断，误判时可能推送错误服务；且该架构深度绑定字节生态，第三方App接入意愿与标准化程度存疑。",
+          "summary_en": "【Event Overview】ByteDance's Volcano Engine released the \"Doubao Cockpit Assistant,\" ostensibly a feature module debuting on the Roewe Jiayue 07 but essentially a complete cross-device collaboration architecture sample. Its core philosophy: phone-vehicle connectivity is not screen mirroring but state-and-intent cross-device collaboration. Key terms include Doubao Cockpit Assistant, phone-vehicle connectivity, and app linkage. The solution emphasizes bidirectional flow of app state, user intent, and service context between phone and head unit—unfinished navigation, playlists, and reminders continue seamlessly after entering the car, while cockpit operations sync back to the phone. This marks a paradigm upgrade from mirroring layer to collaboration layer.\n\n【Experience Value】State-and-intent-level collaboration eliminates the fragmentation of reopening apps in the car, removing repeated logins, searches, and setups for true continuity; for developers, the architecture lowers multi-device adaptation costs and fosters ecosystem growth.\n\n【Potential Friction】Cross-device state sync demands extremely high standards for account systems, privacy authorization, and data consistency—sync failures or corruption can be worse than independent operation; intent understanding relies on LLM inference, and misjudgments may push wrong services; deep binding to ByteDance's ecosystem raises questions about third-party app willingness and standardization."
+        },
+        {
+          "title": "AI语音助手多模态交互值得期待吗？3个维度说清座舱交互新逻辑+FAQ",
+          "url": "https://k.sina.cn/article_7879923135_1d5ae15bf06801qa9o.html",
+          "site_name": "新浪汽车",
+          "publish_date": "2026-11-07",
+          "tags": [
+            "多模态交互",
+            "四音区",
+            "可见即可说",
+            "免唤醒",
+            "大模型",
+            "语音助手"
+          ],
+          "summary": "【事件概述】文章从入口扩展、对话升级、工程约束三个维度拆解AI语音助手多模态交互的真实体验。核心趋势包括：多说话人识别与大模型语义理解成为座舱基础能力；四音区交互实现前后排独立唤醒与指令隔离；\"可见即可说\"让屏幕上的任意文字均可通过语音触发；免唤醒连续识别逐步落地，用户无需反复喊唤醒词即可多轮对话。这些能力共同构成座舱交互的新逻辑——从\"指令式语音\"走向\"自然对话式交互\"，语音助手从功能入口演变为贯穿全场景的交互底座。\n\n【体验价值】四音区与免唤醒连续识别大幅降低交互摩擦，后排乘客无需探身即可控车；可见即可说消除了\"不知道怎么说\"的语音学习成本，让语音真正成为低门槛的普适入口，对老人和儿童尤为友好。\n\n【潜在槽点】免唤醒连续识别在多人交谈、媒体播放等嘈杂环境下误触发率上升，可能造成\"自说自话\"的尴尬；四音区麦克风阵列对声学标定要求极高，实际车型表现参差；多模态融合若缺乏统一的交互优先级规则，语音与触控、手势之间可能互相干扰，增加认知负担。",
+          "summary_en": "【Event Overview】The article dissects multimodal AI voice assistant interaction from three dimensions: entry expansion, dialogue upgrade, and engineering constraints. Core trends include multi-speaker recognition and LLM semantic understanding becoming baseline cockpit capabilities; four-zone interaction enabling independent wake-up and command isolation for front and rear rows; \"see and say\" allowing any on-screen text to be voice-triggered; and wake-word-free continuous recognition enabling multi-turn dialogue without repeated wake words. Together these form a new cockpit interaction logic—moving from command-based voice to natural conversational interaction, with the voice assistant evolving from a function entry point into a pervasive interaction foundation.\n\n【Experience Value】Four-zone and wake-free continuous recognition drastically reduce interaction friction, letting rear passengers control the car without reaching forward; see-and-say eliminates the learning cost of not knowing what to say, making voice a truly low-barrier universal entry, especially friendly to the elderly and children.\n\n【Potential Friction】Wake-free continuous recognition raises false trigger rates in noisy environments like multi-person conversations and media playback, causing awkward self-talk; four-zone microphone arrays demand extremely high acoustic calibration, with uneven real-world performance; without unified interaction priority rules, voice, touch, and gesture may interfere with each other, increasing cognitive load."
+        },
+        {
+          "title": "智能座舱AI化落地：从大模型上车到端云协同与Agent工程实践",
+          "url": "https://bbs.csdn.net/weixin_29029995/article/details/100779157",
+          "site_name": "CSDN论坛",
+          "publish_date": "2026-11-08",
+          "tags": [
+            "大模型",
+            "端云协同",
+            "Agent",
+            "幻觉控制",
+            "安全边界",
+            "工程实践"
+          ],
+          "summary": "【事件概述】文章聚焦智能座舱AI化落地的工程实践，重点讨论大模型上车后的幻觉控制与安全边界问题。文中给出典型案例：用户驾车途中询问\"胎压多少合适\"，模型回复\"2.2到2.5，但根据你的驾驶习惯建议调到3.0\"——这个\"建议调到3.0\"就是严重的幻觉错误，在座舱场景中绝不能\"等用户发现了再改\"。文章由此展开端云协同架构与Agent工程实践的讨论，强调座舱大模型必须在安全关键领域设置硬约束与兜底策略，幻觉控制不是模型能力问题而是系统工程问题，涉及意图识别、知识边界、置信度阈值、人工兜底等多层机制。\n\n【体验价值】将幻觉控制前置为工程约束而非事后修补，体现了对座舱安全底线的敬畏；端云协同让复杂推理上云、实时响应在端，兼顾体验流畅与能力上限；Agent化让大模型从\"问答\"走向\"办事\"，具备多步任务执行潜力。\n\n【潜在槽点】硬约束与兜底策略会压缩模型的回答自由度，用户可能感到\"问什么都答不知道\"；端云协同依赖网络质量，弱网时体验降级明显；Agent多步执行一旦中途出错，回滚与纠错机制若不完善，反而放大错误后果，责任归属也难以界定。",
+          "summary_en": "【Event Overview】The article focuses on engineering practices for AI deployment in smart cockpits, particularly hallucination control and safety boundaries after LLMs go onboard. A typical case: a user asks about suitable tire pressure while driving, and the model replies \"2.2 to 2.5, but based on your driving habits I suggest 3.0\"—the \"suggest 3.0\" is a serious hallucination error that must never wait for user discovery in cockpit scenarios. The article discusses end-cloud collaboration architecture and Agent engineering practices, emphasizing that cockpit LLMs must set hard constraints and fallback strategies in safety-critical domains. Hallucination control is not a model capability issue but a systems engineering issue involving intent recognition, knowledge boundaries, confidence thresholds, and human fallback mechanisms.\n\n【Experience Value】Front-loading hallucination control as an engineering constraint rather than post-hoc patching reflects respect for cockpit safety baselines; end-cloud collaboration puts complex reasoning in the cloud and real-time response on-device, balancing fluency and capability; Agentization moves LLMs from Q&A to task execution with multi-step potential.\n\n【Potential Friction】Hard constraints and fallback strategies compress the model's answer freedom, potentially making users feel it \"knows nothing\"; end-cloud collaboration depends on network quality with obvious degradation in weak signal; if Agent multi-step execution fails midway, imperfect rollback and correction mechanisms may amplify error consequences, and responsibility attribution becomes difficult."
+        }
+      ],
+      "created_at": "2026-11-12 17:40:31"
+    },
+    {
       "date": "2026-11-11",
       "date_display": "11月11日",
       "weekday": "周三",
@@ -4190,14 +4278,6 @@
         }
       ],
       "created_at": "2026-08-03 13:52:32"
-    },
-    {
-      "date": "2026-08-02",
-      "date_display": "08月02日",
-      "weekday": "周日",
-      "news_count": 0,
-      "news": [],
-      "created_at": "2026-08-02 13:35:24"
     }
   ]
 }
