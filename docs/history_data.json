@@ -1,6 +1,63 @@
 {
   "records": [
     {
+      "date": "2026-11-17",
+      "date_display": "11月17日",
+      "weekday": "周二",
+      "news_count": 3,
+      "news": [
+        {
+          "title": "风云T7首次大规模OTA！灵犀智舱2.0语音交互升级",
+          "url": "https://www.douyin.com/video/7706862665873108977",
+          "site_name": "Douyin",
+          "publish_date": "2026-11-11",
+          "tags": [
+            "奇瑞",
+            "风云T7",
+            "OTA",
+            "灵犀智舱",
+            "语音交互",
+            "座舱OS"
+          ],
+          "summary": "【事件概述】风云T7迎来首次大规模OTA升级，核心亮点为灵犀智舱2.0的语音交互能力显著提升。据车主实测反馈，升级后语音响应速度大幅加快，唤醒与指令执行延迟明显降低，整体交互流畅度“像换了台新车”。此次OTA并非传统意义上的“打补丁”，而是在原有体验基础上对座舱OS核心交互链路进行重构升级，重点优化了语音识别引擎与车控指令的端到端响应路径。对于一款上市不久的车型而言，首次大规模OTA即聚焦语音交互这一最高频入口，反映出厂商将OTA作为持续迭代用户体验的核心手段而非单纯修复缺陷的工具。\n\n【体验价值】语音响应速度的提升直接改善了驾驶场景下“说完等半天”的焦虑感，更快的反馈闭环增强了用户对语音入口的信任度，有助于培养“能动口不动手”的安全驾驶习惯。\n\n【潜在槽点】OTA后语音能力提升的幅度缺乏客观量化标准，车主“感觉像换车”的主观评价难以横向对比；大规模OTA推送期间的下载与安装体验（如断点续传、安装时长）若处理不当，反而会造成用户等待焦虑。",
+          "summary_en": "【Event Overview】Fengyun T7 rolled out its first large-scale OTA, headlined by Lingxi Smart Cabin 2.0 with significantly upgraded voice interaction. Owner feedback indicates markedly faster voice response and reduced wake-to-execution latency. This OTA reconstructs the core interaction pipeline rather than merely patching bugs, reflecting the OEM's strategy of using OTA for continuous UX iteration on the highest-frequency entry point.\n\n【Experience Value】Faster voice response directly alleviates the anxiety of waiting after speaking, strengthens trust in the voice entry, and encourages safer hands-free driving habits.\n\n【Potential Friction】Improvement lacks objective quantification; subjective 'like a new car' claims are hard to benchmark. Large-scale OTA download and installation experience (resume support, duration) may cause waiting anxiety if poorly handled."
+        },
+        {
+          "title": "鸿蒙座舱 HarmonySpace 迎来 OTA 升级！新增多款应用",
+          "url": "https://www.myzaker.com/article/6ae591a88e9f0934bc39e4ac",
+          "site_name": "Myzaker",
+          "publish_date": "2026-11-16",
+          "tags": [
+            "华为",
+            "HarmonySpace",
+            "OTA",
+            "影音娱乐",
+            "语音交互",
+            "生态互联"
+          ],
+          "summary": "【事件概述】华为鸿蒙座舱HarmonySpace近日迎来OTA升级，新增多项影音娱乐、语音交互及生态设备互联功能，并有多款应用上线。此次升级的核心在于持续扩充座舱应用生态池，将更多影音娱乐内容与生态设备互联能力注入车机系统。语音交互方面亦有功能增强，进一步强化鸿蒙座舱“可见即可说”与跨设备协同的既有优势。从升级内容看，华为正将HarmonySpace打造为手机生态向车内延伸的枢纽，通过OTA不断拉齐车机与手机、平板、智能家居之间的应用丰富度与服务连续性，使座舱成为鸿蒙全场景生态中不可或缺的一环。\n\n【体验价值】应用生态的持续扩充直接提升了车机可用性，减少“车机没App可用”的尴尬；生态设备互联强化了多设备协同的连贯感，让用户在车内也能无缝调用鸿蒙生态服务。\n\n【潜在槽点】新增应用的质量与车机适配深度参差不齐，部分应用可能仅为手机版简单移植，大屏交互逻辑未优化；OTA频繁推送应用更新可能占用车机存储与算力资源，长期使用后流畅度是否衰减值得关注。",
+          "summary_en": "【Event Overview】Huawei HarmonySpace cockpit received an OTA update adding multimedia entertainment, voice interaction enhancements, and ecosystem device connectivity features, along with multiple new apps. The upgrade reinforces HarmonySpace as a hub extending Huawei's phone ecosystem into the vehicle, continuously closing the gap in app richness and service continuity across devices.\n\n【Experience Value】Expanded app ecosystem directly improves cockpit usability, reducing the 'no apps available' frustration. Enhanced device connectivity strengthens multi-device coherence, enabling seamless access to HarmonyOS services inside the car.\n\n【Potential Friction】New app quality and cockpit adaptation depth vary; some may be simple phone ports without optimized large-screen UX. Frequent OTA app updates may consume storage and compute resources, raising concerns about long-term performance degradation."
+        },
+        {
+          "title": "智驾座舱深度打通 千里浩瀚以极简交互降低驾驶分心风险",
+          "url": "https://chejiahao.autohome.com.cn/info/26852688",
+          "site_name": "Chejiahao",
+          "publish_date": "2026-11-11",
+          "tags": [
+            "千里浩瀚",
+            "极简交互",
+            "驾驶安全",
+            "UI层级",
+            "座舱OS",
+            "分心管理"
+          ],
+          "summary": "【事件概述】千里浩瀚提出智驾与座舱深度打通的极简交互方案，直指当前车机交互的核心痛点：功能堆砌导致层级逻辑复杂，常用功能需在多级菜单中反复点选，驾驶员视线长时间离开路面带来安全隐患。该方案通过技术手段跳过多余层级，将高频功能前置到最短操作路径，减少驾驶过程中的屏幕点按次数与视线偏移时间。其核心思路并非减少功能总量，而是通过智驾系统与座舱系统的数据打通，让车机根据驾驶状态动态调整信息优先级与交互入口，实现“该出现的出现、该隐藏的隐藏”的上下文感知式极简交互。\n\n【体验价值】极简交互直接降低了驾驶分心风险，高频功能一步直达减少了视线离开路面时间，上下文感知的动态调整让界面“懂场景”，提升了驾驶安全与操作效率的平衡。\n\n【潜在槽点】“极简”与“功能可发现性”之间存在天然张力，过度隐藏功能可能导致新用户找不到入口；动态调整逻辑若不够透明，用户可能因界面“自己变了”而产生困惑与不信任感。",
+          "summary_en": "【Event Overview】Qianli Haohan proposes a minimalist interaction solution deeply integrating ADAS and cockpit systems, targeting the pain point of complex menu hierarchies that force drivers to take eyes off the road. The approach skips redundant layers, surfaces high-frequency functions on the shortest path, and dynamically adjusts information priority based on driving context.\n\n【Experience Value】Minimalist interaction directly reduces distraction risk. One-step access to frequent functions shortens eyes-off-road time. Context-aware dynamic adjustment makes the UI 'understand the scene,' balancing safety and efficiency.\n\n【Potential Friction】Tension exists between minimalism and feature discoverability; over-hiding may leave new users unable to find entries. If dynamic adjustment logic lacks transparency, users may feel confused and distrustful when the UI 'changes itself.'"
+        }
+      ],
+      "created_at": "2026-11-17 18:30:05"
+    },
+    {
       "date": "2026-11-16",
       "date_display": "11月16日",
       "weekday": "周一",
@@ -4246,57 +4303,6 @@
         }
       ],
       "created_at": "2026-08-05 13:22:55"
-    },
-    {
-      "date": "2026-08-04",
-      "date_display": "08月04日",
-      "weekday": "周二",
-      "news_count": 3,
-      "news": [
-        {
-          "title": "魏牌V9X首次OTA升级推送 20余项新增功能 150余项优化",
-          "url": "https://smartcar.cnmo.com/news/814803.html",
-          "site_name": "CNMO科技",
-          "publish_date": "2026-08-01",
-          "tags": [
-            "魏牌",
-            "OTA",
-            "代客模式",
-            "后排娱乐屏"
-          ],
-          "summary": "【事件概述】魏牌V9X迎来首次重大OTA升级，新增20余项功能并优化150余项细节。核心亮点包括：1）代客模式：开启后车辆最高限速120km/h，自动关闭辅助驾驶和泊车功能，保障车辆与隐私安全；2）跛行模式：针对动力电池过放等极限工况，激活安全冗余，允许车辆低速稳健行驶至服务站点；3）后排娱乐屏升级：新增21.4英寸后排娱乐屏与前排防碰保护功能，支持深度语音控制和1/3屏播放列表，无需切换全屏应用即可收听；4）AI空调界面优化：文字空间更清晰，界面更简洁；5）HUD与像素大灯导航提示模式优化，提高HUD优先级。\n\n【体验价值】代客模式精准解决了车辆外借时的安全焦虑，通过软件策略限制车辆性能，比物理钥匙更灵活。后排娱乐屏的1/3屏播放列表设计，允许用户边导航边控制媒体，减少应用切换的认知负担。HUD优先级提升让关键导航信息在驾驶视野中更突出，符合驾驶分心最小化的UX原则。\n\n【潜在槽点】代客模式限速120km/h在高速场景可能引发后车追尾风险，且关闭辅助驾驶功能可能让不熟悉车辆的用户在紧急情况下失去主动安全保护。跛行模式的触发条件若不够明确，用户可能误解为车辆故障而恐慌。后排娱乐屏的防碰保护功能若过于敏感，可能频繁中断观影体验。",
-          "summary_en": "【Event Overview】WEY V9X receives its first major OTA update, adding 20+ features and optimizing 150+ details. Key highlights include: 1) Valet Mode: limits speed to 120km/h, disables ADAS and parking assist for safety and privacy; 2) Limp Mode: activates safety redundancy for extreme conditions like battery over-discharge, allowing low-speed driving to service stations; 3) Rear entertainment screen upgrade: 21.4-inch display with front anti-collision protection, deep voice control, and 1/3-screen playlist without full-screen app switching; 4) AI climate control UI optimization; 5) HUD and pixel headlight navigation display strategy optimization.\n\n【Experience Value】Valet Mode precisely addresses safety anxiety when lending vehicles, using software policies to restrict performance more flexibly than physical keys. The 1/3-screen playlist design reduces cognitive load by allowing simultaneous navigation and media control. Higher HUD priority keeps critical navigation info in the driver's sightline, minimizing distraction.\n\n【Potential Friction】120km/h speed limit in Valet Mode may cause rear-end collision risks on highways, and disabling ADAS could leave unfamiliar users without active safety in emergencies. Unclear limp mode trigger conditions may cause user panic. Overly sensitive anti-collision protection on rear screens could frequently interrupt viewing."
-        },
-        {
-          "title": "比亚迪腾势Z9S预售：兼容多品牌手车互联，首搭苹果CarPlay小窗模式",
-          "url": "https://www.itbear.com.cn/html/2026-08/1478875.html",
-          "site_name": "ITBear",
-          "publish_date": "2026-08-03",
-          "tags": [
-            "比亚迪",
-            "腾势",
-            "CarPlay",
-            "手车互联"
-          ],
-          "summary": "【事件概述】腾势Z9S在预售发布会上宣布实现主流手机品牌全兼容的手车互联生态，覆盖华为、苹果、小米、OPPO、vivo、荣耀、三星等品牌，通过专属互联协议实现深度交互。该车首次搭载苹果CarPlay小窗模式，允许CarPlay界面以悬浮小窗形式呈现，与车机原生应用并行显示，而非传统全屏替换。这一设计打破了CarPlay与车机系统二选一的传统交互逻辑，用户可在使用车机导航的同时，通过小窗快速访问iPhone上的音乐、消息或第三方应用。此外，多品牌兼容意味着不同手机用户无需更换手机即可获得深度互联体验，包括无缝投屏、应用流转和车控功能。\n\n【体验价值】CarPlay小窗模式是手车互联交互逻辑的重要突破，解决了长期存在的\"用CarPlay就不能用车机\"的痛点。用户无需在系统间切换，降低了多任务操作的学习成本。多品牌兼容策略消除了生态壁垒，让用户保有手机选择自由，同时通过统一互联协议保证体验一致性，这是对用户主权的高度尊重。\n\n【潜在槽点】小窗模式下，CarPlay应用与车机应用并行可能造成视觉信息过载，尤其在驾驶中需要快速扫视时。多品牌兼容意味着不同手机的互联深度可能不一致，用户预期管理困难。此外，小窗模式若支持的应用过多，可能诱导驾驶中操作手机应用，增加分心风险。",
-          "summary_en": "【Event Overview】Denza Z9S announces full compatibility with mainstream phone brands including Huawei, Apple, Xiaomi, OPPO, vivo, Honor, and Samsung via proprietary interconnection protocols. It debuts Apple CarPlay windowed mode, allowing CarPlay UI to appear as a floating window alongside native car system apps, rather than full-screen replacement. This breaks the traditional either-or interaction logic, letting users access iPhone music, messages, or third-party apps while using car navigation. Multi-brand compatibility means users can get deep interconnection without changing phones, including seamless projection, app continuity, and vehicle controls.\n\n【Experience Value】CarPlay windowed mode is a significant breakthrough in phone-car interaction, solving the long-standing pain point of choosing between CarPlay and native systems. Users avoid system switching, reducing learning costs for multitasking. Multi-brand compatibility eliminates ecosystem barriers, preserving user freedom of phone choice while ensuring consistent experience through unified protocols.\n\n【Potential Friction】Parallel display of CarPlay and native apps may cause visual information overload, especially during quick glances while driving. Different phones may have varying interconnection depths, making user expectations hard to manage. If windowed mode supports too many apps, it may encourage phone app usage while driving, increasing distraction risk."
-        },
-        {
-          "title": "莲花OTA升级12项功能：哨兵模式+导航优化，老车主体验如何变化？",
-          "url": "https://chejiahao.autohome.com.cn/info/26120262",
-          "site_name": "车家号",
-          "publish_date": "2026-08-04",
-          "tags": [
-            "莲花",
-            "OTA",
-            "方向盘自定义",
-            "哨兵模式"
-          ],
-          "summary": "【事件概述】莲花汽车推送新一轮OTA升级，新增12项功能，重点包括哨兵模式和导航优化。座舱交互方面，方向盘按键自定义功能成为核心调整：用户可根据使用习惯，将HUD调节、外后视镜设置、音源切换、全景影像、电动尾门、自动泊车等功能绑定至方向盘按键。这一功能将原本分散在屏幕菜单或物理按键的操作集中到方向盘，减少驾驶中伸手触屏的频率。导航优化涉及路径规划算法和地图显示细节，提升复杂路口的指引清晰度。哨兵模式则利用车辆摄像头在驻车时监控周围环境，异常事件触发录像并通过手机APP通知车主。\n\n【体验价值】方向盘按键自定义是典型的\"减少操作层级\"设计，将高频功能直接映射到驾驶者手边，符合视线不离开道路的驾驶安全原则。用户可按个人习惯配置按键，适应不同驾驶场景（如城市通勤常用全景影像，高速常用HUD调节）。哨兵模式为车辆安全提供主动监控，增强车主远程掌控感。\n\n【潜在槽点】方向盘按键自定义的配置过程本身需要学习成本，且按键数量有限，功能选择可能让用户纠结。误触风险增加——若将电动尾门绑定至方向盘，行驶中误触可能导致尾门开启。哨兵模式持续录像可能消耗蓄电池电量，长期停放可能导致亏电，且涉及公共区域隐私合规问题。",
-          "summary_en": "【Event Overview】Lotus pushes new OTA with 12 features, focusing on sentry mode and navigation optimization. Steering wheel button customization is the core interaction change: users can bind HUD adjustment, mirror settings, audio source switching, surround view, power tailgate, and auto parking to steering wheel buttons. This centralizes functions previously scattered in screen menus or physical buttons, reducing touchscreen reach during driving. Navigation optimization improves route planning algorithms and map display details. Sentry mode uses vehicle cameras to monitor surroundings when parked, triggering recording on abnormal events and notifying owners via phone app.\n\n【Experience Value】Steering wheel button customization exemplifies \"reducing operation layers,\" mapping high-frequency functions to the driver's fingertips, aligning with the safety principle of keeping eyes on the road. Users can configure buttons per driving scenarios. Sentry mode provides proactive vehicle monitoring, enhancing remote control sense.\n\n【Potential Friction】Configuration process itself requires learning, and limited button count may cause choice anxiety. Mis-touch risk increases—binding power tailgate to steering wheel could accidentally open it while driving. Sentry mode's continuous recording may drain battery during long parking, and raises privacy compliance concerns in public areas."
-        }
-      ],
-      "created_at": "2026-08-04 13:22:23"
     }
   ]
 }
