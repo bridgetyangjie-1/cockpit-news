@@ -1,6 +1,90 @@
 {
   "records": [
     {
+      "date": "2026-11-18",
+      "date_display": "11月18日",
+      "weekday": "周三",
+      "news_count": 5,
+      "news": [
+        {
+          "title": "理想汽车OTA 8.7 版本更新，智能辅助驾驶行车泊车体验升级，任务大师...",
+          "url": "https://www.toutiao.com/article/7708615653602705930/",
+          "site_name": "Toutiao",
+          "publish_date": "2026-11-16",
+          "tags": [
+            "理想",
+            "OTA",
+            "任务大师",
+            "语音助手",
+            "个性化场景"
+          ],
+          "summary": "【事件概述】理想汽车于2026年11月11日推送OTA 8.7版本，覆盖L系列及MEGA等车型。本次升级的核心软件创新集中在三方面：其一，智能辅助驾驶新增“标准”与“高效”两种驾驶风格，并升级VLA指挥能力与重点场景预减速逻辑，使行车与泊车体验更平顺；其二，任务大师功能大幅扩展，支持用户自定义音效与视频，并接入“大师按键”硬件配件，用户可为单击、双击设定不同任务，将高频操作与个性化场景绑定，实现一键触发复杂指令链；其三，理想同学语音助手新增长期记忆能力，可跨会话记住用户偏好，提供更具情绪价值的交互反馈。此外，智能座舱还新增车载对讲机功能，集成好友关系链、实时语音对讲、位置共享与路线协同，面向结伴出行场景。整体来看，此次OTA体现了理想从“功能堆叠”向“场景化服务编排”的交互设计转向。\n\n【体验价值】任务大师与大师按键的组合，将深层菜单操作压缩为物理一键触发，显著降低驾驶中的分心风险；语音长期记忆则让助手从“每次重新交代”变为“越用越懂你”，减少重复指令的交互冗余，提升情感化体验。\n\n【潜在槽点】自定义任务链的配置门槛较高，普通用户可能因逻辑复杂而放弃使用；长期记忆涉及偏好数据留存，隐私边界与清除机制若不透明，易引发信任顾虑；车载对讲机依赖好友双向在线，实际组队出行场景的覆盖率有限。",
+          "summary_en": "【Event Overview】Li Auto rolled out OTA 8.7 on November 11, 2026, covering L-series and MEGA models. The update introduces two driving styles (Standard and Efficient) with upgraded VLA command capability and pre-deceleration logic for smoother driving and parking. Task Master now supports custom sound effects and videos, and integrates with a physical 'Master Button' accessory allowing single/double-click task binding for one-touch execution of complex command chains. Li Xiang, the voice assistant, gains long-term memory to retain user preferences across sessions. A new in-car walkie-talkie feature integrates friend lists, real-time voice chat, location sharing, and route coordination for group travel. The OTA reflects a shift from feature stacking toward scenario-based service orchestration.\n\n【Experience Value】Task Master plus the physical button compresses deep-menu operations into one-touch triggers, reducing distraction while driving. Long-term memory transforms the assistant from 're-briefing every time' to 'increasingly understanding you,' cutting repetitive interaction overhead and adding emotional resonance.\n\n【Potential Friction】Configuring custom task chains has a high learning curve that may deter average users. Long-term memory raises privacy concerns if preference data retention and deletion mechanisms lack transparency. The walkie-talkie feature depends on bidirectional online presence, limiting real-world group-travel coverage."
+        },
+        {
+          "title": "AI 跨端新玩法：蓝心小 V 联动迪迪虾，手机碰一碰会议流转上车",
+          "url": "https://mobile.pconline.com.cn/2185/21855001.html",
+          "site_name": "PConline",
+          "publish_date": "2026-11-12",
+          "tags": [
+            "vivo",
+            "蓝心小V",
+            "NFC",
+            "手车互联",
+            "跨端流转"
+          ],
+          "summary": "【事件概述】vivo借助车内灵动按键与NFC一碰即连技术，实现手机端会议应用向车机30英寸巨幕的无缝流转。核心软件创新在于“一机双开”的跨端任务接续逻辑：用户上车后通过NFC触碰完成手车互联，手机上的会议应用（含音视频流、共享文档等）整体迁移至车机大屏继续运行，而手机本体仍可独立操作其他任务，互不干扰。这一方案跳出了传统投屏的镜像复制思路，采用应用级任务迁移，使手机与车机各自保持独立运行状态，解决了商务用户在乘车途中会议中断、需重新入会的痛点。蓝心小V作为跨端调度中枢，负责识别会议场景并触发流转决策，迪迪虾则承担车机端的应用承载与交互适配。整体交互链路为：NFC触碰→身份认证→应用状态序列化→车机端恢复→手机端释放前台资源。\n\n【体验价值】NFC一碰即连将多步手动配对压缩为单一物理动作，符合“零学习成本”的交互理想；应用级迁移而非屏幕镜像，让手机与车机各司其职，商务场景下的任务连续性体验显著优于传统投屏方案。\n\n【潜在槽点】会议流转的稳定性高度依赖网络质量与应用兼容性，第三方会议App的适配深度参差不齐；NFC触碰的误触发与安全认证边界需明确，否则可能造成隐私内容在非预期场景下投射至车内大屏。",
+          "summary_en": "【Event Overview】vivo leverages an in-car smart button and NFC tap-to-connect to enable seamless transfer of mobile meeting apps to a 30-inch in-car display. The core innovation is 'dual-instance' cross-device task continuation: after NFC pairing, the meeting app (including audio/video streams and shared documents) migrates entirely to the car screen while the phone remains independently operable for other tasks. This departs from traditional mirror-casting by using app-level task migration, keeping phone and car running independently. Blue Heart Xiao V acts as the cross-device orchestration hub, identifying meeting scenarios and triggering transfer decisions, while Didixia handles in-car app hosting and interaction adaptation. The pipeline is: NFC tap → identity auth → app state serialization → car-side restoration → phone-side foreground release.\n\n【Experience Value】NFC tap-to-connect compresses multi-step manual pairing into a single physical action, aligning with the 'zero learning cost' interaction ideal. App-level migration rather than screen mirroring lets phone and car each serve their own role, delivering markedly better task continuity than traditional casting in business scenarios.\n\n【Potential Friction】Transfer stability depends heavily on network quality and app compatibility, with third-party meeting apps varying widely in adaptation depth. NFC mis-triggering and security authentication boundaries need clarification, or private content could be projected onto the in-car display in unintended scenarios."
+        },
+        {
+          "title": "语音助手多模态交互到底成熟了吗？实测4款车型后说清+FAQ",
+          "url": "https://auto.sina.cn/2026-11-17/detail-iniyzswf7583799.d.html?vt=4",
+          "site_name": "Auto",
+          "publish_date": "2026-11-17",
+          "tags": [
+            "理想",
+            "多模态交互",
+            "手势控制",
+            "语音助手",
+            "方言识别"
+          ],
+          "summary": "【事件概述】本文基于对理想L9 Livis、家越07、一汽奥迪Q6L e-tron等四款车型的实测，系统梳理了车载语音助手多模态交互的落地现状。理想L9 Livis实现手势控车与多意图规划，用户可通过手势配合语音完成复合指令；家越07支持四音区识别与方言混说，不同座位乘客可同时以各自方言发出指令并被正确区分执行；一汽奥迪Q6L e-tron做到200ms唤醒响应与声克隆功能，可复刻用户音色进行个性化播报。文章指出，多模态交互正从“能动嘴就不动手”进化到“动嘴、动手、动眼”融合决策阶段，语音仍是主入口，但视线追踪与手势融合正在成为辅助决策维度。同时，车端大模型下沉使离线语音能力增强，主动式座舱服务开始基于场景感知预判用户需求。文章也坦承，当前多模态交互仍高度依赖网络状态、账号开通与本地数据条件，海外演示与国内实际落地存在差距。\n\n【体验价值】四音区加方言混说解决了家庭多人出行中“谁说话听谁的”的分配难题，手势与语音融合降低了单一模态在嘈杂环境下的失效概率，声克隆则为语音播报注入情感化个性，整体交互从“指令执行”向“意图理解”迈进。\n\n【潜在槽点】多模态融合决策的误判率在复杂场景下仍偏高，手势与视线追踪可能造成“过度感知”的隐私不适；方言识别与声克隆的本地化适配成本高，跨区域用户体验一致性难以保证。",
+          "summary_en": "【Event Overview】Based on hands-on testing of the Li L9 Livis, Jiayue 07, and Audi Q6L e-tron, this article maps the current state of multimodal voice assistant deployment. The Li L9 Livis enables gesture-based vehicle control with multi-intent planning; the Jiayue 07 supports four-zone recognition and mixed-dialect speech, letting passengers in different seats issue commands in their own dialects simultaneously; the Audi Q6L e-tron achieves 200ms wake response and voice cloning for personalized announcements. The article notes multimodal interaction is evolving from 'speak instead of touch' to fused decision-making across voice, gesture, and gaze, with voice remaining the primary entry point while gaze tracking and gesture fusion serve as auxiliary dimensions. On-device large models enhance offline voice capability, and proactive cockpit services begin predicting needs based on scene awareness. However, multimodal interaction still depends heavily on network status, account activation, and local data conditions.\n\n【Experience Value】Four-zone plus mixed-dialect support solves the 'who gets heard' allocation problem in family travel. Gesture-voice fusion reduces single-modality failure in noisy environments, and voice cloning injects emotional personality into announcements, moving interaction from 'command execution' toward 'intent understanding.'\n\n【Potential Friction】Multimodal fusion misjudgment rates remain high in complex scenarios, and gesture/gaze tracking may create 'over-sensing' privacy discomfort. Dialect recognition and voice cloning carry high localization costs, making cross-region experience consistency hard to guarantee."
+        },
+        {
+          "title": "2027款领克08 EM-P迎AI座舱升级|多任务|领克08em_网易订阅",
+          "url": "https://www.163.com/dy/article/LBU6M69A0556PP0Q.html",
+          "site_name": "163",
+          "publish_date": "2026-11-17",
+          "tags": [
+            "领克",
+            "AI座舱",
+            "手车互联",
+            "UWB",
+            "应用流转"
+          ],
+          "summary": "【事件概述】2027款领克08 EM-P迎来AI座舱软件升级，核心聚焦互联生态与便捷交互两个维度。互联层面，车机兼容CarPlay、CarLink、HiCar等多种手车互联协议，手机应用可无缝流转至车机端继续运行，覆盖不同手机品牌用户的生态接入需求。便捷交互层面，全系标配手机UWB/NFC钥匙，实现无感解锁上车——用户携带手机靠近车辆即可自动完成身份认证与车门解锁，无需掏出手机或手动操作App。上述功能基于高通骁龙8295芯片的5nm制程与30TOPS AI算力支撑，软件层面通过多任务并行调度保障应用流转与无感解锁的响应速度。整体来看，领克08 EM-P的软件策略偏向“生态兼容优先”，以多协议覆盖降低用户换机成本，以UWB无感交互减少上车环节的操作步骤。\n\n【体验价值】多协议手车互联降低了品牌绑定带来的生态迁移成本，用户无需因换手机而放弃车机互联体验；UWB无感解锁将“上车”这一高频动作的操作步骤归零，符合“科技隐身”的交互设计趋势，日常通勤场景下的流畅感提升明显。\n\n【潜在槽点】多协议并存可能导致不同互联方式下的体验一致性参差，用户难以判断哪种连接方式最优；UWB无感解锁的误触发与中继攻击风险需持续关注，若安全认证逻辑不严密，可能带来车辆被盗开的安全隐患。",
+          "summary_en": "【Event Overview】The 2027 Lynk & Co 08 EM-P receives an AI cockpit software upgrade focused on connectivity ecosystem and convenience interaction. On connectivity, the head unit supports CarPlay, CarLink, and HiCar protocols, allowing phone apps to seamlessly transfer to the car screen, covering users across different phone brands. On convenience, all trims come standard with phone UWB/NFC keys for passive unlock—users carrying their phone near the vehicle trigger automatic identity authentication and door unlock without taking out the phone or opening an app. These features are backed by the Qualcomm Snapdragon 8295's 5nm process and 30TOPS AI compute, with software-level multi-task scheduling ensuring responsive app transfer and passive unlock. The software strategy prioritizes ecosystem compatibility, using multi-protocol coverage to lower switching costs and UWB passive interaction to eliminate steps in the boarding routine.\n\n【Experience Value】Multi-protocol phone-car connectivity reduces ecosystem migration costs from brand lock-in, so users needn't abandon car connectivity when switching phones. UWB passive unlock zeroes out the steps for the high-frequency 'boarding' action, aligning with the 'invisible technology' design trend and noticeably improving daily commute fluidity.\n\n【Potential Friction】Coexisting protocols may cause inconsistent experience across connection methods, leaving users unsure which is optimal. UWB passive unlock's mis-triggering and relay attack risks warrant ongoing attention; lax security authentication could pose vehicle theft risks."
+        },
+        {
+          "title": "大众ID.ERA 5X的OTA升级，真的每100天更新一次？",
+          "url": "https://cj.sina.com.cn/articles/view/9100016833/21e673cc107201okou",
+          "site_name": "Cj",
+          "publish_date": "2026-11-12",
+          "tags": [
+            "大众",
+            "OTA",
+            "CEA架构",
+            "整车升级",
+            "CMP平台"
+          ],
+          "summary": "【事件概述】针对用户对纯电车OTA升级频率的普遍顾虑，大众ID.ERA 5X给出明确承诺：基于CMP平台与CEA电子电气架构的协同，支持每100天进行一次整车OTA升级，单次升级可在30分钟内完成。这一节奏在家用纯电SUV细分市场中属于较快水平。CEA架构作为大众面向中国市场的电子电气底层，采用中央计算加区域控制的拓扑，为整车级OTA提供了硬件基础；CMP平台则负责整车软件版本的管理与推送调度。软件层面，ID.ERA 5X的OTA覆盖范围包括车机功能迭代、智驾能力优化与整车控制策略更新，而非仅限于娱乐系统的浅层升级。文章同时指出，OTA频率的承诺需要以实际推送质量为前提——高频推送若伴随功能回退或升级失败，反而会损害用户信任。\n\n【体验价值】明确的OTA节奏为用户建立了可预期的升级预期，减少了“买完就落后”的焦虑感；30分钟完成的整车升级时长控制在可用车窗口内，降低了升级对日常用车的干扰，体现了对用户时间成本的尊重。\n\n【潜在槽点】100天固定节奏可能演变为“为升级而升级”的KPI式推送，功能价值密度被稀释；整车OTA涉及控制策略变更，升级失败的回滚机制与责任界定若不清晰，用户可能面临车辆功能异常却无从追溯的困境。",
+          "summary_en": "【Event Overview】Addressing widespread concerns about OTA frequency for EVs, Volkswagen's ID.ERA 5X commits to a full-vehicle OTA every 100 days, with each update completing within 30 minutes—a relatively fast cadence in the family electric SUV segment. The CEA electrical/electronic architecture, built for the China market with a central-compute-plus-zone-control topology, provides the hardware foundation for vehicle-level OTA, while the CMP platform handles software version management and push scheduling. OTA coverage includes infotainment iteration, ADAS optimization, and vehicle control strategy updates—not merely shallow entertainment-system upgrades. The article notes that cadence commitments must be backed by push quality; high-frequency updates with feature regressions or failed installs would erode user trust.\n\n【Experience Value】A clear OTA cadence sets predictable upgrade expectations, reducing 'outdated right after purchase' anxiety. The 30-minute full-vehicle update fits within usable windows, minimizing disruption to daily driving and respecting users' time costs.\n\n【Potential Friction】A fixed 100-day rhythm may devolve into KPI-driven pushes that dilute feature value density. Full-vehicle OTA involving control strategy changes requires clear rollback mechanisms and liability definitions; otherwise users may face functional anomalies with no traceability."
+        }
+      ],
+      "created_at": "2026-11-18 18:00:20"
+    },
+    {
       "date": "2026-11-17",
       "date_display": "11月17日",
       "weekday": "周二",
@@ -4238,71 +4322,6 @@
         }
       ],
       "created_at": "2026-08-06 13:25:01"
-    },
-    {
-      "date": "2026-08-05",
-      "date_display": "08月05日",
-      "weekday": "周三",
-      "news_count": 4,
-      "news": [
-        {
-          "title": "7月OTA重磅升级！看懂理想智驾迭代，才懂真正的长期投资价值",
-          "url": "https://xueqiu.com/5768956315/403580346",
-          "site_name": "雪球",
-          "publish_date": "2026-08-04",
-          "tags": [
-            "理想",
-            "OTA",
-            "智驾大模型",
-            "马赫VLA"
-          ],
-          "summary": "【事件概述】理想汽车于7月推送OTA 9.1版本，带来31项新增功能与10项体验优化。本次升级的核心并非功能堆砌，而是基于自研M100芯片与马赫VLA大模型的深度整合。该版本重点强化了智驾系统的底层能力，通过端到端大模型架构，实现了更拟人化的驾驶决策与更流畅的交互反馈。同时，OTA升级还覆盖了座舱内的多模态交互体验，例如基于大模型的语音助手能够理解更复杂的上下文指令，并主动提供场景化服务。此次升级标志着理想汽车从单纯的硬件堆料转向以软件和算法驱动的长期价值迭代，其持续、稳定的OTA能力被视为品牌的核心竞争壁垒。\n\n【体验价值】从UX角度看，OTA 9.1的最大价值在于“无感进化”。用户无需学习新操作，即可在日常驾驶中感受到智驾系统在变道、过弯等场景下的决策更平滑、更符合人类驾驶习惯。大模型赋能的语音交互也减少了多轮对话的冗余，提升了指令完成的效率与自然度。\n\n【潜在槽点】尽管功能强大，但31项新增功能对非科技爱好者用户而言存在较高的学习成本，部分功能入口隐藏较深。此外，智驾大模型的持续迭代高度依赖数据回传，可能引发用户对隐私安全的担忧。",
-          "summary_en": "【Event Overview】Li Auto pushed OTA 9.1 in July, bringing 31 new features and 10 experience optimizations. The core of this upgrade is not feature stacking, but deep integration based on its self-developed M100 chip and Mach VLA large model. This version focuses on strengthening the underlying capabilities of the intelligent driving system, achieving more human-like driving decisions and smoother interaction feedback through an end-to-end large model architecture. Meanwhile, the OTA upgrade also covers multimodal interaction experiences within the cockpit, such as the large-model-powered voice assistant understanding more complex contextual commands and proactively providing scenario-based services. This upgrade marks Li Auto's shift from simple hardware stacking to long-term value iteration driven by software and algorithms, with its continuous and stable OTA capability seen as a core competitive moat.\n\n【Experience Value】From a UX perspective, the greatest value of OTA 9.1 is 'imperceptible evolution'. Users can feel the intelligent driving system making smoother and more human-like decisions in scenarios like lane changes and turns without learning new operations. The large-model-powered voice interaction also reduces redundancy in multi-turn dialogues, enhancing efficiency and naturalness.\n\n【Potential Friction】Despite its power, the 31 new features pose a high learning cost for non-tech-savvy users, and some feature entries are hidden deep. Additionally, the continuous iteration of the intelligent driving large model relies heavily on data feedback, which may raise privacy concerns."
-        },
-        {
-          "title": "手车互联彻底消灭手机支架？ 比亚迪海狮06EV车机系统详细体验",
-          "url": "https://www.dongchedi.com/video/7570727396161094187",
-          "site_name": "懂车帝",
-          "publish_date": "2026-08-02",
-          "tags": [
-            "比亚迪",
-            "手车互联",
-            "跨端生态",
-            "手机映射"
-          ],
-          "summary": "【事件概述】比亚迪海狮06EV上市后，其搭载的最新DiLink车机系统因新增的“手车互联”功能而备受关注。该功能旨在通过无线连接，将手机上的核心应用（如导航、音乐、微信）无缝投射到车机大屏，并支持反向控制。与传统的CarPlay/CarLife不同，比亚迪的这套方案更深度地整合了安卓系统的底层能力，允许手机应用以“平行视界”或“分屏”形式在车机上运行，甚至支持调用车机硬件（如摄像头、麦克风）。其核心目标是让用户摆脱手机支架，在车内获得与手机一致且更安全的应用体验。视频通过实际演示，探讨了该功能在导航流转、信息回复、应用生态丰富度等方面的真实表现，并检验其是否真的能取代手机支架。\n\n【体验价值】手车互联的体验价值在于“无缝衔接”。用户上车后无需重新设置，手机上的导航目的地、正在播放的音乐或语音通话可以无缝流转至车机，降低了驾驶中的操作分心。同时，车机大屏能显示更丰富的手机应用，解决了车机原生应用生态不足的痛点，让用户感觉车机就是手机的延伸，学习成本极低。\n\n【潜在槽点】手车互联的体验高度依赖手机性能和无线连接的稳定性，可能出现延迟、卡顿或断连，影响使用信心。此外，大量手机应用在车机大屏上显示时，UI适配参差不齐，部分应用字体过小或按钮难以点击，反而增加了操作难度和驾驶风险。",
-          "summary_en": "【Event Overview】Following the launch of BYD's Sealion 06EV, its latest DiLink system has attracted attention for its new 'Phone-Car Connectivity' feature. This feature aims to seamlessly project core phone apps (navigation, music, WeChat) onto the car screen via wireless connection and supports reverse control. Unlike traditional CarPlay/CarLife, BYD's solution integrates deeper with the Android system, allowing apps to run in 'parallel view' or split-screen modes, and even call upon car hardware. The core goal is to let users ditch phone mounts and get a safer, consistent app experience. The video demonstrates the feature's real-world performance in navigation handoff, message replies, and app ecosystem richness.\n\n【Experience Value】The value lies in 'seamless continuity'. Users don't need to reconfigure; navigation destinations, music, or calls seamlessly transfer to the car screen, reducing distraction. It also solves the problem of limited native car apps, making the car feel like an extension of the phone with a minimal learning curve.\n\n【Potential Friction】The experience is highly dependent on phone performance and wireless stability, which can lead to lag, stutter, or disconnections. Moreover, many phone apps are poorly adapted for the car's large screen, with small fonts or hard-to-tap buttons, increasing operational difficulty and driving risk."
-        },
-        {
-          "title": "小米澎湃OS 4八月发布：零遗留重构能否终结安卓卡顿？+FAQ",
-          "url": "https://k.sina.cn/article_7879923804_1d5ae185c06801ldiy.html",
-          "site_name": "新浪",
-          "publish_date": "2026-08-03",
-          "tags": [
-            "小米",
-            "澎湃OS",
-            "系统重构",
-            "Rust"
-          ],
-          "summary": "【事件概述】小米澎湃OS 4确定于2026年8月上旬发布，这是该系统第三代重大迭代版本。此次升级被官方称为“零遗留”底层重构，彻底清除所有MIUI遗留代码，并采用Rust语言重写系统内核，以解决安卓系统长期使用后卡顿的顽疾。同时，新系统引入“液态玻璃”视觉设计语言，强调流畅与通透的动效。在AI能力上，澎湃OS 4将深度整合端侧全离线AI大模型，实现更智能的语音助手、图像识别和文本处理，且所有数据处理均在本地完成，以保障用户隐私。此次重构被视为小米在自研芯片、自研OS和自研AI大模型“大会师”战略中的关键一步，旨在打造一个从底层到应用层完全自主可控的软件生态。\n\n【体验价值】澎湃OS 4的体验价值在于“长久流畅”。通过底层重构，有望从根本上解决安卓系统因后台资源占用导致的卡顿问题，提升多任务切换的响应速度。Rust语言的内存安全特性也能减少系统崩溃和漏洞，提升稳定性。端侧AI的加入则让语音助手等功能的响应更快、更智能，且无需网络，保护了用户隐私。\n\n【潜在槽点】“零遗留”重构意味着系统兼容性风险极高，早期版本可能出现大量应用闪退或功能异常，影响用户体验。此外，Rust语言虽安全，但开发门槛高，可能导致第三方应用适配进度缓慢，生态建设初期可能落后于预期。",
-          "summary_en": "【Event Overview】Xiaomi's HyperOS 4 is confirmed to launch in early August 2026, marking its third major iteration. This upgrade is officially called a 'zero-legacy' bottom-up reconstruction, completely removing all MIUI legacy code and using the Rust language to rewrite the system kernel to solve the chronic lag issue of Android. The new system also introduces a 'liquid glass' visual design language. In AI capabilities, HyperOS 4 will deeply integrate an on-device offline AI large model for smarter voice assistants, image recognition, and text processing, all processed locally for privacy. This is a key step in Xiaomi's 'convergence' strategy of self-developed chips, OS, and AI.\n\n【Experience Value】The value lies in 'long-lasting smoothness'. The bottom-up reconstruction aims to fundamentally solve lag issues caused by background resource usage, improving multitasking responsiveness. Rust's memory safety also reduces crashes and vulnerabilities. On-device AI makes features like voice assistants faster and smarter, without needing a network, protecting privacy.\n\n【Potential Friction】The 'zero-legacy' reconstruction poses a high compatibility risk, with early versions potentially suffering from app crashes or malfunctions. Additionally, Rust's high development threshold may slow third-party app adaptation, potentially lagging behind expectations in the early stages of ecosystem building."
-        },
-        {
-          "title": "座舱大模型：智能驾驶的未来引擎",
-          "url": "http://inandu.cn/news/53620.html",
-          "site_name": "南都时讯",
-          "publish_date": "2026-08-01",
-          "tags": [
-            "极氪",
-            "Kr AI",
-            "DeepSeek",
-            "端侧大模型"
-          ],
-          "summary": "【事件概述】文章聚焦于大模型技术在智能座舱中的应用，特别以极氪自研的Kr AI大模型与DeepSeek R1大模型的融合为案例。这一融合推动了座舱端侧AI的大规模应用，使得车辆能够在本地处理复杂的自然语言理解和多模态交互任务，而无需依赖云端。这种端侧部署模式不仅降低了延迟，提升了响应速度，还增强了数据隐私保护。文章指出，大模型上车正从“能用”向“好用”转变，其核心在于将大模型的通用能力与座舱内的具体场景（如用车控制、导航、娱乐）深度结合，实现更智能的主动服务。例如，用户可以用更口语化的指令完成车辆控制，系统也能根据上下文和用户习惯提供个性化推荐。\n\n【体验价值】端侧大模型的价值在于“即时与个性”。所有计算在本地完成，语音助手和交互界面的响应几乎无延迟，体验更加流畅。同时，大模型能够理解用户的模糊意图和上下文，使得交互更加自然，减少了学习成本。个性化推荐基于本地数据，更精准且不泄露隐私，提升了用户的专属感。\n\n【潜在槽点】端侧大模型对芯片算力要求极高，可能导致硬件成本上升，最终转嫁给消费者。此外，尽管大模型能力强大，但在处理复杂或非标准指令时仍可能出错，若系统无法妥善处理错误，反而会降低用户信任。同时，本地模型的更新迭代不如云端灵活，功能进化可能受限。",
-          "summary_en": "【Event Overview】The article focuses on the application of large models in smart cockpits, particularly the fusion of Zeekr's self-developed Kr AI large model and DeepSeek R1. This fusion promotes the large-scale application of on-device AI, enabling vehicles to handle complex NLP and multimodal tasks locally without cloud reliance. This on-device deployment reduces latency, improves response speed, and enhances data privacy. The article points out that large models in cars are shifting from 'usable' to 'easy to use', with the core being deep integration of general capabilities with specific cockpit scenarios for smarter proactive services.\n\n【Experience Value】The value of on-device large models lies in 'immediacy and personalization'. All computation is local, making voice assistant and UI responses nearly lag-free. The model's ability to understand vague intent and context makes interaction more natural, reducing the learning curve. Personalized recommendations are more accurate and private, enhancing a sense of exclusivity.\n\n【Potential Friction】On-device large models demand extremely high chip computing power, potentially increasing hardware costs. Moreover, despite their power, they can still err on complex or non-standard commands; if errors aren't handled gracefully, user trust may decrease. Also, local model updates are less flexible than cloud-based ones, potentially limiting feature evolution."
-        }
-      ],
-      "created_at": "2026-08-05 13:22:55"
     }
   ]
 }
