@@ -1,6 +1,95 @@
 {
   "records": [
     {
+      "date": "2026-11-19",
+      "date_display": "11月19日",
+      "weekday": "周四",
+      "news_count": 5,
+      "news": [
+        {
+          "title": "蔚来高管回应爸爸我爱你违规 系统误判已修复",
+          "url": "https://news.china.com/socialgd/10000169/20261118/49883642.html",
+          "site_name": "中华网",
+          "publish_date": "2026-11-18",
+          "tags": [
+            "蔚来",
+            "Banyan",
+            "OCR识别",
+            "内容审核",
+            "投影交互",
+            "误判修复"
+          ],
+          "summary": "【事件概述】蔚来ES9车载投影灯光秀的OCR内容识别机制出现逻辑漏洞：车主在女儿十岁生日时，通过车机输入手写文字“爸爸我爱你”试图投影展示，系统判定内容违规并拦截；而输入“妈妈我爱你”则正常生成。蔚来高管公开回应称系OCR识别机制在特定场景下的逻辑漏洞，已修复该误判。事件核心在于车载内容审核系统的语义理解与场景感知能力不足，将亲情表达误判为敏感内容，暴露出车机端内容安全策略的粗粒度问题。修复后系统应能区分正常情感表达与真正违规内容，但具体修复逻辑与灰度推送范围未详细披露。\n\n【体验价值】正向价值在于车企对用户反馈的快速响应与公开透明态度，修复后提升了家庭场景下投影交互的可用性与情感温度，让灯光秀真正服务于个性化表达而非机械拦截。\n\n【潜在槽点】OCR内容审核的边界模糊，用户难以预判何种文字会被拦截，学习成本与挫败感高；修复若仅针对个案打补丁，泛化能力存疑，且审核策略不透明易引发隐私与表达自由争议。",
+          "summary_en": "【Event Overview】NIO ES9's in-car projection light show OCR content recognition mechanism had a logic flaw: a owner input handwritten text 'Dad I love you' for his daughter's 10th birthday, but the system flagged it as violating content and blocked the projection; while 'Mom I love you' generated normally. NIO executives publicly responded that it was a logic loophole in the OCR recognition mechanism under specific scenarios and has been fixed. The core issue lies in the insufficient semantic understanding and scene awareness of the in-car content moderation system, misjudging family expressions as sensitive content, exposing the coarse-grained problem of content safety policies on the vehicle side. After the fix, the system should be able to distinguish normal emotional expressions from truly violating content, but the specific fix logic and gray-scale rollout scope were not disclosed in detail.\n\n【Experience Value】The positive value lies in the automaker's rapid response to user feedback and public transparency. After the fix, it improves the usability and emotional warmth of projection interaction in family scenarios, allowing the light show to truly serve personalized expression rather than mechanical interception.\n\n【Potential Friction】The boundaries of OCR content moderation are blurry, making it difficult for users to predict what text will be intercepted, resulting in high learning costs and frustration; if the fix only patches individual cases, generalization ability is questionable, and opaque moderation policies can easily trigger privacy and freedom of expression controversies."
+        },
+        {
+          "title": "语音助手多模态交互迎来分水岭？3个维度说清座舱交互新战局+FAQ",
+          "url": "https://auto.sina.cn/2026-11-15/detail-iniyvkxx1856508.d.html?vt=4",
+          "site_name": "新浪汽车",
+          "publish_date": "2026-11-15",
+          "tags": [
+            "科大讯飞",
+            "星火大模型",
+            "多模态交互",
+            "视线手势融合",
+            "端侧大模型",
+            "主动服务"
+          ],
+          "summary": "【事件概述】科大讯飞发布星火大模型底座能力升级及多模态交互技术突破，明确覆盖汽车座舱场景。核心创新点包括：语音仍是主入口，但融合视线追踪与手势识别进行多模态联合决策；车端大模型下沉实现端侧推理，降低对云端网络的依赖；主动式座舱服务从被动响应转向预判用户需求；车外交互划定安全边界。文章指出多模态交互的胜负手不在“能听会说”，而在“看得见、猜得到、主动服务”，标志着座舱交互从单一语音指令向融合感知与主动决策演进。技术底座涉及多说话人识别、语音生成与交互模型，并接入生活服务生态。\n\n【体验价值】多模态融合降低了单一语音在嘈杂环境下的失效概率，视线与手势的加入让交互更接近人际沟通直觉，端侧大模型提升了响应实时性与隐私本地化处理能力，主动服务有望减少用户操作层级。\n\n【潜在槽点】多模态融合决策逻辑不透明，用户难以理解系统为何执行某动作；视线与手势追踪涉及持续摄像头采集，隐私顾虑显著；主动服务若预判不准易成打扰，且端侧算力限制可能导致多模态并发时降级卡顿。",
+          "summary_en": "【Event Overview】iFlytek released upgrades to its Spark large model foundation and breakthroughs in multimodal interaction technology, explicitly covering automotive cockpit scenarios. Core innovations include: voice remains the primary entry point, but integrates eye tracking and gesture recognition for multimodal joint decision-making; vehicle-side large model deployment enables end-side inference, reducing dependence on cloud networks; proactive cockpit services shift from passive response to predicting user needs; exterior interaction defines safety boundaries. The article points out that the winning factor of multimodal interaction is not 'being able to listen and speak' but 'being able to see, guess, and proactively serve,' marking the evolution of cockpit interaction from single voice commands to fused perception and proactive decision-making. The technology foundation involves multi-speaker recognition, voice generation and interaction models, and connects to life service ecosystems.\n\n【Experience Value】Multimodal fusion reduces the failure probability of single voice in noisy environments. The addition of eye tracking and gestures makes interaction closer to interpersonal communication intuition. End-side large models improve response real-time performance and privacy-preserving local processing, and proactive services are expected to reduce user operation levels.\n\n【Potential Friction】The decision logic of multimodal fusion is opaque, making it difficult for users to understand why the system performs a certain action; eye and gesture tracking involves continuous camera collection, raising significant privacy concerns; if proactive service predictions are inaccurate, they can become disturbances, and end-side computing power limitations may cause degradation and lag during multimodal concurrency."
+        },
+        {
+          "title": "问界M9多屏联动值得买吗？3个维度说清三屏联动+FAQ",
+          "url": "https://auto.sina.cn/2026-11-18/detail-inizeacc6943497.d.html?vt=4",
+          "site_name": "新浪汽车",
+          "publish_date": "2026-11-18",
+          "tags": [
+            "问界",
+            "鸿蒙座舱",
+            "分布式流转",
+            "多屏联动",
+            "5D影院",
+            "跨屏交互"
+          ],
+          "summary": "【事件概述】问界M9搭载鸿蒙座舱系统，实现中控屏、副驾娱乐屏与后排控制屏的三屏联动。核心软件创新在于分布式流转能力：中控负责导航与车辆控制，副驾可独立观影，后排控制舒适功能，三屏互不干扰且支持内容跨屏流转。星环屏幕智能切换与5D影院模式将屏幕、音响、氛围灯与座椅联动，形成场景化沉浸体验。实测交互丝滑，跨屏体验是核心亮点。该方案的本质是通过鸿蒙分布式软总线实现多设备虚拟化，让不同屏幕按角色分配信息与算力，而非简单镜像投屏。\n\n【体验价值】分布式流转让内容跟随用户意图在屏幕间无缝迁移，副驾与后排获得独立娱乐空间，减少驾驶信息与娱乐内容的相互干扰，5D影院模式通过多模态联动提升了沉浸感与场景仪式感。\n\n【潜在槽点】三屏联动增加了系统复杂度，跨屏流转的触发逻辑与权限管理对新手不友好；5D影院模式涉及座椅、灯光、音响多执行器协同，配置冗余且可能分散驾驶注意力；多屏同时运行对车机算力分配提出更高要求，长期使用流畅度存疑。",
+          "summary_en": "【Event Overview】AITO M9 is equipped with the HarmonyOS cockpit system, achieving three-screen linkage among the central control screen, front passenger entertainment screen, and rear control screen. The core software innovation lies in distributed flow capability: the central control handles navigation and vehicle control, the front passenger can watch independently, and the rear controls comfort functions, with the three screens not interfering with each other and supporting cross-screen content flow. The star-ring screen intelligent switching and 5D cinema mode link screens, audio, ambient lighting, and seats to form an immersive scenario experience. Actual testing shows smooth interaction, with cross-screen experience as the core highlight. The essence of this solution is to virtualize multiple devices through the HarmonyOS distributed soft bus, allowing different screens to allocate information and computing power by role, rather than simple mirroring.\n\n【Experience Value】Distributed flow allows content to seamlessly migrate between screens following user intent. The front passenger and rear passengers gain independent entertainment space, reducing mutual interference between driving information and entertainment content. The 5D cinema mode enhances immersion and scenario ritual through multimodal linkage.\n\n【Potential Friction】Three-screen linkage increases system complexity, and the trigger logic and permission management of cross-screen flow are unfriendly to novices; the 5D cinema mode involves coordinated multi-actuator operation of seats, lighting, and audio, which is configuration-redundant and may distract driving attention; simultaneous operation of multiple screens places higher demands on cockpit computing power allocation, and long-term smoothness is questionable."
+        },
+        {
+          "title": "神龙科技联手火山引擎，标致座舱升级Ai-Cockpit",
+          "url": "https://chejiahao.autohome.com.cn/info/26884840",
+          "site_name": "汽车之家车家号",
+          "publish_date": "2026-11-15",
+          "tags": [
+            "标致",
+            "Ai-Cockpit",
+            "火山引擎",
+            "大模型",
+            "i-Cockpit",
+            "合资品牌"
+          ],
+          "summary": "【事件概述】神龙科技与火山引擎于11月11日签署全面战略合作协议，成为合资品牌中首家与火山引擎开展全链路深度共创的车企。合作并非简单“买个模型装上车机”，而是双方共同定义产品、整合资源，将标致经典i-Cockpit座舱迭代升级为Ai-Cockpit。核心软件创新在于大模型能力与座舱底层系统的全链路融合，涉及语音交互、场景服务、个性化推荐等模块的AI化重构。这标志着合资品牌在座舱软件生态上从采购标准化方案转向与AI厂商深度共创，试图弥补此前在智能化体验上的短板。具体落地功能与OTA节奏尚未披露。\n\n【体验价值】全链路共创有望让AI能力真正嵌入座舱交互底层，而非外挂式语音助手，提升语义理解深度与场景服务连贯性；对合资品牌用户而言，意味着座舱体验从功能机向智能机跨越，语音与主动服务可用性预期提升。\n\n【潜在槽点】“全链路共创”概念宏大但落地周期长，用户可能面临长期等待OTA；火山引擎大模型在车端算力约束下的推理延迟与离线可用性存疑；合资品牌软件迭代文化薄弱，深度共创的组织协同难度可能拖累体验兑现。",
+          "summary_en": "【Event Overview】Shenlong Technology and Volcano Engine signed a comprehensive strategic cooperation agreement on November 11, becoming the first joint venture brand to engage in full-chain deep co-creation with Volcano Engine. The cooperation is not simply 'buying a model and installing it in the car' but jointly defining products and integrating resources to iterate Peugeot's classic i-Cockpit into Ai-Cockpit. The core software innovation lies in the full-chain integration of large model capabilities with the cockpit's underlying system, involving AI-driven reconstruction of voice interaction, scenario services, personalized recommendations, and other modules. This marks joint venture brands shifting from purchasing standardized solutions to deep co-creation with AI vendors in cockpit software ecosystems, attempting to make up for previous shortcomings in intelligent experience. Specific implementation functions and OTA cadence have not been disclosed.\n\n【Experience Value】Full-chain co-creation is expected to truly embed AI capabilities into the cockpit interaction foundation rather than an add-on voice assistant, improving semantic understanding depth and scenario service coherence; for joint venture brand users, it means the cockpit experience leaps from feature phone to smartphone, with expected improvements in voice and proactive service usability.\n\n【Potential Friction】The 'full-chain co-creation' concept is grand but has a long implementation cycle, and users may face long waits for OTA; the inference latency and offline availability of Volcano Engine's large model under vehicle-side computing constraints are questionable; joint venture brands have weak software iteration culture, and the organizational collaboration difficulty of deep co-creation may drag down experience delivery."
+        },
+        {
+          "title": "座舱3D HMI框架入口设计与启动流程优化实践",
+          "url": "https://blog.csdn.net/weixin_42548874/article/details/170790592",
+          "site_name": "CSDN",
+          "publish_date": "2026-11-14",
+          "tags": [
+            "3D HMI",
+            "启动优化",
+            "RT-Thread",
+            "IMX6",
+            "初始化编排",
+            "座舱框架"
+          ],
+          "summary": "【事件概述】技术博客系统梳理座舱3D HMI框架的入口设计与启动流程优化实践。内容从框架“入口”定位切入，向下覆盖Cortex-M、RT-Thread、u-boot、IMX6 IVT等底层引导链路，向上回到应用层讲解main函数前后的初始化编排、3D引擎启动时序，最后聚焦启动时间拆解优化及仅在启动阶段出现的诡异故障。核心价值在于揭示3D HMI体验的流畅度不仅取决于渲染性能，更受制于底层引导链路与初始化编排的时序设计。该实践为座舱HMI开发者提供了从系统启动到3D引擎就绪的全链路优化方法论，涉及启动阶段资源调度、依赖管理与故障排查。\n\n【体验价值】启动流程优化直接缩短座舱3D界面从点火到可交互的等待时间，减少用户上车后的黑屏或卡顿感知；初始化编排的合理化降低了启动阶段故障率，提升了系统可靠性与第一印象体验。\n\n【潜在槽点】底层优化高度依赖特定硬件平台（IMX6）与RTOS，方案可移植性存疑；启动时序优化往往牵一发动全身，后续功能迭代可能重新引入延迟；技术博客面向开发者，普通用户无法感知优化价值，且过度压缩启动时间可能牺牲后台服务就绪度。",
+          "summary_en": "【Event Overview】A technical blog systematically reviews the entry design and startup process optimization practices of cockpit 3D HMI frameworks. The content starts from locating the framework 'entry,' goes down to cover underlying boot chains such as Cortex-M, RT-Thread, u-boot, and IMX6 IVT, then returns to the application layer to explain initialization orchestration before and after the main function and 3D engine startup timing, and finally focuses on startup time decomposition optimization and bizarre faults that only appear during the startup phase. The core value lies in revealing that the smoothness of 3D HMI experience depends not only on rendering performance but also on the timing design of the underlying boot chain and initialization orchestration. This practice provides cockpit HMI developers with a full-chain optimization methodology from system startup to 3D engine readiness, involving startup-phase resource scheduling, dependency management, and troubleshooting.\n\n【Experience Value】Startup process optimization directly shortens the waiting time for the cockpit 3D interface from ignition to interactivity, reducing the user's perception of black screens or lag after entering the vehicle; rationalized initialization orchestration lowers the startup-phase failure rate, improving system reliability and first-impression experience.\n\n【Potential Friction】Underlying optimization is highly dependent on specific hardware platforms (IMX6) and RTOS, and solution portability is questionable; startup timing optimization often affects the whole system, and subsequent feature iterations may reintroduce delays; the technical blog targets developers, ordinary users cannot perceive the optimization value, and excessively compressing startup time may sacrifice background service readiness."
+        }
+      ],
+      "created_at": "2026-11-19 18:08:29"
+    },
+    {
       "date": "2026-11-18",
       "date_display": "11月18日",
       "weekday": "周三",
@@ -4271,57 +4360,6 @@
         }
       ],
       "created_at": "2026-08-07 12:31:35"
-    },
-    {
-      "date": "2026-08-06",
-      "date_display": "08月06日",
-      "weekday": "周四",
-      "news_count": 3,
-      "news": [
-        {
-          "title": "座舱沉浸式体验是伪需求吗？超60款量产车已搭载3D HMI，五感联动才是真方向",
-          "url": "https://auto.sina.cn/2026-08-04/detail-inimawmr4242040.d.html?vt=4",
-          "site_name": "新浪汽车",
-          "publish_date": "2026-08-04",
-          "tags": [
-            "Unity",
-            "3D HMI",
-            "五感交互",
-            "沉浸式体验"
-          ],
-          "summary": "【事件概述】行业数据显示，Unity中国已与近30家整车厂合作，超过60款量产车搭载3D HMI，超80%智能电动车品牌采用Unity引擎。2025年岚图FREE+首搭鸿蒙座舱5，将五感沉浸体验推向量产。文章探讨了座舱沉浸式体验从发布会PPT变成购车单选项后，究竟是真实体验升级还是新式营销噱头。核心创新在于将游戏级3D渲染引擎引入车载系统，实现仪表盘、中控屏与AR-HUD的三维一体化显示，并联动氛围灯、音响、座椅震动等硬件，构建多模态的沉浸式交互环境。\n\n【体验价值】3D HMI将传统平面图标导航升级为空间化、场景化的交互界面，降低了认知负荷。例如，3D车模控制可直观调节车窗、空调，比文字菜单更符合直觉。五感联动（视觉、听觉、触觉、嗅觉）能营造出“人车合一”的沉浸氛围，提升驾驶乐趣与座舱高级感，尤其在驻车娱乐场景下，能提供媲美游戏主机的沉浸体验。\n\n【潜在槽点】3D渲染对座舱芯片算力要求极高，可能导致入门车型卡顿或发热。过度追求视觉特效可能分散驾驶员注意力，增加安全风险。此外，五感联动涉及座椅震动、香氛等硬件，增加了系统复杂度和故障率，且部分功能（如香氛）可能引发用户过敏或不适，实际使用频率存疑。",
-          "summary_en": "【Event Overview】Industry data shows Unity China has partnered with nearly 30 OEMs, with over 60 production vehicles featuring 3D HMI and over 80% of smart EV brands using the Unity engine. In 2025, Voyah FREE+ debuted with HarmonyOS Cockpit 5, pushing five-sense immersive experiences into production. The article explores whether immersive cockpit experiences are genuine upgrades or new marketing gimmicks. Core innovation lies in introducing game-grade 3D rendering engines into vehicles, enabling 3D integrated displays across instrument clusters, center consoles, and AR-HUDs, while syncing ambient lighting, audio, and seat vibration for multimodal immersive interaction.\n\n【Experience Value】3D HMI upgrades flat icon navigation to spatial, contextual interfaces, reducing cognitive load. For instance, 3D car model controls allow intuitive window/AC adjustments. Five-sense linkage creates an immersive 'human-car unity' atmosphere, enhancing driving pleasure and premium feel, especially in parked entertainment scenarios.\n\n【Potential Friction】3D rendering demands high chip computing power, potentially causing lag or overheating in entry-level models. Overly flashy visuals may distract drivers, increasing safety risks. Hardware dependencies (seat vibration, fragrance) raise complexity and failure rates; fragrance may trigger allergies, and actual usage frequency is questionable."
-        },
-        {
-          "title": "Waymo将为Robotaxi配AI助手：能陪聊，不能开车",
-          "url": "https://www.163.com/dy/article/L3E4U3TI051481US.html",
-          "site_name": "网易",
-          "publish_date": "2026-08-03",
-          "tags": [
-            "Waymo",
-            "Gemini",
-            "AI助手",
-            "Robotaxi"
-          ],
-          "summary": "【事件概述】Waymo宣布将为旗下Robotaxi配备基于Gemini大模型的AI助手，主打乘客陪伴与信息查询功能。该助手能够进行自然语言陪聊、推荐沿途餐厅或景点，并解答关于行程的问题。然而，其权限受到严格限制：不能调整行驶路线、控制车窗和座椅，也不能处理账户、支付、订餐或预约等事务。若乘客要求立即停车或更改目的地，Gemini只能引导其通过车内屏幕或Waymo应用程序操作；发生紧急情况时，助手也只能建议乘客联系Waymo客服或拨打报警电话。这一设计明确了AI助手作为“信息娱乐伙伴”而非“驾驶控制者”的定位。\n\n【体验价值】在无人驾驶场景中，AI助手填补了缺乏人类驾驶员带来的情感陪伴空缺，能有效缓解乘客的孤独感和焦虑情绪。通过自然语言交互提供行程信息和生活服务推荐，提升了出行过程中的信息获取效率与娱乐性。严格的权限隔离设计也保障了行车安全，避免了因语音误操作导致的安全事故，增强了用户对Robotaxi的信赖感。\n\n【潜在槽点】功能边界过于保守，用户可能因AI助手无法执行“停车”等基本指令而感到挫败，交互效率反而低于直接操作屏幕。此外，Gemini的“陪聊”功能可能涉及隐私数据收集（如对话内容、偏好分析），在公共出行场景下，用户对语音记录的安全性和匿名性存在担忧。",
-          "summary_en": "【Event Overview】Waymo announced equipping its Robotaxi fleet with an AI assistant based on the Gemini large model, focusing on passenger companionship and information queries. The assistant can engage in natural language chat, recommend restaurants or attractions, and answer trip-related questions. However, its permissions are strictly limited: it cannot alter routes, control windows/seats, or handle accounts, payments, food ordering, or reservations. If passengers request immediate stops or destination changes, Gemini can only guide them to use in-car screens or the Waymo app; in emergencies, it suggests contacting customer service or calling emergency services. This design clearly positions the AI as an 'infotainment companion' rather than a 'driving controller.'\n\n【Experience Value】In autonomous driving scenarios, the AI assistant fills the emotional companionship void left by human drivers, effectively alleviating loneliness and anxiety. Natural language interaction for trip info and lifestyle recommendations enhances information access and entertainment. Strict permission isolation ensures safety, preventing accidents from voice misoperations and boosting trust in Robotaxis.\n\n【Potential Friction】Overly conservative boundaries may frustrate users when the AI cannot execute basic commands like 'stop,' making voice interaction less efficient than direct screen operation. Additionally, 'chat' features may involve privacy data collection (e.g., conversation content, preference analysis), raising concerns about voice recording security and anonymity in public mobility settings."
-        },
-        {
-          "title": "语音助手多模态交互3个维度：规则式与大模型如何分工？+FAQ",
-          "url": "https://k.sina.com.cn/article_7879923802_1d5ae185a06801g2k6.html?from=tech",
-          "site_name": "新浪",
-          "publish_date": "2026-08-04",
-          "tags": [
-            "多模态交互",
-            "语音助手",
-            "大模型",
-            "安全隔离"
-          ],
-          "summary": "【事件概述】文章指出，2026年车载语音助手正从“听懂指令”的规则时代，跨入“看懂场景、主动服务”的多模态交互新阶段。核心观点是判断系统是否可靠，关键在于是否将“安全底线”和“智能体验”分开处理。原生多模态系统（如吉利超级Eva）贴合整车开发，弱化了“后期拼接”的僵硬感。文章提出规则式语音助手与大模型在座舱内应“各管一摊”：规则式负责高安全等级的车控指令（如车窗、空调、驾驶模式），确保响应确定性与可靠性；大模型则负责开放式对话、知识问答与场景理解，提供灵活丰富的交互体验。这种分工架构是当前平衡安全与智能的最优解。\n\n【体验价值】这种“双脑”分工模式能显著提升交互效率与安全性。用户对车窗、空调等高频车控指令可获得毫秒级、确定性的响应，避免大模型“幻觉”导致的误操作；而对“我有点冷”、“附近有什么好吃的”等模糊或开放式指令，大模型能进行语义理解和主动服务，提供更自然、人性化的交互体验。这种设计兼顾了实用性与智能感。\n\n【潜在槽点】两套系统的切换可能产生交互割裂感，用户难以理解为何有些指令响应快、有些慢。规则式系统需要持续维护庞大的指令库，对长尾或方言口音识别能力有限。此外，大模型在理解复杂场景时仍可能产生“幻觉”，若安全兜底机制不够完善，存在将错误信息传递给用户的风险。",
-          "summary_en": "【Event Overview】The article notes that in 2026, in-car voice assistants are transitioning from rule-based 'command understanding' to multimodal 'scene understanding and proactive service.' The core argument is that system reliability hinges on separating 'safety bottom lines' from 'intelligent experiences.' Native multimodal systems (like Geely's Super Eva) are tightly integrated with vehicle development, reducing rigidity from 'late-stage splicing.' The article proposes that rule-based assistants and large models should 'each manage their own domain': rule-based for high-safety vehicle control commands (windows, AC, driving modes) ensuring deterministic responses, and large models for open-ended dialogue, knowledge Q&A, and scene understanding for flexible interactions. This division is deemed the current optimal balance between safety and intelligence.\n\n【Experience Value】This 'dual-brain' model significantly improves interaction efficiency and safety. Users get millisecond, deterministic responses for high-frequency commands like windows/AC, avoiding misoperations from model 'hallucinations.' For vague or open-ended commands like 'I'm cold' or 'Any good food nearby?', large models enable semantic understanding and proactive service, offering more natural and human-like interactions.\n\n【Potential Friction】Switching between two systems may create interaction fragmentation, confusing users about response speed differences. Rule-based systems require continuous maintenance of large command libraries and struggle with long-tail or dialect accents. Additionally, large models may still 'hallucinate' in complex scenarios, risking misinformation if safety fallback mechanisms are insufficient."
-        }
-      ],
-      "created_at": "2026-08-06 13:25:01"
     }
   ]
 }
